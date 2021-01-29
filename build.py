@@ -1,28 +1,17 @@
 import sys
+import shutil
 
-DEFAULT_TEMPLATE = './viewer/js/app.4a7f5c3c.js.tpl'
-DEFAULT_OUTPUT = './viewer/js/app.4a7f5c3c.js'
+DEFAULT_OUTPUT = './viewer/project.json'
 
 def main():
     project_file = sys.argv[1]
-    if len(sys.argv) == 4:
-        template = sys.argv[2]
-        output = sys.argv[3]
+    if len(sys.argv) == 3:
+        output = sys.argv[2]
     else:
-        template = DEFAULT_TEMPLATE
         output = DEFAULT_OUTPUT
 
-    with open(template, mode='r') as fd:
-        template_contents = fd.read()
-
-    with open(project_file, mode='r') as fd:
-        project_contents = fd.read()
-
-    output_contents = template_contents.replace('%PROJECT%', project_contents)
-
-    with open(output, mode='w+') as fd:
-        fd.write(output_contents)
-        print(f"Written {len(output_contents)} bytes to {output}")
+    shutil.copy(project_file, output)
+    print(f"Copied {project_file} to {output}")
 
 if __name__ == "__main__":
     # execute only if run as a script
