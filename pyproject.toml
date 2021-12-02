@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "worm-cyoa-v6-fork"
+version = "1.0.0"
+description = ""
+authors = ["Laureline David <ltouroumov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

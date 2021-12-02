@@ -8376,7 +8376,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "fxb5",
-          "image": "",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-fxb5.jpeg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -8442,7 +8442,7 @@
           ],
           "scores": [],
           "template": 1,
-          "text": "You follow rules, whether these be the laws or your own personal rules. \nBonus: You will always have a better lawyer than the opposition in any way that is relevant. This does not give your lawyer any skills they didn't already have, just assures you'll get the better lawyer. If your opposition's lawyer is really bad, you might want to be careful about your own lawyer. You'll also have a better memory for details.",
+          "text": "You follow rules, whether these be the laws or your own personal rules. \n\nBonus: You will always have a better lawyer than the opposition in any way that is relevant. This does not give your lawyer any skills they didn't already have, just assures you'll get the better lawyer. If your opposition's lawyer is really bad, you might want to be careful about your own lawyer. You'll also have a better memory for details.",
           "title": "Lawful"
         },
         {
@@ -8451,7 +8451,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "g124",
-          "image": "",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-g124.jpeg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -8517,8 +8517,8 @@
           ],
           "scores": [],
           "template": 1,
-          "text": "You don't go out of your way to break laws, but you won't hesitate to break them if you feel it's necessary. On the other hand, you might just be lax about the law.\nBonus: Your morality bonus will be more effective in some way.",
-          "title": "True"
+          "text": "You don't go out of your way to break laws, but you won't hesitate to break them if you feel it's necessary. On the other hand, you might just be lax about the law.\n\nBonus: Your morality bonus will be more effective in some way.",
+          "title": "Neutral (Order)"
         },
         {
           "addons": [],
@@ -8526,7 +8526,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "sp1y",
-          "image": "",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-sp1y.jpeg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -8592,7 +8592,7 @@
           ],
           "scores": [],
           "template": 1,
-          "text": "You hate following rules or orders and will either ignore them entirely or go out of your way to spite them.\nBonus: You find it easier to be intimidating, and will often be intimidating when you don't mean to.",
+          "text": "You hate following rules or orders and will either ignore them entirely or go out of your way to spite them.\n\nBonus: You find it easier to be intimidating, and will often be intimidating when you don't mean to.",
           "title": "Chaotic"
         },
         {
@@ -8601,7 +8601,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "7z83",
-          "image": "",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-7z83.jpeg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -8667,7 +8667,7 @@
           ],
           "scores": [],
           "template": 1,
-          "text": "You are a good person. You always try to do the right thing, even if it doesn't necessarily help you. You generally or always try to save innocents, whether that be the ones in front of you or the most possible globally is up to you.\nBonus: When you're earnest and genuine, you're much more charismatic. On the flip side, when you're not being genuine or earnest, you find it harder to be persuasive. If you're True Good, then, when you're being earnest, people will know. You won't emit an aura of earnestness or anything, but people will get the sense that you're being earnest.",
+          "text": "You are a good person. You always try to do the right thing, even if it doesn't necessarily help you. You generally or always try to save innocents, whether that be the ones in front of you or the most possible globally is up to you.\n\nBonus: When you're earnest and genuine, you're much more charismatic. On the flip side, when you're not being genuine or earnest, you find it harder to be persuasive. If you're True Good, then, when you're being earnest, people will know. You won't emit an aura of earnestness or anything, but people will get the sense that you're being earnest.",
           "title": "Good"
         },
         {
@@ -8676,7 +8676,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "i7bw",
-          "image": "",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-i7bw.jpeg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -8742,8 +8742,8 @@
           ],
           "scores": [],
           "template": 1,
-          "text": "You're not necessarily a good person, but you're not bad either. You're not about to sacrifice yourself for others, but you're not going to go and kill them either. You can be biased toward one side or the other, but don't necessarily have to.\nBonus: You are very talented when it comes to business. Whether that business is negotiations, bartering, haggling, or paperwork, you're very good at it. You are, however, slightly worse at befriending new people. If you're True Neutral, you are much better at bluffing, though not good enough to fool everyone. People like Jack Slash or Tattletale would see straight through you.",
-          "title": "Neutral"
+          "text": "You're not necessarily a good person, but you're not bad either. You're not about to sacrifice yourself for others, but you're not going to go and kill them either. You can be biased toward one side or the other, but don't necessarily have to.\n\nBonus: You are very talented when it comes to business. Whether that business is negotiations, bartering, haggling, or paperwork, you're very good at it. You are, however, slightly worse at befriending new people. If you're True Neutral, you are much better at bluffing, though not good enough to fool everyone. People like Jack Slash or Tattletale would see straight through you.",
+          "title": "Neutral (Moral)"
         },
         {
           "addons": [],
@@ -8751,7 +8751,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "k0tu",
-          "image": "",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-k0tu.jpeg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -8817,7 +8817,7 @@
           ],
           "scores": [],
           "template": 1,
-          "text": "You are not a good person. You might have standards, there might be things that are so awful that even you would never even tolerate it, but you don't hesitate from doing pretty awful things yourself. Or maybe you do hesitate, but you do it anyway.\nBonus: You can easily sway the masses, though anyone who is even slightly clever will see straight through you, many people who are neither clever nor dumb won't get convinced by you, and people who are biased won't necessarily get convinced either. If you are True Evil you'll likely be deemed a decent level Master as even some biased idiots and almost-clever people get convinced by your words.",
+          "text": "You are not a good person. You might have standards, there might be things that are so awful that even you would never even tolerate it, but you don't hesitate from doing pretty awful things yourself. Or maybe you do hesitate, but you do it anyway.\n\nBonus: You can easily sway the masses, though anyone who is even slightly clever will see straight through you, many people who are neither clever nor dumb won't get convinced by you, and people who are biased won't necessarily get convinced either. If you are True Evil you'll likely be deemed a decent level Master as even some biased idiots and almost-clever people get convinced by your words.",
           "title": "Evil"
         },
         {
@@ -9760,7 +9760,7 @@
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-yw0r.jpeg",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-12",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -10052,7 +10052,7 @@
           "scores": [],
           "template": 1,
           "text": "You are some mix of a biological male and female.",
-          "title": "Other"
+          "title": "Intersex"
         },
         {
           "addons": [],
@@ -10310,15 +10310,15 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "ilp3",
-          "image": "",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-ilp3.png",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "You identify as a male. If you chose a female body, you may have Gender Dysphoria.",
-          "title": "Male"
+          "text": "You identify as a masculine. If you chose a female body, you may have Gender Dysphoria.",
+          "title": "Masculine"
         },
         {
           "addons": [],
@@ -10342,15 +10342,15 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "fbcq",
-          "image": "",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-fbcq.png",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "You identify as a female. If you chose a male body, you may have Gender Dysphoria.",
-          "title": "Female"
+          "text": "You identify as a feminine. If you chose a male body, you may have Gender Dysphoria.",
+          "title": "Feminine"
         }
       ],
       "requireds": [
@@ -19643,7 +19643,7 @@
             }
           ],
           "template": 1,
-          "text": "Blindspot? Hah. Your powers have no blindspots. They can see Eidolon, The Endbringers, The Entity, Mantellum, and all other blind spots.\nActually, your power does have one blindspot... it cannot see those with the Cloak V2 perk.",
+          "text": "Blindspot? Hah. Your powers have no blindspots. They can see Eidolon, The Endbringers, The Entity, Mantellum, and all other blind spots.\nActually, your power does have one blindspot... it cannot see those with the <i>Blind Spot</i> perk.",
           "title": "All Seeing Precognition"
         },
         {
@@ -24312,7 +24312,7 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "You gain a Nemesis who has an alignment opposed to yours. This person will have the same Shard Ranking as you. Your nemesis does not necessarily want to kill you their goals will just be diametrically opposed to yours, they will be the Villain to your Hero, or rival business partner or competing shadowy organization.\n\nIf you picked Late to the Party, your Nemesis will be part of them.\n\n(Can be taken up to 3 time)",
+          "text": "You gain a Nemesis who has an ideological position incompatible with yours which cannot be reconciled. This person will have the same Shard Ranking as you. Your nemesis does not necessarily want to kill you their goals will just be diametrically opposed to yours, they will be the Villain to your Hero, or rival business partner or competing shadowy organization.\n\nYour Nemeses will respect the Truce as long as you do as well if they are any alignment other than Chaotic Neutral or Chaotic Evil. \n\nIf you picked Late to the Party, your Nemesis will be part of them.\n\n(You can pick your nemesis alignments in the section below)",
           "title": "Nemesis"
         },
         {
@@ -27514,7 +27514,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -27800,7 +27800,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -28075,6 +28075,292 @@
           "template": 1,
           "text": "Your powers start out 50% weaker and grow over time to 200% of their base power. \n\nNormally they will grow to 100% in six months and 200% in twelve months. The more you use your powers creatively the faster they will grow.",
           "title": "Acclimatation"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "39d0",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "euib",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            }
+          ],
+          "template": 1,
+          "text": "Your Shard has placed limitations on your chosen powers. \n\nFor example, your powers can only be used by minions, only one set can be used at a time (powers are grouped thematically), you have to build Tinker devices to produce those powers (if you have a Tinker power for example).\n\nIf the restrictions are centered around a power, like a minion master power or Tinker ability, this ability gets a boost.",
+          "title": "Arbitrary Limitations"
         },
         {
           "addons": [],
@@ -28678,7 +28964,7 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "For each instance of this drawback you pick, the incidence of parahuman will increase by 20% (multiplicatively), if the setting has no existing parahumans the first instance will set a base trigger rate of 1 parahuman for every 500'000 people. The rate of triggers will increase by 0.1% per day until it reaches the new rate. The triggers have a lower activation threshold than standard triggers, closer to that of second generation triggers. These parahumans can second trigger if they encounter a situation sufficiently similar situation to their first trigger.\n\nThere is a 5% chance of a Parahuman also becoming a Noctis Cape, 2% they'll gain the Heracles perk, 2% chance they'll gain Cloak Mark IV, and a 1% chance they'll gain Mental Barrier. A Parahuman with Mental Barrier will have a 50% chance of also gaining Cloak Mark IV. There is a 0.001% chance that Parahumans will gain Trumped the Trump.\n\nNote: This may seem like a perk to some, but keep in mind that there are now hundreds of thousands of Parahumans, soon to be more, and most of them have some very powerful power(s). Many of whom could, if not resisted by other Parahumans, destroy humanity by themselves. There are now tens of thousands to hundreds of thousands of credible threats to you other than the entity and Endbringers. Also, all the powers listed in the power tiers you have access to depending on your Shard level will get triggered with. Since all powers are completely unique, none of them will trigger with the powers you chose, and only one person will trigger with each power listed in the Tier-3, 2, and 1 sections.",
+          "text": "For each instance of this drawback you pick, the incidence of parahuman will increase by 20% (multiplicatively), if the setting has no existing parahumans the first instance will set a base trigger rate of 1 parahuman for every 500'000 people. The rate of triggers will increase by 0.1% per day until it reaches the new rate. The triggers have a lower activation threshold than standard triggers, closer to that of second generation triggers. These parahumans can second trigger if they encounter a situation sufficiently similar situation to their first trigger.\n\nThere is a 5% chance of a Parahuman also becoming a Noctis Cape, 2% they'll gain the Heracles perk, 2% chance they'll gain Mind Blank, and a 1% chance they'll gain Mental Barrier. A Parahuman with Mental Barrier will have a 50% chance of also gaining Mind Blank. There is a 0.001% chance that Parahumans will gain Trumped the Trump.\n\nNote: This may seem like a perk to some, but keep in mind that there are now hundreds of thousands of Parahumans, soon to be more, and most of them have some very powerful power(s). Many of whom could, if not resisted by other Parahumans, destroy humanity by themselves. There are now tens of thousands to hundreds of thousands of credible threats to you other than the entity and Endbringers. Also, all the powers listed in the power tiers you have access to depending on your Shard level will get triggered with. Since all powers are completely unique, none of them will trigger with the powers you chose, and only one person will trigger with each power listed in the Tier-3, 2, and 1 sections.",
           "title": "Second Wave Parahumans"
         }
       ],
@@ -28904,66 +29190,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "fxb5",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "7z83",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -28999,66 +29226,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "g124",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "7z83",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -29081,7 +29249,7 @@
           ],
           "template": 1,
           "text": "",
-          "title": "True Good"
+          "title": "Neutral Good"
         },
         {
           "addons": [],
@@ -29094,66 +29262,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "sp1y",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "7z83",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -29189,66 +29298,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "fxb5",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "i7bw",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -29286,66 +29336,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "g124",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "i7bw",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -29381,66 +29372,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "sp1y",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "i7bw",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -29478,66 +29410,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "fxb5",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "k0tu",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -29575,66 +29448,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "g124",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "k0tu",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -29657,7 +29471,7 @@
           ],
           "template": 1,
           "text": "",
-          "title": "True Evil"
+          "title": "Neutral Evil"
         },
         {
           "addons": [],
@@ -29670,66 +29484,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "sp1y",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "choice",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "k0tu",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -44540,28 +44295,38 @@
           "beforeText": "Required:",
           "id": "",
           "operator": "",
-          "orRequired": [],
-          "reqId": "euib",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": false,
-          "requireds": [],
-          "showRequired": false,
-          "type": "id"
-        },
-        {
-          "afterText": "choice",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
           "orRequired": [
             {
               "req": "wf8r"
             },
             {
               "req": "znp9"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
+        },
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "axaw"
+            },
+            {
+              "req": "ttv5"
+            },
+            {
+              "req": "sxhj"
             }
           ],
           "reqId": "",
@@ -47142,6 +46907,63 @@
           "template": 1,
           "text": "You take on a snail-like appearance. Your skin becomes a translucent white with many shell-like formations on its surface and your organs seemingly float inside of you.\n\nYou gain the ability to synthesize chemicals inside of you and expel them. ",
           "title": "Snailbeast"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "529h",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-529h.png",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "13z7",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "Your body has become a type of solid substance (metal, wood, stone, glass, etc.), you absorb this substance into yourself on contact even involuntarily. Your body takes on the properties of the substance you've been transformed into (metal is magnetic, wood is flammable, and so on).",
+          "title": "Living Elemental"
         }
       ],
       "requireds": [
@@ -47347,7 +47169,7 @@
       "id": "zg2f",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -48970,7 +48792,7 @@
             }
           ],
           "template": 1,
-          "text": "You can summon and control dolls. You can create an arbitrary amount of dolls but only have up to 10 active dolls at once. You can see, hear, and feel (but not smell and taste) through your dolls. Your maximum control range is 1000 meters, id a doll goes outside that range it will deactivate. Your capacity to multitask matches the amount of dolls you have active. You cannot summon your dolls further than at arm's length (~60cm or 2ft).\n\nBy default the dolls you create have the same strength, speed, and resistance as your own body but no other powers. When created they will not have any clothes. The size of your dolls can range from 10cm to 80cm and must have a human form.\n\n",
+          "text": "You can summon and control dolls. You can create an arbitrary amount of dolls but only have up to 10 active dolls at once. You can see, hear, and feel (but not smell and taste) through your dolls. Your maximum control range is 1000 meters, if a doll goes outside that range it will deactivate. Your capacity to multitask matches the amount of dolls you have active. You cannot summon your dolls further than at arm's length (~60cm or 2ft).\n\nBy default the dolls you create have the same strength, speed, and resistance as your own body but no other powers. When created they will not have any clothes. The size of your dolls can range from 10cm to 80cm and must have a human form.\n\n",
           "title": "(Master/Trump) Doll Master"
         }
       ],
@@ -51619,7 +51441,7 @@
             }
           ],
           "template": 1,
-          "text": "You can channel your magic, aura, and force powers through your dolls.",
+          "text": "You can channel your magic, psionic, aura, and force powers through your dolls.",
           "title": "Conduit"
         },
         {
@@ -54731,7 +54553,7 @@
             }
           ],
           "template": 1,
-          "text": "You are immortal, invulnerable, inviolable. You no longer age. Until your power runs out of juice, you cannot die. The exception to this is if your Corona Pollenta and Corona Gemma are near-simultaneously destroyed. You are immune to knockback but you do not necessarily have super strength, speed, flight, or an enhanced mind. They cannot be destroyed through physical force, but certain powers could destroy them. I suggest you don't take this if you're an age you wouldn't want to stay for the rest of your unnaturally long life. Flechette can hurt you, but you regenerate near-instantaneously from her attacks. If an Endbringer punched you with full-force, their hand would get destroyed by it.",
+          "text": "You are immortal, invulnerable, inviolable. You no longer age. Until your power runs out of juice, you cannot die. The exception to this is if your Corona Pollentia and Corona Gemma are near-simultaneously destroyed. You are immune to knockback but you do not necessarily have super strength, speed, flight, or an enhanced mind. They cannot be destroyed through physical force, but certain powers could destroy them. I suggest you don't take this if you're an age you wouldn't want to stay for the rest of your unnaturally long life. Flechette can hurt you, but you regenerate near-instantaneously from her attacks. If an Endbringer punched you with full-force, their hand would get destroyed by it.",
           "title": "(Brute/Breaker) Immortal"
         },
         {
@@ -55193,6 +55015,73 @@
           "template": 1,
           "text": "Your Shard has unlocked your ability to manipulate Mana, one of the fundamental energies of the multiverse. Your Shard provides you with a library of knowledge about the three branches of Mana Manipulation.\n\n<b>Conjuration</b>, the shaping of mana into constructs that produce an effects. More commonly known as spells, your library contains information about many different systems of magic and with perseverance you might discover the secrets of True Magic. <b>Enchantment</b>, the creation of objects powered by Mana, capable of producing the same effects as Conjuration but anchored to objects. And <b>Alchemy</b>, the creation and transformation of materials and liquids with Mana. From potions producing effects when ingested to esoteric metals and gems to use in Enchantments, the creation of devices, or armor.\n\nWhile this ability has no theoretical upper limit, the more complex and powerful Conjurations will test your knowledge.\n\nWhen your Shard runs out of energy, this ability remains. However you will lose access to the library of knowledge unless you managed to create a copy.\n",
           "title": "(Trump/Tinker) Sorcerer Supreme"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ranx",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-ranx.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            },
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "k89b",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": true,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Your shard has unlocked your psionic potential. You start out as a low level Psion with a few abilities and are able to train yourself to become more powerful. Your Shard gives you an intuition for developing new techniques and refining existing ones.\n\nWhen your Shard runs out of energy, this ability remains. However you will lose access to the intuitive grasp it provides.",
+          "title": "(Trump/Thinker) Esper/Psion"
         }
       ],
       "requireds": [
@@ -58478,6 +58367,34 @@
           "template": 1,
           "text": "<i>For the artist in you</i>\n\nAn option for those who don't find all other variants appealing and wish to make their own unique costume.",
           "title": "Custom"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "echo",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-12",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "Your costume is Tinkertech in some fashion. It can be Tinkertech of your own creation if you have an applicable Tinker power. It will need to be maintained frequently to continue functioning.",
+          "title": "Tinkertech"
         }
       ],
       "requireds": [
@@ -58698,8 +58615,12 @@
           "id": "ra6t",
           "image": "",
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
           "isVisible": true,
           "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -58725,8 +58646,12 @@
           "id": "0z6a",
           "image": "",
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
           "isVisible": true,
           "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -58752,8 +58677,12 @@
           "id": "7o5b",
           "image": "",
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
           "isVisible": true,
           "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -58779,8 +58708,12 @@
           "id": "ka73",
           "image": "",
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
           "isVisible": true,
           "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -58806,8 +58739,12 @@
           "id": "amtp",
           "image": "",
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
           "isVisible": true,
           "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -58833,8 +58770,13 @@
           "id": "7siq",
           "image": "",
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isNotSelectable": false,
+          "isSelectableMultiple": true,
           "isVisible": true,
           "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -58860,8 +58802,12 @@
           "id": "v174",
           "image": "",
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
           "isVisible": true,
           "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -58887,8 +58833,12 @@
           "id": "uje6",
           "image": "",
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
           "isVisible": true,
           "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -58904,7 +58854,7 @@
             }
           ],
           "template": 1,
-          "text": "Your weapons are Tinkertech in some fashion. It can be Tinkertech of your own creation if you have an applicable Tinker power. They will need to be maintained frequently to continue functioning.",
+          "text": "Your weapon is Tinkertech in some fashion. It can be Tinkertech of your own creation if you have an applicable Tinker power. It will need to be maintained frequently to continue functioning.",
           "title": "Tinkertech"
         }
       ],
@@ -59389,11 +59339,11 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "2"
+              "value": "3"
             }
           ],
           "template": 1,
-          "text": "A bunch of various Tinkertech devices for many different purposes, including detectors, radars, lockpicks, and so on. User manuals included.\n\n(Does not include weapons)",
+          "text": "Tinkertech devices for many different purposes. User manuals included. They will need maintenance.\n\n(Does not include weapons)",
           "title": "Tinkertech"
         },
         {
@@ -60208,7 +60158,461 @@
       "isRequirementOpen": false,
       "isResultRow": false,
       "objectWidth": "col-md-3",
-      "objects": [],
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "3zbw",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-3zbw.png",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: None\nAlignment: True Good\nGender: Female\nSex: Female\nSexual Preference: Male\nAge: 15\nPower: Total control of all arthropods within 3 to 5 blocks as well as infinite multitasking.\nAppearance: Average\nCivilian Identity: High-School\nQuality of Life: Low (Bullying, Poor home life, Poor)",
+          "title": "Taylor Anne Hebert"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "tdwr",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-tdwr.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "14"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Panacea\nAlignment: Lawful Good\nGender: Female\nSex: Female\nSexual Preference: Female\nAge: 15\nPower: Biokinesis. Amy Dallon has the ability to manipulate the biology of any carbon-based lifeforms. She also has an increased understanding of how they work. She can only do this with organisms she is touching. She cannot alter her own biology, though can alter the biology of the germs on her skin.\nAppearance: Average\nCivilian Identity: High-School\nQuality of Life: Low (Stress, Repression, In the closet, Overwork)\nWarning: Member of New Wave",
+          "title": "Amy Dallon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "zeaw",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-zeaw.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "4"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Glory Girl\nAlignment: True Good\nGender: Female\nSex: Female\nSexual Preference: Male (Dating Dean Stansfield)\nAge: 17\nPower: She has a force field that can block any blow no matter how powerful, but any powerful impact will bring it down for about two seconds, longer if it's a sustained hit. She can fly at almost 80 miles per hour. She has super strength, strong enough to allow her to lift about 14 tons. She has an emotional aura that makes it so those around her are either in awe or fear of her, but it isn't considered a Master effect since it isn't lasting.\nAppearance: Beautiful\nCivilian Identity: High-School\nQuality of Life: High (Popular, Famous, Wealthy, Loving boyfriend)\nWarning: Member of New Wave, but resistant to Gallant's Emotion-Sensing already.",
+          "title": "Victoria Dallon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xyjl",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-xyjl.png",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Flechette\nAlignment: True Good\nGender: Female\nSex: Female\nSexual Preference: Female\nAge: 17\nPower: Lily could infuse nonliving objects with the ability to ignore select laws of physics, including the ability to go through anything. She also has an intuitive understanding of angles, trajectories as well as an enhanced sense of timing.\nAppearance: Attractive\nCivilian Identity: High-School\nQuality of Life: Unknown (Ward)\nWarning: Ward, but not a Brockton Bay one. ",
+          "title": "Lily"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "n5o9",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-n5o9.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Parian\nAlignment: Lawful Good\nGender: Female\nSex: Female\nSexual Preference: Female\nAge: 21\nPower: Sabah has fine telekinetic control over small objects.\nAppearance: Attractive\nCivilian Identity: College Student\nQuality of Life: Unknown (Family, College)",
+          "title": "Sabah"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jcuk",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-jcuk.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Vista\nAlignment: Lawful Good\nGender: Female\nSex: Female\nSexual Preference: Male (Crush on Dean Stansfield)\nAge: 12\nPower: Missy can warp space on a continental scale but living beings interfere with her powers.\nAppearance: Attractive\nCivilian Identity: Middle-Schooler\nQuality of Life: Low (Family issues, Feels like she's looked down on because of her age)\nWarning: Ward",
+          "title": "Missy Biron"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "m177",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-m177.png",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "12"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: None\nAlignment: True Good\nGender: Female\nSex: Female\nSexual Preference: Unknown\nAge: 12\nPower: Dinah can predict the future as percentages. Doing so too much will give her headaches.\nAppearance: Above-Average\nCivilian Identity: Middle-School\nQuality of Life: Awful (Being hunted by Coil's men, knows she's being hunted by Coil, Knows that when she's caught awful things will be done to her, Often has bad Thinker Headaches)",
+          "title": "Dinah Alcott"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "v4m7",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-v4m7.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "1y99",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "jwlb",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-8"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: None\nAlignment: True Good\nGender: Female\nSex: Female\nSexual Preference: Male\nAge: 42 (Dead at 39. Dead since Summer, 2009)\nPower: None\nAppearance: Attractive\nCivilian Identity: College Professor\nQuality of Life: Good (Loving family, well-paying job she loved)\n",
+          "title": "Annette Hebert"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jcou",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-jcou.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Miss Militia\nAlignment: Lawful Good\nGender: Female\nSex: Female\nSexual Preference: Male\nAge: ~30\nPower: The ability to form weapons from a semi-sentient blue-black blur of energy. These weapons have unlimited ammo and can only be mundane in origin. She also has perfect memory and doesn't need to sleep.\nAppearance: Beautiful\nCivilian Identity: Unknown\nQuality of Life: Unknown (Job she loved)\nWarning: Protectorate",
+          "title": "Hana"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7yfr",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-7yfr.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Gallant\nAlignment: Lawful Good\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: 17\nPower: He can see emotions and can shoot emotion blasts. The stronger the emotion he's blasting, the more force comes with it.\nAppearance: Handsome\nCivilian Identity: Student\nQuality of Life: Good (Ward, Loving Girlfriend, Wealthy, Friends)\nWarning: Ward",
+          "title": "Dean Stansfield"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "brfe",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-brfe.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Aegis\nAlignment: Lawful Good\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: 17\nPower: He adapts to damage and can fly. His adaption allows him to act as if his body was at peak capacity no matter how much damage has been done to him. His body has a lot of redundancies. He does not feel pain.\nAppearance: Handsome\nCivilian Identity: Student\nQuality of Life: Unknown (Ward)\nWarning: Ward",
+          "title": "Carlos"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5ew5",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-5ew5.png",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: None\nAlignment: True Good\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: 15\nPower: He has not yet triggered with his powers. Theo's power is to embed his limbs into a surface to project a larger version of his limbs some distance away on a similar surface.\nAppearance: Bulky\nCivilian Identity: Student, Son of Max Anders\nQuality of Life: Low (Filthy Rich, Lives with Father he Dislikes, Father is Head of a Neo-Nazi Gang, Father Tried to Pair him up with Rune, a Neo-Nazi Cape, Friendless)",
+          "title": "Theo Anders"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "igak",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-igak.png",
+          "imageIsUrl": false,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Clockblocker\nAlignment: True Good\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: 17\nPower: He can freeze something in time with a touch. It stays frozen for 30 seconds to 10 minutes. He can freeze something with only a fraction of a second of contact. He tagged Leviathan, the fastest Endbringer, without getting injured.\nAppearance: Attractive\nCivilian Identity: Student\nQuality of Life: Meh (Father has Cancer, Ward, Friends)\nDisclaimer: His surname is not actually Dynamite, he just likes to claim it is.",
+          "title": "Dennis \"Dynamite\""
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5p0i",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-5p0i.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Armsmaster\nAlignment: Lawful Good\nGender: Male\nSex: Male\nGender Preference in Regard to Romance: Female\nAge: Unknown (Definitely an Adult)\nPower: A Tinker whose specialty is Miniaturization and Efficiency. He is one of the best Tinkers alive, as well as among the most powerful Parahumans.\nAppearance: Handsome\nCivilian Identity: Unknown\nQuality of Life: Stressful (Only really friends with Dragon, Stressed, Wants to do better, Feels like he should be better, Feels like he's hit a glass ceiling)\nWarning: Protectorate and close friend to an AI which will likely be able to spot any shifts in behavior.",
+          "title": "Colin Wallis"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "3d7l",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-3d7l.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Dauntless\nAlignment: Lawful Good\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: ~30\nPower: Can put charges in items to give them powers. This slowly makes the move powerful. Active combat speeds up the collection of charges.\nAppearance: Unknown\nCivilian Identity: Unknown\nQuality of Life: Content (He had everything he wanted from live, but wasn't ambitious, Protectorate, Rising Star of Protectorate ENE, Famous)\nWarning: Protectorate",
+          "title": "Shawn"
+        }
+      ],
       "requireds": [
         {
           "afterText": "choice",
@@ -60397,7 +60801,7 @@
       },
       "template": "1",
       "title": "Good",
-      "titleText": "WIP"
+      "titleText": ""
     },
     {
       "allowedChoices": 0,
@@ -60418,7 +60822,147 @@
       "isRequirementOpen": false,
       "isResultRow": false,
       "objectWidth": "col-md-3",
-      "objects": [],
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "nzsg",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-nzsg.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Tattletale\nAlignment: Chaotic Neutral\nMost Known As: Lisa Wilbourn\nGender: Female\nSex: Female\nSexual Preference: Asexual (This will overwrite your own sexual preference)\nAge: 16\nPower: Her power helps her deduce things, often times without sufficient evidence. However, without enough evidence she can get really incorrect answers. She gets headaches if she uses her powers too much.\nAppearance: Beautiful\nCivilian Identity: Graduated Early, Jobless\nQuality of Life: Varied (Rich, Coerced Labor, Comfortable Living, Gun to the Head)",
+          "title": "Sarah Livsey/Lisa Wilbourn"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qhuz",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-qhuz.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: None\nAlignment: Chaotic Neutral\nGender: Female\nSex: Female\nSexual Preference: Male\nAge: 13\nPower: She has not yet triggered with her powers. When she does, she is incredibly hard to notice when her power is active, to the point of nearly being invisible. It is still possible to detect her through cameras or smell, but it's hard to link that smell to her.\nAppearance: Beautiful\nCivilian Identity: Middle-School Student\nQuality of Life: Poor (Single Mom, Brother not always there, Drug Addict Mom, Mom sleeps around, Poor, Lives in Empire 88 aka Neo-Nazi territory)",
+          "title": "Aisha Laborn"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jncy",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-jncy.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Grue\nAlignment: Chaotic Neutral\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: 17\nPower: He can create a smoke-like darkness that erases all light and sound. It also weakens or temporarily removes some powers.\nAppearance: Handsome\nCivilian Identity: Workforce\nQuality of Life: Decent (Wealthy, Comfortable Living, Trying to Gain Custody of Sister)",
+          "title": "Brian Laborn"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "rii5",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-rii5.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            }
+          ],
+          "template": 1,
+          "text": "Most Known As: Alec\nCape Name: Regent\nAlignment: Chaotic Neutral\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: 14\nPower: He can control other peoples' nervous systems. At first all he can do is make them twitch, but if he's around someone long enough, he can control their entire body. The farther away and more people he controls, the harder it is. He can use their powers.\nAppearance: Pretty\nCivilian Identity: None\nQuality of Life: Good (Recovering Sociopath via Repeated Trauma, Hunted by Family, Wealthy, Comfortable Living)",
+          "title": "Jean-Paul Vasil"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "x8jr",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-x8jr.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: None\nAlignment: Lawful Neutral\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: 40s\nPower: None, but has the potential to trigger with a power similar to Taylor's.\nAppearance: Average\nCivilian Identity: Dock Worker Head of Hiring\nQuality of Life: Poor (Depressed, Widower, Blames his Daughter, Distant with Daughter, Lower Middle Class)",
+          "title": "Danny Hebert"
+        }
+      ],
       "requireds": [
         {
           "afterText": "choice",
@@ -60607,7 +61151,7 @@
       },
       "template": "1",
       "title": "Neutral",
-      "titleText": "WIP"
+      "titleText": ""
     },
     {
       "allowedChoices": 0,
@@ -60628,7 +61172,164 @@
       "isRequirementOpen": false,
       "isResultRow": false,
       "objectWidth": "col-md-3",
-      "objects": [],
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0qsc",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-0qsc.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Bonesaw\nAlignment: Lawful Evil\nGender: Female\nSex: Female\nSexual Preference: Unknown\nAge: 14 (Probably)\nPower: Riley is a powerful biotinker. Basically, she has advanced knowledge of all fields relating to biology, including the ability to make surgery equipment and make chemicals. This knowledge cannot be reproduced by non-Tinkers.\nAppearance: Attractive\nCivilian Identity: Mass Murderer\nQuality of Life: Unstable (Insane, Mass Murderer, Manipulated by Insane Mass Murderer, Turns humans into monsters)",
+          "title": "Riley Grace Davis"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lxv6",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-lxv6.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Lung\nAlignment: Chaotic Evil\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: ~30\nPower: He starts as a low level brute, but he grows stronger and slowly transforms into a dragon the longer he fights. He has pyrokinesis and enhanced senses that grow stronger the more he grows.\nAppearance: Muscular\nCivilian Identity: Unknown\nQuality of Life: Content (Ruled a Gang, Wealthy, Feared)",
+          "title": "Kenta"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "njpu",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-njpu.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Kaiser\nAlignment: True Evil\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: ~35\nPower: Kaiser can create metal objects that extend from a solid surface around him. The metal can be iron or steel.\nAppearance: Handsome\nCivilian Identity: CEO\nQuality of Life: Ambitious (Rich CEO, Gang Leader, Feared, Hated, Followed)",
+          "title": "Max Anders"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lys1",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-lys1.png",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Coil\nAlignment: Chaotic Evil\nGender: Male\nSex: Male\nSexual Preference: Unknown\nAge: Unknown (Definitely an Adult)\nPower: Coil uses precognition to follow two timelines where he makes different choices.\nAppearance: Thin and Skeletal\nCivilian Identity: PRT\nQuality of Life: Ambitious (Gang Leader, Filthy Rich)",
+          "title": "Thomas Calvert"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hfhj",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-hfhj.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Jack Slash\nAlignment: Chaotic Evil\nGender: Male\nSex: Male\nSexual Preference: Unknown \nAge: 37\nPower: Extends the cutting edge of a bladed object, the longer the edge the farther it extends. Also gives him unconscious feelings in regard to Parahumans that helped him survive for decades as a notorious mass murderer.\nAppearance: Handsome\nCivilian Identity: Mass Murderer\nQuality of Life: Happy (Torturing and scaring the masses, Killing the masses, Being the monster under the bed, )",
+          "title": "Jacob"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "dtje",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-dtje.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Siberian\nAlignment: None\nGender: Unknown\nSex: Female\nSexual Preference: Unknown \nChronological Age: 11\nPhysical Age: Unknown, Adult\nPower: The Siberian is a projection. By Self-Inserting into her, you would take control of the projection, leaving William Manton, the projector, with another random Master power. The Siberian is completely invulnerable, as well as anything she touches if she so chooses, including other humans that aren't her projector. She's also an unstoppable force, equal to Sting in power. She would get temporarily popped by Clockblocker or Flechette, or other powers that involve unstoppable forces or immovable objects. After 30 seconds, she reappears somewhere random within 100 meters of where she was popped. She's both the Unstoppable Force and the Immovable Object. Short of outliving her powers, she is unkillable.\nAppearance: Beautiful, C53-like\nCivilian Identity: Mass Murderer\nQuality of Life: Mindless (Controlled by William Manton, A member of the Slaughterhouse 9)",
+          "title": "Siberian"
+        }
+      ],
       "requireds": [
         {
           "afterText": "choice",
@@ -60817,7 +61518,7 @@
       },
       "template": "1",
       "title": "Evil",
-      "titleText": "WIP"
+      "titleText": ""
     },
     {
       "allowedChoices": 1,
@@ -60900,8 +61601,24 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "Instead of arriving on Earth Bet's main continuity you enter an alternate timeline where two worlds have connected. Pick any other world from this list.",
-          "title": "Earth Bet (Crossover)"
+          "text": "Instead of arriving on Earth Bet's main continuity you enter an alternate timeline where two worlds have connected. Pick any other world from the Alternate Earths.",
+          "title": "Crossover"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "i2wv",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [],
+          "template": 1,
+          "text": "Instead of arriving on Earth Bet you will arrive in an alternate earth. Pick any other world from the Alternate Earths.",
+          "title": "Alternate Earth"
         },
         {
           "addons": [],
@@ -60970,7 +61687,218 @@
           "template": 1,
           "text": "I accidentally anchored your soul back in your own world... (Canon-end would be what you call right now) Other than a couple scattered precogs, there aren't really that many Parahumans. Well, there weren't but you happened to choose Second Wave Parahumans... Other than that, you know about your own world, so I won't bother giving you a dossier.",
           "title": "No Transfer"
-        },
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "choice",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "j9ec",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "id"
+        }
+      ],
+      "resultGroupId": "dn",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "red",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": 0,
+        "rowBorderRadiusBottomRight": 0,
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": 0,
+        "rowBorderRadiusTopRight": 0,
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "grey",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "red",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowMargin": 10,
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Setting",
+      "titleText": "Dammit! I made a mistake anchored your soul to the wrong world. Here's a dossier on the world you're being sent to. Keep in mind that the entity will still wipe out the multiverse and you still have just as much time as you would otherwise until then.\nWith the exception of one of these, they're all other universes precogs in your world predicted. Your world has a strangely large amount of precogs that predict other universes. I think the Thinker Entity planned to use them to make sure nothing went out of hand in worlds with a lot of Parahumans or large amounts of non-Parahuman empowered people.\nIf you chose Slaughterhouse 8 a small number of Parahumans will begin to Trigger so that this becomes possible. The members won't be the same as the Earth Bet Slaughterhouse 9, but the difficulty will be about the same.\nIf you chose Endbringer Target then three Endbringers that aren't Behemoth, Leviathan, Simurgh, Khonsu, Tohu, or Bohu will appear in your new world, acting like the Endbringers from Earth Bet.\nFor Reincarnation, any Civilian Identity you chose will be adapted to the setting. Depending on the setting, Case 53 might make you appear like a non-human species.\n\nScenario: April 7, 2011 = Two years, two months, and thirteen days before the end of canon, as it is now.\nScenario: Summer, 2009 = About three and a half years before what you call canon.\nScenario: May 8th, 2005 = About 8 years before the end of what you call canon, as it is now.\nScenario: September 14th, 2000 = About 13 years before the end of what you call canon, as it is now.\nScenario: November 1st, 1999 = About 14 years before the end of what you call canon, as it is now.\nScenario: May 19th, 1982 = About 31 years before the end of what you call canon, as it is now.\nScenario: June 20th, 2013 =  The end of what you call canon, as it is now.\nScenario: July 1st, 2015 = A little over 2 years after what you call canon ends.\nScenario: June 24th, 2064 = About 50 years after what you call canon.\n\nNote I: Major Threats are sometimes only major threats if you ally yourself with the eyes the precog saw the world through.\nNote II: Also, power copying / stealing only works on Shard-Based powers. The exception to this is Body Swap, which swaps Shard-Based and Body-Based powers.\nNote III: Anything related to altering or controlling causality, such as the Fates in Percy Jackson, Gae Bolg in Fate/Stay Night, or a Wish in Puella Magi Madoka Magika, can be protected against using Blind Spot and Mental Barrier. Also, Disclaimer, I'm not strong enough to protect against a wish aimed at you, and this does not protect against time travel.\nNote IV: The maximum strength for an unpowered human in any world affects Olympic and Captain America."
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 1,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "ut3t",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-3",
+      "objects": [
         {
           "addons": [],
           "defaultAspectHeight": 1,
@@ -61064,7 +61992,7 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "Origin of Powers: Midichlorians\nMajor Threats: The Sith, The Empire\nMajor Powers: The Sith, The Rebellion, Darth Vader\nSuper Abilities: The Force\nForce Using Sects: Sith, Witches, Remnants of the Jedi, etc.\nNote: Anakin Skywalker is a living Messiah, get him down the right path and give him the proper training, and he will be able to go toe-to-toe with the depressed entity. \nNote: Unless you have Not Midichlorians! you have a random amount of Midichlorians with a maximum of 15000. If you have Apex your amount of Midichlorians is 5 times higher, with a maximum of 16000.\nAlso, you can choose between the EU or canon universe, though either way all EU and canon force feats are possible with enough training and Midichlorians.",
+          "text": "Origin of Powers: Midichlorians\nMajor Threats: The Sith, The Empire\nMajor Powers: The Sith, The Rebellion, Darth Vader\nSuper Abilities: The Force\nForce Using Sects: Sith, Witches, Remnants of the Jedi, etc.\nNote: Anakin Skywalker is a living Messiah, get him down the right path and give him the proper training, and he will be able to go toe-to-toe with the depressed entity. \nNote: Unless you have Not Midichlorians! you have a random amount of Midichlorians with a maximum of 15000. If you have Olympic your amount of Midichlorians is 5 times higher, with a maximum of 16000.\nAlso, you can choose between the EU or canon universe, though either way all EU and canon force feats are possible with enough training and Midichlorians.",
           "title": "Star Wars: The Original Trilogy"
         },
         {
@@ -61206,7 +62134,7 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "Origin of Powers: Hagoromo Otsutsuki\nMajor Threats: Konoha, Suna, Kumo, Iwa, Kiri, Oto, Akatsuki, Root, Otsutsuki Kaguya, Madara, Zetsu\nMajor Powers: Konoha, Suna, Kumo, Iwa, Kiri, Oto, Akatsuki, Root, Otsutsuki Kaguya, Madara, Zetsu, Naruto, Sasuke, Jinchuuriki\nSuper Abilities: Chakra\nNote: Upon entering the Elemental Nations, you gain a random amount of Chakra, ranging from Genin-Sakura levels to that of a non-Jinchuuriki Uzumaki. Apex doubles the amount of physical and mental Chakra you have, while Captain America quadruples the amount of physical Chakra you have.",
+          "text": "Origin of Powers: Hagoromo Otsutsuki\nMajor Threats: Konoha, Suna, Kumo, Iwa, Kiri, Oto, Akatsuki, Root, Otsutsuki Kaguya, Madara, Zetsu\nMajor Powers: Konoha, Suna, Kumo, Iwa, Kiri, Oto, Akatsuki, Root, Otsutsuki Kaguya, Madara, Zetsu, Naruto, Sasuke, Jinchuuriki\nSuper Abilities: Chakra\nNote: Upon entering the Elemental Nations, you gain a random amount of Chakra, ranging from Genin-Sakura levels to that of a non-Jinchuuriki Uzumaki. Olympic doubles the amount of physical and mental Chakra you have, while Captain America quadruples the amount of physical Chakra you have.",
           "title": "Naruto"
         },
         {
@@ -61620,7 +62548,7 @@
       ],
       "requireds": [
         {
-          "afterText": "choice",
+          "afterText": "",
           "beforeText": "Required:",
           "id": "",
           "operator": "",
@@ -61647,9 +62575,32 @@
           "requireds": [],
           "showRequired": false,
           "type": "id"
+        },
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "q6x84"
+            },
+            {
+              "req": "i2wv"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
         }
       ],
-      "resultGroupId": "dn",
+      "resultGroupId": "",
       "styling": {
         "addonText": "Times New Roman",
         "addonTextAlign": "center",
@@ -61739,7 +62690,7 @@
         "rowBodyMarginBottom": 25,
         "rowBodyMarginSides": 1,
         "rowBodyMarginTop": 25,
-        "rowBorderColor": "red",
+        "rowBorderColor": "#FFEEDDFF",
         "rowBorderIsOn": false,
         "rowBorderRadiusBottomLeft": 0,
         "rowBorderRadiusBottomRight": 0,
@@ -61751,7 +62702,7 @@
         "rowButtonXPadding": 0,
         "rowButtonYPadding": 0,
         "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "grey",
+        "rowDropShadowColor": "#FFFFEEFF",
         "rowDropShadowH": 0,
         "rowDropShadowIsOn": false,
         "rowDropShadowSpread": 0,
@@ -61805,8 +62756,8 @@
         "selFilterSepiaIsOn": false
       },
       "template": "1",
-      "title": "(Universe) Oops...",
-      "titleText": "Dammit! I made a mistake anchored your soul to the wrong world. Here's a dossier on the world you're being sent to. Keep in mind that the entity will still wipe out the multiverse and you still have just as much time as you would otherwise until then.\nWith the exception of one of these, they're all other universes precogs in your world predicted. Your world has a strangely large amount of precogs that predict other universes. I think the Thinker Entity planned to use them to make sure nothing went out of hand in worlds with a lot of Parahumans or large amounts of non-Parahuman empowered people.\nIf you chose Slaughterhouse 8 a small number of Parahumans will begin to Trigger so that this becomes possible. The members won't be the same as the Earth Bet Slaughterhouse 9, but the difficulty will be about the same.\nIf you chose Endbringer Target then three Endbringers that aren't Behemoth, Leviathan, Simurgh, Khonsu, Tohu, or Bohu will appear in your new world, acting like the Endbringers from Earth Bet.\nFor Reincarnation, any Civilian Identity you chose will be adapted to the setting. Depending on the setting, Case 53 might make you appear like a non-human species.\n\nScenario: April 7, 2011 = Two years, two months, and thirteen days before the end of canon, as it is now.\nScenario: Summer, 2009 = About three and a half years before what you call canon.\nScenario: May 8th, 2005 = About 8 years before the end of what you call canon, as it is now.\nScenario: September 14th, 2000 = About 13 years before the end of what you call canon, as it is now.\nScenario: November 1st, 1999 = About 14 years before the end of what you call canon, as it is now.\nScenario: May 19th, 1982 = About 31 years before the end of what you call canon, as it is now.\nScenario: June 20th, 2013 =  The end of what you call canon, as it is now.\nScenario: July 1st, 2015 = A little over 2 years after what you call canon ends.\nScenario: June 24th, 2064 = About 50 years after what you call canon.\n\nNote I: Major Threats are sometimes only major threats if you ally yourself with the eyes the precog saw the world through.\nNote II: Also, power copying / stealing only works on Shard-Based powers. The exception to this is Body Swap, which swaps Shard-Based and Body-Based powers.\nNote III: Anything related to altering or controlling causality, such as the Fates in Percy Jackson, Gae Bulge in Fate/Stay Night, or a Wish in Puella Magi Madoka Magika, can be protected against using Cloak Mark II/III and Mental Barrier. Also, Disclaimer, I'm not strong enough to protect against a wish aimed at you, and this does not protect against time travel.\nNote IV: The maximum strength for an unpowered human in any world affects Apex and Captain America."
+      "title": "Alternate Earths",
+      "titleText": ""
     },
     {
       "allowedChoices": 1,
@@ -64750,6 +65701,29 @@
           "requireds": [],
           "showRequired": false,
           "type": "id"
+        },
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "q6x84"
+            },
+            {
+              "req": "i2wv"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
         }
       ],
       "resultGroupId": "dn",

@@ -15,6 +15,6 @@ fi
 PROJECT="project-$VERSION.json"
 
 cp "$INPUT" $PROJECT
-python3 format.py $PROJECT
-python3 build.py $PROJECT $BUILD
+python3 cyoa/format.py $PROJECT
+python3 cyoa/build.py $PROJECT $BUILD
 git status
