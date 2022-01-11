@@ -34,7 +34,7 @@ def write_image(image_data, file_name, images_dir):
 
 
 def extract_images_to(project, images_dir):
-    def extract_image(item, prefix):
+    def extract_image_from_item(item, prefix):
         item_id = item['id']
         if (image := item['image']) != '':
             image_path = write_image(image, f"{prefix}-{item_id}", images_dir)
@@ -44,11 +44,31 @@ def extract_images_to(project, images_dir):
         if image_path is not None:
             item['image'] = image_path
 
+    def extract_image_from_style(item, prefix, prop):
+        item_id = item.get('id', '0')
+        style_data = item['styling']
+        if (image := style_data[prop]) != '':
+            image_path = write_image(image, f"{prefix}-{item_id}-{prop}", images_dir)
+        else:
+            image_path = None
+        
+        if image_path is not None:
+            style_data[prop] = image_path
+
+
+    extract_image_from_style(project, "proj", prop='backgroundImage')
+    extract_image_from_style(project, "proj", prop='objectBackgroundImage')
+    extract_image_from_style(project, "proj", prop='rowBackgroundImage')
+
     for row in project['rows']:
-        extract_image(row, "row")
+        extract_image_from_item(row, "row")
+        
+        extract_image_from_style(row, "row", prop='backgroundImage')
+        extract_image_from_style(row, "row", prop='objectBackgroundImage')
+        extract_image_from_style(row, "row", prop='rowBackgroundImage')
         
         for obj in row['objects']:
-            extract_image(obj, "obj")
+            extract_image_from_item(obj, "obj")
 
 
 def remove_images(images_dir):

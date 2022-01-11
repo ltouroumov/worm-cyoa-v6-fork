@@ -6,6 +6,7 @@ authors = ["Laureline David <ltouroumov@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+rich = "*"
 
 [tool.poetry.dev-dependencies]
 
