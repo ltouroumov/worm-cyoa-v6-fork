@@ -9,11 +9,7 @@ Fork of the Worm CYOA V6 by PixelGMS
 
 ## TODO List
 
-* Companions / Character Insert
-  * Fix Syberian text
-  * Fix Annette Hebert restrictions
-  * Add Laserdream (Crystal Pelham)
-  * Add Shielder (Crystal Pelham)
+_Empty_
 
 # CYOA tools
 

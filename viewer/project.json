@@ -11960,66 +11960,7 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "1y99",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "jwlb",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "CP",
@@ -19815,6 +19756,35 @@
               "requireds": [],
               "showRequired": true,
               "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "d0mx",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
             }
           ],
           "scores": [
@@ -19874,6 +19844,35 @@
                 }
               ],
               "reqId": "euib",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "d0mx",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -20185,7 +20184,7 @@
             }
           ],
           "template": 1,
-          "text": "Your Shard possesses DATA about esoteric forms of reality manipulations. Grants you access to the Shardless Powers section, these powers are tied to your Shard however.",
+          "text": "Your Shard possesses DATA about esoteric forms of reality manipulations. Grants you access to the Shardless Powers section, these powers are tied to your Shard however.\n\nTrump powers can now copy non-shard abilities, however this abilities will be tied to your Shard once copied.",
           "title": "Esoteric Knowledge"
         },
         {
@@ -44596,7 +44595,7 @@
             }
           ],
           "template": 1,
-          "text": "You have the ability to copy extremely weakened versions of powers off Parahumans and a slot to use those powers with. To copy a Parahuman's power you must get within a meter of them. If you copy the power of an Endbringer or Entity, you get every single power they have separately, instead of just one power.\nYou can switch what power is in your slots at will. Every day you get a charge you can use to increase the strength of a power, though you can save these charges as well. Once a power reaches the same strength as the original power, you can no longer dump charges into it. \nOn average it takes a week to fully charge a weak power, two weeks to fully upgrade a mid-level power, three weeks to fully upgrade a high-level power, and four weeks to fully upgrade an extremely powerful power.\nYou can also use those charges to increase how many slots you have, to a maximum of three. It takes 30 charges to fully increase the number of slots you have, though before you fully gain a new slot you can place an even weaker version of a power in that slot. For example, if you have a slot that has 15 charges put into it, the power is half as powerful as it would be if it were in a full slot.\nYour powers, even when strengthened to their max, will never be the same as the original Parahuman's power. Instead, they will be a sidegrade, a power that could have come from the Parahuman's Shard, but didn't.",
+          "text": "You have the ability to copy extremely weakened versions of powers off Parahumans and three slots to use those powers with. To copy a Parahuman's power you must get within a meter of them. If you copy the power of an Endbringer or Entity, you get every single power they have separately, instead of just one power.\n\nYou can switch what power is in your slots at will. Every day you get a charge you can use to increase the strength of a power, though you can save these charges as well. Once a power reaches the same strength as the original power, you can no longer dump charges into it. \n\nOn average it takes a week to fully charge a weak power, two weeks to fully upgrade a mid-level power, three weeks to fully upgrade a high-level power, and four weeks to fully upgrade an extremely powerful power.\nYou can also use those charges to increase how many slots you have, to a maximum of five. It takes 30 charges to fully increase the number of slots you have, though before you fully gain a new slot you can place an even weaker version of a power in that slot. For example, if you have a slot that has 15 charges put into it, the power is half as powerful as it would be if it were in a full slot.\n\nYour powers, even when strengthened to their max, will never be the same as the original Parahuman's power. Instead, they will be a sidegrade, a power that could have come from the Parahuman's Shard, but didn't.",
           "title": "(Trump) Power Manipulator"
         },
         {
@@ -44716,6 +44715,204 @@
           "template": 1,
           "text": "You can answer any question anyone asks you, except that if you don't have Negentropy you can't answer how to solve/negate entropy. You can ask yourself questions and automatically know the answer to any question asked of you, even if the answer to that question harms you.",
           "title": "(Thinker) Omniscient"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "kjtm",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            },
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "k89b",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": true,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You are completely and absolutely invulnerable and immune to harm. No effect or force can negatively effect you physically, regardless of its nature. This extends even to the functions of your own body, meaning that you never tire, require no sustenance (air included), and even negative mental effects are limited to the point that you don't have to worry about stress doing permanent mental harm. Even sleep is just for pleasure or relaxation rather then a need to refresh yourself.\n\nYou have almost limitless amounts of strength and can fly and move at hyper sonic speeds, with perfect maneuverability and reaction time to match. You can see and hear at extreme distances, even if doing so should otherwise be impossible. Your mind is enhanced just like your body, skyrocketing your mental capabilities to superhuman levels, with an absolutely perfect memory.\n\nThe field that pervades your body providing these abilities also extends itself to things you are touching, letting you ignore the effects of physics when you apply your strength and speed. You have more leverage then should be possible when you grab something, exert immense force with minor motions, large objects don't collapse under their own weight, and catching or carrying people at extreme speeds won't harm them. You are an unstoppable force and an immovable object.",
+          "title": "(Brute/Mover/Thinker) Alexandria"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "tor0",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            },
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "k89b",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": true,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Your very being is entwined with energy on fundamental levels. You can fire blasts of light whose properties and effects are within your control. Forking or homing lasers, freeze beams, disintegrating spheres that orbit around you in a pattern. All of these and more are within you capabilities. At their strongest a single one of these can destroy a skyscraper easily. You can fire a dozen blasts at once and coordinating such barrages is trivial for you.\n\nYou are also able to fly, reaching the speed of light in an instant. Your mind will automatically compensate for relativistic time dilation by slowing down or speeding up.\n\nYou are able to switch back and forth between a breaker state that removes all physical needs, and quickly restores you to perfect physical condition. In this state most attacks are simply absorbed, with only the strongest able to put you down before the damage is gone. Your vision is perfect, encompasses the entire electromagnetic spectrum, and no longer degrades with distance.",
+          "title": "(Blaster/Mover/Thinker) Legend"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7vs8",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            },
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "k89b",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": true,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "In a radius of 50 meters around you, with nothing but your will alone you are capable of shaping the physical world. Moving objects, generating and manipulating all forms of energy or matter, or even creating psychic constructs.\n\nThe world is a vast ocean of vibration, matter, and energy to your senses, and all it takes is a thought to send it moving according to your wishes. Complex systems such as biology and technology will require a great deal of practice before you can reliably work them the same way you would matter and energy, with other powers here being far better at doing so and developing faster.",
+          "title": "(Shaker/Thinker) Psychokinesis"
         }
       ],
       "requireds": [
@@ -51836,85 +52033,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "gw54",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "48m6",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "kmwf"
-                },
-                {
-                  "req": "s7sb"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "You become a Time Lord from Doctor Who and know how to make the technology from the show, including the TARDIS.",
-          "title": "Time Lord"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "ccoz",
           "image": "",
           "isActive": false,
@@ -54512,33 +54630,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "uwde",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "Remarkable, your Midichlorian count is nearly 20,000. Yes, the force does exist, and you have been given the ability to use it.",
-          "title": "The Force"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "lv3m",
           "image": "",
           "isActive": false,
@@ -54566,6 +54657,33 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "uwde",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Remarkable, your Midichlorian count is nearly 20,000. Yes, the force does exist, and you have been given the ability to use it.",
+          "title": "The Force"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "fq6b",
           "image": "",
           "isActive": false,
@@ -54586,33 +54704,6 @@
           "template": 1,
           "text": "You can give one absolute order to every carbon based lifeforms more intelligent than a mouse you look in the eyes. They will believe they did what you ordered of their own free will, but can deduce that it wasn't. You cannot directly change a person's personality with this, just their actions. You need to be looking into their eyes when you give the order, or else it won't work. This power only works ONCE on any being you use it on.",
           "title": "Code Geass"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "vp1e",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "You can shoot elemental spells at your opponent, reminiscent of fantasy magic. While you won't get anything stronger than a fireball the size of a watermelon or a stone spike jutting from the ground from this, it is fairly versatile.\nYou have a limited amount of magic that regenerates over time. Two hours of sleep will completely regenerate your reserves. This pool of magik combines with the reserves you use for any other magic system, as long as the magic system uses internal energy and not external (Chakra, Ki, and Od (Fate) for example would work, Nature Chaka and Mana (Fate) would not)\n\n",
-          "title": "Magik"
         },
         {
           "addons": [],
@@ -54676,7 +54767,66 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [],
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "uzae",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "34ki",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
           "scores": [
             {
               "afterText": "SP",
@@ -54692,6 +54842,1089 @@
           "template": 1,
           "text": "You have the ability to perform Magecraft from the Type-Moon series. You instinctively know the basics and find yourself learning quickly. Due to the lack of other Mages on Earth Bet, any mysteries you perform will be leagues stronger than they would on the universes the Type-Moon series took place. With enough research, you might be able to defeat an Endbringer with this power. You are given 20-100 medium quality magic circuits to begin with, though with training the quality can be increased.\n(This power essentially allows you to do anything with enough research and preparation.)",
           "title": "Magecraft"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "uzae",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "olwh",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "34ki",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are a beginner at one of the True Magics. This can be any of the 5 currently held in the Nasuverse or a new one as long as it fits the criteria.\n\nThe five currently held in the Nasuverse are Denial of Nothingness (Creation of Ether Clumps, allows for true creation and destruction), Kaleidoscope (Operation of Parallel Worlds), Heaven's Feel (Manifestation of the Soul), Unknown (Unknown), Magical Blue (Believed to be related to Entropy Manipulation) You are talented with all forms of Magic or Magecraft that you can use, gain the ability to use modern Magecraft without circuits using ancient breathing techniques, and learn more about Magic and Magecraft just from using what you do know in combat, though this process is slow.\n\n(This power essentially allows you to do anything with enough research and preparation.)",
+          "title": "True Magic"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "34ki",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "olwh",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "uzae",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are capable of old Magic from the Age of the Gods that is equal in strength to the True Magics. Along with being capable of this, you are capable of any form of Magic used in any universe you travel to as long as over 1% of the population has the potential to use it, and have huge reserves (though not nearly infinite). You can also choose to be a beginner in either Divine Words, Fairy Characters, or Primordial Runes. You are talented with all forms of Magic or Magecraft, gain the ability to use modern Magecraft without circuits using ancient breathing techniques, and learn more about Magic and Magecraft just from using what you do know in combat, though this process is slow. You can also use Magecraft when not on or near an Earth.",
+          "title": "Magic"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "vp1e",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You can shoot elemental spells at your opponent, reminiscent of fantasy magic. While you won't get anything stronger than a fireball the size of a watermelon or a stone spike jutting from the ground from this, it is fairly versatile.\nYou have a limited amount of magic that regenerates over time. Two hours of sleep will completely regenerate your reserves. This pool of magik combines with the reserves you use for any other magic system, as long as the magic system uses internal energy and not external (Chakra, Ki, and Od (Fate) for example would work, Nature Chaka and Mana (Fate) would not)",
+          "title": "Magik"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pg0y",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are proficient in the use of Arcane Magic. You start off at the level of a novice Wizard (1st level spells). Through research and rigorous training you can increase the number of spells you can memorize as well as the level of spells you can cast.\n\nOutside of the D&D universe you are able to cast spells of the 10th level and higher as the gods cannot reach you there.",
+          "title": "Arcane Magic (D&D)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "gvyk",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are proficient in the use of Divine Magic. You start off at the level of a novice Cleric or Druid (1st level spells). If you worship a deity, following their tenets will grant you access to more spells and higher level spells over time. If you do not worship a deity (agnostic/atheist), your power comes from the universe itself and will improve over time as your mastery does.\n\nOutside of the D&D universe you are able to cast spells of the 10th level and higher as the gods cannot reach you there.",
+          "title": "Divine Magic (D&D)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6m1z",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You made a pact with an otherworldly entity for power. In exchange for the occasional favor, your supernatural sugar daddy/mommy will grant you a sliver of their power. The higher your favor with them is, the more powerful abilities you will have access to.",
+          "title": "Warlock (D&D)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "cc22",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Arcane, the most common form of magic, comes from the Well of Eternity, which itself draws from the Twisting Nether. Arcane magic is very powerful, but if not used carefully can cause corruption and great destruction.",
+          "title": "Arcane Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "manh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Pure Light cannot exist within the physical universe but shades of it manifest as holy magic. It can be channeled to heal, cleanse, and protect.",
+          "title": "Light Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "owjs",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "The energies of Life, commonly known as nature magic, promote growth and renewal in all things. They are available through two disciplines, Shamanism and Druidism. You are able to wield both with equal skill.",
+          "title": "Nature Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ruu5",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Shadow magic is the manifestation of the Void in the universe. A source of terrible power, it is the kind that comes at a price. Although destructive, it can also be used to raise the undead or to harm the mind, imparting feelings such as despair, doubt, and panic\u2014emotions based on survival logic.",
+          "title": "Shadow Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "m7dh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Fel magic is a destructive form of magic often used by the members of the Burning Legion. It is demonic, entropic, chaotic and extremely volatile. Its use results in the alteration of the individual, or corruption, which manifests as a physical transformation such as a change to an individual's eyes or skin color, or heavy genetic mutations. All of the Burning Legion carry the taint of Fel magic within their very blood, allowing them to spread greater evil. Warlocks use life force to power their fel magic.",
+          "title": "Fel Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "h44d",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Runic magic is a magic that employs runes. The runes can access various types of magic, such as Fel, void, arcane, and death.",
+          "title": "Runic Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9xry",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Upon awakening, most espers possess the natural abilities to utilize psychokinesis, allowing them to manipulate things with their mind. They all have the basic ability to see Spirits, sense others with psychic power and also create a protective barrier around themselves. Almost no esper can perform two actions simultaneously, such as raising a defensive barrier and attacking, however, with enough skill and effort, it is possible to do so.\n\nWhile simple telekinesis seems to be the default ability many espers are born with, some espers have their own unique abilities. They developed and specialized the way they utilize their powers, meaning most possess applied abilities and techniques unique to themselves (at the cost of only being able to perform said applied ability/technique). However, skilled espers are able to learn, copy and perform a multitude of psychic abilities and techniques",
+          "title": "Esper (Mob Psycho 100)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lj0f",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "An esper is an individual who uses scientifically based supernatural powers and emits AIM. This power unlocks your potential and puts you roughly at the Level 1 stage.\n\nThrough training you can increase your level with your esper ability. Each level requires twice the amount of work of the previous one and is twice as powerful. The maximum level you can attain is 5, reaching level 6 is thought to be possible but no known esper has achieved it.",
+          "title": "Esper (Raildex)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xpc0",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to use wanded magic and the knowledge of how to build a wand that matches you perfectly.\n\nYou instinctively know the basics and find yourself learning quickly. This covers magic-adjacent disciplines like Potions, Herbology, and so on as well.\n\n(Non-canon concepts such as the use of Arithmancy and Runes, or magical cores is up to you if they exist or not. This power essentially allows you to do anything with enough research and preparation.)",
+          "title": "Wanded Magic (Harry Potter)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9mls",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Your Intelligence and Memory are at the level of a one of a kind genius like Tony Stark or Reed Richards. You can master new fields of knowledge or skills in a matter of days or weeks instead of months or years. You form muscle memory and reflexes with only a nominal amount of training. ",
+          "title": "Polymath"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5x9x",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "You become a Time Lord from Doctor Who and know how to make the technology from the show, including the TARDIS.",
+          "title": "Time Lord"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "q43a",
+          "image": "",
+          "isActive": false,
+          "isPrivateStyling": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-12",
+          "requireds": [],
+          "scores": [],
+          "styling": {
+            "addonText": "Times New Roman",
+            "addonTextAlign": "center",
+            "addonTextColor": "#FFFFFFFF",
+            "addonTextTextSize": 100,
+            "addonTitle": "Times New Roman",
+            "addonTitleAlign": "center",
+            "addonTitleColor": "#FFFFFFFF",
+            "addonTitleTextSize": 200,
+            "backPackWidth": 1200,
+            "backgroundColor": "#000000FF",
+            "backgroundImage": "",
+            "barBackgroundColor": "#FFFFFFFF",
+            "barMargin": 0,
+            "barPadding": 0,
+            "barTextColor": "#000000",
+            "barTextFont": "Times New Roman",
+            "barTextMargin": 0,
+            "barTextPadding": 17,
+            "barTextSize": 15,
+            "objectBackgroundImage": "",
+            "objectBgColor": "#FFFFFFFF",
+            "objectBgColorIsOn": false,
+            "objectBorderColor": "#FDFDFDFF",
+            "objectBorderIsOn": false,
+            "objectBorderRadiusBottomLeft": "5",
+            "objectBorderRadiusBottomRight": "5",
+            "objectBorderRadiusIsPixels": true,
+            "objectBorderRadiusTopLeft": "5",
+            "objectBorderRadiusTopRight": "5",
+            "objectBorderStyle": "solid",
+            "objectBorderWidth": 2,
+            "objectDropShadowBlur": 0,
+            "objectDropShadowColor": "#FFEF00FF",
+            "objectDropShadowH": 0,
+            "objectDropShadowIsOn": false,
+            "objectDropShadowSpread": 0,
+            "objectDropShadowV": 0,
+            "objectHeight": true,
+            "objectImageMarginBottom": 0,
+            "objectImageMarginTop": 0,
+            "objectImageWidth": 100,
+            "objectImgBorderColor": "red",
+            "objectImgBorderIsOn": false,
+            "objectImgBorderRadiusBottomLeft": 0,
+            "objectImgBorderRadiusBottomRight": 0,
+            "objectImgBorderRadiusIsPixels": true,
+            "objectImgBorderRadiusTopLeft": 0,
+            "objectImgBorderRadiusTopRight": 0,
+            "objectImgBorderStyle": "solid",
+            "objectImgBorderWidth": 2,
+            "objectMargin": 10,
+            "objectOverflowIsOn": true,
+            "objectText": "Times New Roman",
+            "objectTextAlign": "center",
+            "objectTextColor": "#FFFFFFFF",
+            "objectTextPadding": 10,
+            "objectTextTextSize": 100,
+            "objectTitle": "Times New Roman",
+            "objectTitleAlign": "center",
+            "objectTitleColor": "#FFFFFFFF",
+            "objectTitleTextSize": 200,
+            "reqBgColorIsOn": true,
+            "reqFilterBgColor": "#6B6464FF",
+            "reqFilterBlur": 0,
+            "reqFilterBlurIsOn": false,
+            "reqFilterBright": 100,
+            "reqFilterBrightIsOn": false,
+            "reqFilterCont": 100,
+            "reqFilterContIsOn": false,
+            "reqFilterGray": 0,
+            "reqFilterGrayIsOn": false,
+            "reqFilterHue": 0,
+            "reqFilterHueIsOn": false,
+            "reqFilterInvert": "50",
+            "reqFilterInvertIsOn": false,
+            "reqFilterOpac": "25",
+            "reqFilterOpacIsOn": false,
+            "reqFilterSatur": 1,
+            "reqFilterSaturIsOn": false,
+            "reqFilterSepia": 0,
+            "reqFilterSepiaIsOn": false,
+            "reqFilterVisibleIsOn": false,
+            "rowBackgroundImage": "",
+            "rowBgColor": "#FFFFFFFF",
+            "rowBgColorIsOn": false,
+            "rowBodyMarginBottom": 25,
+            "rowBodyMarginSides": 1,
+            "rowBodyMarginTop": 25,
+            "rowBorderColor": "#FFEEDDFF",
+            "rowBorderIsOn": false,
+            "rowBorderRadiusBottomLeft": 0,
+            "rowBorderRadiusBottomRight": 0,
+            "rowBorderRadiusIsPixels": true,
+            "rowBorderRadiusTopLeft": 0,
+            "rowBorderRadiusTopRight": 0,
+            "rowBorderStyle": "solid",
+            "rowBorderWidth": 2,
+            "rowButtonXPadding": 0,
+            "rowButtonYPadding": 0,
+            "rowDropShadowBlur": 0,
+            "rowDropShadowColor": "#FFFFEEFF",
+            "rowDropShadowH": 0,
+            "rowDropShadowIsOn": false,
+            "rowDropShadowSpread": 0,
+            "rowDropShadowV": 0,
+            "rowImageMarginTop": 0,
+            "rowImageWidth": 100,
+            "rowImgBorderColor": "red",
+            "rowImgBorderIsOn": false,
+            "rowImgBorderRadiusBottomLeft": 0,
+            "rowImgBorderRadiusBottomRight": 0,
+            "rowImgBorderRadiusIsPixels": true,
+            "rowImgBorderRadiusTopLeft": 0,
+            "rowImgBorderRadiusTopRight": 0,
+            "rowImgBorderStyle": "solid",
+            "rowImgBorderWidth": 2,
+            "rowMargin": 10,
+            "rowOverflowIsOn": true,
+            "rowText": "Times New Roman",
+            "rowTextAlign": "center",
+            "rowTextColor": "#FFFFFFFF",
+            "rowTextPaddingX": 10,
+            "rowTextPaddingY": 5,
+            "rowTextTextSize": 100,
+            "rowTitle": "Times New Roman",
+            "rowTitleAlign": "center",
+            "rowTitleColor": "#FFFFFFFF",
+            "rowTitleTextSize": 200,
+            "scoreText": "Times New Roman",
+            "scoreTextAlign": "center",
+            "scoreTextColor": "#FFFFFFFF",
+            "scoreTextSize": 75,
+            "selBgColorIsOn": true,
+            "selFilterBgColor": "#3CAAAAFF",
+            "selFilterBlur": 0,
+            "selFilterBlurIsOn": false,
+            "selFilterBright": 100,
+            "selFilterBrightIsOn": false,
+            "selFilterCont": 100,
+            "selFilterContIsOn": false,
+            "selFilterGray": 0,
+            "selFilterGrayIsOn": false,
+            "selFilterHue": 0,
+            "selFilterHueIsOn": false,
+            "selFilterInvert": 0,
+            "selFilterInvertIsOn": false,
+            "selFilterOpac": 100,
+            "selFilterOpacIsOn": false,
+            "selFilterSatur": 1,
+            "selFilterSaturIsOn": false,
+            "selFilterSepia": 0,
+            "selFilterSepiaIsOn": false
+          },
+          "template": 1,
+          "text": "These powers are very versatile and powerful. Even if they start weak their full potential is unlimited.",
+          "title": "Greater Powers"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1irf",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-1irf.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "Your ability to manipulate Mana, one of the fundamental energies of the multiverse, is unlocked. A library of grimoires about the three branches of Mana Manipulation has been implanted into your memory. You will still need to read and understand them and acquire the necessary skills but all the knowledge you need is at your fingertips.\n\n<b>Conjuration</b>, the shaping of mana into constructs that produce an effects. More commonly known as spells, your library contains information about many different systems of magic and with perseverance you might discover the secrets of True Magic. <b>Enchantment</b>, the creation of objects powered by Mana, capable of producing the same effects as Conjuration but anchored to objects. And <b>Alchemy</b>, the creation and transformation of materials and liquids with Mana. From potions producing effects when ingested to esoteric metals and gems to use in Enchantments, the creation of devices, or armor.\n\nWith this power, you can reproduce any magic system from first principles and even create your own. The library contains several broad magic systems to get you started.\n\nWhile this ability has no theoretical upper limit, the more complex and powerful Conjurations will test your knowledge. With enough time you will be able to reach heights only the gods can dream of but be careful not to break reality or destroy your sour on your journey there. ",
+          "title": "Sorcerer Supreme"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ranx",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-ranx.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "Your psionic potential has been unlocked. You start out as a low level Psion with a few abilities and are able to train yourself to become more powerful. You have an intuition for developing new techniques and refining existing ones.\n\nWith enough time you will be able to develop into a psychic god capable of rewriting reality on a whim but the road there will be long a arduous. Be careful not to lobotomize yourself on your journey.",
+          "title": "Esper/Psion"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "makx",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-makx.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "Choose a version of Cultivation from any Manhwa, Manhua, Manga, or web novel, you have access to that but start at Novice level, though you have knowledge of how to further your ascension.",
+          "title": "Cultivator"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "022j",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "80"
+            }
+          ],
+          "template": 1,
+          "text": "You can copy the powers of any person or entity you touch. You can use as many powers you want at the same time as long as they don't conflict. You can toggle powers at will, any copied power is disabled by default. Similar powers can be merged together (and separated again) to work as a single entity.\n\nFor parahumans, you get a full copy of their power. For Endbringers, you gain a full copy of their power by touching their core, and a weakened copy equivalent in strength to a Parahuman by seeing them. For Entities, you gain a full copy of all the Entity's powers if you defeat it, by touching their corpse you gain weakened copies of its powers equivalent in strength to a Parahuman, you can gain a weakened copy of any ability it uses by seeing it in action.",
+          "title": "Unlimited Ability Works"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qnr0",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "80"
+            }
+          ],
+          "template": 1,
+          "text": "You can copy the appearance, powers, skills, memory, and personal equipment (any equipment they had on their person when you saw them) of any person. You can have an unlimited number of templates stored but can only use one at a time.",
+          "title": "Ditto"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "orxp",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "80"
+            }
+          ],
+          "template": 1,
+          "text": "Some of the rarest and most valued parahumans are those who can effect the powers of others. People who nullify allow enemy parahumans to be subdued as easily as an unpowered human being, those who boost others powers\ngiving their allies a much needed edge over the opposition. Some even have the ability to copy or steal powers temporarily. You can do all this and more, and only your personal desires can stop such effects from being permanent.\n\nYou can nullify, enhance, modify, copy, and even steal the powers of others (whether this takes the shard along with them is up to you). Transferring powers from one person to another is trivial, even stacking multiple onto a single target. You also have five charges a day which let you create shardless powers likes yours, whose nature are fully under your control. A single charge can result in a power that would be rated around 4-5, with more charges increasing its power, versatility, pushing or removing limits, and adding more functions. You can manipulate and sense created powers regardless of the location of anyone you have given them to.\n\nYou also have an ability to sense parahumans and powers within a large area. Created powers are yours until you transfer them to someone else. Charges can be spent to boost any of your powers, including others bought here. Changes can be reversed at will, and you can deconstruct powers you have created, but you do not recover any charges from doing so.",
+          "title": "Power Manipulation"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "af9j",
+          "image": "",
+          "isActive": false,
+          "isPrivateStyling": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-12",
+          "requireds": [],
+          "scores": [],
+          "styling": {
+            "addonText": "Times New Roman",
+            "addonTextAlign": "center",
+            "addonTextColor": "#FFFFFFFF",
+            "addonTextTextSize": 100,
+            "addonTitle": "Times New Roman",
+            "addonTitleAlign": "center",
+            "addonTitleColor": "#FFFFFFFF",
+            "addonTitleTextSize": 200,
+            "backPackWidth": 1200,
+            "backgroundColor": "#000000FF",
+            "backgroundImage": "",
+            "barBackgroundColor": "#FFFFFFFF",
+            "barMargin": 0,
+            "barPadding": 0,
+            "barTextColor": "#000000",
+            "barTextFont": "Times New Roman",
+            "barTextMargin": 0,
+            "barTextPadding": 17,
+            "barTextSize": 15,
+            "objectBackgroundImage": "",
+            "objectBgColor": "#FFFFFFFF",
+            "objectBgColorIsOn": false,
+            "objectBorderColor": "#FDFDFDFF",
+            "objectBorderIsOn": false,
+            "objectBorderRadiusBottomLeft": "5",
+            "objectBorderRadiusBottomRight": "5",
+            "objectBorderRadiusIsPixels": true,
+            "objectBorderRadiusTopLeft": "5",
+            "objectBorderRadiusTopRight": "5",
+            "objectBorderStyle": "solid",
+            "objectBorderWidth": 2,
+            "objectDropShadowBlur": 0,
+            "objectDropShadowColor": "#FFEF00FF",
+            "objectDropShadowH": 0,
+            "objectDropShadowIsOn": false,
+            "objectDropShadowSpread": 0,
+            "objectDropShadowV": 0,
+            "objectHeight": true,
+            "objectImageMarginBottom": 0,
+            "objectImageMarginTop": 0,
+            "objectImageWidth": 100,
+            "objectImgBorderColor": "red",
+            "objectImgBorderIsOn": false,
+            "objectImgBorderRadiusBottomLeft": 0,
+            "objectImgBorderRadiusBottomRight": 0,
+            "objectImgBorderRadiusIsPixels": true,
+            "objectImgBorderRadiusTopLeft": 0,
+            "objectImgBorderRadiusTopRight": 0,
+            "objectImgBorderStyle": "solid",
+            "objectImgBorderWidth": 2,
+            "objectMargin": 10,
+            "objectOverflowIsOn": true,
+            "objectText": "Times New Roman",
+            "objectTextAlign": "center",
+            "objectTextColor": "#FFFFFFFF",
+            "objectTextPadding": 10,
+            "objectTextTextSize": 100,
+            "objectTitle": "Times New Roman",
+            "objectTitleAlign": "center",
+            "objectTitleColor": "#FFFFFFFF",
+            "objectTitleTextSize": 200,
+            "reqBgColorIsOn": true,
+            "reqFilterBgColor": "#6B6464FF",
+            "reqFilterBlur": 0,
+            "reqFilterBlurIsOn": false,
+            "reqFilterBright": 100,
+            "reqFilterBrightIsOn": false,
+            "reqFilterCont": 100,
+            "reqFilterContIsOn": false,
+            "reqFilterGray": 0,
+            "reqFilterGrayIsOn": false,
+            "reqFilterHue": 0,
+            "reqFilterHueIsOn": false,
+            "reqFilterInvert": "50",
+            "reqFilterInvertIsOn": false,
+            "reqFilterOpac": "25",
+            "reqFilterOpacIsOn": false,
+            "reqFilterSatur": 1,
+            "reqFilterSaturIsOn": false,
+            "reqFilterSepia": 0,
+            "reqFilterSepiaIsOn": false,
+            "reqFilterVisibleIsOn": false,
+            "rowBackgroundImage": "",
+            "rowBgColor": "#FFFFFFFF",
+            "rowBgColorIsOn": false,
+            "rowBodyMarginBottom": 25,
+            "rowBodyMarginSides": 1,
+            "rowBodyMarginTop": 25,
+            "rowBorderColor": "#FFEEDDFF",
+            "rowBorderIsOn": false,
+            "rowBorderRadiusBottomLeft": 0,
+            "rowBorderRadiusBottomRight": 0,
+            "rowBorderRadiusIsPixels": true,
+            "rowBorderRadiusTopLeft": 0,
+            "rowBorderRadiusTopRight": 0,
+            "rowBorderStyle": "solid",
+            "rowBorderWidth": 2,
+            "rowButtonXPadding": 0,
+            "rowButtonYPadding": 0,
+            "rowDropShadowBlur": 0,
+            "rowDropShadowColor": "#FFFFEEFF",
+            "rowDropShadowH": 0,
+            "rowDropShadowIsOn": false,
+            "rowDropShadowSpread": 0,
+            "rowDropShadowV": 0,
+            "rowImageMarginTop": 0,
+            "rowImageWidth": 100,
+            "rowImgBorderColor": "red",
+            "rowImgBorderIsOn": false,
+            "rowImgBorderRadiusBottomLeft": 0,
+            "rowImgBorderRadiusBottomRight": 0,
+            "rowImgBorderRadiusIsPixels": true,
+            "rowImgBorderRadiusTopLeft": 0,
+            "rowImgBorderRadiusTopRight": 0,
+            "rowImgBorderStyle": "solid",
+            "rowImgBorderWidth": 2,
+            "rowMargin": 10,
+            "rowOverflowIsOn": true,
+            "rowText": "Times New Roman",
+            "rowTextAlign": "center",
+            "rowTextColor": "#FFFFFFFF",
+            "rowTextPaddingX": 10,
+            "rowTextPaddingY": 5,
+            "rowTextTextSize": 100,
+            "rowTitle": "Times New Roman",
+            "rowTitleAlign": "center",
+            "rowTitleColor": "#FFFFFFFF",
+            "rowTitleTextSize": 200,
+            "scoreText": "Times New Roman",
+            "scoreTextAlign": "center",
+            "scoreTextColor": "#FFFFFFFF",
+            "scoreTextSize": 75,
+            "selBgColorIsOn": true,
+            "selFilterBgColor": "#3CAAAAFF",
+            "selFilterBlur": 0,
+            "selFilterBlurIsOn": false,
+            "selFilterBright": 100,
+            "selFilterBrightIsOn": false,
+            "selFilterCont": 100,
+            "selFilterContIsOn": false,
+            "selFilterGray": 0,
+            "selFilterGrayIsOn": false,
+            "selFilterHue": 0,
+            "selFilterHueIsOn": false,
+            "selFilterInvert": 0,
+            "selFilterInvertIsOn": false,
+            "selFilterOpac": 100,
+            "selFilterOpacIsOn": false,
+            "selFilterSatur": 1,
+            "selFilterSaturIsOn": false,
+            "selFilterSepia": 0,
+            "selFilterSepiaIsOn": false
+          },
+          "template": 1,
+          "text": "",
+          "title": "Servant"
         },
         {
           "addons": [],
@@ -54718,7 +55951,7 @@
           ],
           "template": 1,
           "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is stronger than an Endbringer will have their abilities weakened so that they're on par with that of an Endbringer. You gain their weaknesses as well.",
-          "title": "Demiservant"
+          "title": "Heroic Spirit"
         },
         {
           "addons": [],
@@ -54740,184 +55973,11 @@
               "showScore": true,
               "type": "",
               "value": "50"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
           "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is a planet-destroyer will have their abilities weakened so that they're hard pressed to destroy a planet. Don't choose an Eldritch Abomination, you will go insane. You gain their weaknesses as well.",
-          "title": "Heroic Spirit"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "1irf",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-1irf.jpeg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "col-sm-6",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "25"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "Your ability to manipulate Mana, one of the fundamental energies of the multiverse, is unlocked. A library of grimoires about the three branches of Mana Manipulation has been implanted into your memory. You will still need to read and understand them and acquire the necessary skills but all the knowledge you need is at your fingertips.\n\n<b>Conjuration</b>, the shaping of mana into constructs that produce an effects. More commonly known as spells, your library contains information about many different systems of magic and with perseverance you might discover the secrets of True Magic. <b>Enchantment</b>, the creation of objects powered by Mana, capable of producing the same effects as Conjuration but anchored to objects. And <b>Alchemy</b>, the creation and transformation of materials and liquids with Mana. From potions producing effects when ingested to esoteric metals and gems to use in Enchantments, the creation of devices, or armor.\n\nWith this power, you can reproduce any magic system from first principles and even create your own. The library contains several broad magic systems to get you started.\n\nWhile this ability has no theoretical upper limit, the more complex and powerful Conjurations will test your knowledge. With enough time you will be able to reach heights only the gods can dream of but be careful not to break reality or destroy your sour on your journey there. ",
-          "title": "(Trump/Tinker) Sorcerer Supreme"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ranx",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-ranx.jpeg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "col-sm-6",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "25"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "Your psionic potential has been unlocked. You start out as a low level Psion with a few abilities and are able to train yourself to become more powerful. You have an intuition for developing new techniques and refining existing ones.\n\nWith enough time you will be able to develop into a psychic god capable of rewriting reality on a whim but the road there will be long a arduous. Be careful not to lobotomize yourself on your journey.",
-          "title": "(Trump/Thinker) Esper/Psion"
+          "title": "Grand Servant"
         }
       ],
       "requireds": [
@@ -55124,8 +56184,8 @@
         "selFilterSepiaIsOn": false
       },
       "template": "1",
-      "title": "Shardless Powers (Greater)",
-      "titleText": ""
+      "title": "Shardless Powers",
+      "titleText": "These powers do not require Shards to function."
     },
     {
       "allowedChoices": 0,
@@ -58511,7 +59571,7 @@
       "id": "q3nu",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -58713,66 +59773,7 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "1y99",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "jwlb",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "CP",
