@@ -54672,7 +54672,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -54724,7 +54724,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "5"
             }
           ],
           "template": 1,
@@ -55305,7 +55305,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -55332,11 +55332,11 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "15"
             }
           ],
           "template": 1,
-          "text": "An esper is an individual who uses scientifically based supernatural powers and emits AIM. This power unlocks your potential and puts you roughly at the Level 1 stage.\n\nThrough training you can increase your level with your esper ability. Each level requires twice the amount of work of the previous one and is twice as powerful. The maximum level you can attain is 5, reaching level 6 is thought to be possible but no known esper has achieved it.",
+          "text": "An esper is an individual who uses scientifically based supernatural powers and emits AIM. This power unlocks your potential and puts you roughly at the Level 3 stage.\n\nThrough training you can increase your level with your esper ability. Each level requires twice the amount of work of the previous one and is twice as powerful. The maximum level you can attain is 5, reaching level 6 is thought to be possible but no known esper has achieved it.",
           "title": "Esper (Raildex)"
         },
         {
@@ -55428,6 +55428,7 @@
           "id": "q43a",
           "image": "",
           "isActive": false,
+          "isNotSelectable": true,
           "isPrivateStyling": true,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -55612,7 +55613,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "25"
+              "value": "40"
             }
           ],
           "template": 1,
@@ -55639,7 +55640,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "25"
+              "value": "40"
             }
           ],
           "template": 1,
@@ -55666,7 +55667,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "25"
+              "value": "40"
             }
           ],
           "template": 1,
@@ -65480,7 +65481,7 @@
     "addonTitleTextSize": 200,
     "backPackWidth": 1200,
     "backgroundColor": "#000000FF",
-    "backgroundImage": "/worm-cyoa-v6-fork/viewer/images/proj-0-backgroundImage.png",
+    "backgroundImage": "",
     "barBackgroundColor": "#FFFFFFFF",
     "barMargin": 0,
     "barPadding": 0,
@@ -65560,11 +65561,11 @@
     "rowBodyMarginTop": 25,
     "rowBorderColor": "#FFEEDDFF",
     "rowBorderIsOn": false,
-    "rowBorderRadiusBottomLeft": "5",
-    "rowBorderRadiusBottomRight": "5",
+    "rowBorderRadiusBottomLeft": "0",
+    "rowBorderRadiusBottomRight": "0",
     "rowBorderRadiusIsPixels": true,
-    "rowBorderRadiusTopLeft": "5",
-    "rowBorderRadiusTopRight": "5",
+    "rowBorderRadiusTopLeft": "0",
+    "rowBorderRadiusTopRight": "0",
     "rowBorderStyle": "solid",
     "rowBorderWidth": 2,
     "rowButtonXPadding": 0,
