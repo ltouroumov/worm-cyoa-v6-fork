@@ -11719,6 +11719,58 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "7rh2",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-7rh2.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "4"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Laserdream\nAlignment: True Good\nGender: Female\nSex: Female\nSexual Preference: Male\nAge: 19\nPower: Crystal has a powerset almost identical to her mother - flight, energy beams, and forcefields - but with weaker shields in exchange for more powerful beams and flight.\nAppearance: Beautiful\nCivilian Identity: College Student\nQuality of Life: High (Popular, Famous, Wealthy, Loving boyfriend)\nWarning: Member of New Wave.",
+          "title": "Crystal Pelham"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "judp",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-judp.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "4"
+            }
+          ],
+          "template": 1,
+          "text": "Cape Name: Shielder\nAlignment: True Good\nGender: Male\nSex: Male\nSexual Preference: Female\nAge: 15\nPower: Eric has a power set identical to his mother and older sister - flight, the ability to project hard light blasts, and create forcefields around himself - though his talents primarily lay in his ability to create forcefields, with his other two powers being relatively weak, e.g. his flight speed was the slowest in the family. However his range was still decent.\nAppearance: Handsome\nCivilian Identity: High-School Student\nQuality of Life: High (Popular, Famous, Wealthy, Loving boyfriend)\nWarning: Member of New Wave.",
+          "title": "Eric Pelham"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "p4k9",
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-p4k9.jpeg",
           "isActive": false,
@@ -12340,7 +12392,7 @@
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-g9pl.jpeg",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -12366,7 +12418,7 @@
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-m4be.jpeg",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -59624,7 +59676,7 @@
             }
           ],
           "template": 1,
-          "text": "Cape Name: Siberian\nAlignment: None\nGender: Unknown\nSex: Female\nSexual Preference: Unknown \nChronological Age: 11\nPhysical Age: Unknown, Adult\nPower: The Siberian is a projection. By Self-Inserting into her, you would take control of the projection, leaving William Manton, the projector, with another random Master power. The Siberian is completely invulnerable, as well as anything she touches if she so chooses, including other humans that aren't her projector. She's also an unstoppable force, equal to Sting in power. She would get temporarily popped by Clockblocker or Flechette, or other powers that involve unstoppable forces or immovable objects. After 30 seconds, she reappears somewhere random within 100 meters of where she was popped. She's both the Unstoppable Force and the Immovable Object. Short of outliving her powers, she is unkillable.\nAppearance: Beautiful, C53-like\nCivilian Identity: Mass Murderer\nQuality of Life: Mindless (Controlled by William Manton, A member of the Slaughterhouse 9)",
+          "text": "Cape Name: Siberian\nAlignment: None\nGender: Unknown\nSex: Female\nSexual Preference: Unknown \nChronological Age: 11\nPhysical Age: Unknown, Adult\nPower: The Siberian is a projection. The Siberian is completely invulnerable, as well as anything she touches if she so chooses, including other humans that aren't her projector. She's also an unstoppable force, equal to Sting in power. She would get temporarily popped by Clockblocker or Flechette, or other powers that involve unstoppable forces or immovable objects. After 30 seconds, she reappears somewhere random within 100 meters of where she was popped. She's both the Unstoppable Force and the Immovable Object. Short of outliving her powers, she is unkillable.\nAppearance: Beautiful, C53-like\nCivilian Identity: Mass Murderer\nQuality of Life: Mindless (Controlled by William Manton, A member of the Slaughterhouse 9)",
           "title": "Siberian"
         }
       ],
