@@ -2202,14 +2202,14 @@
       "styling": {
         "addonText": "Times New Roman",
         "addonTextAlign": "center",
-        "addonTextColor": "000000",
+        "addonTextColor": "#FFFFFFFF",
         "addonTextTextSize": 100,
         "addonTitle": "Times New Roman",
         "addonTitleAlign": "center",
-        "addonTitleColor": "000000",
+        "addonTitleColor": "#FFFFFFFF",
         "addonTitleTextSize": 200,
         "backPackWidth": 1200,
-        "backgroundColor": "#FFFFFFFF",
+        "backgroundColor": "#000000FF",
         "backgroundImage": "",
         "barBackgroundColor": "#FFFFFFFF",
         "barMargin": 0,
@@ -2222,17 +2222,17 @@
         "objectBackgroundImage": "",
         "objectBgColor": "#FFFFFFFF",
         "objectBgColorIsOn": false,
-        "objectBorderColor": "red",
-        "objectBorderIsOn": false,
-        "objectBorderRadiusBottomLeft": 0,
-        "objectBorderRadiusBottomRight": 0,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
         "objectBorderRadiusIsPixels": true,
-        "objectBorderRadiusTopLeft": 0,
-        "objectBorderRadiusTopRight": 0,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
         "objectBorderStyle": "solid",
         "objectBorderWidth": 2,
         "objectDropShadowBlur": 0,
-        "objectDropShadowColor": "grey",
+        "objectDropShadowColor": "#FFEF00FF",
         "objectDropShadowH": 0,
         "objectDropShadowIsOn": false,
         "objectDropShadowSpread": 0,
@@ -2254,15 +2254,15 @@
         "objectOverflowIsOn": true,
         "objectText": "Times New Roman",
         "objectTextAlign": "center",
-        "objectTextColor": "000000",
+        "objectTextColor": "#FFFFFFFF",
         "objectTextPadding": 10,
         "objectTextTextSize": 100,
         "objectTitle": "Times New Roman",
         "objectTitleAlign": "center",
-        "objectTitleColor": "000000",
+        "objectTitleColor": "#FFFFFFFF",
         "objectTitleTextSize": 200,
-        "reqBgColorIsOn": false,
-        "reqFilterBgColor": "#FFFFFFFF",
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
         "reqFilterBlur": 0,
         "reqFilterBlurIsOn": false,
         "reqFilterBright": 100,
@@ -2273,10 +2273,10 @@
         "reqFilterGrayIsOn": false,
         "reqFilterHue": 0,
         "reqFilterHueIsOn": false,
-        "reqFilterInvert": 0,
+        "reqFilterInvert": "50",
         "reqFilterInvertIsOn": false,
-        "reqFilterOpac": 50,
-        "reqFilterOpacIsOn": true,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
         "reqFilterSatur": 1,
         "reqFilterSaturIsOn": false,
         "reqFilterSepia": 0,
@@ -2288,7 +2288,7 @@
         "rowBodyMarginBottom": 25,
         "rowBodyMarginSides": 1,
         "rowBodyMarginTop": 25,
-        "rowBorderColor": "red",
+        "rowBorderColor": "#FFEEDDFF",
         "rowBorderIsOn": false,
         "rowBorderRadiusBottomLeft": 0,
         "rowBorderRadiusBottomRight": 0,
@@ -2300,7 +2300,7 @@
         "rowButtonXPadding": 0,
         "rowButtonYPadding": 0,
         "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "grey",
+        "rowDropShadowColor": "#FFFFEEFF",
         "rowDropShadowH": 0,
         "rowDropShadowIsOn": false,
         "rowDropShadowSpread": 0,
@@ -2320,20 +2320,20 @@
         "rowOverflowIsOn": true,
         "rowText": "Times New Roman",
         "rowTextAlign": "center",
-        "rowTextColor": "000000",
+        "rowTextColor": "#FFFFFFFF",
         "rowTextPaddingX": 10,
         "rowTextPaddingY": 5,
         "rowTextTextSize": 100,
         "rowTitle": "Times New Roman",
         "rowTitleAlign": "center",
-        "rowTitleColor": "000000",
+        "rowTitleColor": "#FFFFFFFF",
         "rowTitleTextSize": 200,
         "scoreText": "Times New Roman",
         "scoreTextAlign": "center",
-        "scoreTextColor": "000000",
+        "scoreTextColor": "#FFFFFFFF",
         "scoreTextSize": 75,
         "selBgColorIsOn": true,
-        "selFilterBgColor": "#70FF7EFF",
+        "selFilterBgColor": "#3CAAAAFF",
         "selFilterBlur": 0,
         "selFilterBlurIsOn": false,
         "selFilterBright": 100,
@@ -2354,7 +2354,7 @@
         "selFilterSepiaIsOn": false
       },
       "template": "1",
-      "title": "Worm CYOA V6 (fork)",
+      "title": "Lt Ouroumov's Worm CYOA V6",
       "titleText": "Two entities spiral through space, past stars and planets alike. Their parts shift between dimensions. Approaching a world, one you recognize as Earth, they shatter into hundreds of millions of pieces into millions of Earths. The shattered pieces, shards of the entities, take root on empty Earths before bonding with humans. Humans at their lowest, who would go on to learn through conflict. Through this, they would advance the entity.\nSomething went wrong with their cycle this time. A mistake causes the more intelligent of the entities to crash into a planet where it is, not long after, put down. The entity's shards remain, in the hands of those who wish the death of the other entity, but things are not so easy. Even with all the parahumans, those bonded with the entities' shards, working in perfect unison, humanity would stand no chance against the remaining entity in a fight.\nHowever, you may change that. You had the luck to be born in a world with an unrestricted Precog who didn't know he was one; Wildbow aka John C. McCrae. Unfortunately, your whole universe is a blind spot for all Thinkers sans the entity itself. Wildbow's predictions, while perfect, do not account for your shared universe's existence. Your shared universe is many years ahead of Earth Aleph and Bet, where it is still 2011, or even earlier.\nOne day a portal opened up under you while you slept...\nAn alien with a grudge against the Entity decided to make you into something that can stop your species' destruction at the hands of the entities, as had happened to his own species, or at the very least ensure that the Entity died. Its name roughly translates to Last One.",
       "width": false
     },
@@ -4822,57 +4822,11 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "ibrt",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "4950",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
-          "scores": [],
-          "template": 1,
-          "text": "",
-          "title": "Tier 4 Powers"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "wf8r",
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -4897,7 +4851,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "or"
             }
           ],
@@ -4915,7 +4869,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -4937,7 +4891,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "or"
             }
           ],
@@ -4955,7 +4909,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -4983,7 +4937,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "id"
             }
           ],
@@ -5026,7 +4980,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "or"
             }
           ],
@@ -5072,7 +5026,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "id"
             }
           ],
@@ -5115,7 +5069,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "or"
             }
           ],
@@ -5155,7 +5109,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "id"
             }
           ],
@@ -5201,7 +5155,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "id"
             }
           ],
@@ -5247,7 +5201,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "id"
             }
           ],
@@ -5293,7 +5247,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "id"
             }
           ],
@@ -5340,7 +5294,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "id"
             }
           ],
@@ -5348,6 +5302,53 @@
           "template": 1,
           "text": "",
           "title": "Doll Powers"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5io5",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-12",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "4950",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "",
+          "title": "Shardless Powers"
         },
         {
           "addons": [],
@@ -5387,7 +5388,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "id"
             }
           ],
@@ -13912,6 +13913,43 @@
           ],
           "template": 1,
           "text": "You have no Shard. You may not take any powers and some Perks will be restricted to you.",
+          "title": "No Powers"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "d0mx",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-12",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your powers do not come from a Shard. You can only select powers from the Shardless category. Some Perks and Drawbacks may be restricted.",
           "title": "Shardless"
         },
         {
@@ -20039,11 +20077,75 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "xsi7",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "0s6z"
+                },
+                {
+                  "req": "4ok9"
+                },
+                {
+                  "req": "ar45"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your Shard possesses DATA about esoteric forms of reality manipulations. Grants you access to the Shardless Powers section, these powers are tied to your Shard however.",
+          "title": "Esoteric Knowledge"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "pr2q",
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -20129,7 +20231,7 @@
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-3af1.jpeg",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -20224,7 +20326,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -33821,557 +33923,6 @@
       "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
-      "id": "dljy",
-      "image": "",
-      "isButtonRow": false,
-      "isEditModeOn": false,
-      "isInfoRow": false,
-      "isPrivateStyling": false,
-      "isRequirementOpen": false,
-      "isResultRow": false,
-      "objectWidth": "col-md-3",
-      "objects": [
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "e2an",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "It takes a third of the time it would otherwise for you to react to stimuli. The average human can react in 0.2 seconds, with the fastest being 0.15 seconds. If you had average human reflexes, your reaction time is now 1/15 of a second or 0.067 seconds.",
-          "title": "Mover"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "fhr6",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You're able to exert up to a maximum of 1 pound of force total on objects within 50 meters of you. The 1 pound of force has to be spread between any objects you're using this power on.",
-          "title": "Shaker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "47pj",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You can access all your strength at any time, allowing you to perform feats that normally could only be done when on an adrenaline high. This can cause damage to your muscles and bones. You are guaranteed to heal correctly given enough time.",
-          "title": "Brute"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "k345",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You can change the temperature of your body to -50 degrees Celsius to 100 degrees Celsius with no negative effects to yourself.",
-          "title": "Breaker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "u6x2",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "By staring at someone, you can make them feel increasingly uncomfortable. At first it's nothing bad, but given 30 minutes you could make someone feel like they just opened the door on one of their parents in the bathroom.",
-          "title": "Master"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "mv7e",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "When you're coming up with blueprints, your mental gaps will be filled by your unconscious mind as long as you have the prerequisite knowledge to come to the conclusion yourself given enough time. Also makes it easier to learn to engineer or program.",
-          "title": "Tinker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "dy7h",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You have perfect aim.",
-          "title": "Blaster"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ojin",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You know how to cold read. ",
-          "title": "Thinker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "2r4f",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You can reduce the friction by up to 50% on any object you touch with a total of 1 square meter of material. You can cancel this on any object at will.",
-          "title": "Striker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "1gay",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You control the length and strength of your hair. You could become Rapunzel in minutes, and could give your hair the tensile strength of steel. ",
-          "title": "Changer"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "kpwp",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You know when Parahumans are nearby and have a one word generalization of their powers.",
-          "title": "Trump"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "sfkh",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "People will initially come to the conclusion you're weak and that they could defeat you easily.",
-          "title": "Stranger"
-        }
-      ],
-      "requireds": [
-        {
-          "afterText": "choice",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": "ibrt"
-            },
-            {
-              "req": "znp9"
-            }
-          ],
-          "reqId": "",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": false,
-          "type": "or"
-        },
-        {
-          "afterText": "",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            }
-          ],
-          "reqId": "4950",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": false,
-          "requireds": [],
-          "showRequired": false,
-          "type": "id"
-        }
-      ],
-      "resultGroupId": "xb",
-      "styling": {
-        "addonText": "Times New Roman",
-        "addonTextAlign": "center",
-        "addonTextColor": "#FFFFFFFF",
-        "addonTextTextSize": 100,
-        "addonTitle": "Times New Roman",
-        "addonTitleAlign": "center",
-        "addonTitleColor": "#FFFFFFFF",
-        "addonTitleTextSize": 200,
-        "backPackWidth": 1200,
-        "backgroundColor": "#000000FF",
-        "backgroundImage": "",
-        "barBackgroundColor": "#FFFFFFFF",
-        "barMargin": 0,
-        "barPadding": 0,
-        "barTextColor": "#000000",
-        "barTextFont": "Times New Roman",
-        "barTextMargin": 0,
-        "barTextPadding": 17,
-        "barTextSize": 15,
-        "objectBackgroundImage": "",
-        "objectBgColor": "#FFFFFFFF",
-        "objectBgColorIsOn": false,
-        "objectBorderColor": "#FDFDFDFF",
-        "objectBorderIsOn": true,
-        "objectBorderRadiusBottomLeft": "5",
-        "objectBorderRadiusBottomRight": "5",
-        "objectBorderRadiusIsPixels": true,
-        "objectBorderRadiusTopLeft": "5",
-        "objectBorderRadiusTopRight": "5",
-        "objectBorderStyle": "solid",
-        "objectBorderWidth": 2,
-        "objectDropShadowBlur": 0,
-        "objectDropShadowColor": "#FFEF00FF",
-        "objectDropShadowH": 0,
-        "objectDropShadowIsOn": false,
-        "objectDropShadowSpread": 0,
-        "objectDropShadowV": 0,
-        "objectHeight": true,
-        "objectImageMarginBottom": 0,
-        "objectImageMarginTop": 0,
-        "objectImageWidth": 100,
-        "objectImgBorderColor": "red",
-        "objectImgBorderIsOn": false,
-        "objectImgBorderRadiusBottomLeft": 0,
-        "objectImgBorderRadiusBottomRight": 0,
-        "objectImgBorderRadiusIsPixels": true,
-        "objectImgBorderRadiusTopLeft": 0,
-        "objectImgBorderRadiusTopRight": 0,
-        "objectImgBorderStyle": "solid",
-        "objectImgBorderWidth": 2,
-        "objectMargin": 10,
-        "objectOverflowIsOn": true,
-        "objectText": "Times New Roman",
-        "objectTextAlign": "center",
-        "objectTextColor": "#FFFFFFFF",
-        "objectTextPadding": 10,
-        "objectTextTextSize": 100,
-        "objectTitle": "Times New Roman",
-        "objectTitleAlign": "center",
-        "objectTitleColor": "#FFFFFFFF",
-        "objectTitleTextSize": 200,
-        "reqBgColorIsOn": true,
-        "reqFilterBgColor": "#6B6464FF",
-        "reqFilterBlur": 0,
-        "reqFilterBlurIsOn": false,
-        "reqFilterBright": 100,
-        "reqFilterBrightIsOn": false,
-        "reqFilterCont": 100,
-        "reqFilterContIsOn": false,
-        "reqFilterGray": 0,
-        "reqFilterGrayIsOn": false,
-        "reqFilterHue": 0,
-        "reqFilterHueIsOn": false,
-        "reqFilterInvert": "50",
-        "reqFilterInvertIsOn": false,
-        "reqFilterOpac": "25",
-        "reqFilterOpacIsOn": false,
-        "reqFilterSatur": 1,
-        "reqFilterSaturIsOn": false,
-        "reqFilterSepia": 0,
-        "reqFilterSepiaIsOn": false,
-        "reqFilterVisibleIsOn": false,
-        "rowBackgroundImage": "",
-        "rowBgColor": "#FFFFFFFF",
-        "rowBgColorIsOn": false,
-        "rowBodyMarginBottom": 25,
-        "rowBodyMarginSides": 1,
-        "rowBodyMarginTop": 25,
-        "rowBorderColor": "red",
-        "rowBorderIsOn": false,
-        "rowBorderRadiusBottomLeft": 0,
-        "rowBorderRadiusBottomRight": 0,
-        "rowBorderRadiusIsPixels": true,
-        "rowBorderRadiusTopLeft": 0,
-        "rowBorderRadiusTopRight": 0,
-        "rowBorderStyle": "solid",
-        "rowBorderWidth": 2,
-        "rowButtonXPadding": 0,
-        "rowButtonYPadding": 0,
-        "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "grey",
-        "rowDropShadowH": 0,
-        "rowDropShadowIsOn": false,
-        "rowDropShadowSpread": 0,
-        "rowDropShadowV": 0,
-        "rowImageMarginTop": 0,
-        "rowImageWidth": 100,
-        "rowImgBorderColor": "red",
-        "rowImgBorderIsOn": false,
-        "rowImgBorderRadiusBottomLeft": 0,
-        "rowImgBorderRadiusBottomRight": 0,
-        "rowImgBorderRadiusIsPixels": true,
-        "rowImgBorderRadiusTopLeft": 0,
-        "rowImgBorderRadiusTopRight": 0,
-        "rowImgBorderStyle": "solid",
-        "rowImgBorderWidth": 2,
-        "rowMargin": 10,
-        "rowOverflowIsOn": true,
-        "rowText": "Times New Roman",
-        "rowTextAlign": "center",
-        "rowTextColor": "#FFFFFFFF",
-        "rowTextPaddingX": 10,
-        "rowTextPaddingY": 5,
-        "rowTextTextSize": 100,
-        "rowTitle": "Times New Roman",
-        "rowTitleAlign": "center",
-        "rowTitleColor": "#FFFFFFFF",
-        "rowTitleTextSize": 200,
-        "scoreText": "Times New Roman",
-        "scoreTextAlign": "center",
-        "scoreTextColor": "#FFFFFFFF",
-        "scoreTextSize": 75,
-        "selBgColorIsOn": true,
-        "selFilterBgColor": "#3CAAAAFF",
-        "selFilterBlur": 0,
-        "selFilterBlurIsOn": false,
-        "selFilterBright": 100,
-        "selFilterBrightIsOn": false,
-        "selFilterCont": 100,
-        "selFilterContIsOn": false,
-        "selFilterGray": 0,
-        "selFilterGrayIsOn": false,
-        "selFilterHue": 0,
-        "selFilterHueIsOn": false,
-        "selFilterInvert": 0,
-        "selFilterInvertIsOn": false,
-        "selFilterOpac": 100,
-        "selFilterOpacIsOn": false,
-        "selFilterSatur": 1,
-        "selFilterSaturIsOn": false,
-        "selFilterSepia": 0,
-        "selFilterSepiaIsOn": false
-      },
-      "template": "1",
-      "title": "Tier 4 Powers",
-      "titleText": "These powers do not require Shards. One of these isn't even enough to make you a street-level Cape on its own, though if you're clever and skilled enough it might give you enough of an edge for you to succeed. \nThese are all caused by your own biology, due to the effects of the dimensional transfer, so a biokinetic or biotinker might be able to remove these powers without touching your brain."
-    },
-    {
-      "allowedChoices": 0,
-      "buttonId": "",
-      "buttonRandom": false,
-      "buttonRandomNumber": 1,
-      "buttonText": "Click",
-      "buttonType": true,
-      "currentChoices": 0,
-      "defaultAspectHeight": 1,
-      "defaultAspectWidth": 1,
       "id": "io2d",
       "image": "",
       "isButtonRow": false,
@@ -43550,138 +43101,6 @@
       "objectWidth": "col-md-4",
       "objects": [
         {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "olwh",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You have the ability to perform Magecraft from the Type-Moon series. You instinctively know the basics and find yourself learning quickly. Due to the lack of other Mages on Earth Bet, any mysteries you perform will be leagues stronger than they would on the universes the Type-Moon series took place. With enough research, you might be able to defeat an Endbringer with this power. You are given 20-100 medium quality magic circuits to begin with, though with training the quality can be increased. You keep your ability to perform Magecraft after your Shard runs out of juice, but you no longer have the instinct that allows you to learn quickly. \n(This power essentially allows you to do anything with enough research and preparation.)",
-          "title": "(Trump) Magecraft"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "l3ed",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is stronger than an Endbringer will have their abilities weakened so that they're on par with that of an Endbringer. When your Shard runs out of juice, you're stuck in whatever form you're in at the time. Don't choose an Eldritch Abomination, you will go insane. You gain their weaknesses as well.",
-          "title": "(Changer/Trump) Demiservant"
-        },
-        {
           "addons": [
             {
               "id": "",
@@ -43760,72 +43179,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "5zy0",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You can simulate any scenario you can come up with. Only the entity is a blindspot to this power.",
-          "title": "(Thinker) Vision"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "8cpj",
           "image": "",
           "isActive": false,
@@ -43840,7 +43193,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "20"
             },
             {
               "afterText": "Network Capacity",
@@ -43905,7 +43258,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "25"
             },
             {
               "afterText": "Network Capacity",
@@ -43960,7 +43313,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -43971,7 +43324,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "18"
+              "value": "20"
             },
             {
               "afterText": "Network Capacity",
@@ -44026,7 +43379,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -44132,7 +43485,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "20"
             },
             {
               "afterText": "Network Capacity",
@@ -44323,7 +43676,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "20"
             },
             {
               "afterText": "Network Capacity",
@@ -44388,7 +43741,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "20"
             },
             {
               "afterText": "Network Capacity",
@@ -44454,7 +43807,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "20"
             },
             {
               "afterText": "Network Capacity",
@@ -44520,7 +43873,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "20"
             },
             {
               "afterText": "Network Capacity",
@@ -44715,7 +44068,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "20"
             },
             {
               "afterText": "Network Capacity",
@@ -45112,7 +44465,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "18"
+              "value": "20"
             },
             {
               "afterText": "DP",
@@ -45167,6 +44520,150 @@
           "template": 1,
           "text": "You can summon and control dolls. You can create an arbitrary amount of dolls but only have up to 10 active dolls at once. You can see, hear, and feel (but not smell and taste) through your dolls. Your maximum control range is 1000 meters, if a doll goes outside that range it will deactivate. Your capacity to multitask matches the amount of dolls you have active. You cannot summon your dolls further than at arm's length (~60cm or 2ft).\n\nBy default the dolls you create have the same strength, speed, and resistance as your own body but no other powers. When created they will not have any clothes. The size of your dolls can range from 10cm to 80cm and must have a human form.\n\n",
           "title": "(Master/Trump) Doll Master"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "l91g",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to copy extremely weakened versions of powers off Parahumans and a slot to use those powers with. To copy a Parahuman's power you must get within a meter of them. If you copy the power of an Endbringer or Entity, you get every single power they have separately, instead of just one power.\nYou can switch what power is in your slots at will. Every day you get a charge you can use to increase the strength of a power, though you can save these charges as well. Once a power reaches the same strength as the original power, you can no longer dump charges into it. \nOn average it takes a week to fully charge a weak power, two weeks to fully upgrade a mid-level power, three weeks to fully upgrade a high-level power, and four weeks to fully upgrade an extremely powerful power.\nYou can also use those charges to increase how many slots you have, to a maximum of three. It takes 30 charges to fully increase the number of slots you have, though before you fully gain a new slot you can place an even weaker version of a power in that slot. For example, if you have a slot that has 15 charges put into it, the power is half as powerful as it would be if it were in a full slot.\nYour powers, even when strengthened to their max, will never be the same as the original Parahuman's power. Instead, they will be a sidegrade, a power that could have come from the Parahuman's Shard, but didn't.",
+          "title": "(Trump) Power Manipulator"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "g8uo",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are good with numbers to a Parahuman degree. You percieve this power as elaborate mathematical notation floating in the air. You can dodge attacks, predict future actions, identify weak points, sense the surrounding area through vibrations, perfectly measure things with a glance, leverage your strength perfectly, and much more. You wouldn't have a hard time predicting and manipulating the world economy.",
+          "title": "(Thinker) Number Man"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ulph",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You can extend the cutting edge of a bladed object, the longer the edge the farther it extends. Also gives you unconscious feelings in regard to Parahumans and influences other Parahumans' Shards to such a degree that they can be considered to be an unconscious extension of yourself.",
+          "title": "(Blaster/Thinker/Trump/Master) Jack Slash"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "g2oz",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            },
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "k89b",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": true,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can answer any question anyone asks you, except that if you don't have Negentropy you can't answer how to solve/negate entropy. You can ask yourself questions and automatically know the answer to any question asked of you, even if the answer to that question harms you.",
+          "title": "(Thinker) Omniscient"
         }
       ],
       "requireds": [
@@ -51130,71 +50627,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "goj5",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-goj5.png",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "30"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is a planet-destroyer will have their abilities weakened so that they're hard pressed to destroy a planet. When your Shard runs out of juice, you're stuck in whatever form you're in at the time. Don't choose an Eldritch Abomination, you will go insane. You gain their weaknesses as well.",
-          "title": "(Trump/Changer) Heroic Spirit"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "3qqm",
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-3qqm.png",
           "isActive": false,
@@ -51261,8 +50693,8 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "g2oz",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-g2oz.jpeg",
+          "id": "5zy0",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-5zy0.jpeg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -51276,7 +50708,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "30"
+              "value": "35"
             },
             {
               "afterText": "Network Capacity",
@@ -51319,142 +50751,8 @@
             }
           ],
           "template": 1,
-          "text": "You can answer any question anyone asks you, except that if you don't have Negentropy you can't answer how to solve/negate entropy. You can ask yourself questions and automatically know the answer to any question asked of you, even if the answer to that question harms you.",
-          "title": "(Thinker) Omniscient"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "1irf",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-1irf.jpeg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "25"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "Your Shard has unlocked your ability to manipulate Mana, one of the fundamental energies of the multiverse. Your Shard provides you with a library of knowledge about the three branches of Mana Manipulation.\n\n<b>Conjuration</b>, the shaping of mana into constructs that produce an effects. More commonly known as spells, your library contains information about many different systems of magic and with perseverance you might discover the secrets of True Magic. <b>Enchantment</b>, the creation of objects powered by Mana, capable of producing the same effects as Conjuration but anchored to objects. And <b>Alchemy</b>, the creation and transformation of materials and liquids with Mana. From potions producing effects when ingested to esoteric metals and gems to use in Enchantments, the creation of devices, or armor.\n\nWhile this ability has no theoretical upper limit, the more complex and powerful Conjurations will test your knowledge.\n\nWhen your Shard runs out of energy, this ability remains. However you will lose access to the library of knowledge unless you managed to create a copy.\n",
-          "title": "(Trump/Tinker) Sorcerer Supreme"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ranx",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-ranx.jpeg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "25"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "Your shard has unlocked your psionic potential. You start out as a low level Psion with a few abilities and are able to train yourself to become more powerful. Your Shard gives you an intuition for developing new techniques and refining existing ones.\n\nWhen your Shard runs out of energy, this ability remains. However you will lose access to the intuitive grasp it provides.",
-          "title": "(Trump/Thinker) Esper/Psion"
+          "text": "You can simulate any scenario you can come up with. Only the entity is a blindspot to this power.",
+          "title": "(Thinker) Vision"
         }
       ],
       "requireds": [
@@ -54585,6 +53883,1197 @@
       "template": "1",
       "title": "Combo Powers",
       "titleText": "Sometimes when you have multiple powers they'll combine into something stronger."
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "dljy",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-3",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "e2an",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "It takes a third of the time it would otherwise for you to react to stimuli. The average human can react in 0.2 seconds, with the fastest being 0.15 seconds. If you had average human reflexes, your reaction time is now 1/15 of a second or 0.067 seconds.",
+          "title": "Mover"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fhr6",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You're able to exert up to a maximum of 1 pound of force total on objects within 50 meters of you. The 1 pound of force has to be spread between any objects you're using this power on.",
+          "title": "Shaker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "47pj",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can access all your strength at any time, allowing you to perform feats that normally could only be done when on an adrenaline high. This can cause damage to your muscles and bones. You are guaranteed to heal correctly given enough time.",
+          "title": "Brute"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "k345",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can change the temperature of your body to -50 degrees Celsius to 100 degrees Celsius with no negative effects to yourself.",
+          "title": "Breaker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "u6x2",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "By staring at someone, you can make them feel increasingly uncomfortable. At first it's nothing bad, but given 30 minutes you could make someone feel like they just opened the door on one of their parents in the bathroom.",
+          "title": "Master"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "mv7e",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "When you're coming up with blueprints, your mental gaps will be filled by your unconscious mind as long as you have the prerequisite knowledge to come to the conclusion yourself given enough time. Also makes it easier to learn to engineer or program.",
+          "title": "Tinker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "dy7h",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You have perfect aim.",
+          "title": "Blaster"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ojin",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You know how to cold read. ",
+          "title": "Thinker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "2r4f",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can reduce the friction by up to 50% on any object you touch with a total of 1 square meter of material. You can cancel this on any object at will.",
+          "title": "Striker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1gay",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You control the length and strength of your hair. You could become Rapunzel in minutes, and could give your hair the tensile strength of steel. ",
+          "title": "Changer"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "kpwp",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You know when Parahumans are nearby and have a one word generalization of their powers.",
+          "title": "Trump"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "sfkh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "People will initially come to the conclusion you're weak and that they could defeat you easily.",
+          "title": "Stranger"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "choice",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "znp9"
+            },
+            {
+              "req": "5io5"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
+        },
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "4950",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": false,
+          "requireds": [],
+          "showRequired": false,
+          "type": "id"
+        }
+      ],
+      "resultGroupId": "xb",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "red",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": 0,
+        "rowBorderRadiusBottomRight": 0,
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": 0,
+        "rowBorderRadiusTopRight": 0,
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "grey",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "red",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowMargin": 10,
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Shardless Powers (Lesser)",
+      "titleText": "These powers do not require Shards. One of these isn't even enough to make you a street-level Cape on its own, though if you're clever and skilled enough it might give you enough of an edge for you to succeed. These are all caused by your own biology, due to the effects of the dimensional transfer, so a biokinetic or biotinker might be able to remove these powers without touching your brain."
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "hj7o",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-3",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "uwde",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Remarkable, your Midichlorian count is nearly 20,000. Yes, the force does exist, and you have been given the ability to use it.",
+          "title": "The Force"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lv3m",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have the power of Aura, from RWBY. You can gift the power of Aura to others if you can figure out how. Aura will absorb most damage done by any physical or elemental attack you're aware of, give you a bit of a sixth sense, and will enhance your strength, speed, durability, stamina, senses, and reflexes.",
+          "title": "Aura"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fq6b",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You can give one absolute order to every carbon based lifeforms more intelligent than a mouse you look in the eyes. They will believe they did what you ordered of their own free will, but can deduce that it wasn't. You cannot directly change a person's personality with this, just their actions. You need to be looking into their eyes when you give the order, or else it won't work. This power only works ONCE on any being you use it on.",
+          "title": "Code Geass"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "vp1e",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You can shoot elemental spells at your opponent, reminiscent of fantasy magic. While you won't get anything stronger than a fireball the size of a watermelon or a stone spike jutting from the ground from this, it is fairly versatile.\nYou have a limited amount of magic that regenerates over time. Two hours of sleep will completely regenerate your reserves. This pool of magik combines with the reserves you use for any other magic system, as long as the magic system uses internal energy and not external (Chakra, Ki, and Od (Fate) for example would work, Nature Chaka and Mana (Fate) would not)\n\n",
+          "title": "Magik"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pc3h",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "This power makes you a genius of deduction and perception. It doesn't make you any better at guessing, and you need sufficient evidence to make a conclusion. However, it is a lot less likely to be wrong than Tattletale's power.",
+          "title": "Holmes"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "w67q",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have Full Metal Alchemist's Alchemy, specifically Clap Alchemy. You didn't even need to lose a limb! As long as you understand the structure of something, you can transmute it into something else, as long as you understand that too. All transmutations must obey the three laws of thermodynamics. You cannot bring back the dead with this.\nYou have a Gate, as does everyone else in the multiverse, unless they sacrificed it.",
+          "title": "Alchemy"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "olwh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to perform Magecraft from the Type-Moon series. You instinctively know the basics and find yourself learning quickly. Due to the lack of other Mages on Earth Bet, any mysteries you perform will be leagues stronger than they would on the universes the Type-Moon series took place. With enough research, you might be able to defeat an Endbringer with this power. You are given 20-100 medium quality magic circuits to begin with, though with training the quality can be increased.\n(This power essentially allows you to do anything with enough research and preparation.)",
+          "title": "Magecraft"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "l3ed",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is stronger than an Endbringer will have their abilities weakened so that they're on par with that of an Endbringer. You gain their weaknesses as well.",
+          "title": "Demiservant"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "goj5",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-goj5.png",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "50"
+            },
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "k89b",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": true,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is a planet-destroyer will have their abilities weakened so that they're hard pressed to destroy a planet. Don't choose an Eldritch Abomination, you will go insane. You gain their weaknesses as well.",
+          "title": "Heroic Spirit"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1irf",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-1irf.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            },
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "k89b",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": true,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Your ability to manipulate Mana, one of the fundamental energies of the multiverse, is unlocked. A library of grimoires about the three branches of Mana Manipulation has been implanted into your memory. You will still need to read and understand them and acquire the necessary skills but all the knowledge you need is at your fingertips.\n\n<b>Conjuration</b>, the shaping of mana into constructs that produce an effects. More commonly known as spells, your library contains information about many different systems of magic and with perseverance you might discover the secrets of True Magic. <b>Enchantment</b>, the creation of objects powered by Mana, capable of producing the same effects as Conjuration but anchored to objects. And <b>Alchemy</b>, the creation and transformation of materials and liquids with Mana. From potions producing effects when ingested to esoteric metals and gems to use in Enchantments, the creation of devices, or armor.\n\nWith this power, you can reproduce any magic system from first principles and even create your own. The library contains several broad magic systems to get you started.\n\nWhile this ability has no theoretical upper limit, the more complex and powerful Conjurations will test your knowledge. With enough time you will be able to reach heights only the gods can dream of but be careful not to break reality or destroy your sour on your journey there. ",
+          "title": "(Trump/Tinker) Sorcerer Supreme"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ranx",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-ranx.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            },
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "k89b",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": true,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Your psionic potential has been unlocked. You start out as a low level Psion with a few abilities and are able to train yourself to become more powerful. You have an intuition for developing new techniques and refining existing ones.\n\nWith enough time you will be able to develop into a psychic god capable of rewriting reality on a whim but the road there will be long a arduous. Be careful not to lobotomize yourself on your journey.",
+          "title": "(Trump/Thinker) Esper/Psion"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "znp9"
+            },
+            {
+              "req": "5io5"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
+        },
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "d0mx"
+            },
+            {
+              "req": "xsi7"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
+        }
+      ],
+      "resultGroupId": "",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "#FFEEDDFF",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": 0,
+        "rowBorderRadiusBottomRight": 0,
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": 0,
+        "rowBorderRadiusTopRight": 0,
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "#FFFFEEFF",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "red",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowMargin": 10,
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Shardless Powers (Greater)",
+      "titleText": ""
     },
     {
       "allowedChoices": 0,
