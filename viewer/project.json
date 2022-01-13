@@ -54618,7 +54618,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -55698,7 +55698,7 @@
             }
           ],
           "template": 1,
-          "text": "You can copy the powers of any person or entity you touch. You can use as many powers you want at the same time as long as they don't conflict. You can toggle powers at will, any copied power is disabled by default. Similar powers can be merged together (and separated again) to work as a single entity.\n\nFor parahumans, you get a full copy of their power. For Endbringers, you gain a full copy of their power by touching their core, and a weakened copy equivalent in strength to a Parahuman by seeing them. For Entities, you gain a full copy of all the Entity's powers if you defeat it, by touching their corpse you gain weakened copies of its powers equivalent in strength to a Parahuman, you can gain a weakened copy of any ability it uses by seeing it in action.",
+          "text": "You can copy the powers of any person or entity you can see. You can use as many powers you want at the same time as long as they don't conflict. You can toggle powers at will, any copied power is disabled by default. Similar powers can be merged together (and separated again) to work as a single entity. Copied powers grow and adapt with continued use.\n\nFor parahumans, you get a full copy of their power. For Endbringers, you gain a full copy of their power by touching their core, and a weakened copy equivalent in strength to a Parahuman by seeing them. For Entities, you gain a full copy of all the Entity's powers if you defeat it, by touching their corpse you gain weakened copies of its powers equivalent in strength to a Parahuman, you can gain a weakened copy of any ability it uses by seeing it in action.\n\nYou have a secondary power that allows you to sort through your collection of powers efficiently.",
           "title": "Unlimited Ability Works"
         },
         {
@@ -55725,7 +55725,7 @@
             }
           ],
           "template": 1,
-          "text": "You can copy the appearance, powers, skills, memory, and personal equipment (any equipment they had on their person when you saw them) of any person. You can have an unlimited number of templates stored but can only use one at a time.",
+          "text": "You can copy the appearance, powers, skills, memory, and personal equipment (any equipment they had on their person when you saw them) of any person (for a very broad definition of person). You can have an unlimited number of templates stored but can only use one at a time. While taking on a form, you remain yourself and are not mentally influenced by the transformation unless you allow it.",
           "title": "Ditto"
         },
         {
@@ -55752,7 +55752,7 @@
             }
           ],
           "template": 1,
-          "text": "Some of the rarest and most valued parahumans are those who can effect the powers of others. People who nullify allow enemy parahumans to be subdued as easily as an unpowered human being, those who boost others powers\ngiving their allies a much needed edge over the opposition. Some even have the ability to copy or steal powers temporarily. You can do all this and more, and only your personal desires can stop such effects from being permanent.\n\nYou can nullify, enhance, modify, copy, and even steal the powers of others (whether this takes the shard along with them is up to you). Transferring powers from one person to another is trivial, even stacking multiple onto a single target. You also have five charges a day which let you create shardless powers likes yours, whose nature are fully under your control. A single charge can result in a power that would be rated around 4-5, with more charges increasing its power, versatility, pushing or removing limits, and adding more functions. You can manipulate and sense created powers regardless of the location of anyone you have given them to.\n\nYou also have an ability to sense parahumans and powers within a large area. Created powers are yours until you transfer them to someone else. Charges can be spent to boost any of your powers, including others bought here. Changes can be reversed at will, and you can deconstruct powers you have created, but you do not recover any charges from doing so.",
+          "text": "Some of the rarest and most valued parahumans are those who can effect the powers of others. People who nullify allow enemy parahumans to be subdued as easily as an unpowered human being, those who boost others powers\ngiving their allies a much needed edge over the opposition. Some even have the ability to copy or steal powers temporarily. You can do all this and more, and only your personal desires can stop such effects from being permanent.\n\nYou can nullify, enhance, modify, or steal, the powers of others in your range. You can freely change a Shard power into a Shardless power but not the reverse. Transferring powers from one person to another is trivial, as is stacking multiple onto a single target. You can copy the blueprint for the power of anyone in your range but you will need to expend charges to create if you want it for yourself. \n\nYou have five charges a day which let you create shardless powers likes yours, whose nature are fully under your control. A single charge can result in a power that would be rated around 4-5, with more charges increasing its power, versatility, pushing or removing limits, and adding more functions. You can manipulate and sense created powers regardless of the location of anyone you have given them to.\n\nYou also have an ability to sense parahumans and powers within a large area. Created powers are yours until you transfer them to someone else. Charges can be spent to boost any of your powers, including others bought here. Changes can be reversed at will, and you can deconstruct powers you have created, but you do not recover any charges from doing so.",
           "title": "Power Manipulation"
         },
         {
