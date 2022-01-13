@@ -30883,6 +30883,9 @@
                     },
                     {
                       "req": "4950"
+                    },
+                    {
+                      "req": "d0mx"
                     }
                   ],
                   "reqId": "",
@@ -30898,7 +30901,7 @@
               ],
               "template": "",
               "text": "If you chose a Queen Shard, then 35% of these Parahumans will have 1 random power equivalent to those from the Tier-3 power section, 50% will have 2 random powers equivalent to those from the Tier-3 power section, 14% will have 3 random powers equivalent to those from the Tier-3 power section, 0.5% will have 1 random power equivalent to those from the Tier-2 power section, 0.4% will have 2 random powers equivalent to those from the Tier-2 power section, and 0.1% will have 1 random power equivalent to those from the Tier-1 power section.",
-              "title": "Queen Shard / Entity"
+              "title": "Queen Shard / Entity / Shardless"
             }
           ],
           "defaultAspectHeight": 1,
