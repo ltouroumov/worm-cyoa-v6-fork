@@ -21197,7 +21197,7 @@
             }
           ],
           "template": 1,
-          "text": "The core Shards of all entities in the multiverse are destroyed upon your arrival in this universe (except yours if you are an Entity). Concerned parties will come to the attention of the corpses and either destroyed or stabilized.",
+          "text": "The core Shards of all entities in the multiverse are destroyed upon your arrival in this universe. Concerned parties will come to the attention of the corpses and either destroyed or stabilized.",
           "title": "Ubercharge Strike"
         }
       ],
@@ -30314,7 +30314,7 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "-20"
+              "value": "-40"
             },
             {
               "afterText": "CP",
@@ -30354,7 +30354,7 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "-15"
+              "value": "-40"
             },
             {
               "afterText": "SP",
@@ -30394,7 +30394,7 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "-30"
+              "value": "-60"
             },
             {
               "afterText": "CP",
@@ -30422,6 +30422,45 @@
                     }
                   ],
                   "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-60"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
                   "reqId1": "",
                   "reqId2": "",
                   "reqId3": "",
@@ -30437,45 +30476,6 @@
               "value": "-20"
             },
             {
-              "afterText": "SP",
-              "beforeText": "Gain:",
-              "id": "rm",
-              "requireds": [
-                {
-                  "afterText": "choice",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "dhard",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": false,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "-10"
-            },
-            {
               "afterText": "CP",
               "beforeText": "Gain:",
               "id": "2b",
@@ -30512,7 +30512,7 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "-10"
+              "value": "-20"
             }
           ],
           "template": 1,
@@ -30561,7 +30561,7 @@
               "type": "id"
             },
             {
-              "afterText": "choice",
+              "afterText": "",
               "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
@@ -30599,7 +30599,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-30"
+              "value": "-40"
             },
             {
               "afterText": "CP",
@@ -30609,7 +30609,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-20"
+              "value": "-40"
             }
           ],
           "template": 1,
@@ -30629,7 +30629,7 @@
           "objectWidth": "col-md-4",
           "requireds": [
             {
-              "afterText": "choice",
+              "afterText": "",
               "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
@@ -30696,7 +30696,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-40"
+              "value": "-80"
             },
             {
               "afterText": "CP",
@@ -30706,7 +30706,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-40"
+              "value": "-80"
             }
           ],
           "template": 1,
@@ -54618,7 +54618,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
