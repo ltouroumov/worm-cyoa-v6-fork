@@ -21,7 +21,6 @@ def image_info(image_data):
         image = Image.open(io.BytesIO(data_bytes))
         return image_size, f"{header}({humanize.naturalsize(image_size)}, {image.size})"
     except Exception as e:
-
         return 0, f"Error while reading '{image_data[:64]}': {type(e)}"
 
 MAX_IMAGE_SIZE = 1_000_000
