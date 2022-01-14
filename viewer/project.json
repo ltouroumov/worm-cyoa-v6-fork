@@ -33980,7 +33980,7 @@
       "id": "io2d",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -54621,7 +54621,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -55402,7 +55402,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "5x9x",
-          "image": "",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-5x9x.jpeg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -55422,6 +55422,114 @@
           "template": 1,
           "text": "You become a Time Lord from Doctor Who and know how to make the technology from the show, including the TARDIS.",
           "title": "Time Lord"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "aar7",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-aar7.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "Your genes are modified with Kryptonian DNA. You gain powers similar to Superman. Super strength and tactile telekinesis, super speed, flight, nigh-invulnerability, enhanced senses, improved cognition, and regeneration.\n\nWhile you are exposed to yellow sunlight, your powers work at their maximum. Without it they are reduced by a significant amount. Kryptonite crystals and red sunlight are your weaknesses, exposed to their radiation you lose your powers.",
+          "title": "(Wo)Man of Steel"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pknu",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-pknu.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "Your genes are modified with Green Martian DNA. You gain powers similar to J'onn J'onzz. Shape-shifting, invisibility, phasing, super durability, super strength, super speed, enhanced stamina, regeneration, enhanced senses (EM and IR spectrum vision), improved cognition, telepathy, and telekinesis.\n\nYou do not inherit the Martian's psychosomatic vulnerability to fire.",
+          "title": "Martian Manhunter"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "2thz",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-2thz.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            }
+          ],
+          "template": 1,
+          "text": "You gain phenomenal strength, speed, armor, flight and energy beams. At their base level, these attributes are on the level of a high tier cape. You have a power reserve that you can call on to focus into one of these attributes to supercharge it. In extreme cases you can even draw against your other abilities to \u201cmax out\u201d an attribute giving you staggering capabilities.\n\nYour body ",
+          "title": "Maxima"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "htg4",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You can teleport to any place you have been before or anywhere within your line of sight. Whenever you teleport, a copy of you is created at your destination, to a maximum of five. All your bodies form a single hive-mind. Your strength is inversely proportional to the number of active copies. ",
+          "title": "Harem"
         },
         {
           "addons": [],
