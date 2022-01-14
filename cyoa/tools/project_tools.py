@@ -3,6 +3,7 @@ import io
 import operator
 from pathlib import Path
 from shutil import copyfile
+from typing import List, Dict
 
 import humanize
 from PIL import Image
@@ -124,8 +125,31 @@ class ProjectImagesTool(ToolBase, ProjectUtilsMixin):
         console.print(images_table)
 
 
+class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
+    name = 'project.check'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser.add_argument('--project', dest='project_file', type=Path)
+
+    def run(self, args):
+        self._load_project(args.project_file)
+
+        object_ids: Dict[str, List] = {}
+        for row_data in self.project['rows']:
+            for object_data in row_data['objects']:
+                object_ids.setdefault(object_data['id'], [])
+                object_ids[object_data['id']].append(object_data['title'])
+
+        for obj_id, titles in object_ids.items():
+            if len(titles) > 1:
+                console.print(f"Duplicate {obj_id}: {str.join(', ', titles)}")
+
+
 TOOLS = (
     ProjectFormatTool,
     ProjectPointsTool,
     ProjectImagesTool,
+    ProjectCheckTool,
 )
