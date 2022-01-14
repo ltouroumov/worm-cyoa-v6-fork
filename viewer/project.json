@@ -21404,7 +21404,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -30516,7 +30516,7 @@
             }
           ],
           "template": 1,
-          "text": "Zion is no longer suicidal, and never will be. No amount of reminders regarding Eden's death, or the pointlessness of the Cycle, or anything else will make him stop trying to survive with all his faculties. Hope those points were worth it, because you'll have to go all out to win.",
+          "text": "Zion is no longer suicidal, and never will be. No amount of reminders regarding Eden's death, or the pointlessness of the Cycle, or anything else will make him stop trying to survive with all his faculties. Hope those points were worth it, because you'll have to go all out to win.\n\nHe is still depressed and apathetic, as long as nothing sets him off he continue his current behavior for at least a century. Unless a major event happens to his core Shards, he will not notice any missing or subverted Shards.\n\nAfter 250 to 300 years, he will proceed with the end of the Cycle, collect all of his and Eden's surviving Shards and depart from the planet, destroying all parallel versions of it in the process.",
           "title": "Desire For Survival"
         },
         {
