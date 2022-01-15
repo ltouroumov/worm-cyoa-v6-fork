@@ -19453,7 +19453,7 @@
             }
           ],
           "template": 1,
-          "text": "Unless you will it to be otherwise, Trump powers do not work on you. You can be Mastered into consenting to a Trump working on you, if you're not immune.",
+          "text": "Unless you will it to be otherwise, Trump powers do not work on you. You can be Mastered into consenting to a Trump working on you, if you're not immune.\n\nGreater Shardless powers can trump this immunity under certain circumstances (specified in the power text).",
           "title": "Trumped the Trump"
         },
         {
@@ -43355,7 +43355,7 @@
             }
           ],
           "template": 1,
-          "text": "You can transform into ANY Pokemon, including legendaries and mythicals. Pokedex entries still don't apply. When your Shard runs out of juice, you're stuck in whatever form you're in at the time.",
+          "text": "You can transform into ANY Pokemon, including legendaries and mythicals. Pokedex entries still don't apply. When your Shard runs out of juice, you're stuck in whatever form you're in at the time.\n\nYour transformations are not limited to four moves, this limitation is only for competitive fights. Pok\u00e9mon will usually around a dozen moves.  ",
           "title": "(Changer/Trump) Pokemon"
         },
         {
@@ -55482,6 +55482,60 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "6vxz",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-6vxz.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "Your merge with the Speed Force, granting you superhuman abilities similar to Barry Allen, The Flash.\n\nYour primary ability is super speed. You are faster than any other known speedster, able to move faster than the speed of light. Your reflexes and perception accelerate in proportion with your speed, you can channel this power to accelerate your mind even when you stand still.\n\nThere are also several ancillary powers, accelerated healing, electrokinesis, dimensional travel, and time travel.",
+          "title": "Speed Force"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9122",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-9122.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "You become an Amazon blessed by the gods of Olympus, granting you powerful abilities.\n\nSuper strength, durability, speed, reflexes, agility and stamina. Flight, enhanced senses, accelerated healing, immortality and the ability to wield magic.",
+          "title": "Amazon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "2thz",
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-2thz.jpeg",
           "isActive": false,
@@ -55530,6 +55584,33 @@
           "template": 1,
           "text": "You can teleport to any place you have been before or anywhere within your line of sight. Whenever you teleport, a copy of you is created at your destination, to a maximum of five. All your bodies form a single hive-mind. Your strength is inversely proportional to the number of active copies. ",
           "title": "Harem"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "3nu6",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-3nu6.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You can transform into ANY Pokemon, including legendaries and mythicals. Pokedex entries still don't apply. \n\nYour transformations are not limited to four moves, this limitation is only for competitive fights. Pok\u00e9mon will usually around a dozen moves.  ",
+          "title": "Mew, too"
         },
         {
           "addons": [],
@@ -55809,7 +55890,7 @@
             }
           ],
           "template": 1,
-          "text": "You can copy the powers of any person or entity you can see. You can use as many powers you want at the same time as long as they don't conflict. You can toggle powers at will, any copied power is disabled by default. Similar powers can be merged together (and separated again) to work as a single entity. Copied powers grow and adapt with continued use.\n\nFor parahumans, you get a full copy of their power. For Endbringers, you gain a full copy of their power by touching their core, and a weakened copy equivalent in strength to a Parahuman by seeing them. For Entities, you gain a full copy of all the Entity's powers if you defeat it, by touching their corpse you gain weakened copies of its powers equivalent in strength to a Parahuman, you can gain a weakened copy of any ability it uses by seeing it in action.\n\nYou have a secondary power that allows you to sort through your collection of powers efficiently.",
+          "text": "You can copy the powers of any person or entity you can see. You can use as many powers you want at the same time as long as they don't conflict. You can toggle powers at will, any copied power is disabled by default. Similar powers can be merged together (and separated again) to work as a single entity. Copied powers grow and adapt with continued use.\n\nFor parahumans, you get a full copy of their power. For Endbringers, you gain a full copy of their power by touching their core, and a weakened copy equivalent in strength to a Parahuman by seeing them. For Entities, you gain a full copy of all the Entity's powers if you defeat it, by touching their corpse you gain weakened copies of its powers equivalent in strength to a Parahuman, you can gain a weakened copy of any ability it uses by seeing it in action. If your target has Trumped the Trump you will need to beat your target in a fight to copy their power, a friendly spar or chess game counts for the purposes of this power.\n\nYou have a secondary power that allows you to sort through your collection of powers efficiently.",
           "title": "Unlimited Ability Works"
         },
         {
@@ -55836,7 +55917,7 @@
             }
           ],
           "template": 1,
-          "text": "You can copy the appearance, powers, skills, memory, and personal equipment (any equipment they had on their person when you saw them) of any person (for a very broad definition of person). You can have an unlimited number of templates stored but can only use one at a time. While taking on a form, you remain yourself and are not mentally influenced by the transformation unless you allow it.",
+          "text": "You can copy the appearance, powers, skills, memory, and personal equipment (any equipment they had on their person when you saw them) of any person (for a very broad definition of person). You can have an unlimited number of templates stored but can only use one at a time. While taking on a form, you remain yourself and are not mentally influenced by the transformation unless you allow it.\n\nYou can copy the powers of a target with Trumped the Trump in all cases.",
           "title": "Ditto"
         },
         {
@@ -55863,7 +55944,7 @@
             }
           ],
           "template": 1,
-          "text": "Some of the rarest and most valued parahumans are those who can effect the powers of others. People who nullify allow enemy parahumans to be subdued as easily as an unpowered human being, those who boost others powers\ngiving their allies a much needed edge over the opposition. Some even have the ability to copy or steal powers temporarily. You can do all this and more, and only your personal desires can stop such effects from being permanent.\n\nYou can nullify, enhance, modify, or steal, the powers of others in your range. You can freely change a Shard power into a Shardless power but not the reverse. Transferring powers from one person to another is trivial, as is stacking multiple onto a single target. You can copy the blueprint for the power of anyone in your range but you will need to expend charges to create if you want it for yourself. \n\nYou have five charges a day which let you create shardless powers likes yours, whose nature are fully under your control. A single charge can result in a power that would be rated around 4-5, with more charges increasing its power, versatility, pushing or removing limits, and adding more functions. You can manipulate and sense created powers regardless of the location of anyone you have given them to.\n\nYou also have an ability to sense parahumans and powers within a large area. Created powers are yours until you transfer them to someone else. Charges can be spent to boost any of your powers, including others bought here. Changes can be reversed at will, and you can deconstruct powers you have created, but you do not recover any charges from doing so.",
+          "text": "Some of the rarest and most valued parahumans are those who can effect the powers of others. People who nullify allow enemy parahumans to be subdued as easily as an unpowered human being, those who boost others powers\ngiving their allies a much needed edge over the opposition. Some even have the ability to copy or steal powers temporarily. You can do all this and more, and only your personal desires can stop such effects from being permanent.\n\nYou can nullify, enhance, modify, or steal, the powers of others in your range. You can freely change a Shard power into a Shardless power but not the reverse. Transferring powers from one person to another is trivial, as is stacking multiple onto a single target. You can copy the blueprint for the power of anyone in your range but you will need to expend charges to create if you want it for yourself. If your target has Trumped the Trump you will have to expend a charge to make it stick.\n\nYou have five charges a day which let you create shardless powers likes yours, whose nature are fully under your control. A single charge can result in a power that would be rated around 4-5, with more charges increasing its power, versatility, pushing or removing limits, and adding more functions. You can manipulate and sense created powers regardless of the location of anyone you have given them to.\n\nYou also have an ability to sense parahumans and powers within a large area. Created powers are yours until you transfer them to someone else. Charges can be spent to boost any of your powers, including others bought here. Changes can be reversed at will, and you can deconstruct powers you have created, but you do not recover any charges from doing so.",
           "title": "Power Manipulation"
         },
         {
