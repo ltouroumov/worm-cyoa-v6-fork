@@ -9993,7 +9993,7 @@
           ],
           "template": 1,
           "text": "Your body is remade for you, just as it was. You will have no identity on Earth Bet.",
-          "title": "Insert"
+          "title": "Drop-In / Insert"
         }
       ],
       "requireds": [
@@ -19607,6 +19607,29 @@
               "requireds": [],
               "showRequired": true,
               "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "8tcr"
+                },
+                {
+                  "req": "kht1"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
             }
           ],
           "scores": [
@@ -19622,6 +19645,91 @@
           ],
           "template": 1,
           "text": "Your family is very wealthy. If you're not a CEO, politician, lawyer, or doctor then you got the money from an inheritance, or your parents are a CEO, politician, lawyer, or doctor if you're not yet an adult. If you're an orphan, when you reach adulthood you'll get the inheritance.",
+          "title": "Wealthy"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "j4bc",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-j4bc.png",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "4950",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "icne",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You have Batman's real superpower, Money. This comes in the form of numerous bank accounts worth millions, several properties all over the world, and a few  safehouse.\n\nThe money refreshes as you spend it, either from interest or dividends. If you're running low, you'll suddenly remember several more accounts or properties when convenient.",
           "title": "Wealthy"
         },
         {
@@ -54651,13 +54759,271 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
       "isResultRow": false,
       "objectWidth": "col-md-3",
       "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5g0q",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "inxc",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ou34",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You can pick powers from the Tier 1, Tier 2, and Tier 3 sections.",
+          "title": "Essence of Shard (Noble)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "inxc",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "5g0q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ou34",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You can pick powers from the Tier 2, and Tier 3 sections.",
+          "title": "Essence of Shard (Vital)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ou34",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "5g0q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "inxc",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You can pick powers from the Tier 3 section.",
+          "title": "Essence of Shard (Normal)"
+        },
         {
           "addons": [],
           "defaultAspectHeight": 1,
@@ -55866,7 +56232,7 @@
             }
           ],
           "template": 1,
-          "text": "Your psionic potential has been unlocked. You start out as a low level Psion with a few abilities and are able to train yourself to become more powerful. You have an intuition for developing new techniques and refining existing ones.\n\nWith enough time you will be able to develop into a psychic god capable of rewriting reality on a whim but the road there will be long a arduous. Be careful not to lobotomize yourself on your journey.",
+          "text": "Your psionic potential has been unlocked. You start out as a low level Psion with a few abilities and are able to train yourself to become more powerful. You have an uncanny intuition for developing new techniques and refining existing ones. A library of memories about psionic techniques has been implanted into your mind. You will need to meditate and experience the memories and understand them but all the knowledge you need is at your fingertips.\n\nWith enough time you will be able to develop into a psychic god capable of rewriting reality on a whim but the road there will be long a arduous. Be careful not to lobotomize yourself on your journey.",
           "title": "Esper/Psion"
         },
         {
@@ -55893,7 +56259,7 @@
             }
           ],
           "template": 1,
-          "text": "Choose a version of Cultivation from any Manhwa, Manhua, Manga, or web novel, you have access to that but start at Novice level, though you have knowledge of how to further your ascension.",
+          "text": "Choose a version of Cultivation from any Manhwa, Manhua, Manga, or web novel, you have access to that but start at Novice level. An ancient spirit of knowledge has fused with your soul. You can commune with this spirit to access their knowledge and learn new techniques or acquire knowledge of how to advance your martial path.",
           "title": "Cultivator"
         },
         {
