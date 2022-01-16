@@ -19656,6 +19656,57 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "0sh1",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "7z83"
+                },
+                {
+                  "req": "i7bw"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "0"
+            }
+          ],
+          "template": 1,
+          "text": "No matter the circumstances, you will never lose your humanity and empathy. Your team, family, or friends will always be there to bring you back from the abyss.",
+          "title": "Don't lose your way!"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "akq3",
           "image": "",
           "isActive": false,
@@ -20286,44 +20337,6 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "8h7h"
-                },
-                {
-                  "req": "chun"
-                },
-                {
-                  "req": "myd7"
-                },
-                {
-                  "req": "rbpk"
-                },
-                {
-                  "req": "zx2a"
-                },
-                {
-                  "req": "iek5"
-                },
-                {
-                  "req": "iofn"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            },
-            {
-              "afterText": "",
               "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
@@ -20432,6 +20445,23 @@
           "template": 1,
           "text": "Now, even without the Tier-3 Raven power, you're capable of travelling to any universe I have access to, assuming you have a power that would  make it possible. (Any teleportation power that works on memories now works on memories from before you gained powers You can teleport to other worlds I have access to by accessing the medium in which the precognitive that predicted it released it in (A Harry Potter book for the Harry Potter universe, a Skyrim game for Skyrim, the One Piece anime for One Piece, etc.)",
           "title": "Homecoming"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "g184",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": true,
+          "isVisible": true,
+          "objectWidth": "col-12",
+          "requireds": [],
+          "scores": [],
+          "template": 1,
+          "text": "",
+          "title": "World Perks"
         },
         {
           "addons": [],
@@ -54621,7 +54651,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -55955,6 +55985,7 @@
           "id": "af9j",
           "image": "",
           "isActive": false,
+          "isNotSelectable": true,
           "isPrivateStyling": true,
           "isVisible": true,
           "multipleUseVariable": 0,
