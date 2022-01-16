@@ -54899,7 +54899,7 @@
             }
           ],
           "template": 1,
-          "text": "You can pick powers from the Tier 1, Tier 2, and Tier 3 sections.",
+          "text": "You can pick powers from the Tier 1, Tier 2, and Tier 3 sections. Since these powers are not tied to a Shard, they can be grown through use and creative exploration.",
           "title": "Essence of Shard (Noble)"
         },
         {
@@ -54985,7 +54985,7 @@
             }
           ],
           "template": 1,
-          "text": "You can pick powers from the Tier 2, and Tier 3 sections.",
+          "text": "You can pick powers from the Tier 2, and Tier 3 sections. Since these powers are not tied to a Shard, they can be grown through use and creative exploration.",
           "title": "Essence of Shard (Vital)"
         },
         {
@@ -55071,7 +55071,7 @@
             }
           ],
           "template": 1,
-          "text": "You can pick powers from the Tier 3 section.",
+          "text": "You can pick powers from the Tier 3 section. Since these powers are not tied to a Shard, they can be grown through use and creative exploration.",
           "title": "Essence of Shard (Normal)"
         },
         {
