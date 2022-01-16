@@ -1,5 +1,7 @@
 {
-  "activated": [],
+  "activated": [
+    ""
+  ],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -4778,7 +4780,7 @@
       "id": "4dzp",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -19625,114 +19627,6 @@
               "requireds": [],
               "showRequired": true,
               "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "8tcr"
-                },
-                {
-                  "req": "kht1"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Your family is very wealthy. If you're not a CEO, politician, lawyer, or doctor then you got the money from an inheritance, or your parents are a CEO, politician, lawyer, or doctor if you're not yet an adult. If you're an orphan, when you reach adulthood you'll get the inheritance.",
-          "title": "Wealthy"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "j4bc",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-j4bc.png",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "4950",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "icne",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
             }
           ],
           "scores": [
@@ -32911,7 +32805,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "5"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -54956,6 +54850,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
