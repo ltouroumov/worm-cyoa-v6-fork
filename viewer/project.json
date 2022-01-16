@@ -45108,29 +45108,6 @@
           "type": "or"
         },
         {
-          "afterText": "choice",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": "ou9p"
-            },
-            {
-              "req": "znp9"
-            }
-          ],
-          "reqId": "",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": false,
-          "type": "or"
-        },
-        {
           "afterText": "",
           "beforeText": "Required:",
           "id": "",
@@ -54809,7 +54786,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
