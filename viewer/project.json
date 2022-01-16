@@ -4778,7 +4778,7 @@
       "id": "4dzp",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -45085,7 +45085,7 @@
       ],
       "requireds": [
         {
-          "afterText": "choice",
+          "afterText": "",
           "beforeText": "Required:",
           "id": "",
           "operator": "",
@@ -45095,6 +45095,12 @@
             },
             {
               "req": "ttv5"
+            },
+            {
+              "req": "5g0q"
+            },
+            {
+              "req": "inxc"
             }
           ],
           "reqId": "",
@@ -45118,12 +45124,6 @@
             },
             {
               "req": "znp9"
-            },
-            {
-              "req": "5g0q"
-            },
-            {
-              "req": "inxc"
             }
           ],
           "reqId": "",
@@ -54869,6 +54869,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
