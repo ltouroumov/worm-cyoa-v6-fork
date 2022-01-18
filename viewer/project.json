@@ -43242,45 +43242,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -43307,45 +43268,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -43372,45 +43294,6 @@
               "showScore": true,
               "type": "",
               "value": "25"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -43438,45 +43321,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -43503,45 +43347,6 @@
               "showScore": true,
               "type": "",
               "value": "15"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -43599,45 +43404,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -43695,45 +43461,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -43790,45 +43517,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -43855,45 +43543,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -43921,45 +43570,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -43987,45 +43597,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44052,45 +43623,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44117,45 +43649,6 @@
               "showScore": true,
               "type": "",
               "value": "15"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44182,45 +43675,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44248,45 +43702,6 @@
               "showScore": true,
               "type": "",
               "value": "15"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44314,45 +43729,6 @@
               "showScore": true,
               "type": "",
               "value": "15"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44380,45 +43756,6 @@
               "showScore": true,
               "type": "",
               "value": "15"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44445,45 +43782,6 @@
               "showScore": true,
               "type": "",
               "value": "20"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44512,45 +43810,6 @@
               "showScore": true,
               "type": "",
               "value": "15"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44589,45 +43848,6 @@
               "showScore": false,
               "type": "",
               "value": "-18"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44733,45 +43953,6 @@
               "showScore": true,
               "type": "",
               "value": "25"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44799,45 +43980,6 @@
               "showScore": true,
               "type": "",
               "value": "25"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44865,45 +44007,6 @@
               "showScore": true,
               "type": "",
               "value": "25"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -44931,45 +44034,6 @@
               "showScore": true,
               "type": "",
               "value": "25"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -50302,45 +49366,6 @@
               "showScore": true,
               "type": "",
               "value": "30"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -50368,45 +49393,6 @@
               "showScore": true,
               "type": "",
               "value": "35"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -50434,45 +49420,6 @@
               "showScore": true,
               "type": "",
               "value": "40"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -50495,118 +49442,10 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [
-                {
-                  "afterText": "choice",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": false,
-                  "requireds": [],
-                  "showRequired": false,
-                  "type": "id"
-                }
-              ],
+              "requireds": [],
               "showScore": true,
               "type": "",
               "value": "25"
-            },
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [
-                {
-                  "afterText": "choice",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": false,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "choice",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": false,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -50633,45 +49472,6 @@
               "showScore": true,
               "type": "",
               "value": "25"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -50698,45 +49498,6 @@
               "showScore": true,
               "type": "",
               "value": "30"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -50764,45 +49525,6 @@
               "showScore": true,
               "type": "",
               "value": "30"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -50829,45 +49551,6 @@
               "showScore": true,
               "type": "",
               "value": "40"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -50894,45 +49577,6 @@
               "showScore": true,
               "type": "",
               "value": "35"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -50960,45 +49604,6 @@
               "showScore": true,
               "type": "",
               "value": "30"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -51026,45 +49631,6 @@
               "showScore": true,
               "type": "",
               "value": "35"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
