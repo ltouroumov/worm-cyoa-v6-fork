@@ -53246,7 +53246,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -54415,6 +54415,33 @@
           "template": 1,
           "text": "You become an Amazon blessed by the gods of Olympus, granting you powerful abilities.\n\nSuper strength, durability, speed, reflexes, agility and stamina. Flight, enhanced senses, accelerated healing, immortality and the ability to wield magic.",
           "title": "Amazon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hm16",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-hm16.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "Your genes are modified with Tamaranean DNA. You gain powers similar to Koriand'r (Starfire). \n\nSuper strength, durability, and stamina. Atmospheric flight, self-sustenance, energy absorption, and energy projection (starbolts).",
+          "title": "Tamaranean"
         },
         {
           "addons": [],
