@@ -37,6 +37,7 @@ class ObjectCopyTool(ToolBase, ProjectUtilsMixin):
         parser.add_argument('--from-row-id', type=str, required=True)
         parser.add_argument('--obj-id', dest='object_ids', type=str, nargs='+', action='extend', default=[])
         parser.add_argument('--obj-range', dest='object_ranges', type=str, nargs='+', action='extend', default=[])
+        parser.add_argument('--obj-all', dest='object_all', action='store_true')
 
         parser.add_argument('--dest-row-id', type=str)
         parser.add_argument('--dest-after-idx', type=int)
@@ -52,7 +53,8 @@ class ObjectCopyTool(ToolBase, ProjectUtilsMixin):
 
         objects_data = copy_objects_from_row(from_row_data,
                                              object_ids=args.object_ids,
-                                             object_ranges=args.object_ranges)
+                                             object_ranges=args.object_ranges,
+                                             object_all=args.object_all)
 
         if args.dest_row_id is not None:
             dest_row_data = find_first(self.project['rows'],
