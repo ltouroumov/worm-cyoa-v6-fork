@@ -60362,7 +60362,7 @@
       "titleText": ""
     },
     {
-      "allowedChoices": 0,
+      "allowedChoices": 1,
       "buttonId": "",
       "buttonRandom": false,
       "buttonRandomNumber": 1,
@@ -60374,7 +60374,7 @@
       "id": "m2dr",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -60659,6 +60659,7 @@
               "afterText": "SP",
               "beforeText": "Gain:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -60668,6 +60669,7 @@
               "afterText": "CP",
               "beforeText": "Gain:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -60675,65 +60677,8 @@
             }
           ],
           "template": 1,
-          "text": "Every Parahuman is sent back in time from when they died or the end of Ward back to whenever you were sent back to. They have their powers even if they didn't at the point they were sent back to. \nThe transfer is mental.\nIf they weren't born yet, they are sent back physically but appear on Earth Bet.\nYou can choose if this takes them from canon Worm/Ward or from the AU you appeared in.",
+          "text": "Every Parahuman is sent back in time from when they died or the end of Ward back to whenever you were sent back to. They have their powers even if they didn't at the point they were sent back to. \nThe transfer is mental.\nIf they weren't born yet, they are sent back physically but appear on Earth Bet.\nYou can choose if this takes them from canon Worm/Ward or from the AU you appeared in.\nAll Master Effects are cured for people sent back in time.",
           "title": "Peggy Sue"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "v5rk",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "8p7x",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "All Master Effects are cured for people sent back in time.",
-          "title": "Peggy Sue - Cured"
         },
         {
           "addons": [],
@@ -60982,7 +60927,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "4nhn",
+              "reqId": "2az0",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
