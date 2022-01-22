@@ -21454,7 +21454,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -29340,7 +29340,46 @@
           "title": "Late to the Party"
         },
         {
-          "addons": [],
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "d0mx",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "For Shardless powers, this drawback manifests in the form of an Awakening. Unlike a Trigger Event, an Awakening does not necessarily require a traumatic event. They can happen in moments of great need or in situations that would fit the mythos of an origin story.\n\n(Note: You cannot force an awakening by manufacturing those situations but being genre savvy and taking advantage of situations is allowed.)",
+              "title": "Awakening (Shardless)"
+            }
+          ],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
@@ -53246,7 +53285,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
