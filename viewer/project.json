@@ -21454,7 +21454,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -31031,7 +31031,37 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "col-sm-6",
-          "requireds": [],
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "48m6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
           "scores": [
             {
               "afterText": "SP",
@@ -61823,7 +61853,26 @@
               "type": "id"
             }
           ],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "points",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "points",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
+            }
+          ],
           "template": 1,
           "text": "With the disappearance of the Endbringers, the emperor of the CUI has decided to expand his empire. The armies of the world are mobilizing everywhere as the battle against the Chinese hegemony begins. Tinker weapons and Parahumans will define the next paradigm of warfare.\n\nIn both the US and Europe, most Parahuman organizations are folded into the military chain of command. Villains that do not lay low or join the war effort for amnesty are dealt with harshly. Despite public outcry, parahumans as young as fourteen are allowed to join.\n\nThe fate of the free world is at stake.",
           "title": "The Secret of the Swordfish"
