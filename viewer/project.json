@@ -21454,7 +21454,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -53638,7 +53638,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -54670,7 +54670,7 @@
             }
           ],
           "template": 1,
-          "text": "You have the ability to wield the Mystic Arts, you instinctively know the basics and are able to master advanced techniques with ease. You know how to build basic tools like a Sling Ring as well.\n\nWith enough time, you can achieve practically anything. Careful not to trap yourself in a time loop.",
+          "text": "You have the ability to wield the Mystic Arts, you instinctively know the basics and are able to master advanced techniques with ease. You know how to build basic tools like a Sling Ring as well.\n\nWith enough time, you can achieve practically anything. Take care when dealing with extradimensional eldritch beings.",
           "title": "Master of the Mystic Arts"
         },
         {
