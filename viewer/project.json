@@ -30613,6 +30613,321 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "vrhq",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "g1zy",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "seva",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-40"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-40"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-60"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-60"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
+            }
+          ],
+          "template": 1,
+          "text": "Contessa did not kill Eden, she only damaged the Entity's core Shards and they have been stuck in a loop ever since. In the background, automatic repair protocols were working tirelessly to bring back functionality and restore it. A few years after your arrival (2-4) the process finally completes and Eden will wake from her slumber. Cauldron will be cut from the dimensions containing Eden's corpse as the dimensional interdiction Shards activate. It will take the Entity at least six months to sort out the complete mess Cauldron has made of it, the shadowy organization did a number on the dormant Entity's network. During this time, Eden's Shards will receive several update packets and update their configurations. The ones attached to hosts will properly connect, and Case 53s will have their powers correct themselves to function as intended. Once the process is complete, Eden will appear and reconnect with Scion. The Cycle will continue.\n",
+          "title": "Not so dead after all"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "45u6",
           "image": "",
           "isActive": false,
@@ -30710,12 +31025,50 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "1175",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-40"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-40"
+            }
+          ],
+          "template": 1,
+          "text": "Whispers on the Shard Network are that someone has the [ANSWER]. Thankfully, your Shard is smart enough to not advertise that fact, the greedy little thing. As you meet more Parahumans, fight with or against them, the Network will slowly be able to discover your identity. Some Shards are smarter than other and will catch on faster, once they do they will push their host to enter into conflict with yours to acquire that sweet sweet [DATA]. Shards with a higher rank than yours will attempt to bully yours into handing over the [ANSWER]. If things go on for long enough, Scion will finally check his inbox, from this point on the golden man himself will be on your tails.\n\nFear not, however, it is still possible for you to survive the encounter depending on your relationship with your Shard. One option is to willfully become Scion's new partner, your Shard will be elevated to the rank of HUB and will be the start of a new Entity with your consciousness at the helm. There are other options as well, killing Scion will quiet things down significantly.",
+          "title": "The answer to life the universe and everything"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "gtmb",
           "image": "",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
+          "objectWidth": "col-sm-6",
           "requireds": [
             {
               "afterText": "",
@@ -54502,7 +54855,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "35"
+              "value": "30"
             }
           ],
           "template": 1,
@@ -54560,7 +54913,7 @@
             }
           ],
           "template": 1,
-          "text": "Your X-Gene is activated and your latent mutant powers awaken. The powers you gain from this are random but will at least be Alpha level.",
+          "text": "Your X-Gene is activated and your latent mutant powers awaken. The powers you gain from this are random but will at least be Alpha level and you will be able to train them through practice. You are guaranteed to not be physically mutated in an unappealing way.",
           "title": "Homo Superior"
         },
         {
@@ -54583,7 +54936,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "30"
+              "value": "10"
             }
           ],
           "template": 1,
@@ -54918,11 +55271,11 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "35"
+              "value": "25"
             }
           ],
           "template": 1,
-          "text": "You gain possession of an Omnitrix. You also gain an understanding of how to operate it.",
+          "text": "You gain possession of an Omnitrix. You also gain an understanding of how to operate it.\n\n(The Entities and Enbringers lack DNA, the Omnitrix cannot transform you into them)",
           "title": "Omnitrix"
         },
         {
