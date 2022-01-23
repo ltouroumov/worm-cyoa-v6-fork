@@ -4780,7 +4780,7 @@
       "id": "4dzp",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -4982,6 +4982,15 @@
                 },
                 {
                   "req": "axaw"
+                },
+                {
+                  "req": "5g0q"
+                },
+                {
+                  "req": "inxc"
+                },
+                {
+                  "req": "ou34"
                 }
               ],
               "reqId": "",
@@ -21454,7 +21463,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
