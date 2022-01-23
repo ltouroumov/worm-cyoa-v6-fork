@@ -53638,7 +53638,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -61155,7 +61155,7 @@
       "id": "m2dr",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -61394,7 +61394,7 @@
           ],
           "template": 1,
           "text": "Parahumans are treated much the same way that Mutants are in Marvel, with fear and disgust. Glaistig Uaine and Eidolon have teamed up to protect Parahumans from humanity.\nMany Parahumans hate humans as much as humans hate them. Because of this, no ordinary humans are allowed in their territory.\nHumans are able to go against Parahumans due to Parahumans, mostly Tinkers, who have been coerced through the government threatening their families and friends.",
-          "title": "Mutants"
+          "title": "Divided"
         },
         {
           "addons": [],
@@ -61733,6 +61733,100 @@
           "template": 1,
           "text": "Swap Taylor's power with that of another Parahuman. Mental side-effects are swapped too.",
           "title": "Powerswap"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "94ra",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "4950",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "You are Eden, partner of Scion. You wake up to find your body splattered all over a planed and most of your Shards in complete disarray. The one time you let your partner handle the Cycle to get some rest, he manages to mess up.\n\nThe cycle was not supposed to go the way it did and it's now your job to fix it, find your Shards and knock some sense into Scion.",
+          "title": "My Space Whale boyfriend is denser than a blackhole"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "zsra",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "j4fl",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "With the disappearance of the Endbringers, the emperor of the CUI has decided to expand his empire. The armies of the world are mobilizing everywhere as the battle against the Chinese hegemony begins. Tinker weapons and Parahumans will define the next paradigm of warfare.\n\nIn both the US and Europe, most Parahuman organizations are folded into the military chain of command. Villains that do not lay low or join the war effort for amnesty are dealt with harshly. Despite public outcry, parahumans as young as fourteen are allowed to join.\n\nThe fate of the free world is at stake.",
+          "title": "The Secret of the Swordfish"
         },
         {
           "addons": [],
