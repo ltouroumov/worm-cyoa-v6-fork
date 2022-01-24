@@ -4780,7 +4780,7 @@
       "id": "4dzp",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -18848,7 +18848,7 @@
       "id": "gra1",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -20474,6 +20474,71 @@
           "template": 1,
           "text": "Now, even without the Tier-3 Raven power, you're capable of travelling to any universe I have access to, assuming you have a power that would  make it possible. (Any teleportation power that works on memories now works on memories from before you gained powers You can teleport to other worlds I have access to by accessing the medium in which the precognitive that predicted it released it in (A Harry Potter book for the Harry Potter universe, a Skyrim game for Skyrim, the One Piece anime for One Piece, etc.)",
           "title": "Homecoming"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ws1y",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "4950",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Good news, your Tinker-tech is not black-boxed. The principles behind your tech can be understood and reproduced by scientists.\nBad news, your Tinker-tech is not black-boxed. A lot of people will want to know you.",
+          "title": "White-box Tech"
         },
         {
           "addons": [],
@@ -43922,7 +43987,7 @@
             }
           ],
           "template": 1,
-          "text": "You have the body of an Endbringer. While you still look human, your body is extremely dense and has a core. If the core is destroyed, you die. You're very durable, strong, and fast now. All your powers are slightly stronger.",
+          "text": "You have the body of an Endbringer. While you still look human, your body is extremely dense and has a core. If the core is destroyed, you die. You're very durable, strong, and fast now.\n\nAll your powers are 25% stronger. Powers that do not have variable components (radius, duration, charges, etc...) are not affected.",
           "title": "(Brute) Endbringer"
         },
         {
@@ -44381,11 +44446,11 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "25"
+              "value": "20"
             }
           ],
           "template": 1,
-          "text": "You are completely and absolutely invulnerable and immune to harm. No effect or force can negatively effect you physically, regardless of its nature. This extends even to the functions of your own body, meaning that you never tire, require no sustenance (air included), and even negative mental effects are limited to the point that you don't have to worry about stress doing permanent mental harm. Even sleep is just for pleasure or relaxation rather then a need to refresh yourself.\n\nYou have almost limitless amounts of strength and can fly and move at hyper sonic speeds, with perfect maneuverability and reaction time to match. You can see and hear at extreme distances, even if doing so should otherwise be impossible. Your mind is enhanced just like your body, skyrocketing your mental capabilities to superhuman levels, with an absolutely perfect memory.\n\nThe field that pervades your body providing these abilities also extends itself to things you are touching, letting you ignore the effects of physics when you apply your strength and speed. You have more leverage then should be possible when you grab something, exert immense force with minor motions, large objects don't collapse under their own weight, and catching or carrying people at extreme speeds won't harm them. You are an unstoppable force and an immovable object.",
+          "text": "You are nearly invulnerable. No effect or force can negatively effect you physically except for Sting or the Siberian. This extends even to the functions of your own body, meaning that you never tire, require no sustenance (air included), and even negative mental effects are limited to the point that you don't have to worry about stress doing permanent mental harm. Even sleep is just for pleasure or relaxation rather then a need to refresh yourself.\n\nYou have almost incredible amounts of strength and can fly and move at super sonic speeds, with perfect maneuverability and reaction time to match. Your mind is enhanced just like your body, skyrocketing your mental capabilities to superhuman levels, with an absolutely perfect memory.\n\nThe field that pervades your body providing these abilities also extends itself to things you are touching, letting you ignore the effects of physics when you apply your strength and speed. You have more leverage then should be possible when you grab something, exert immense force with minor motions, large objects don't collapse under their own weight, and catching or carrying people at extreme speeds won't harm them. You are an unstoppable force and an immovable object.",
           "title": "(Brute/Mover/Thinker) Alexandria"
         },
         {
@@ -44408,7 +44473,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "25"
+              "value": "20"
             }
           ],
           "template": 1,
@@ -44441,6 +44506,32 @@
           "template": 1,
           "text": "In a radius of 50 meters around you, with nothing but your will alone you are capable of shaping the physical world. Moving objects, generating and manipulating all forms of energy or matter, or even creating psychic constructs.\n\nThe world is a vast ocean of vibration, matter, and energy to your senses, and all it takes is a thought to send it moving according to your wishes. Complex systems such as biology and technology will require a great deal of practice before you can reliably work them the same way you would matter and energy, with other powers here being far better at doing so and developing faster.",
           "title": "(Shaker/Thinker) Psychokinesis"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ri0t",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-ri0t.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You can make portals to anywhere you've seen since triggering, even if only through pictures or videos. As many as you want, and anything that passes through one keeps all its momentum. ",
+          "title": "(Mover) Door Me"
         }
       ],
       "requireds": [
@@ -49853,58 +49944,6 @@
           "template": 1,
           "text": "You can infuse anything you can touch, any projectile you fire, or any power you manifest, with the ability to ignore select laws of physics, including the ability to pass through anything. These will not pass through your own body unless you will them to. You cannot empower yourself with this. Along with this ability, you also have an intuitive understanding of angles, trajectories, as well as an enhanced sense of timing. ",
           "title": "(Blaster/Striker) Sting"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ri0t",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-ri0t.jpeg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "25"
-            }
-          ],
-          "template": 1,
-          "text": "You can make portals to anywhere you've seen since triggering, even if only through pictures or videos. As many as you want, and anything that passes through one keeps all its momentum. ",
-          "title": "(Mover) Door Me"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "w6xe",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-w6xe.jpeg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "30"
-            }
-          ],
-          "template": 1,
-          "text": "You are immortal, invulnerable, inviolable. You no longer age. Until your power runs out of juice, you cannot die. The exception to this is if your Corona Pollentia and Corona Gemma are near-simultaneously destroyed. You are immune to knockback but you do not necessarily have super strength, speed, flight, or an enhanced mind. They cannot be destroyed through physical force, but certain powers could destroy them. I suggest you don't take this if you're an age you wouldn't want to stay for the rest of your unnaturally long life. Flechette can hurt you, but you regenerate near-instantaneously from her attacks. If an Endbringer punched you with full-force, their hand would get destroyed by it.",
-          "title": "(Brute/Breaker) Immortal"
         },
         {
           "addons": [],
@@ -61165,7 +61204,7 @@
       "id": "m2dr",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
