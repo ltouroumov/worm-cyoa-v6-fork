@@ -18848,7 +18848,7 @@
       "id": "gra1",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -49831,7 +49831,7 @@
       "id": "e018",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -50022,7 +50022,7 @@
           ],
           "template": 1,
           "text": "Your whole body is a door to a pocket dimension. Your surface is a semipermeable membrane, you can choose what can pass and what can't. You can shift your shape, and using materials similar to skin, you can make yourself appear human. You can sound like whatever you want. If you let everything in, you become a very powerful vacuum. If you want you can just walk through anything. You are completely invincible from all physical attacks, including Sting.",
-          "title": "(Shaker) And the Void Stares Back"
+          "title": "(Breaker) And the Void Stares Back"
         },
         {
           "addons": [],
