@@ -119,7 +119,7 @@ class ObjectMoveTool(ToolBase, ProjectUtilsMixin):
         parser.add_argument('--from-row', type=str, required=True)
         parser.add_argument('--dest-row', type=str, required=True)
         parser.add_argument('--dest-after-idx', type=int)
-        parser.add_argument('--dest-after-obj', type=int)
+        parser.add_argument('--dest-after-obj', type=str)
         parser.add_argument('--obj-id', dest='object_ids', type=str, nargs='+', action='extend', default=[])
         parser.add_argument('--obj-all', dest='object_all', action='store_true')
 
