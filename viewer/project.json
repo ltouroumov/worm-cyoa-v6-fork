@@ -5105,7 +5105,7 @@
           "scores": [],
           "template": 1,
           "text": "",
-          "title": "Combo Powers"
+          "title": "Combo Powers & Upgrades"
         },
         {
           "addons": [],
@@ -46866,7 +46866,7 @@
       "id": "wy6p",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -49831,7 +49831,7 @@
       "id": "e018",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -52432,63 +52432,6 @@
           "title": "Dust Weaponry"
         },
         {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "8pxm",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "cpi7",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "You have five save points instead of one. You can set up an auto-save in one of the slots, by default it will save every day when you go to sleep or at midnight.",
-          "title": "Multiple Save Slots"
-        },
-        {
           "addons": [
             {
               "id": "",
@@ -52647,60 +52590,6 @@
           "template": 1,
           "text": "<i>Soulmate</i> is integrated into the Gamer system, allowing you to create a party an invite members. You start with one party slot and get a new slot every 10 levels.\n\nParty members can use the Gamer system as you would as long as they are in the party. Their own powers (if they have any) are integrated into the system. You can share weakened versions of your own powers with them.",
           "title": "Four is a Party"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "7te8",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-7te8.jpeg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "col-sm-6",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "y407"
-                },
-                {
-                  "req": "h8sf"
-                },
-                {
-                  "req": "bztm"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "Your Arcanist, Artificer, and Alchemist are upgraded to the next level.\n\nYou access to more magic systems as well as the ability to design your own. Your energy pool and recharge rate are multiplied by 10. Your spells are no longer limited in strength.\n\nYour enchantment cap is raised to five and you generate 6 more charges per day.\n\nYou can create potions that can have permanent effect on the drinker. You can transmute metamaterials that are more easily enchanted, or that can conduct, store, or enhance spells, as well as various power-like effects.\n\nWith this, you could potentially destroy an Entity if you put your mind to it.",
-          "title": "Archmage"
         },
         {
           "addons": [
@@ -53122,6 +53011,410 @@
       "template": "1",
       "title": "Combo Powers",
       "titleText": "Sometimes when you have multiple powers they'll combine into something stronger."
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "hd9l",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": true,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-4",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "nchz",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-nchz.png",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "jfkd",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "13"
+            }
+          ],
+          "template": 1,
+          "text": "Your new Friends can now have either 3 powers that cost up to 5 SP, two powers that cost up to and 10 SP, or a single power that costs up to 15SP. (You can only choose powers from the Tier 2 section if you have the appropriate Shard rank.) \n\nThe can also have flight for free at their ground speed. If one of your Friends is destroyed, you can choose to have them revive instead of creating a new one. When a new Friend is created, you can choose their appearance and powers.\n\nOnce a Friend is created, it is not possible to modify their powers unless you have a Trump ability that allows you to transfer powers between individuals.",
+          "title": "Improved Friends"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8pxm",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "cpi7",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have five save points instead of one. You can set up an auto-save in one of the slots, by default it will save every day when you go to sleep or at midnight.",
+          "title": "Multiple Save Slots"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7te8",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-7te8.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "y407"
+                },
+                {
+                  "req": "h8sf"
+                },
+                {
+                  "req": "bztm"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Your Arcanist, Artificer, and Alchemist are upgraded to the next level.\n\nYou access to more magic systems as well as the ability to design your own. Your energy pool and recharge rate are multiplied by 10. Your spells are no longer limited in strength.\n\nYour enchantment cap is raised to five and you generate 6 more charges per day.\n\nYou can create potions that can have permanent effect on the drinker. You can transmute metamaterials that are more easily enchanted, or that can conduct, store, or enhance spells, as well as various power-like effects.\n\nWith this, you could potentially destroy an Entity if you put your mind to it.",
+          "title": "Archmage"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "piiq"
+            },
+            {
+              "req": "znp9"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
+        },
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "4950",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": false,
+          "requireds": [],
+          "showRequired": false,
+          "type": "id"
+        }
+      ],
+      "resultGroupId": "",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#000000FF",
+        "objectBgColorIsOn": true,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#000000FF",
+        "rowBgColorIsOn": true,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "#FFEEDDFF",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": "0",
+        "rowBorderRadiusBottomRight": "0",
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": "0",
+        "rowBorderRadiusTopRight": "0",
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDesignIsAdvanced": false,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "#FFFFEEFF",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "#FFEEDDFF",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowImgOverflowIsOn": false,
+        "rowMargin": "5",
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Upgrades",
+      "titleText": "These powers upgrade existing powers (or multiple powers of the same lineage) into a more powerful form."
     },
     {
       "allowedChoices": 0,
@@ -61192,7 +61485,7 @@
       "titleText": ""
     },
     {
-      "allowedChoices": 1,
+      "allowedChoices": 0,
       "buttonId": "",
       "buttonRandom": false,
       "buttonRandomNumber": 1,
@@ -61231,7 +61524,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-7"
+              "value": "-10"
             }
           ],
           "template": 1,
@@ -61285,7 +61578,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "4"
+              "value": "5"
             }
           ],
           "template": 1,
@@ -61306,13 +61599,13 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "SP",
+              "afterText": "CP",
               "beforeText": "Cost:",
-              "id": "rm",
+              "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "3"
+              "value": "5"
             }
           ],
           "template": 1,
@@ -61333,13 +61626,13 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "SP",
+              "afterText": "CP",
               "beforeText": "Cost:",
-              "id": "rm",
+              "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "4"
+              "value": "5"
             }
           ],
           "template": 1,
@@ -61360,13 +61653,13 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "SP",
+              "afterText": "CP",
               "beforeText": "Cost:",
               "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "14"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -61459,13 +61752,13 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "SP",
+              "afterText": "CP",
               "beforeText": "Cost:",
-              "id": "rm",
+              "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -61557,7 +61850,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-12"
+              "value": "-15"
             }
           ],
           "template": 1,
@@ -61578,13 +61871,13 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "SP",
+              "afterText": "CP",
               "beforeText": "Cost:",
-              "id": "rm",
+              "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "8"
+              "value": "10"
             }
           ],
           "template": 1,
@@ -61605,13 +61898,13 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "SP",
+              "afterText": "CP",
               "beforeText": "Cost:",
-              "id": "rm",
+              "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "7"
+              "value": "5"
             }
           ],
           "template": 1,
@@ -61632,13 +61925,13 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "SP",
+              "afterText": "CP",
               "beforeText": "Cost:",
-              "id": "rm",
+              "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "20"
             }
           ],
           "template": 1,
@@ -61659,13 +61952,13 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "SP",
+              "afterText": "CP",
               "beforeText": "Gain:",
-              "id": "rm",
+              "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-4"
+              "value": "-5"
             }
           ],
           "template": 1,
@@ -61797,7 +62090,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Incompatible:",
+              "beforeText": "Required:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -61819,7 +62112,7 @@
               "reqId2": "",
               "reqId3": "",
               "reqPoints": 0,
-              "required": false,
+              "required": true,
               "requireds": [],
               "showRequired": true,
               "type": "id"
@@ -61874,7 +62167,7 @@
           ],
           "scores": [
             {
-              "afterText": "points",
+              "afterText": "SP",
               "beforeText": "Gain:",
               "id": "rm",
               "requireds": [],
@@ -61883,7 +62176,7 @@
               "value": "-15"
             },
             {
-              "afterText": "points",
+              "afterText": "CP",
               "beforeText": "Gain:",
               "id": "2b",
               "requireds": [],
@@ -61895,6 +62188,60 @@
           "template": 1,
           "text": "With the disappearance of the Endbringers, the emperor of the CUI has decided to expand his empire. The armies of the world are mobilizing everywhere as the battle against the Chinese hegemony begins. Tinker weapons and Parahumans will define the next paradigm of warfare.\n\nIn both the US and Europe, most Parahuman organizations are folded into the military chain of command. Villains that do not lay low or join the war effort for amnesty are dealt with harshly. Despite public outcry, parahumans as young as fourteen are allowed to join.\n\nThe fate of the free world is at stake.",
           "title": "The Secret of the Swordfish"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "u1p8",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "This world is ... strange. \n\nMost of the world's Parahuman population are women, less than 1% of Triggers are men. Most of the canon characters have mysteriously changed to match. Parahuman crime is prevalent but somehow softer (as if you had the Cops and Robber and Benign choices from this section).\n\nWhen a Parahuman Triggers, their appearance changes to make them more attractive. This manifests by smoothing out imperfections and changing the body towards a more ideal state. Nearly all Parahumans look like actors or models after a round with Photoshop (you are affected by this as well). Due to this, a large amount of Parahumans have paper thin secret identities. Case 53s are all unusually attractive as well despite their monstrous appearance.\n\nDotted all over the world are Elite Parahuman Academies, of which Arcadia High in Brockton Bay is part of, which provide young Parahumans with a number of hero courses in addition to the normal one offered in most schools. These academies all have a large number of clubs, the Hero club being the most popular, as well as a strangely powerful student council. The uniform is also mandatory, and has uncomfortable short skirts even in the dead of winter. It is rumored that Villains have a secret academy as well.\n\nWhile the Endbringers still exist they are less of an existential threat to civilization, still as hard to kill however. Scion will go nuts at some point but his defeat (one way or another) is more or less assured. \n\n(This alternate world runs on Anime logic, prepare for a lot of shenanigans)",
+          "title": "High School Worm x Worm"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "2gzs",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Somehow, everyone are ponies. Cartoon ponies. How does that even work? Hell if I know. \n\nThe world does seem a little more peaceful, however, as if you had the Cops and Robber and Benign choices from this section. ",
+          "title": "My Little Parahuman, Conflict is Magic!"
         },
         {
           "addons": [],
@@ -62506,8 +62853,8 @@
         "selFilterSepiaIsOn": false
       },
       "template": "1",
-      "title": "Alternate Continuities",
-      "titleText": "Alternate continuities available for Earth Bet"
+      "title": "Alternate Continuity Modifiers",
+      "titleText": "These choices modify the Earth Bet you will be landing on. You can pick as many as you want, even incompatible ones. If you pick too many incompatible drawbacks, your risk the corruption of the timeline and it's eventual complete destabilization (i.e. it ceases to exist). "
     },
     {
       "allowedChoices": 0,
