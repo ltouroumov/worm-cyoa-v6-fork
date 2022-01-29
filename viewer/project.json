@@ -1,7 +1,5 @@
 {
-  "activated": [
-    ""
-  ],
+  "activated": [],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -40136,6 +40134,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -40143,7 +40142,7 @@
             }
           ],
           "template": 1,
-          "text": "Within 20 meters of yourself, you can cast one effect every 5 seconds. With the exception of Eldritch Blast, these effects can be cast discretely. You cannot cast any of these effects on yourself.\nAll blessings that stack can only stack up to 10 times.\nThe effects are the following:\n- Eldritch Blast: A Blaster power that can be released from anywhere in your field. When it hits its target it'll harm them as much as a full-power punch from you. However, every time you win a battle you'll be able to apply an extra 1% of force. This 1% is additive, so if you win 100 battles you'll be able to apply 200% of your strength with an Eldritch Blast.\nPurify: This cures sickness and poisons, stops bleeding, and sanitizes wounds. This works on cancer. This only works on a single person at a time.\nStaunch: Stops all bleeding in your range for 30 seconds.\nHeal: Fully heals the target of all injuries. While it doesn't cure you of illnesses, genetic or otherwise, it does cure the symptoms.\nRegeneration: You can give a person 5 minutes of high-speed regeneration. The speed at which a targeted person regenerates is visible, but only barely. This effect stacks, so if you apply it on a person 3 times in a row, they'd have 5 minutes of regeneration. This makes cancer worse.\nIron-Skin: You can give someone extremely durable and shock resistant skin for 5 minutes. This effect stacks.\nBlessing: You can give a person incredible resistance to anything that resembles (or actually is) something unholy. Anything unholy or that resembles the unholy has a weakness to people with Blessing cast on them. The Blessing is strong enough that Armsmaster would be able to definitively kill Leviathan (Who is unholy, as an Eldritch Mostrosity).\nEnhance Speed: You can double someone's max speed for five minutes. This effect stacks.\nEnhance Strength: You can double someone's max strength for five minutes. This effect stacks.\nEnhance Dexterity: You can double someone's dexterity for five minutes. This effect stacks.\nEnhance Intelligence: You can double someone's intelligence for five minutes. This effect stacks.\nEnhance Charisma: You can double someone's charisma for five minutes. This effect stacks.\nEnhance Luck: You can double someone's good luck for five minutes. This effect stacks.\nBad Luck Curse: You can double someone's bad luck for five minutes. This effect stacks.\nSticky Web: You can half someone's speed for five minutes. This effect stacks.\nWeight of Atlas: You can half someone's strength for five minutes. This effect stacks.\nLight Weight: You can half someone's durability for five minutes. This effect stacks.\nKlutz: You can half someone's dexterity for five minutes. This effect stacks.\nFool's Errand: You can half someone's intelligence OR wisdom for five minutes. This effect stacks.\nElemental Breath: You can give someone resistance to an element as well as mid-level Shaker control over said element.\nUndo: Undo all active Parahuman effects on a person, aside from those that are part of their power.\nRebuff: Undo all passive Parahuman effects on a person, aside from those that are part of their power.\nReject: Undo all Parahuman effects on a person, regardless of whether they are active, passive, or part of their power. This does not remove their power.\nRemove: Undo all Parahuman effects on a person, regardless of whether they are active, passive, or part of their power. This removes their power. You absorb an energy ball with their power stored in it.\nTransfer: You can transfer an energy ball with a power stored in it to another person. The power will act similar to a Cauldron power, not giving them instinctive knowledge on how to use the power, but not messing with their mind either.",
+          "text": "Within 20 meters of yourself, you can cast one effect every 5 seconds. Except for Smite, these effects can be cast discretely. You cannot cast any of these effects on yourself. All effects that stack can only stack up to 10 times, they are marked with an (S).\n\n<b>Smite</b> - A Blaster power that can be released from anywhere in your field. When it hits its target it'll harm them as much as a full-power punch from you. However, every time you win a battle you'll be able to apply an extra 1% of force. This 1% is additive, so if you win 100 battles you'll be able to apply 200% of your strength with Smite.\n<b>Purify</b> - This cures sickness and poisons, stops bleeding, and sanitizes wounds. This works on cancer. This only works on a single person at a time.\n<b>Staunch</b> - Stops all bleeding in your range for 30 seconds.\n<b>Heal</b> - Fully heals the target of all injuries. While it doesn't cure you of illnesses, genetic or otherwise, it does cure the symptoms.\n<b>Regeneration</b> - You can give a person 5 minutes of high-speed regeneration. The speed at which a targeted person regenerates is visible, but only barely. This effect stacks, so if you apply it on a person 3 times in a row, they'd have 5 minutes of regeneration. This makes cancer worse.\n<b>Bless</b> - You can give a person incredible resistance to anything that resembles (or actually is) something unholy. Anything unholy or that resembles the unholy has a weakness to people with Blessing cast on them. The Blessing is strong enough that Armsmaster would be able to definitively kill Leviathan (Who is unholy, as an Eldritch Monstrosity).\n<b>Iron-Skin (S)</b> - You can give someone extremely durable and shock resistant skin for 5 minutes.\n<b>Enhance Speed (S)</b>, <b>Enhance Strength(S)</b>, <b>Enhance Dexterity (S)</b>, <b>Enhance Intelligence (S)</b>, <b>Enhance Charisma (S)</b>, <b>Enhance Luck (S)</b> - You can double any of these characteristics for five minutes.\n<b>Curse Speed (S)</b>, <b>Curse Strength (S)</b>, <b>Curse Dexterity (S)</b>, <b>Curse Intelligence (S)</b>, <b>Curse Charisma (S)</b>, <b>Curse Luck (S)</b> - You can half any of these characteristics for five minutes. For luck, this effectively doubles their bad luck.\n<b>Elemental Breath</b> - You can give someone resistance to an element as well as mid-level Shaker control over said element.\n<b>Undo</b> - Undo all active Parahuman effects on a person, aside from those that are part of their power.\n<b>Rebuff</b> - Undo all passive Parahuman effects on a person, aside from those that are part of their power.\n<b>Reject</b> - Undo all Parahuman effects on a person, regardless of whether they are active, passive, or part of their power. This does not remove their power.\n<b>Remove</b> - Undo all Parahuman effects on a person, regardless of whether they are active, passive, or part of their power. This removes their power. You absorb an energy ball with their power stored in it.\n<b>Transfer</b> - You can transfer an energy ball with a power stored in it to another person. The power will act similar to a Cauldron power, not giving them instinctive knowledge on how to use the power, but not messing with their mind either.",
           "title": "(Trump/Shaker) Don't mess with a white mage"
         },
         {
@@ -46769,7 +46768,7 @@
       "id": "wy6p",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -52928,7 +52927,7 @@
       "id": "hd9l",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -53158,7 +53157,7 @@
           "type": "id"
         }
       ],
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "styling": {
         "addonText": "Times New Roman",
         "addonTextAlign": "center",
@@ -61400,7 +61399,7 @@
       "id": "m2dr",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
