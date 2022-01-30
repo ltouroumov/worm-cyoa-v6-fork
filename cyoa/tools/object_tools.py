@@ -12,6 +12,7 @@ class ObjectListTool(ToolBase, ProjectUtilsMixin):
         parser = parent.add_parser(cls.name, help='List all objects in a row')
         parser.add_argument('--project', dest='project_file', type=Path, required=True)
         parser.add_argument('--row-id', type=str, required=True)
+        parser.add_argument('--csv', action='store_true')
 
     def run(self, args):
         self._load_project(args.project_file)

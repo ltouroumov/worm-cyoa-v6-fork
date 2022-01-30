@@ -58551,7 +58551,7 @@
       "id": "xrq4",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -59072,7 +59072,7 @@
             }
           ],
           "template": 1,
-          "text": "You will, sometime in the near future, receive a full copy of all Wildbow's predictions on your cellphone, laptop, or desktop.\nThe file is protected against basic hacking but it won't hold off a dedicated Tinker, Thinker, or master hacker.",
+          "text": "You will, sometime in the near future, receive a full copy of all Wildbow's predictions on one of your digital devices.\nThe file is protected against basic hacking but it won't hold off a dedicated Tinker, Thinker, or master hacker.",
           "title": "Backup"
         },
         {
@@ -65206,7 +65206,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-1"
+              "value": "1"
             }
           ],
           "template": 1,
