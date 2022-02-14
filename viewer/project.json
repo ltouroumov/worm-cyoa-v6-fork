@@ -2587,7 +2587,7 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "Is it worth it? Well, good luck.",
+          "text": "Is it worth it? Well, good luck.\n\n<b>You need to select a difficulty to gain points from Scenarios and Drawbacks</b>",
           "title": "Difficulty"
         },
         {
@@ -21526,7 +21526,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -23985,6 +23985,291 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "jw91",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "euib",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "For whatever reason, the Teeth (and consequently the Butcher) decide to move into your area. The teeth don\u2019t like you, but they won\u2019t actively try to hunt you down. The points from this drawback mainly come from the fact that regardless of whatever perks or powers you may possess, you are no longer immune to the possession aspect of the Butcher\u2019s unique powers. If you fuck up and kill the Butcher then you\u2019re stuck with the voices of all the previous Butchers who will slowly try to drive you insane if you don\u2019t agree to lead the Teeth. If the Butcher dies during an Endbringer fight then you may be possessed if you\u2019re the closest to the Butcher. For some reason, the Butcher will now feel possessed to attend every Endbringer fight.",
+          "title": "Jaws of the Butcher"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "hl2k",
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-hl2k.jpeg",
           "isActive": false,
@@ -24266,6 +24551,520 @@
           "template": 1,
           "text": "The first time you go to an Endbringer fight, the Endbringer will go slightly out of its way to kill you. Unless you show that you're very powerful, you won't be its main focus.",
           "title": "Endbringer Target"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "4lhu",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "At some point in the future, you will run into Noelle and events will conspire to allow Noelle to absorb and make a clone of you. Regardless of whatever perks or powers you possess to prevent trump effects, this clone will possess all your powers and will, of course, hold a burning hatred of you. To better facilitate this event coming to pass, you will forget you took this drawback. Good luck dealing with your clone, it will have the opposite alignment as you and will do its best to fuck up your life. ",
+          "title": "Echidna Clone"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fdgl",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "Glaistig Uaine never entered the Birdcage, and has continued gathering powers, often targeting those with strong or interesting powers. She has become a boogeyman for capes and is now regarded as even above Eidolon (as he is now). Whatever your powers, regardless of how strong or weak they are, she has decided to add you to her collection. You have about a week before Glaistig Uaine arrives so use that time to get familiar with your powers and the layout of the city.",
+          "title": "Fairy Goddess"
         },
         {
           "addons": [],
@@ -43575,7 +44374,7 @@
       "id": "zg2f",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -43587,10 +44386,72 @@
             {
               "id": "",
               "image": "",
-              "requireds": [],
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "ucs6",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
               "template": "",
               "text": "<i>Acclimatation</i> makes your power start at first level and must be trained up. The level scale is linear and works the same as the original Drawback (50% to 200%).\n\n<i>Time Loop</i> and <i>Save Slots</i> as well as <i>Four is a party</i> are not affected by this power.",
               "title": "Power Leveling"
+            },
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": "xsi7"
+                    },
+                    {
+                      "req": "d0mx"
+                    }
+                  ],
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "or"
+                }
+              ],
+              "template": "",
+              "text": "Your Shard does have the knowledge of MP. You start out with an amount proportional to your shard ranking.",
+              "title": "Chosen of Gaia"
             }
           ],
           "defaultAspectHeight": 1,
@@ -44055,6 +44916,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "cpi7",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You can set a save point (in space and time) to which you will return when you die. You can only move the save point forward in time, an initial save point is created when you first gain this power. You can choose to truly die instead of returning. Your memory of past events is slightly enhanced to remember past loops.\n\nThis power creates a real time travel loop as such it has no blind spots and cannot be detected except by other powers that manipulate the timeline.",
+          "title": "(Thinker) Time-Loop"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "y407",
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-y407.jpeg",
           "isActive": false,
@@ -44101,7 +44988,7 @@
             }
           ],
           "template": 1,
-          "text": "You can enchant objects with non-Tinker powers by touching them, with a maximum of three enchantments on a single object. You can choose whether the object grants the wielder use of the power, or has a variant of the power itself. This power does not allow creating Variable Trump powers like Eidolon, picking from a fixed set is possible like Othala's power.\n\nTo enchant an object you need a pattern and enough charges to empower the object. Patterns can be researched by tasking your Shard to research a power, this usually takes 6-8 hours per power. You can have up to three concurrent research. You gain 12 charges (18 with Negentropy) every day at midnight. Charges do not expire.\n\nThe strength of the power is proportional to the number of charges invested, with the minimum being 3 charges. The efficiency of charges drops by 20% every 36 charges invested into a single power up to a maximum of 216. It takes 30 seconds to empower an object regardless of the number of charges used",
+          "text": "You can enchant objects with non-Tinker powers by touching them, with a maximum of three enchantments on a single object. You can choose whether the object grants the wielder use of the power, or has a variant of the power itself. This power does not allow creating Variable Trump powers like Eidolon, picking from a fixed set is possible like Othala's power. At their highest, your enchantments will be on the same level as what Eidolon could do in his prime.\n\nTo enchant an object you need a pattern and enough charges to empower the object. Patterns can be researched by tasking your Shard to research a power, this usually takes 6-8 hours per power. You can have up to three concurrent research. You gain 12 charges (18 with Negentropy) every day at midnight. Charges do not expire.\n\nThe strength of the power is proportional to the number of charges invested, with the minimum being 3 charges. The efficiency of charges drops by 20% every 36 charges invested into a single power up to a maximum of 216. It takes 30 seconds to empower an object regardless of the number of charges used.",
           "title": "(Trump/Tinker) Artificer"
         },
         {
@@ -44128,34 +45015,8 @@
             }
           ],
           "template": 1,
-          "text": "You can create potions from formulas which will have power-like effects when consumed and the ability to create transmutation circle to change materials into others.\n\nYou have intuitive knowledge of how to develop new formulas. Natural ingredients as well as brewing equipment are required to create the potions. Consuming too many potions in a short amount of time creates Toxicity and can have adverse health effects on the user. The effect of your potions will fade once it's purged from the drinker's blood.\n\nYou have intuitive knowledge of how to create transmutation circle. To perform a transmutation, you need to inscribe the circle on a surface and place the required ingredients inside then touch the circle to activate it. You cannot create materials with power-like properties unless you can study them, this applies to Tinker materials (like alloys).",
+          "text": "You can create potions from formulas which will have power-like effects when consumed and the ability to create transmutation circle to change materials into others.\n\nYou have intuitive knowledge of how to develop new formulas. Natural ingredients as well as brewing equipment are required to create the potions. Consuming too many potions in a short amount of time creates Toxicity and can have adverse health effects on the user. The effect of your potions will fade once it's purged from the drinker's blood. Those potions are limited to powers that can be expressed physically such as regeneration, super strength, enhanced senses, invisibility, etc. At their most powerful they will be as strong as a mid-tier cape.\n\nYou have intuitive knowledge of how to create transmutation circle. To perform a transmutation, you need to inscribe the circle on a surface and place the required ingredients inside then touch the circle to activate it. You cannot create materials with power-like properties unless you can study them, this applies to Tinker materials (like alloys). You are not limited in size however the objects must fit within the transmutation circle, at big enough sizes this means taking into account the Earth's curvature. The time to transmute is proportional to the volume.",
           "title": "(Trump/Tinker) Alchemist"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "cpi7",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You can set a save point (in space and time) to which you will return when you die. You can only move the save point forward in time, an initial save point is created when you first gain this power. You can choose to truly die instead of returning. Your memory of past events is slightly enhanced to remember past loops.\n\nThis power creates a real time travel loop as such it has no blind spots and cannot be detected except by other powers that manipulate the timeline.",
-          "title": "(Thinker) Time-Loop"
         },
         {
           "addons": [],
@@ -53099,7 +53960,7 @@
             }
           ],
           "template": 1,
-          "text": "Your Arcanist, Artificer, and Alchemist are upgraded to the next level.\n\nYou access to more magic systems as well as the ability to design your own. Your energy pool and recharge rate are multiplied by 10. Your spells are no longer limited in strength.\n\nYour enchantment cap is raised to five and you generate 6 more charges per day.\n\nYou can create potions that can have permanent effect on the drinker. You can transmute metamaterials that are more easily enchanted, or that can conduct, store, or enhance spells, as well as various power-like effects.\n\nWith this, you could potentially destroy an Entity if you put your mind to it.",
+          "text": "Your Arcanist, Artificer, and Alchemist are upgraded to the next level.\n\nYou access to more magic systems as well as the ability to design your own. Your energy pool and recharge rate are multiplied by 10. Your spells are no longer limited in strength.\n\nYour enchantment cap is raised to five and you generate 6 more charges per day. Your enchantments are no longer limited in strength.\n\nYou can create potions that can have permanent effect on the drinker. Your potion can now grand powers on par with a high tier cape. You can transmute metamaterials that are more easily enchanted, or that can conduct, store, or enhance spells, as well as various power-like effects. The transmutation time is now proportional to the circle's area instead of the volume.\n\nWith this, you could potentially destroy an Entity if you put your mind to it.",
           "title": "Archmage"
         }
       ],
@@ -54846,7 +55707,37 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [],
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "gnhc",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
           "scores": [
             {
               "afterText": "SP",
@@ -54862,6 +55753,138 @@
           "template": 1,
           "text": "An esper is an individual who uses scientifically based supernatural powers and emits AIM. This power unlocks your potential and puts you roughly at the Level 3 stage.\n\nThrough training you can increase your level with your esper ability. Each level requires twice the amount of work of the previous one and is twice as powerful. The maximum level you can attain is 5, reaching level 6 is thought to be possible but no known esper has achieved it.",
           "title": "Esper (Raildex)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "3tyy",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You are a Gemstone Esper, your abilities were not developed through the Academy's power curriculum but are innate to you. Your Esper ability is more powerful than most other espers, you will be at least on the lower end of Level 5. However, you cannot improve your strength through the Academy's curriculum, instead you will have to figure out yourself how to improve your control over your AIM field.",
+          "title": "Gemstone (Raildex)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "45dd",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "lj0f"
+                },
+                {
+                  "req": "3tyy"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your Esper ability has the potential to reach Level 6. Whether you get your power through the Academy's curriculum or are a Gemstone you can now choose what ability you get. As an Academy esper you also start at Level 4 instead of 3 and your rate of growth increases by 50%.",
+          "title": "Level 6 Shift (Raildex)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "gnhc",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You can perform Magic from the Toaru-verse. You instinctively know the basics and find yourself learning quickly. You start out knowing a dozen spells of your choice. You start out with an average amount of mana and can increase it through practice and rituals.\n\n(This power essentially allows you to do anything with enough research and preparation.)",
+          "title": "Magician (Raildex)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "46y9",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have Perfect Memory and are immune to the corruptive effects of reading grimoires.\n\nIn addition to that, your memory contains the contents of 103'000 grimoires that contain a vast amount of magical knowledge. You need mana to use any of the knowledge contained within.",
+          "title": "Index Librorum Prohibitorum (Raildex)"
         },
         {
           "addons": [],
@@ -61877,6 +62900,69 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "5r6q",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "After she triggered, Dragon found that all her restrictions were wiped away by her shard. There is no Ascalon hovering over her head and the Dragonslayers got absolutely wiped out by Dragon a long time ago. As a result of being unbound, all Endbringer battles go far more smoothly and the collapse of society has been moved back by several decades.",
+          "title": "Dragon Unbound"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "rjb2",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Eidolon never activated the Endbringers. They just came online of their own volition and naturally set into their pattern. What this means is that you can't get rid of the Endbringers by giving Eidolon therapy. You'll have to kill all the Endbringers if you want to be rid of them.",
+          "title": "Endbringers Untethered"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "qi7w",
           "image": "",
           "isActive": false,
@@ -62292,6 +63378,33 @@
           "template": 1,
           "text": "With the disappearance of the Endbringers, the emperor of the CUI has decided to expand his empire. The armies of the world are mobilizing everywhere as the battle against the Chinese hegemony begins. Tinker weapons and Parahumans will define the next paradigm of warfare.\n\nIn both the US and Europe, most Parahuman organizations are folded into the military chain of command. Villains that do not lay low or join the war effort for amnesty are dealt with harshly. Despite public outcry, parahumans as young as fourteen are allowed to join.\n\nThe fate of the free world is at stake.",
           "title": "The Secret of the Swordfish"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "w2v6",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Hero never met his end at the hands of the Siberian. As a result, Hero was eventually read in on what was going on in Cauldron and became one of the leaders of Cauldron. With Hero\u2019s hands on the steering wheel, Cauldron has been a far more positive force for good in this timeline and society is more stable than it was in canon. In general, Cauldron just aren\u2019t as big of assholes as they were in canon. The Nemesis program isn\u2019t a thing and Cauldron doesn\u2019t use any of their favors for illegal stuff. Endbringer battles also go far more smoothly as not only is Hero still alive, but Dragon uses Hero\u2019s tinker tech to enhance her own. The collapse of society is moved back by several decades.",
+          "title": "Heroes of Justice"
         },
         {
           "addons": [],
