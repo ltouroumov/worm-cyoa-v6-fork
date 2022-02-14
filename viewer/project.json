@@ -44374,7 +44374,7 @@
       "id": "zg2f",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -54743,7 +54743,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -56735,10 +56735,79 @@
               "beforeText": "Cost:",
               "id": "rm",
               "isActive": false,
-              "requireds": [],
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "6fj3",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": false,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "40"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "6fj3",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "20"
             }
           ],
           "template": 1,
@@ -56796,8 +56865,35 @@
             }
           ],
           "template": 1,
-          "text": "Choose a version of Cultivation from any Manhwa, Manhua, Manga, or web novel, you have access to that but start at Novice level. An ancient spirit of knowledge has fused with your soul. You can commune with this spirit to access their knowledge and learn new techniques or acquire knowledge of how to advance your path.",
+          "text": "Your Meridians are unlocked and you are capable of circulating Qi through them. You are at the first stage of cultivation, through arduous training you will be able to refine your body and spirit, to purify your essence and distill it to attain higher levels. With each level you advance you are capable of stronger and more fantastic feats. You can hone and reinforce your body into a living weapon, force your life force into constructs to do your bidding, be a master of beastly transformations, or a natural at spell formations to turn the elements against your enemies. Whatever your chosen path, you are capable of great things.\n\nAn ancient spirit of knowledge has fused with your soul. You can commune with this spirit to access their knowledge and learn new techniques or acquire knowledge of how to advance your path.",
           "title": "Cultivator"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6fj3",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-6fj3.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            }
+          ],
+          "template": 1,
+          "text": "Your Spark has ignited. You are able to planeswalk through the multiverse at your leisure. You can target any plane you have already visited easily but accessing a precise destination blindly will require some practice, in the meantime you will jump to semi-random destinations every time.\n\nYour body is now a projection of your Soul, in time you will be able to alter your appearance at will and even replicate the abilities of other creatures. Your Soul is also a powerful source of Mana. While you are able to cast spells, you do not have the knowledge to do so. You can of course learn by yourself, find a Mentor to tech you, or pick any of the magical powers available in this section.\n\nIn time, as you grow in power and familiarity with your abilities, you will be able to create your own pocket dimensions and demi-planes.",
+          "title": "Planeswalker"
         },
         {
           "addons": [],
@@ -56850,7 +56946,7 @@
             }
           ],
           "template": 1,
-          "text": "You can copy the appearance, powers, skills, memory, and personal equipment (any equipment they had on their person when you saw them) of any person (for a very broad definition of person). You can have an unlimited number of templates stored but can only use one at a time. While taking on a form, you remain yourself and are not mentally influenced by the transformation unless you allow it.\n\nYou can copy the powers of a target with Trumped the Trump in all cases.",
+          "text": "You can copy the appearance, powers, skills, memory, and personal equipment (any equipment they had on their person when you saw them) of any person you see (for a very broad definition of person). The target must be in your field of vision long enough for you to see them and you need to concentrate on copying them.\n\nYou can have an unlimited number of templates stored but can only use one at a time. While taking on a form, you remain yourself and are not mentally influenced by the transformation unless you allow it.\n\nYou can copy the powers of a target with Trumped the Trump in all cases.",
           "title": "Ditto"
         },
         {
