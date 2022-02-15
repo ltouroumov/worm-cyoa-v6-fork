@@ -18846,7 +18846,7 @@
       "id": "gra1",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -20564,7 +20564,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "col-md-3",
           "requireds": [
             {
               "afterText": "",
@@ -20616,11 +20616,67 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "7jcw",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-3",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "j4fl",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "No matter what, the other Endbringers won't awaken or activate. With this, you will only have to worry about the Simurgh, Leviathan, and Behemoth regardless if you kill one or not. Killing one is easier said than done though.",
+          "title": "Extras Not Included"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "olao",
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "col-md-3",
           "requireds": [
             {
               "afterText": "",
@@ -20706,7 +20762,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "col-md-3",
           "requireds": [
             {
               "afterText": "",
@@ -57172,7 +57228,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -57196,7 +57252,7 @@
               "reqPoints": 0,
               "required": false,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "id"
             }
           ],
@@ -57226,7 +57282,37 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [],
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "gnhc",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
           "scores": [
             {
               "afterText": "SP",
@@ -57274,7 +57360,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "or"
             }
           ],
@@ -64500,7 +64586,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "-10"
             },
             {
               "afterText": "CP",
@@ -64509,7 +64595,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "-20"
             }
           ],
           "template": 1,
