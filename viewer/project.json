@@ -18846,7 +18846,7 @@
       "id": "gra1",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -56261,7 +56261,7 @@
       "id": "hj7o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -57431,7 +57431,7 @@
             }
           ],
           "template": 1,
-          "text": "You have Perfect Memory and are immune to the corruptive effects of reading grimoires.\n\nIn addition to that, your memory contains the contents of 103'000 grimoires that contain a vast amount of magical knowledge. You need mana to use any of the knowledge contained within.",
+          "text": "You have Perfect Memory and are immune to the corruptive effects of reading grimoires.\n\nIn addition to that, your memory contains the contents of 103'000 grimoires that contain a vast amount of magical knowledge. This knowledge gives you the ability to use <i>Spell Intercept</i>, a short incantation capable of cancelling other the spells of other magicians or make them go berserk, and <i>Singing</i>, an ability that allows you to unravel supernatural phenomena through various songs.\n\nYou need mana to use any of the knowledge contained within, unless you picked Magician you are guaranteed not to have mana.",
           "title": "Index Librorum Prohibitorum (Raildex)"
         },
         {
