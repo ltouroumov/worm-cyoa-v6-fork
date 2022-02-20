@@ -20574,6 +20574,115 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "5r67",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "7z83"
+                },
+                {
+                  "req": "i7bw"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "36fq",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "w4o0",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your will is absolute, boundless, and unbreakable. No matter how difficult the situation, even if you're torn in half, locked in a time loop of endless agony for thousands of years, or subjected to a fate worse than death, you'll be able to shrug it off. Of course, you still have emotions and you can still be hurt emotionally, but you'll always be able to maintain your composure and keep your emotions from ruling your decision-making. Take care that you don't become so tunnel-visioned that you fail to see others as actual people with agency.",
+          "title": "Invictus"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "akq3",
           "image": "",
           "isActive": false,
@@ -42708,7 +42817,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-12",
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
@@ -42718,12 +42827,38 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "14"
+              "value": "15"
             }
           ],
           "template": 1,
           "text": "You can transform into any non-legendary or mythical Pokemon. The descriptions of Pokemon found in Pokedex entries are ignored. Metagross isn't as smart as a supercomputer, Alakazam doesn't have an IQ over 9000, and your mother can be alive while you're a Cubone.",
           "title": "(Changer/Trump) Pokemon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jhr0",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-jhr0.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You can transform into any Grimm from Remnant (RWBY). This includes the giant Whale Grimm, but doesn't include Salem. You can detect negative emotions while in your Grimm form. If you have Aura, you cannot use it in this form. When your Shard runs out of juice, you're stuck in whatever form you're in at the time.",
+          "title": "(Changer) Grimm"
         },
         {
           "addons": [],
@@ -46855,32 +46990,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "gbd9",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-gbd9.jpeg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "You can make forcefields with a total surface area across all forcefields of 100 square meters. Nothing can penetrate these. The edges of these forcefields are sharper than anything any Tinker has ever made, unless you intentionally smooth them out.",
-          "title": "(Shaker) Inviolable"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "b5vq",
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-b5vq.jpeg",
           "isActive": false,
@@ -47051,8 +47160,8 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "137x",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-137x.jpeg",
+          "id": "gbd9",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-gbd9.jpeg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -47065,12 +47174,12 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "15"
             }
           ],
           "template": 1,
-          "text": "You can transform into any Grimm from Remnant (RWBY). This includes the giant Whale Grimm, but doesn't include Salem. You can detect negative emotions while in your Grimm form. If you have Aura, you cannot use it in this form. When your Shard runs out of juice, you're stuck in whatever form you're in at the time.",
-          "title": "(Changer) Grimm"
+          "text": "You can make forcefields with a total surface area across all forcefields of 100 square meters. Nothing can penetrate these. The edges of these forcefields are sharper than anything any Tinker has ever made, unless you intentionally smooth them out.",
+          "title": "(Shaker) Inviolable"
         },
         {
           "addons": [],
@@ -47235,6 +47344,34 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "5dyo",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Your Shard modifies your brain to bring your Intelligence and Memory to the level of a one of a kind genius like Tony Stark or Reed Richards. You can master new fields of knowledge or skills in a matter of days or weeks instead of months or years. You form muscle memory and reflexes with only a nominal amount of training. \n\nYou keep some of this ability when your Shard runs out of juice, although your rate of growth is halved.",
+          "title": "(Thinker) Polymath"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "y407",
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-y407.jpeg",
           "isActive": false,
@@ -47310,34 +47447,6 @@
           "template": 1,
           "text": "You can create potions from formulas which will have power-like effects when consumed and the ability to create transmutation circle to change materials into others.\n\nYou have intuitive knowledge of how to develop new formulas. Natural ingredients as well as brewing equipment are required to create the potions. Consuming too many potions in a short amount of time creates Toxicity and can have adverse health effects on the user. The effect of your potions will fade once it's purged from the drinker's blood. Those potions are limited to powers that can be expressed physically such as regeneration, super strength, enhanced senses, invisibility, etc. At their most powerful they will be as strong as a mid-tier cape.\n\nYou have intuitive knowledge of how to create transmutation circle. To perform a transmutation, you need to inscribe the circle on a surface and place the required ingredients inside then touch the circle to activate it. You cannot create materials with power-like properties unless you can study them, this applies to Tinker materials (like alloys). You are not limited in size however the objects must fit within the transmutation circle, at big enough sizes this means taking into account the Earth's curvature. The time to transmute is proportional to the volume.",
           "title": "(Trump/Tinker) Alchemist"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "5dyo",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "Your Shard modifies your brain to bring your Intelligence and Memory to the level of a one of a kind genius like Tony Stark or Reed Richards. You can master new fields of knowledge or skills in a matter of days or weeks instead of months or years. You form muscle memory and reflexes with only a nominal amount of training. \n\nYou keep some of this ability when your Shard runs out of juice, although your rate of growth is halved.",
-          "title": "(Thinker) Polymath"
         },
         {
           "addons": [],
@@ -57123,7 +57232,16 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
             }
           ],
           "template": 1,
@@ -57210,7 +57328,16 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
             }
           ],
           "template": 1,
@@ -57296,7 +57423,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "5"
             }
           ],
           "template": 1,
@@ -58619,6 +58746,333 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "inh8",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-inh8.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You\u2019re a lord or lady of the night now. You\u2019ve been turned into a Vampire, an exceptionally powerful one but ultimately not a true Noble of the race. Instead, you are a being from a line of artificial vampires first created by a powerful mage. You cease to age and retain eternal youth as a vampire and possess an incredible healing factor. You can survive even having your head or heart destroy and accomplish feats such as regenerating your entire upper half of your body after it is obliterated in just a few minutes. However, your regeneration has a flaw. It can only regenerate parts of your body that have been destroyed. If your head was reduced to bloody mist or your arms were burnt to cinders, they would regenerate. But if an arm was cut off and taken away from you, your lost arm would not heal from your body until that severed and taken arm is destroyed. You possess none of the normal vampire weaknesses as an Artificial Vampire and have superhuman physical abilities, letting you outmatch any normal human ten times over. You can fly at your normal ground speed and turn into a swarm of bats at will. You\u2019re even able to drain magic from other people by biting into them and sucking out their blood.",
+          "title": "Artificial Vampire (UQ Holder)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pri1",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            }
+          ],
+          "template": 1,
+          "text": "You are one of the few True Vampires of the world, created through the ancient arts of magic and technology in the lost world. As one of these Nobles, you have all the abilities of an Artificial Vampire at enormously increased levels of power. The few weaknesses they possess, such as the limitations on their regeneration, do not exist for you and even immortal hunters find it difficult to inhibit your immortality or regeneration. It\u2019s quite likely that you\u2019ll have a wide variety of additional vampiric abilities that a normal Artificial Vampire would not have access too as well.\n\nYour raw power alone is truly ridiculous. While you are not unbeatable, especially to teams working together, you\u2019re more than strong enough to match the magic or bodily power of anyone short of another Vampire Noble or powers that could contest an Endbringer. Any other power you pick is increased in strength to reflect this.\n\nYou\u2019re a particular kind of Noble as well. Your True Form is not the humanoid body you have now but instead an amalgam of magical beasts and demons. A dimensional slaughterhouse filled of writhing black monsters that surge forth from your shadow as you please. These shadow beasts are your true form, every one of the many thousands present able to act independently or under your control as you will, separating to act from a long distance or attacking as a horde with the rest. The creatures range from those that even a weak parahuman could kill to mighty monsters that threaten entire an entire Protectorate team. They are parts of your body, allowing you to use any of your powers through them or survive so long as one creature does, and you can even include any creature you slay and drag into your shadow as part of your True Form.",
+          "title": "Vampire Noble (UQ Holder)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qbr9",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-qbr9.png",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "rus7",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are the physical incarnation of a warship into human form. As a ship, you can walk on water as if it were land and move at the speed your ship half can (~35 knots). You have the displacement and radar cross section of your ship-self, on land you can consciously alter this to avoid destroying the floor.\n\nAt will you can summon your rigging which is a representation of your ship-self's equipment. Despite their small size, your weapons deal the damage of their full size counterpart. Thankfully your radar does not instantly irradiate people around you.\n\nYou are limited to ships of light tonnage, Submarines, Destroyers, Light Cruisers, Light Carriers, or Support Ships from the second World War or before. You will have the appearance of a girl even if you were not before. Light ships tend to look on the younger side.",
+          "title": "Ship Girl (Light)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "rus7",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-rus7.png",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "qbr9",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You are the physical incarnation of a warship into human form. As a ship, you can walk on water as if it were land and move at the speed your ship half can (~35 knots). You have the displacement and radar cross section of your ship-self, on land you can consciously alter this to avoid destroying the floor.\n\nAt will you can summon your rigging which is a representation of your ship-self's equipment. Despite their small size, your weapons deal the damage of their full size counterpart. Thankfully your radar does not instantly irradiate people around you.\n\nYou are limited to ships of high tonnage, Battlecruisers, Battleships, and Aircraft Carriers from the second World War or before. You will have the appearance of a girl even if you were not before. Heavy ships tend to look on the older side.",
+          "title": "Ship Girl (Heavy)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fm5f",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-fm5f.png",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "rus7"
+                },
+                {
+                  "req": "qbr9"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your ship is retrofitted into a hybrid, either an Aviation Cruiser or Aviation Battleship allowing you to get the best of both worlds. While your firepower or air projection is less than either type, your power is higher than the sum of your parts.",
+          "title": "Ship Girl (Hybrid)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "r8bg",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-r8bg.png",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "qbr9"
+                },
+                {
+                  "req": "rus7"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your ship is retrofitted with more modern weapons and equipment giving you more projection power. This would bring you to the level of a ship from the end of the Cold War.",
+          "title": "Ship Girl (Retrofit 1)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "b93r",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-b93r.png",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "r8bg",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your ship is retrofitted with 2020 era weapons and equipment, this includes drones, long range guided missiles, multipurpose guns, stealth coating, and more.",
+          "title": "Ship Girl (Retrofit 2)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "q43a",
           "image": "",
           "isActive": false,
@@ -59481,7 +59935,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [
             {
@@ -59504,11 +59958,38 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "zvm3",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            }
+          ],
+          "template": 1,
+          "text": "For up to 30 minutes at a time, you are able to take on the form and powers of any individual you know the name of by speaking it. If the chosen individual is stronger than an Endbringer, their power will be restricted to that level. You cannot re-use the same individual until you have exhausted their time and used three other individuals.\nYou gain 10 minutes of use of this power per hour up to 240 minutes (4 hours).",
+          "title": "Master of Masks"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "goj5",
           "image": "/worm-cyoa-v6-fork/viewer/images/obj-goj5.png",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [
             {
