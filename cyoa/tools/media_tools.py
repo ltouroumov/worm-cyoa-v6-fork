@@ -185,7 +185,6 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             encoded_image = f"data:image/{image_type};base64," + \
                 base64.b64encode(image_data).decode('utf-8')
 
-            console.log(f"Updating {image_info.object_type} / {image_info.object_id}")
             if image_info.object_type == 'proj' and image_info.style_prop:
                 self.project &= lens['styling'][image_info.style_prop].set(
                     encoded_image)
