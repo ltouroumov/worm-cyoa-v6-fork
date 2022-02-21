@@ -2,12 +2,13 @@ import argparse
 from typing import Type, Dict
 
 from cyoa.tools.lib import *
-from cyoa.tools import project_tools, row_tools, object_tools
+from cyoa.tools import project_tools, row_tools, object_tools, media_tools
 
 TOOLS: tuple[Type[ToolBase], ...] = (
     *project_tools.TOOLS,
     *row_tools.TOOLS,
     *object_tools.TOOLS,
+    *media_tools.TOOLS,
 )
 
 if __name__ == '__main__':

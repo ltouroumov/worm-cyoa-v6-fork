@@ -1,3 +1,4 @@
+import copy
 import json
 import random
 import string
@@ -70,7 +71,7 @@ def gen_id():
 
 def copy_objects_from_row(row_data, object_ids: list = None, object_ranges: list = None, object_all: bool = False):
     if object_all:
-        return list.copy(row_data['objects'])
+        return copy.deepcopy(row_data['objects'])
     else:
         objects_data = []
         if object_ids and len(object_ids) > 0:
@@ -120,3 +121,21 @@ def insert_objects_in_row(row_data, objects_data, after_idx: int = None, after_o
         row_data['objects'][insert_index:insert_index] = objects_data
     else:
         row_data['objects'].extend(objects_data)
+
+def update_row_data(project, row_id: str, lens):
+    if (row_idx := find_first_index(project['rows'], lambda row: row.get('id', None) == row_id)) is None:
+        return
+        
+    row_data = project['rows'][row_idx]
+    project['rows'][row_idx] = lens(row_data)
+
+def update_obj_data(project, row_id: str, obj_id: str, lens):
+    if (row_idx := find_first_index(project['rows'], lambda row: row.get('id', None) == row_id)) is None:
+        return
+
+    row_data = project['rows'][row_idx]
+    if (obj_idx := find_first_index(row_data['objects'], lambda obj: obj.get('id', None) == obj_id)) is None:
+        return
+
+    obj_data = project['rows'][row_idx]['objects'][obj_idx]
+    project['rows'][row_idx]['objects'][obj_idx] = lens(obj_data)
