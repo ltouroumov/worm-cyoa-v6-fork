@@ -22466,7 +22466,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -31198,38 +31198,8 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "ar45",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
+          "objectWidth": "col-md-3",
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -31479,12 +31449,267 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "6fji",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "Only part of your powers are available when you gain them. At first you will only have at most 50% of your total SP worth of powers available.\n\nOnce you undergo a traumatizing event, either the first time or as a true second trigger, the remainder of your powers will unlock.",
+          "title": "Second Trigger"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "ucs6",
           "image": "",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
+          "objectWidth": "col-md-3",
           "requireds": [
             {
               "afterText": "",
@@ -31799,7 +32024,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
+          "objectWidth": "col-md-3",
           "requireds": [
             {
               "afterText": "",
@@ -40516,6 +40741,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -53242,6 +53468,33 @@
           "template": 1,
           "text": "You can simulate any scenario you can come up with. Only the entity is a blindspot to this power.",
           "title": "(Thinker) Vision"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "gcos",
+          "image": "/worm-cyoa-v6-fork/viewer/images/obj-gcos.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "Your have access to a network of 512 Nodes (768 with Negentropy) that can be used for several purposes. For every 16 unallocated nodes, your thinking speed is increased by 25% additively.\n\nNodes can be used to store approximately 2.5 PB (petabytes) of information, this includes memories. One Node is sufficient to store a perfect snapshot of your brain.\n\nNodes also be grouped into a Module, this allows them to be programmed to perform various functions like keeping track of time, automatically creating a backup of your brain, process your vision to parse any text and store it in a node, and more. If it can be done with a computer, it can be done with a module. One node has roughly the same processing power as a high end server.\n\nYou can also use Nodes to create a Cluster, this allows them to host Thinker powers. A power uses a number of nodes equivalent to the square of it's rating (Thinker 2 takes 4 Nodes, Thinker 3 takes 9 Nodes, and so on). Your maximum rating is 9. The powers can only use information gathered from your own senses,  including any power granted sense.",
+          "title": "(Thinker) Neural Network"
         }
       ],
       "requireds": [
@@ -58809,7 +59062,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -58866,7 +59119,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -59008,7 +59261,7 @@
             }
           ],
           "template": 1,
-          "text": "Your ship is retrofitted with more modern weapons and equipment giving you more projection power. This would bring you to the level of a ship from the end of the Cold War.",
+          "text": "Your ship is retrofitted with modern weapons and equipment giving you more projection power. This would bring you to the level of a ship from the end of the Cold War.\n\nThe technology level is determined by the setting but will be at least on par with 1970 earth technology, out of date but still serviceable.",
           "title": "Ship Girl (Retrofit 1)"
         },
         {
@@ -59065,7 +59318,7 @@
             }
           ],
           "template": 1,
-          "text": "Your ship is retrofitted with 2020 era weapons and equipment, this includes drones, long range guided missiles, multipurpose guns, stealth coating, and more.",
+          "text": "Your ship is retrofitted with advanced weapons and equipment, this includes drones, long range guided missiles, multipurpose guns, stealth coating, and more.\n\nThe technology level is determined by the setting but will be at least on par with 2020 earth technology.",
           "title": "Ship Girl (Retrofit 2)"
         },
         {
