@@ -21427,6 +21427,66 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "6t16",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "4950",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            }
+          ],
+          "template": 1,
+          "text": "You can change how some aspects of your power work, this doesn't make it more powerful but changes some of its mechanics.",
+          "title": "Power Tweak"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "g184",
           "image": "",
           "isActive": false,
@@ -22466,7 +22526,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -31198,7 +31258,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-3",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [
             {
@@ -31453,7 +31513,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-3",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [
             {
@@ -31709,7 +31769,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -32024,7 +32084,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -32082,6 +32142,35 @@
               "required": false,
               "requireds": [],
               "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "5aj3",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
               "type": "id"
             }
           ],
@@ -32326,8 +32415,139 @@
             }
           ],
           "template": 1,
-          "text": "Your Shard has placed limitations on your chosen powers. \n\nFor example, your powers can only be used by minions, only one set can be used at a time (powers are grouped thematically), you have to build Tinker devices to produce those powers (if you have a Tinker power for example).\n\nIf the restrictions are centered around a power, like a minion master power or Tinker ability, this ability gets a boost.",
-          "title": "Arbitrary Limitations"
+          "text": "Your Shard has placed limitations on your chosen powers. When restrictions are imposed on some aspects, other aspects get improved to compensate. Overall your powers will be integrated to work together as a single whole.\n\nFor example, your powers can only be used by minions, only one set can be used at a time (powers are grouped thematically), you have to build Tinker devices to produce those powers (if you have a Tinker power for example).\n\nIf the restrictions are centered around a power, like a minion master power or Tinker ability, this ability gets a boost.",
+          "title": "Arbitrary Limitations (All Powers)"
+        },
+        {
+          "activateOtherChoice": false,
+          "addons": [],
+          "deactivateOtherChoice": false,
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5aj3",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "euib",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "4950",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "39d0",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "Your Shard has placed limitations on one of your chosen powers. If an aspect is restricted, another aspect gets improved to compensate.\n\nFor example, the power can only be used under certain circumstances but the effect is increased, the range is reduced in exchange for potency, the number of choices is limited but they can be improved over time, etc..",
+          "textfieldIsOn": false,
+          "title": "Arbitrary Limitations (One Power)"
         },
         {
           "addons": [],
@@ -43066,10 +43286,10 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "jhr0",
-          "image": "/worm-cyoa-v6-fork/viewer/images/obj-jhr0.webp",
+          "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "",
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
