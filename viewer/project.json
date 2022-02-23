@@ -21433,6 +21433,7 @@
           "isMultipleUseVariable": true,
           "isSelectableMultiple": true,
           "isVisible": true,
+          "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "10",
           "objectWidth": "",
@@ -60398,6 +60399,60 @@
           "template": 1,
           "text": "",
           "title": "Servant"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "466b",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to summon a Servant from the Throne of Heroes via a ritual, you will gain three command seals once the ritual completes. You can choose which Servant will be summoned.",
+          "title": "Summoner"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "mbd7",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            }
+          ],
+          "template": 1,
+          "text": "You can summon random base level Servants from the Throne of Heroes by using Saint Quartz. You gain one Saint Quartz per day and can obtain more by defeating enemies, defeating a baseline humans gives one Quartz Shard (you need 10 Shards to make a full Quartz) while defeating a Parahuman gives Quartz depending on their strength (5 Shards for a street-level parahuman, one Quartz for a mid-tier parahuman, three Quartz for a high tier parahuman, five Quartz for a top tier parahuman, and three hundred Quartz for an Endbringer). Defeating an Entity gives you ten free pulls per day for ten years.\n\nIf you obtain duplicates, they are turned into Wisdom Essence that can be used to improve your existing Servants by increasing their level or skills as well as crafting equipment.\n\n(You can substitute the catalogue for another franchise like Arknights, Azur Lane, Girls Frontline, etc. when picking the power.)",
+          "title": "Spin the Gacha"
         },
         {
           "addons": [],
