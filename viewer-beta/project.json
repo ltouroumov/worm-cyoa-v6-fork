@@ -14717,7 +14717,7 @@
       "id": "1fq5",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -14738,180 +14738,18 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "CP",
-              "beforeText": "Gain:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "-10"
-            }
-          ],
-          "template": 1,
-          "text": "Cases are mass-produced robotic shells of notoriously poor quality. They are available in many varieties. Most case morphs are anthropomorphic, with a thin framework body standing just shorter than an average human.",
-          "title": "Case"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "muig",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
+              "afterText": "SP",
               "beforeText": "Cost:",
-              "id": "2b",
+              "id": "rm",
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "5"
+              "value": "2"
             }
           ],
           "template": 1,
-          "text": "Synths are even more humanoid than cases and of better quality. They are commonly deployed for labor-intensive\ntasks in environments not suited for humans or for people who need a body quickly and cheaply or simply on a\ntransient basis. Most designs are anthropomorphic, though various alternatives exist, including some based on uplift physiology.",
-          "title": "Synth"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "9vx5",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "8"
-            }
-          ],
-          "template": 1,
-          "text": "This high-end shell is designed to increase the appeal and social acceptance of synthetic life forms. Galateas look expensive and their mental architecture is higher end.",
-          "title": "Galatea"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "b2ek",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Gain:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "The dragonfly chassis takes the shape of a meter long flexible shell with eight wings, four manipulator limbs, and a prehensile tail. Capable of near-silent flight in Earth gravity, dragonfly bots fare even better in microgravity. Their wings operate independently and can rotate, allowing for graceful maneuvering, hovering, and tight turns.",
-          "title": "Dragonfly"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "k19q",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Gain:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "The slither chassis has the torso and head of a synth with a two meter long segmented tail. The frame uses undulation as a primary means of locomotion, though it can use its humanoid arms to pull itself when required. ",
-          "title": "Slither"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "9o23",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Gain:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "The cephalopod chassis consists of a central core a meter in diameter connected to multiple prehensile tentacles. The prehensile limbs allow for movement on land while several vectored thrusters allow for movement in microgravity.",
-          "title": "Cephalopod"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "fkwg",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "The arachnid chassis takes the shape of an arthropod with three or four sets of limbs and a a set of fine manipulator limbs near the head. The chassis can move by walking, hopping, using omnidirectional wheels on their limbs, or with the vectored thrust system in microgravity.",
-          "title": "Arachnid"
+          "text": "",
+          "title": "Chameleon Skin"
         }
       ],
       "requireds": [
@@ -15121,7 +14959,7 @@
       },
       "template": "1",
       "title": "Robot Modules",
-      "titleText": ""
+      "titleText": "Those modules integrate into your chassis and provide additional features."
     },
     {
       "allowedChoices": 1,
