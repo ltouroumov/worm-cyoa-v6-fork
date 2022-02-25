@@ -2174,6 +2174,14 @@
         }
       },
       "startingSum": 0
+    },
+    {
+      "activatedId": "xtjj",
+      "afterText": "",
+      "beforeText": "Module Slots:",
+      "id": "bw",
+      "name": "Module Slots (Robot)",
+      "startingSum": 0
     }
   ],
   "rows": [
@@ -10334,7 +10342,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-10"
+              "value": "10"
             }
           ],
           "template": 1,
@@ -10362,7 +10370,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-5"
+              "value": "5"
             }
           ],
           "template": 1,
@@ -14313,7 +14321,7 @@
       "titleText": "What do you do as a civilian? You gain the memories and skills of the person you reincarnate as, so as long as they had the prerequisite knowledge, you do too."
     },
     {
-      "allowedChoices": 0,
+      "allowedChoices": 1,
       "buttonId": "",
       "buttonRandom": false,
       "buttonRandomNumber": 1,
@@ -14353,6 +14361,15 @@
               "showScore": true,
               "type": "",
               "value": "-10"
+            },
+            {
+              "afterText": "Module Slots",
+              "beforeText": "Gain:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": 0
             }
           ],
           "template": 1,
@@ -14380,6 +14397,15 @@
               "showScore": true,
               "type": "",
               "value": "5"
+            },
+            {
+              "afterText": "Module Slots",
+              "beforeText": "Gain:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-3"
             }
           ],
           "template": 1,
@@ -14407,6 +14433,15 @@
               "showScore": true,
               "type": "",
               "value": "8"
+            },
+            {
+              "afterText": "Module Slots",
+              "beforeText": "Gain:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
             }
           ],
           "template": 1,
@@ -14428,17 +14463,64 @@
           "scores": [
             {
               "afterText": "CP",
-              "beforeText": "Gain:",
+              "beforeText": "Cost:",
               "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
               "value": "10"
+            },
+            {
+              "afterText": "Module Slots",
+              "beforeText": "Gain:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-7"
             }
           ],
           "template": 1,
           "text": "The dragonfly chassis takes the shape of a meter long flexible shell with eight wings, four manipulator limbs, and a prehensile tail. Capable of near-silent flight in Earth gravity, dragonfly bots fare even better in microgravity. Their wings operate independently and can rotate, allowing for graceful maneuvering, hovering, and tight turns.",
           "title": "Dragonfly"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xmgb",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "Module Slots",
+              "beforeText": "Gain:",
+              "id": "bw",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-7"
+            }
+          ],
+          "template": 1,
+          "text": "The slither chassis has the torso and head of a synth with a two meter long segmented tail. The frame uses undulation as a primary means of locomotion, though it can use its humanoid arms to pull itself when required.",
+          "title": "Slither"
         },
         {
           "addons": [],
@@ -14457,10 +14539,21 @@
               "afterText": "CP",
               "beforeText": "Gain:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
               "value": "15"
+            },
+            {
+              "afterText": "Module Slots",
+              "beforeText": "Gain:",
+              "id": "bw",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-9"
             }
           ],
           "template": 1,
@@ -14484,10 +14577,21 @@
               "afterText": "CP",
               "beforeText": "Cost:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
               "value": "15"
+            },
+            {
+              "afterText": "Module Slots",
+              "beforeText": "Gain:",
+              "id": "bw",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-9"
             }
           ],
           "template": 1,
@@ -14717,12 +14821,12 @@
       "id": "1fq5",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
       "isResultRow": false,
-      "objectWidth": "col-md-4",
+      "objectWidth": "col-md-3",
       "objects": [
         {
           "addons": [],
@@ -14745,11 +14849,692 @@
               "showScore": true,
               "type": "",
               "value": "2"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
             }
           ],
           "template": 1,
-          "text": "",
+          "text": "The exterior of your chassis is covered with a nanomaterial capable of changing color. ",
           "title": "Chameleon Skin"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "vhva",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "An engineering nano-hive is embedded in your chassis allowing you to manufacture objects less then 30dm<sup>3</sup> in size. ",
+          "title": "Engineer Swarm Hive"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ge6u",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "An repair nano-hive is embedded in your chassis allowing you to repair yourself and other machines. ",
+          "title": "Repair Swarm Hive"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "kd2p",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "One of more of your limbs have access to a multitool that unfolds from a small pod.",
+          "title": "Multitool"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1y7z",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "One of more of your limbs have digits that splits in a fractal giving you the ability to manipulate things on a nanoscopic scale.",
+          "title": "Fractal Digits"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "g4kt",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "A non-lethal weapon is mounted to your chassis (remote taser, microwave emitter, etc.), either embedded inside one of your limbs or mounted to your body with a pod.",
+          "title": "Non-lethal Weapon Mount"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "e5bm",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "A lethal weapon is mounted to your chassis, either embedded inside one of your limbs or mounted to your body with a pod.",
+          "title": "Lethal Weapon Mount"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "18l9",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Your outer armor is reinforced with a hardened carbon alloy that makes it resistant to most low and medium caliber weapons.",
+          "title": "Reinforced Armor"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "q9fd",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Your chassis is equipped with a secondary cortex, giving it enhanced computational power and storage.",
+          "title": "Secondary Cortex"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qd6w",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Gain:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-2"
+            }
+          ],
+          "template": 1,
+          "text": "Your chassis is equipped with a secondary reactor providing additional power.",
+          "title": "Secondary Reactor"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "bqxc",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Your chassis is equipped with an advanced communications module allowing you to listen, intercept, and modify signals. This also installs a universal port to connect to systems physically.",
+          "title": "Advanced Communications Module"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6sy6",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Your optics are enhanced and capable of perceiving a wider band of the electromagnetic spectrum (IR and UV).",
+          "title": "Enhanced Vision"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "asc9",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Your optics are enhanced and capable of perceiving matter on a nanoscopic scale.",
+          "title": "Nanoscopic Vision"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "btax",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You have an additional articulated limb.",
+          "title": "Additional Limbs (Articulated)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "s1t2",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            },
+            {
+              "afterText": "Module Slot",
+              "beforeText": "Cost:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You have an additional prehensile limb.",
+          "title": "Additional Limbs (Prehensile)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fmfq",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Compatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "ca78"
+                },
+                {
+                  "req": "ifyu"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            },
+            {
+              "afterText": "Module Slots",
+              "beforeText": "Gain:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "A humanoid torso is attached to your main body.",
+          "title": "Humanoid Torso"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "d8wg",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Compatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "ca78"
+                },
+                {
+                  "req": "ifyu"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            },
+            {
+              "afterText": "Module Slots",
+              "beforeText": "Gain:",
+              "id": "bw",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "Your main body is twice as large.",
+          "title": "Large Chassis"
         }
       ],
       "requireds": [
