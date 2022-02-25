@@ -10213,7 +10213,7 @@
       "titleText": "How are you going to survive the loss of your body?"
     },
     {
-      "allowedChoices": 0,
+      "allowedChoices": 1,
       "buttonId": "",
       "buttonRandom": false,
       "buttonRandomNumber": 1,
