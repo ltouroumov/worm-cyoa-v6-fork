@@ -21509,7 +21509,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-3",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -21546,6 +21546,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -21565,7 +21566,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-3",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -21602,6 +21603,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -21617,11 +21619,128 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "j4fl",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "xqi1",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "7jcw",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "zsra",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": false,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            }
+          ],
+          "template": 1,
+          "text": "All Endbringer cores are destroyed upon your arrival in this universe at the cost of some of your Shard's capacity for powers.",
+          "title": "End of the Kaiju"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "olao",
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-3",
+          "objectWidth": "col-sm-6",
           "requireds": [
             {
               "afterText": "",
@@ -21703,11 +21822,97 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "g1zy",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "olao",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "5g1c",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "60"
+            }
+          ],
+          "template": 1,
+          "text": "Scion's core Shards are destroyed upon your arrival in this universe at the cost of your Shard's capacity for powers. Scion's corpse will come to the attention of someone who can stop it from resurrecting (the network is stabilized and Titans will not happen). ",
+          "title": "Overcharge Strike"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "5g1c",
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-3",
+          "objectWidth": "col-sm-6",
           "requireds": [
             {
               "afterText": "",
@@ -21858,297 +22063,11 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "j4fl",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "col-md-4",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "9gbp",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "4lb9",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "b5vq",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "f0jk",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "0r6j",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "xqi1",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "30"
-            }
-          ],
-          "template": 1,
-          "text": "All Endbringer cores are destroyed upon your arrival in this universe at the cost of some of your Shard's capacity for powers.",
-          "title": "End of the Kaiju"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "g1zy",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "col-md-4",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "olao",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "5g1c",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "60"
-            }
-          ],
-          "template": 1,
-          "text": "Scion's core Shards are destroyed upon your arrival in this universe at the cost of your Shard's capacity for powers. Scion's corpse will come to the attention of someone who can stop it from resurrecting (the network is stabilized and Titans will not happen). ",
-          "title": "Overcharge Strike"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "seva",
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "col-sm-6",
           "requireds": [
             {
               "afterText": "",
@@ -66742,6 +66661,8 @@
           "title": "Fractured"
         },
         {
+          "activateOtherChoice": false,
+          "activateThisChoice": "j4fl",
           "addons": [],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
@@ -66752,51 +66673,23 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "j4fl",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
               "beforeText": "Gain:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "-15"
+              "value": "-20"
             },
             {
               "afterText": "CP",
               "beforeText": "Gain:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
