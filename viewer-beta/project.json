@@ -12846,6 +12846,87 @@
           "template": 1,
           "text": "Cape Name: Siberian\nAlignment: None\nGender: Unknown\nSex: Female\nSexual Preference: Unknown \nChronological Age: 11\nPhysical Age: Unknown, Adult\nPower: The Siberian is a projection. By Self-Inserting into her, you would take control of the projection, leaving William Manton, the projector, with another random Master power. The Siberian is completely invulnerable, as well as anything she touches if she so chooses, including other humans that aren't her projector. She's also an unstoppable force, equal to Sting in power. She would get temporarily popped by Clockblocker or Flechette, or other powers that involve unstoppable forces or immovable objects. After 30 seconds, she reappears somewhere random within 100 meters of where she was popped. She's both the Unstoppable Force and the Immovable Object. Short of outliving her powers, she is unkillable.\nAppearance: Beautiful, C53-like\nCivilian Identity: Mass Murderer\nQuality of Life: Mindless (Controlled by William Manton, A member of the Slaughterhouse 9)",
           "title": "Siberian"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ptn1",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "Another character not present in this list",
+          "title": "Other (Weak)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0jdx",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Another character not present in this list",
+          "title": "Other (Average)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "a23i",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Another character not present in this list",
+          "title": "Other (Strong)"
         }
       ],
       "requireds": [
