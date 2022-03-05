@@ -27,7 +27,9 @@ def write_image(image_data, file_name, images_dir):
         print(f"Unsupported encoding {encoding}")
         return None
 
-    with open(os.path.join(images_dir, file_name), mode='wb+') as fd:
+    img_path = os.path.join(images_dir, file_name)
+    print(f"Writing {img_path}")
+    with open(img_path, mode='wb+') as fd:
         fd.write(data_bytes)
     
     return os.path.join(VIEWER_ROOT, file_name)
