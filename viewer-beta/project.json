@@ -70155,7 +70155,7 @@
       "id": "ut3t",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -70173,7 +70173,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Brother 'Gods' and your own Soul\nMajor Threats: Salem, Grimm, Brother Gods\nMajor Powers: Salem, Ozpin, Maidens, Four Nations, Brother Gods\nSuper Abilities: Aura, Dust, Magic\nSilver Eyed Warriors: Ruby Rose, Summer Rose (Dead), Maria Calavera (Former)\nMaidens: (1/2 Maiden) Cinder Fall, (1/2 Maiden) Amber, Fria, Raven Branwen, Unknown\nUsers of non-Maiden magical powers: Salem, Ozpin, Qrow Branwen, Raven Branwen, Brother Gods\nWarning: Salem is about Endbringer level, including her control over the Grimm that is. The Brother Gods are somewhere between Endbringer and Entity level and too frustrated with humanity to try to protect the multiverse against the remaining entity without some pretty convincing arguments.\nNote: Your Aura can be unlocked and if your gender is female you can become a Maiden.",
           "title": "RWBY"
@@ -70189,7 +70199,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Genetic Mutation\nMajor Threats: League of Villains\nMajor Powers: All Might, All for One\nSuper Abilities: Quirks (Generally weaker than Shard based powers, but much more common.)\nOne for All: All Might and soon after, Izuku Midoriya\nNote: If you reincarnate you have an 80%+ chance of gaining a quirk of some kind before puberty. Also, the maximum physical capacity of unpowered humans is about that of a Brute 2. This includes you if you're not a Brute.",
           "title": "My Hero Academia"
@@ -70205,7 +70225,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Lion-Turtles and Spirits\nMajor Threats: Fire Nation, Vaatu\nMajor Powers: Fire Nation, Earth Nation, Vaatu, Raava, Avatar\nSuper Abilities: Bending and Communing with Spirits\nAvatar: Aang\nNote: If you reincarnate you have a 75% of being a bender, 25% of being Earth, 25% of being Water, and 25 of being Fire. Also, the maximum physical capacity of unpowered humans is about that of a Brute 1. ",
           "title": "Avatar: The Last Airbender"
@@ -70221,7 +70251,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Lion-Turtles and Spirits\nMajor Threats: Vaatu, Equalists\nMajor Powers: Fire Nation, Earth Nation, Water Nation, Liberty City, Vaatu, Raava, Avatar\nSuper Abilities: Bending and Communing with Spirits\nAvatar: Korra\nNote: If you reincarnate you have a 75% of being a bender, 25% of being Earth, 25% of being Water, and 25 of being Fire.",
           "title": "Avatar: Legend of Korra"
@@ -70237,7 +70277,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Truth\nMajor Threats: Father, the Homunculi\nMajor Powers: Amestris, Xing, the Homunculi, the Sacrifices, Hohenheim\nSuper Abilities: Alchemy, Alkahestry, Clap Alchemy, Philosopher Stone, Homunculi\nClap Alchemy Users: Edward Elric, Izumi Curtis, Alphonse Elric (Forgotten)\nHuman Philosopher Stones: Father, Hohenheim\nHomunculi: Wrath, Pride, Greed, Lust, Sloth, Envy, Gluttony\nNote: You can learn Alchemy and Alkahestry. Also, the maximum physical capacity of unpowered humans is about that of a Brute 2. This includes you if you're not a Brute.",
           "title": "Fullmetal Alchemist: Brotherhood"
@@ -70253,7 +70303,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Midichlorians\nMajor Threats: The Sith, The Empire\nMajor Powers: The Sith, The Rebellion, Darth Vader\nSuper Abilities: The Force\nForce Using Sects: Sith, Witches, Remnants of the Jedi, etc.\nNote: Anakin Skywalker is a living Messiah, get him down the right path and give him the proper training, and he will be able to go toe-to-toe with the depressed entity. \nNote: Unless you have Not Midichlorians! you have a random amount of Midichlorians with a maximum of 15000. If you have Olympic your amount of Midichlorians is 5 times higher, with a maximum of 16000.\nAlso, you can choose between the EU or canon universe, though either way all EU and canon force feats are possible with enough training and Midichlorians.",
           "title": "Star Wars: The Original Trilogy"
@@ -70269,7 +70329,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Magic, Spirits\nMajor Threats: Elves, Albionese Rebellion\nMajor Powers: Elves, Tristain, Romania, Gallia, Germania, Albionese Rebellion, Void Mages\nSuper Abilities: Magic\nVoid Mages: Louise de la Valliere, King Joseph de Gallia, Pope Vittorio, and Tiffania\nNote: You have a 5% of being able to use magic. This is increased to 100% if you have Magecraft.",
           "title": "Familiar of Zero"
@@ -70285,7 +70355,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Danger Beasts / Teigu\nMajor Threats: The Empire\nMajor Powers: The Empire, The Rebellion, Danger Beasts\nSuper Abilities: Teigu\nNote: The maximum physical capacity of unpowered humans is about that of a Brute 2. This includes you if you're not a Brute.",
           "title": "Akame ga Kill!"
@@ -70301,7 +70381,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Magic, Gods\nMajor Threats: None, really\nMajor Powers: JSDF\nSuper Abilities: Magic\nNote: Nothing here is that powerful seeing as the JSDF, an inexperienced not-really-military, has no issue dealing with the powers-that-be in the other world.",
           "title": "Gate: Thus the JSDF Fought There"
@@ -70317,7 +70407,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Aura, Psychic, Pokemon\nMajor Threats: Legendaries, Team Rocket, Team Magma, Team Aqua, Team Galactic, Team Plasma, Team Flare, Team Skull, Team Rainbow Rocket, and Team Yell\nMajor Powers: Pokemon Leagues, Gym Leaders, Legendaries, Team Rocket, Team Magma, Team Aqua, Team Galactic, Team Plasma, Team Flare, Team Skull, Team Rainbow Rocket, and Team Yell\nSuper Abilities: Aura, Psychic, Pokemon\nNote: Pokemon entries are inaccurate. Maybe you should point that out to a Pokemon Professor. It could get someone killed, or cause someone to abuse their Pokemon because they should be able to destroy a city in a single attack, nonetheless a wild Pidgey.",
           "title": "Pokemon"
@@ -70333,7 +70433,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Od and Mana\nMajor Threats: Sorcerers, Magi, Dead Apostles, Sealing Designates, Masters, and Servants\nMajor Powers: Sorcerers, Magi, Dead Apostles, Sealing Designates, Masters, and Servants.\nSuper Abilities: Magecraft, Magic\nNote: Zelretch, after defeating Type Moon, is now about twice as strong as Eidolon was at his prime, and just as versatile. Emiya Shirou should be able to trace Tinkertech, but due to the blackboxes, they will be resisted by Gaia at about the same rate as a C-Rank Noble Phantasm. There is a one in a million chance that you will gain Magic Circuits upon reincarnating into this universe, ranging from 1 to 30 circuits unless you are reborn as the child of a Magus or Spellcaster.",
           "title": "Fate/Stay Night"
@@ -70348,38 +70458,18 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
+          "requireds": [],
+          "scores": [
             {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "euib"
-                },
-                {
-                  "req": "44sq"
-                },
-                {
-                  "req": "291w"
-                },
-                {
-                  "req": "a7lx"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
               "requireds": [],
-              "showRequired": true,
-              "type": "or"
+              "showScore": true,
+              "type": "",
+              "value": "5"
             }
           ],
-          "scores": [],
           "template": 1,
           "text": "Origin of Powers: Ki and Magic\nMajor Threats: Nerima Wrecking Crew, Chinese Amazons, Musk Dynasty, Saffron, the Phoenix People, Happosai, Jusenkyo\nMajor Powers: Nerima Wrecking Crew, Chinese Amazons, Musk Dynasty, Saffron, the Phoenix People, Happosai\nSuper Abilities: Ki, Magic\nNote: Upon entering this world you have Ki and Magic, though not necessarily any knowledge on how to use it. Saffron is about as strong as an Endbringer with none of their finesse, putting Ranma at about Triumvirate level despite having nowhere near their raw power. ",
           "title": "Ranma 1/2"
@@ -70395,7 +70485,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Hagoromo Otsutsuki\nMajor Threats: Konoha, Suna, Kumo, Iwa, Kiri, Oto, Akatsuki, Root, Otsutsuki Kaguya, Madara, Zetsu\nMajor Powers: Konoha, Suna, Kumo, Iwa, Kiri, Oto, Akatsuki, Root, Otsutsuki Kaguya, Madara, Zetsu, Naruto, Sasuke, Jinchuuriki\nSuper Abilities: Chakra\nNote: Upon entering the Elemental Nations, you gain a random amount of Chakra, ranging from Genin-Sakura levels to that of a non-Jinchuuriki Uzumaki. Olympic doubles the amount of physical and mental Chakra you have, while Captain America quadruples the amount of physical Chakra you have.",
           "title": "Naruto"
@@ -70411,7 +70511,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Magic\nMajor Threats: Death Eaters\nMajor Powers: Ministry of Magic, Hogwarts, Death Eaters\nSuper Abilities: Magic\nNote: You have an approximately 0.1% chance of having magic upon entering this world, increase to 100% with Magecraft or Sorcerer Supreme.\n\nStart Time: Summer 1991\nAlternate Starts: 1926 (Fantastic Beasts), 1960 (Marauders Era)",
           "title": "Harry Potter"
@@ -70426,38 +70536,18 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
+          "requireds": [],
+          "scores": [
             {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "euib"
-                },
-                {
-                  "req": "44sq"
-                },
-                {
-                  "req": "291w"
-                },
-                {
-                  "req": "a7lx"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
               "requireds": [],
-              "showRequired": true,
-              "type": "or"
+              "showScore": true,
+              "type": "",
+              "value": "10"
             }
           ],
-          "scores": [],
           "template": 1,
           "text": "Origin of Powers: Genius, Infinity Stones, Magic, Radioactive Spiders, Experimentation\nMajor Threats: Hydra, Thanos, Loki, Hela\nMajor Powers: Hydra, Thanos, Loki, Hela, The Avengers, Shield, Wakanda, Asgard\nSuper Abilities: Varied\nNote: Everyone has the potential for magic in this universe. Also, the Infinity Stones could defeat the entity with a single snap, but letting you in also let the Shards connect to the universe.\nStart Time: February 1st, 2008",
           "title": "Marvel Cinamatic Universe"
@@ -70473,7 +70563,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Willpower, Devil Fruit\nMajor Threats: The World Government, the Navy, the Celestial Dragons, the 7 Warlords, the Four Emperors, and the 11 Supernovas\nMajor Powers: The World Government, the Navy, the Celestial Dragons, the 7 Warlords, the Four Emperors, and the 11 Supernovas\nSuper Abilities: \nNote: You will have the ability to use Haki through the exertion of willpower upon entering the One Piece universe. Also, the strongest people in the One Piece world are somewhere from Triumvirate level to low-Endbringer level.",
           "title": "One Piece"
@@ -70489,7 +70589,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Radiation, FEV\nMajor Threats: Caesar's Legion, New California Republic, Mr. House, Mutants, Radiation, The Vegas Families, Powder Gangers, Fiends\nMajor Powers: Caesar's Legion, New California Republic, Mr.House, The Vegas Families, The Followers of the Apocalypse\nNote: Upon entering the world you have a small chance to become a psyker, this power is not reliant on your shard and will not disappear when it runs out of energy. Be careful of stray radiation as without a brute power you can die within minutes of exposure at some locations.",
           "title": "Fallout New Vegas"
@@ -70505,7 +70615,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Names, Magic \nMajor Threats: Hero's, Villains, The Bard, The Dead King, The Kingdom Under, The Dread Empire, Elves, Demons, Devils, Angels, The Fae, The Gods above, The Gods Below\nMajor Powers: Hero's, Villains, The Bard, The Dead King, The Kingdom Under, The Dread Empire, League of Free Cities, The Fae Courts\nNote: Upon entering this world you will automatically be given the Name: \"Parahuman\" whose alignment is decided by your own. Your aspects will relate to your powers in some way and your Shard will not \"lose\" power as long as you're within this world.",
           "title": "Practical Guide to Evil"
@@ -70521,7 +70641,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Metagene Major \nThreats: Apocalypse, Galactus, Dark Phoenix Major Powers: The X-men, Magneto, Four Horsemen of the Apocalypse, Hellfire Club, Purifiers \nSuper Abilities: Varied \nNote: Mutants are hated by most of the population of the world, and your Shard based powers will make you seem like one. Your chance of becoming a mutant is roughly 0.01%",
           "title": "X-Men"
@@ -70537,7 +70667,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Element Zero\nMajor Threats: Reapers, Cerberus, The Alliance, Specters, Slavers, Mercenary's, Geth, Pirates, Hostile Aliens\nMajor Powers: Reapers, Cerberus, The Alliance, Mercenaries\nNote: If you enter the world through reincarnation you become a Biotic of average strength, which can be trained and improved through implants. If you choose Case 53 and you're attractive you can become an Asari. All Asari are Biotics. You can become a Biotic through exposure to Element Zero.\n",
           "title": "Mass Effect"
@@ -70552,38 +70692,18 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
+          "requireds": [],
+          "scores": [
             {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "euib"
-                },
-                {
-                  "req": "44sq"
-                },
-                {
-                  "req": "291w"
-                },
-                {
-                  "req": "a7lx"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
               "requireds": [],
-              "showRequired": true,
-              "type": "or"
+              "showScore": true,
+              "type": "",
+              "value": "20"
             }
           ],
-          "scores": [],
           "template": 1,
           "text": "Origin of Powers: Magic\nMajor Threats: Whitewalkers, Civil War, Nobility, Mages, Fire Priests, Dragons, Faceless Men\nMajor Powers: Whitewalkers, Free Cities, Westeros Nobility\nNote: The Whitewalkers can also raise the empowered corpses of those created by the second wave Parahuman Drawback and can even trigger themselves. Any Gods or Supernatural beings will start with an aversion to Shards, this can be worked through but keep it in mind.",
           "title": "A Song of Ice and Fire"
@@ -70599,7 +70719,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Magic, Souls\nMajor Threats: Thalmor, Stormcloaks, Empire, Dark Brotherhood, Mages Guild, Aedric Gods, Daedric Princes, Dragonborn, Miraak, Dragons, Monsters, Werebeasts, Vampires, Bandits\nMajor Powers: Thalmor, Stormcloaks, Empire, Greybeards\nNote: Upon Entering the world you gain the Average amount of mana for a person within the Elder Scrolls Universe. This can be trained to increase both in amount and potency.\n",
           "title": "Skyrim"
@@ -70614,38 +70744,18 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
+          "requireds": [],
+          "scores": [
             {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "euib"
-                },
-                {
-                  "req": "44sq"
-                },
-                {
-                  "req": "291w"
-                },
-                {
-                  "req": "a7lx"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
               "requireds": [],
-              "showRequired": true,
-              "type": "or"
+              "showScore": true,
+              "type": "",
+              "value": "8"
             }
           ],
-          "scores": [],
           "template": 1,
           "text": "Origin of Powers: Incubators, Wishes, Human Emotions\nMajor Threats: Kyubey, Walpurgisnacht\nMajor Powers: Kyubey, Walpurgisnacht, Homura Akemi\nNote: If you're a female, or in a female form, you have the potential to get a wish granted by Kyubey. Your wish not powerful enough to defeat and Endbringer or Scion. No matter your form you can see Witches, Familiars, and other supernatural phenomena with no difficulty.\n",
           "title": "Puella Magi Madoka Magika"
@@ -70661,7 +70771,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Magic, Dragons, Gods, Devils\nMajor Threats: Zeref, Dark Guilds, Zeref's Cults, Acnologia, Balam Alliance, Oracion Seis, Tartaros, Eisenwald, Death's Head Caucus, Edolas, Alvares Empire\nMajor Powers: Zeref, Dark Guilds, Zeref's Cults, Acnologia, Balam Alliance, Oracion Seis, Tartaros, Eisenwald, Death's Head Caucus, Edolas, Alvarez Empire, Guilds, Fiore, Magic Council, Wizard Saints\nNote: You have a 10% of having access to Fairy Tail style magic, and a 100% if you have Magik or Magecraft.",
           "title": "Fairy Tail"
@@ -70676,38 +70796,18 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
+          "requireds": [],
+          "scores": [
             {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "euib"
-                },
-                {
-                  "req": "44sq"
-                },
-                {
-                  "req": "291w"
-                },
-                {
-                  "req": "a7lx"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
               "requireds": [],
-              "showRequired": true,
-              "type": "or"
+              "showScore": true,
+              "type": "",
+              "value": "10"
             }
           ],
-          "scores": [],
           "template": 1,
           "text": "Origin of Powers: Myths, Gods, Titans, Monsters, Magic\nMajor Threats: Egyptian Magicians, Demigods, Gods, Titans, Monsters, Giants, Primordials\nMajor Powers: Egyptian Magicians, Demigods, Gods, Titans, Monsters, Giants, Primordials\nNote: You have a 100% of being clear-sighted. If you reincarnate, you have a 30% chance of being reborn a demigod to a random god or free Titan (Like Hecate). Reincarnate or not, you have a 50% of having some random amount of potential as a magic-user, 100% of having magical-potential, and it being a lot of potential, if you have Magik or Magecraft. Demigod or not, unless you're Shardless, you, and any other powered-person, can interact with the mythical world.",
           "title": "Percy Jackson and the Olympians"
@@ -70723,7 +70823,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Magic, Spirits, Authorities of Sin, Divine Protections\nMajor Threats: The Witch-Cult, The Witch Apostles, Witch of Envy: Satella, Demon Beasts\nMajor Powers: The Witch-Cult, Witch of Envy: Satella, Demon Beasts, Dragon Kingdom of Lugnicia, King Candidates' Factions\nNote: You have magic of a random attribute and strength. If you have Magik or Magecraft, you're guaranteed to be strong magically. You also might get Divine Protections.",
           "title": "Re:Zero"
@@ -70739,7 +70849,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Magic, Spirits, Gods\nMajor Threats: The Dungeon, the Monsters, and the Black Dragon\nMajor Powers: The Guild, The Gods in Heaven, the Loki Familia, the Freya Familia, the Hephaestus Familia, Hermes Familia, Ishtar Familia, Evilus\nNote: Your powers as well as some perks and drawbacks will appear on your Falna (if you receive one) along with a description of each power/perk/drawback. Receiving a Falna makes all your powers your own, so as long as you have a Falna you never have to worry about losing your powers. If you lose your Falna somehow, you lose all your powers and any perk/drawback that was listed on your Falna, and will regain them after regaining a Falna.\nThe Deities of DanMachi could be a significant help against the Entity, if you can convince them to help.",
           "title": "DanMachi"
@@ -70755,7 +70875,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Magic, the Gods\nMajor Threats: Ganon, Ganon's forces, Demise's other incarnations, Majora's Mask\nMajor Powers: The Goddesses, Demise, and the rest depends on the era, but usually Hyrule, and others include the Gerudo, the Zora, the Rito, the Goron, the Koroks, the Kokiri, the Fairies, Lorule, etc.\nNote: You can choose what era you start in.",
           "title": "Legend of Zelda"
@@ -70771,7 +70901,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Magic, SOUL, LV/LOVE, EXP, DETERMINATION, JUSTICE, PERSEVERANCE, PATIENCE, BRAVERY, INTEGRITY, and KINDNESS.\nMajor Threats: Flowey, Genocide Frisk & Chara\nMajor Powers: Humanity, The Kingdom of Monsters. Within The Kingdom of Monsters, the major powers are Asgore the king, Undyne the captain of the Royal Guard, Alphys the royal scientist, Toriel (the former Queen), Sans, Papyrus, Flowey, and Frisk. \nNote: Unless you're on Death Mode (Extremely Hard mode if you, by default, are a very determined person) Frisk's DETERMINATION will outstrip yours (Sub-Note: Demiservant Frisk or Chara will also work instead). Frisk's Power affects any universe he's ever been in, and is powerful enough to affect Scion or Eden, though they may remember by accessing the memory of their Shards or using precognition powers. However, if you're within the same universe as Frisk, if you're perceptive enough or have a strong enough DETERMINATION, you will be able to notice it occurring, and if your perception/DETERMINATION is powerful enough, you may even be able to remember it.\nFrisk, Genocide or Pacifist, will be a powerful ally.",
           "title": "Undertale"
@@ -70788,7 +70928,17 @@
           "multipleUseVariable": 0,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Psionics\nMajor Threats: Psionic Users, local Governments matching those of your world to some degree. \nMajor Powers: Max Caulfield (A girl with the psionic ability to turn back her personal time, keeping all of her experiences)\nSuper Abilities: Psionics\nNote: There is a notable chance for someone in this world to develop an ability tailored to counter Scion, but not without personal cost to them. If you reincarnate, then you have a 5% of gaining a psionic ability, 100% if you have a psychic ability from the powers section.",
           "title": "Life is Strange"
@@ -70805,10 +70955,128 @@
           "multipleUseVariable": 0,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
           "template": 1,
           "text": "Origin of Powers: Cybernetics, Magic\nMajor Threats: Corporations, Deckers, AI, Dragons, Horrors\nMajor Powers: Corporations, Dragons\nSuper Abilities: Cybernetics, Magic\nNote: You have a 1% of being able to use magic if you reincarnate into this world, or a 100% chance if you have magic through other means.",
           "title": "Shadowrun"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "s35z",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-60"
+            }
+          ],
+          "template": 1,
+          "text": "Origin of Powers: Advanced Technology, Magic, Genetics\n\nMajor Threats: Celestialsapiens, Vilgax, Highbreed, Maltruant, Agregor, Albedo, Malware, Eon, Dagon (Honestly this list could go on and on. It's an incredibly dangerous universe) \n\nMajor Powers: Celestialsapiens, Contumelia, Naljian, Professor Paradox, Tennyson Family, Plumbers, Dagon, Forever Knights, Highbreed (Honestly this list could also probably go on and on)\n\nSuper Abilities: Omnitirx, Magic, Alien DNA, Genius Intellect\n\nNote: This is by far one of the most dangerous universes available to insert yourself into though it may not seem like it based on how lighthearted the show was. The Celesialsapiens and Contumelia could both wipe out universe if they wished. Celestialsapiens have also been known to warp realtiy which is responsible for every inconsistency between the multiple series such as art style and different voice actors. By going to this universe, you would be subject to alterations in reality such as art style or a different voice which you probably won't notice. Don't worry Celestialsapiens never change anything too major.Also, Vilgax once used a device to wipe out every universe in the mutliverse except for ONE that he liked... This was undone, but still... Tread carefully.",
+          "title": "Ben 10 (OG)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "o2k1",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-40"
+            }
+          ],
+          "template": 1,
+          "text": "Origin of Powers: Nanites\n\nMajor Threats: EVOs (Stands for Exponentially Variegated Organisms that range from simple creatures with powers to monstrous beasts that emerged due to Nanites), EVO empires such as Abysus, Aquania, and the Bug Jar, Zag RS (an artificial intelligence with the goal of destroying all nanites, which would kill all life on the planet with nanites in the process), the Consortium (an illuminati-like group), and a number of non-nanite Cryptids around the world like El Chupacabra. \n\nMajor Powers: A global, clandestine military force called Providence with the goal of securing the world, primarily against EVOs. Rex Salazar, an EVO with the power to manipulate nanites, able to cure EVOs, control machines through technopathy, and make machine constructs. Van Kleiss, the dictator of Abysus with his team of EVOs he calls the Pack, connection to Abysus' nanites such that he can freely manipulate the land and they would simply reconstruct his body if he was killed, scientists of the original Nanite Project, the Consortium with a mercenary with a copy of Rex's abilities and international connections, and the Meta Nanites, a set of 5 nanites hidden around the world capable of controlling the very fabric of the universe. \n\nNote: \n\nIf you aren't immune to nanites, you might be turned into an EVO as well due to exposure to them through the air, water, and food. \n\nThe meta nanites could be used to go head to head against an Entity, but the most likely user of them is certain to make using them impossible without interference, and in turn, even minimal interference could result in dooming this world due to how many close calls there are going to be.\n\nThere is discrimation against EVOs in this world in a similar manner to that against mutants in X-Men, which you will appear to be with super abilities.",
+          "title": "Generator Rex"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7ts8",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Origin of powers: Science and Maso.\nMajor Threats: The Android Army, The Machine Army, YoRHa, N2 or the Red Girls (Machine Intelligence), Emil.\n\nMajor Powers: The Android army, The Machine Network, YoRHa, N2 or the Red Girls (Machine Intelligence), Emil.\n\nNote: If you reincarnate and pick particular options there's a chance you can become an android made by the Resistance or YoRHa or Machine lifeform.\nAlso if you insert without case 53, be prepared to cover your humanity, because basically everyone will want to lock you away forever in an orbital facility if they find out, the androids and YoRHa to protect you, the Machine Network to study you. Also a lot of androids might become fanatical about you, since you are their equivalent of a god, but beware some are not.\n\nAlso all YoRHa units and Emil use Maso in combat (the latter actively radiates it) and this particular element is known to be 100% lethal to humans that native to this World.",
+          "title": "Nier Automata"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qtxn",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-80"
+            }
+          ],
+          "template": 1,
+          "text": "Origin of Powers: \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\nMajor Powers: \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\nMajor Threats: SCP-\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\n\nNote: Information is restricted to individuals with O-5 clearance or higher.\n",
+          "title": "[REDACTED]"
         },
         {
           "addons": [],
@@ -70821,7 +71089,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
           "template": 1,
           "text": "This is some other world not listed here.",
           "title": "Other World"
@@ -70837,7 +71115,17 @@
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
           "template": 1,
           "text": "Fill out a CYOA that allows you to create a world, and remove any personal powers/perks/drawbacks given by the CYOA. This is that world.",
           "title": "Original World"
@@ -73889,6 +74177,332 @@
           "template": 1,
           "text": "You appear at the bottom of the hole leading into Mt. Ebott. You cannot teleport out of the Underground until the Barrier is destroyed.",
           "title": "Underground"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7rlq",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "7ts8",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            }
+          ],
+          "template": 1,
+          "text": "You arrive at the area that is highly infested by Machine Lifeform, better do something quick about it.",
+          "title": "Mechanized"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qlie",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "7ts8",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You arrived at one of the Resistance Camps, congratulations you are safe! For now.",
+          "title": "Resistance for Humanity"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "c8gb",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "7ts8",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            }
+          ],
+          "template": 1,
+          "text": "You arrived at a random location on Earth, animals have mutated and become dangerous for squishy humans, and the sea itself has been polluted by Machine's waste. Good luck trying to survive!",
+          "title": "Wildlife"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "w960",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "7ts8",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "You arrived at a random location on Earth that is safe and has no hostilities toward you. Do note while it is safe but there's no food or consumable water around the area.",
+          "title": "Safe, for now"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "b1f1",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "7ts8",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            }
+          ],
+          "template": 1,
+          "text": "You arrived at the Bunker, the main base of YoRHa, in space. Good luck getting out of there, maybe the Commander can be convinced to let you leave? And oh, the Machine has eyes in there too! So\u2026 good luck!",
+          "title": "Glory to Mankind!"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xqh5",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "7ts8",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            }
+          ],
+          "template": 1,
+          "text": "You arrived at the area that was infested by insane Emil's clones. Good luck you bastard, you will need it.",
+          "title": "Emil's Despair"
         },
         {
           "addons": [],
