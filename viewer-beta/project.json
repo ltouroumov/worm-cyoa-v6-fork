@@ -4447,7 +4447,7 @@
       "id": "dlut",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -10265,7 +10265,7 @@
       "id": "bz36",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -12996,6 +12996,9 @@
             },
             {
               "req": "ntbm"
+            },
+            {
+              "req": "kxnn"
             }
           ],
           "reqId": "",
@@ -24011,6 +24014,33 @@
           "template": 1,
           "text": "You are a magical girl, you have a transformation sequence to turn into your Magical Girl form. This provides no benefit and is purely for show. The transformation can be instant if you wish it. ",
           "title": "Magical Girl"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "iq1q",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "The Fate or \"Canon\" of this world is molded by those much higher than yourself and unless intentionally acted against shall follow the same path. Unless you involve yourself directly in the events foretold by Wildbow everything shall follow the path he laid out more or less. You can breathe a sigh of relief knowing that a teenager will sacrifice her humanity to save the Multi-Verse because you decided to take the easy way out. Coward.",
+          "title": "Just as Planned"
         },
         {
           "addons": [],
@@ -46400,7 +46430,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -46901,7 +46931,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-12",
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
@@ -46918,6 +46948,33 @@
           "template": 1,
           "text": "Within 20 meters of yourself, you can cast one effect every 5 seconds. Except for Smite, these effects can be cast discretely. You cannot cast any of these effects on yourself. All effects that stack can only stack up to 10 times, they are marked with an (S).\n\n<b>Smite</b> - A Blaster power that can be released from anywhere in your field. When it hits its target it'll harm them as much as a full-power punch from you. However, every time you win a battle you'll be able to apply an extra 1% of force. This 1% is additive, so if you win 100 battles you'll be able to apply 200% of your strength with Smite.\n<b>Purify</b> - This cures sickness and poisons, stops bleeding, and sanitizes wounds. This works on cancer. This only works on a single person at a time.\n<b>Staunch</b> - Stops all bleeding in your range for 30 seconds.\n<b>Heal</b> - Fully heals the target of all injuries. While it doesn't cure you of illnesses, genetic or otherwise, it does cure the symptoms.\n<b>Regeneration</b> - You can give a person 5 minutes of high-speed regeneration. The speed at which a targeted person regenerates is visible, but only barely. This effect stacks, so if you apply it on a person 3 times in a row, they'd have 5 minutes of regeneration. This makes cancer worse.\n<b>Bless</b> - You can give a person incredible resistance to anything that resembles (or actually is) something unholy. Anything unholy or that resembles the unholy has a weakness to people with Blessing cast on them. The Blessing is strong enough that Armsmaster would be able to definitively kill Leviathan (Who is unholy, as an Eldritch Monstrosity).\n<b>Iron-Skin (S)</b> - You can give someone extremely durable and shock resistant skin for 5 minutes.\n<b>Enhance Speed (S)</b>, <b>Enhance Strength(S)</b>, <b>Enhance Dexterity (S)</b>, <b>Enhance Intelligence (S)</b>, <b>Enhance Charisma (S)</b>, <b>Enhance Luck (S)</b> - You can double any of these characteristics for five minutes.\n<b>Curse Speed (S)</b>, <b>Curse Strength (S)</b>, <b>Curse Dexterity (S)</b>, <b>Curse Intelligence (S)</b>, <b>Curse Charisma (S)</b>, <b>Curse Luck (S)</b> - You can half any of these characteristics for five minutes. For luck, this effectively doubles their bad luck.\n<b>Elemental Breath</b> - You can give someone resistance to an element as well as mid-level Shaker control over said element.\n<b>Undo</b> - Undo all active Parahuman effects on a person, aside from those that are part of their power.\n<b>Rebuff</b> - Undo all passive Parahuman effects on a person, aside from those that are part of their power.\n<b>Reject</b> - Undo all Parahuman effects on a person, regardless of whether they are active, passive, or part of their power. This does not remove their power.\n<b>Remove</b> - Undo all Parahuman effects on a person, regardless of whether they are active, passive, or part of their power. This removes their power. You absorb an energy ball with their power stored in it.\n<b>Transfer</b> - You can transfer an energy ball with a power stored in it to another person. The power will act similar to a Cauldron power, not giving them instinctive knowledge on how to use the power, but not messing with their mind either.",
           "title": "(Trump/Shaker) Don't mess with a white mage"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "64k9",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "When you touch a Parahuman, they become part of your network. Members of the network can access weakened versions of the powers of connected powers (80% strength). A member can use at most use five powers at once, as the hub you can use up to twenty at once, however the more powers you have active the weaker they become (down by 20% for each set of 5 with a minimum of 20%). You can create partitions in the network and restrict which powers each member has access to, however you cannot restrict access to a member's own power.",
+          "title": "(Trump) Network Hub"
         },
         {
           "addons": [],
@@ -61936,6 +61993,33 @@
           "template": 1,
           "text": "You have the ability to use wanded magic and the knowledge of how to build a wand that matches you perfectly.\n\nYou instinctively know the basics and find yourself learning quickly. This covers magic-adjacent disciplines like Potions, Herbology, and so on as well.\n\n(Non-canon concepts such as the use of Arithmancy and Runes, or magical cores is up to you if they exist or not. This power essentially allows you to do anything with enough research and preparation.)",
           "title": "Wanded Magic (Harry Potter)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "mwny",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            }
+          ],
+          "template": 1,
+          "text": "You have in your very genetics the power of the universe and the future, the infinite potential. Spiral Power. You can accomplish, and do, practically anything, so long as you have confidence in yourself and the fact that you can do so. Your hotheadedness and determination determine your power, with enough heart and spirit nothing is impossible for you. You also have a much tougher body, and can come back from most injuries with little time. You can also naturally live for thousands of years.",
+          "title": "Spiral Power"
         },
         {
           "addons": [],
