@@ -71874,7 +71874,7 @@
             }
           ],
           "template": 1,
-          "text": "Origin of powers: Science and Maso.\nMajor Threats: The Android Army, The Machine Army, YoRHa, N2 or the Red Girls (Machine Intelligence), Emil.\n\nMajor Powers: The Android army, The Machine Network, YoRHa, N2 or the Red Girls (Machine Intelligence), Emil.\n\nNote: If you reincarnate and pick particular options there's a chance you can become an android made by the Resistance or YoRHa or Machine lifeform.\nAlso if you insert without case 53, be prepared to cover your humanity, because basically everyone will want to lock you away forever in an orbital facility if they find out, the androids and YoRHa to protect you, the Machine Network to study you. Also a lot of androids might become fanatical about you, since you are their equivalent of a god, but beware some are not.\n\nAlso all YoRHa units and Emil use Maso in combat (the latter actively radiates it) and this particular element is known to be 100% lethal to humans that native to this World.",
+          "text": "Origin of powers: Science and Maso.\n\nMajor Threats: The Android Army, The Machine Army, YoRHa, N2 or the Red Girls (Machine Intelligence), Emil.\n\nMajor Powers: The Android army, The Machine Network, YoRHa, N2 or the Red Girls (Machine Intelligence), Emil.\n\nNote: If you reincarnate and pick particular options there's a chance you can become an android made by the Resistance or YoRHa or Machine lifeform.\nAlso if you insert without case 53, be prepared to cover your humanity, because basically everyone will want to lock you away forever in an orbital facility if they find out, the androids and YoRHa to protect you, the Machine Network to study you. Also a lot of androids might become fanatical about you, since you are their equivalent of a god, but beware some are not.\n\nAlso all YoRHa units and Emil use Maso in combat (the latter actively radiates it) and this particular element is known to be 100% lethal to humans that native to this World.",
           "title": "Nier Automata"
         },
         {
@@ -71903,6 +71903,60 @@
           "template": 1,
           "text": "Origin of Powers: \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\nMajor Powers: \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\nMajor Threats: SCP-\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\n\nNote: Information is restricted to individuals with O-5 clearance or higher.\n",
           "title": "[REDACTED]"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jku8",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-80"
+            }
+          ],
+          "template": 1,
+          "text": "Source of powers: Eldritch biology, eldritch technology, divinity, eldritch magic, and magic. \n\nMajor Threats: Outer Gods, Great Old Ones, Flying Polyps, Mi-Go, Deep Ones, eldritch cults, and eldritch corruption. \n\nMajor Powers: Outer Gods, Great Old Ones, Flying Polyps, Elder Things, Yithians, Mi-Go, and Human Civilization. (Arranged in order of power from most powerful to least powerful)\n\nNote: This is a grimdark verse where you're certain to attract malicious attention from at least one malicious Outer God and humanity is destined to be destroyed, and it even having survived to the point it did being lucky enough to be considered a miracle.",
+          "title": "Cthulhu Mythos"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hom7",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "0"
+            }
+          ],
+          "template": 1,
+          "text": "Source of Powers: Biotech (science derived from biology), Cognitech (cognitive technology, ranging from smart people on the low side to augmented reality implants on the medium side to supercomputer implants on the high end) , Metatech (Social science like psychology or sociology), Nanotech (precision, technology on extremely small scales), and Stringtech (String theory based science, think nukes and wormholes). \n\nMajor Threats: Societal Instability. There are countless civilizations throughout the universe, \"Cargo Cults\" made up of people in worlds where their technology broke down, and Artificial Intelligence Aliens, or the Aia, who seem to constantly be at war. \n\nMajor Powers: The Transcendentals (Artificial Intelligence capable of seeing the future, and thus are in the future due to computer science simply being information, this is also not a deterministic universe, so it's complicated. Their goal is to share their unique perspective with the rest of the universe, thinking that'd bring peace. Specifically all of it, they won't compromise and give it to individuals), the Patent Office (Ran by the Transcendentals, in this world, the primary currency is ideas), the Aia (highly advanced artificial intelligence), the fourteen dominant civilizations throughout the universe, and the Skodati (Similarly advanced to humanity, these aliens made up of Dark Matter are extremely hard to interact with, but communication through gravity waves has been established). \n\nNote: The Transcendentals of this universe are comparable to a Baby Entity, such that they could theoretically pose a threat to Scion. Unfortunately, they are not aware of Scion, since his Thinker power jamming works against them, so you'll need to warn them of him without attracting attention from Scion if you are to have a decent chance.",
+          "title": "Sufficiently Advanced"
         },
         {
           "addons": [],

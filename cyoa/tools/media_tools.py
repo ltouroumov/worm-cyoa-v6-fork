@@ -39,6 +39,18 @@ class ImageInfo:
 
         return str.join('/', result)
 
+    @property
+    def short_id(self):
+        result = []
+        if self.obj_id:
+            result.append(self.obj_id)
+        elif self.row_id:
+            result.append(self.row_id)
+        if self.style_prop:
+            result.append(self.style_prop)
+
+        return str.join('-', result)
+
 
 IMAGE_PROPS = ('backgroundImage',
                'objectBackgroundImage',
@@ -83,18 +95,24 @@ def list_all_images(project) -> Iterator[ImageInfo]:
                                     style_prop=style_prop, image_data=bgImage)
 
 
+def decode_image(image_data):
+    header, contents = str.split(image_data, ';')
+    encoding, data_str = str.split(contents, ',')
+
+    if encoding == 'base64':
+        try:
+            data_bytes = base64.b64decode(data_str)
+        except Exception:
+            return 0, f"Failed to decode data"
+    else:
+        return 0, f"Unsupported encoding {encoding}"
+
+    return header, data_bytes
+
+
 def get_image_info(image_data):
     try:
-        header, contents = str.split(image_data, ';')
-        encoding, data_str = str.split(contents, ',')
-
-        if encoding == 'base64':
-            try:
-                data_bytes = base64.b64decode(data_str)
-            except Exception:
-                return 0, f"Failed to decode data"
-        else:
-            return 0, f"Unsupported encoding {encoding}"
+        header, data_bytes = decode_image(image_data)
 
         image_size = len(data_bytes)
         image = Image.open(io.BytesIO(data_bytes))
@@ -110,6 +128,73 @@ def optimize_image(image: Image, format: str):
                quality=80,
                method=4)
     return image_data.getvalue()
+
+
+def export_image(image_info: ImageInfo, image_type: str, image_data: bytes, dest_dir: Path):
+    if dest_dir is None:
+        return
+
+    if image_info.object_type == "proj":
+        file_name = f"{image_info.object_type}-{image_info.short_id}.{image_type}"
+    elif image_info.object_type == "row":
+        file_name = f"{image_info.object_type}-{image_info.short_id}.{image_type}"
+    elif image_info.object_type == "obj":
+        file_name = f"{image_info.object_type}-{image_info.short_id}.{image_type}"
+    else:
+        raise Exception("Invalid image info")
+
+    with open(dest_dir / file_name, mode='wb+') as fd:
+        fd.write(image_data)
+
+    return file_name
+    
+
+def update_image(project, image_info, image_type, image_data=None, image_path=None):
+    if image_data:
+        encoded_image = (
+            f"data:image/{image_type};base64," +
+            base64.b64encode(image_data).decode('utf-8')
+        )
+    elif image_path:
+        encoded_image = image_path
+    else:
+        raise Exception("image_data or image_path must be set")
+
+    if image_info.object_type == 'proj' and image_info.style_prop:
+        project &= lens['styling'][image_info.style_prop].set(
+            encoded_image
+        )
+    elif image_info.object_type == 'proj' and image_info.style_prop is None:
+        project &= lens['image'].set(encoded_image)
+    elif image_info.object_type == 'row' and image_info.style_prop:
+        update_row_data(
+            project=project,
+            row_id=image_info.row_id,
+            lens=lens['styling'][image_info.style_prop].set(
+                encoded_image
+            )
+        )
+    elif image_info.object_type == 'row' and image_info.style_prop is None:
+        update_row_data(
+            project=project,
+            row_id=image_info.row_id,
+            lens=lens['image'].set(encoded_image)
+        )
+    elif image_info.object_type == 'obj' and image_info.style_prop:
+        update_obj_data(
+            project=project,
+            row_id=image_info.row_id,
+            obj_id=image_info.obj_id,
+            lens=lens['styling'][image_info.style_prop].set(
+                encoded_image)
+        )
+    elif image_info.object_type == 'obj' and image_info.style_prop is None:
+        update_obj_data(
+            project=project,
+            row_id=image_info.row_id,
+            obj_id=image_info.obj_id,
+            lens=lens['image'].set(encoded_image)
+        )
 
 
 class MediaListTool(ToolBase, ProjectUtilsMixin):
@@ -158,67 +243,6 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         if dest_dir := args.export_to:
             makedirs(dest_dir, exist_ok=True)
 
-        def export_image(image_info, image_data, image_type):
-            if dest_dir is None:
-                return
-
-            if image_info.object_type == "proj" and image_info.style_prop:
-                file_name = f"{image_info.object_type}-{image_info.style_prop}.{image_type}"
-            elif image_info.object_type == "row" and image_info.style_prop:
-                file_name = f"{image_info.object_type}-{image_info.object_id}-{image_info.style_prop}.{image_type}"
-            elif image_info.object_type == "row":
-                file_name = f"{image_info.object_type}-{image_info.object_id}.{image_type}"
-            elif image_info.object_type == "obj" and image_info.style_prop:
-                file_name = f"{image_info.object_type}-{image_info.object_id}-{image_info.style_prop}.{image_type}"
-            elif image_info.object_type == "obj":
-                file_name = f"{image_info.object_type}-{image_info.object_id}.{image_type}"
-            else:
-                raise Exception("Invalid image info")
-
-            with open(dest_dir / file_name, mode='wb+') as fd:
-                fd.write(image_data)
-
-        def update_image(image_info, image_data, image_type):
-            if args.write is False:
-                return
-
-            encoded_image = f"data:image/{image_type};base64," + \
-                base64.b64encode(image_data).decode('utf-8')
-
-            if image_info.object_type == 'proj' and image_info.style_prop:
-                self.project &= lens['styling'][image_info.style_prop].set(
-                    encoded_image)
-            elif image_info.object_type == 'proj' and image_info.style_prop is None:
-                self.project &= lens['image'].set(encoded_image)
-            elif image_info.object_type == 'row' and image_info.style_prop:
-                update_row_data(
-                    project=self.project,
-                    row_id=image_info.row_id,
-                    lens=lens['styling'][image_info.style_prop].set(
-                        encoded_image)
-                )
-            elif image_info.object_type == 'row' and image_info.style_prop is None:
-                update_row_data(
-                    project=self.project,
-                    row_id=image_info.row_id,
-                    lens=lens['image'].set(encoded_image)
-                )
-            elif image_info.object_type == 'obj' and image_info.style_prop:
-                update_obj_data(
-                    project=self.project,
-                    row_id=image_info.row_id,
-                    obj_id=image_info.obj_id,
-                    lens=lens['styling'][image_info.style_prop].set(
-                        encoded_image)
-                )
-            elif image_info.object_type == 'obj' and image_info.style_prop is None:
-                update_obj_data(
-                    project=self.project,
-                    row_id=image_info.row_id,
-                    obj_id=image_info.obj_id,
-                    lens=lens['image'].set(encoded_image)
-                )
-
         images_table = Table("obj_id", "title", "Dimensions",
                              "Size", "Optimized", "Type")
 
@@ -248,8 +272,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                     img_type
                 )
 
-                export_image(image_info, optimized_image, "webp")
-                update_image(image_info, optimized_image, "webp")
+                export_image(image_info, "webp", image_data=optimized_image, dest_dir=dest_dir)
+                update_image(image_info, "webp", image_data=optimized_image)
 
                 total_after += optimized_image_size
             else:
