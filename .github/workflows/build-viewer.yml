@@ -17,7 +17,7 @@ jobs:
     
     # Build the viewer
     - name: Build Viewer
-      run: python3 -m cyoa.tools.client build --input project-v15.json --output viewer
+      run: poetry run python -m cyoa.tools.client build --input project-v15.json --output viewer
     - name: Archive Viewer
       run: tar --dereference --hard-dereference -cvf artifact.tar .
     
