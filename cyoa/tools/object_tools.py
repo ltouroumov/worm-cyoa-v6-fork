@@ -1,3 +1,6 @@
+import csv
+from dataclasses import field
+from io import StringIO
 import json
 from pathlib import Path
 
@@ -20,11 +23,24 @@ class ObjectListTool(ToolBase, ProjectUtilsMixin):
         row_data = find_first(self.project['rows'],
                               lambda row: row['id'] == args.row_id)
 
-        console.print(row_data['id'], row_data['title'])
-        console.print(row_data['titleText'])
+        if args.csv:
+            str_io = StringIO()
+            csv_file = csv.DictWriter(str_io, fieldnames=('index', 'object_id', 'title'))
+            csv_file.writeheader()
+            for idx, object_data in enumerate(row_data['objects']):
+                csv_file.writerow({
+                    'index': idx,
+                    'object_id': object_data['id'],
+                    'title': object_data['title']
+                })
 
-        for idx, object_data in enumerate(row_data['objects']):
-            console.print(idx, object_data['id'], object_data['title'])
+            print(str_io.getvalue())
+        else:
+            console.print(row_data['id'], row_data['title'])
+            console.print(row_data['titleText'])
+
+            for idx, object_data in enumerate(row_data['objects']):
+                console.print(idx, object_data['id'], object_data['title'])
 
 
 class ObjectCopyTool(ToolBase, ProjectUtilsMixin):
