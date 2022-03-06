@@ -25,7 +25,7 @@ class BuildTool(ToolBase, ProjectUtilsMixin):
         for image_file in images_dir.glob('*.*'):
             if image_file.name in ('.gitkeep',):
                 continue
-            
+
             image_file.unlink()
 
 
@@ -38,7 +38,6 @@ class BuildTool(ToolBase, ProjectUtilsMixin):
             
             file_name = export_image(image_info, image_type, image_data=image_data, dest_dir=dest_dir / "images")
             update_image(self.project, image_info, image_type, image_path=f"./images/{file_name}")
-            console.log(f"Exported {file_name}")
         
         self._save_project(dest_dir / "project.json")
 
