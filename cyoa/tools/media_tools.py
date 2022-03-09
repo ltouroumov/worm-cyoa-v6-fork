@@ -8,6 +8,7 @@ from pathlib import Path
 from shutil import copyfile
 from typing import List, Dict, Optional, Iterator
 
+import requests
 import humanize
 from PIL import Image
 from rich.table import Table
@@ -59,7 +60,9 @@ IMAGE_PROPS = ('backgroundImage',
 
 def list_all_images(project) -> Iterator[ImageInfo]:
     def extract_image_from_item(item):
-        if (image := item['image']) != '':
+        if item.get('imageIsUrl', False):
+            return None
+        elif (image := item['image']) != '':
             return image
         return None
 

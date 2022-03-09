@@ -10,6 +10,7 @@ rich = "*"
 pillow = "*"
 humanize = "*"
 lenses = "^1.1.0"
+requests = "^2.27.1"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.6.0"
