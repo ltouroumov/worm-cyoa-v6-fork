@@ -2579,8 +2579,8 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "Who is the being talking to? Who is the recipient of the being's blessing? Who knows about the being giving away these powers?",
-          "title": "Who?"
+          "text": "Who will be affected by the choices and their knowledge about it.",
+          "title": "Target & Awareness"
         },
         {
           "addons": [],
@@ -2595,7 +2595,7 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "Is it worth it? Well, good luck.\n\n<b>You need to select a difficulty to gain points from Scenarios and Drawbacks</b>",
+          "text": "How many points do you start with and are granted by Scenarios and Drawbacks. Has no impact otherwise.",
           "title": "Difficulty"
         },
         {
@@ -2675,7 +2675,7 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "Superpowers.",
+          "text": "Choose your powers here.",
           "title": "Powers"
         },
         {
@@ -2707,7 +2707,7 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "Costume or Items.",
+          "text": "Costume and Items.",
           "title": "Items"
         },
         {
@@ -3314,7 +3314,7 @@
       "titleText": "Who are your choices affecting?"
     },
     {
-      "allowedChoices": 0,
+      "allowedChoices": 1,
       "buttonId": "",
       "buttonRandom": false,
       "buttonRandomNumber": 1,
