@@ -36612,181 +36612,6 @@
       "objectWidth": "col-md-3",
       "objects": [
         {
-          "id": "6knm",
-          "title": "Shard Powers",
-          "text": "",
-          "image": "",
-          "template": 1,
-          "objectWidth": "col-12",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [],
-          "addons": [],
-          "scores": [],
-          "groups": [],
-          "isNotSelectable": true,
-          "isPrivateStyling": true,
-          "styling": {
-            "addonText": "Times New Roman",
-            "addonTextAlign": "center",
-            "addonTextColor": "#FFFFFFFF",
-            "addonTextTextSize": 100,
-            "addonTitle": "Times New Roman",
-            "addonTitleAlign": "center",
-            "addonTitleColor": "#FFFFFFFF",
-            "addonTitleTextSize": 200,
-            "backPackWidth": 1200,
-            "backgroundColor": "#000000FF",
-            "backgroundImage": "",
-            "barBackgroundColor": "#FFFFFFFF",
-            "barMargin": 0,
-            "barPadding": 0,
-            "barTextColor": "#000000",
-            "barTextFont": "Times New Roman",
-            "barTextMargin": 0,
-            "barTextPadding": 17,
-            "barTextSize": 15,
-            "objectBackgroundImage": "",
-            "objectBgColor": "#000000FF",
-            "objectBgColorIsOn": true,
-            "objectBorderColor": "#FDFDFDFF",
-            "objectBorderIsOn": false,
-            "objectBorderRadiusBottomLeft": "5",
-            "objectBorderRadiusBottomRight": "5",
-            "objectBorderRadiusIsPixels": true,
-            "objectBorderRadiusTopLeft": "5",
-            "objectBorderRadiusTopRight": "5",
-            "objectBorderStyle": "solid",
-            "objectBorderWidth": 2,
-            "objectDropShadowBlur": 0,
-            "objectDropShadowColor": "#FFEF00FF",
-            "objectDropShadowH": 0,
-            "objectDropShadowIsOn": false,
-            "objectDropShadowSpread": 0,
-            "objectDropShadowV": 0,
-            "objectHeight": true,
-            "objectImageMarginBottom": 0,
-            "objectImageMarginTop": 0,
-            "objectImageWidth": 100,
-            "objectImgBorderColor": "red",
-            "objectImgBorderIsOn": false,
-            "objectImgBorderRadiusBottomLeft": 0,
-            "objectImgBorderRadiusBottomRight": 0,
-            "objectImgBorderRadiusIsPixels": true,
-            "objectImgBorderRadiusTopLeft": 0,
-            "objectImgBorderRadiusTopRight": 0,
-            "objectImgBorderStyle": "solid",
-            "objectImgBorderWidth": 2,
-            "objectMargin": 10,
-            "objectOverflowIsOn": true,
-            "objectText": "Times New Roman",
-            "objectTextAlign": "center",
-            "objectTextColor": "#FFFFFFFF",
-            "objectTextPadding": 10,
-            "objectTextTextSize": 100,
-            "objectTitle": "Times New Roman",
-            "objectTitleAlign": "center",
-            "objectTitleColor": "#FFFFFFFF",
-            "objectTitleTextSize": 200,
-            "reqBgColorIsOn": true,
-            "reqFilterBgColor": "#6B6464FF",
-            "reqFilterBlur": 0,
-            "reqFilterBlurIsOn": false,
-            "reqFilterBright": 100,
-            "reqFilterBrightIsOn": false,
-            "reqFilterCont": 100,
-            "reqFilterContIsOn": false,
-            "reqFilterGray": 0,
-            "reqFilterGrayIsOn": false,
-            "reqFilterHue": 0,
-            "reqFilterHueIsOn": false,
-            "reqFilterInvert": "50",
-            "reqFilterInvertIsOn": false,
-            "reqFilterOpac": "25",
-            "reqFilterOpacIsOn": false,
-            "reqFilterSatur": 1,
-            "reqFilterSaturIsOn": false,
-            "reqFilterSepia": 0,
-            "reqFilterSepiaIsOn": false,
-            "reqFilterVisibleIsOn": false,
-            "rowBackgroundImage": "",
-            "rowBgColor": "#000000FF",
-            "rowBgColorIsOn": true,
-            "rowBodyMarginBottom": 25,
-            "rowBodyMarginSides": 1,
-            "rowBodyMarginTop": 25,
-            "rowBorderColor": "#FFEEDDFF",
-            "rowBorderIsOn": false,
-            "rowBorderRadiusBottomLeft": "0",
-            "rowBorderRadiusBottomRight": "0",
-            "rowBorderRadiusIsPixels": true,
-            "rowBorderRadiusTopLeft": "0",
-            "rowBorderRadiusTopRight": "0",
-            "rowBorderStyle": "solid",
-            "rowBorderWidth": 2,
-            "rowButtonXPadding": 0,
-            "rowButtonYPadding": 0,
-            "rowDesignIsAdvanced": false,
-            "rowDropShadowBlur": 0,
-            "rowDropShadowColor": "#FFFFEEFF",
-            "rowDropShadowH": 0,
-            "rowDropShadowIsOn": false,
-            "rowDropShadowSpread": 0,
-            "rowDropShadowV": 0,
-            "rowImageMarginTop": 0,
-            "rowImageWidth": 100,
-            "rowImgBorderColor": "#FFEEDDFF",
-            "rowImgBorderIsOn": false,
-            "rowImgBorderRadiusBottomLeft": 0,
-            "rowImgBorderRadiusBottomRight": 0,
-            "rowImgBorderRadiusIsPixels": true,
-            "rowImgBorderRadiusTopLeft": 0,
-            "rowImgBorderRadiusTopRight": 0,
-            "rowImgBorderStyle": "solid",
-            "rowImgBorderWidth": 2,
-            "rowImgOverflowIsOn": false,
-            "rowMargin": "5",
-            "rowOverflowIsOn": true,
-            "rowText": "Times New Roman",
-            "rowTextAlign": "center",
-            "rowTextColor": "#FFFFFFFF",
-            "rowTextPaddingX": 10,
-            "rowTextPaddingY": 5,
-            "rowTextTextSize": 100,
-            "rowTitle": "Times New Roman",
-            "rowTitleAlign": "center",
-            "rowTitleColor": "#FFFFFFFF",
-            "rowTitleTextSize": 200,
-            "scoreText": "Times New Roman",
-            "scoreTextAlign": "center",
-            "scoreTextColor": "#FFFFFFFF",
-            "scoreTextSize": 75,
-            "selBgColorIsOn": true,
-            "selFilterBgColor": "#3CAAAAFF",
-            "selFilterBlur": 0,
-            "selFilterBlurIsOn": false,
-            "selFilterBright": 100,
-            "selFilterBrightIsOn": false,
-            "selFilterCont": 100,
-            "selFilterContIsOn": false,
-            "selFilterGray": 0,
-            "selFilterGrayIsOn": false,
-            "selFilterHue": 0,
-            "selFilterHueIsOn": false,
-            "selFilterInvert": 0,
-            "selFilterInvertIsOn": false,
-            "selFilterOpac": 100,
-            "selFilterOpacIsOn": false,
-            "selFilterSatur": 1,
-            "selFilterSaturIsOn": false,
-            "selFilterSepia": 0,
-            "selFilterSepiaIsOn": false
-          }
-        },
-        {
           "addons": [],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
@@ -36796,43 +36621,7 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "sxhj"
-                },
-                {
-                  "req": "ttv5"
-                },
-                {
-                  "req": "axaw"
-                },
-                {
-                  "req": "5g0q"
-                },
-                {
-                  "req": "inxc"
-                },
-                {
-                  "req": "ou34"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
+          "requireds": [],
           "scores": [],
           "template": 1,
           "text": "",
@@ -36850,33 +36639,33 @@
           "objectWidth": "",
           "requireds": [
             {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
+              "required": true,
+              "requireds": [],
               "orRequired": [
                 {
                   "req": "sxhj"
                 },
                 {
-                  "req": "ttv5"
+                  "req": "axaw"
                 },
                 {
                   "req": "5g0q"
                 },
                 {
-                  "req": "inxc"
+                  "req": "ou34"
                 }
               ],
+              "id": "",
+              "type": "or",
               "reqId": "",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
               "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "scores": [],
@@ -36915,7 +36704,7 @@
               "reqPoints": 0,
               "required": true,
               "requireds": [],
-              "showRequired": true,
+              "showRequired": false,
               "type": "or"
             }
           ],
@@ -36934,43 +36723,7 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "sxhj"
-                },
-                {
-                  "req": "ttv5"
-                },
-                {
-                  "req": "axaw"
-                },
-                {
-                  "req": "5g0q"
-                },
-                {
-                  "req": "inxc"
-                },
-                {
-                  "req": "ou34"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
+          "requireds": [],
           "scores": [],
           "template": 1,
           "text": "",
@@ -37032,43 +36785,7 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "sxhj"
-                },
-                {
-                  "req": "ttv5"
-                },
-                {
-                  "req": "axaw"
-                },
-                {
-                  "req": "5g0q"
-                },
-                {
-                  "req": "inxc"
-                },
-                {
-                  "req": "ou34"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
+          "requireds": [],
           "scores": [],
           "template": 1,
           "text": "",
@@ -37473,575 +37190,6 @@
           "template": 1,
           "text": "",
           "title": "Doll Powers"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "lp75",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "col-12",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "4950",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [],
-          "template": 1,
-          "text": "",
-          "title": "(Entity) Shard Clusters"
-        },
-        {
-          "id": "j633",
-          "title": "Supernatural Powers",
-          "text": "",
-          "image": "",
-          "template": 1,
-          "objectWidth": "col-12",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [],
-          "addons": [],
-          "scores": [],
-          "groups": [],
-          "isNotSelectable": true,
-          "isPrivateStyling": true,
-          "styling": {
-            "addonText": "Times New Roman",
-            "addonTextAlign": "center",
-            "addonTextColor": "#FFFFFFFF",
-            "addonTextTextSize": 100,
-            "addonTitle": "Times New Roman",
-            "addonTitleAlign": "center",
-            "addonTitleColor": "#FFFFFFFF",
-            "addonTitleTextSize": 200,
-            "backPackWidth": 1200,
-            "backgroundColor": "#000000FF",
-            "backgroundImage": "",
-            "barBackgroundColor": "#FFFFFFFF",
-            "barMargin": 0,
-            "barPadding": 0,
-            "barTextColor": "#000000",
-            "barTextFont": "Times New Roman",
-            "barTextMargin": 0,
-            "barTextPadding": 17,
-            "barTextSize": 15,
-            "objectBackgroundImage": "",
-            "objectBgColor": "#000000FF",
-            "objectBgColorIsOn": true,
-            "objectBorderColor": "#FDFDFDFF",
-            "objectBorderIsOn": false,
-            "objectBorderRadiusBottomLeft": "5",
-            "objectBorderRadiusBottomRight": "5",
-            "objectBorderRadiusIsPixels": true,
-            "objectBorderRadiusTopLeft": "5",
-            "objectBorderRadiusTopRight": "5",
-            "objectBorderStyle": "solid",
-            "objectBorderWidth": 2,
-            "objectDropShadowBlur": 0,
-            "objectDropShadowColor": "#FFEF00FF",
-            "objectDropShadowH": 0,
-            "objectDropShadowIsOn": false,
-            "objectDropShadowSpread": 0,
-            "objectDropShadowV": 0,
-            "objectHeight": true,
-            "objectImageMarginBottom": 0,
-            "objectImageMarginTop": 0,
-            "objectImageWidth": 100,
-            "objectImgBorderColor": "red",
-            "objectImgBorderIsOn": false,
-            "objectImgBorderRadiusBottomLeft": 0,
-            "objectImgBorderRadiusBottomRight": 0,
-            "objectImgBorderRadiusIsPixels": true,
-            "objectImgBorderRadiusTopLeft": 0,
-            "objectImgBorderRadiusTopRight": 0,
-            "objectImgBorderStyle": "solid",
-            "objectImgBorderWidth": 2,
-            "objectMargin": 10,
-            "objectOverflowIsOn": true,
-            "objectText": "Times New Roman",
-            "objectTextAlign": "center",
-            "objectTextColor": "#FFFFFFFF",
-            "objectTextPadding": 10,
-            "objectTextTextSize": 100,
-            "objectTitle": "Times New Roman",
-            "objectTitleAlign": "center",
-            "objectTitleColor": "#FFFFFFFF",
-            "objectTitleTextSize": 200,
-            "reqBgColorIsOn": true,
-            "reqFilterBgColor": "#6B6464FF",
-            "reqFilterBlur": 0,
-            "reqFilterBlurIsOn": false,
-            "reqFilterBright": 100,
-            "reqFilterBrightIsOn": false,
-            "reqFilterCont": 100,
-            "reqFilterContIsOn": false,
-            "reqFilterGray": 0,
-            "reqFilterGrayIsOn": false,
-            "reqFilterHue": 0,
-            "reqFilterHueIsOn": false,
-            "reqFilterInvert": "50",
-            "reqFilterInvertIsOn": false,
-            "reqFilterOpac": "25",
-            "reqFilterOpacIsOn": false,
-            "reqFilterSatur": 1,
-            "reqFilterSaturIsOn": false,
-            "reqFilterSepia": 0,
-            "reqFilterSepiaIsOn": false,
-            "reqFilterVisibleIsOn": false,
-            "rowBackgroundImage": "",
-            "rowBgColor": "#000000FF",
-            "rowBgColorIsOn": true,
-            "rowBodyMarginBottom": 25,
-            "rowBodyMarginSides": 1,
-            "rowBodyMarginTop": 25,
-            "rowBorderColor": "#FFEEDDFF",
-            "rowBorderIsOn": false,
-            "rowBorderRadiusBottomLeft": "0",
-            "rowBorderRadiusBottomRight": "0",
-            "rowBorderRadiusIsPixels": true,
-            "rowBorderRadiusTopLeft": "0",
-            "rowBorderRadiusTopRight": "0",
-            "rowBorderStyle": "solid",
-            "rowBorderWidth": 2,
-            "rowButtonXPadding": 0,
-            "rowButtonYPadding": 0,
-            "rowDesignIsAdvanced": false,
-            "rowDropShadowBlur": 0,
-            "rowDropShadowColor": "#FFFFEEFF",
-            "rowDropShadowH": 0,
-            "rowDropShadowIsOn": false,
-            "rowDropShadowSpread": 0,
-            "rowDropShadowV": 0,
-            "rowImageMarginTop": 0,
-            "rowImageWidth": 100,
-            "rowImgBorderColor": "#FFEEDDFF",
-            "rowImgBorderIsOn": false,
-            "rowImgBorderRadiusBottomLeft": 0,
-            "rowImgBorderRadiusBottomRight": 0,
-            "rowImgBorderRadiusIsPixels": true,
-            "rowImgBorderRadiusTopLeft": 0,
-            "rowImgBorderRadiusTopRight": 0,
-            "rowImgBorderStyle": "solid",
-            "rowImgBorderWidth": 2,
-            "rowImgOverflowIsOn": false,
-            "rowMargin": "5",
-            "rowOverflowIsOn": true,
-            "rowText": "Times New Roman",
-            "rowTextAlign": "center",
-            "rowTextColor": "#FFFFFFFF",
-            "rowTextPaddingX": 10,
-            "rowTextPaddingY": 5,
-            "rowTextTextSize": 100,
-            "rowTitle": "Times New Roman",
-            "rowTitleAlign": "center",
-            "rowTitleColor": "#FFFFFFFF",
-            "rowTitleTextSize": 200,
-            "scoreText": "Times New Roman",
-            "scoreTextAlign": "center",
-            "scoreTextColor": "#FFFFFFFF",
-            "scoreTextSize": 75,
-            "selBgColorIsOn": true,
-            "selFilterBgColor": "#3CAAAAFF",
-            "selFilterBlur": 0,
-            "selFilterBlurIsOn": false,
-            "selFilterBright": 100,
-            "selFilterBrightIsOn": false,
-            "selFilterCont": 100,
-            "selFilterContIsOn": false,
-            "selFilterGray": 0,
-            "selFilterGrayIsOn": false,
-            "selFilterHue": 0,
-            "selFilterHueIsOn": false,
-            "selFilterInvert": 0,
-            "selFilterInvertIsOn": false,
-            "selFilterOpac": 100,
-            "selFilterOpacIsOn": false,
-            "selFilterSatur": 1,
-            "selFilterSaturIsOn": false,
-            "selFilterSepia": 0,
-            "selFilterSepiaIsOn": false
-          }
-        },
-        {
-          "id": "vom8",
-          "title": "Red Domain",
-          "text": "Powers of the Red domain relate to the enhancement of the body without changing it's form. \n\nThese include not only rapid healing factors, extreme durability, superhuman strength, and enhanced speed but also more subtle powers such as superhuman vision and hearing, ageless physiology, instantaneous reflexes, and more.",
-          "image": "",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": "d0mx"
-                },
-                {
-                  "req": "xsi7"
-                }
-              ],
-              "id": "",
-              "type": "or",
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "addons": [],
-          "scores": [],
-          "groups": [],
-          "imageIsUrl": true,
-          "imageLink": ""
-        },
-        {
-          "id": "try1",
-          "title": "Blue Domain",
-          "text": "Powers of the Blue domain relate to the enhancement mental faculties. \n\nThese include enhanced intelligence, precognition, telepathy, psychometry, and so on. They may also include a variety of other psychic feats, such as mind-control, psychokinesis, astral projection, and many more.",
-          "image": "",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": "d0mx"
-                },
-                {
-                  "req": "xsi7"
-                }
-              ],
-              "id": "",
-              "type": "or",
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "addons": [],
-          "scores": [],
-          "groups": []
-        },
-        {
-          "id": "7lmj",
-          "title": "Green Domain",
-          "text": "Powers of the Green domain relate to the manipulation of mystical forces. It is one of the most versatile domains. \n\nThe variety of abilities that can be expressed through this domain are almost limitless but will almost always require study and practice to attain high levels of powers.",
-          "image": "",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": "d0mx"
-                },
-                {
-                  "req": "xsi7"
-                }
-              ],
-              "id": "",
-              "type": "or",
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "addons": [],
-          "scores": [],
-          "groups": []
-        },
-        {
-          "id": "mf2x",
-          "title": "Violet Domain",
-          "text": "Powers of the Violet domain relate to the manipulation of esoteric energies. \n\nThese include the projection of beams of various types, projection of force-fields, hard-light constructs, intangibility, super-speed, and so on. ",
-          "image": "",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": "d0mx"
-                },
-                {
-                  "req": "xsi7"
-                }
-              ],
-              "id": "",
-              "type": "or",
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "addons": [],
-          "scores": [],
-          "groups": []
-        },
-        {
-          "id": "mbyw",
-          "title": "Yellow Domain",
-          "text": "Powers of the Yellow domain relate to the modification of biology and shapeshifting. \n\nPowers within this domain include shapeshifting, gigantic or monstrous forms, adaptive regeneration, and other transformations both biological and supernatural.",
-          "image": "",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": "d0mx"
-                },
-                {
-                  "req": "xsi7"
-                }
-              ],
-              "id": "",
-              "type": "or",
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "addons": [],
-          "scores": [],
-          "groups": []
-        },
-        {
-          "id": "zrtw",
-          "title": "Azure Domain",
-          "text": "Powers of the Azure domain relate to the acquisition and mastery of skills exponentially faster than normal. \n\nThese include scientific knowledge decades or hundreds of years ahead, peerless martial arts skills, or even unmatched business acumen.",
-          "image": "",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": "d0mx"
-                },
-                {
-                  "req": "xsi7"
-                }
-              ],
-              "id": "",
-              "type": "or",
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "addons": [],
-          "scores": [],
-          "groups": []
-        },
-        {
-          "id": "ixnn",
-          "title": "Black Domain",
-          "text": "Powers of the Black domain relate to the manipulation or obscuration of senses, evasion, and all-or-nothing attacks. \n\nThis may include abilities like invisibility, teleportation, possession, and more. Black domain abilities are infamously deadly and strategically profitable but offer little protection for the user in the way of physical durability or immunity except in the highest levels of operation.",
-          "image": "",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": "d0mx"
-                },
-                {
-                  "req": "xsi7"
-                }
-              ],
-              "id": "",
-              "type": "or",
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "addons": [],
-          "scores": [],
-          "groups": []
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "5io5",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": "d0mx"
-                },
-                {
-                  "req": "xsi7"
-                }
-              ],
-              "id": "",
-              "type": "or",
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "scores": [],
-          "template": 1,
-          "text": "Powers in the white domain are those that cannot fit into any of the other domains.",
-          "title": "White Domain"
-        },
-        {
-          "id": "fede",
-          "title": "Paragon Powers",
-          "text": "Paragon powers stand above all others. Their versatility and strength is unmatched by any power except for other paragons.",
-          "image": "",
-          "template": 1,
-          "objectWidth": "col-sm-6",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [],
-          "addons": [],
-          "scores": [],
-          "groups": []
         }
       ],
       "requireds": [
@@ -38073,6 +37221,41 @@
           "requireds": [],
           "showRequired": false,
           "type": "id"
+        },
+        {
+          "required": true,
+          "requireds": [],
+          "orRequired": [
+            {
+              "req": "sxhj"
+            },
+            {
+              "req": "ttv5"
+            },
+            {
+              "req": "axaw"
+            },
+            {
+              "req": "5g0q"
+            },
+            {
+              "req": "inxc"
+            },
+            {
+              "req": "ou34"
+            }
+          ],
+          "id": "",
+          "type": "or",
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "showRequired": false,
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
         }
       ],
       "resultGroupId": "",
@@ -38231,8 +37414,398 @@
         "selFilterSepiaIsOn": false
       },
       "template": "1",
-      "title": "Powers",
+      "title": "Shard Powers",
       "titleText": ""
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "dn8o",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-3",
+      "objects": [
+        {
+          "id": "vom8",
+          "title": "Red Domain",
+          "text": "Powers of the Red domain relate to the enhancement of the body without changing it's form. \n\nThese include not only rapid healing factors, extreme durability, superhuman strength, and enhanced speed but also more subtle powers such as superhuman vision and hearing, ageless physiology, instantaneous reflexes, and more.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": [],
+          "imageIsUrl": true,
+          "imageLink": ""
+        },
+        {
+          "id": "try1",
+          "title": "Blue Domain",
+          "text": "Powers of the Blue domain relate to the enhancement mental faculties. \n\nThese include enhanced intelligence, precognition, telepathy, psychometry, and so on. They may also include a variety of other psychic feats, such as mind-control, psychokinesis, astral projection, and many more.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
+        },
+        {
+          "id": "7lmj",
+          "title": "Green Domain",
+          "text": "Powers of the Green domain relate to the manipulation of mystical forces. It is one of the most versatile domains. \n\nThe variety of abilities that can be expressed through this domain are almost limitless but will almost always require study and practice to attain high levels of powers.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
+        },
+        {
+          "id": "mf2x",
+          "title": "Violet Domain",
+          "text": "Powers of the Violet domain relate to the manipulation of esoteric energies. \n\nThese include the projection of beams of various types, projection of force-fields, hard-light constructs, intangibility, super-speed, and so on. ",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
+        },
+        {
+          "id": "mbyw",
+          "title": "Yellow Domain",
+          "text": "Powers of the Yellow domain relate to the modification of biology and shapeshifting. \n\nPowers within this domain include shapeshifting, gigantic or monstrous forms, adaptive regeneration, and other transformations both biological and supernatural.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
+        },
+        {
+          "id": "zrtw",
+          "title": "Azure Domain",
+          "text": "Powers of the Azure domain relate to the acquisition and mastery of skills exponentially faster than normal. \n\nThese include scientific knowledge decades or hundreds of years ahead, peerless martial arts skills, or even unmatched business acumen.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
+        },
+        {
+          "id": "ixnn",
+          "title": "Black Domain",
+          "text": "Powers of the Black domain relate to the manipulation or obscuration of senses, evasion, and all-or-nothing attacks. \n\nThis may include abilities like invisibility, teleportation, possession, and more. Black domain abilities are infamously deadly and strategically profitable but offer little protection for the user in the way of physical durability or immunity except in the highest levels of operation.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5io5",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [],
+          "template": 1,
+          "text": "Powers in the white domain are those that cannot fit into any of the other domains.",
+          "title": "White Domain"
+        },
+        {
+          "id": "fede",
+          "title": "Paragon Powers",
+          "text": "Paragon powers stand above all others. Their versatility and strength is unmatched by any power except for other paragons.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "col-sm-6",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "choice",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "udrw",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "id"
+        },
+        {
+          "required": true,
+          "requireds": [],
+          "orRequired": [
+            {
+              "req": "d0mx"
+            },
+            {
+              "req": "xsi7"
+            }
+          ],
+          "id": "",
+          "type": "or",
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "showRequired": false,
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
+        }
+      ],
+      "resultGroupId": "",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "red",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": 0,
+        "rowBorderRadiusBottomRight": 0,
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": 0,
+        "rowBorderRadiusTopRight": 0,
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "grey",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "red",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowMargin": 10,
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Supernatural Powers",
+      "titleText": "",
+      "rowJustify": "center"
     },
     {
       "allowedChoices": "",
@@ -57498,6 +57071,1395 @@
       "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
+      "id": "iu9w",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-3",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8o68",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Gain:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-6"
+            }
+          ],
+          "template": 1,
+          "text": "The Administration cluster handles the management of Shards within your collective. They make sure orders are relayed and executed properly by the other members.\n\nThis is also where your consciousness resides.",
+          "title": "Administrator (Rank 0)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "yuzp",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "8o68",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Gain:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-6"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Improves your Administration cluster with extra routers allowing more Shards to be connected.",
+          "title": "Administrator (Rank 1)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "szgt",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "yuzp",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Gain:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-6"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Improves your Administration cluster with more multiplexed communication channels allowing more Shards to be connected.",
+          "title": "Administrator (Rank 2)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lkwg",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "szgt",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "Network Capacity",
+              "beforeText": "Gain:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-6"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Improves your Administration cluster with multifrequency subspace communication relays allowing more Shards to be connected.",
+          "title": "Administrator (Rank 3)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "abs2",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster allows you to project an Avatar to pass as a member of the Host species. It takes several hours to develop a template for any species, you can freely switch between templates once they have been created.\n\nThe Avatar allows you to use Shard powers with a simulated deployment configuration or use your Shards at full power.",
+          "title": "Avatar"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "bfz6",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster handles energy generation, absorption, and conversion. You can absorb matter into energy, collect solar energy, absorb solar mass for energy. There are also several generator shards that require fuel to function.\n\nIf you have <i>Negentropy</i> this cluster is capable of producing more energy than it requires in fuel. Enough to sustain you even if you were to grow much larger but not enough to sustain exponential growth. ",
+          "title": "Feeder"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "l1a0",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "While every Shard can natively slip between dimensions, this cluster is specialized for such a task. They can open and maintain large portals across space or between dimensions as well as teleport objects long distances (max ~100 AU). However, these Shards are not suited for long distance space travel.",
+          "title": "Breach"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "h3mc",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is specialized in perceiving the environment. While Shards can natively perceive close to their body, this cluster can observe large areas across many dimensions. Many forms of energy can be perceived, electromagnetic, light, gravitational changes, and much more. The maximum range is around 100 AU but is generally kept to below one AU to conserve energy.",
+          "title": "Panopticon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "tueh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is designed for long range communications with other Entities and allows for high bandwidth multi-channel data transfers within the collective, useful when the Shards are deployed during a Cycle.",
+          "title": "Broadcast"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fdju",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is allows you to mask your presence and interfere with scans. It also makes it hard for other Entities to predict you with precognition.",
+          "title": "Cloak"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xqah",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is responsible for configuring shards for deployment to Hosts and can connect or disconnect Shards from Hosts.",
+          "title": "Manager"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jabc",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is responsible for maintaining the health of your Shards. If any Shard is damaged they will be able to repair it more efficiently than its self-repair system. They can also remove foreign infections detected by the Security cluster.",
+          "title": "Repair"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9rz2",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster allows for post-cognition. You can search up to several million years in the past, however you need to be close to the object or location you are searching from (~100 AU).",
+          "title": "Hindsight"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8c65",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is specialized in data analysis. Any information collected by your other Shards is collated and analyzed by this cluster. The Shards in this cluster are capable of inference from limited data or precise simulation of complex systems.",
+          "title": "Analysis"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "mqrb",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is specialized in the creation of new Shards from raw material. It is primarily useful in combination with <i>Prototype</i> and <i>Copycat</i>.",
+          "title": "Factory"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "rhvz",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster allows the prototyping of new Shards effects.",
+          "title": "Prototype"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "15vf",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is responsible for maintaining the library of technology at the collective's disposal. They are also capable of constructing it if you have the necessary materials at your disposal.\n\nThe database you have inherited is severely out of date, it is generally on the level of a type 2.75 civilization (below galactic scale) on the Kardashev scale with some small parts on par with a type 3 civilization (galactic scale) and a few nuggets of type 4 civilization (above galactic scale) technology.\n\nYou will have to trade with or steal from other Entities or study different civilizations to expand your libraries.",
+          "title": "Technology"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "mq9r",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster contains Shards used for combat. This includes a variant of Sting and Still, as well as various other means of attack. They aren't enough to kill a fully grown Entity in a straight up fight but they can deal with most other foes.",
+          "title": "Armament"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qzx8",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster contains Shards used for defense. This includes many types of shields and physical defenses. They won't hold off a full assault from a fully grown Entity but they will give you enough time to escape.",
+          "title": "Protection"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "b48f",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is composed of Shards capable of long distance space travel with spatial warping and faster than light propulsion systems.",
+          "title": "Slip"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "3e9i",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster monitors the collective for any outside interference or infection. By themselves, they are not able to surgically remove infections, only purge the Shard completely.",
+          "title": "Security"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ikpz",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is specialized in biological modifications, both on other species as well as Shards themselves.",
+          "title": "Shaper"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qcur",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster is specialized in temporal manipulation. The Shards can alter the flow of time, speeding it up or slowing it down, as well time travel in limited ways.\n\nMoving anything through time is extremely energy intensive and runs the risk of disturbing causality.",
+          "title": "Timekeeper"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0kgm",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster can create specialized viruses that can be hidden in your Shards and will infect and cripple other Entities.",
+          "title": "Virus"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "w4ho",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster allows for both long range and short range precognition. The Shards in this cluster use simulation-based precognition which are vulnerable to certain forms of cloaking and jamming.\n\nThis cluster allows both broad exploration of futures as well as goal oriented search (PtV).",
+          "title": "Foresight (Simulation)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "sxt2",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "w4ho",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This sub-cluster has Shards with a true precognition organ which are very energy intensive but are not vulnerable to most forms of cloaking or jamming.",
+          "title": "Foresight (True)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "nb0p",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            },
+            {
+              "afterText": "Network Load",
+              "beforeText": "Cost:",
+              "id": "1u",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "This cluster allows the creation of Constructs. Semi-autonomous beings capable of using sub-clusters of Shards.\n\nThis is the cluster responsible for the creation of your version of Endbringers (which don't necessarily need to bring the end).",
+          "title": "Construct"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "4950",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "id"
+        },
+        {
+          "required": true,
+          "requireds": [],
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "id": "",
+          "type": "id",
+          "reqId": "udrw",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "showRequired": false,
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
+        }
+      ],
+      "resultGroupId": "xb",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "#FFEEDDFF",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": 0,
+        "rowBorderRadiusBottomRight": 0,
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": 0,
+        "rowBorderRadiusTopRight": 0,
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "#FFFFEEFF",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "red",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowMargin": 10,
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "(Entity) Shard Clusters",
+      "titleText": "Shard Clusters contain 2-3 Noble Shards, 4-5 Vital Shards, and 6-8 Normal Shards for a total of 12 to 16 Shards."
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
       "id": "dljy",
       "image": "",
       "isButtonRow": false,
@@ -61979,1389 +62941,6 @@
       "template": "1",
       "title": "Shardless Powers",
       "titleText": "These powers do not require Shards to function."
-    },
-    {
-      "allowedChoices": 0,
-      "buttonId": "",
-      "buttonRandom": false,
-      "buttonRandomNumber": 1,
-      "buttonText": "Click",
-      "buttonType": true,
-      "currentChoices": 0,
-      "defaultAspectHeight": 1,
-      "defaultAspectWidth": 1,
-      "id": "iu9w",
-      "image": "",
-      "isButtonRow": false,
-      "isEditModeOn": false,
-      "isInfoRow": false,
-      "isPrivateStyling": false,
-      "isRequirementOpen": false,
-      "isResultRow": false,
-      "objectWidth": "col-md-3",
-      "objects": [
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "8o68",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Gain:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "-6"
-            }
-          ],
-          "template": 1,
-          "text": "The Administration cluster handles the management of Shards within your collective. They make sure orders are relayed and executed properly by the other members.\n\nThis is also where your consciousness resides.",
-          "title": "Administrator (Rank 0)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "yuzp",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "8o68",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Gain:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "-6"
-            },
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Improves your Administration cluster with extra routers allowing more Shards to be connected.",
-          "title": "Administrator (Rank 1)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "szgt",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "yuzp",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Gain:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "-6"
-            },
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            },
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "Improves your Administration cluster with more multiplexed communication channels allowing more Shards to be connected.",
-          "title": "Administrator (Rank 2)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "lkwg",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "szgt",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Gain:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "-6"
-            },
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            },
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "Improves your Administration cluster with multifrequency subspace communication relays allowing more Shards to be connected.",
-          "title": "Administrator (Rank 3)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "abs2",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster allows you to project an Avatar to pass as a member of the Host species. It takes several hours to develop a template for any species, you can freely switch between templates once they have been created.\n\nThe Avatar allows you to use Shard powers with a simulated deployment configuration or use your Shards at full power.",
-          "title": "Avatar"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "bfz6",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster handles energy generation, absorption, and conversion. You can absorb matter into energy, collect solar energy, absorb solar mass for energy. There are also several generator shards that require fuel to function.\n\nIf you have <i>Negentropy</i> this cluster is capable of producing more energy than it requires in fuel. Enough to sustain you even if you were to grow much larger but not enough to sustain exponential growth. ",
-          "title": "Feeder"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "l1a0",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "While every Shard can natively slip between dimensions, this cluster is specialized for such a task. They can open and maintain large portals across space or between dimensions as well as teleport objects long distances (max ~100 AU). However, these Shards are not suited for long distance space travel.",
-          "title": "Breach"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "h3mc",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is specialized in perceiving the environment. While Shards can natively perceive close to their body, this cluster can observe large areas across many dimensions. Many forms of energy can be perceived, electromagnetic, light, gravitational changes, and much more. The maximum range is around 100 AU but is generally kept to below one AU to conserve energy.",
-          "title": "Panopticon"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "tueh",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is designed for long range communications with other Entities and allows for high bandwidth multi-channel data transfers within the collective, useful when the Shards are deployed during a Cycle.",
-          "title": "Broadcast"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "fdju",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is allows you to mask your presence and interfere with scans. It also makes it hard for other Entities to predict you with precognition.",
-          "title": "Cloak"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "xqah",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is responsible for configuring shards for deployment to Hosts and can connect or disconnect Shards from Hosts.",
-          "title": "Manager"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "jabc",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is responsible for maintaining the health of your Shards. If any Shard is damaged they will be able to repair it more efficiently than its self-repair system. They can also remove foreign infections detected by the Security cluster.",
-          "title": "Repair"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "9rz2",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster allows for post-cognition. You can search up to several million years in the past, however you need to be close to the object or location you are searching from (~100 AU).",
-          "title": "Hindsight"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "8c65",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is specialized in data analysis. Any information collected by your other Shards is collated and analyzed by this cluster. The Shards in this cluster are capable of inference from limited data or precise simulation of complex systems.",
-          "title": "Analysis"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "mqrb",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is specialized in the creation of new Shards from raw material. It is primarily useful in combination with <i>Prototype</i> and <i>Copycat</i>.",
-          "title": "Factory"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "rhvz",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster allows the prototyping of new Shards effects.",
-          "title": "Prototype"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "15vf",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is responsible for maintaining the library of technology at the collective's disposal. They are also capable of constructing it if you have the necessary materials at your disposal.\n\nThe database you have inherited is severely out of date, it is generally on the level of a type 2.75 civilization (below galactic scale) on the Kardashev scale with some small parts on par with a type 3 civilization (galactic scale) and a few nuggets of type 4 civilization (above galactic scale) technology.\n\nYou will have to trade with or steal from other Entities or study different civilizations to expand your libraries.",
-          "title": "Technology"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "mq9r",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster contains Shards used for combat. This includes a variant of Sting and Still, as well as various other means of attack. They aren't enough to kill a fully grown Entity in a straight up fight but they can deal with most other foes.",
-          "title": "Armament"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "qzx8",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster contains Shards used for defense. This includes many types of shields and physical defenses. They won't hold off a full assault from a fully grown Entity but they will give you enough time to escape.",
-          "title": "Protection"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "b48f",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is composed of Shards capable of long distance space travel with spatial warping and faster than light propulsion systems.",
-          "title": "Slip"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "3e9i",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster monitors the collective for any outside interference or infection. By themselves, they are not able to surgically remove infections, only purge the Shard completely.",
-          "title": "Security"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ikpz",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is specialized in biological modifications, both on other species as well as Shards themselves.",
-          "title": "Shaper"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "qcur",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster is specialized in temporal manipulation. The Shards can alter the flow of time, speeding it up or slowing it down, as well time travel in limited ways.\n\nMoving anything through time is extremely energy intensive and runs the risk of disturbing causality.",
-          "title": "Timekeeper"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "0kgm",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "30"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster can create specialized viruses that can be hidden in your Shards and will infect and cripple other Entities.",
-          "title": "Virus"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "w4ho",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster allows for both long range and short range precognition. The Shards in this cluster use simulation-based precognition which are vulnerable to certain forms of cloaking and jamming.\n\nThis cluster allows both broad exploration of futures as well as goal oriented search (PtV).",
-          "title": "Foresight (Simulation)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "sxt2",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "w4ho",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This sub-cluster has Shards with a true precognition organ which are very energy intensive but are not vulnerable to most forms of cloaking or jamming.",
-          "title": "Foresight (True)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "nb0p",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "30"
-            },
-            {
-              "afterText": "Network Load",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "This cluster allows the creation of Constructs. Semi-autonomous beings capable of using sub-clusters of Shards.\n\nThis is the cluster responsible for the creation of your version of Endbringers (which don't necessarily need to bring the end).",
-          "title": "Construct"
-        }
-      ],
-      "requireds": [
-        {
-          "afterText": "",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": "znp9"
-            },
-            {
-              "req": "lp75"
-            }
-          ],
-          "reqId": "",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": false,
-          "type": "or"
-        },
-        {
-          "afterText": "",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            }
-          ],
-          "reqId": "4950",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": false,
-          "type": "id"
-        }
-      ],
-      "resultGroupId": "xb",
-      "styling": {
-        "addonText": "Times New Roman",
-        "addonTextAlign": "center",
-        "addonTextColor": "#FFFFFFFF",
-        "addonTextTextSize": 100,
-        "addonTitle": "Times New Roman",
-        "addonTitleAlign": "center",
-        "addonTitleColor": "#FFFFFFFF",
-        "addonTitleTextSize": 200,
-        "backPackWidth": 1200,
-        "backgroundColor": "#000000FF",
-        "backgroundImage": "",
-        "barBackgroundColor": "#FFFFFFFF",
-        "barMargin": 0,
-        "barPadding": 0,
-        "barTextColor": "#000000",
-        "barTextFont": "Times New Roman",
-        "barTextMargin": 0,
-        "barTextPadding": 17,
-        "barTextSize": 15,
-        "objectBackgroundImage": "",
-        "objectBgColor": "#FFFFFFFF",
-        "objectBgColorIsOn": false,
-        "objectBorderColor": "#FDFDFDFF",
-        "objectBorderIsOn": true,
-        "objectBorderRadiusBottomLeft": "5",
-        "objectBorderRadiusBottomRight": "5",
-        "objectBorderRadiusIsPixels": true,
-        "objectBorderRadiusTopLeft": "5",
-        "objectBorderRadiusTopRight": "5",
-        "objectBorderStyle": "solid",
-        "objectBorderWidth": 2,
-        "objectDropShadowBlur": 0,
-        "objectDropShadowColor": "#FFEF00FF",
-        "objectDropShadowH": 0,
-        "objectDropShadowIsOn": false,
-        "objectDropShadowSpread": 0,
-        "objectDropShadowV": 0,
-        "objectHeight": true,
-        "objectImageMarginBottom": 0,
-        "objectImageMarginTop": 0,
-        "objectImageWidth": 100,
-        "objectImgBorderColor": "red",
-        "objectImgBorderIsOn": false,
-        "objectImgBorderRadiusBottomLeft": 0,
-        "objectImgBorderRadiusBottomRight": 0,
-        "objectImgBorderRadiusIsPixels": true,
-        "objectImgBorderRadiusTopLeft": 0,
-        "objectImgBorderRadiusTopRight": 0,
-        "objectImgBorderStyle": "solid",
-        "objectImgBorderWidth": 2,
-        "objectMargin": 10,
-        "objectOverflowIsOn": true,
-        "objectText": "Times New Roman",
-        "objectTextAlign": "center",
-        "objectTextColor": "#FFFFFFFF",
-        "objectTextPadding": 10,
-        "objectTextTextSize": 100,
-        "objectTitle": "Times New Roman",
-        "objectTitleAlign": "center",
-        "objectTitleColor": "#FFFFFFFF",
-        "objectTitleTextSize": 200,
-        "reqBgColorIsOn": true,
-        "reqFilterBgColor": "#6B6464FF",
-        "reqFilterBlur": 0,
-        "reqFilterBlurIsOn": false,
-        "reqFilterBright": 100,
-        "reqFilterBrightIsOn": false,
-        "reqFilterCont": 100,
-        "reqFilterContIsOn": false,
-        "reqFilterGray": 0,
-        "reqFilterGrayIsOn": false,
-        "reqFilterHue": 0,
-        "reqFilterHueIsOn": false,
-        "reqFilterInvert": "50",
-        "reqFilterInvertIsOn": false,
-        "reqFilterOpac": "25",
-        "reqFilterOpacIsOn": false,
-        "reqFilterSatur": 1,
-        "reqFilterSaturIsOn": false,
-        "reqFilterSepia": 0,
-        "reqFilterSepiaIsOn": false,
-        "reqFilterVisibleIsOn": false,
-        "rowBackgroundImage": "",
-        "rowBgColor": "#FFFFFFFF",
-        "rowBgColorIsOn": false,
-        "rowBodyMarginBottom": 25,
-        "rowBodyMarginSides": 1,
-        "rowBodyMarginTop": 25,
-        "rowBorderColor": "#FFEEDDFF",
-        "rowBorderIsOn": false,
-        "rowBorderRadiusBottomLeft": 0,
-        "rowBorderRadiusBottomRight": 0,
-        "rowBorderRadiusIsPixels": true,
-        "rowBorderRadiusTopLeft": 0,
-        "rowBorderRadiusTopRight": 0,
-        "rowBorderStyle": "solid",
-        "rowBorderWidth": 2,
-        "rowButtonXPadding": 0,
-        "rowButtonYPadding": 0,
-        "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "#FFFFEEFF",
-        "rowDropShadowH": 0,
-        "rowDropShadowIsOn": false,
-        "rowDropShadowSpread": 0,
-        "rowDropShadowV": 0,
-        "rowImageMarginTop": 0,
-        "rowImageWidth": 100,
-        "rowImgBorderColor": "red",
-        "rowImgBorderIsOn": false,
-        "rowImgBorderRadiusBottomLeft": 0,
-        "rowImgBorderRadiusBottomRight": 0,
-        "rowImgBorderRadiusIsPixels": true,
-        "rowImgBorderRadiusTopLeft": 0,
-        "rowImgBorderRadiusTopRight": 0,
-        "rowImgBorderStyle": "solid",
-        "rowImgBorderWidth": 2,
-        "rowMargin": 10,
-        "rowOverflowIsOn": true,
-        "rowText": "Times New Roman",
-        "rowTextAlign": "center",
-        "rowTextColor": "#FFFFFFFF",
-        "rowTextPaddingX": 10,
-        "rowTextPaddingY": 5,
-        "rowTextTextSize": 100,
-        "rowTitle": "Times New Roman",
-        "rowTitleAlign": "center",
-        "rowTitleColor": "#FFFFFFFF",
-        "rowTitleTextSize": 200,
-        "scoreText": "Times New Roman",
-        "scoreTextAlign": "center",
-        "scoreTextColor": "#FFFFFFFF",
-        "scoreTextSize": 75,
-        "selBgColorIsOn": true,
-        "selFilterBgColor": "#3CAAAAFF",
-        "selFilterBlur": 0,
-        "selFilterBlurIsOn": false,
-        "selFilterBright": 100,
-        "selFilterBrightIsOn": false,
-        "selFilterCont": 100,
-        "selFilterContIsOn": false,
-        "selFilterGray": 0,
-        "selFilterGrayIsOn": false,
-        "selFilterHue": 0,
-        "selFilterHueIsOn": false,
-        "selFilterInvert": 0,
-        "selFilterInvertIsOn": false,
-        "selFilterOpac": 100,
-        "selFilterOpacIsOn": false,
-        "selFilterSatur": 1,
-        "selFilterSaturIsOn": false,
-        "selFilterSepia": 0,
-        "selFilterSepiaIsOn": false
-      },
-      "template": "1",
-      "title": "(Entity) Shard Clusters",
-      "titleText": "Shard Clusters contain 2-3 Noble Shards, 4-5 Vital Shards, and 6-8 Normal Shards for a total of 12 to 16 Shards."
     },
     {
       "allowedChoices": 0,
