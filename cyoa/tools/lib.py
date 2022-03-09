@@ -69,6 +69,13 @@ def gen_id():
     ))
 
 
+def remove_rows_from_project(project, row_ids):
+    for row_id in row_ids:
+        row_idx = find_first_index(project['rows'],
+                                   lambda row: row['id'] == row_id)
+
+        del project['rows'][row_idx]
+
 def copy_objects_from_row(row_data, object_ids: list = None, object_ranges: list = None, object_all: bool = False):
     if object_all:
         return copy.deepcopy(row_data['objects'])
@@ -84,7 +91,8 @@ def copy_objects_from_row(row_data, object_ids: list = None, object_ranges: list
         if object_ranges and len(object_ranges) > 0:
             for object_range in object_ranges:
                 range_start, range_end = map(int, str.split(object_range, '-'))
-                objects_data.extend(row_data['objects'][range_start:range_end + 1])
+                objects_data.extend(
+                    row_data['objects'][range_start:range_end + 1])
 
         return objects_data
 
@@ -122,12 +130,14 @@ def insert_objects_in_row(row_data, objects_data, after_idx: int = None, after_o
     else:
         row_data['objects'].extend(objects_data)
 
+
 def update_row_data(project, row_id: str, lens):
     if (row_idx := find_first_index(project['rows'], lambda row: row.get('id', None) == row_id)) is None:
         return
-        
+
     row_data = project['rows'][row_idx]
     project['rows'][row_idx] = lens(row_data)
+
 
 def update_obj_data(project, row_id: str, obj_id: str, lens):
     if (row_idx := find_first_index(project['rows'], lambda row: row.get('id', None) == row_id)) is None:
