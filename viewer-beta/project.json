@@ -1,9 +1,5 @@
 {
-  "activated": [
-    "d0mx",
-    "udrw",
-    "5io5"
-  ],
+  "activated": [],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -2557,7 +2553,7 @@
       "buttonRandomNumber": 1,
       "buttonText": "Click",
       "buttonType": true,
-      "currentChoices": 1,
+      "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
       "id": "otza",
@@ -2673,7 +2669,7 @@
           "groups": [],
           "id": "udrw",
           "image": "",
-          "isActive": true,
+          "isActive": false,
           "isVisible": true,
           "objectWidth": "",
           "requireds": [],
@@ -31846,7 +31842,7 @@
       "buttonRandomNumber": 1,
       "buttonText": "Click",
       "buttonType": true,
-      "currentChoices": 1,
+      "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
       "id": "6ouk",
@@ -31893,7 +31889,7 @@
           "groups": [],
           "id": "d0mx",
           "image": "",
-          "isActive": true,
+          "isActive": false,
           "isVisible": true,
           "objectWidth": "col-12",
           "requireds": [],
@@ -37445,7 +37441,7 @@
       "buttonRandomNumber": 1,
       "buttonText": "Click",
       "buttonType": true,
-      "currentChoices": 1,
+      "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
       "id": "dn8o",
@@ -37569,7 +37565,7 @@
           "groups": [],
           "id": "5io5",
           "image": "",
-          "isActive": true,
+          "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
@@ -59306,7 +59302,7 @@
       "id": "p2ty",
       "title": "Physical Powers",
       "titleText": "",
-      "objectWidth": "col-md-4",
+      "objectWidth": "col-md-3",
       "image": "",
       "template": "1",
       "isButtonRow": false,
@@ -59383,6 +59379,60 @@
           "template": 1,
           "text": "Radioactive spiders are everywhere these days. Your physiology is modified to gain powers similar to that of Spider-Man or one of his contemporaries (Silkworm, Spider-Woman, Spider-Gwen, etc.)\n\nThese powers generally include some form of enhanced strength, agility, stamina, and durability. The ability to climb walls and shoot webs (but not always) as well as the legendary spider-sense.",
           "title": "Spider-Totem"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9xxw",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are proficient in the use of the Sublime Way. You start out at the level of a beginner of the Sublime Way (1st level Martial powers). Through practice, study, reflection, and training, you can increase the number of martial powers you know and their level as well as improve your physical, mental, and spiritual condition.",
+          "title": "Sublime Way (D&D)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "eoh3",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "12"
+            }
+          ],
+          "template": 1,
+          "text": "Your body mutates in several interesting ways granting you the powers and training of a Witcher. You know several magical signs which you can quickly and expertly use, you have an inhumanly strong, flexible, quick and durable body, and a very enhanced metabolism as well as severely enhanced senses and natural night vision. You are also an expert of the fighting styles used by the various Witcher schools and have a good understanding of alchemy(but you are unlikely to find the materials used by the art on a non magical world). Lastly you have a very smart and deductive mind, you would be a natural-born detective if you ever applied yourself.\n\nYou can choose whether or not you gain white hair or cat-like eyes from this power. Unfortunately, the process which mutated you has also turned you infertile.",
+          "title": "Witcher"
         },
         {
           "addons": [],
@@ -60226,6 +60276,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "9ss6",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have the innate capacity to tap into your mind's potential. You start out at the level of a novice Psion (1st level powers). Through meditation, self-study to learn the intricacies of your mind, self-reflection, and attaining new avenues of thought through experience, you can develop your psionic power and versatility. ",
+          "title": "Psionics (D&D)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "i5jm",
           "image": "",
           "isActive": false,
@@ -60247,6 +60323,114 @@
           "template": 1,
           "text": "Your Intelligence and Memory are at the level of a one of a kind genius like Tony Stark or Reed Richards. You can master new fields of knowledge or skills in a matter of days or weeks instead of months or years. You form muscle memory and reflexes with only a nominal amount of training. ",
           "title": "Polymath"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "izy9",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You didn't come into contact with a shard of an utterly alien entity, gain magic powers, unlock spiritual potential, merge with extraterrestrial DNA, become a supergenius, or gain a mysterious artifact through this, no, you're most assuredly still human. Instead, you simply gain impossible, magical skill in a form of your choice - swordsmanship literally warping space and time to keep up with your skills, for example. More than that, you can train your other skills in a similar manner. With the right skill at your peak, you could kill an Entity, but that would almost certainly erase you as well as all record of you from existence so thoroughly that the only thing left of you would be other people's memories.",
+          "title": "Legendary Skill (Nasuverse)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5aed",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Choose one hobby or skill within reason (Boxing, singing, pro-gaming, computer programming, etc.). Your talent with this skill is now as if you had trained in it for an entire lifetime while being naturally gifted, and you're able to improve that talent further. Becoming an Ultimate Computer Programmer could allow you to make artificial intelligence, while becoming an Ultimate Boxer could make you a Brute/Mover/Striker/Thinker grab bag cape through this power affecting both your body and mind as appropriate.",
+          "title": "Ultimate Talent (Danganronpa)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ogky",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "An Ultimate Talent well beyond those granted by the aforementioned Ultimate Talent power, this is a genetic mutation which turns the irises of your eyes red and grants monstrous analytical capabilities to the point of being capable of predicting the future, creating Ultimate Talents such as becoming an Ultimate Fashionista through predicting and setting trends, and replicating the abilities of other Ultimate Talents through simple observation, with merely their peak abilities being beyond that ease. Of course, getting to this level will require some practice and it does come with the drawback of inevitable boredom, however, this won't necessarily make you into a monster like Junko Enoshima, given the example of Hajime Hinata as the Ultimate Hope. \n",
+          "title": "Ultimate Analyst (Danganronpa)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8uf6",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Rather than simply having one talent, you have every talent known to man at the level of an Ultimate Talent, as well as the talent of the Ultimate Analyst, complete with the noticeably red eyes. Naturally there exists the risk of constant boredom, losing your empathy, and becoming a monster to a higher degree than that of the Ultimate Analyst, however given the example of Hajime Hinata, it is possible to keep your empathy, perhaps not easily, but possible. ",
+          "title": "Ultimate Hope (Danganronpa)"
         },
         {
           "addons": [],
@@ -60658,7 +60842,7 @@
       "id": "tg45",
       "title": "Magic and Mystic Powers",
       "titleText": "",
-      "objectWidth": "col-md-4",
+      "objectWidth": "col-md-3",
       "image": "",
       "template": "1",
       "isButtonRow": false,
@@ -60768,6 +60952,92 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "uhe5",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "r4yq",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "9ss6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "At the cost of a loss of skill in casting magic spells or using psionic powers, you gain an understanding of your discipline's mechanics on a different level and become a talented and skilled craftsman. Whether you become a normal Artificer, Psionic Artificer, or a supremely versatile Artificer is up to the Shardless powers you've bought.",
+          "title": "Artificer (D&D)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "pb4w",
           "image": "",
           "isActive": false,
@@ -60789,6 +61059,87 @@
           "template": 1,
           "text": "You made a pact with an otherworldly entity for power. In exchange for the occasional favor, your supernatural sugar daddy/mommy will grant you a sliver of their power. The higher your favor with them is, the more powerful abilities you will have access to.",
           "title": "Warlock (D&D)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "31qy",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "12"
+            }
+          ],
+          "template": 1,
+          "text": "Allomancy is one of the Metallic Arts. It allows you to ingest sixteen metals and alloys to 'burn' them to produce effects such as Enhanced Strength, Enhanced Senses, Metal Sensing and Manipulation, Precognition, etc. Every time you defeat a Parahuman/Parahuman equivalent you gain a bead of Atium that can last 45 seconds. This power can be blocked by aluminum. You also know the exact proportions of all the allomatic elements.",
+          "title": "Allomancy (Mistborn)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1rr3",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "12"
+            }
+          ],
+          "template": 1,
+          "text": "Feruchemy is an ability that allows you to store traits such as Health, Strength Speed, Weight, Memories etc. inside 'metalminds' as long as they are in contact with your skin. For example you can store your speed, but you will be slower while storing the speed depending on how much speed you are storing. You can draw on whatever traits you have stored. You are the only one who can use your own metalminds. ",
+          "title": "Feruchemy (Mistborn)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "b265",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "12"
+            }
+          ],
+          "template": 1,
+          "text": "Hemalurgy is the third of the Metallic Arts. With it, you can pierce people's bodies with metal spikes and use those spikes to drain them of traits and implant them within yourself or others. You have knowledge of all the Hemalurgic Points and the functions of each metal's spikes.",
+          "title": "Hemalurgy (Mistborn)"
         },
         {
           "addons": [],
@@ -60982,6 +61333,33 @@
           "template": 1,
           "text": "You have the ability to wield the Mystic Arts, you instinctively know the basics and are able to master advanced techniques with ease. You know how to build basic tools like a Sling Ring as well.\n\nWith enough time, you can achieve practically anything. Take care when dealing with extradimensional eldritch beings.",
           "title": "Master of the Mystic Arts"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "g4iu",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have the skills of an Arcanist freshly graduated from the University and know four branches of what might be called magic. You learn and improve your skills quickly.\n\nSympathy is a system of energy manipulation (considered a form of magic ) that requires extreme skill and concentration. Sympathy requires a user to create a sympathetic link between two objects, so that whatever is done to one object will affect the other. For example, if a sympathist creates a sympathetic link between two coins, he may move both coins equal distances by exerting force on only one.\n\nSygaldry involves the use and application of runes, which create effects similar to a permanent form of sympathy. There are 197 runes, and they can be used in a variety of combinations to perform a wide assortment of effects on various materials.\n\nNaming is a discipline where one perceives the true name of a person, place or thing, and through that understanding gains absolute control over the subject. This power can be used by the Namer in a variety of ways. For example, natural forces like the wind can be called upon to do the Namer's bidding, solid rock can be commanded to crumble into dust, and living beings and people can be forced to do whatever the Namer desires.\n\nLittle is known about Alchemy currently but it may work in a similar way to fae grammerie. By taking the substance or essence of something and adding to it or putting into a mixture. Thus making the bound 'principles' referred to in the text.",
+          "title": "Arcanist (Kingkiller Chronicles)"
         },
         {
           "addons": [],
@@ -61400,7 +61778,7 @@
       "id": "1ok7",
       "title": "Spiritual Powers",
       "titleText": "",
-      "objectWidth": "col-md-4",
+      "objectWidth": "col-md-3",
       "image": "",
       "template": "1",
       "isButtonRow": false,
@@ -61504,6 +61882,198 @@
           "template": 1,
           "text": "You are proficient in the use of Divine Magic. You start off at the level of a novice Cleric or Druid (1st level spells). If you worship a deity, following their tenets will grant you access to more spells and higher level spells over time. If you do not worship a deity (agnostic/atheist), your power comes from the universe itself and will improve over time as your mastery does.\n\nOutside of the D&D universe you are able to cast spells of the 10th level and higher as the gods cannot reach you there.",
           "title": "Divine Magic (D&D)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "bwgx",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You become infused by the planes and energies of pure goodness.\nThis changes your body and soul, for one thing it makes you moderately \u2018more\u2019 than a normal human in just about every which way, it also makes you incredibly and supernaturally beautiful, although not in a seductive manner, your beauty being more akin to a sacred piece of art. This beauty is supernatural in that it is not only due to your physical traits but also a supernatural tendency amongst all that view you to find your traits incredibly beautiful. Your very soul also becomes a thing of incredible beauty and value. You gain an incredible affinity for all things of light and goodness, you can feel peoples prayers and channel pure positive energy to heal and banish evil and corruption. You will find it very hard to be anything other than good and just to the people around you, it will not be impossible, but you will find that it goes against your base instincts. You can also call weak angels and celestials from the heavens, who will grow stronger as you do, to help you every so often, the can also be from the retinue of any good aligned deity if you choose to have your heritage specifically from them. although your bloodline cannot come directly from any greater or middling deity, you being at least several generations removed from them.\nYour hair shines like metal, like pure heavenly gold if you are blond, and like the purest most sacred ruby if you have red hair, and so on. Your eyes also turn golden with a soft glow to them. You can at will turn off and on a radiant halo which appears around or behind your head and will buff and heal your allies and the innocent who are hit by its light.",
+          "title": "Aasimar (D&D)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "quid",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "bwgx",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You embody light, life, and goodness in all it\u2019s forms. Exquisite flowers bloom where you step and your light chases away evil, depression and all things commonly thought of as bad. You can see the sins of every living thing you can gaze at. Your halo evolves and no innocent can be harmed or hurt as long as its light reaches them, you can heal just about anything other than death away in the blink of an eye, and looking at you is now akin to a religious experience. You gain massive control and power over holy sun fire, spawning it and controlling it at will, choosing what and who it can hurt. Your presence is a balm to the soul chasing away depression and other such mental or spiritual afflictions of all that surround you, you gain an infinite lifespan as while you are still a mortal you now have more in common with other celestials such as angels than a normal human. You can every week resurrect one person fully and completely, but be very careful doing so, you might just take a soul out of heaven and their eternal paradise, and that is a very, very cruel thing to do. You can feel people that are in harms way and appear near them in order to help them, this feeling extends to about the size of New York city in a circle around you. You also gain a pair of functional angel wings.\n\nAll these powers can be turned on and off at will or be dialed up and down as you please.",
+          "title": "Of all that is good"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1dtp",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Your Ki is unlocked, allowing you to 'power up' using your ki to boost your strength, speed, and durability as well as fire Ki blasts. On top of that, not only are you a master of a mundane martial art of your choice with three years of combat training and experience in that style to match, but you know how to blow up a car through a Ki blast technique with this, however, using Ki is incredibly draining to use and is best reserved for finishing moves, which you'll have to train hard to grow past this point and overcome your limits. Luckily, you've gained the physical conditioning and mental resilience one would expect from mastering your chosen martial art in three years.",
+          "title": "Ki (Dragon Ball)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "z2f3",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are proficient in the ancient Tibetan martial art of Sendo, essentially a form of mixed martial arts based around Hamon, with talent and potential in Hamon on par with Jonathan Joestar, capable of creating new techniques mid-combat.  On top of that, you will naturally gain a mighty physique, whether this translates to a bulky body like Jonathan's or a slimmer but still muscular body like Straizo, Joseph Joestar, or Caesar Zeppeli is up to you. As a bonus, perhaps thanks to your expertise in Sendo aiding in your balance and poise, you can pose with the best of them.",
+          "title": "Sendo (JJBA)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "4tgk",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You know how to use the Spin, able to follow the Golden Rectangle to use a simple object like a marble or corkscrew as a potent projectile or to harden your body to the extent of making you bulletproof. Eventually, you may unlock a Stand through mastering the Spin, and if you're lucky, you may get a Stand that would allow you to bypass Scion's dimensional barrier, however the rest of his defenses are a concern you'd need other powers to work around (Even with Sting, you wouldn't be putting out enough damage to kill Scion in a reasonable time frame) and while it is deceptively easy to learn the basics of the Spin, it is extremely difficult to master. ",
+          "title": "The Spin (JJBA)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "bbcl",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "It seems like you were shot with a strange Arrow, because you have gained a Stand, a manifestation of your life energy as a visualization of your psyche! It's one that fits you and will likely integrate and hold similar mechanics to other powers you may have, but be warned, if you're weak willed, this very well could kill you. Of course, your descendants will also have a Stand and the same dangers apply to them, plus the fated attraction of Stand Users.\n\nGenerally speaking, it's said that only a Stand can beat other Stands since the only thing known to affect Stands would be other Stands, but in truth, that's not entirely the case. High-level powers like Scion's Stilling and Sting are actually able to affect Stands despite their ghost-like nature due to their own esoteric nature.",
+          "title": "Stand (JJBA)"
         },
         {
           "addons": [],
@@ -62070,60 +62640,6 @@
       "isRequirementOpen": false,
       "objects": [
         {
-          "id": "a5cs",
-          "title": "Eden",
-          "text": "You have attained the pinnacle power of Yellow domain, and you are a nearly unlimited biokinetic god. You may adjust genes, biochemistry, and cellular or noncellular life with immense precision and impossible scale. The amount of biomass you can shape into any life form you can imagine, from eukaryotes to giant Kaijus, is without limit and you can shape yourself in the same way.\n\nYou could populate your surroundings with such biodiversity in mere minutes as to turn them into a veritable Garden of Eden or a screaming hellscape of terrifying monsters. All life created by these powers is directly linked to you and under your control from individual cells to complex consciousnesses. So long as a single cell of life from your own body or which is created by you remains alive, you may fully regenerate from it nigh-instantly as may any of your creations. You have an encyclopedic knowledge of all facets of biology, allowing you to take these powers to their utmost limits.\n\nWhile you do not possess infinite range with these powers, you can manipulate all life within a massive radius around any cell or life which you create meaning that exponential propagation can spread your sphere of influence across the entire planet or even the far reaches of space. With ingenuity, you could propel pockets of life into the stars and colonize billions of worlds remotely, turn the entire planet into a lush, fruitful paradise, raze it to the ground with an army of horrifying kaiju, or surround yourself with armies of genetically perfected humanoids that do your every whim.",
-          "image": "./images/obj-a5cs.jpeg",
-          "template": "1",
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [],
-          "addons": [],
-          "scores": [
-            {
-              "id": "rm",
-              "value": "60",
-              "type": "",
-              "requireds": [],
-              "beforeText": "Cost:",
-              "afterText": "SP",
-              "showScore": true
-            }
-          ],
-          "groups": []
-        },
-        {
-          "id": "qsrx",
-          "title": "Hyperion",
-          "text": "You have attained the pinnacle power of the Violet domain. You have ceased to be bound to physical matter itself, and are now a being of pure energy. Your body is a solid projection and as such may be regenerated, abandoned, or reconstituted as you require. Moreover, your body does not have any natural needs of any kind.\n\nYou have and you are an infinite wellspring of sheer anomalous energy and the versatility with which you can wield this energy is absolutely unparalleled. You can fire high-intensity beams from an outstretched palm or create homing beams which bend through the air towards their target. You may fire anti-energetic beams which hold opponents in place, fire barrages of energy which impact hundreds of times per second, or fork your attacks into exponential shining projectiles as they reach their target. You may organize this high-density energy in nearly any desired way, from orbiting disintegration spheres to solid shapes which disassemble matter on the atomic level. Your minute control over the intensity of these attacks, their behavior, and their configuration is utterly astounding. You could go from redrawing countries with a single blast to precisely melting bullets as they fly through the air as if this transition were nothing. You may precisely control the scope of these attacks to prevent collateral damage while firing devastating attacks. Just as you can project your body using your energy, you may project solid photokinetic constructs such as force-fields, weapon constructs, or invisible shields.\n\nBecause your physical body only has mass insofar as you decide it does, your movement capabilities are not limited to the speed of light. You can move omnidirectionally at any finite speed you desire. up to and including thousand of times the speed of light. Altering your mass into total intangibility as greater and greater velocities are required, surpassing even the effects of time dilation. You may surround objects and people you touch, wear, or carry with energy so that they may also survive superluminal flight, the vacuum of space, or the core of stars. By altering your mass to zero, you may become intangible at will or on instinct to avoid damage though this is seldom necessary, you can close wounds or repair body parts by cycling your energy back into your physical form.",
-          "image": "",
-          "template": "1",
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [],
-          "addons": [],
-          "scores": [
-            {
-              "id": "rm",
-              "value": "60",
-              "type": "",
-              "requireds": [],
-              "beforeText": "Cost:",
-              "afterText": "SP",
-              "showScore": true
-            }
-          ],
-          "groups": []
-        },
-        {
           "id": "m6kb",
           "title": "Atlas",
           "text": "You are at the pinnacle of mental prowess. You have a near-limitless capacity to acquire and master skills of any variety, create genius inventions and techniques, and attain within minutes what mastery a lesser man might in lifetimes. Moreover, you require no outside knowledge to begin learning these skills so long as you have sufficient materials. Spend a day in study and develop interplanetary space travel in your backyard. A week, and travel between stars and galaxies. An hour and develop a cure for mankind's deadliest illnesses.\n\nWhile the most obvious application of these abilities is in science and technology, you are by no means limited to it. In mere minutes, you could become a master of martial arts, and in hours be creating fighting styles of your own. A day's practice could make you humanity's greatest detective, its finest doctor, its most talented artist, or its most charismatic leader.\n\nWhen you acquire new skills and expertise, you will never forget or become incapable of your peak accomplishments. Meaning that with time you will inevitably become a veritable swiss army knife of incredible scientific knowledge, Olympic feats of physical strength and skill and much more. In a matter of months, your technologies could advance civilization to its extremes or make you into a transhumanist god. Nanobot enhancement, genetic recoding, cybernetics, quantum computing, and more may within mere days be in your grasp. Who but you could imagine what might be possible in a year. or a decade. Your talent in all disciplines is quite literally all- encompassing. You are become the overman.",
@@ -62200,7 +62716,7 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "40"
+              "value": "60"
             },
             {
               "afterText": "SP",
@@ -62239,7 +62755,7 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "40"
             }
           ],
           "template": "1",
@@ -62266,39 +62782,12 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "40"
+              "value": "60"
             }
           ],
           "template": "1",
-          "text": "Your psionic potential has been unlocked. You start out as a low level Psion with a few abilities and are able to train yourself to become more powerful. You have an uncanny intuition for developing new techniques and refining existing ones. A library of memories about psionic techniques has been implanted into your mind. You will need to meditate and experience the memories and understand them but all the knowledge you need is at your fingertips.\n\nWith enough time you will be able to develop into a psychic god capable of rewriting reality on a whim but the road there will be long a arduous. Be careful not to lobotomize yourself on your journey.",
+          "text": "Your psionic potential has been unlocked. You start out with high level psionic potential with the intuitive knowledge of most basic techniques (telekinesis, telepathy, barriers, etc.) and are able to train yourself to become more powerful. You have an uncanny intuition for developing new techniques and refining existing ones. A library of memories about psionic techniques has been implanted into your mind. You will need to meditate and experience the memories and understand them but all the knowledge you need is at your fingertips.\n\nWith enough time you will be able to develop into a psychic god capable of rewriting reality on a whim but the road there will be long a arduous. Be careful not to lobotomize yourself on your journey.",
           "title": "Almighty Mind"
-        },
-        {
-          "id": "22dv",
-          "title": "Leviathan",
-          "text": "You stand at the top in terms of physical abilities. Your primary ability is the manipulation of forces exerted on or by your own body with nearly no upper boundary on your exertion. This means you can exert the force of high-yield antimatter explosives with a light backhand, fly at mind boggling superluminal speeds, and endure the entire world's nuclear arsenals ten times over without so much as a scratch. Your strength is absurd enough to move celestial bodies or reshape continents with an orbital dropkick. You may either annul the force of attacks made against you, causing bullets to harmlessly fall in a shower of lead at your feet, or you may deflect these forces back in kind causing projectiles to ricochet and fists to break upon your chest.\n\nIf you do not consciously direct the force vectors created by your powers, you will completely nullify all forces your powers can exert back, and exponentially weaken incomprehensible forces of the cosmos. The epicenter of a black hole will pull with the force of a mild wind, the heat of the center of a star may cause a light discomfort, and standing at the epicenter of a supernova may slightly ruffle your hair. Truly indomitable or infinite forces like matter erasure, extradimensional rending, or space manipulations made against you can exert only a fraction of the damage they would normally cause.\n\nYou may extend the forces you exert and your protective field to anything you touch or hold directly or indirectly, meaning you may carry unpowered people at superluminal speeds without harming them and prevent damage to your clothing or possessions on your person. Similarly, because the forces you output aren't actually dependent on your muscles, you may exert impossible leverages and balance objects perfectly with minor or impossible movements.\n\nYour sensory faculties are maximized to their most absurd degrees. You can focus your hearing to comprehend conversations across entire planets, see the details of alien worlds by looking into the night sky or see the movement of strings and quantum particles in your hand and even feel vibrations in the air with such precision as to tell the differences between people's footsteps a continent away. You move with subatomic accuracy, capable of catching bullets in the air or defeating even the most skilled hand-to-hand combatants at their own game with ease.\n\nYou no longer possess needs of any kind be they physical ones such as air, sustenance, water, sleep, or more abstract psychological ones. You may consume any of these as you require normally but will suffer no negative effects if you do not choose to. Your mind is upgraded to its optimal physical connectivity and makeup. meaning you are immune to the negative psychological effects of stress, ennui, boredom, and so on. Similarly, you have a perfected memory and computational intelligence though your mind does not exceed what is possible given the physical limits of a perfected human brain. You have a healing factor which in the blink of an eye could restore you from ribbons to your full faculties, requiring only the existence of intact DNA to regrow your full form, though the circumstances under which you\u2019d ever take such damage are unimaginably improbable.",
-          "image": "",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [],
-          "addons": [],
-          "scores": [
-            {
-              "id": "rm",
-              "value": "60",
-              "type": "",
-              "requireds": [],
-              "beforeText": "Cost:",
-              "afterText": "SP",
-              "showScore": true
-            }
-          ],
-          "groups": []
         },
         {
           "addons": [],
@@ -62347,7 +62836,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "40"
+              "value": "60"
             }
           ],
           "template": 1,
@@ -62374,7 +62863,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "40"
+              "value": "60"
             }
           ],
           "template": 1,
@@ -62602,7 +63091,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "ez3l",
-          "image": "./images/obj-ez3l.webp",
+          "image": "./images/obj-ez3l.png",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -62629,7 +63118,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "w0n5",
-          "image": "./images/obj-w0n5.webp",
+          "image": "./images/obj-w0n5.png",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -62656,7 +63145,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "7f72",
-          "image": "./images/obj-7f72.webp",
+          "image": "./images/obj-7f72.png",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -62680,35 +63169,8 @@
         {
           "id": "5rrm",
           "title": "Polybius",
-          "text": "You have up to five of any powers you desire at any given time. You have a vast number of powers from which you may select and this roster will improve with time with new powers eventually forming in this set to suit your needs if one does not already exist.\n\nYou can shift between powers instantly and at will. If you cannot think of a power to achieve a goal, your powers will automatically offer you the best solution available, most if not all of which are absurdly powerful in their own right.\n\nPowers granted by this ability may include those of Magnitude 18 or lower depending on what is required for your purposes. Powers you use will improve, increasing the relative capability of powers you use frequently and more steadily increasing those you've used even once. The number of powers you may access at a time will also slowly increment. albeit at a sluggish pace comparatively. With extreme training you may attain Paragon powers through this ability and grow existing ones into Paragon powers. However, the pool of Paragon powers accessible through this power is much more limited than your usual abilities.\n\nThis power comes with a significant cognitive enhancement which allows these powers to operate at their absolute maximum potential, as well as discern your intent before you could actually think of it. What this means is that, if you do not consciously direct them, your powers will find and switch to an optimal set of abilities often choosing powers optimal for your current situation or any future one you could encounter. Whenever you switch to a new power, you are given a perfect understanding of its limits, capabilities, applications in near-infinite scenarios, and combination potential with other powers among vast number within your reach.",
-          "image": "",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [],
-          "addons": [],
-          "scores": [
-            {
-              "id": "rm",
-              "value": "120",
-              "type": "",
-              "requireds": [],
-              "beforeText": "Cost:",
-              "afterText": "SP",
-              "showScore": true
-            }
-          ],
-          "groups": []
-        },
-        {
-          "id": "z92o",
-          "title": "Aether",
-          "text": "You may possess any three domains of your choosing at once and may shift between domains any time you choose. Your initial skill is sufficient to wield powers tip to and including pinnacle abilities within the three domains you are wielding at any given time. You can develop new powers within a domain so long as it fits the overall theme of that domain.\n\nWhile this ability does not give you the power to manage your abilities automatically. you can shift between domains instantaneously and at will. The number of domain you may possess at a time and their relative strength may grow over time. ",
-          "image": "",
+          "text": "You have up to five of any powers you desire at any given time. You have a vast number of powers from which you may select and this roster will improve with time with new powers eventually forming in this set to suit your needs if one does not already exist.\n\nYou can shift between powers instantly and at will. If you cannot think of a power to achieve a goal, your powers will automatically offer you the best solution available, most if not all of which are absurdly powerful in their own right.\n\nPowers granted by this ability may include equivalent to greater powers or weaker depending on what is required for your purposes. Powers you use will improve, increasing the relative capability of powers you use frequently and more steadily increasing those you've used even once. The number of powers you may access at a time will also slowly increment. albeit at a sluggish pace comparatively. With extreme training you may attain Paragon powers through this ability and grow existing ones into Paragon powers. However, the pool of Paragon powers accessible through this power is much more limited than your usual abilities.\n\nThis power comes with a significant cognitive enhancement which allows these powers to operate at their absolute maximum potential, as well as discern your intent before you could actually think of it. What this means is that, if you do not consciously direct them, your powers will find and switch to an optimal set of abilities often choosing powers optimal for your current situation or any future one you could encounter. Whenever you switch to a new power, you are given a perfect understanding of its limits, capabilities, applications in near-infinite scenarios, and combination potential with other powers among vast number within your reach.",
+          "image": "./images/obj-5rrm.png",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -62734,8 +63196,35 @@
         {
           "id": "04fs",
           "title": "Dynamist",
-          "text": "When you acquire this power, you must choose another power weaker or equivalent to a pinnacle ability. Your power will behave as if you had this ability and will dynamically alter them slowly to better suit challenges and weaknesses, refining the initial ability you chose and gradually broadening its flexibility with each new challenge that arises, molding them like clay to better generalize based on your previous engagements.\n\nWhen your powers are impotent, your powers will shave off functionality in one sector to improve another or to develop new features over time. When you have time to let them grow, they will add new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before. Whenever a situation that is challenging or impossible for your current powers to overcome arises, they will afterward shave off less-used features to bolster immediately useful ones or create entirely new features to suit the situation if necessary. The result will depend on your combat style, personality, preferences, and situations that arise.\n\nThis ability can pack on as many new features and powers, often completely unrelated to the original, as necessary in order to create the perfect power that most optimally suits you.",
-          "image": "",
+          "text": "When you acquire this power, you acquire three powers of your choice with a combined cost of 120 SP or less (excluding any paragon powers). Your power will behave as if you had these powers and will dynamically alter them slowly to better suit challenges and weaknesses, refining the initial ability you chose and gradually broadening its flexibility with each new challenge that arises, molding them like clay to better generalize based on your previous engagements.\n\nWhen your powers are impotent, your powers will shave off functionality in one sector to improve another or to develop new features over time. When you have time to let them grow, they will add new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before. Whenever a situation that is challenging or impossible for your current powers to overcome arises, they will afterward shave off less-used features to bolster immediately useful ones or create entirely new features to suit the situation if necessary. The result will depend on your combat style, personality, preferences, and situations that arise.\n\nThis ability can pack on as many new features and powers, often completely unrelated to the original, as necessary in order to create the perfect powers that most optimally suits you.",
+          "image": "./images/obj-04fs.png",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "120",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "1weu",
+          "title": "Celestial Inventory",
+          "text": "You gain access The Celestial Inventory. This power allows you to summon from your basically own Gate of Babylon and wield with absolute mastery of ANY Item. Be it mundane, supernatural to the Metaphysical, you can summon any item in the known Omni verse. You have a mental Metaphysical search bar that is inside your head, that you can put in parameters to help locate a certain type of item. When looking at a item in your inventory or out in the real world, you will get a description of what it is, what it can do, how powerful it is, and what restrictions it has as well as side-effects.  To summon a Item, you must know what the item's name is, so you can summon it out of the Inventory. Your Inventory will also \"Refill\" up a item, if you lose it. So do be careful you don't leave a Reality Gauntlet lying around. You can also place certain items as favorites to always be remembered. Please do note you can only have 5 Favorites at a time. Also some Items should not be used without great caution, respect and wariness as some may cause the Apocalypse, cause universal destruction or summon a Eldritch God like Cthulhu. Please wield responsibly.",
+          "image": "./images/obj-1weu.jpeg",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -63003,6 +63492,63 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "owuw",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "51t3",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your Ring and Lantern gain a program to shift to the color of Life, White, but hold your horses - you'll need to master the Emotional Spectrum first. To do this, once your ring ascertains you've mastered your first choice of color, you can tell it to move onto another color of the Emotional Spectrum of your choice. You'll need to resist the temptation of the parasitic light of Greed, Orange, and the influence of the light of Rage, Red, but once you've successfully mastered the Emotional Spectrum, your Ring will be ready to shift to the White Light with your assistance, drawing on your expertise with the entire emotional spectrum, you'll need to balance this perfectly. Once you've done so, you'll be able to make use of all of the Emotional Spectrum on a level of potency and efficiency a league above the impure lights through the Light of Life.",
+          "title": "White Lantern Ring (DC Comics)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "f2fw",
           "image": "./images/obj-f2fw.webp",
           "isActive": false,
@@ -63051,6 +63597,276 @@
           "template": 1,
           "text": "You gain possession of an Omnitrix. You also gain an understanding of how to operate it.\n\n(The Entities and Enbringers lack DNA, the Omnitrix cannot transform you into them)",
           "title": "Omnitrix"
+        },
+        {
+          "id": "n8er",
+          "title": "Grimoire",
+          "text": "A book based around teaching the practice of a magic system to beginners. Which magic system? Well, that's up to you, but it has to be one that can be learned by anyone, although rituals or tools being required to use the magic system work as well so long as their creation or use are taught in the Grimoire. This could take the form of a Wizard's spellbook or an Archivist's prayerbook from D&D, Gwen's Spellbook from Ben 10, or an Encantus from Doofquest, just for some examples. This spellbook very well could act as a focus or be enchanted in some minor ways such as shifting into pocket size and back, but not an actual magical artifact into itself.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "r981",
+          "title": "Sonic Screwdriver (Doctor Who)",
+          "text": "You get a Sonic Screwdriver of your chosen design that can do just about anything...but the user interface is quite lacking for non-Time Lords. You'll be able to figure out how to use it as a screwdriver with some trial and error, though! ",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "78i0",
+          "title": "Psychic Paper (Doctor Who)",
+          "text": "A notebook's worth of Psychic Paper, paper that taps into the mind of others to show them an illusion of what they expect to see. Unfortunately, particularly strong-willed, dull, highly intelligent, or psionically-resistant individuals can negate this, but still, with creativity this is amazingly useful. ",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "9zu1",
+          "title": "Helmet of Fate",
+          "text": "You get the Helmet of Fate, the Amulet of Anubis and the Cloak of Destiny, a set of ancient and extremely powerful magical objects created by the Lord of Order Nabu. Combined, they can let you wield the powers of Dr. Fate which grants you powerful magical enhancements and abilities.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "35",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "kkse",
+          "title": "Shardbearer (Stormlight Archives)",
+          "text": "You have access to a set of Shardplate and a Shardblade or Honorblade of your choosing. A Shardblade is a powerful weapon capable of slicing rock and severing souls and can be dematerialized and rematerialized when you wish. Honorblades are stronger versions of Shardblades that grant you magical abilities known as \"Surgbinding\". Shardplate is magical armor that can block even Shardblades and grants you enhanced strength. Your Shardplate will naturally replenish Stormlight and repair itself.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "thro",
+          "title": "Infinite Stratos",
+          "text": "You gain a powered exoskeleton called an Infinite Stratos, as well as a matching bodysuit. While these might seem a bit...lewd, their power is undeniable, capable of shifting into different shapes when not in use like rings, necklaces, earrings, or a bracelet, flight, protecting the user through barrier shields, offering IS weapons like a sword and rifle,  enhancing the user's physical abilities massively and their senses to the point they can see 360 degrees around themselves, self-repair and optimization, and reactively evolving to match threats and assist the wearer in achieving their wishes. Additionally, this IS is set such that you could use it if you're male, so no worries about not being able to use it due to the original creator's eccentricities.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "vkus",
+          "title": "Symphogear (Senki Zesshou Symphogear)",
+          "text": "Fragments of an ancient legendary artifact, called a Relic, fashioned into a pendant. Upon singing its activation chant, it will transform into armor and create a weapon called an \"Armed Gear\". Symphogears are powered by Phonic Gain, which is generated by singing the song in your heart. You can also sing a \"Superb Song\" which, when sung, will temporarily use the full power of the Symphogear. Using a Superb Song can cause backlash to your body if there is disharmony between you and the Relic. You will be a natural Adapter, capable of using the Relic with a high Sync Rate.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "15",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "r3oa",
+          "title": "Neuralyzer (MIB)",
+          "text": "A Neuralyzer is a top secret device used by the Men in Black to wipe the mind of anyone who sees it's flash, with dials that set the amount of memory to be erased, one for hours, one for days, one for months, and one for years, after which they are in a trance you can use to supply memories to them through simple explanation. Paired together with this you also get a snazzy pair of sunglasses which deflect the light created by the Neuralyzer to avoid being harmed by the effects.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "5",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "e8kn",
+          "title": "Omega-1 Nanite (Generator Rex)",
+          "text": "You might feel a slight sting in your arm when you first arrive, because you have been implanted with an Omega-1 Nanite, a highly advanced nanite with the ability to manufacture and control other nanites, which will bond with you, aid you, and keep you alive. Initially you'll notice a few benefits as the Nanites start kicking in, specifically growing stronger and more resilient than a normal human including a healing factor, after that gaining a sense of technopathy as you start getting enough nanites to risk waste through extending them into machines, and finally, once you've built up enough nanites you'll be able to create advanced machines outside your body of the Nanite's design, such as giant mechanical gauntlets to strike harder or propeller wings enabling flight.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "5",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "9gmb",
+          "title": "Aegis (Xenoblade chronicles 2)",
+          "text": "You gain the Aegis from the Xenoblade universe, its power is localized reality manipulation via higher dimensional energy from a conduit. Or in layman's terms anything you imagine becomes real, within reason, depending on your total power output.\nYour blade is powered by a connection to a conduit that cannot be reached or tampered with, don\u2019t want another incident on our hands. Your blade is also a person, this person can be Pyra, Mythra or both at the same time, your choice. Although that doesn\u2019t matter too much outside of their appearance since they are fundamentally the same person. The more you work with and resonate with your blade the greater the power you can wield.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "5",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
         }
       ],
       "styling": {
