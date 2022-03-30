@@ -59739,6 +59739,33 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "oc9w",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Your DNA is infused with Viltrumite DNA, granting you super strength, super speed, super durability, and hyper-evolved bodily processes such that you can hold your breath for extended periods of time, you are immune to all Earthly diseases short for something made by a Biotinker specifically meant to affect a Viltrumite, have regeneration capable of healing pretty much anything so long as your pieces are generally put back into the right place and no more than a third of your brain is destroyed, grow back stronger after being hurt, and have sufficient longevity to live for thousands of years. Unfortunately, this comes with a weakness to certain sonic frequencies. ",
+          "title": "Viltrumite Hybrid (Invincible)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "qh97",
           "image": "",
           "isActive": false,
@@ -63831,7 +63858,7 @@
           "scores": [
             {
               "id": "rm",
-              "value": "5",
+              "value": "15",
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
@@ -63858,7 +63885,34 @@
           "scores": [
             {
               "id": "rm",
-              "value": "5",
+              "value": "40",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "fut3",
+          "title": "Teigu (Akame ga Kill)",
+          "text": "You gain a Teigu of your choice made to be compatible with you which also unlocks and enhances your spiritual power, granting you General-level potential. If you choose Demon's Extract, you'll need to drink it yourself, but you'll be guaranteed to be able to push through it's insanity inducement thanks to your compatibility so long as you can focus on doing so for a while after drinking it. Teigu have capabilities unshown in canon, as all of them can grow alongside their user and some of their capabilities were subtle, like Wave's Grand Chariot enhancing his development speed like Incursio's evolution enhanced Tatsumi to the point he survived wielding two Teigu at once. The one thing this is guaranteed to be unable to do is bring back the dead. Additionally, if you get into a battle with another Teigu user, and both of you hold killing intent, one is certain to die. ",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "15",
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
