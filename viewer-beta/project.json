@@ -31893,7 +31893,26 @@
           "isVisible": true,
           "objectWidth": "col-12",
           "requireds": [],
-          "scores": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            },
+            {
+              "id": "2b",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
+            }
+          ],
           "template": 1,
           "text": "Your powers do not come from a Shard but from another source like your genetics, soul, and the like. You can only select powers from the Shardless category. Some Perks and Drawbacks may be restricted.",
           "title": "Shardless",
@@ -36638,7 +36657,43 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [],
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": "axaw"
+                },
+                {
+                  "req": "ttv5"
+                },
+                {
+                  "req": "sxhj"
+                },
+                {
+                  "req": "z235"
+                },
+                {
+                  "req": "l620"
+                },
+                {
+                  "req": "fnnp"
+                }
+              ],
+              "id": "",
+              "type": "or",
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
           "scores": [],
           "template": 1,
           "text": "",
@@ -36666,10 +36721,10 @@
                   "req": "axaw"
                 },
                 {
-                  "req": "5g0q"
+                  "req": "z235"
                 },
                 {
-                  "req": "ou34"
+                  "req": "l620"
                 }
               ],
               "id": "",
@@ -36711,7 +36766,7 @@
                   "req": "sxhj"
                 },
                 {
-                  "req": "5g0q"
+                  "req": "z235"
                 }
               ],
               "reqId": "",
@@ -37253,13 +37308,13 @@
               "req": "axaw"
             },
             {
-              "req": "5g0q"
+              "req": "z235"
             },
             {
-              "req": "inxc"
+              "req": "l620"
             },
             {
-              "req": "ou34"
+              "req": "fnnp"
             }
           ],
           "id": "",
@@ -37875,7 +37930,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "inxc",
+              "reqId": "l620",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -37904,7 +37959,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "ou34",
+              "reqId": "fnnp",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -37971,7 +38026,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "5g0q",
+              "reqId": "z235",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -38000,7 +38055,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "ou34",
+              "reqId": "fnnp",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -38067,7 +38122,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "5g0q",
+              "reqId": "z235",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -38096,7 +38151,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "inxc",
+              "reqId": "l620",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -59312,7 +59367,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
@@ -59439,8 +59494,8 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "hzd5",
-          "image": "./images/obj-hzd5.webp",
+          "id": "qbr9",
+          "image": "./images/obj-qbr9.webp",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -59465,7 +59520,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "rus7",
+              "reqId": "hzd5",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -59496,8 +59551,8 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "y74v",
-          "image": "./images/obj-y74v.webp",
+          "id": "hzd5",
+          "image": "./images/obj-hzd5.webp",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -59567,7 +59622,7 @@
               "operator": "",
               "orRequired": [
                 {
-                  "req": "rus7"
+                  "req": "hzd5"
                 },
                 {
                   "req": "qbr9"
@@ -59621,7 +59676,7 @@
                   "req": "qbr9"
                 },
                 {
-                  "req": "rus7"
+                  "req": "hzd5"
                 }
               ],
               "reqId": "",
@@ -59681,7 +59736,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "r8bg",
+              "reqId": "r7bp",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -60205,7 +60260,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
@@ -60543,7 +60598,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "gnhc",
+              "reqId": "lyut",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -60600,7 +60655,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "gnhc",
+              "reqId": "lyut",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -60645,10 +60700,10 @@
               "operator": "",
               "orRequired": [
                 {
-                  "req": "lj0f"
+                  "req": "fo3s"
                 },
                 {
-                  "req": "3tyy"
+                  "req": "czqr"
                 }
               ],
               "reqId": "",
@@ -60879,7 +60934,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
@@ -61224,7 +61279,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "uzae",
+              "reqId": "hhgq",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -61253,7 +61308,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "34ki",
+              "reqId": "es3f",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -61445,7 +61500,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "olwh",
+              "reqId": "b378",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -61474,7 +61529,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "34ki",
+              "reqId": "es3f",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -61531,7 +61586,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "olwh",
+              "reqId": "b378",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -61560,7 +61615,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "uzae",
+              "reqId": "hhgq",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -61815,7 +61870,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
@@ -62303,7 +62358,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
@@ -62625,7 +62680,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
@@ -62730,7 +62785,7 @@
                       "req": ""
                     }
                   ],
-                  "reqId": "6fj3",
+                  "reqId": "5vch",
                   "reqId1": "",
                   "reqId2": "",
                   "reqId3": "",
@@ -62769,7 +62824,7 @@
                       "req": ""
                     }
                   ],
-                  "reqId": "6fj3",
+                  "reqId": "5vch",
                   "reqId1": "",
                   "reqId2": "",
                   "reqId3": "",
@@ -62836,7 +62891,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "40"
+              "value": "60"
             }
           ],
           "template": 1,
@@ -63071,7 +63126,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
@@ -63446,7 +63501,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
