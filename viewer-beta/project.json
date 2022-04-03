@@ -61050,50 +61050,15 @@
               "requireds": [],
               "orRequired": [
                 {
-                  "req": ""
+                  "req": "r4yq"
                 },
                 {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
+                  "req": "9ss6"
                 }
               ],
               "id": "",
-              "type": "id",
-              "reqId": "r4yq",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            },
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "9ss6",
+              "type": "or",
+              "reqId": "",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
