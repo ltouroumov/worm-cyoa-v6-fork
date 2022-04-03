@@ -31901,7 +31901,8 @@
               "requireds": [],
               "beforeText": "Cost:",
               "afterText": "SP",
-              "showScore": true
+              "showScore": true,
+              "isActive": false
             },
             {
               "id": "2b",
@@ -31910,7 +31911,8 @@
               "requireds": [],
               "beforeText": "Cost:",
               "afterText": "CP",
-              "showScore": true
+              "showScore": true,
+              "isActive": false
             }
           ],
           "template": 1,
@@ -36718,7 +36720,7 @@
                   "req": "sxhj"
                 },
                 {
-                  "req": "axaw"
+                  "req": "ttv5"
                 },
                 {
                   "req": "z235"
@@ -37988,7 +37990,8 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "10",
+              "isActive": false
             }
           ],
           "template": 1,
@@ -38084,7 +38087,8 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "5"
+              "value": "5",
+              "isActive": false
             }
           ],
           "template": 1,
@@ -38170,7 +38174,8 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "5"
+              "value": "5",
+              "isActive": false
             }
           ],
           "template": 1,
@@ -44758,13 +44763,13 @@
               "req": "sxhj"
             },
             {
-              "req": "5g0q"
+              "req": "z235"
             },
             {
-              "req": "inxc"
+              "req": "l620"
             },
             {
-              "req": "ou34"
+              "req": "fnnp"
             }
           ],
           "reqId": "",
@@ -48547,10 +48552,10 @@
               "req": "ttv5"
             },
             {
-              "req": "5g0q"
+              "req": "z235"
             },
             {
-              "req": "inxc"
+              "req": "l620"
             }
           ],
           "reqId": "",
@@ -54139,7 +54144,7 @@
               "req": "sxhj"
             },
             {
-              "req": "5g0q"
+              "req": "z235"
             }
           ],
           "reqId": "",
