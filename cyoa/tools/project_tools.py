@@ -71,6 +71,36 @@ class ProjectPointsTool(ToolBase, ProjectUtilsMixin):
 
 
 
+def check_duplicates(project):
+    object_ids: Dict[str, List] = {}
+    for row_data in project['rows']:
+        for object_data in row_data['objects']:
+            object_ids.setdefault(object_data['id'], [])
+            object_ids[object_data['id']].append(object_data['title'])
+
+    for obj_id, titles in object_ids.items():
+        if len(titles) > 1:
+            console.print(f"Duplicate {obj_id}: {str.join(', ', titles)}")
+
+
+def check_requirements(project):
+    from cyoa.graph.lib import build_graph
+
+    graph = build_graph(project)
+    object_ids = set(graph.objects.keys())
+    for oid, vertex in graph.vertices.items():
+        if (obj := graph.objects.get(oid, None)) is None:
+            console.print(f"Unknown object {oid}")
+            continue
+        
+        row = graph.rows[obj.row_id]
+
+        if len(missing_inputs := (vertex.inputs - object_ids)) > 0:
+            console.print(f"Missing inputs for {row.title} / {obj.title} ({oid}): {missing_inputs}")
+        if len(missing_outputs := (vertex.outputs - object_ids)) > 0:
+            console.print(f"Missing outputs for {row.title} / {obj.title} ({oid}): {missing_outputs}")
+
+
 class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
     name = 'project.check'
 
@@ -82,15 +112,8 @@ class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
     def run(self, args):
         self._load_project(args.project_file)
 
-        object_ids: Dict[str, List] = {}
-        for row_data in self.project['rows']:
-            for object_data in row_data['objects']:
-                object_ids.setdefault(object_data['id'], [])
-                object_ids[object_data['id']].append(object_data['title'])
-
-        for obj_id, titles in object_ids.items():
-            if len(titles) > 1:
-                console.print(f"Duplicate {obj_id}: {str.join(', ', titles)}")
+        check_duplicates(self.project)
+        check_requirements(self.project)
 
 
 TOOLS = (
