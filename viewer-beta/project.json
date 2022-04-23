@@ -15879,35 +15879,6 @@
                   "req": ""
                 }
               ],
-              "reqId": "whrm",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
               "reqId": "4950",
               "reqId1": "",
               "reqId2": "",
@@ -25005,7 +24976,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "",
+              "reqId": "4950",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -44983,45 +44954,6 @@
               "showScore": true,
               "type": "",
               "value": "1"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45045,45 +44977,6 @@
               "beforeText": "Cost:",
               "id": "rm",
               "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
               "showScore": true,
               "type": "",
               "value": "1"
@@ -45113,45 +45006,6 @@
               "showScore": true,
               "type": "",
               "value": "2"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45175,45 +45029,6 @@
               "beforeText": "Cost:",
               "id": "rm",
               "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
               "showScore": true,
               "type": "",
               "value": "1"
@@ -45243,45 +45058,6 @@
               "showScore": true,
               "type": "",
               "value": "1"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45305,45 +45081,6 @@
               "beforeText": "Cost:",
               "id": "rm",
               "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
               "showScore": true,
               "type": "",
               "value": "1"
@@ -45374,45 +45111,6 @@
               "showScore": true,
               "type": "",
               "value": "6"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45439,45 +45137,6 @@
               "showScore": true,
               "type": "",
               "value": "4"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45504,45 +45163,6 @@
               "showScore": true,
               "type": "",
               "value": "4"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45569,45 +45189,6 @@
               "showScore": true,
               "type": "",
               "value": "4"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45634,45 +45215,6 @@
               "showScore": true,
               "type": "",
               "value": "4"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45699,45 +45241,6 @@
               "showScore": true,
               "type": "",
               "value": "4"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45764,45 +45267,6 @@
               "showScore": true,
               "type": "",
               "value": "3"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45829,45 +45293,6 @@
               "showScore": true,
               "type": "",
               "value": "3"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45895,45 +45320,6 @@
               "showScore": true,
               "type": "",
               "value": "4"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -45960,45 +45346,6 @@
               "showScore": true,
               "type": "",
               "value": "4"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46025,45 +45372,6 @@
               "showScore": true,
               "type": "",
               "value": "6"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46090,45 +45398,6 @@
               "showScore": true,
               "type": "",
               "value": "3"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46155,45 +45424,6 @@
               "showScore": true,
               "type": "",
               "value": "10"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46220,45 +45450,6 @@
               "showScore": true,
               "type": "",
               "value": "5"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46286,45 +45477,6 @@
               "showScore": true,
               "type": "",
               "value": "5"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46351,45 +45503,6 @@
               "showScore": true,
               "type": "",
               "value": "9"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46416,45 +45529,6 @@
               "showScore": true,
               "type": "",
               "value": "12"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46482,45 +45556,6 @@
               "showScore": true,
               "type": "",
               "value": "9"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46547,45 +45582,6 @@
               "showScore": true,
               "type": "",
               "value": "5"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46612,45 +45608,6 @@
               "showScore": true,
               "type": "",
               "value": "5"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46677,45 +45634,6 @@
               "showScore": true,
               "type": "",
               "value": "2"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46742,45 +45660,6 @@
               "showScore": true,
               "type": "",
               "value": "8"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46808,45 +45687,6 @@
               "showScore": true,
               "type": "",
               "value": "3"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -46873,45 +45713,6 @@
               "showScore": true,
               "type": "",
               "value": "3"
-            },
-            {
-              "afterText": "Network Capacity",
-              "beforeText": "Cost:",
-              "id": "1u",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "k89b",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": true,
-                  "type": "id"
-                }
-              ],
-              "showScore": true,
-              "type": "",
-              "value": "1"
             }
           ],
           "template": 1,
@@ -51108,7 +49909,7 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "u1v6",
+          "id": "bpuq",
           "image": "",
           "isActive": false,
           "isVisible": true,
@@ -51128,68 +49929,7 @@
             }
           ],
           "template": 1,
-          "text": "Your dolls can have any power your have.\nPowers that alter the user's biology don't work on the dolls.",
-          "title": "Power Sharing"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "bpuq",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "olwh"
-                },
-                {
-                  "req": "1irf"
-                },
-                {
-                  "req": "uwde"
-                },
-                {
-                  "req": "lv3m"
-                },
-                {
-                  "req": "y407"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "DP",
-              "beforeText": "Cost:",
-              "id": "d2",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "You can channel your magic, psionic, aura, and force powers through your dolls.",
+          "text": "You can use your other powers through the dolls as if they were an extension of your own body. Powers that affect biology do not work on the dolls as they are not biological.",
           "title": "Conduit"
         },
         {
@@ -51202,7 +49942,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -51399,7 +50139,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "choice",
@@ -51602,7 +50342,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "choice",
@@ -52803,7 +51543,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -52861,7 +51601,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -52908,87 +51648,12 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "0mr3",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "olwh"
-                },
-                {
-                  "req": "1irf"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "qokx"
-                },
-                {
-                  "req": "abos"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "DP",
-              "beforeText": "Cost:",
-              "id": "d2",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "Instead of building mundane dolls you have a secondary Tinker power to build magically infused dolls. If you selected <i>Equipment</i> or <i>Weapons</i> your specialty includes those as well.",
-          "title": "Golems"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "ob4i",
           "image": "",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -54331,7 +52996,7 @@
       "id": "qldk",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -54644,205 +53309,6 @@
           "template": 1,
           "text": "If you try hiding your positive feelings for someone, they will gain a slower version of Unlimited Potential. That is to say that as long as they continuously train to the point they strain themselves, they will continue to grow stronger without limit. ",
           "title": "Tsundere"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "o80q",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "uwde",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "tjz1",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "As a force-user that has access to light sabers, you can now become a Jedi (Or Sith). However, you don't have any training. Now you can create Holocrons with training straight from the Star Wars galaxy. You can choose ahead of time whether the Holocron was Jedi, Sith, or other.",
-          "title": "Jedi Knight"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "2f3c",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "lv3m",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "m981",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "tjz1",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "You can transform into Yang, have all her skills, knowledge, and items. You even know how to act like her. This includes the ability to unlock auras. This allows you to keep Yang It! even after your Shard runs out of juice, as it's Yang's, and now your, Semblance. You also know how to make Yang's Shot-Gun Gauntlets and can artificially create dust, and dust deposits. When your Shard runs out of juice, you're stuck in whatever form you're in at the time.",
-          "title": "Yang Xiao-Long"
         },
         {
           "addons": [],
@@ -55298,35 +53764,6 @@
                   "req": ""
                 }
               ],
-              "reqId": "w67q",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
               "reqId": "k1xt",
               "reqId1": "",
               "reqId2": "",
@@ -55381,85 +53818,6 @@
           "template": 1,
           "text": "You can grant people knowledge and/or any power you have, though to do so you need to throw them through a gate and take something from them equal to what you gave them.\nYou can create life, you can copy the appearance of others, you can create philosopher stones from nothing, and you can do Alchemy anywhere you can touch or see. ",
           "title": "Truth"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "o1kp",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "vp1e",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "pxsf"
-                },
-                {
-                  "req": "974r"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Your magic can get stronger with training, but the effects will always be simple in comparison to what you can do with Magecraft. ",
-          "title": "Mage"
         },
         {
           "addons": [],
@@ -56346,121 +54704,6 @@
           "template": 1,
           "text": "Your Arcanist and Artificer powers synergize giving you access to the ability to create Wards, spells that are anchored to an area using ward stones. Wards can be connected together to pass information between them. Ward stones are not affected by the enchantment limit, be careful what you mix together however. If a wards tone is destroyed it will collapse all wards it is powering and those it is connected to.",
           "title": "Ward Master"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "cr9b",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "lv3m",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "tjz1",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "az0n",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Your tinker specialty extends to include dust technology and mecha shift weapons.",
-          "title": "Dust Weaponry"
         },
         {
           "addons": [
@@ -60977,7 +59220,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -61111,6 +59354,195 @@
           "template": 1,
           "text": "You made a pact with an otherworldly entity for power. In exchange for the occasional favor, your supernatural sugar daddy/mommy will grant you a sliver of their power. The higher your favor with them is, the more powerful abilities you will have access to.",
           "title": "Warlock (D&D)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "di9g",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Arcane, the most common form of magic, comes from the cosmic concept of order. It is a cold and intellectual magic that warps time, space, and controls the flow of mana. Though extremely volatile, arcane can be so similar to an element it might as well be one, for all magical intents and purposes, meaning a fireball isn\u2019t actually fire it is just arcane that mimics fire. While arcane represents order, fel is the magic of chaos and disorder, and are considered opposite ends of the same spectrum.\nSince arcane spawns from order it can technically do anything as long as enough power and knowledge is used, however this power must be gained naturally and rightfully, order allows no shortcuts to power.",
+          "title": "Arcane Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9kx4",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Light and Shadow are the most fundamental forces in existence. They dwell outside reality, but shades of them drift into our reality.\nLight exists in the physical world as holy magic, holy magic can heal, defend, attack, and restore life to the dead. Although only experienced practitioners can restore life to the dead. This magic is very effective against anything un-natural, undead, demonic, or otherwise in contact with shadow. The light and holy magic promote positive emotions and feelings in all that feel and see it.\nThe Light shows only half the truth. It cannot fully see destiny, though neither can the Void because neither is singularly responsible for creation. ",
+          "title": "Light Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "f4fq",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "The energies of life, commonly known as nature magic, promote growth and renewal in all things. Death, in the form of necromantic magic, acts as a counterbalance to life. Together, these two forces hold sway over every living thing in the physical universe.\nLife lies closer to the light while death closer to shadow, life is the magic and force which controls and makes all things that live, nature and all that includes are a result of the energies of life seeping into the universe, this allows you to create, manipulate and heal all natural things.",
+          "title": "Nature Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "64yj",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "The void, also referred to as shadow, along with the Light, are one of the most fundamental forces in existence. They dwell outside reality, but shades of them drift into our reality. Void exists in the physical world as shadow magic The Void is not necessarily \"evil\", it is a primal force with its morality characterized by how it is wielded. The Void can be a source of terrible power, the kind of power that comes at a price. While the Light is often said to bring about feelings of positive emotion\u2014hope, courage, comfort\u2014and the like, Shadow abilities are the opposite, able to impart feelings like despair, doubt, and panic. In a poetic sense, it can be said that the emotions which the Light brings about come from the \"heart\", whereas the emotions manipulated by Shadow are often based on survival logic, and therefore affect the \"mind\". The Void shows only half truths. It cannot fully see destiny, though neither can the Light because neither is singularly responsible for creation. The magic can accomplish many things and can effect reality to a great degree, but never without some form o sacrifice, in the form of mana most of the time.",
+          "title": "Shadow Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "kagm",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Fel magic is a destructive form of magic often used by the members of the Burning Legion. It is demonic, entropic, chaotic and extremely volatile. Its use results in the alteration of the individual, or corruption, which manifests as a physical transformation such as a change to an individual's eyes or skin color, or heavy genetic mutations. All of the Burning Legion carry the taint of Fel magic within their very blood, allowing them to spread greater evil. Warlocks use life force to power their fel magic. Fel magic is the opposite of arcane magic and is chaotic and unpredictable, no study will allow you to fully tame fel and produce the same effect over and over again, fel does as it pleases. It can easily be said that you are as much its servant as it is yours to wield.",
+          "title": "Fel Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hycx",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Necromancy, also called the dark arts or the black arts, is the study and use of magic to raise and control the dead or death. Necromantic magic, or death magic, has many functions beyond simply raising the dead. Masters of this tainted field of magic can conjure festering diseases, harness the shadows into bolts of incendiary energy, and chill the living with the power of death. Necromancy can also be used to reconstruct the flesh of undead creatures, allowing them to function again even after the foul monsters have been destroyed. Death magic comes from the cosmic force of death, all things that have a beginning will have an ending, it is the opposite of life which spawns all things and is therefor the end to things, this is not necessarily evil, although it has been used for evil things commonly, it is a natural part of the world and holds no moral leanings what so ever.",
+          "title": "Death Magic (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "k4sv",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Runic magic is a magic that employs runes. The runes can access various types of magic, such as Fel, void, arcane, and death.\nThink of it as a programming language for magic, the better at it you get the more complex \u201cprograms\u201d you can create.",
+          "title": "Runic Magic (Warcraft)"
         },
         {
           "addons": [],
@@ -64086,6 +62518,33 @@
           "id": "fut3",
           "title": "Teigu (Akame ga Kill)",
           "text": "You gain a Teigu of your choice made to be compatible with you which also unlocks and enhances your spiritual power, granting you General-level potential. If you choose Demon's Extract, you'll need to drink it yourself, but you'll be guaranteed to be able to push through it's insanity inducement thanks to your compatibility so long as you can focus on doing so for a while after drinking it. Teigu have capabilities unshown in canon, as all of them can grow alongside their user and some of their capabilities were subtle, like Wave's Grand Chariot enhancing his development speed like Incursio's evolution enhanced Tatsumi to the point he survived wielding two Teigu at once. The one thing this is guaranteed to be unable to do is bring back the dead. Additionally, if you get into a battle with another Teigu user, and both of you hold killing intent, one is certain to die. ",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "15",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "vm8o",
+          "title": "The Phantom Magus Combino Deck",
+          "text": "A deck of 78 Blank Faced Tarot Cards bound to your very soul.\n\nThese cards have the Magical Ability to seal and unseal \"Anything\" into themselves. This is not the true power of the Cards though. No, its true power is the power to \"COMBINE\". By taking the \"Item/Essence\" of one Card and combining it with another card, you make something new. For Example, if you take a Lighter and Combine its Essence of \"Combustion/Flame\" and combine it with the Essence of \"Gun\", you create a Gun, that shoots fireballs instead of bullets.\n\nThe cards also give you the ability of a Professional Magician. Acrobatics, Sleight of Hand, Mentalism Skills and So on. Though there does come some unfortunate side effects. You get a urge of Kleptomania and theatrics.",
           "image": "",
           "template": 1,
           "objectWidth": "",
