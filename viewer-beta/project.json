@@ -39303,7 +39303,7 @@
       "id": "dn8o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -39426,7 +39426,37 @@
           "multipleUseVariable": 0,
           "defaultAspectWidth": 1,
           "defaultAspectHeight": 1,
-          "requireds": [],
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "d0mx",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
           "addons": [],
           "scores": [],
           "groups": []
@@ -59877,33 +59907,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "q8em",
-          "image": "./images/obj-q8em.webp",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You\u2019re a lord or lady of the night now. You\u2019ve been turned into a Vampire, an exceptionally powerful one but ultimately not a true Noble of the race. Instead, you are a being from a line of artificial vampires first created by a powerful mage. You cease to age and retain eternal youth as a vampire and possess an incredible healing factor. You can survive even having your head or heart destroy and accomplish feats such as regenerating your entire upper half of your body after it is obliterated in just a few minutes. However, your regeneration has a flaw. It can only regenerate parts of your body that have been destroyed. If your head was reduced to bloody mist or your arms were burnt to cinders, they would regenerate. But if an arm was cut off and taken away from you, your lost arm would not heal from your body until that severed and taken arm is destroyed. You possess none of the normal vampire weaknesses as an Artificial Vampire and have superhuman physical abilities, letting you outmatch any normal human ten times over. You can fly at your normal ground speed and turn into a swarm of bats at will. You\u2019re even able to drain magic from other people by biting into them and sucking out their blood.",
-          "title": "Artificial Vampire (UQ Holder)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "oc9w",
           "image": "",
           "isActive": false,
@@ -59979,33 +59982,6 @@
           "template": 1,
           "text": "Your X-Gene is activated and your latent mutant powers awaken. The powers you gain from this are random but will at least be Alpha level and you will be able to train them through practice. You are guaranteed to not be physically mutated in an unappealing way.",
           "title": "Homo Superior"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "se0f",
-          "image": "./images/obj-se0f.webp",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "30"
-            }
-          ],
-          "template": 1,
-          "text": "You gain the physiology of an Asgardian. You can superhuman physical abilities as well as an unlimited lifespan. You gain the Allspeak, the universal language that can be understood by all.",
-          "title": "Asgardian"
         },
         {
           "addons": [],
@@ -60174,8 +60150,8 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "8ap1",
-          "image": "",
+          "id": "se0f",
+          "image": "./images/obj-se0f.webp",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -60189,12 +60165,12 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "40"
+              "value": "30"
             }
           ],
           "template": 1,
-          "text": "You are one of the few True Vampires of the world, created through the ancient arts of magic and technology in the lost world. As one of these Nobles, you have all the abilities of an Artificial Vampire at enormously increased levels of power. The few weaknesses they possess, such as the limitations on their regeneration, do not exist for you and even immortal hunters find it difficult to inhibit your immortality or regeneration. It\u2019s quite likely that you\u2019ll have a wide variety of additional vampiric abilities that a normal Artificial Vampire would not have access too as well.\n\nYour raw power alone is truly ridiculous. While you are not unbeatable, especially to teams working together, you\u2019re more than strong enough to match the magic or bodily power of anyone short of another Vampire Noble or powers that could contest an Endbringer. Any other power you pick is increased in strength to reflect this.\n\nYou\u2019re a particular kind of Noble as well. Your True Form is not the humanoid body you have now but instead an amalgam of magical beasts and demons. A dimensional slaughterhouse filled of writhing black monsters that surge forth from your shadow as you please. These shadow beasts are your true form, every one of the many thousands present able to act independently or under your control as you will, separating to act from a long distance or attacking as a horde with the rest. The creatures range from those that even a weak parahuman could kill to mighty monsters that threaten entire an entire Protectorate team. They are parts of your body, allowing you to use any of your powers through them or survive so long as one creature does, and you can even include any creature you slay and drag into your shadow as part of your True Form.",
-          "title": "Vampire Noble (UQ Holder)"
+          "text": "You gain the physiology of an Asgardian. You can superhuman physical abilities as well as an unlimited lifespan. You gain the Allspeak, the universal language that can be understood by all.",
+          "title": "Asgardian"
         }
       ],
       "styling": {
@@ -62933,7 +62909,7 @@
     {
       "id": "mbxo",
       "title": "Ascension",
-      "titleText": "Shed your mortal shell for another. You are limited to a single ascension path.",
+      "titleText": "You awaken your true self, who has been slumbering awaiting for your return.",
       "objectWidth": "col-md-4",
       "image": "",
       "template": "1",
@@ -62982,13 +62958,13 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
           "id": "iymz",
           "title": "Dragon",
-          "text": "You will awake in the body of an adult dragon of the genus (chromatic, imperial, metallic, primal, etc.) and species (red, sky, gold, lava, etc.) of your choice inside of the lair you were hibernating in. \n\nAs an adult dragon, you are around 180 years old. When choosing any powers that improve with skill, you can split up to 150 years of experience between them to represent the knowledge acquired over your long life.\n\nThe size of your body depends on your exact species but is between 20 and 30 ft. in height and 15ft. of length excluding your neck and tail (where it would be around 30 ft.). You weight between 10 and 15 tons. You are strong enough to destroy concrete buildings with ease however your large bulk slows you down.\n\nIn addition to your powerful and tough body, you possess a number of innate abilities. Flight with your powerful wings and a breath of an element corresponding to your species as well as the ability to shapeshift into a human (or other) form at will. ",
+          "text": "You will awake in the body of an adult dragon of the genus (chromatic, imperial, metallic, primal, etc.) and species (red, sky, gold, lava, etc.) of your choice inside of the lair you were hibernating in. \n\nAs an adult dragon, you are around 180 years old. When choosing any powers that improve with skill, you can split up to 150 years of experience between them to represent the knowledge acquired over your long life. Any magical or mystical powers you possess will be measurable more powerful as your reserves are larger.\n\nThe size of your body depends on your exact species but is between 20 and 30 ft. in height and 15ft. of length excluding your neck and tail (where it would be around 30 ft.). You weight between 10 and 15 tons. You are strong enough to destroy concrete buildings with ease however your large bulk slows you down.\n\nIn addition to your powerful and tough body, you possess a number of innate abilities. Flight with your powerful wings and a breath of an element corresponding to your species as well as the ability to shapeshift into a human (or other) form at will. ",
           "image": "./images/obj-iymz.webp",
           "template": 1,
           "objectWidth": "",
@@ -63026,6 +63002,64 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "26pm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -63045,8 +63079,8 @@
         },
         {
           "id": "w754",
-          "title": "Old Dragon",
-          "text": "As an Old Dragon, you are instead around 500 years of age and can distributed up to 450 years worth of experience between your powers. Your size is twice what it was as an adult and all of your physical abilities have comparatively increased in strength.",
+          "title": "Elder Dragon",
+          "text": "As an Elder Dragon, you are instead around 500 years of age and can distributed up to 450 years worth of experience between your powers. The strength and reserve of magic and mystical powers are 5 more powerful. Your size is twice what it was as an adult and all of your physical abilities have comparatively increased in strength.",
           "image": "./images/obj-w754.webp",
           "template": 1,
           "objectWidth": "",
@@ -63080,7 +63114,7 @@
               "reqId2": "",
               "reqId3": "",
               "reqPoints": 0,
-              "showRequired": true,
+              "showRequired": false,
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
@@ -63132,7 +63166,7 @@
         {
           "id": "s27a",
           "title": "Ancient Dragon",
-          "text": "As an Old Dragon, you are instead around 900 years of age and can distributed up to 850 years worth of experience between your powers. Your size is three times what it was as an adult and all of your physical abilities have comparatively increased in strength.",
+          "text": "As an Ancient Dragon, you are instead around 900 years of age and can distributed up to 850 years worth of experience between your powers. The strength and reserve of magic and mystical powers are 20 times more powerful. Your size is three times what it was as an adult and all of your physical abilities have comparatively increased in strength.",
           "image": "./images/obj-s27a.webp",
           "template": 1,
           "objectWidth": "",
@@ -63166,7 +63200,7 @@
               "reqId2": "",
               "reqId3": "",
               "reqPoints": 0,
-              "showRequired": true,
+              "showRequired": false,
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
@@ -63257,6 +63291,64 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "26pm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mdgg",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -63311,7 +63403,7 @@
               "reqId2": "",
               "reqId3": "",
               "reqPoints": 0,
-              "showRequired": true,
+              "showRequired": false,
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
@@ -63397,7 +63489,7 @@
               "reqId2": "",
               "reqId3": "",
               "reqPoints": 0,
-              "showRequired": true,
+              "showRequired": false,
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
@@ -63437,6 +63529,580 @@
             {
               "id": "rm",
               "value": "5",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "26pm",
+          "title": "Vampire Lord",
+          "text": "You wake up as a vampire lord, a creature of blood and night. Your body is void of true life, only sustained by the false-life of undeath.\n\nYou cease to age and retain eternal youth as a vampire and possess an incredible healing factor. As long as you are able to consume blood, you are able to regenerate from any number of normally fatal wounds. Were your heart or head be destroyed, however, you would perish.\n\nYour physical abilities outstrip that of a normal human in every way by four to five times. You have a number of abilities such as the ability to transform into a swarm of bats, hypnotism, improved senses, and so on.\n\nUnder the light of the sun, your abilities are lessened to almost nothing and your regeneration is severely hampered. Your are highly vulnerable to weapons of divine origin and pure silver.",
+          "image": "./images/obj-26pm.jpeg",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "hjzu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "iymz",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mdgg",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "15",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "q8em",
+          "image": "./images/obj-q8em.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "26pm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "8ap1",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are a noble among vampires. You lack any of the vulnerabilities of your lesser brethren. You can survive your hear or head being destroyed and can regenerate nearly any wound without consuming any blood in just a few minutes.\n\nYou possess a larger array of supernatural abilities such as the control over blood, the power to turn into mist, flight, dominion over weaker minds, and more. Moreover, due to your advanced age, you can split up to a 100 years of experience between powers if they increase in power with skill.\n\nThe light of the sun and silver no longer affect you and your resistance to divine damage is greatly increased.",
+          "title": "Vampire Noble"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8ap1",
+          "image": "./images/obj-8ap1.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "26pm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q8em",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            }
+          ],
+          "template": 1,
+          "text": "You are one of the few True Vampires of the world, an ancient among ancients. As one of these Nobles, you have all the abilities of your lesser at enormously increased levels of power. The few weaknesses they possess, such as the limitations on their regeneration, do not exist for you and even immortal hunters find it difficult to inhibit your immortality or regeneration. It\u2019s quite likely that you\u2019ll have a wide variety of additional vampiric abilities that a normal Vampire would not have access too as well.\n\nYour raw power alone is truly ridiculous. While you are not unbeatable, especially to teams working together, you\u2019re more than strong enough to match the magic or bodily power of anyone short of another Vampire Noble or powers that could contest an Endbringer. Any other power you pick is increased in strength to reflect this. In addition, you can split up to 250 years of experience between any powers you have if their strength increases with skill.\n\nYour True Form is not the humanoid body you have now but instead an amalgam of magical beasts and demons. A dimensional slaughterhouse filled of writhing black monsters that surge forth from your shadow as you please. These shadow beasts are your true form, every one of the many thousands present able to act independently or under your control as you will, separating to act from a long distance or attacking as a horde with the rest. The creatures range from those that even a weak parahuman could kill to mighty monsters that threaten entire an entire Protectorate team. They are parts of your body, allowing you to use any of your powers through them or survive so long as one creature does, and you can even include any creature you slay and drag into your shadow as part of your True Form.",
+          "title": "True Vampire"
+        },
+        {
+          "id": "mdgg",
+          "title": "Angel",
+          "text": "You wake up in the body of an angel, a powerful being of divine energy. While your true form is inscrutable to being of lesser power, you instead appear as a humanoid with a pair of wings. Your exact appearance is malleable to a degree. All angels are timeless, you do not age. \n\nAs a divine being, you have natural proficiency with any divine or spiritual magic or powers as well as a significantly greater well of power to draw from. In addition to this, you have 150 years of experience to distribute between any of your powers that increase in strength with skill.\n\nWhen assuming a physical form, you are able to contest an adult dragon for strength and toughness in a much smaller package.",
+          "image": "./images/obj-mdgg.jpeg",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "iymz",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "hjzu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "26pm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "30",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "ilx3",
+          "title": "Seraphim",
+          "text": "Seraphim are more powerful than regular angels. Your physical form becomes much more malleable to the degree you are able to impersonate others or take the form of animals if you wish it so. Your well of divine energy is 5 times larger and you have 450 years of experience to draw from.\n\nWhen assuming a physical form, you are able to contest an elder dragon for strength and toughness, the size of your chosen form affects your agility.",
+          "image": "./images/obj-ilx3.jpeg",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mdgg",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "zqms",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "zqms",
+          "title": "Empyrean",
+          "text": "Empyrean are the most powerful angels in existence. Your physical form is almost unconstrained. Your well of divine energy is 20 times larger and you have 850 years of experience to draw from.\n\nWhen assuming a physical form, you are able to contest an ancient dragon for strength and toughness, the size of your chosen form affects your agility.",
+          "image": "./images/obj-zqms.jpeg",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mdgg",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "ilx3",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
