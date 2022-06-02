@@ -276,7 +276,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                 )
 
                 export_image(image_info, "webp", image_data=optimized_image, dest_dir=dest_dir)
-                update_image(image_info, "webp", image_data=optimized_image)
+                update_image(self.project, image_info, "webp", image_data=optimized_image)
 
                 total_after += optimized_image_size
             else:

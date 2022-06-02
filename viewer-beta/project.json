@@ -8281,7 +8281,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "kht1",
-          "image": "./images/obj-kht1.jpeg",
+          "image": "./images/obj-kht1.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -8297,7 +8297,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "icne",
-          "image": "./images/obj-icne.jpeg",
+          "image": "./images/obj-icne.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -11421,10 +11421,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "14"
+            },
+            {
+              "id": "2b",
+              "value": "14",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11447,10 +11505,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "4"
+            },
+            {
+              "id": "2b",
+              "value": "4",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11473,10 +11589,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "4"
+            },
+            {
+              "id": "2b",
+              "value": "4",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11499,10 +11673,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "4"
+            },
+            {
+              "id": "2b",
+              "value": "4",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11525,10 +11757,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "3"
+            },
+            {
+              "id": "2b",
+              "value": "3",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11552,10 +11842,67 @@
               "beforeText": "Cost:",
               "id": "rm",
               "isActive": false,
-              "requireds": [],
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "10"
+            },
+            {
+              "id": "2b",
+              "value": "10",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11572,18 +11919,76 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "3"
+            },
+            {
+              "id": "2b",
+              "value": "3",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
+          "requireds": [],
           "template": 1,
           "text": "Cape Name: Parian\nAlignment: Lawful Good\nGender: Female\nSex: Female\nSexual Preference: Female\nAge: 21\nPower: Sabah has fine telekinetic control over small objects.\nAppearance: Attractive\nCivilian Identity: College Student\nQuality of Life: Unknown (Family, College)",
           "title": "Sabah"
@@ -11604,10 +12009,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "5"
+            },
+            {
+              "id": "2b",
+              "value": "5",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11630,10 +12093,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "5"
+            },
+            {
+              "id": "2b",
+              "value": "5",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11657,10 +12178,67 @@
               "beforeText": "Cost:",
               "id": "rm",
               "isActive": false,
-              "requireds": [],
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "12"
+            },
+            {
+              "id": "2b",
+              "value": "12",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11683,10 +12261,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "10"
+            },
+            {
+              "id": "2b",
+              "value": "10",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11706,13 +12342,71 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "CP",
-              "beforeText": "Gain:",
-              "id": "2b",
-              "requireds": [],
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "-8"
+            },
+            {
+              "id": "2b",
+              "value": "-8",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11735,10 +12429,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "2"
+            },
+            {
+              "id": "2b",
+              "value": "2",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11761,10 +12513,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "1"
+            },
+            {
+              "id": "2b",
+              "value": "1",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11787,10 +12597,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "2"
+            },
+            {
+              "id": "2b",
+              "value": "2",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11813,10 +12681,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "2"
+            },
+            {
+              "id": "2b",
+              "value": "2",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11839,10 +12765,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "2"
+            },
+            {
+              "id": "2b",
+              "value": "2",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11865,10 +12849,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "3"
+            },
+            {
+              "id": "2b",
+              "value": "3",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11892,10 +12934,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "3"
+            },
+            {
+              "id": "2b",
+              "value": "3",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11918,10 +13018,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "6"
+            },
+            {
+              "id": "2b",
+              "value": "6",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11942,21 +13100,70 @@
           "scores": [
             {
               "afterText": "SP",
-              "beforeText": "Gain:",
+              "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "-5"
             },
             {
-              "afterText": "CP",
-              "beforeText": "Gain:",
               "id": "2b",
-              "requireds": [],
-              "showScore": true,
+              "value": "-5",
               "type": "",
-              "value": "-5"
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -11979,10 +13186,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "7"
+            },
+            {
+              "id": "2b",
+              "value": "7",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -12005,10 +13270,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "7"
+            },
+            {
+              "id": "2b",
+              "value": "7",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -12031,10 +13354,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "7"
+            },
+            {
+              "id": "2b",
+              "value": "7",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -12057,10 +13438,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "7"
+            },
+            {
+              "id": "2b",
+              "value": "7",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -12083,10 +13522,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "10"
+            },
+            {
+              "id": "2b",
+              "value": "10",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -12109,10 +13606,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "15"
+            },
+            {
+              "id": "2b",
+              "value": "15",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -12136,10 +13691,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "1"
+            },
+            {
+              "id": "2b",
+              "value": "1",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -12163,10 +13776,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "5"
+            },
+            {
+              "id": "2b",
+              "value": "5",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -12190,10 +13861,68 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "isActive": false,
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "10"
+            },
+            {
+              "id": "2b",
+              "value": "10",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -37686,6 +39415,23 @@
           "groups": []
         },
         {
+          "id": "svch",
+          "title": "Ascension",
+          "text": "",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
+        },
+        {
           "addons": [],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
@@ -37705,6 +39451,23 @@
         {
           "id": "fede",
           "title": "Paragon Powers",
+          "text": "",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
+        },
+        {
+          "id": "kc3g",
+          "title": "Paragon Upgrades",
           "text": "",
           "image": "",
           "template": 1,
@@ -52852,7 +54615,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "gcos",
-          "image": "./images/obj-gcos.jpeg",
+          "image": "./images/obj-gcos.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -61168,6 +62931,680 @@
       "imageLink": ""
     },
     {
+      "id": "mbxo",
+      "title": "Ascension",
+      "titleText": "Shed your mortal shell for another. You are limited to a single ascension path.",
+      "objectWidth": "col-md-4",
+      "image": "",
+      "template": "1",
+      "isButtonRow": false,
+      "buttonType": true,
+      "buttonId": "",
+      "buttonText": "Click",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "isResultRow": false,
+      "resultGroupId": "",
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "defaultAspectWidth": 1,
+      "defaultAspectHeight": 1,
+      "allowedChoices": 0,
+      "currentChoices": 0,
+      "requireds": [
+        {
+          "required": true,
+          "requireds": [],
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "id": "",
+          "type": "id",
+          "reqId": "svch",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "showRequired": false,
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
+        }
+      ],
+      "isEditModeOn": false,
+      "isRequirementOpen": false,
+      "objects": [
+        {
+          "id": "iymz",
+          "title": "Dragon",
+          "text": "You will awake in the body of an adult dragon of the genus (chromatic, imperial, metallic, primal, etc.) and species (red, sky, gold, lava, etc.) of your choice inside of the lair you were hibernating in. \n\nAs an adult dragon, you are around 180 years old. When choosing any powers that improve with skill, you can split up to 150 years of experience between them to represent the knowledge acquired over your long life.\n\nThe size of your body depends on your exact species but is between 20 and 30 ft. in height and 15ft. of length excluding your neck and tail (where it would be around 30 ft.). You weight between 10 and 15 tons. You are strong enough to destroy concrete buildings with ease however your large bulk slows you down.\n\nIn addition to your powerful and tough body, you possess a number of innate abilities. Flight with your powerful wings and a breath of an element corresponding to your species as well as the ability to shapeshift into a human (or other) form at will. ",
+          "image": "./images/obj-iymz.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "hjzu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "30",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true,
+              "isActive": false
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "w754",
+          "title": "Old Dragon",
+          "text": "As an Old Dragon, you are instead around 500 years of age and can distributed up to 450 years worth of experience between your powers. Your size is twice what it was as an adult and all of your physical abilities have comparatively increased in strength.",
+          "image": "./images/obj-w754.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "iymz",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "s27a",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "s27a",
+          "title": "Ancient Dragon",
+          "text": "As an Old Dragon, you are instead around 900 years of age and can distributed up to 850 years worth of experience between your powers. Your size is three times what it was as an adult and all of your physical abilities have comparatively increased in strength.",
+          "image": "./images/obj-s27a.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "iymz",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "w754",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true,
+              "isActive": false
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "hjzu",
+          "title": "Fae",
+          "text": "You will awake in the body of a powerful fey, a being born of nature and magic. As all fey are timeless, you have no true age neither do you get older. Your appearance is distinctly non human yet strangely alluring to all, this will usually include feature features reminiscent of nature or animals. You will be roughly in the size range of a human (4ft. to 8ft).\n\nAny powers or magic you possess linked to nature or illusion benefit from a significant increase and intuitive knowledge. In addition to this, you can split up to 50 years of experience between powers if they increase in power with skill.\n\nDespite appearances, your body is still strong enough to rival mid-tier brutes. However, you are vulnerable to the touch of cold iron which bypasses your defenses and burns your flesh like acid.",
+          "image": "./images/obj-hjzu.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "iymz",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true,
+              "isActive": false
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "owx1",
+          "title": "Pixie",
+          "text": "You belong to the smallest of the fae, your physical body is at most a foot in height. Your natural features will tend towards small animals or insects like colorful feathers or butterfly wings.\n\nThe decrease in size comes with a proportional reduction in strength and toughness but an increase in speed and agility. Your affinity for magic is similarly increased by a significant margin, you gain an additional 50 years of experience to put towards any magic ability you possess.",
+          "image": "./images/obj-owx1.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "hjzu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "tgsz",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "5",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "tgsz",
+          "title": "Guardian",
+          "text": "You belong to the largest of the fae, your physical body exceeds 8ft in height and can reach up to 20ft. You are more in tune with nature, with your natural features being made primarily of stone and wood.\n\nThe increase in size comes with a proportional increase in strength and toughness but a decrease in speed and agility. Your affinity for magic is less versatile than other fae, limiting you exclusively to nature aligned spells.",
+          "image": "./images/obj-tgsz.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "hjzu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "owx1",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "5",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        }
+      ],
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#000000FF",
+        "objectBgColorIsOn": true,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#000000FF",
+        "rowBgColorIsOn": true,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "#FFEEDDFF",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": "0",
+        "rowBorderRadiusBottomRight": "0",
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": "0",
+        "rowBorderRadiusTopRight": "0",
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDesignIsAdvanced": false,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "#FFFFEEFF",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "#FFEEDDFF",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowImgOverflowIsOn": false,
+        "rowMargin": "5",
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      }
+    },
+    {
       "id": "umg9",
       "title": "Greater Powers",
       "titleText": "",
@@ -61351,7 +63788,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "bnvs",
-          "image": "./images/obj-bnvs.jpeg",
+          "image": "./images/obj-bnvs.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -61674,7 +64111,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "ez3l",
-          "image": "./images/obj-ez3l.png",
+          "image": "./images/obj-ez3l.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -61701,7 +64138,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "w0n5",
-          "image": "./images/obj-w0n5.png",
+          "image": "./images/obj-w0n5.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -61728,7 +64165,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "7f72",
-          "image": "./images/obj-7f72.png",
+          "image": "./images/obj-7f72.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -61753,7 +64190,7 @@
           "id": "5rrm",
           "title": "Polybius",
           "text": "You have up to five of any powers you desire at any given time. You have a vast number of powers from which you may select and this roster will improve with time with new powers eventually forming in this set to suit your needs if one does not already exist.\n\nYou can shift between powers instantly and at will. If you cannot think of a power to achieve a goal, your powers will automatically offer you the best solution available, most if not all of which are absurdly powerful in their own right.\n\nPowers granted by this ability may include equivalent to greater powers or weaker depending on what is required for your purposes. Powers you use will improve, increasing the relative capability of powers you use frequently and more steadily increasing those you've used even once. The number of powers you may access at a time will also slowly increment. albeit at a sluggish pace comparatively. With extreme training you may attain Paragon powers through this ability and grow existing ones into Paragon powers. However, the pool of Paragon powers accessible through this power is much more limited than your usual abilities.\n\nThis power comes with a significant cognitive enhancement which allows these powers to operate at their absolute maximum potential, as well as discern your intent before you could actually think of it. What this means is that, if you do not consciously direct them, your powers will find and switch to an optimal set of abilities often choosing powers optimal for your current situation or any future one you could encounter. Whenever you switch to a new power, you are given a perfect understanding of its limits, capabilities, applications in near-infinite scenarios, and combination potential with other powers among vast number within your reach.",
-          "image": "./images/obj-5rrm.png",
+          "image": "./images/obj-5rrm.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -61780,7 +64217,35 @@
           "id": "04fs",
           "title": "Dynamist",
           "text": "When you acquire this power, you acquire three powers of your choice with a combined cost of 120 SP or less (excluding any paragon powers). Your power will behave as if you had these powers and will dynamically alter them slowly to better suit challenges and weaknesses, refining the initial ability you chose and gradually broadening its flexibility with each new challenge that arises, molding them like clay to better generalize based on your previous engagements.\n\nWhen your powers are impotent, your powers will shave off functionality in one sector to improve another or to develop new features over time. When you have time to let them grow, they will add new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before. Whenever a situation that is challenging or impossible for your current powers to overcome arises, they will afterward shave off less-used features to bolster immediately useful ones or create entirely new features to suit the situation if necessary. The result will depend on your combat style, personality, preferences, and situations that arise.\n\nThis ability can pack on as many new features and powers, often completely unrelated to the original, as necessary in order to create the perfect powers that most optimally suits you.",
-          "image": "./images/obj-04fs.png",
+          "image": "./images/obj-04fs.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "120",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true,
+              "isActive": false
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "1weu",
+          "title": "Celestial Inventory",
+          "text": "You gain access The Celestial Inventory. This power allows you to summon from your basically own Gate of Babylon and wield with absolute mastery of ANY Item. Be it mundane, supernatural to the Metaphysical, you can summon any item in the known Omni verse. You have a mental Metaphysical search bar that is inside your head, that you can put in parameters to help locate a certain type of item. When looking at a item in your inventory or out in the real world, you will get a description of what it is, what it can do, how powerful it is, and what restrictions it has as well as side-effects.  To summon a Item, you must know what the item's name is, so you can summon it out of the Inventory. Your Inventory will also \"Refill\" up a item, if you lose it. So do be careful you don't leave a Reality Gauntlet lying around. You can also place certain items as favorites to always be remembered. Please do note you can only have 5 Favorites at a time. Also some Items should not be used without great caution, respect and wariness as some may cause the Apocalypse, cause universal destruction or summon a Eldritch God like Cthulhu. Please wield responsibly.",
+          "image": "./images/obj-1weu.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -61802,12 +64267,225 @@
             }
           ],
           "groups": []
-        },
+        }
+      ],
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#000000FF",
+        "objectBgColorIsOn": true,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#000000FF",
+        "rowBgColorIsOn": true,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "#FFEEDDFF",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": "0",
+        "rowBorderRadiusBottomRight": "0",
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": "0",
+        "rowBorderRadiusTopRight": "0",
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDesignIsAdvanced": false,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "#FFFFEEFF",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "#FFEEDDFF",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowImgOverflowIsOn": false,
+        "rowMargin": "5",
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      }
+    },
+    {
+      "id": "3hbj",
+      "title": "Paragon Upgrades",
+      "titleText": "",
+      "objectWidth": "col-md-3",
+      "image": "",
+      "template": "1",
+      "isButtonRow": false,
+      "buttonType": true,
+      "buttonId": "",
+      "buttonText": "Click",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "isResultRow": false,
+      "resultGroupId": "",
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "defaultAspectWidth": 1,
+      "defaultAspectHeight": 1,
+      "allowedChoices": 0,
+      "currentChoices": 0,
+      "requireds": [
         {
-          "id": "1weu",
-          "title": "Celestial Inventory",
-          "text": "You gain access The Celestial Inventory. This power allows you to summon from your basically own Gate of Babylon and wield with absolute mastery of ANY Item. Be it mundane, supernatural to the Metaphysical, you can summon any item in the known Omni verse. You have a mental Metaphysical search bar that is inside your head, that you can put in parameters to help locate a certain type of item. When looking at a item in your inventory or out in the real world, you will get a description of what it is, what it can do, how powerful it is, and what restrictions it has as well as side-effects.  To summon a Item, you must know what the item's name is, so you can summon it out of the Inventory. Your Inventory will also \"Refill\" up a item, if you lose it. So do be careful you don't leave a Reality Gauntlet lying around. You can also place certain items as favorites to always be remembered. Please do note you can only have 5 Favorites at a time. Also some Items should not be used without great caution, respect and wariness as some may cause the Apocalypse, cause universal destruction or summon a Eldritch God like Cthulhu. Please wield responsibly.",
-          "image": "./images/obj-1weu.jpeg",
+          "required": true,
+          "requireds": [],
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "id": "",
+          "type": "id",
+          "reqId": "kc3g",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "showRequired": false,
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
+        }
+      ],
+      "isEditModeOn": false,
+      "isRequirementOpen": false,
+      "objects": [
+        {
+          "id": "hglw",
+          "title": "Hybrid Form (Shifter)",
+          "text": "You can have up to 3 templates active at once and merge their features.",
+          "image": "",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -61815,12 +64493,339 @@
           "multipleUseVariable": 0,
           "defaultAspectWidth": 1,
           "defaultAspectHeight": 1,
-          "requireds": [],
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "w0n5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
           "addons": [],
           "scores": [
             {
               "id": "rm",
-              "value": "120",
+              "value": "40",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "09zg",
+          "title": "Increased Charges (Architect)",
+          "text": "You generate 5 additional charges per 24h.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "7f72",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": [],
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10"
+        },
+        {
+          "id": "hssc",
+          "title": "Increased Frequency (Architect)",
+          "text": "Increases the frequency of charges. Each purchase halves the time between charges are generated (every 12h, 6h, 3h).\n\n",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "7f72",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": [],
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3"
+        },
+        {
+          "id": "4tps",
+          "title": "More Slots (Polybius)",
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "5rrm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "30",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "bsjn",
+          "title": "More Slots (Dynamist)",
+          "text": "You have an additional power and 40 additional SP for Dynamist per purchase.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "04fs",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "40",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": [],
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3"
+        },
+        {
+          "id": "33gp",
+          "title": "Dimensional Pocket (Celestial Inventory))",
+          "text": "The Celestial Inventory comes with a dimensional pocket where you can store objects and retrieve them.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "1weu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
