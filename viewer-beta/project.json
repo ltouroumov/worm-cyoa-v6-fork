@@ -8543,7 +8543,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -8565,12 +8565,12 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "kxnn",
+          "id": "ntbm",
           "image": "",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -8580,7 +8580,36 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "10",
+              "isActive": false
+            }
+          ],
+          "template": 1,
+          "text": "You become the twin of an existing character.",
+          "title": "Twin"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "kxnn",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10",
+              "isActive": false
             }
           ],
           "template": 1,
@@ -8592,12 +8621,12 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "ntbm",
+          "id": "4w2z",
           "image": "",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -8607,12 +8636,13 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "10",
+              "isActive": false
             }
           ],
           "template": 1,
-          "text": "You become the twin of an existing character.",
-          "title": "Twin"
+          "text": "You are a member of the family (cousin, and so on) of an existing character. ",
+          "title": "Family Member"
         },
         {
           "addons": [],
@@ -9907,10 +9937,8 @@
           "type": "or"
         },
         {
-          "afterText": "",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
+          "required": true,
+          "requireds": [],
           "orRequired": [
             {
               "req": "mhk8"
@@ -9920,17 +9948,22 @@
             },
             {
               "req": "88q5"
+            },
+            {
+              "req": "4w2z"
             }
           ],
+          "id": "",
+          "type": "or",
           "reqId": "",
           "reqId1": "",
           "reqId2": "",
           "reqId3": "",
           "reqPoints": 0,
-          "required": true,
-          "requireds": [],
           "showRequired": false,
-          "type": "or"
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
         }
       ],
       "resultGroupId": "ak",
@@ -10641,27 +10674,30 @@
           "type": "or"
         },
         {
-          "afterText": "",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
+          "required": true,
+          "requireds": [],
           "orRequired": [
             {
               "req": "mhk8"
             },
             {
               "req": "kxnn"
+            },
+            {
+              "req": "4w2z"
             }
           ],
+          "id": "",
+          "type": "or",
           "reqId": "",
           "reqId1": "",
           "reqId2": "",
           "reqId3": "",
           "reqPoints": 0,
-          "required": true,
-          "requireds": [],
           "showRequired": false,
-          "type": "or"
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
         }
       ],
       "resultGroupId": "ak",
@@ -11074,10 +11110,8 @@
           "type": "or"
         },
         {
-          "afterText": "",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
+          "required": true,
+          "requireds": [],
           "orRequired": [
             {
               "req": "mhk8"
@@ -11090,17 +11124,22 @@
             },
             {
               "req": "13z7"
+            },
+            {
+              "req": "4w2z"
             }
           ],
+          "id": "",
+          "type": "or",
           "reqId": "",
           "reqId1": "",
           "reqId2": "",
           "reqId3": "",
           "reqPoints": 0,
-          "required": true,
-          "requireds": [],
           "showRequired": false,
-          "type": "or"
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
         }
       ],
       "resultGroupId": "ak",
@@ -11299,10 +11338,67 @@
               "beforeText": "Cost:",
               "id": "rm",
               "isActive": false,
-              "requireds": [],
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "8tcr"
+                    },
+                    {
+                      "req": "ntbm"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "6"
+            },
+            {
+              "id": "2b",
+              "value": "6",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": "kxnn"
+                    },
+                    {
+                      "req": "4w2z"
+                    }
+                  ],
+                  "id": "",
+                  "type": "or",
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "CP",
+              "showScore": true
             }
           ],
           "template": 1,
@@ -12130,10 +12226,8 @@
           "type": "or"
         },
         {
-          "afterText": "",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
+          "required": true,
+          "requireds": [],
           "orRequired": [
             {
               "req": "8tcr"
@@ -12143,17 +12237,22 @@
             },
             {
               "req": "kxnn"
+            },
+            {
+              "req": "4w2z"
             }
           ],
+          "id": "",
+          "type": "or",
           "reqId": "",
           "reqId1": "",
           "reqId2": "",
           "reqId3": "",
           "reqPoints": 0,
-          "required": true,
-          "requireds": [],
           "showRequired": false,
-          "type": "or"
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
         }
       ],
       "resultGroupId": "ak",
@@ -59220,7 +59319,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -77140,7 +77239,7 @@
         {
           "id": "5r3m",
           "title": "Content",
-          "text": "MythicLegendary: Supernatural powers\n\nMembers of the CYOA Discord:\nowlcool, Punchingtucan, Brigade, ObliterateFailed, CYOA Fans",
+          "text": "MythicLegendary: Supernatural powers\nValeria: UQ Holder Powers\n\nMembers of the CYOA Discord:\nowlcool, Punchingtucan, Brigade, ObliterateFailed, CYOA Fans",
           "image": "",
           "template": 1,
           "objectWidth": "",
