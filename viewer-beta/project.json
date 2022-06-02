@@ -35044,7 +35044,7 @@
           "type": "id"
         }
       ],
-      "resultGroupId": "",
+      "resultGroupId": "pp",
       "styling": {
         "addonText": "Times New Roman",
         "addonTextAlign": "center",
@@ -35498,7 +35498,7 @@
           "type": "id"
         }
       ],
-      "resultGroupId": "",
+      "resultGroupId": "pp",
       "styling": {
         "addonText": "Times New Roman",
         "addonTextAlign": "center",
@@ -39303,7 +39303,7 @@
       "id": "dn8o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -62920,7 +62920,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
@@ -62958,7 +62958,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -63935,7 +63935,8 @@
               "requireds": [],
               "beforeText": "Cost:",
               "afterText": "SP",
-              "showScore": true
+              "showScore": true,
+              "isActive": false
             }
           ],
           "groups": []
@@ -64107,7 +64108,8 @@
               "requireds": [],
               "beforeText": "Cost:",
               "afterText": "SP",
-              "showScore": true
+              "showScore": true,
+              "isActive": false
             }
           ],
           "groups": []
@@ -65106,7 +65108,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
