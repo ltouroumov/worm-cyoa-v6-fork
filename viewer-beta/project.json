@@ -62964,7 +62964,7 @@
         {
           "id": "iymz",
           "title": "Dragon",
-          "text": "You will awake in the body of an adult dragon of the genus (chromatic, imperial, metallic, primal, etc.) and species (red, sky, gold, lava, etc.) of your choice inside of the lair you were hibernating in. \n\nAs an adult dragon, you are around 180 years old. You will reach the peak of your power at 1200 years of age, past that point you will stop aging. While dragons are functionally immortal, they do not tend to die of old age.\n\nWhen choosing any powers that improve with skill, you can split up to 150 years of experience between them to represent the knowledge acquired over your long life. Any magical or mystical powers you possess will be measurable more powerful as your reserves are larger.\n\nThe size of your body depends on your exact species but is between 20 and 30 ft. in height and 15ft. of length excluding your neck and tail (where it would be around 30 ft.). You weight between 10 and 15 tons. You are strong enough to destroy concrete buildings with ease however your large bulk slows you down.\n\nIn addition to your powerful and tough body, you possess a number of innate abilities. Flight with your powerful wings and a breath of an element corresponding to your species as well as the ability to shapeshift into a human (or other) form at will. ",
+          "text": "You will awake in the body of an adult dragon of the genus (chromatic, imperial, metallic, primal, etc.) and species (red, sky, gold, lava, etc.) of your choice inside of the lair you were hibernating in. \n\nAs an adult dragon, you are around 180 years old. You will reach the peak of your power at 1200 years of age, past that point you will stop aging and can live for eons. Despite your vast lifespan, dragons rarely die of old age.\n\nWhen choosing any powers that improve with skill, you can split up to 150 years of experience between them to represent the knowledge acquired over your long life. Any magical or mystical powers you possess will be measurable more powerful as your reserves are larger.\n\nThe size of your body depends on your exact species but is between 20 and 30 ft. in height and 15ft. of length excluding your neck and tail (where it would be around 30 ft.). You weight between 10 and 15 tons. You are strong enough to destroy concrete buildings with ease however your large bulk slows you down.\n\nIn addition to your powerful and tough body, you possess a number of innate abilities. Flight with your powerful wings and a breath of an element corresponding to your species as well as the ability to shapeshift into a human (or other) form at will. ",
           "image": "./images/obj-iymz.webp",
           "template": 1,
           "objectWidth": "",
@@ -73611,6 +73611,60 @@
           "template": 1,
           "text": "Earth Bet doesn't seem different on the surface, but in the right place, at the right time, you'll learn that what one would consider part of classic horror is exists on Earth Bet, such as Vampires in Transylvania, a deadly shapeshifter in Antartica, a strange but dangerous blob in Pennsylvania, Vengeful Ghosts, rare zombie outbreaks, mad scientists, and the occassional Slasher. \n\nHowever, things aren't necessarily as bad as they seem. Not only do these creatures all have weaknesses, but the supernatural exists outside of simple monsters, such as fortunetellers, psychics, and voodoo practitioners giving warning and aid against even the likes of the Endbringers and Entities. ",
           "title": "Horror Bet"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9d09",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Instead of promoting conflict between Parahumans, massive underground dungeons are created and maintained by a special caste of Shards. These dungeons are filled with monsters and hazardous environments meant to test humans and parahumans alike.\n\nWhen monsters are defeated, they can be harvested for exotic elements that can be used in Tinkertech or as power part of power enhancers. The environment of the dungeon itself contains nodes of these materials as well.",
+          "title": "Shard Dungeons"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1xgy",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "The Shard Network is deployed to provide a worldwide game-like system through which parahuman powers are deployed. All humans can interact with the system and acquire levels, skills, and unlock low-level powers.\n\nParahumans unlock a unique power during their trigger event which can be trained and leveled up. When defeating another parahuman for the first time, additional branches of the power tree become unlocked. Subsequent defeats grant bonus experience towards the unlocked branch with diminishing returns. To count as a defeat, the opposing parahuman must be rendered unconscious (or killed). \n\nIf you have a power that grants you access to a game-like system, it is seamlessly integrated into the broader network.",
+          "title": "The System"
         },
         {
           "addons": [],
