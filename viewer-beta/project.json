@@ -59953,7 +59953,7 @@
             }
           ],
           "template": 1,
-          "text": "You can teleport to any place you have been before or anywhere within your line of sight. Whenever you teleport, a copy of you is created at your destination, to a maximum of five. All your bodies form a single hive-mind. Your strength is inversely proportional to the number of active copies. ",
+          "text": "You can teleport to any place you have been before or anywhere within your line of sight. Whenever you teleport you can choose to move one of your existing bodies there or create a new body at the destination. You can have a maximum of 5 bodies at a time, you can dismiss any body at will unless you have only one. All your bodies form a single hive-mind. Your strength is inversely proportional to the number of active copies. ",
           "title": "Harem"
         },
         {
@@ -61433,7 +61433,7 @@
             }
           ],
           "template": 1,
-          "text": "Feruchemy is an ability that allows you to store traits such as Health, Strength Speed, Weight, Memories etc. inside 'metalminds' as long as they are in contact with your skin. For example you can store your speed, but you will be slower while storing the speed depending on how much speed you are storing. You can draw on whatever traits you have stored. You are the only one who can use your own metalminds. ",
+          "text": "Feruchemy is an ability that allows you to store traits such as Health, Strength Speed, Weight, Memories etc. inside 'metalminds' as long as they are in contact with your skin. For example you can store your speed, but you will be slower while storing the speed depending on how much speed you are storing. You can draw on whatever traits you have stored. You are the only one who can use your own metalminds. You also know the exact proportions of all the allomatic elements.",
           "title": "Feruchemy (Mistborn)"
         },
         {
@@ -61460,7 +61460,7 @@
             }
           ],
           "template": 1,
-          "text": "Hemalurgy is the third of the Metallic Arts. With it, you can pierce people's bodies with metal spikes and use those spikes to drain them of traits and implant them within yourself or others. You have knowledge of all the Hemalurgic Points and the functions of each metal's spikes.",
+          "text": "Hemalurgy is the third of the Metallic Arts. With it, you can pierce people's bodies with metal spikes and use those spikes to drain them of traits and implant them within yourself or others. You have knowledge of all the Hemalurgic Points and the functions of each metal's spikes. You also know the exact proportions of all the allomatic elements.",
           "title": "Hemalurgy (Mistborn)"
         },
         {
@@ -62964,7 +62964,7 @@
         {
           "id": "iymz",
           "title": "Dragon",
-          "text": "You will awake in the body of an adult dragon of the genus (chromatic, imperial, metallic, primal, etc.) and species (red, sky, gold, lava, etc.) of your choice inside of the lair you were hibernating in. \n\nAs an adult dragon, you are around 180 years old. When choosing any powers that improve with skill, you can split up to 150 years of experience between them to represent the knowledge acquired over your long life. Any magical or mystical powers you possess will be measurable more powerful as your reserves are larger.\n\nThe size of your body depends on your exact species but is between 20 and 30 ft. in height and 15ft. of length excluding your neck and tail (where it would be around 30 ft.). You weight between 10 and 15 tons. You are strong enough to destroy concrete buildings with ease however your large bulk slows you down.\n\nIn addition to your powerful and tough body, you possess a number of innate abilities. Flight with your powerful wings and a breath of an element corresponding to your species as well as the ability to shapeshift into a human (or other) form at will. ",
+          "text": "You will awake in the body of an adult dragon of the genus (chromatic, imperial, metallic, primal, etc.) and species (red, sky, gold, lava, etc.) of your choice inside of the lair you were hibernating in. \n\nAs an adult dragon, you are around 180 years old. You will reach the peak of your power at 1200 years of age, past that point you will stop aging. While dragons are functionally immortal, they do not tend to die of old age.\n\nWhen choosing any powers that improve with skill, you can split up to 150 years of experience between them to represent the knowledge acquired over your long life. Any magical or mystical powers you possess will be measurable more powerful as your reserves are larger.\n\nThe size of your body depends on your exact species but is between 20 and 30 ft. in height and 15ft. of length excluding your neck and tail (where it would be around 30 ft.). You weight between 10 and 15 tons. You are strong enough to destroy concrete buildings with ease however your large bulk slows you down.\n\nIn addition to your powerful and tough body, you possess a number of innate abilities. Flight with your powerful wings and a breath of an element corresponding to your species as well as the ability to shapeshift into a human (or other) form at will. ",
           "image": "./images/obj-iymz.webp",
           "template": 1,
           "objectWidth": "",
@@ -64912,7 +64912,7 @@
         {
           "id": "1weu",
           "title": "Celestial Inventory",
-          "text": "You gain access The Celestial Inventory. This power allows you to summon from your basically own Gate of Babylon and wield with absolute mastery of ANY Item. Be it mundane, supernatural to the Metaphysical, you can summon any item in the known Omni verse. You have a mental Metaphysical search bar that is inside your head, that you can put in parameters to help locate a certain type of item. When looking at a item in your inventory or out in the real world, you will get a description of what it is, what it can do, how powerful it is, and what restrictions it has as well as side-effects.  To summon a Item, you must know what the item's name is, so you can summon it out of the Inventory. Your Inventory will also \"Refill\" up a item, if you lose it. So do be careful you don't leave a Reality Gauntlet lying around. You can also place certain items as favorites to always be remembered. Please do note you can only have 5 Favorites at a time. Also some Items should not be used without great caution, respect and wariness as some may cause the Apocalypse, cause universal destruction or summon a Eldritch God like Cthulhu. Please wield responsibly.",
+          "text": "You gain access The Celestial Inventory. This power allows you to summon from your own Gate of Babylon analogue and wield with absolute mastery of ANY Item. Be it mundane, supernatural to the Metaphysical, you can summon any item in the known Omni verse.\n\nYou have a mental search bar that can be used to help locate a certain type of items from catalog. When looking at an item in your inventory or out in the real world, you will get a description of what it is, what it can do, how powerful it is, and what restrictions it has as well as side-effects. To summon a Item, you must know what the item's name is, so you can summon it out of the Inventory. Your Inventory will also \"Refill\" up a item, if you lose it. So do be careful you don't leave a Reality Gauntlet lying around. You can also place certain items as favorites to always be remembered. Please do note you can only have 5 Favorites at a time. Also some Items should not be used without great caution, respect and wariness as some may cause the Apocalypse, cause universal destruction or summon a Eldritch God like Cthulhu. Please wield responsibly.",
           "image": "./images/obj-1weu.webp",
           "template": 1,
           "objectWidth": "",
@@ -65449,7 +65449,7 @@
         {
           "id": "33gp",
           "title": "Dimensional Pocket (Celestial Inventory))",
-          "text": "The Celestial Inventory comes with a dimensional pocket where you can store objects and retrieve them.",
+          "text": "The Celestial Inventory comes with a dimensional pocket where you can store and retrieve objects, liquids, gases, or any other tangible thing. The pocket space has unlimited capacity and contained entities do not come into contact.\n\nYou can move an object of any size smaller than 100m<sup>3</sup> instantly, larger objects will take 1s per additional 100m<sup>3</sup>. You can only move objects as a whole, you cannot only store part of a building for example. Liquids and gases move at a rate of 100m<sup>3</sup> per second. You can move arbitrary volumes of liquids and gasses.\n\nThe pocket dimension has its own search and favorites system.",
           "image": "",
           "template": 1,
           "objectWidth": "",
