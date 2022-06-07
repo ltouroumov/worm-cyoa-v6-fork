@@ -62958,7 +62958,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -65331,7 +65331,7 @@
         {
           "id": "4tps",
           "title": "More Slots (Polybius)",
-          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "text": "You have one more slots.",
           "image": "",
           "template": 1,
           "objectWidth": "",
@@ -65375,7 +65375,7 @@
           "scores": [
             {
               "id": "rm",
-              "value": "30",
+              "value": "20",
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
@@ -65383,7 +65383,11 @@
               "showScore": true
             }
           ],
-          "groups": []
+          "groups": [],
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5"
         },
         {
           "id": "bsjn",
@@ -65433,6 +65437,67 @@
             {
               "id": "rm",
               "value": "40",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": [],
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "3"
+        },
+        {
+          "id": "arnj",
+          "title": "Upgrade Tree (Dynamist)",
+          "text": "Instead of automatically mutating, Dynamist will build an upgrade tree for your powers.\n\nEach power has its own upgrade tree, how it works depends on the power itself but will usually follow either a fully diverging tree or a complex web of interconnected nodes.\n\nThe number of nodes you can select depends on the form of the skill tree. For diverging trees you can always select one of the branches fully. For webs, the number of choices is proportional to the size.\n\nChoices are not permanent, you can change your selection whenever you want. It takes a around 10 seconds for the power to reconfigure itself, during this it cannot be used actively.",
+          "image": "./images/obj-arnj.png",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "04fs",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
