@@ -65506,7 +65506,7 @@
             }
           ],
           "groups": [],
-          "isSelectableMultiple": true,
+          "isSelectableMultiple": false,
           "isMultipleUseVariable": true,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "3"
