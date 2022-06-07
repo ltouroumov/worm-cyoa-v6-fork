@@ -64324,7 +64324,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -64521,10 +64521,79 @@
               "beforeText": "Cost:",
               "id": "rm",
               "isActive": false,
-              "requireds": [],
+              "requireds": [
+                {
+                  "required": false,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "id": "",
+                  "type": "id",
+                  "reqId": "1ud6",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "60"
+            },
+            {
+              "id": "rm",
+              "value": "40",
+              "type": "",
+              "requireds": [
+                {
+                  "required": true,
+                  "requireds": [],
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "id": "",
+                  "type": "id",
+                  "reqId": "1ud6",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "showRequired": false,
+                  "operator": "",
+                  "afterText": "",
+                  "beforeText": "Required:"
+                }
+              ],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
             }
           ],
           "template": 1,
