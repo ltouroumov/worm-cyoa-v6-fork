@@ -65176,7 +65176,7 @@
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
       "defaultAspectHeight": 1,
-      "allowedChoices": 0,
+      "allowedChoices": 1,
       "currentChoices": 0,
       "requireds": [
         {
@@ -65323,7 +65323,7 @@
         {
           "id": "04fs",
           "title": "Dynamist",
-          "text": "When you acquire this power, you acquire three powers of your choice with a combined cost of 120 SP or less (excluding any paragon powers). Your power will behave as if you had these powers and will dynamically alter them slowly to better suit challenges and weaknesses, refining the initial ability you chose and gradually broadening its flexibility with each new challenge that arises, molding them like clay to better generalize based on your previous engagements.\n\nWhen your powers are impotent, your powers will shave off functionality in one sector to improve another or to develop new features over time. When you have time to let them grow, they will add new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before. Whenever a situation that is challenging or impossible for your current powers to overcome arises, they will afterward shave off less-used features to bolster immediately useful ones or create entirely new features to suit the situation if necessary. The result will depend on your combat style, personality, preferences, and situations that arise.\n\nThis ability can pack on as many new features and powers, often completely unrelated to the original, as necessary in order to create the perfect powers that most optimally suits you.",
+          "text": "This power emphasizes mutability over versatility. When you acquire this power, you can choose three Major Powers which cost 30SP or more, excluding Paragon and Ascensions, and five Minor Powers which cost less than 30SP. You can choose powers from the Shard list even if you do not have an Essence of Shard. Your power will integrate your chosen abilities and behave as if you had them. It will mutate them over time, both horizontally by adding new related abilities and vertically by increasing the strength of certain aspects. Powers with a lower initial SP cost have a faster growth until they catch up to your other powers.\n\nWhile you can direct the general shape of those changes, your power will also respond and adapt to any challenge you face. When your powers are impotent, your powers prioritize immediately useful mutations over long term utility. When you have time to let them grow, they will add new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before. Any useless or redundant part will be shed or fused into existing abilities. With time, your weaknesses will be reduced and your options options broadened.\n\nIt is recommended you give your power time to perform routine maintenance and optimizations between heavy engagements to avoid a buildup of mutation debt. If this debt becomes too high, the quality and reliability of mutation decreases due to the stress placed on your power.\n",
           "image": "./images/obj-04fs.webp",
           "template": 1,
           "objectWidth": "",
@@ -65830,8 +65830,8 @@
         },
         {
           "id": "bsjn",
-          "title": "More Slots (Dynamist)",
-          "text": "You have an additional power and 40 additional SP for Dynamist per purchase.",
+          "title": "Additional Major Power (Dynamist)",
+          "text": "You have space for an additional Major Power for Dynamist per purchase.",
           "image": "",
           "template": 1,
           "objectWidth": "",
@@ -65875,7 +65875,7 @@
           "scores": [
             {
               "id": "rm",
-              "value": "40",
+              "value": "60",
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
@@ -65888,6 +65888,67 @@
           "isMultipleUseVariable": true,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "3"
+        },
+        {
+          "id": "3gc0",
+          "title": "Additional Minor Power (Dynamist)",
+          "text": "You have space for an additional Minor Power for Dynamist per purchase.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "04fs",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "30",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": [],
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5"
         },
         {
           "id": "arnj",
