@@ -65758,9 +65758,90 @@
           "groups": []
         },
         {
+          "id": "kkce",
+          "title": "Morpheus",
+          "text": "You are a true dynakinetic, meaning you can manipulate all forms of energy, be they kinetic, atomic, electromagnetic, or otherwise. This means that you can create immense, mind-boggling telekinetic forces and exert those same forces as a form of super-strength, or endure those forces similarly by dampening them with this power. You could cancel anomalous effects, such as the matter or energy created by other superpowers. You can feel the vibration of everything around you, even across dimensional barriers, and can tune your energy accordingly.\n\nThe scale and variety of feats you can perform with this power is truly absurd, from counteracting celestial forces to creating gamma ray bursts with effects radiating into the far reaches of the cosmos. You could feasibly create such energies as those released by the rending of stars or at the epicenter of black holes, if you so required. The versatility of this power encompasses a whole slew of possible applications, from superhuman strength to superluminal speed to telekinesis to radiation manipulation. One of its sole limitations is that energy created by this power cannot be converted into matter, but with how many feats are possible using this power, this is hardly an issue. Moreover, since the energy you create is limited only marginally in its expression scale and totally unlimited in energy supply, feats such as powering the entire planet subconsciously, collapsing planets and stars, terraforming worlds, and the like are all within the realm of possibility.",
+          "image": "./images/obj-kkce.png",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "120",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "yec5",
+          "title": "Mobius",
+          "text": "You are a high-level spacetime and dimension manipulator. Though the past may be concrete, the future is by no means determined, and you may enter any and all possible futures, or any time in the past, though as-per the law of causality past events cannot be altered.\n\nWith this power, you can warp spacetime in order to traverse to any location in an instant, or alter your progression through time. You can affect not only yourself but objects and other persons as well, by chancing their spatio-temporal properties and send them careening them into the future or compress them down to the volume of a penny. You can decrease or increase the distance between any two points without moving them, create fields in which time moves thousands of times slower or faster, and whisk objects between dimensions as you please.\n\nYou may, potentially, cut holes in dimensions so vast as to warp the laws of one in accordance with the other, or create your own empty pocket-dimensions for yourself, which you may occupy with objects you take from local realities and other futures. You can even interlink dimensions via your own dimensions to create a nexus of possible futures and far spaces, if you were so inclined. Nearly any manipulation of space and time on a finite scale is within your grasp, and the maximum finite scale with which you may operate will increase as your powers develop. Note that as time itself slows, so too will the development of your abilities, meaning that their growth is dependent upon true time, and not dilated time resulting from these abilities.",
+          "image": "./images/obj-yec5.png",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "120",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "cmxt",
+          "title": "Calypso",
+          "text": "You are a high-level matter manipulator, with the power to generate mass, alter the chemical and physical properties of existing matter, or wipe it from existence similarly. Because matter itself is beneath you, your consciousness exists on a level above material dependence, and you can create or destroy any form you desire, unaffected by damages to whatever physical form you choose. Your only limitation is the rate at which you can create and destroy, with nearly no scalar limit to how much matter you may generate or manipulate at a time, and these limits will diminish with time.\n\nYou are given an inhuman knowledge of matter, chemical properties, and their interactions, allowing you to use these abilities to their fullest: terraform worlds, create new life itself, or create palaces and continents for your purposes. As your skill with these abilities grows, you may be able to create entire personal worlds, whose every quark you have placed and pruned like a careful gardener, or provide nigh-endless resources to the world, ending conflict itself, or brutally carve the world in your image. Even abstract forms of matter not yet discovered or understood by men, such as dark and strange matter, the stuff of neutron stars, anomalous elements, or otherwise may be manipulated with abandon. You would be surprised how little man truly knows about matter, now that you know everything that could ever be known about it.",
+          "image": "./images/obj-cmxt.png",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "120",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
           "id": "04fs",
           "title": "Dynamist",
-          "text": "This power emphasizes mutability over versatility. When you acquire this power, you can choose three Major Powers which cost 30SP or more, excluding Paragon and Ascensions, and five Minor Powers which cost less than 30SP. You can choose powers from the Shard list even if you do not have an Essence of Shard. Your power will integrate your chosen abilities and behave as if you had them. It will mutate them over time, both horizontally by adding new related abilities and vertically by increasing the strength of certain aspects. Powers with a lower initial SP cost have a faster growth until they catch up to your other powers.\n\nWhile you can direct the general shape of those changes, your power will also respond and adapt to any challenge you face. When your powers are impotent, your powers prioritize immediately useful mutations over long term utility. When you have time to let them grow, they will add new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before. Any useless or redundant part will be shed or fused into existing abilities. With time, your weaknesses will be reduced and your options broadened.\n\nIt is recommended you give your power time to perform routine maintenance and optimizations between heavy engagements to avoid a buildup of mutation debt. If this debt becomes too high, the quality and reliability of mutation decreases due to the stress placed on your power.\n",
+          "text": "This power emphasizes mutability over versatility. When you acquire this power, you can choose three Major Powers which cost between 30 and 60 SP, excluding Paragon and Ascensions, and five Minor Powers which cost less than 30SP. You can choose powers from the Shard list only if you have Essence of Shard. Your power will integrate your chosen abilities and behave as if you had them. It will mutate them over time, both horizontally by adding new related abilities and vertically by increasing the strength of certain aspects. Powers with a lower initial SP cost have a faster growth until they catch up to your other powers.\n\nWhile you can direct the general shape of those changes, your power will also respond and adapt to any challenge you face. When your powers are impotent, your powers prioritize immediately useful mutations over long term utility. When you have time to let them grow, they will add new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before. Any useless or redundant part will be shed or fused into existing abilities. With time, your weaknesses will be reduced and your options broadened.\n\nIt is recommended you give your power time to perform routine maintenance and optimizations between heavy engagements to avoid a buildup of mutation debt. If this debt becomes too high, the quality and reliability of mutation decreases due to the stress placed on your power.\n",
           "image": "./images/obj-04fs.webp",
           "template": 1,
           "objectWidth": "",
