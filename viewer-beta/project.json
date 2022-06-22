@@ -1,7 +1,5 @@
 {
-  "activated": [
-    ""
-  ],
+  "activated": [],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -33229,7 +33227,7 @@
                 }
               ],
               "template": "",
-              "text": "If you chose a Normal Shard, then 100% of these Parahumans will have 1 random power from the Tier-3 power section or an equivalently strong and versatile power.",
+              "text": "If you chose a Normal Shard, then 100% of these Parahumans will have 1 random power from the Tier-1 power section or an equivalently strong and versatile power.",
               "title": "Normal Shard"
             },
             {
@@ -33267,7 +33265,7 @@
                 }
               ],
               "template": "",
-              "text": "If you chose a Vital Shard, then 85% of these Parahumans will have 1 random power equivalent to those from the Tier-3 power section, 10% will have 2 random powers equivalent to those from the Tier-3 power section, 4.5% will have 3 random powers equivalent to those from the Tier-3 power section, and 0.5% will have 1 random power equivalent to those from the Tier-2 power section.",
+              "text": "If you chose a Vital Shard, then 85% of these Parahumans will have 1 random power equivalent to those from the Tier-1 power section, 10% will have 2 random powers equivalent to those from the Tier-1 power section, 4.5% will have 3 random powers equivalent to those from the Tier-1 power section, and 0.5% will have 1 random power equivalent to those from the Tier-2 power section.",
               "title": "Vital Shard"
             },
             {
@@ -33302,7 +33300,7 @@
                 }
               ],
               "template": "",
-              "text": "If you chose a Queen Shard, then 35% of these Parahumans will have 1 random power equivalent to those from the Tier-3 power section, 50% will have 2 random powers equivalent to those from the Tier-3 power section, 14% will have 3 random powers equivalent to those from the Tier-3 power section, 0.5% will have 1 random power equivalent to those from the Tier-2 power section, 0.4% will have 2 random powers equivalent to those from the Tier-2 power section, and 0.1% will have 1 random power equivalent to those from the Tier-1 power section.",
+              "text": "If you chose a Queen Shard, then 35% of these Parahumans will have 1 random power equivalent to those from the Tier-1 power section, 50% will have 2 random powers equivalent to those from the Tier-1 power section, 14% will have 3 random powers equivalent to those from the Tier-1 power section, 0.5% will have 1 random power equivalent to those from the Tier-2 power section, 0.4% will have 2 random powers equivalent to those from the Tier-2 power section, and 0.1% will have 1 random power equivalent to those from the Tier-3 power section.",
               "title": "Queen Shard / Entity / Shardless"
             }
           ],
@@ -33323,7 +33321,7 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "For each instance of this drawback you pick, the incidence of parahuman will increase by 20% (multiplicatively), if the setting has no existing parahumans the first instance will set a base trigger rate of 1 parahuman for every 500'000 people. The rate of triggers will increase by 0.1% per day until it reaches the new rate. The triggers have a lower activation threshold than standard triggers, closer to that of second generation triggers. These parahumans can second trigger if they encounter a situation sufficiently similar situation to their first trigger.\n\nThere is a 5% chance of a Parahuman also becoming a Noctis Cape, 2% they'll gain the Heracles perk, 2% chance they'll gain Mind Blank, and a 1% chance they'll gain Mental Barrier. A Parahuman with Mental Barrier will have a 50% chance of also gaining Mind Blank. There is a 0.001% chance that Parahumans will gain Trumped the Trump.\n\nNote: This may seem like a perk to some, but keep in mind that there are now hundreds of thousands of Parahumans, soon to be more, and most of them have some very powerful power(s). Many of whom could, if not resisted by other Parahumans, destroy humanity by themselves. There are now tens of thousands to hundreds of thousands of credible threats to you other than the entity and Endbringers. Also, all the powers listed in the power tiers you have access to depending on your Shard level will get triggered with. Since all powers are completely unique, none of them will trigger with the powers you chose, and only one person will trigger with each power listed in the Tier-3, 2, and 1 sections.",
+          "text": "For each instance of this drawback you pick, the incidence of parahuman will increase by 20% (multiplicatively), if the setting has no existing parahumans the first instance will set a base trigger rate of 1 parahuman for every 500'000 people. The rate of triggers will increase by 0.1% per day until it reaches the new rate. The triggers have a lower activation threshold than standard triggers, closer to that of second generation triggers. These parahumans can second trigger if they encounter a situation sufficiently similar situation to their first trigger.\n\nThere is a 5% chance of a Parahuman also becoming a Noctis Cape, 2% they'll gain the Heracles perk, 2% chance they'll gain Mind Blank, and a 1% chance they'll gain Mental Barrier. A Parahuman with Mental Barrier will have a 50% chance of also gaining Mind Blank. There is a 0.001% chance that Parahumans will gain Trumped the Trump.\n\nNote: This may seem like a perk to some, but keep in mind that there are now hundreds of thousands of Parahumans, soon to be more, and most of them have some very powerful power(s). Many of whom could, if not resisted by other Parahumans, destroy humanity by themselves. There are now tens of thousands to hundreds of thousands of credible threats to you other than the entity and Endbringers. Also, all the powers listed in the power tiers you have access to depending on your Shard level will get triggered with. Since all powers are completely unique, none of them will trigger with the powers you chose, and only one person will trigger with each power listed in the Tier-1, 2, and 3 sections.",
           "title": "Second Wave Parahumans"
         }
       ],
@@ -49807,7 +49805,7 @@
       "id": "zg2f",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -49827,45 +49825,7 @@
                   "operator": "",
                   "orRequired": [
                     {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "ucs6",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": false,
-                  "type": "id"
-                }
-              ],
-              "template": "",
-              "text": "<i>Acclimatation</i> makes your power start at first level and must be trained up. The level scale is linear and works the same as the original Drawback (50% to 200%).\n\n<i>Time Loop</i> and <i>Save Slots</i> as well as <i>Four is a party</i> are not affected by this power.",
-              "title": "Power Leveling"
-            },
-            {
-              "id": "",
-              "image": "",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": "xsi7"
+                      "req": "48m6"
                     },
                     {
                       "req": "d0mx"
@@ -49883,15 +49843,15 @@
                 }
               ],
               "template": "",
-              "text": "Your Shard does have the knowledge of MP. You start out with an amount proportional to your shard ranking.",
-              "title": "Chosen of Gaia"
+              "text": "You are no longer limited in growth, however powers become exponentially harder to grow the stronger they are.",
+              "title": "Unlimited Power"
             }
           ],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "bqul",
-          "image": "./images/obj-bqul.webp",
+          "image": "",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -49908,8 +49868,8 @@
             }
           ],
           "template": 1,
-          "text": "Your Shard grants you Gamer powers. You have access to the basic system which includes stats and experience, the inventory and equipment system, and skills and the ability to learn them from skill books. You gain experience by completing quests or defeating enemies (does not need to involve killing them) and can increase your stats by training. How the system works in details depends on the Shard, two people with Gamer can have systems that work differently.\n\nYou do not have access to MP, unless you have picked a magic power, nor Gamer's Mind. However, any powers you pick will work through the Gamer system but they cannot be leveled up unless you pick <i>Acclimation</i>.",
-          "title": "(Trump/Breaker/Thinker) The Gamer"
+          "text": "Your Shard grants you access to a game-like system to manage your power(s). By default, you have access to a basic system which includes attributes and the ability to grow by gaining experience. You gain experience by completing quests or defeating enemies (does not need to involve killing them) and can increase your attributes by training. How the system works in details depends on the Shard, two people with this power can have systems that work differently.\n\nAll other powers you select interface through this one and unlock their ability to grow. As you use them, your powers will grow in strength and will unlock new aspects.\n\nYour growth potential is not unlimited, however. Your Shard can only support a certain amount of total progression. This limit will be communicated to you.",
+          "title": "(Trump/Breaker/Thinker) Gamer System"
         },
         {
           "addons": [],
@@ -68095,7 +68055,7 @@
         },
         {
           "id": "33gp",
-          "title": "Dimensional Pocket (Celestial Inventory))",
+          "title": "Dimensional Pocket (Celestial Inventory)",
           "text": "The Celestial Inventory comes with a dimensional pocket where you can store and retrieve objects, liquids, gases, or any other tangible thing. The pocket space has unlimited capacity and contained entities do not come into contact.\n\nYou can move an object of any size smaller than 100m<sup>3</sup> instantly, larger objects will take 1s per additional 100m<sup>3</sup>. You can only move objects as a whole, you cannot only store part of a building for example. Liquids and gases move at a rate of 100m<sup>3</sup> per second. You can move arbitrary volumes of liquids and gasses.\n\nThe pocket dimension has its own search and favorites system.",
           "image": "",
           "template": 1,
