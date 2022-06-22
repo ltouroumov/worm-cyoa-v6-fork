@@ -21398,7 +21398,7 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "-8"
+              "value": "-10"
             },
             {
               "afterText": "SP",
@@ -21478,7 +21478,7 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "-12"
+              "value": "-15"
             },
             {
               "afterText": "SP",
@@ -21517,7 +21517,7 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "-3"
+              "value": "-5"
             },
             {
               "afterText": "CP",
@@ -21556,12 +21556,295 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "-4"
+              "value": "-5"
             }
           ],
           "template": 1,
           "text": "You do not look human. How bad you look depends on your chosen appearance. If you chose Self-Insert or Insert you'll now be able to go back and choose your appearance. The more good looking your appearance the more human and good-looking your appearance will be. On the other hand, if you chose ugly or disfigured, prepare to look like Noelle. Your appearance may also be based on a random one of the powers you chose.",
           "title": "Case 53"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jtyh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "icne",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "Your body is aged down to somewhere between 6 and 12 years old. You will age normally but cannot use powers to age yourself up. Your physical abilities are reduced to match your age. Adults will not take you seriously and your independence will be severely limited.",
+          "title": "Pint Sized"
         },
         {
           "addons": [],
@@ -24787,6 +25070,550 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "58ey",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "Eidolon will learn, through one mean or another like Thinker powers or Watchdog evaluation, that you are a worthy challenge for him. A Worth Opponent. Anti-thinker perks cannot protect you against this. Even if you are a hero, he will find a way to challenge you.\n\nAnd you better be able to provide an adequate challenge as Eidolon will be coming at you with all his might.",
+          "title": "You are the Worthy Opponent"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "osec",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "58ey",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "Eidolon will learn that he can restore his powers to their full strength by killing you. He will not give up and will not hesitate to exhaust his Shard to kill you.",
+          "title": "Chosen One"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "zc27",
           "image": "",
           "isActive": false,
@@ -26450,6 +27277,263 @@
           "template": 1,
           "text": "No one will believe you if you tell them about the entity or Cauldron unless you show them definite proof or they already know about what you're telling them. (Stranger) Truth overpowers this drawback.",
           "title": "Tinfoil Hat"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "gcit",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "You gain a stalker. This person is obsessed with you and will go to great lengths to get your attention and affection.  They also get a build of similar strength to yours and have the <i>Insane</i> drawback.",
+          "title": "Stalker"
         },
         {
           "addons": [],
@@ -39838,6 +40922,23 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "s8gh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [],
+          "template": 1,
+          "text": "",
+          "title": "Foundation Powers"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "5io5",
           "image": "",
           "isActive": false,
@@ -39848,7 +40949,7 @@
           "scores": [],
           "template": 1,
           "text": "",
-          "title": "Greater Powers"
+          "title": "Keystone Powers"
         },
         {
           "id": "fede",
@@ -60842,33 +61943,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "i5jm",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "Your Intelligence and Memory are at the level of a one of a kind genius like Tony Stark or Reed Richards. You can master new fields of knowledge or skills in a matter of days or weeks instead of months or years. You form muscle memory and reflexes with only a nominal amount of training. ",
-          "title": "Polymath"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "izy9",
           "image": "",
           "isActive": false,
@@ -65080,8 +66154,437 @@
       }
     },
     {
+      "id": "xk24",
+      "title": "Foundation Powers",
+      "titleText": "",
+      "objectWidth": "col-md-4",
+      "image": "",
+      "template": "1",
+      "isButtonRow": false,
+      "buttonType": true,
+      "buttonId": "",
+      "buttonText": "Click",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "isResultRow": false,
+      "resultGroupId": "",
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "defaultAspectWidth": 1,
+      "defaultAspectHeight": 1,
+      "allowedChoices": 0,
+      "currentChoices": 0,
+      "requireds": [
+        {
+          "required": true,
+          "requireds": [],
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "id": "",
+          "type": "id",
+          "reqId": "s8gh",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "showRequired": false,
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
+        }
+      ],
+      "isEditModeOn": false,
+      "isRequirementOpen": false,
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "eo6y",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are at the pinnacle of mental prowess. You have an incredible ability to process and visualize information, a perfect memory, a near-limitless capacity to acquire and master skills of any variety or attain mastery of any field you desire in a fraction of the time a lesser man might.\n\nWith reference materials on hand, you can acquire knowledge as fast as you can read. Knowledge builds on itself, the more related fields you master the better understanding of them you develop. You can even discover entirely new fields by cross-referencing information you already know. While the most obvious application of these abilities is in science and technology, you are by no means limited to it.\n\nIn only a few days, you can pick up the basics of any martial art, become proficient with it in weeks, and become a master in a month. A week or two of study could allow you to learn any skill to a point where you are proficient with it, the more you practice any of your skills the better you become. Your rate of progress is dependent on the difficulty of what you are studying, fields such as magic can still take you many decades to master completely. You are however limited to what your body can handle, this power by itself does not allow you to surpass your physical limits or grant you the ability to wield supernatural powers.\n\nWhen you acquire new skills and expertise, you will never forget or become incapable of your peak accomplishments. With time you will inevitably become a veritable Swiss Army Knife of incredible scientific knowledge, incredible feats of physical skill and much more.",
+          "title": "Polymath"
+        },
+        {
+          "id": "wlso",
+          "title": "Nascent Mind",
+          "text": "Your psionic potential has been unlocked. You start out with low level psionic potential and an intuitive knowledge of basic techniques (telekinesis, telepathy, barriers, etc.). You are able to train yourself to become more powerful. You have an uncanny intuition for developing new techniques and refining existing ones.\n\nA library of memories about psionic techniques has been implanted into your mind. You will need to meditate and experience the memories and understand them but all the knowledge you need is at your fingertips.\n\nWith enough time you will be able to develop into a psychic god capable of rewriting reality on a whim but the road there will be long a arduous. Be careful not to lobotomize yourself on your journey.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "2v19",
+          "title": "Sorcerer Aprentice",
+          "text": "Your ability to manipulate Mana, one of the fundamental energies of the multiverse, is unlocked. Your mana core has just formed and starts with a small capacity to store and transfer mana but it can be increased through practice and rituals. You have an innate knowledge of the basic elements of the three branches of mana manipulation.\n\n<b>Conjuration</b>, the shaping of mana into constructs that produce an effects. More commonly known as spells, your library contains information about many different systems of magic and with perseverance you might discover the secrets of True Magic.\n\n<b>Enchantment</b>, the creation of objects powered by Mana, capable of producing the same effects as Conjuration but anchored to objects.\n\nAnd <b>Alchemy</b>, the creation and transformation of materials and liquids with Mana. From potions producing effects when ingested to esoteric metals and gems to use in Enchantments, the creation of devices, or armor.\n\nA library of grimoires about the three branches of mana manipulation has been implanted into your memory as well. You will still need to read and understand them and acquire the necessary skills but all the knowledge you need is at your fingertips. With this power, you can reproduce any magic system from first principles and even create your own. The library contains several broad magic systems to get you started.\n\nWhile this ability has no theoretical upper limit, the more complex and powerful Conjurations will test your knowledge. With enough time you will be able to reach heights only the gods can dream of but be careful not to break reality or destroy your sour on your journey there. ",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "2epe",
+          "title": "Sorcerer Aprentice",
+          "text": "Your Meridians are unlocked and you are capable of circulating Qi through them. You are at the first stage of cultivation, through arduous training you will be able to refine your body and spirit, to purify your essence and distill it to attain higher levels. With each level you advance you are capable of stronger and more fantastic feats. You can hone and reinforce your body into a living weapon, force your life force into constructs to do your bidding, be a master of beastly transformations, or a natural at spell formations to turn the elements against your enemies. Whatever your chosen path, you are capable of great things.\n\nAn ancient spirit of knowledge has fused with your soul. You can commune with this spirit to access their knowledge and learn new techniques or acquire knowledge of how to advance your path.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "nj93",
+          "title": "Path of the Warrior",
+          "text": "You are the embodiment of the concept of a warrior. Your martial talent is supreme amongst all others, in a fight you are peerless. Your body and skill can be trained with no limit, even breaking the laws of physics and accomplishing seemingly impossible tasks with pure skill and might. You gain strength and skill at an accelerated rate as well and grow in response to whatever threat you are facing.\n\nYou have the heart of a noble knight and can stand up to any seemingly insurmountable obstacle with a truly unbreakable will. You are pure undiluted badass. You have all the talent and skills to be a natural born genius at fighting, spatial awareness, tactical thinking, you name it. Furthermore you will slowly but surely develop skills and martial arts designed to fell whatever foe you are fighting as long as you are training to fight them or fighting them actively, fighting will make the process go far quicker. For example, if you are fighting an immortal foe you can create a martial arts technique which imparts the concept of mortality upon whomever you strike or slash, however such a technique would likely take long to develop if you don\u2019t already have something similar developed. This does not mean you will win against anyone in a fight however, merely that you have the potential to do so.\n\nYou are also able to master any form of martial techniques or martial arts in a matter of days to the point where you could be called a grandmaster at it. However the more supernatural the martial art the longer it will take to master.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "mv8b",
+          "title": "Young Planeswalker",
+          "text": "Your Spark has ignited. You are able to planeswalk through the multiverse at your leisure. You can target any plane you have already visited easily but accessing a precise destination blindly will require some practice, in the meantime you will jump to semi-random destinations every time.\n\nYour body is now a projection of your Soul, in time you will be able to alter your appearance at will and even replicate the abilities of other creatures. Your Soul is also a powerful source of Mana. While you are able to cast spells, you do not have the knowledge to do so. You can of course learn by yourself, find a Mentor to tech you, or pick any of the magical powers available in this section.\n\nIn time, as you grow in power and familiarity with your abilities, you will be able to create your own pocket dimensions and demi-planes.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "bbio",
+          "title": "Gamer System",
+          "text": "You gain access to a game-like system to manage your power(s). By default, you have access to a basic system which includes attributes and the ability to grow by gaining experience. You gain experience by completing quests or defeating enemies (does not need to involve killing them) and can increase your attributes by training. How the system works in details depends on the user, two people with this power can have systems that work differently.\n\nThis power will interface with other abilities you choose. As you use them, they will grow in strength and will unlock new aspects. While your growth is not limited, the stronger an ability is the harder it will be to improve it.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "3ndw",
+          "title": "Dynamist Jr.",
+          "text": "This power integrates with your other abilities and improves them over time. It will mutate them both horizontally by adding new related abilities and vertically by increasing the strength of certain aspects. Powers with a lower initial SP cost have a faster growth until they catch up to your other powers.\n\nWhile you can direct the general shape of those changes, your power will also respond and adapt to any challenge you face. When your powers are impotent, immediately useful mutations will be prioritized over long term utility. When you have time to let them grow, new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before, will be added. Any useless or redundant part will be shed or fused into existing abilities. With time, your weaknesses will be reduced and your options broadened.\n\nIt is recommended you give your power time to perform routine maintenance and optimizations between heavy engagements to avoid a buildup of mutation debt. If this debt becomes too high, the quality and reliability of mutation decreases due to the stress placed on your power.\n\nThis power works at a slower rate than <i>Dynamist</i>.\n",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        }
+      ],
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#000000FF",
+        "objectBgColorIsOn": true,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#000000FF",
+        "rowBgColorIsOn": true,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "#FFEEDDFF",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": "0",
+        "rowBorderRadiusBottomRight": "0",
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": "0",
+        "rowBorderRadiusTopRight": "0",
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDesignIsAdvanced": false,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "#FFFFEEFF",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "#FFEEDDFF",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowImgOverflowIsOn": false,
+        "rowMargin": "5",
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      }
+    },
+    {
       "id": "umg9",
-      "title": "Greater Powers",
+      "title": "Keystone Powers",
       "titleText": "",
       "objectWidth": "col-sm-6",
       "image": "",
@@ -65137,7 +66640,7 @@
         {
           "id": "m6kb",
           "title": "Atlas",
-          "text": "You are at the pinnacle of mental prowess. You have an incredible ability to process and visualize information, a perfect memory, a near-limitless capacity to acquire and master skills of any variety, create genius inventions and techniques, and attain mastery of any field you desire in a fraction of the time a lesser man might.\n\nYou require little outside knowledge to begin learning these skills, sometimes simply knowing it is possible can allow you to derive the basic axioms. With reference materials, you can acquire knowledge as fast as you can read. Knowledge builds on itself, the more related fields you master the better understanding of them you develop. You can even discover entirely new fields. While the most obvious application of these abilities is in science and technology, you are by no means limited to it.\n\nIn mere minutes of observation, you can pick up the basics of any martial art, become proficient with it in hours, become a master in days, be creating fighting styles of your own after a week. A week of practice could make you humanity's greatest detective, its finest doctor, its most talented artist, or its most charismatic leader. Your rate of progress is dependent on the difficulty of what you are studying, fields such as magic can still take you decades to master completely. You are however limited to what your body can handle, this power by itself does not allow you to surpass your physical limits or grant you the ability to wield supernatural powers.\n\nWhen you acquire new skills and expertise, you will never forget or become incapable of your peak accomplishments. With time you will inevitably become a veritable Swiss Army Knife of incredible scientific knowledge, incredible feats of physical skill and much more. In a matter of decades, your technologies could advance civilization to a galaxy spanning utopia.",
+          "text": "You are at the pinnacle of mental prowess. You have an incredible ability to process and visualize information, a perfect memory, a near-limitless capacity to acquire and master skills of any variety, create genius inventions and techniques, and attain mastery of any field you desire in a fraction of the time a lesser man might.\n\nYou require little outside knowledge to begin learning these skills, sometimes simply knowing it is possible can allow you to derive the basic axioms. With reference materials, you can acquire knowledge as fast as you can read. Knowledge builds on itself, the more related fields you master the better understanding of them you develop. You can even discover entirely new fields by cross-referencing information you already know. While the most obvious application of these abilities is in science and technology, you are by no means limited to it.\n\nIn mere minutes of observation, you can pick up the basics of any martial art, become proficient with it in hours, become a master in days, be creating fighting styles of your own after a week. A week of practice could make you humanity's greatest detective, its finest doctor, its most talented artist, or its most charismatic leader. Your rate of progress is dependent on the difficulty of what you are studying, fields such as magic can still take you decades to master completely. You are however limited to what your body can handle, this power by itself does not allow you to surpass your physical limits or grant you the ability to wield supernatural powers.\n\nWhen you acquire new skills and expertise, you will never forget or become incapable of your peak accomplishments. With time you will inevitably become a veritable Swiss Army Knife of incredible scientific knowledge, incredible feats of physical skill and much more. In a matter of decades, your technologies could advance civilization to a galaxy spanning utopia.",
           "image": "",
           "template": "1",
           "objectWidth": "",
@@ -65254,7 +66757,7 @@
             }
           ],
           "template": "1",
-          "text": "Your ability to manipulate Mana, one of the fundamental energies of the multiverse, is unlocked. A library of grimoires about the three branches of Mana Manipulation has been implanted into your memory. You will still need to read and understand them and acquire the necessary skills but all the knowledge you need is at your fingertips.\n\n<b>Conjuration</b>, the shaping of mana into constructs that produce an effects. More commonly known as spells, your library contains information about many different systems of magic and with perseverance you might discover the secrets of True Magic.\n<b>Enchantment</b>, the creation of objects powered by Mana, capable of producing the same effects as Conjuration but anchored to objects.\nAnd <b>Alchemy</b>, the creation and transformation of materials and liquids with Mana. From potions producing effects when ingested to esoteric metals and gems to use in Enchantments, the creation of devices, or armor.\n\nWith this power, you can reproduce any magic system from first principles and even create your own. The library contains several broad magic systems to get you started.\n\nWhile this ability has no theoretical upper limit, the more complex and powerful Conjurations will test your knowledge. With enough time you will be able to reach heights only the gods can dream of but be careful not to break reality or destroy your sour on your journey there. ",
+          "text": "Your ability to manipulate Mana, one of the fundamental energies of the multiverse, is unlocked. Your mana core is fully formed and has an incredible capacity to generate, store, and transfer mana. You have an innate knowledge of a vast array of spells and techniques in the three branches of mana manipulation.\n\n<b>Conjuration</b>, the shaping of mana into constructs that produce an effects. More commonly known as spells, your library contains information about many different systems of magic and with perseverance you might discover the secrets of True Magic.\n\n<b>Enchantment</b>, the creation of objects powered by Mana, capable of producing the same effects as Conjuration but anchored to objects.\n\nAnd <b>Alchemy</b>, the creation and transformation of materials and liquids with Mana. From potions producing effects when ingested to esoteric metals and gems to use in Enchantments, the creation of devices, or armor.\n\nA library of grimoires about the three branches of mana manipulation has been implanted into your memory as well. You will still need to read and understand them and acquire the necessary skills but all the knowledge you need is at your fingertips. With this power, you can reproduce any magic system from first principles and even create your own. The library contains several broad magic systems to get you started.\n\nWhile this ability has no theoretical upper limit, the more complex and powerful Conjurations will test your knowledge. With enough time you will be able to reach heights only the gods can dream of but be careful not to break reality or destroy your sour on your journey there. ",
           "title": "Sorcerer Supreme"
         },
         {
@@ -65281,7 +66784,7 @@
             }
           ],
           "template": "1",
-          "text": "Your psionic potential has been unlocked. You start out with high level psionic potential with the intuitive knowledge of most basic techniques (telekinesis, telepathy, barriers, etc.) and are able to train yourself to become more powerful. You have an uncanny intuition for developing new techniques and refining existing ones. A library of memories about psionic techniques has been implanted into your mind. You will need to meditate and experience the memories and understand them but all the knowledge you need is at your fingertips.\n\nWith enough time you will be able to develop into a psychic god capable of rewriting reality on a whim but the road there will be long a arduous. Be careful not to lobotomize yourself on your journey.",
+          "text": "Your psionic potential has been unlocked. You start out with high level psionic potential and an intuitive knowledge of a vast array of techniques (telekinesis, telepathy, barriers, etc.). You are able to train yourself to become even more powerful. You have an uncanny intuition for developing new techniques and refining existing ones. A library of memories about psionic techniques has been implanted into your mind. You will need to meditate and experience the memories and understand them but all the knowledge you need is at your fingertips.\n\nWith enough time you will be able to develop into a psychic god capable of rewriting reality on a whim but the road there will be long a arduous. Be careful not to lobotomize yourself on your journey.",
           "title": "Almighty Mind"
         },
         {
@@ -65308,8 +66811,8 @@
             }
           ],
           "template": 1,
-          "text": "Your Meridians are unlocked and you are capable of circulating Qi through them. You are at the first stage of cultivation, through arduous training you will be able to refine your body and spirit, to purify your essence and distill it to attain higher levels. With each level you advance you are capable of stronger and more fantastic feats. You can hone and reinforce your body into a living weapon, force your life force into constructs to do your bidding, be a master of beastly transformations, or a natural at spell formations to turn the elements against your enemies. Whatever your chosen path, you are capable of great things.\n\nAn ancient spirit of knowledge has fused with your soul. You can commune with this spirit to access their knowledge and learn new techniques or acquire knowledge of how to advance your path.",
-          "title": "Cultivator"
+          "text": "Your Meridians are unlocked and your Golden Core is formed. You are capable of using Qi and possess a potent reserve. You have just left the mortal realm and become an Immortal Cultivator, while mere mortals will have difficulty wounding you some Parahumans can bridge the gap somewhat. You have knowledge of a vast array of Qi techniques in many fields, a deep knowledge of martial arts.\n\nAn ancient spirit of knowledge has fused with your soul. You can commune with this spirit to access their knowledge and learn new techniques or acquire knowledge of how to advance your path.",
+          "title": "Great Sage"
         },
         {
           "addons": [],
@@ -65404,8 +66907,8 @@
             }
           ],
           "template": 1,
-          "text": "You are the embodiment of the concept of a warrior. Your martial talent is supreme amongst all others, in a fight you are peerless. Your body and skill can be trained with no limit, even breaking the laws of physics and accomplishing seemingly impossible tasks with pure skill and might. You gain strength and skill at an accelerated rate as well and grow in response to whatever threat you are facing.\n\nYou have the heart of a noble knight and can stand up to any seemingly insurmountable obstacle with a truly unbreakable will. You are pure undiluted badass. You have all the talent and skills to be a natural born genius at fighting, spatial awareness, tactical thinking, you name it. Furthermore you will slowly but surely develop skills and martial arts designed to fell whatever foe you are fighting as long as you are training to fight them or fighting them actively, fighting will make the process go far quicker. For example, if you are fighting an immortal foe you can create a martial arts technique which imparts the concept of mortality upon whomever you strike or slash, however such a technique would likely take long to develop if you don\u2019t already have something similar developed. This does not mean you will win against anyone in a fight however, merely that you have the potential to do so.\n\nYou are also able to master any form of martial techniques or martial arts in a matter of days to the point where you could be called a grandmaster at it. However the more supernatural the martial art the longer it will take to master.",
-          "title": "The Way of The Warrior"
+          "text": "You are the embodiment of the concept of a warrior. Your martial talent is supreme amongst all others, in a fight you are peerless. Your skill are leagues above others, you stand as an uncontestable master of martial arts among mortals. Your body is incredibly powerful as well, your strength and speed are nearly unmatched. Only Immortal Cultivators and a select few Parahumans can match you on either front. Your body and skill can be trained even further with no limit, even breaking the laws of physics and accomplishing seemingly impossible tasks with pure skill and might. You gain strength and skill at an accelerated rate as well and grow in response to whatever threat you are facing.\n\nYou have the heart of a noble knight and can stand up to any seemingly insurmountable obstacle with a truly unbreakable will. You are pure undiluted badass. You have all the talent and skills to be a natural born genius at fighting, spatial awareness, tactical thinking, you name it. Furthermore you will slowly but surely develop skills and martial arts designed to fell whatever foe you are fighting as long as you are training to fight them or fighting them actively, fighting will make the process go far quicker. For example, if you are fighting an immortal foe you can create a martial arts technique which imparts the concept of mortality upon whomever you strike or slash, however such a technique would likely take long to develop if you don\u2019t already have something similar developed. This does not mean you will win against anyone in a fight however, merely that you have the potential to do so.\n\nYou are also able to master any form of martial techniques or martial arts in a matter of days to the point where you could be called a grandmaster at it. However the more supernatural the martial art the longer it will take to master.",
+          "title": "Way of The Warrior"
         },
         {
           "addons": [],
@@ -65431,8 +66934,8 @@
             }
           ],
           "template": 1,
-          "text": "Your Spark has ignited. You are able to planeswalk through the multiverse at your leisure. You can target any plane you have already visited easily but accessing a precise destination blindly will require some practice, in the meantime you will jump to semi-random destinations every time.\n\nYour body is now a projection of your Soul, in time you will be able to alter your appearance at will and even replicate the abilities of other creatures. Your Soul is also a powerful source of Mana. While you are able to cast spells, you do not have the knowledge to do so. You can of course learn by yourself, find a Mentor to tech you, or pick any of the magical powers available in this section.\n\nIn time, as you grow in power and familiarity with your abilities, you will be able to create your own pocket dimensions and demi-planes.",
-          "title": "Planeswalker"
+          "text": "Your Spark has ignited. You are able to planeswalk through the multiverse at your leisure. You can target any plane you have already visited with contemptuous ease and target an exact destination. When you jump to a new plane, you are able to target your desired destination and will only suffer misfires rarely. Your familiarity with dimensional travel also allows you to create pocket dimensions and demi-planes.\n\nYour body is now a projection of your Soul, you are be able to alter your appearance at will and even replicate the abilities of other creatures by studying the. Your Soul is also a powerful source of Mana. While you are able to cast spells, you do not have the knowledge to do so. You can of course learn by yourself, find a Mentor to tech you, or pick any of the magical powers available in this section.",
+          "title": "Elder Planeswalker"
         }
       ],
       "styling": {
@@ -65841,7 +67344,7 @@
         {
           "id": "04fs",
           "title": "Dynamist",
-          "text": "This power emphasizes mutability over versatility. When you acquire this power, you can choose three Major Powers which cost up to 60 SP, excluding Paragon and Ascensions, and five Minor Powers which cost up to 30SP. You can choose powers from the Shard list only if you have Essence of Shard. Your power will integrate your chosen abilities and behave as if you had them. It will mutate them over time, both horizontally by adding new related abilities and vertically by increasing the strength of certain aspects. Powers with a lower initial SP cost have a faster growth until they catch up to your other powers.\n\nWhile you can direct the general shape of those changes, your power will also respond and adapt to any challenge you face. When your powers are impotent, your powers prioritize immediately useful mutations over long term utility. When you have time to let them grow, they will add new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before. Any useless or redundant part will be shed or fused into existing abilities. With time, your weaknesses will be reduced and your options broadened.\n\nIt is recommended you give your power time to perform routine maintenance and optimizations between heavy engagements to avoid a buildup of mutation debt. If this debt becomes too high, the quality and reliability of mutation decreases due to the stress placed on your power.\n",
+          "text": "This power emphasizes mutability over versatility. When you acquire this power, you can choose three Major Powers which cost up to 60 SP, excluding Paragon and Ascensions, and five Minor Powers which cost up to 30SP. You can choose powers from the Shard list only if you have Essence of Shard. Your power will integrate your chosen abilities and behave as if you had them. It will mutate them over time, both horizontally by adding new related abilities and vertically by increasing the strength of certain aspects. Powers with a lower initial SP cost have a faster growth until they catch up to your other powers.\n\nWhile you can direct the general shape of those changes, your power will also respond and adapt to any challenge you face. When your powers are impotent, immediately useful mutations will be prioritized over long term utility. When you have time to let them grow, new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before, will be added. Any useless or redundant part will be shed or fused into existing abilities. With time, your weaknesses will be reduced and your options broadened.\n\nIt is recommended you give your power time to perform routine maintenance and optimizations between heavy engagements to avoid a buildup of mutation debt. If this debt becomes too high, the quality and reliability of mutation decreases due to the stress placed on your power.\n",
           "image": "./images/obj-04fs.webp",
           "template": 1,
           "objectWidth": "",
