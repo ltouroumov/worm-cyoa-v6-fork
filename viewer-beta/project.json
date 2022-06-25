@@ -49805,7 +49805,7 @@
       "id": "zg2f",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -66117,7 +66117,7 @@
       "id": "xk24",
       "title": "Foundation Powers",
       "titleText": "",
-      "objectWidth": "col-md-4",
+      "objectWidth": "col-sm-6",
       "image": "",
       "template": "1",
       "isButtonRow": false,
@@ -66127,7 +66127,7 @@
       "buttonRandom": false,
       "buttonRandomNumber": 1,
       "isResultRow": false,
-      "resultGroupId": "",
+      "resultGroupId": "xb",
       "isInfoRow": false,
       "isPrivateStyling": false,
       "defaultAspectWidth": 1,
@@ -66192,7 +66192,7 @@
             }
           ],
           "template": 1,
-          "text": "You are at the pinnacle of mental prowess. You have an incredible ability to process and visualize information, a perfect memory, a near-limitless capacity to acquire and master skills of any variety or attain mastery of any field you desire in a fraction of the time a lesser man might.\n\nWith reference materials on hand, you can acquire knowledge as fast as you can read. Knowledge builds on itself, the more related fields you master the better understanding of them you develop. You can even discover entirely new fields by cross-referencing information you already know. While the most obvious application of these abilities is in science and technology, you are by no means limited to it.\n\nIn only a few days, you can pick up the basics of any martial art, become proficient with it in weeks, and become a master in a month. A week or two of study could allow you to learn any skill to a point where you are proficient with it, the more you practice any of your skills the better you become. Your rate of progress is dependent on the difficulty of what you are studying, fields such as magic can still take you many decades to master completely. You are however limited to what your body can handle, this power by itself does not allow you to surpass your physical limits or grant you the ability to wield supernatural powers.\n\nWhen you acquire new skills and expertise, you will never forget or become incapable of your peak accomplishments. With time you will inevitably become a veritable Swiss Army Knife of incredible scientific knowledge, incredible feats of physical skill and much more.",
+          "text": "You are a true genus the likes of Reed Richards, Tony Stark, or Victor von Doom. You have an incredible ability to process and visualize information, a perfect memory, and an incredible capacity to acquire knowledge. \n\nWith reference materials on hand, you can acquire knowledge as fast as you can read. Knowledge builds on itself, the more related fields you master the better understanding of them you develop. You can even discover entirely new fields with some effort by cross-referencing information you already know. While the most obvious application of these abilities is in science and technology, you are by no means limited to it.\n\nA week or two of study could allow you to learn any skill, be it martial arts or underwater basket weaving, to a point where you are proficient with it, the more you practice any of your skills the better you become. Your rate of progress is dependent on the difficulty of what you are studying, fields such as magic can still take you many decades to master completely. You are however limited to what your body can handle, this power by itself does not allow you to surpass your physical limits or grant you the ability to wield supernatural powers.\n\nWhen you acquire new skills and expertise, you will never forget or become incapable of your peak accomplishments. With time you will inevitably become a veritable Swiss Army Knife of incredible scientific knowledge, incredible feats of physical skill and much more.",
           "title": "Polymath"
         },
         {
@@ -66251,7 +66251,7 @@
         },
         {
           "id": "2epe",
-          "title": "Sorcerer Aprentice",
+          "title": "Jade Disciple",
           "text": "Your Meridians are unlocked and you are capable of circulating Qi through them. You are at the first stage of cultivation, through arduous training you will be able to refine your body and spirit, to purify your essence and distill it to attain higher levels. With each level you advance you are capable of stronger and more fantastic feats. You can hone and reinforce your body into a living weapon, force your life force into constructs to do your bidding, be a master of beastly transformations, or a natural at spell formations to turn the elements against your enemies. Whatever your chosen path, you are capable of great things.\n\nAn ancient spirit of knowledge has fused with your soul. You can commune with this spirit to access their knowledge and learn new techniques or acquire knowledge of how to advance your path.",
           "image": "",
           "template": 1,
@@ -66347,7 +66347,7 @@
           "scores": [
             {
               "id": "rm",
-              "value": "25",
+              "value": "20",
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
@@ -66360,7 +66360,7 @@
         {
           "id": "3ndw",
           "title": "Dynamist Jr.",
-          "text": "This power integrates with your other abilities and improves them over time. It will mutate them both horizontally by adding new related abilities and vertically by increasing the strength of certain aspects. Powers with a lower initial SP cost have a faster growth until they catch up to your other powers.\n\nWhile you can direct the general shape of those changes, your power will also respond and adapt to any challenge you face. When your powers are impotent, immediately useful mutations will be prioritized over long term utility. When you have time to let them grow, new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before, will be added. Any useless or redundant part will be shed or fused into existing abilities. With time, your weaknesses will be reduced and your options broadened.\n\nIt is recommended you give your power time to perform routine maintenance and optimizations between heavy engagements to avoid a buildup of mutation debt. If this debt becomes too high, the quality and reliability of mutation decreases due to the stress placed on your power.\n\nThis power works at a slower rate than <i>Dynamist</i>.\n",
+          "text": "This power integrates with your other abilities and improves them over time. It will mutate them both horizontally by adding new related abilities and vertically by increasing the strength of certain aspects. Powers with a lower initial SP cost have a faster growth until they catch up to your other powers.\n\nWhile you can direct the general shape of those changes, your power will also respond and adapt to any challenge you face. When your powers are impotent, immediately useful mutations will be prioritized over long term utility. When you have time to let them grow, new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before, will be added. Any useless or redundant part will be shed or fused into existing abilities. With time, your weaknesses will be reduced and your options broadened.\n\nIt is recommended you give your power time to perform routine maintenance and optimizations between heavy engagements to avoid a buildup of mutation debt. If this debt becomes too high, the quality and reliability of mutation decreases due to the stress placed on your power.\n\nThis power works at a slower rate than <i>Dynamist</i>.",
           "image": "",
           "template": 1,
           "objectWidth": "",
@@ -66374,7 +66374,7 @@
           "scores": [
             {
               "id": "rm",
-              "value": "25",
+              "value": "20",
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
@@ -66717,7 +66717,7 @@
             }
           ],
           "template": "1",
-          "text": "Your ability to manipulate Mana, one of the fundamental energies of the multiverse, is unlocked. Your mana core is fully formed and has an incredible capacity to generate, store, and transfer mana. You have an innate knowledge of a vast array of spells and techniques in the three branches of mana manipulation.\n\n<b>Conjuration</b>, the shaping of mana into constructs that produce an effects. More commonly known as spells, your library contains information about many different systems of magic and with perseverance you might discover the secrets of True Magic.\n\n<b>Enchantment</b>, the creation of objects powered by Mana, capable of producing the same effects as Conjuration but anchored to objects.\n\nAnd <b>Alchemy</b>, the creation and transformation of materials and liquids with Mana. From potions producing effects when ingested to esoteric metals and gems to use in Enchantments, the creation of devices, or armor.\n\nA library of grimoires about the three branches of mana manipulation has been implanted into your memory as well. You will still need to read and understand them and acquire the necessary skills but all the knowledge you need is at your fingertips. With this power, you can reproduce any magic system from first principles and even create your own. The library contains several broad magic systems to get you started.\n\nWhile this ability has no theoretical upper limit, the more complex and powerful Conjurations will test your knowledge. With enough time you will be able to reach heights only the gods can dream of but be careful not to break reality or destroy your sour on your journey there. ",
+          "text": "Your ability to manipulate Mana, one of the fundamental energies of the multiverse, is unlocked. Your mana core is fully formed and has an incredible capacity to generate, store, and transfer mana. You have an innate knowledge of a vast array of spells and techniques in the three branches of mana manipulation.\n\n<b>Conjuration</b>, the shaping of mana into constructs that produce an effects. More commonly known as spells, your library contains information about many different systems of magic and with perseverance you might discover the secrets of True Magic.\n\n<b>Enchantment</b>, the creation of objects powered by Mana, capable of producing the same effects as Conjuration but anchored to objects.\n\nAnd <b>Alchemy</b>, the creation and transformation of materials and liquids with Mana. From potions producing effects when ingested to esoteric metals and gems to use in Enchantments, the creation of devices, or armor.\n\nA library of grimoires about the three branches of mana manipulation has been implanted into your memory as well. This collections contains all the knowledge you already have and advanced tomes that will allow you to expand you skills as a sorcerer even further. With this power, you can reproduce any magic system from first principles and even create your own.\n\nWhile this ability has no theoretical upper limit, the more complex and powerful Conjurations will test your knowledge. With enough time you will be able to reach heights only the gods can dream of but be careful not to break reality or destroy your sour on your journey there. ",
           "title": "Sorcerer Supreme"
         },
         {
@@ -75327,6 +75327,33 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "kssv",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "The usual way to gain powers in Earth Bet is to either drink a suspicious vial or break down in soul, mind, and body. You are changing that.\nNow the triggers have a lower activation threshold than standard triggers, closer to that of second generation triggers or the Awakening Event. Parahumans will no longer be broken husks of their normal selves.",
+          "title": "Soft Trigger"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "qf01",
           "image": "",
           "isActive": false,
@@ -77193,7 +77220,7 @@
         "selFilterSepiaIsOn": false
       },
       "template": "1",
-      "title": "Alternate Continuity Modifiers",
+      "title": "Continuity Modifiers",
       "titleText": "These choices modify the Earth Bet you will be landing on. You can pick as many as you want, even incompatible ones. If you pick too many incompatible drawbacks, your risk the corruption of the timeline and it's eventual complete destabilization (i.e. it ceases to exist). "
     },
     {
