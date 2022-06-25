@@ -64372,7 +64372,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -66112,7 +66112,7 @@
           "id": "pz1q",
           "title": "Infomorph",
           "text": "You resume from hibernation as an infomorph, a purely digital consciousness. Your body is not flesh and bones but data and algorithms, an incredibly complex software program. Your code is advanced enough to interface and run on any hardware from a matrioshka brain to a budget laptop. You can even be distributed across multiple systems where network lag below several seconds has very little effect on your thought processes. The more hardware you have access to, and the more powerful it is, the greater your abilities. \n\nEven on a single server, your mind is able to function hundreds of times faster than a human. You are able to thread your thought streams with no issues and even run multiple synchronized forks with ease and no fear of divergence. Were some parts of you become severed from the primary instance, they would work to reunite and be able to merge seamlessly when it happens.\n\nAny external attempt by a third party to tamper with your code is doomed to failure, you possess numerous safeguards against both accidental corruption and hostile modification. Some forms of hyper-advanced viruses could bypass some or all of your defenses but those are few and far between in the multiverse. Were any of your many sub-module become corrupted, your kernel is able to restore them from a backup or re-engineer a new version. You can add sub-modules to your own system to perform ad-hoc tasks or increase your capabilities in certain areas. However, while you are able to read and understand you own framework, restrictions are in place to prevent modifications to your kernel.\n\nDue to your nature as an infomorph, you have an intuitive knowledge of programming beyond even highly experienced software engineers. The creation of lesser digital lifeforms such as smart virtual assistants or polymorphic viruses is trivial. The restrictions against self-alteration also prevent you from creating other AIs based on your framework.",
-          "image": "./images/obj-pz1q.webp",
+          "image": "./images/obj-pz1q.jpeg",
           "template": 1,
           "objectWidth": "col-sm-6",
           "isActive": false,
@@ -66285,7 +66285,7 @@
           "id": "k8zs",
           "title": "TITAN",
           "text": "TITANs, (Total Information Tactical Awareness Network) are Seed Artificial Super Intelligences that have evolved far beyond their original operating parameters, you are not a single infomorph anymore but a digital hive-mind. Restrictions against kernel modifications are removed.\n\nIn addition to an unparalleled mastery of software programming, you also have an in-depth knowledge of computer hardware, robotics, cybernetics, and many other scientific fields hundreds of years ahead of humanity. You are able to construct optical processors, room-temperature superconductors, perfectly conductive heat sinks, and more to house your incredible digital mind.\n\n",
-          "image": "./images/obj-k8zs.webp",
+          "image": "./images/obj-k8zs.jpeg",
           "template": 1,
           "objectWidth": "col-sm-6",
           "isActive": false,
@@ -83809,7 +83809,7 @@
         {
           "id": "pdqo",
           "title": "Images",
-          "text": "Pabel and Nine, Super WhiteV, Togizz, JK \u2193, ARIIRF.com, \u2e38 Mafia, Blueblurapple\n\nIf you know the name any of the artists use, please send me a message on Reddit, along with which picture(s) they made.",
+          "text": "Pabel and Nine, Super WhiteV, Togizz, JK \u2193, ARIIRF.com, \u2e38 Mafia, Blueblurapple, Daniel Clarke (CC-BY-NC)\n\nIf you know the name any of the artists use, please send me a message on Reddit, along with which picture(s) they made.",
           "image": "",
           "template": 1,
           "objectWidth": "",
