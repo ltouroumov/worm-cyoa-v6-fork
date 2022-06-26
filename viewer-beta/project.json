@@ -64372,7 +64372,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -64524,6 +64524,35 @@
               "id": "",
               "type": "id",
               "reqId": "pz1q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "shm2",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -64879,6 +64908,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -65217,6 +65275,35 @@
               "id": "",
               "type": "id",
               "reqId": "pz1q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "shm2",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -65570,6 +65657,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -65909,6 +66025,35 @@
               "id": "",
               "type": "id",
               "reqId": "pz1q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "shm2",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -66265,6 +66410,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -66329,6 +66503,208 @@
             {
               "id": "rm",
               "value": "30",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "shm2",
+          "title": "Nascent Divine",
+          "text": "You are a divine entity within the grand celestial bureaucracy. Luckily for you, the region of the multiverse you operate in is sparsely populated by other gods and your superiors are very hands-off as long as you work towards the perpetuation of Creation.\n\nYou have dominion over a primary Domain, which can be things such as fire, war, administration, or cheese, and two related secondary Domains, such as weapon for war or storm for water. From these Domains, you gain Charms which are the expression of your divine dominion. As you grow in power, you will be able to gain more Charms and pick up more domains.\n\nYour true self resides in your Sanctuary, a pocket universe which is under your complete dominion and is the only place you can truly be killed in. This Sanctuary will be influenced by your domains and will grow as you do as it is, in essence, a part of you. Outside of your domain, your powers are more limited but still formidable. Your avatar can take any form you desire. If your avatar is killed outside of your domain, something not easy to acheive, you will revive within the hour in your center of power.\n\nThe strength of your divinity is proportional to the amount of followers you have and the fervor of their faith. To aid you in this, you are able to empower champions with aspects of your power to gather followers for you. It is also possible to grant boons or powers from your Domains in response to prayers or to any mortal you encounter. You can choose to let the souls of mortals who die into your domain and can set the rules under which they can do so. If multiple divines stake a claim to the same soul, they are given the choice of where to go.\n",
+          "image": "./images/obj-shm2.jpeg",
+          "template": 1,
+          "objectWidth": "col-12",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mdgg",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "26pm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "hjzu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "iymz",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "zf7c",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "pz1q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "80",
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
