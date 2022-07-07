@@ -21248,7 +21248,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -27561,7 +27561,7 @@
           "requireds": [],
           "scores": [],
           "template": 1,
-          "text": "You gain a Nemesis who has an ideological position incompatible with yours which cannot be reconciled. This person will have the same Shard Ranking as you. Your nemesis does not necessarily want to kill you their goals will just be diametrically opposed to yours, they will be the Villain to your Hero, or rival business partner or competing shadowy organization.\n\nYour Nemeses will respect the Truce as long as you do as well if they are any alignment other than Chaotic Neutral or Chaotic Evil. \n\nIf you picked Late to the Party, your Nemesis will be part of them.\n\n(You can pick your nemesis alignments in the section below)",
+          "text": "You gain a Nemesis who has an ideological position incompatible with yours which cannot be reconciled. This person will have a build of similar strength to you. Your nemesis does not necessarily want to kill you their goals will just be diametrically opposed to yours, they will be the Villain to your Hero, or rival business partner or competing shadowy organization.\n\nYour Nemeses will respect the Truce as long as you do as well if they are any alignment other than Chaotic Neutral or Chaotic Evil. \n\nIf you picked Late to the Party, your Nemesis will be part of them.\n\n(You can pick your nemesis alignments in the section below)",
           "title": "Nemesis"
         },
         {
@@ -31013,7 +31013,7 @@
             }
           ],
           "template": 1,
-          "text": "One good person, one neutral person, and one evil person arrive on Earth Bet with a build of their choice, except that they arrive at a time before you, don't arrive at the same time as each other, and have the same Shard Ranking as you.",
+          "text": "One good person, one neutral person, and one evil person arrive on Earth Bet with a build of their choice, except that they arrive at a time before you, don't arrive at the same time as each other, and have have a build of similar strength to you.",
           "title": "Late to the Party"
         },
         {
