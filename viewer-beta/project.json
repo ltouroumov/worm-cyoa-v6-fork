@@ -75727,23 +75727,7 @@
           "scores": [],
           "template": 1,
           "text": "Oh, wait, no, I did anchor you to the right place.\nOrigin of Powers: Entities, Shards, Cauldron Vials, Corona Pollenta, Corona Gemma\nMajor Threats: The Entity, The Endbringers, CUI, Cauldron, The Fallen, The Slaughterhouse 9, The Protectorate, etc.\nMajor Powers: The Entity, The Endbringers, CUI, Cauldron, The Fallen, The Slaughterhouse 9, The Protectorate, etc.\nSuper Abilities: Superpowers\n(Known) Endbringers: Behemoth, Leviathan, The Simurgh, Tohu, Bohu, and Khonsu\nEntities on Earth: The Warrior",
-          "title": "Earth Bet (Primary Timeline)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "q6x82",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [],
-          "template": 1,
-          "text": "Instead of arriving on Earth Bet's main continuity you enter a timeline where Zion and Eden never encountered the third entity and did not crash. The Cycle is proceeding as planned.",
-          "title": "Earth Bet (The Cycle Continues)"
+          "title": "Canon Earth Bet"
         },
         {
           "addons": [],
@@ -75759,7 +75743,7 @@
           "scores": [],
           "template": 1,
           "text": "Instead of arriving on Earth Bet's main continuity you enter an alternate timeline (This is essentially the existing fanfic option).",
-          "title": "Earth Bet (Alternate Continuity)"
+          "title": "AU Earth Bet"
         },
         {
           "addons": [],
@@ -75776,6 +75760,22 @@
           "template": 1,
           "text": "Instead of arriving on Earth Bet's main continuity you enter an alternate timeline where two worlds have connected. Pick any other world from the Alternate Earths.",
           "title": "Crossover"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "f6ix",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [],
+          "template": 1,
+          "text": "Instead of arriving on Earth Bet's main continuity you enter an alternate timeline where two worlds have connected with AU elements. Pick any other world from the Alternate Earths and alternate continuity modifiers.",
+          "title": "AU Crossover"
         },
         {
           "addons": [],
@@ -77343,7 +77343,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-4",
           "requireds": [
             {
               "afterText": "",
@@ -77440,7 +77440,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [
             {
@@ -77467,6 +77467,132 @@
           "template": 1,
           "text": "In this world, the Dawn of Parahumans did not begin with the golden light of Scion but with the horrified screams of onlookers across many nations as they watched their world fall into chaos as men, women and children failed to stem the marauding tides of black beasts that dissipate every living thing they touch into non being, called by many as the Beasts of Entropy.\n\nInitially, many nations fell and humanity was pushed back then, the Blessed appeared. Super humans granted a wide variety of near impossible powers to combat these threats allowed humanity to push back and the world united under the banner of the Human Federation. The War Without Dawn began that year, humanity had retreated in sealed cities protected from the unending tide but they are now ready to retake the world from the invader. One square mile at a time, through blood sweat and tear, humanity will see the light of the sun again.\n\nDepending on your chosen starting point, you will arrive at different epochs of this conflicts. The appearance of Parahumans (approx. 1985) corresponds to the arrival of the Blessed. Scion and the Endbringers do not play as significant a role in this world as the do to Earth Bet. You have at most 30 years until Golden Morning depending on when you arrive.",
           "title": "Beasts of Entropy"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "966w",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "vrhq",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "g1zy",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "seva",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-80"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-80"
+            }
+          ],
+          "template": 1,
+          "text": "In this world, Eden never crashed and the cycle is proceeding as planned.\n\nWith the emergence of Parahumans split society into many city states in constant conflict. Endbringers do not attack on a schedule but often attack at opportune times to disrupt alliances or the status quo.\n\nGood news is that you have about 300 years, the bad news is that you are against two Entities.",
+          "title": "The Cycle Continues"
         },
         {
           "addons": [],
@@ -77891,33 +78017,27 @@
           "type": "id"
         },
         {
-          "afterText": "",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
+          "required": true,
+          "requireds": [],
           "orRequired": [
             {
-              "req": ""
+              "req": "q6x83"
             },
             {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
+              "req": "f6ix"
             }
           ],
-          "reqId": "q6x83",
+          "id": "",
+          "type": "or",
+          "reqId": "",
           "reqId1": "",
           "reqId2": "",
           "reqId3": "",
           "reqPoints": 0,
-          "required": true,
-          "requireds": [],
           "showRequired": false,
-          "type": "id"
+          "operator": "",
+          "afterText": "",
+          "beforeText": "Required:"
         }
       ],
       "resultGroupId": "dn",
