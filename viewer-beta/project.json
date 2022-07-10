@@ -21323,6 +21323,35 @@
               "requireds": [],
               "showRequired": true,
               "type": "id"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "d0mx",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
             }
           ],
           "scores": [
@@ -22667,7 +22696,7 @@
             }
           ],
           "template": 1,
-          "text": "You attract the interest of a local group (like the E88, ABB, etc.). They will either want to recruit you or eliminate you.\n\nIf you move locations you will inevitably attract the interest of another group.",
+          "text": "You attract the interest of a local group (like the E88, ABB, etc.). They will either want to recruit you or eliminate you.\n\nIf you participate in dismantling that group, another will not appear. If you move locations you will inevitably attract the interest of another group. ",
           "title": "Wanted (Local)"
         },
         {
@@ -22840,7 +22869,7 @@
             }
           ],
           "template": 1,
-          "text": "You attract the interest of a group with national or international reach (like Cauldron, PRT, CUI, etc.). They will either want to recruit you or eliminate you.\n\nIf you move locations you will inevitably attract the interest of another group.",
+          "text": "You attract the interest of a group with national or international reach (like Cauldron, PRT, CUI, etc.). They will either want to recruit you or eliminate you. \n\nIf you participate in dismantling that group, another will not appear. If you move locations you will inevitably attract the interest of another group.",
           "title": "Wanted (Global)"
         },
         {
