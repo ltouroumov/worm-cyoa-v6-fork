@@ -55839,7 +55839,7 @@
       "id": "e018",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -55977,7 +55977,7 @@
             }
           ],
           "template": 1,
-          "text": "You regenerate near instantaneously, are far more durable than you otherwise would, have unlimited stamina, have no limits when it comes to how strong you can become through training, are beloved by nature and its inhabitants, and your willpower is increased.",
+          "text": "You regenerate near instantaneously, are far more durable than you otherwise would, have unlimited stamina and do not age past your prime, have no limits when it comes to how strong you can become through training, are beloved by nature and its inhabitants, and your willpower is increased.",
           "title": "(Brute) Avalon"
         },
         {
