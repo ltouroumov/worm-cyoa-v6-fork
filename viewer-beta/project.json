@@ -40794,7 +40794,7 @@
       "id": "dn8o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -41005,7 +41005,7 @@
         },
         {
           "id": "kc3g",
-          "title": "Paragon Upgrades",
+          "title": "Mysteries",
           "text": "",
           "image": "",
           "template": 1,
@@ -55868,7 +55868,7 @@
       "id": "e018",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -61647,6 +61647,33 @@
           "template": 1,
           "text": "You gain the physiology of an Asgardian. You will have superhuman physical abilities as well as an unlimited lifespan. You gain the Allspeak, the universal language that can be understood by all.",
           "title": "Asgardian"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "b0z4",
+          "image": "./images/obj-b0z4.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "The spark of magic is ignited within you, finding it easy to learn magic and even take on a new, true from as an Anodite, a being of pure mana with the ability to fly, pull mana from living things, and draw on your magic to a stronger extent. At first all you'll be able to do is form shields, platforms, and energy blasts, but with time and training, you could become akin to a god...just be careful not to lose yourself.",
+          "title": "Anodite"
         }
       ],
       "styling": {
@@ -68456,6 +68483,77 @@
       "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
+        {
+          "id": "6crn",
+          "title": "Magic Reserves",
+          "text": "Your reserves of magic are doubled, this works on every power individually. Your regeneration speed is not improved unless you pick the upgrade.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "k8qi",
+          "title": "Magic Refill",
+          "text": "Your magic regeneration is doubled, this works on every power individually. Your magic reserves are not increased unless you pick the upgrade.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "ra0c",
+          "title": "Paragon Upgrades",
+          "text": "",
+          "image": "",
+          "template": 1,
+          "objectWidth": "col-12",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
+        },
         {
           "id": "hglw",
           "title": "Hybrid Form (Shifter)",
