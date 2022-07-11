@@ -40153,7 +40153,7 @@
           "scores": [],
           "template": 1,
           "text": "",
-          "title": "Combo Powers & Upgrades"
+          "title": "Fusions & Upgrades"
         },
         {
           "id": "ued9",
@@ -40794,7 +40794,7 @@
       "id": "dn8o",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -41005,7 +41005,7 @@
         },
         {
           "id": "kc3g",
-          "title": "Mysteries",
+          "title": "Fusions & Upgrades",
           "text": "",
           "image": "",
           "template": 1,
@@ -58651,7 +58651,7 @@
         "selFilterSepiaIsOn": false
       },
       "template": "1",
-      "title": "Combo Powers",
+      "title": "Power Fusions (Shard)",
       "titleText": "Sometimes when you have multiple powers they'll combine into something stronger."
     },
     {
@@ -59055,7 +59055,7 @@
         "selFilterSepiaIsOn": false
       },
       "template": "1",
-      "title": "Upgrades",
+      "title": "Power Upgrades (Shard)",
       "titleText": "These powers upgrade existing powers (or multiple powers of the same lineage) into a more powerful form."
     },
     {
@@ -68430,7 +68430,7 @@
     },
     {
       "id": "3hbj",
-      "title": "Paragon Upgrades",
+      "title": "Fusions & Upgrades (Shardless)",
       "titleText": "",
       "objectWidth": "col-md-3",
       "image": "",
