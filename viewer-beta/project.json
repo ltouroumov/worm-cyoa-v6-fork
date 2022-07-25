@@ -61029,7 +61029,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -63417,8 +63417,13 @@
             }
           ],
           "template": 1,
-          "text": "You have the ability to summon a Servant from the Throne of Heroes via a ritual, you will gain three command seals once the ritual completes. You can choose which Servant will be summoned.",
-          "title": "Summoner"
+          "text": "You have the ability to summon a Servant from the Throne of Heroes via a ritual, you will gain three command seals once the ritual completes. You can choose which Servant will be summoned. If you exhaust all three command seals or the servant is slain, you can perform another ritual to re-summon another Servant. When picked multiple times, this power allows you to summon multiple Servants at the same time, each servant has its own set of command seals.",
+          "title": "Summoner",
+          "isSelectableMultiple": true,
+          "multipleScoreId": "rm",
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5"
         },
         {
           "addons": [],
@@ -64201,8 +64206,12 @@
             }
           ],
           "template": 1,
-          "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is stronger than an Endbringer will have their abilities weakened so that they're on par with that of an Endbringer. You gain their weaknesses as well.",
-          "title": "Heroic Spirit"
+          "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is stronger than an Endbringer will have their abilities weakened so that they're on par with that of an Endbringer. You gain their weaknesses as well.\n\nYou can only have a single spirit active at once but can switch between them at will.",
+          "title": "Heroic Spirit",
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5"
         },
         {
           "addons": [],
@@ -64254,8 +64263,12 @@
             }
           ],
           "template": 1,
-          "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is a planet-destroyer will have their abilities weakened so that they're hard pressed to destroy a planet. Don't choose an Eldritch Abomination, you will go insane. You gain their weaknesses as well.",
-          "title": "Grand Servant"
+          "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is a planet-destroyer will have their abilities weakened so that they're hard pressed to destroy a planet. Don't choose an Eldritch Abomination, you will go insane. You gain their weaknesses as well.\n\nYou can only have a single spirit active at once but can switch between them at will.",
+          "title": "Grand Servant",
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5"
         }
       ],
       "styling": {
@@ -68515,7 +68528,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
