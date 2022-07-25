@@ -22140,7 +22140,8 @@
           "isSelectableMultiple": true,
           "isMultipleUseVariable": true,
           "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "5"
+          "numMultipleTimesPluss": "5",
+          "multipleUseVariable": 0
         },
         {
           "addons": [],
@@ -22399,7 +22400,8 @@
           "isSelectableMultiple": true,
           "isMultipleUseVariable": true,
           "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "5"
+          "numMultipleTimesPluss": "5",
+          "multipleUseVariable": 0
         },
         {
           "addons": [],
@@ -63427,7 +63429,8 @@
           "multipleScoreId": "rm",
           "isMultipleUseVariable": true,
           "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "5"
+          "numMultipleTimesPluss": "5",
+          "multipleUseVariable": 0
         },
         {
           "addons": [],
@@ -64242,7 +64245,8 @@
           "isSelectableMultiple": true,
           "isMultipleUseVariable": true,
           "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "5"
+          "numMultipleTimesPluss": "5",
+          "multipleUseVariable": 0
         },
         {
           "addons": [],
@@ -64299,7 +64303,8 @@
           "isSelectableMultiple": true,
           "isMultipleUseVariable": true,
           "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "5"
+          "numMultipleTimesPluss": "5",
+          "multipleUseVariable": 0
         }
       ],
       "styling": {
@@ -67065,7 +67070,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -67391,7 +67396,17 @@
           "defaultAspectHeight": 1,
           "requireds": [],
           "addons": [],
-          "scores": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
           "groups": []
         }
       ],
@@ -67921,7 +67936,17 @@
           "defaultAspectHeight": 1,
           "requireds": [],
           "addons": [],
-          "scores": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "60",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
           "groups": []
         }
       ],
