@@ -61029,7 +61029,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -61689,7 +61689,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "87yq",
-          "image": "",
+          "image": "./images/obj-87yq.png",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -63664,7 +63664,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
