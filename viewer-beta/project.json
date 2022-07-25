@@ -21879,7 +21879,11 @@
           ],
           "template": 1,
           "text": "Your body is aged down to somewhere between 6 and 12 years old. You will age normally but cannot use powers to age yourself up. Your physical abilities are reduced to match your age. Adults will not take you seriously and your independence will be severely limited.",
-          "title": "Pint Sized"
+          "title": "Pint Sized",
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5"
         },
         {
           "addons": [],
@@ -22132,7 +22136,11 @@
           ],
           "template": 1,
           "text": "Regardless if you're immune to Master/Stranger powers or not, you have a geas on you. A geas is a compulsion you must obey. You are aware of your geas and are not effected mentally by it, but if you try to go against the geas you won't be able to. It may make your body move on its own if you try to disobey. If your geas was to be a good person, then you would find yourself forced to do things that you felt a good person would do. The more specific the Geas, the more debilitating, impossible, and painful it is to resist. If the Geas is extremely general, like to be a good person, you could get away with being an asshole or even petty theft with only some heartburn, but if it was something like to not steal, then if you tried to steal you'd find yourself paralyzed and feeling as if hundreds of red-hot needles were before forced into every nerve on your body.",
-          "title": "Conscious Geas"
+          "title": "Conscious Geas",
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5"
         },
         {
           "addons": [],
