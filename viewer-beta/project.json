@@ -61029,7 +61029,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -61680,8 +61680,35 @@
             }
           ],
           "template": 1,
-          "text": "The spark of magic is ignited within you, finding it easy to learn magic and even take on a new, true from as an Anodite, a being of pure mana with the ability to fly, pull mana from living things, and draw on your magic to a stronger extent. At first all you'll be able to do is form shields, platforms, and energy blasts, but with time and training, you could become akin to a god...just be careful not to lose yourself.",
+          "text": "The spark of magic is ignited within you, allowing you to find it easy to learn magic and even take on a new, true form as an Anodite, a being of pure mana with the ability to fly, pull mana from living things, and draw on your magic to a stronger extent. At first all you'll be able to do is form shields, platforms, and energy blasts, but with time and training, you could become akin to a god...just be careful not to lose yourself.",
           "title": "Anodite"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "87yq",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "Your genes are modified with Saiyan DNA, making you a Half-Saiyan. You gain strength sufficient to shatter a boulder with a well-placed punch, proportionally enhanced physical resilience, the ability to leap great distances, the ability to rise even stronger every time you come close to death, a natural talent for Ki, and great potential due to your Human/Saiyan hybrid nature.",
+          "title": "Half-Saiyan"
         }
       ],
       "styling": {
