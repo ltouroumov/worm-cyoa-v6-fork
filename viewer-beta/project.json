@@ -23249,7 +23249,7 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "CP",
+              "afterText": "SP",
               "beforeText": "Gain:",
               "id": "rm",
               "requireds": [],
@@ -23258,7 +23258,7 @@
               "value": "-5"
             },
             {
-              "afterText": "SP",
+              "afterText": "CP",
               "beforeText": "Gain:",
               "id": "2b",
               "requireds": [],
@@ -67573,7 +67573,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -77464,7 +77464,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "5"
+              "value": "-5"
             }
           ],
           "template": 1,
@@ -79626,7 +79626,7 @@
           "scores": [
             {
               "afterText": "CP",
-              "beforeText": "Gain:",
+              "beforeText": "Cost:",
               "id": "2b",
               "requireds": [],
               "showScore": true,
