@@ -63664,7 +63664,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -63831,6 +63831,33 @@
           "template": 1,
           "text": "Your Ki is unlocked, allowing you to 'power up' using your ki to boost your strength, speed, and durability as well as fire Ki blasts. On top of that, not only are you a master of a mundane martial art of your choice with three years of combat training and experience in that style to match, but you know how to blow up a car through a Ki blast technique with this, however, using Ki is incredibly draining to use and is best reserved for finishing moves, which you'll have to train hard to grow past this point and overcome your limits. Luckily, you've gained the physical conditioning and mental resilience one would expect from mastering your chosen martial art in three years.",
           "title": "Ki (Dragon Ball)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "g0ut",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You become capable with Ninjutsu to the same level as an Academy Graduate, complete with a working Chakra pathway system, capability in a basic Taijutsu style, the ability to reinforce yourself with Chakra to match Captain America in physical capabilities, a random elemental affinity, a C-rank technique in that elemental affinity, and knowledge in how Jutsu are made through experience in Chakra molding and familiarity with Chakra theory. You can increase your baseline physical energy derived from your body's cells through training, stimulants, and exercise, and your baseline spiritual energy through studying, exercise, and experience, which you combine into useable Chakra.",
+          "title": "Ninjutsu (Naruto)"
         },
         {
           "addons": [],
