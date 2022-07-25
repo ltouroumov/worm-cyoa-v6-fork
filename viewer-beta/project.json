@@ -67256,7 +67256,7 @@
         {
           "id": "wci9",
           "title": "Builder",
-          "text": "You have access to a grid of empty 75 nodes. These nodes can be filled with specialized modules which can be connected together to form a power, each module provides one component of the power. The strength of the power is proportional to the level of the modules used while a more complex and versatile power requires more modules. (The square root of the total level of the modules roughly correlates to the PRT rating.)\n\nThe powers you create cannot create knowledge out of nowhere, any Thinker or Tinker power starts with an empty database unless you fill it with data you already have.\n\nEvery day, you generate 10 base level modules. Those modules can be specialized to be used in powers and there are hundreds of possible module specializations, some only available for higher level modules. Modules can be specialized to handle logic or data processing, however you will need to combine multiple of them to handle complex tasks. (Picking Electronics Engineering related Skills or Tinker powers makes you proficient with the language.)\n\nYou can upgrade a module by fusing it with one or more other modules. To bring it to level 2, it needs 2 total levels, to level 3 it needs 3 total levels, etc. Once fused they cannot be split and will only retain a single specialization of your choice. A module always uses one slot regardless of its level. You can store up to 200 spare modules of any level.\n\nOver time, the number of nodes, the number and level of generated modules, and other aspects of your power will grow.",
+          "text": "You have access to a hexagonal grid of empty 127 nodes. These nodes can be filled with specialized modules which can be connected together to form a power, each module provides one component of the power. The strength of the power is proportional to the level of the modules used while a more complex and versatile power requires more modules. (The square root of the total level of the modules roughly correlates to the PRT rating.)\n\nThe powers you create cannot create knowledge out of nowhere, any Thinker or Tinker power starts with an empty database unless you fill it with data you already have.\n\nEvery day, you generate 10 base level modules. Those modules can be specialized to be used in powers and there are hundreds of possible module specializations, some only available for higher level modules. Modules can be specialized to handle logic or data processing, however you will need to combine multiple of them to handle complex tasks. (Picking Electronics Engineering related Skills or Tinker powers makes you proficient with the language.)\n\nYou can upgrade a module by fusing it with one or more other modules. To bring it to level 2, it needs 2 total levels, to level 3 it needs 3 total levels, etc. Once fused they cannot be split and will only retain a single specialization of your choice. A module always uses one slot regardless of its level. You can store up to 200 spare modules of any level.\n\nOver time, the number of nodes, the number and level of generated modules, and other aspects of your power will grow.",
           "image": "",
           "template": 1,
           "objectWidth": "",
@@ -67270,7 +67270,7 @@
             {
               "id": "",
               "title": "Embedded Engineer",
-              "text": "Your cores now attach to the grid and are able to interface with specialized modules (emulation core uses a number of nodes equivalent to their level, other cores use a number of nodes equivalent to their total cost). Your grid starts with 150 nodes.",
+              "text": "Your cores now attach to the grid and are able to interface with specialized modules. Emulation cores use 7 nodes in a circular formation, other cores use 3 nodes in a triangular formation).\n\nYour grid starts with 271 nodes.",
               "template": "",
               "image": "",
               "requireds": [
@@ -67344,6 +67344,23 @@
               "showScore": true
             }
           ],
+          "groups": []
+        },
+        {
+          "id": "3c8l",
+          "title": "Tinker of Fiction",
+          "text": "You gain the ability to build technology from fictional worlds. Worlds where the technology requires a specific energy source or materials will give you knowledge on how to make that material using what you have, or produce that energy with specially designed equipment. You fully understand the mechanics behind the technology and can iterate or build upon it as you feel like.\n\nTechnology trees are split into up to ten tiers depending on how much depth they offer. World with multiple distinct technology trees need to be purchased individually (Endless Space would have a tree for each faction for example).\n\nEach week (or 168 earth hours), you gain one charge which can be used to either purchase a new random technology tree at first tier or raise the tier of an existing one.  You can only have on tree active at once and can only change once",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
           "groups": []
         }
       ],
@@ -67556,7 +67573,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -67858,6 +67875,23 @@
           "template": 1,
           "text": "Your Spark has ignited. You are able to planeswalk through the multiverse at your leisure. You can target any plane you have already visited with contemptuous ease and target an exact destination. When you jump to a new plane, you are able to target your desired destination and will only suffer misfires rarely. Your familiarity with dimensional travel also allows you to create pocket dimensions and demi-planes.\n\nYour body is now a projection of your Soul, you are be able to alter your appearance at will and even replicate the abilities of other creatures by studying the. Your Soul is also a powerful source of Mana. While you are able to cast spells, you do not have the knowledge to do so. You can of course learn by yourself, find a Mentor to tech you, or pick any of the magical powers available in this section.",
           "title": "Elder Planeswalker"
+        },
+        {
+          "id": "ompb",
+          "title": "Celestial Forge",
+          "text": "You have access to the Celestial Forge.\n\nYou start out with 5 random 0 CP perks and one random 200 CP perk.\n\nEvery day, you gain 50 CP which can be spent to purchase perks, you can only gain one perk per day. You can spend CP to gain a random perk or purchase a specific perk for twice it's listed price.",
+          "image": "./images/obj-ompb.jpeg",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [],
+          "groups": []
         }
       ],
       "styling": {
