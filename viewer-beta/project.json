@@ -21880,7 +21880,7 @@
           "template": 1,
           "text": "Your body is aged down to somewhere between 6 and 12 years old. You will age normally but cannot use powers to age yourself up. Your physical abilities are reduced to match your age. Adults will not take you seriously and your independence will be severely limited.",
           "title": "Pint Sized",
-          "isSelectableMultiple": true,
+          "isSelectableMultiple": false,
           "isMultipleUseVariable": true,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5"
@@ -22395,7 +22395,11 @@
           ],
           "template": 1,
           "text": "Regardless if you're immune to Master/Stranger powers or not, you have a geas on you. A geas is a compulsion you must obey. You are unaware of your geas, and its effects are entirely mental. If your chosen geas was to be a good person, then you would find yourself genuinely trying to be a good person. If that was your geas, you would have to shift your alignment to good though. This is NOT caused by your Shard if you have one. To be clear, you forget you chose this Perk even if you remember all your other choices. The more general the Geas is, the less it effects your personality. If your Geas was to be good, you'd find yourself a significantly better person, or at least trying to be a significantly better person, but you might still occasionally do something you know isn't good because of selfishness, revenge, or some other reason. If your geas was more specific, like to not steal, you'd obsessively hate the idea of stealing and likely couldn't do it even if it would stop the entity from ending all worlds.",
-          "title": "Unconscious Geas"
+          "title": "Unconscious Geas",
+          "isSelectableMultiple": true,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5"
         },
         {
           "addons": [],
@@ -61029,7 +61033,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -67061,7 +67065,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -67376,7 +67380,7 @@
         {
           "id": "3c8l",
           "title": "Tinker of Fiction",
-          "text": "You gain the ability to build technology from fictional worlds. Worlds where the technology requires a specific energy source or materials will give you knowledge on how to make that material using what you have, or produce that energy with specially designed equipment. You fully understand the mechanics behind the technology and can iterate or build upon it as you feel like.\n\nTechnology trees are split into up to ten tiers depending on how much depth they offer. World with multiple distinct technology trees need to be purchased individually (Endless Space would have a tree for each faction for example).\n\nEach week (or 168 earth hours), you gain one charge which can be used to either purchase a new random technology tree at first tier or raise the tier of an existing one.  You can only have on tree active at once and can only change once",
+          "text": "You gain the ability to build technology from fictional worlds. Worlds where the technology requires a specific energy source or materials will give you knowledge on how to make that material using what you have, or produce that energy with specially designed equipment. You fully understand the mechanics behind the technology and can iterate or build upon it as you feel like.\n\nTechnology trees are split into up to ten tiers depending on how much depth they offer. World with multiple distinct technology trees need to be purchased individually (Endless Space would have a tree for each faction for example).\n\nEach week (or 168 earth hours), you gain one charge which can be used to either purchase a new random technology tree at first tier or raise the tier of an existing one.  You can only have on tree active at once, you can choose which tree you will have active for the next day but cannot change during the day, the change happens at midnight.",
           "image": "",
           "template": 1,
           "objectWidth": "",
