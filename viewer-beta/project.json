@@ -9037,7 +9037,7 @@
           "scores": [
             {
               "afterText": "CP",
-              "beforeText": "Gain:",
+              "beforeText": "Cost:",
               "id": "2b",
               "isActive": false,
               "requireds": [],
@@ -9065,7 +9065,7 @@
           "scores": [
             {
               "afterText": "CP",
-              "beforeText": "Gain:",
+              "beforeText": "Cost:",
               "id": "2b",
               "isActive": false,
               "requireds": [],
