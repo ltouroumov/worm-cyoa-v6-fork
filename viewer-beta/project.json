@@ -62575,7 +62575,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -62878,7 +62878,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "k4sv",
-          "image": "",
+          "image": "./images/obj-k4sv.png",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -64518,7 +64518,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
