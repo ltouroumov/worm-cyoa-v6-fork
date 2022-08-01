@@ -64518,7 +64518,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -65737,7 +65737,7 @@
           "id": "9vxr",
           "title": "Werewolf Alpha",
           "text": "You wake up as an Alpha Werewolf, a human cursed to transform into a lupine creature under the light of the full moon.\n\nYour aging is slowed considerably and stops at the physical age of 45. As an Alpha, you have mastered the curse and can transform into either a large wolf (Canis Lupus) or a human-wolf hybrid. In any of your forms, you have formidable regeneration, endurance, and strength. If your heart or head are completely destroyed, you will die. You are also highly vulnerable to silver and weapons of divine origin.",
-          "image": "",
+          "image": "./images/obj-9vxr.jpeg",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -65968,7 +65968,7 @@
           "id": "oa1z",
           "title": "Werewolf Elder",
           "text": "You are an Elder Werewolf. You lack the vulnerabilities of your younger brethren. You can survive your hear or head being destroyed and can regenerate nearly any wound in just a few minutes.\n\nYour physical prowess are similarly increased tenfold and your control over your form is perfect, you are able to change only parts of yourself such as your eyes. In addition to this, you have gained several supernatural abilities such as the power to summon a pack of wolves to do your bidding, an aura of terror that makes your opponents cower before you, and more. Moreover, due to your advanced age, you can split up to a 100 years of experience between powers if they increase in power with skill.\n\nSilver no longer affect you and your resistance to divine damage is greatly increased.",
-          "image": "",
+          "image": "./images/obj-oa1z.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -66054,7 +66054,7 @@
           "id": "pl80",
           "title": "Loup-Garou",
           "text": "You are one of the few true werewolves in existence. Your soul has merged with the curse and you have become an embodiment of it. This marks you as a true noble among your kind. The few weaknesses you possessed as an elder are gone. You can regenerate from any wound and inhibiting your powers is extremely difficult. The supernatural abilities to your disposal are even more varied.\n\nYour raw power alone is truly ridiculous. While you are not unbeatable, especially to teams working together, you\u2019re more than strong enough to match the magic or bodily power of anyone short of another Vampire Noble or Loup-Garou or powers that could contest an Endbringer. Any other power you pick is increased in strength to reflect this. In addition, you can split up to 250 years of experience between any powers you have if their strength increases with skill.",
-          "image": "",
+          "image": "./images/obj-pl80.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
