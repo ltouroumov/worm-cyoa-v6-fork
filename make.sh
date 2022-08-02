@@ -16,5 +16,6 @@ PROJECT="project-$VERSION.json"
 
 cp "$INPUT" $PROJECT
 python3 -m cyoa.tools.client project.format --project $PROJECT --skip-backup
+python3 -m cyoa.tools.client media.optimize --project $PROJECT --write
 python3 -m cyoa.tools.client build --input $PROJECT --output $BUILD
 git status
