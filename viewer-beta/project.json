@@ -67685,7 +67685,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "eo6y",
-          "image": "",
+          "image": "./images/obj-eo6y.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -70215,7 +70215,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
