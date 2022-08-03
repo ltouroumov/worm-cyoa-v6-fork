@@ -67676,7 +67676,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -67872,7 +67872,7 @@
           "id": "3ndw",
           "title": "Dynamist Jr.",
           "text": "This power integrates with your other abilities and improves them over time. It will mutate them both horizontally by adding new related abilities and vertically by increasing the strength of certain aspects. Powers with a lower initial SP cost have a faster growth until they catch up to your other powers.\n\nWhile you can direct the general shape of those changes, your power will also respond and adapt to any challenge you face. When your powers are impotent, immediately useful mutations will be prioritized over long term utility. When you have time to let them grow, new optimizations and sub-powers based on where they detect challenges to be most likely, or which have stumped you before, will be added. Any useless or redundant part will be shed or fused into existing abilities. With time, your weaknesses will be reduced and your options broadened.\n\nIt is recommended you give your power time to perform routine maintenance and optimizations between heavy engagements to avoid a buildup of mutation debt. If this debt becomes too high, the quality and reliability of mutation decreases due to the stress placed on your power.\n\nThis power works at a slower rate than <i>Dynamist</i>.",
-          "image": "",
+          "image": "./images/obj-3ndw.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -67898,8 +67898,8 @@
         {
           "id": "wci9",
           "title": "Builder",
-          "text": "You have access to a hexagonal grid of empty 127 nodes. These nodes can be filled with specialized modules which can be connected together to form a power, each module provides one component of the power. The strength of the power is proportional to the level of the modules used while a more complex and versatile power requires more modules. (The square root of the total level of the modules roughly correlates to the PRT rating.)\n\nThe powers you create cannot create knowledge out of nowhere, any Thinker or Tinker power starts with an empty database unless you fill it with data you already have.\n\nEvery day, you generate 10 base level modules. Those modules can be specialized to be used in powers and there are hundreds of possible module specializations, some only available for higher level modules. Modules can be specialized to handle logic or data processing, however you will need to combine multiple of them to handle complex tasks. (Picking Electronics Engineering related Skills or Tinker powers makes you proficient with the language.)\n\nYou can upgrade a module by fusing it with one or more other modules. To bring it to level 2, it needs 2 total levels, to level 3 it needs 3 total levels, etc. Once fused they cannot be split and will only retain a single specialization of your choice. A module always uses one slot regardless of its level. You can store up to 200 spare modules of any level.\n\nOver time, the number of nodes, the number and level of generated modules, and other aspects of your power will grow.",
-          "image": "",
+          "text": "You have access to a hexagonal grid of empty 127 nodes. These nodes can be filled with specialized modules which can be connected together to form a power, each module provides one component of the power. The strength of a power is determined by its highest level module and incurs a penalty of 1/10th of a level for every module 3 or more levels below the maximum. \n\nThe powers you create cannot create knowledge out of nowhere, any Thinker or Tinker power starts with an empty database unless you fill it with data you already have.\n\nEvery day, you generate 10 base level modules. Those modules can be specialized to be used in powers and there are hundreds of possible module specializations, some only available for higher level modules. Modules can be specialized to handle logic or data processing, however you will need to combine multiple of them to handle complex tasks. (Picking Electronics Engineering related Skills or Tinker powers makes you proficient with the language.)\n\nYou can upgrade a module by fusing it with one or more other modules. To bring it to level 2, it needs 2 total levels, to level 3 it needs 3 total levels, etc. Once fused they cannot be split and will only retain a single specialization of your choice. A module always uses one slot regardless of its level. You can store up to 200 spare modules of any level.\n\nOver time, the number of nodes, the number and level of generated modules, and other aspects of your power will grow.",
+          "image": "./images/obj-wci9.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -67965,7 +67965,7 @@
           "id": "pa82",
           "title": "Engineer",
           "text": "You have access to 5 emulation cores, which can be programmed to emulate powers, one computational core, which can be used to run background tasks, one data core, which can be used to store data permanently, and one router core which allows cores to communicate.\n\nThe emulation cores you start with can support powers ranked up to 8 on the PRT scale. The computational core is capable of fast parallel computation on par with a supercomputer. While emulation cores can perform the same tasks as a computational core, at the same cost they are 20% less powerful than a computational core due to the dedicated power hardware. Data cores can store one exabyte of data and provide a build-in filesystem. The router core can handle up to 9 connections.\n\nThese emulation and computational can be programmed using a low level assembly language (machine code). Emulation cores have special hardware that allows them to manifest powers through special instructions.\n\nYou have access to a complete reference manual for this language. Each instruction has simple usage examples and the manual contains several complete example of basic powers to get you started. (Picking Software Engineering related Skills or Tinker powers makes you proficient with the language.)\n\nEvery day, you generate one core which can be used to improve your existing ones or add more. Once a core is improved or specialized, it cannot be turned back. Computational, data, and router cores each cost 5 cores to create. An emulator core costs 1 core at first level (PRT scale) and needs 2 cores to upgrade it to level 2, and 3 cores for level 3, etc.\n\nYou can specialize emulator cores to make them more able to support specific types of powers at the expense of making other types less powerful (+2 to chosen type, -3 to all others) for the cost of the current level.",
-          "image": "",
+          "image": "./images/obj-pa82.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -68225,7 +68225,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
