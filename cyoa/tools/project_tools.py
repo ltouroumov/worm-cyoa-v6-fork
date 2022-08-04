@@ -1,3 +1,4 @@
+import importlib
 from pathlib import Path
 from shutil import copyfile
 from typing import List, Dict
@@ -5,6 +6,7 @@ from typing import List, Dict
 from rich.table import Table
 
 from cyoa.tools.lib import *
+from cyoa.tools.patch import PatchBase, PatchContext
 
 
 class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
@@ -70,7 +72,6 @@ class ProjectPointsTool(ToolBase, ProjectUtilsMixin):
         console.print(points_table)
 
 
-
 def check_duplicates(project):
     object_ids: Dict[str, List] = {}
     for row_data in project['rows']:
@@ -92,7 +93,7 @@ def check_requirements(project):
         if (obj := graph.objects.get(oid, None)) is None:
             console.print(f"Unknown object {oid}")
             continue
-        
+
         row = graph.rows[obj.row_id]
 
         if len(missing_inputs := (vertex.inputs - object_ids)) > 0:
@@ -116,8 +117,111 @@ class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
         check_requirements(self.project)
 
 
+def visit_project(project, visitor: PatchBase):
+    context = PatchContext(
+        point_types={d['id']: d for d in project['pointTypes']},
+        groups={d['id']: d for d in project['groups']},
+    )
+
+    visitor.visit(
+        node_type='project',
+        node_data=project,
+        parents={},
+        context=context
+    )
+
+    for row_data in project['backpack']:
+        visitor.visit(
+            node_type='backpack.row',
+            node_data=row_data,
+            parents={'project': project},
+            context=context
+        )
+
+    for row_data in project['rows']:
+        visitor.visit(
+            node_type='row',
+            node_data=row_data,
+            parents={'project': project},
+            context=context
+        )
+        visitor.visit(
+            node_type='row.styling',
+            node_data=row_data['styling'],
+            parents={'project': project, 'row': row_data},
+            context=context
+        )
+
+        for object_data in row_data['objects']:
+            visitor.visit(
+                node_type='object',
+                node_data=object_data,
+                parents={'project': project, 'row': row_data},
+                context=context
+            )
+            if styling := object_data.get('styling', None):
+                visitor.visit(
+                    node_type='object.styling',
+                    node_data=styling,
+                    parents={'project': project, 'row': row_data, 'obj': object_data},
+                    context=context
+                )
+
+            for addon in object_data['addons']:
+                visitor.visit(
+                    node_type='object.addon',
+                    node_data=addon,
+                    parents={'project': project, 'row': row_data, 'obj': object_data},
+                    context=context
+                )
+
+            for points in object_data['scores']:
+                visitor.visit(
+                    node_type='object.score',
+                    node_data=points,
+                    parents={'project': project, 'row': row_data, 'obj': object_data},
+                    context=context
+                )
+
+
+class ProjectPatchTool(ToolBase, ProjectUtilsMixin):
+    name = 'project.patch'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser.add_argument('--project', dest='project_file', type=Path)
+        parser.add_argument('--patch', dest='patches', nargs='+', action='extend')
+
+    def run(self, args):
+        self._load_project(args.project_file)
+
+        for patch in args.patches:
+            module_name, class_name = str.split(patch, ':', maxsplit=2)
+            try:
+                module_inst = importlib.import_module(module_name)
+            except:
+                console.log(f"Cannot load [b cyan]{module_name}[/]")
+                console.print_exception()
+                continue
+
+            if class_inst := getattr(module_inst, class_name, None):
+                if not issubclass(class_inst, PatchBase):
+                    console.log(f"Class [b][cyan]{module_name}[/].[magenta]{class_name}[/][/] is not a [b]PatchBase[/]")
+                    continue
+
+                console.log(f"Applying [b][cyan]{module_name}[/].[magenta]{class_name}[/][/]")
+                patch_inst = class_inst()
+                visit_project(self.project, patch_inst)
+            else:
+                console.log(f"Cannot find [b][cyan]{module_name}[/].[red]{class_name}[/][/]")
+
+        self._save_project(args.project_file)
+
+
 TOOLS = (
     ProjectFormatTool,
     ProjectPointsTool,
     ProjectCheckTool,
+    ProjectPatchTool,
 )
