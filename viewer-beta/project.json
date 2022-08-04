@@ -12721,7 +12721,7 @@
           "scores": [
             {
               "afterText": "SP",
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "id": "rm",
               "isActive": false,
               "requireds": [
@@ -12782,7 +12782,7 @@
                   "beforeText": "Required:"
                 }
               ],
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "afterText": "CP",
               "showScore": true
             }
@@ -13478,7 +13478,7 @@
           "scores": [
             {
               "afterText": "SP",
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "id": "rm",
               "isActive": false,
               "requireds": [
@@ -13539,7 +13539,7 @@
                   "beforeText": "Required:"
                 }
               ],
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "afterText": "CP",
               "showScore": true
             }
@@ -16003,7 +16003,7 @@
           "scores": [
             {
               "afterText": "CP",
-              "beforeText": "Gain:",
+              "beforeText": "Cost:",
               "id": "2b",
               "isActive": false,
               "requireds": [],
@@ -16949,7 +16949,7 @@
             },
             {
               "afterText": "Module Slots",
-              "beforeText": "Gain:",
+              "beforeText": "Cost:",
               "id": "bw",
               "isActive": false,
               "requireds": [],
@@ -23500,7 +23500,7 @@
           "scores": [
             {
               "afterText": "SP",
-              "beforeText": "Gain",
+              "beforeText": "Gain:",
               "id": "rm",
               "isActive": false,
               "requireds": [
@@ -24397,7 +24397,7 @@
             },
             {
               "afterText": "CP",
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "id": "2b",
               "isActive": false,
               "requireds": [
@@ -24654,7 +24654,7 @@
             },
             {
               "afterText": "CP",
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "id": "2b",
               "isActive": false,
               "requireds": [
@@ -24911,7 +24911,7 @@
             },
             {
               "afterText": "CP",
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "id": "2b",
               "isActive": false,
               "requireds": [
@@ -25168,7 +25168,7 @@
             },
             {
               "afterText": "CP",
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "id": "2b",
               "isActive": false,
               "requireds": [
@@ -25455,7 +25455,7 @@
             },
             {
               "afterText": "CP",
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "id": "2b",
               "isActive": false,
               "requireds": [
@@ -37245,7 +37245,7 @@
             },
             {
               "afterText": "CP",
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "id": "2b",
               "isActive": false,
               "requireds": [],
@@ -48602,7 +48602,7 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "points",
+              "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
               "requireds": [],
@@ -48916,7 +48916,7 @@
           "requireds": [],
           "scores": [
             {
-              "afterText": "points",
+              "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
               "requireds": [],
@@ -65958,7 +65958,7 @@
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
-              "afterText": "points",
+              "afterText": "SP",
               "showScore": true
             }
           ],
@@ -66044,7 +66044,7 @@
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
-              "afterText": "points",
+              "afterText": "SP",
               "showScore": true
             }
           ],
@@ -66130,7 +66130,7 @@
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
-              "afterText": "points",
+              "afterText": "SP",
               "showScore": true
             }
           ],
@@ -66853,7 +66853,7 @@
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
-              "afterText": "points",
+              "afterText": "SP",
               "showScore": true,
               "isActive": false
             }
@@ -66940,7 +66940,7 @@
               "type": "",
               "requireds": [],
               "beforeText": "Cost:",
-              "afterText": "points",
+              "afterText": "SP",
               "showScore": true,
               "isActive": false
             }
