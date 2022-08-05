@@ -67676,7 +67676,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -67703,7 +67703,7 @@
             }
           ],
           "template": 1,
-          "text": "You are a true genus the likes of Reed Richards, Tony Stark, or Victor von Doom. You have an incredible ability to process and visualize information, a perfect memory, and an incredible capacity to acquire knowledge. \n\nWith reference materials on hand, you can acquire knowledge as fast as you can read. Knowledge builds on itself, the more related fields you master the better understanding of them you develop. You can even discover entirely new fields with some effort by cross-referencing information you already know. While the most obvious application of these abilities is in science and technology, you are by no means limited to it.\n\nA week or two of study could allow you to learn any skill, be it martial arts or underwater basket weaving, to a point where you are proficient with it, the more you practice any of your skills the better you become. Your rate of progress is dependent on the difficulty of what you are studying, fields such as magic can still take you many decades to master completely. You are however limited to what your body can handle, this power by itself does not allow you to surpass your physical limits or grant you the ability to wield supernatural powers.\n\nWhen you acquire new skills and expertise, you will never forget or become incapable of your peak accomplishments. With time you will inevitably become a veritable Swiss Army Knife of incredible scientific knowledge, incredible feats of physical skill and much more.",
+          "text": "You are a true genius the likes of Reed Richards, Tony Stark, or Victor von Doom. You have an incredible ability to process and visualize information, a perfect memory, and an incredible capacity to acquire knowledge. \n\nWith reference materials on hand, you can acquire knowledge as fast as you can read. Knowledge builds on itself, the more related fields you master the better understanding of them you develop. You can even discover entirely new fields with some effort by cross-referencing information you already know. While the most obvious application of these abilities is in science and technology, you are by no means limited to it.\n\nA week or two of study could allow you to learn any skill, be it martial arts or underwater basket weaving, to a point where you are proficient with it, the more you practice any of your skills the better you become. Your rate of progress is dependent on the difficulty of what you are studying, fields such as magic can still take you many decades to master completely. You are however limited to what your body can handle, this power by itself does not allow you to surpass your physical limits or grant you the ability to wield supernatural powers.\n\nWhen you acquire new skills and expertise, you will never forget or become incapable of your peak accomplishments. With time you will inevitably become a veritable Swiss Army Knife of incredible scientific knowledge, incredible feats of physical skill and much more.",
           "title": "Polymath"
         },
         {
@@ -68225,7 +68225,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -68525,7 +68525,7 @@
             }
           ],
           "template": 1,
-          "text": "Your Spark has ignited. You are able to planeswalk through the multiverse at your leisure. You can target any plane you have already visited with contemptuous ease and target an exact destination. When you jump to a new plane, you are able to target your desired destination and will only suffer misfires rarely. Your familiarity with dimensional travel also allows you to create pocket dimensions and demi-planes.\n\nYour body is now a projection of your Soul, you are be able to alter your appearance at will and even replicate the abilities of other creatures by studying the. Your Soul is also a powerful source of Mana. While you are able to cast spells, you do not have the knowledge to do so. You can of course learn by yourself, find a Mentor to tech you, or pick any of the magical powers available in this section.",
+          "text": "Your Spark has ignited. You are able to planeswalk through the multiverse at your leisure. You can target any plane you have already visited with contemptuous ease and target an exact destination. When you jump to a new plane, you are able to target your desired destination and will only suffer misfires rarely. Your familiarity with dimensional travel also allows you to create pocket dimensions and demi-planes.\n\nYour body is now a projection of your Soul, you are be able to alter your appearance at will and even replicate the abilities of other creatures by studying them. Your Soul is also a powerful source of Mana. While you are able to cast spells, you do not have the knowledge to do so. You can of course learn by yourself, find a Mentor to tech you, or pick any of the magical powers available in this section.",
           "title": "Elder Planeswalker"
         },
         {
