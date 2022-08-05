@@ -61928,7 +61928,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -61937,7 +61937,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "759c",
-          "image": "",
+          "image": "./images/obj-759c.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -61963,7 +61963,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "0eh9",
-          "image": "",
+          "image": "./images/obj-0eh9.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -62042,7 +62042,7 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "5aed",
-          "image": "",
+          "image": "./images/obj-5aed.webp",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
