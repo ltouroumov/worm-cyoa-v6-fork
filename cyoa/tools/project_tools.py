@@ -183,6 +183,14 @@ def visit_project(project, visitor: PatchBase):
                     context=context
                 )
 
+            for points in object_data['requireds']:
+                visitor.visit(
+                    node_type='object.condition',
+                    node_data=points,
+                    parents={'project': project, 'row': row_data, 'obj': object_data},
+                    context=context
+                )
+
 
 class ProjectPatchTool(ToolBase, ProjectUtilsMixin):
     name = 'project.patch'

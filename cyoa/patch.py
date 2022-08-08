@@ -17,6 +17,16 @@ class FixScoreLabels(PatchBase):
             console.log(f"Object {obj['id']} has malformed score: {score}")
 
 
+class FixConditionLabels(PatchBase):
+    @patch(target="object.condition")
+    def patch_points(self, cond, obj, context: PatchContext):
+        if cond['type'] == 'id' and cond['showRequired']:
+            if cond['required']:
+                cond['beforeText'] = 'Required:'
+            else:
+                cond['beforeText'] = 'Incompatible:'
+
+
 class FixMultiSelectCounters(PatchBase):
     """
     {
