@@ -61928,7 +61928,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -70215,7 +70215,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -70360,7 +70360,7 @@
           "id": "n8er",
           "title": "Grimoire",
           "text": "A book based around teaching the practice of a magic system to beginners. Which magic system? Well, that's up to you, but it has to be one that can be learned by anyone, although rituals or tools being required to use the magic system work as well so long as their creation or use are taught in the Grimoire. This could take the form of a Wizard's spellbook or an Archivist's prayerbook from D&D, Gwen's Spellbook from Ben 10, or an Encantus from Doofquest, just for some examples. This spellbook very well could act as a focus or be enchanted in some minor ways such as shifting into pocket size and back, but not an actual magical artifact into itself.",
-          "image": "",
+          "image": "./images/obj-n8er.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
