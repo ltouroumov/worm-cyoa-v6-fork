@@ -49862,7 +49862,7 @@
       "id": "zg2f",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -50386,7 +50386,7 @@
             }
           ],
           "template": 1,
-          "text": "Your Shard modifies your brain to bring your Intelligence and Memory to the level of a one of a kind genius like Tony Stark or Reed Richards. You can master new fields of knowledge or skills in a matter of days or weeks instead of months or years. You form muscle memory and reflexes with only a nominal amount of training. \n\nYou keep some of this ability when your Shard runs out of juice, although your rate of growth is halved.",
+          "text": "You have 7 slots which can either be filled with a skill or a Thinker power. \n\nWhen you slot in a skill, you can use it at the level of a master. These skills include the mastery of a single style of martial arts, a field of medicine or science, cooking, juggling, and more. Anything that can be learned you can have. Skills that require a muscle memory provide it.\n\nThe Thinker powers you can have are limited to at most a rating of 5 on the PRT scale. Powers that operate on your senses and observations will tend to be more accurate than those that require external information (like precognition).",
           "title": "(Thinker) Polymath"
         },
         {
@@ -55882,7 +55882,7 @@
       "id": "e018",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -68225,7 +68225,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
