@@ -18182,7 +18182,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "incompatible:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -18883,7 +18883,7 @@
             },
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -23290,7 +23290,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Incompatible: ",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -26130,7 +26130,7 @@
             },
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -51513,7 +51513,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -51542,7 +51542,7 @@
             },
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -51588,7 +51588,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -51617,7 +51617,7 @@
             },
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -51663,7 +51663,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -51692,7 +51692,7 @@
             },
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -52566,7 +52566,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -52595,7 +52595,7 @@
             },
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -52641,7 +52641,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -52670,7 +52670,7 @@
             },
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -52716,7 +52716,7 @@
           "requireds": [
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -52745,7 +52745,7 @@
             },
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -54076,7 +54076,7 @@
             },
             {
               "afterText": "",
-              "beforeText": "Required:",
+              "beforeText": "Incompatible:",
               "id": "",
               "operator": "",
               "orRequired": [
@@ -70658,6 +70658,87 @@
           "title": "The Phantom Magus Combino Deck",
           "text": "A deck of 78 Blank Faced Tarot Cards bound to your very soul.\n\nThese cards have the Magical Ability to seal and unseal \"Anything\" into themselves. This is not the true power of the Cards though. No, its true power is the power to \"COMBINE\". By taking the \"Item/Essence\" of one Card and combining it with another card, you make something new. For Example, if you take a Lighter and Combine its Essence of \"Combustion/Flame\" and combine it with the Essence of \"Gun\", you create a Gun, that shoots fireballs instead of bullets.\n\nThe cards also give you the ability of a Professional Magician. Acrobatics, Sleight of Hand, Mentalism Skills and So on. Though there does come some unfortunate side effects. You get a urge of Kleptomania and theatrics.",
           "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "15",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "r9qf",
+          "title": "Valkyrie Core",
+          "text": "A Valkyrie core is a white sphere whose size ranges from a golf to a tennis ball. When synched it is absorbed into the person\u2019s body.\n\nA Valkyrie Core essentially comes with an ever expanding hammerspace that can store any nonliving objects into it as long as it has space. Any object can be repaired or improved while in storage space and any technology can be integrated allowing it to be used when either stored or expressed externally. Cores tend to develop personalities overtime but other than Durga\u2019s occasional shows of sapience only Kandakara has demonstrated an actual human like personality during its failed attempts to communicate with Koujirou.\n\nImpeller fields are capable of all sorts of bullshit. They essentially act as exotic force fields at their most basic level. Your Impeller also allows you for the manipulation of object within its radius including the human body. It also allows you to perform various forms of spatial manipulation, such as teleportation, at the cost of current Impeller strength. Your Impeller constantly recharges, though the amount it recharges and your Impeller\u2019s total strength is determined by a combination of the total number of hours synched to your Valkyrie Core, compatibility rating, total equipment integrated, and the complexity of that equipment.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "gekl",
+          "title": "Sacred Gear (DxD)",
+          "text": "A sacred gear is an object containing the power, abilities, and soul of some mythical creature defeated and imprisoned within by God of the Abrahamic faiths.\n\nThe gear is placed securely in your soul and while the creature can communicate with you, it is sentient and sapient, and shares its supernatural essence with you. It cannot in any way harm you without your consent.\n\nYou can pick any sacred gear shown in canon including the longinus class gears. You only start out with their basic abilities and forms and have to work your way up to their true power, balance breaker states and beyond.\n\nAny sacred gear you pick that is not longinus class has the ability to evolve into that level of power.\n\nBe aware that while they are securely contained within your soul, their essence still somewhat leaks out into you, leading to a person having a draconic sacred gear to becoming a bit more draconic themselves, and gaining a faint dragon like aura as an example.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "cq42",
+          "title": "Ancient Belkan Intelligent Device",
+          "text": "An ancient relic from an advanced precursor race that had destroyed itself in war, previously used by knights and having taken damage to it's memory banks, this will find you as a suitable master or mistress. You can learn Ancient Belkan magic from this, but it's only capable of creating an artificial D-rank linker core due to low power which you'll need to use to power this, although you may use other magic sources and improve your magic power through training unlike Midchildan artificial linker cores.",
+          "image": "./images/obj-cq42.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
