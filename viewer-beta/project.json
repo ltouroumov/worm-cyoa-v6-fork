@@ -49862,7 +49862,7 @@
       "id": "zg2f",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -50200,7 +50200,7 @@
             }
           ],
           "template": 1,
-          "text": "You can make forcefields with a total surface area across all forcefields of 100 square meters. Nothing can penetrate these. The edges of these forcefields are sharper than anything any Tinker has ever made, unless you intentionally smooth them out.",
+          "text": "You can create a large number of inviolable forcefields, your only limit is visualization and concentration. You must be able to keep track of all the forcefields you create, a multitasking power greatly increases the number you can manage at once. \n\nEach individual forcefield can be at most 400 square meters in surface and 10 centimeters thick, multiple fields can interlock to form a larger one. You can control the permeability at will. Nothing short of Sting can penetrate these. The edges of these forcefields are sharper than anything any Tinker has ever made, unless you intentionally smooth them out.",
           "title": "(Shaker) Inviolable"
         },
         {
@@ -70215,7 +70215,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
