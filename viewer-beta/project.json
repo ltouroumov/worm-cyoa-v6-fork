@@ -49862,7 +49862,7 @@
       "id": "zg2f",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -55882,7 +55882,7 @@
       "id": "e018",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -59264,7 +59264,7 @@
             {
               "afterText": "CP",
               "beforeText": "Cost:",
-              "id": "",
+              "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -64736,6 +64736,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -65133,6 +65162,35 @@
               "id": "",
               "type": "id",
               "reqId": "9vxr",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -65545,6 +65603,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -65940,6 +66027,35 @@
               "id": "",
               "type": "id",
               "reqId": "26pm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -66351,6 +66467,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -66748,6 +66893,35 @@
               "id": "",
               "type": "id",
               "reqId": "9vxr",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -67162,6 +67336,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -67211,6 +67414,438 @@
               "id": "",
               "type": "id",
               "reqId": "pz1q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "30",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "q9c6",
+          "title": "Android Platform",
+          "text": "You resume from hibernation inside a mobile android platform. Your body is not flesh and bones but carbon alloys and synthetic fibers. \n\nYou consciousness is housed inside a hyper-dense diamond computational matrix, giving you mental abilities far in excess of most humans. While you can interface with most computer systems, your consciousness requires specific hardware to run.\n\nYour body is an incredibly advanced machine, housing a large number of tools and weapons, with a power core capable of fueling them all. You also possess an onboard scanner and nano-fabricator capable of reproducing any technology you encounter (30x30x30 cm) as well as the myriad of blueprints already in your database.\n\nUnder cursory inspection, you can pass as human with no issues if you chose to. However, scans that peer beyond the surface will reveal your true nature.",
+          "image": "./images/obj-q9c6.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "iymz",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "hjzu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "26pm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "9vxr",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mdgg",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "zf7c",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "pz1q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "kbkt",
+          "title": "Mechanized Platform",
+          "text": "Mechanized Platforms are much larger than androids. They vary in size between 4 and 10 meters in height and weigh several tons. Platforms are highly modular with a large number of internal and external attachment points and able to be reconfigured to fulfill a large variety of roles. Their large onboard fabricator (100x100x100cm) is capable of producing a large array of equipment on the field. A small drone bay also allows the platform to deploy a complement of four to six helpers to explore places it is too large or heavy to enter.",
+          "image": "./images/obj-kbkt.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "15",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "p7br",
+          "title": "SEED Platform",
+          "text": "SEED Platforms are automated vessels designed to travel to a world and establish production facilities ahead of colonization efforts. While the hyperdrive core of platform you inhabit is damaged, it retains all of its capabilities.\n\nThe platform is capable of moving both in atmosphere and underwater with the help of its anti-gravity generators and travel through the solar system with its sublight drives, provided you manage to avoid the Simurgh. (The size is roughly that of a modern aircraft carrier ~350x80x80m.)\n\nLightly armed with only point defense lasers, the main strength of the SEED platform lies in its powerful harvesters and fabricators. You possess a large complement of utility drones capable of mining and harvesting large amounts of resources from terrain and asteroids as well as a dozen fabrication units (10x10x10m). \n\nYour blueprint database contains schematics for Android and Mechanized platforms, among other things. Your powerful computational resources and subspace communication array allows you to pilot multiple such platforms at once from anywhere in the solar system (provided they have a compatible receiver).\n\nWhile you are not as powerful as a TITAN in raw computational power, your production capability is unmatched.",
+          "image": "./images/obj-p7br.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -67442,6 +68077,35 @@
               "id": "",
               "type": "id",
               "reqId": "9vxr",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -79952,7 +80616,7 @@
             {
               "afterText": "CP",
               "beforeText": "Cost:",
-              "id": "",
+              "id": "2b",
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -80627,7 +81291,7 @@
       },
       "template": "1",
       "title": "Alternate Earths",
-      "titleText": "Dammit! I made a mistake anchored your soul to the wrong world. Here's a dossier on the world you're being sent to. Keep in mind that the entity will still wipe out the multiverse and you still have just as much time as you would otherwise until then.\n\nWith the exception of one of these, they're all other universes precogs in your world predicted. Your world has a strangely large amount of precogs that predict other universes. I think the Thinker Entity planned to use them to make sure nothing went out of hand in worlds with a lot of Parahumans or large amounts of non-Parahuman empowered people.\n\nIf you chose Slaughterhouse 8 a small number of Parahumans will begin to Trigger so that this becomes possible. The members won't be the same as the Earth Bet Slaughterhouse 9, but the difficulty will be about the same.\nIf you chose Endbringer Target then three Endbringers that aren't Behemoth, Leviathan, Simurgh, Khonsu, Tohu, or Bohu will appear in your new world, acting like the Endbringers from Earth Bet.\n\nFor Reincarnation, any Civilian Identity you chose will be adapted to the setting. Depending on the setting, Case 53 might make you appear like a non-human species.\n\n<center><b>Scenarios</b></center>\n\nApril 7, 2011 = Two years, two months, and thirteen days before the end of canon, as it is now.\nSummer, 2009 = About three and a half years before what you call canon.\nMay 8th, 2005 = About 8 years before the end of what you call canon, as it is now.\nSeptember 14th, 2000 = About 13 years before the end of what you call canon, as it is now.\nNovember 1st, 1999 = About 14 years before the end of what you call canon, as it is now.\nMay 19th, 1982 = About 31 years before the end of what you call canon, as it is now.\nJune 20th, 2013 =  The end of what you call canon, as it is now.\nJuly 1st, 2015 = A little over 2 years after what you call canon ends.\nJune 24th, 2064 = About 50 years after what you call canon.\n\n(Creator Note: These entry points can be changed if it would make your story better)\n\n<center><b>Notes</b></center>\n\nMajor Threats are sometimes only major threats if you ally yourself with the eyes the precog saw the world through.\n\nAlso, power copying / stealing only works on Shard-Based powers. The exception to this is Body Swap, which swaps Shard-Based and Body-Based powers.\n\nAnything related to altering or controlling causality, such as the Fates in Percy Jackson, Gae Bolg in Fate/Stay Night, or a Wish in Puella Magi Madoka Magika, can be protected against using Blind Spot and Mental Barrier. Also, Disclaimer, I'm not strong enough to protect against a wish aimed at you, and this does not protect against time travel.\n\nThe maximum strength for an unpowered human in any world affects Olympic and Captain America."
+      "titleText": "Dammit! I made a mistake anchored your soul to the wrong world. Here's a dossier on the world you're being sent to. Keep in mind that the entity will still wipe out the multiverse and you still have just as much time as you would otherwise until then.\n\nWith the exception of one of these, they're all other universes precogs in your world predicted. Your world has a strangely large amount of precogs that predict other universes. I think the Thinker Entity planned to use them to make sure nothing went out of hand in worlds with a lot of Parahumans or large amounts of non-Parahuman empowered people.\n\nIf you chose Slaughterhouse 8 a small number of Parahumans will begin to Trigger so that this becomes possible. The members won't be the same as the Earth Bet Slaughterhouse 9, but the difficulty will be about the same.\nIf you chose Endbringer Target then three Endbringers that aren't Behemoth, Leviathan, Simurgh, Khonsu, Tohu, or Bohu will appear in your new world, acting like the Endbringers from Earth Bet.\n\nFor Reincarnation, any Civilian Identity you chose will be adapted to the setting. Depending on the setting, Case 53 might make you appear like a non-human species.\n\n<center><b>Scenarios</b></center>\nIf you chose to appear in an Alternate Earth, the scenario you chose informs at which point in this universe's timeline you appear, relative to the start of canon Worm (The Apr 2011 choice). If the universe has multiple starts (Harry Potter, Mass Effect, etc.) you can chose relative to which \"episode\" the start is.\n\nIn the case of a crossover, the scenario choice informs at which point in the Worm timeline you are. You are free to chose where the crossover universe is in its timeline.\n\n<center><b>Notes</b></center>\n\nMajor Threats are sometimes only major threats if you ally yourself with the eyes the precog saw the world through.\n\nAlso, power copying / stealing only works on Shard-Based powers. The exception to this is Body Swap, which swaps Shard-Based and Body-Based powers.\n\nAnything related to altering or controlling causality, such as the Fates in Percy Jackson, Gae Bolg in Fate/Stay Night, or a Wish in Puella Magi Madoka Magika, can be protected against using Blind Spot and Mental Barrier. Also, Disclaimer, I'm not strong enough to protect against a wish aimed at you, and this does not protect against time travel.\n\nThe maximum strength for an unpowered human in any world affects Olympic and Captain America."
     },
     {
       "allowedChoices": 1,
