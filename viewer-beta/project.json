@@ -64550,7 +64550,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -67502,7 +67502,7 @@
         {
           "id": "p7br",
           "title": "SEED Platform",
-          "text": "SEED Platforms are automated vessels designed to travel to a world and establish production facilities ahead of colonization efforts. While the hyperdrive core of platform you inhabit is damaged, it retains all of its capabilities.\n\nThe platform is capable of moving both in atmosphere and underwater with the help of its anti-gravity generators and travel through the solar system with its sublight drives, provided you manage to avoid the Simurgh. (The size is roughly that of a modern aircraft carrier ~350x80x80m.)\n\nThe SEED platform is armed with a complement of combat drones, capable of defending the platform in a variety of scenarios, as well as a powerful point laser defense system.\n\nHowever, the main strength of the SEED platform lies in its powerful harvester drones and fabricators. You possess a large complement of utility drones capable of mining and harvesting large amounts of resources from terrain and asteroids as well as a several dozen fabrication units (10x10x10m). \n\nYour blueprint database contains schematics for Android and Mechanized platforms, as well as everything needed to establish a suitable world for an advanced post-scarcity civilization.\n\nYour powerful computational resources and subspace communication array allows you to pilot multiple such platforms at once from anywhere in the solar system (provided they have a compatible receiver).",
+          "text": "SEED Platforms are automated vessels designed to travel to a world and establish production facilities ahead of colonization efforts. While the hyperdrive core of platform you inhabit is damaged, it retains all of its capabilities.\n\nThe platform is capable of moving both in atmosphere and underwater with the help of its anti-gravity generators and travel through the solar system with its sublight drives, provided you manage to avoid the Simurgh. (The size is roughly that of a modern aircraft carrier ~350x80x80m.)\n\nThe SEED platform is armed with a complement of combat drones, capable of defending the platform in a variety of scenarios, as well as a powerful point laser defense system.\n\nHowever, the main strength of the SEED platform lies in its powerful harvester drones and fabricators. You possess a large complement of utility drones capable of mining and harvesting large amounts of resources from terrain and asteroids as well as a several dozen fabrication units (10x10x10m). The SEED platform also comes equipped with a powerful teleporter capable of moving the same volume as a fabricator at a distance of up to 200'000km.\n\nYour blueprint database contains schematics for Android and Mechanized platforms, as well as everything needed to establish a suitable world for an advanced post-scarcity civilization.\n\nYour powerful computational resources and subspace communication array allows you to pilot multiple such platforms at once from anywhere in the solar system (provided they have a compatible receiver).",
           "image": "./images/obj-p7br.webp",
           "template": 1,
           "objectWidth": "",
