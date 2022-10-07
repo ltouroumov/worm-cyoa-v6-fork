@@ -67122,6 +67122,438 @@
           "groups": []
         },
         {
+          "id": "q9c6",
+          "title": "Android Platform",
+          "text": "You resume from hibernation inside a mobile android platform. Your body is not flesh and bones but carbon alloys and synthetic fibers. \n\nYou consciousness is housed inside a hyper-dense diamond computational matrix, giving you mental abilities far in excess of most humans. While you enjoy most of the benefits of an infomorph, your consciousness requires specific hardware to run. You know how to reproduce and build this hardware.\n\nYour body is an incredibly advanced machine. Your outer shell is capable of shifting to accommodate a large range of appearances as well as various modifications like tails, tentacles, and more. Your inner systems made use of extensive spatial folding and translocation to house a high-efficiency reactor and a vast array of components, weapons, and tools.\n\nThe sensor suite at your disposition is capable of scanning and analyzing your surroundings to a highly detailed degree. You also possess two small nano-fabricator (30x30x30 cm) capable of building any technology you scan as well as the myriad of blueprints already in your database (technology level equivalent to an advanced post-scarcity society).\n\nUnder cursory inspection, you can pass as human with no issues if you chose to. However, scans that peer beyond the surface will reveal your true nature.",
+          "image": "./images/obj-q9c6.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "iymz",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "hjzu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "26pm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "9vxr",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mdgg",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "zf7c",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "pz1q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "15",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "kbkt",
+          "title": "Mechanized Platform",
+          "text": "Mechanized Platforms are much larger than androids. They vary in size between 4 and 16 meters in height and weigh several tons. Platforms are highly modular, capable of reconfiguring their outer shell to fit a variety of roles, with a large number of internal and external attachment points and able to fulfill a large variety of roles. \n\nTheir three onboard fabricators (100x100x100cm) are capable of producing a large array of equipment on the field, including an Android platform. A small drone bay also allows the platform to deploy a complement of ten to fifteen helpers to explore places it is too large or heavy to enter.",
+          "image": "./images/obj-kbkt.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "p7br",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "15",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "p7br",
+          "title": "SEED Platform",
+          "text": "SEED Platforms are automated vessels designed to travel to a world and establish production facilities ahead of colonization efforts. While the hyperdrive core of platform you inhabit is damaged, it retains all of its capabilities.\n\nThe platform is capable of moving both in atmosphere and underwater with the help of its anti-gravity generators and travel through the solar system with its sublight drives, provided you manage to avoid the Simurgh. (The size is roughly that of a modern aircraft carrier ~350x80x80m.)\n\nThe SEED platform is armed with a complement of combat drones, capable of defending the platform in a variety of scenarios, as well as a powerful point laser defense system.\n\nHowever, the main strength of the SEED platform lies in its powerful harvester drones and fabricators. You possess a large complement of utility drones capable of mining and harvesting large amounts of resources from terrain and asteroids as well as a several dozen fabrication units (10x10x10m). \n\nYour blueprint database contains schematics for Android and Mechanized platforms, as well as everything needed to establish a suitable world for an advanced post-scarcity civilization.\n\nYour powerful computational resources and subspace communication array allows you to pilot multiple such platforms at once from anywhere in the solar system (provided they have a compatible receiver).",
+          "image": "./images/obj-p7br.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "kbkt",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
           "id": "pz1q",
           "title": "Infomorph",
           "text": "You resume from hibernation as an infomorph, a purely digital consciousness. Your body is not flesh and bones but data and algorithms, an incredibly complex software program. Your code is advanced enough to interface and run on any hardware from a matrioshka brain to a budget laptop. You can even be distributed across multiple systems where network lag below several seconds has very little effect on your thought processes. The more hardware you have access to, and the more powerful it is, the greater your abilities. You are able to exist outside of computer systems as a holographic projection, in this form you are extremely physically weak (about the strength of a young child) and can be disrupted by EMP weapons.\n\nEven on a single server, your mind is able to function hundreds of times faster than a human. You are able to thread your thought streams with no issues and even run multiple synchronized forks with ease and no fear of divergence. Were some parts of you become severed from the primary instance, they would work to reunite and be able to merge seamlessly when it happens.\n\nAny external attempt by a third party to tamper with your code is doomed to failure, you possess numerous safeguards against both accidental corruption and hostile modification. Some forms of hyper-advanced viruses could bypass some or all of your defenses but those are few and far between in the multiverse. Were any of your many sub-module become corrupted, your kernel is able to restore them from a backup or re-engineer a new version. You can add sub-modules to your own system to perform ad-hoc tasks or increase your capabilities in certain areas. However, while you are able to read and understand you own framework, restrictions are in place to prevent modifications to your kernel.\n\nDue to your nature as an infomorph, you have an intuitive knowledge of programming beyond even highly experienced software engineers. The creation of lesser digital lifeforms such as smart virtual assistants or polymorphic viruses is trivial. The restrictions against self-alteration also prevent you from creating other AIs based on your framework.",
@@ -67414,438 +67846,6 @@
               "id": "",
               "type": "id",
               "reqId": "pz1q",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "addons": [],
-          "scores": [
-            {
-              "id": "rm",
-              "value": "30",
-              "type": "",
-              "requireds": [],
-              "beforeText": "Cost:",
-              "afterText": "SP",
-              "showScore": true
-            }
-          ],
-          "groups": []
-        },
-        {
-          "id": "q9c6",
-          "title": "Android Platform",
-          "text": "You resume from hibernation inside a mobile android platform. Your body is not flesh and bones but carbon alloys and synthetic fibers. \n\nYou consciousness is housed inside a hyper-dense diamond computational matrix, giving you mental abilities far in excess of most humans. While you can interface with most computer systems, your consciousness requires specific hardware to run.\n\nYour body is an incredibly advanced machine, housing a large number of tools and weapons, with a power core capable of fueling them all. You also possess an onboard scanner and nano-fabricator capable of reproducing any technology you encounter (30x30x30 cm) as well as the myriad of blueprints already in your database.\n\nUnder cursory inspection, you can pass as human with no issues if you chose to. However, scans that peer beyond the surface will reveal your true nature.",
-          "image": "./images/obj-q9c6.webp",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [
-            {
-              "required": false,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "iymz",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            },
-            {
-              "required": false,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "hjzu",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            },
-            {
-              "required": false,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "26pm",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            },
-            {
-              "required": false,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "9vxr",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            },
-            {
-              "required": false,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "mdgg",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            },
-            {
-              "required": false,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "zf7c",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            },
-            {
-              "required": false,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "pz1q",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            },
-            {
-              "required": false,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "shm2",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "addons": [],
-          "scores": [
-            {
-              "id": "rm",
-              "value": "20",
-              "type": "",
-              "requireds": [],
-              "beforeText": "Cost:",
-              "afterText": "SP",
-              "showScore": true
-            }
-          ],
-          "groups": []
-        },
-        {
-          "id": "kbkt",
-          "title": "Mechanized Platform",
-          "text": "Mechanized Platforms are much larger than androids. They vary in size between 4 and 10 meters in height and weigh several tons. Platforms are highly modular with a large number of internal and external attachment points and able to be reconfigured to fulfill a large variety of roles. Their large onboard fabricator (100x100x100cm) is capable of producing a large array of equipment on the field. A small drone bay also allows the platform to deploy a complement of four to six helpers to explore places it is too large or heavy to enter.",
-          "image": "./images/obj-kbkt.webp",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "q9c6",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            },
-            {
-              "required": false,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "p7br",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "addons": [],
-          "scores": [
-            {
-              "id": "rm",
-              "value": "15",
-              "type": "",
-              "requireds": [],
-              "beforeText": "Cost:",
-              "afterText": "SP",
-              "showScore": true
-            }
-          ],
-          "groups": []
-        },
-        {
-          "id": "p7br",
-          "title": "SEED Platform",
-          "text": "SEED Platforms are automated vessels designed to travel to a world and establish production facilities ahead of colonization efforts. While the hyperdrive core of platform you inhabit is damaged, it retains all of its capabilities.\n\nThe platform is capable of moving both in atmosphere and underwater with the help of its anti-gravity generators and travel through the solar system with its sublight drives, provided you manage to avoid the Simurgh. (The size is roughly that of a modern aircraft carrier ~350x80x80m.)\n\nLightly armed with only point defense lasers, the main strength of the SEED platform lies in its powerful harvesters and fabricators. You possess a large complement of utility drones capable of mining and harvesting large amounts of resources from terrain and asteroids as well as a dozen fabrication units (10x10x10m). \n\nYour blueprint database contains schematics for Android and Mechanized platforms, among other things. Your powerful computational resources and subspace communication array allows you to pilot multiple such platforms at once from anywhere in the solar system (provided they have a compatible receiver).\n\nWhile you are not as powerful as a TITAN in raw computational power, your production capability is unmatched.",
-          "image": "./images/obj-p7br.webp",
-          "template": 1,
-          "objectWidth": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "defaultAspectWidth": 1,
-          "defaultAspectHeight": 1,
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "q9c6",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": false,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            },
-            {
-              "required": false,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "kbkt",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
