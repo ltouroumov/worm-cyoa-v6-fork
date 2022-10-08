@@ -1,7 +1,5 @@
 {
-  "activated": [
-    "d0mx"
-  ],
+  "activated": [],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -2101,7 +2099,7 @@
       "iconIsOn": false,
       "id": "rm",
       "name": "Shard Points",
-      "startingSum": -10,
+      "startingSum": 0,
       "image": "",
       "iconWidth": "16",
       "iconHeight": "16",
@@ -2114,7 +2112,7 @@
       "beforeText": "Character Points:",
       "id": "2b",
       "name": "Character Points",
-      "startingSum": -10,
+      "startingSum": 0,
       "iconIsOn": false,
       "image": "",
       "iconWidth": "16",
@@ -35148,7 +35146,7 @@
       "buttonRandomNumber": 1,
       "buttonText": "Click",
       "buttonType": true,
-      "currentChoices": 1,
+      "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
       "id": "6ouk",
@@ -35195,7 +35193,7 @@
           "groups": [],
           "id": "d0mx",
           "image": "",
-          "isActive": true,
+          "isActive": false,
           "isVisible": true,
           "objectWidth": "col-12",
           "requireds": [],
@@ -35208,7 +35206,7 @@
               "beforeText": "Cost:",
               "afterText": "SP",
               "showScore": true,
-              "isActive": true
+              "isActive": false
             },
             {
               "id": "2b",
@@ -35218,7 +35216,7 @@
               "beforeText": "Cost:",
               "afterText": "CP",
               "showScore": true,
-              "isActive": true
+              "isActive": false
             }
           ],
           "template": 1,
@@ -64550,7 +64548,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
