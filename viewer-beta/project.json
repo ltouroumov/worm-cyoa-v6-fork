@@ -21574,7 +21574,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -65139,7 +65139,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isRequirementOpen": false,
       "objects": [
         {
@@ -65378,6 +65378,35 @@
               "id": "",
               "type": "id",
               "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -65820,6 +65849,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -66245,6 +66303,35 @@
               "id": "",
               "type": "id",
               "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -66685,6 +66772,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -66876,7 +66992,7 @@
         {
           "id": "mdgg",
           "title": "Angel",
-          "text": "You wake up in the body of an angel, a powerful being of divine energy. While your true form is inscrutable to being of lesser power, you instead appear as a humanoid with a pair of wings. Your exact appearance is malleable to a degree. All angels are timeless, you do not age. \n\nAs a divine being, you have natural proficiency with any divine or spiritual magic or powers as well as a significantly greater well of power to draw from. In addition to this, you have 150 years of experience to distribute between any of your powers that increase in strength with skill.\n\nWhen assuming a physical form, you are able to contest an adult dragon for strength and toughness in a much smaller package.",
+          "text": "You wake up in the body of an angel, a powerful being of divine energy. While your true form is inscrutable to being of lesser power, you instead appear as a humanoid with a pair of fathered wings. Your exact appearance is malleable to a degree. All angels are timeless, you do not age. \n\nAs a divine being, you have natural proficiency with any divine or spiritual magic or powers as well as a significantly greater well of power to draw from. In addition to this, you have 150 years of experience to distribute between any of your powers that increase in strength with skill. Due to their nature, your powers are more effective against devils.\n\nWhen assuming a physical form, you are able to contest an adult dragon for strength and toughness in a much smaller package.",
           "image": "./images/obj-mdgg.webp",
           "template": 1,
           "objectWidth": "",
@@ -67117,6 +67233,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -67282,6 +67427,469 @@
               "id": "",
               "type": "id",
               "reqId": "ilx3",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true,
+              "isActive": false
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "mtz5",
+          "title": "Devil",
+          "text": "You wake up in the body of an devil, a powerful being of infernal energy. While your true form is inscrutable to being of lesser power, you instead appear as a humanoid with colored skin and bat wings. Your exact appearance is malleable to a degree. All devils are timeless, you do not age. \n\nAs an infernal being, you have natural proficiency with any infernal or spiritual magic or powers as well as a significantly greater well of power to draw from. In addition to this, you have 150 years of experience to distribute between any of your powers that increase in strength with skill. Due to their nature, your powers are more effective against angels.\n\nWhen assuming a physical form, you are able to contest an adult dragon for strength and toughness in a much smaller package.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "iymz",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "hjzu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "26pm",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "zf7c",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "pz1q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "9vxr",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mdgg",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "30",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true,
+              "isActive": false
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "cjb0",
+          "title": "Marquis",
+          "text": "Marquis are higher class devils. Your physical form becomes much more malleable to the degree you are able to impersonate others or take the form of animals if you wish it so. Your well of divine energy is 5 times larger and you have 450 years of experience to draw from.\n\nWhen assuming a physical form, you are able to contest an elder dragon for strength and toughness, the size of your chosen form affects your agility.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "rpkk",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Incompatible:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
+        },
+        {
+          "id": "rpkk",
+          "title": "King",
+          "text": "Kings are the most powerful devils in existence. Your physical form is almost unconstrained. Your well of divine energy is 20 times larger and you have 850 years of experience to draw from.\n\nWhen assuming a physical form, you are able to contest an ancient dragon for strength and toughness, the size of your chosen form affects your agility.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "cjb0",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -67543,6 +68151,35 @@
               "id": "",
               "type": "id",
               "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -67986,6 +68623,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -68418,6 +69084,35 @@
               "operator": "",
               "afterText": "",
               "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
             }
           ],
           "addons": [],
@@ -68727,6 +69422,35 @@
               "id": "",
               "type": "id",
               "reqId": "q9c6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": false,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            },
+            {
+              "required": false,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "mtz5",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
