@@ -8998,7 +8998,7 @@
       "id": "bz36",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -9057,7 +9057,7 @@
             }
           ],
           "template": 1,
-          "text": "You become the twin of an existing character.",
+          "text": "You become the twin of an existing character. With this option you also have the same power as your twin, trigger events are adjusted so that things work out.",
           "title": "Twin"
         },
         {
