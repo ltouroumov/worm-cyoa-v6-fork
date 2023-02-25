@@ -70023,6 +70023,33 @@
             }
           ],
           "groups": []
+        },
+        {
+          "id": "VaNa",
+          "title": "Doomsday",
+          "text": "You possess self-biokinetic adaptable cells capable of accelerated evolution. Your rapidly mutating somatic cells grants you peak physical, mental capabilities, and mutative regeneration capable of restoring limbs in hours. As time passes your cells get faster and better with use granting more physical strength, durability, speed, reaction speed, motor skills, coordination, thought speed, and senses. You could even develop entirely new senses with an expanded awareness of things that normal humans can’t even imagine. Your mutative regenerations restore not just wounds but adapt to what causes them while also gaining new features, growths, and capabilities to match any situation regardless of the source. These rapid mutations guarantee immunity to attacks in 8-10 hits, adaption to hostile environments in minutes, and can even trump altercations to you and your mind. Pushed too far without time to rest can cause your body to start adapting out of control, much faster than normal, but can begin to negatively impact itself and hinder your movements and actions. This can be prevented through time or stored biomass, as your body naturally refines mutations to become more streamlined and efficient which allows you to return to a normal human form while maintaining all the adaptive weapons, defenses, and redundancies you have developed. Your cells can never have any demerits that will get in the way of each other, negative mutations, subversion, unfixable changes, or assimilation is impossible. Your cells, when forcefully separated from your main body, begin to decay into simple proteins that prevent anyone from properly analyzing them and can easily be reabsorbed to aid your regeneration similar to stored biomass. Consuming biomass allows you to store or gain traits to improve or add adaptations without being exposed to danger or killed. You can also use the stored biomass to rapidly alter your physical form. Your understanding and analysis of powers through your senses are accelerated as you can quickly break down and guide adaptations to counter them. This allows further streamlined adaptations based on experiences, battles, and information. An example of this is gaining immunity to flamethrowers can escalate to gaining immunity to plasma. You can even develop entirely new adaptations based on observed technological or organic abilities, replicating them inside your body. In time, you can grow immunity to poisons, sickness, trumps, masters, strangers, reality rewriters, precogs, and many more. With a long and arduous journey, you can eventually shrug off the scariest beings imaginable.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "25",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
         }
       ],
       "styling": {
@@ -70542,6 +70569,29 @@
           "title": "Celestial Forge",
           "text": "You have access to the Celestial Forge.\n\nYou start out with 5 random 0 CP perks and one random 200 CP perk.\n\nEvery day, you gain 50 CP which can be spent to purchase perks, you can only gain one perk per day. You can spend CP to gain a random perk or purchase a specific perk for twice it's listed price.\n\n (Note: In the context of this power, CP represents the Jumpchain 'Choice Points' not the 'Character Points' of this CYOA)",
           "image": "./images/obj-ompb.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "60",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            },
+            {
+          "id": "Ma3f",
+          "title": "The One Who Crawls",
+          "text": "You are the pinnacle of biological perfection; your cells are in a state of superposition allowing them to simultaneously be anything and everything. All the adaptions you’ve gained could be used at the same time while a single cell could operate as your brain, organ, and sensory organs all at the same time in addition to whatever adaptions you developed. Your cells have already removed the need for breathing, eating, sleeping, and even aging as you are completely self-sufficient. Because of this, you possess physical strength not many parahumans can match, skyrocketing mental capabilities that can even understand eldritch horrors, a wide array of nigh impossible senses, and an instantaneous form of healing that can make total destruction cause you to appear somewhere else akin to as if you were never there. Your highly adaptable cells can grant immunity to any attack in 2-3 hits, adaption to hostile environments in seconds, and even ignore attempts to alter your mind or body. While you have a better-evolved form of healing, you can still gain mutations and adaptions. Due to this, esoteric or rare forms of offense of sufficient variety can begin to cause your body to rapidly adapt to the point of negatively impacting your movements and actions. Although it doesn’t last long due to your body’s natural refinement of mutations that allows you to return to a normal human form with the additions of your new adaptions. Your cells can never have any demerits that will get in the way of each other, negative mutations, subversion, unfixable changes, or assimilation while anything that could affect you could easily be adapted to. Your cells are information black holes that make no sense to anyone but you and actively ignore forms of analysis, they could even self-destruct and vanish. Consuming biomass allows you to store or gain traits to improve or add adaptations without being exposed to danger or killed. You can also use the stored biomass to rapidly alter your physical form. Your understanding and analysis of powers from your senses can figure out even conceptual things to break down and grow immune to. This allows further enhancement of adaptions based on experiences, battles, and information. An example of this is gaining immunity to hammers can escalate to being totally immune to blunt force. You can even develop entirely new adaptions based on observed technological and organic abilities, even replicating them perfectly within you. In time you can grow immunity to everything ever imagined and shrug off things that make even the fabric of reality pale.",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
