@@ -64594,6 +64594,33 @@
           "template": 1,
           "text": "You have in your very genetics the power of the universe and the future, the infinite potential. Spiral Power. You can accomplish, and do, practically anything, so long as you have confidence in yourself and the fact that you can do so. Your hotheadedness and determination determine your power, with enough heart and spirit nothing is impossible for you. You also have a much tougher body, and can come back from most injuries with little time. You can also naturally live for thousands of years.",
           "title": "Spiral Power"
+        },
+        {
+          "id": "rt86",
+          "title": "Haki",
+          "text": "You gain the power of Haki from One Piece, in all of its variations.\n\nArmament Haki covers all or part of your body in a black coating, enhancing your strength and durability, and allowing you to injure beings whose powers would usually make them immune, such as those who are intangible or have a body of living fire.\n\nObserver's Haki is a sensory power, which gives its user the ability to sense the aura and emotions of others in range, and with practice confers a type of combat precognition.\n\nConqueror's Haki creates a sort of 'pressure' that can knock out the weak willed, or temporarily force fear or compliance on those who fail to resist.   In extremes it can damage physical objects.\n\nUnlike most powers, Haki relies heavily on the determination and willpower of its user, and falters when they do.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
         }
       ],
       "styling": {
@@ -65139,7 +65166,7 @@
           "beforeText": "Required:"
         }
       ],
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isRequirementOpen": false,
       "objects": [
         {
