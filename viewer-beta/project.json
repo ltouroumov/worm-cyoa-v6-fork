@@ -8998,7 +8998,7 @@
       "id": "bz36",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -76425,7 +76425,7 @@
       "id": "xrq4",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -76802,14 +76802,14 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "rv72",
-          "image": "",
+          "image": "./images/obj-rv72.webp",
           "isActive": false,
           "isMultipleUseVariable": true,
           "isSelectableMultiple": true,
           "isVisible": true,
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "100",
+          "numMultipleTimesPluss": "6",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -76824,7 +76824,7 @@
             }
           ],
           "template": 1,
-          "text": "You have a bank account with money in it. Each time you take this $500 is added to the bank account.",
+          "text": "You have a bank account with money in it.\n\nThe first purchase gives you 500$ and each subsequent purchase multiplies the amount by 10. (5k, 50k, 500k, 5M, 50M, etc.)",
           "title": "Bank Account"
         },
         {
