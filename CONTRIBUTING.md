@@ -64,14 +64,45 @@ The first step is to download and install the Python Programming language from t
 
 The installation is fully automated and will set things up so the CYOA project can make use of it.
 
-
-
-## D. Make a Pull Request
+### Apply the scripts
 
 Once you have downloaded the project file, it will be in your "Downloads" folder with a name like `project.json` or `project (23).json`. 
 
-Copy this file into the repository folder. Then delete the old project file (`project-v17.json`) and rename your new file to take its place.
+Drag and drop the `.json` file on the `UPDATE_THE_PROJECT.bat` file.
+(You can copy the file into the repository folder to make it easier.)
 
 ![CYOA Creator](./_images/contrib_10.png)
 
-If you have done everything correctly, the GitHub Desktop application should show that you have modified the `project-v17.json` file.
+This will open a terminal window that will do the work.
+
+![CYOA Creator](./_images/contrib_12.png)
+
+If you added images, they will be automatically compressed to reduce the size as much as possible without reducing the quality too much.
+
+## D. Make a Pull Request
+
+If you have done everything correctly, the GitHub Desktop application should show that you have modified the `project-v17.json` file, the `viewer-beta/project.json` file and if you added images, some `.webp` files should have apparead as well.
+
+Make sure only these files are checked and not any other file to avoid adding clutter. (For example, the `project (3).json` file. If you add it by mistake, it's not the end of the world but it will need some work to remove so be mindful.)
+
+If you have added images, the program can show a message that says the diff is too large. This is because images take up a lot of space in the file.
+
+![CYOA Creator](./_images/contrib_13.png)
+
+To finalize the process, you need to write a small description of your changes in the box titled "Summary (required)" and press "Commit to **master**" to save your changes.
+
+At this point, everything is saved but **only** on your computer. To offer them, you need to press the "Push to Origin" button. 
+
+If this is the first time you contribute, GitHub Desktop will warn you that you do not have the permission to write and offer you to fork. Press the "Fork this Repository" button and the app will ask you some questions, you should answer "To contribute to the parent project" (not like SYM-BALL) as it will make contributions easier.
+
+![CYOA Creator](./_images/contrib_14.png)
+
+![CYOA Creator](./_images/contrib_18.png)
+
+Once your fork is creates, you can push your changes there. If you go back to GitHub and open the CYOA repository again, the site should have a button to create a pull request. (No screenshot there because I can't do it myself.)
+
+Give a title to your PR and press "Create pull request"
+
+![CYOA Creator](./_images/contrib_17.png)
+
+I will receive an email when this happens but you can also ping me in the Discord with the PR link so I will be able to see it.
