@@ -71103,6 +71103,33 @@
             }
           ],
           "groups": []
+        },
+	{
+          "id": "DVl0",
+          "title": "Developer Console",
+          "text": "You gain access to The Developer Console. A power that allows every facet of the universe down to the individuals, events, and objects can be changed through the use of any console command. You can even write and install mods that influence the Universe, people, events, objects, and so on that can easily be toggled through a mod folder. Only you are treated as the Player Character and specially-made mods can influence you alone. These console codes are flexible enough to add additional things as you wish regardless of what kind of coding system this power is based on. You have a handy save and load system that allows you to record specific instances and reload them should you, the player character, choose to or meet your end. Even being captured and sedated would be treated as a ‘Bad Ending’ and reset to a previous save. With the use of a reset button, all mods will reset regardless of the current code. This power comes equipped with an advanced auto-correct that can generally read your thoughts and assist with scripting code. Additionally, you are a master at all forms of programming languages and intuitive in new ones.",
+          "image": "",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "120",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": []
         }
       ],
       "styling": {
