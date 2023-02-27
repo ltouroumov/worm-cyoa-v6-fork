@@ -1,9 +1,11 @@
 import copy
+import functools
 import json
 import random
 import string
 from abc import ABC
 from pathlib import Path
+from typing import Sequence
 
 from rich.console import Console
 
@@ -136,7 +138,16 @@ def update_row_data(project, row_id: str, lens):
         return
 
     row_data = project['rows'][row_idx]
-    project['rows'][row_idx] = lens(row_data)
+    if isinstance(lens, Sequence):
+        row_data = functools.reduce(
+            lambda acc, lens: lens(acc),
+            lens,
+            row_data
+        ) 
+    else:
+        row_data = lens(row_data)
+
+    project['rows'][row_idx] = row_data
 
 
 def update_obj_data(project, row_id: str, obj_id: str, lens):
@@ -148,4 +159,13 @@ def update_obj_data(project, row_id: str, obj_id: str, lens):
         return
 
     obj_data = project['rows'][row_idx]['objects'][obj_idx]
-    project['rows'][row_idx]['objects'][obj_idx] = lens(obj_data)
+    if isinstance(lens, (list, tuple)):
+        obj_data = functools.reduce(
+            lambda acc, lens: lens(acc),
+            lens,
+            obj_data
+        ) 
+    else:
+        obj_data = lens(obj_data)
+
+    project['rows'][row_idx]['objects'][obj_idx] = obj_data

@@ -1,5 +1,5 @@
 import base64
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from email.policy import default
 import io
 import operator
@@ -22,11 +22,12 @@ from cyoa.tools.lib import *
 @dataclass
 class ImageInfo:
     image_data: str
-    object_type: str
+    object_type: str = None
     row_id: Optional[str] = None
     obj_id: Optional[str] = None
     name: Optional[str] = None
     style_prop: Optional[str] = None
+    image_is_url: bool = False
 
     @property
     def object_id(self):
@@ -59,17 +60,19 @@ IMAGE_PROPS = ('backgroundImage',
 
 
 def list_all_images(project) -> Iterator[ImageInfo]:
-    def extract_image_from_item(item):
-        if item.get('imageIsUrl', False):
-            return None
-        elif (image := item['image']) != '':
-            return image
+    def extract_image_from_item(item) -> ImageInfo:
+        image_data = item.get('image')
+        image_is_url = item.get('imageIsUrl', False)
+
+        if image_data != '':
+            return ImageInfo(image_data=image_data,
+                             image_is_url=image_is_url)
         return None
 
-    def extract_image_from_style(item, prop):
+    def extract_image_from_style(item, prop) -> ImageInfo:
         style_data = item['styling']
         if (image := style_data[prop]) != '':
-            return image
+            return ImageInfo(image_data=image)
         return None
 
     for style_prop in IMAGE_PROPS:
@@ -79,23 +82,23 @@ def list_all_images(project) -> Iterator[ImageInfo]:
 
     for row in project['rows']:
         if rowImage := extract_image_from_item(row):
-            yield ImageInfo(object_type="row", row_id=row.get('id', None),
-                            name=row.get('title', None), image_data=rowImage)
+            yield replace(rowImage, object_type="row", row_id=row.get('id', None),
+                          name=row.get('title', None))
 
         for style_prop in IMAGE_PROPS:
             if bgImage := extract_image_from_style(project, prop=style_prop):
-                yield ImageInfo(object_type="row", row_id=row.get('id', None),
-                                style_prop=style_prop, image_data=bgImage)
+                yield replace(bgImage, object_type="row", row_id=row.get('id', None),
+                              style_prop=style_prop)
 
         for obj in row['objects']:
             if objImage := extract_image_from_item(obj):
-                yield ImageInfo(object_type="obj", row_id=row.get('id', None), obj_id=obj.get('id', None),
-                                name=obj.get('title', None), image_data=objImage)
+                yield replace(objImage, object_type="obj", row_id=row.get('id', None), obj_id=obj.get('id', None),
+                              name=obj.get('title', None))
 
             for style_prop in IMAGE_PROPS:
                 if bgImage := extract_image_from_style(project, prop=style_prop):
-                    yield ImageInfo(object_type="obj", row_id=row.get('id', None), obj_id=obj.get('id', None),
-                                    style_prop=style_prop, image_data=bgImage)
+                    yield replace(bgImage, object_type="obj", row_id=row.get('id', None), obj_id=obj.get('id', None),
+                                  style_prop=style_prop)
 
 
 def decode_image(image_data):
@@ -150,7 +153,7 @@ def export_image(image_info: ImageInfo, image_type: str, image_data: bytes, dest
         fd.write(image_data)
 
     return file_name
-    
+
 
 def update_image(project, image_info, image_type, image_data=None, image_path=None):
     if image_data:
@@ -158,8 +161,10 @@ def update_image(project, image_info, image_type, image_data=None, image_path=No
             f"data:image/{image_type};base64," +
             base64.b64encode(image_data).decode('utf-8')
         )
+        image_is_url = False
     elif image_path:
         encoded_image = image_path
+        image_is_url = True
     else:
         raise Exception("image_data or image_path must be set")
 
@@ -168,7 +173,8 @@ def update_image(project, image_info, image_type, image_data=None, image_path=No
             encoded_image
         )
     elif image_info.object_type == 'proj' and image_info.style_prop is None:
-        project &= lens['image'].set(encoded_image)
+        project &= lens.Get('image').set(encoded_image)
+        project &= lens.Get('imageIsUrl').set(image_is_url)
     elif image_info.object_type == 'row' and image_info.style_prop:
         update_row_data(
             project=project,
@@ -181,7 +187,8 @@ def update_image(project, image_info, image_type, image_data=None, image_path=No
         update_row_data(
             project=project,
             row_id=image_info.row_id,
-            lens=lens['image'].set(encoded_image)
+            lens=(lens.Get('image').set(encoded_image),
+                  lens.Get('imageIsUrl').set(image_is_url))
         )
     elif image_info.object_type == 'obj' and image_info.style_prop:
         update_obj_data(
@@ -196,7 +203,8 @@ def update_image(project, image_info, image_type, image_data=None, image_path=No
             project=project,
             row_id=image_info.row_id,
             obj_id=image_info.obj_id,
-            lens=lens['image'].set(encoded_image)
+            lens=(lens.Get('image').set(encoded_image),
+                  lens.Get('imageIsUrl').set(image_is_url))
         )
 
 
@@ -254,6 +262,10 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
 
         project_images = list(list_all_images(self.project))
         for image_info in track(project_images, total=len(project_images)):
+            # Skip all non-embedded images
+            if image_info.image_is_url:
+                continue
+
             img, img_size, img_type, img_dim = get_image_info(
                 image_info.image_data
             )
@@ -275,8 +287,10 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                     img_type
                 )
 
-                export_image(image_info, "webp", image_data=optimized_image, dest_dir=dest_dir)
-                update_image(self.project, image_info, "webp", image_data=optimized_image)
+                export_image(image_info, "webp",
+                             image_data=optimized_image, dest_dir=dest_dir)
+                update_image(self.project, image_info, "webp",
+                             image_data=optimized_image)
 
                 total_after += optimized_image_size
             else:
@@ -293,7 +307,59 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             self._save_project(args.project_file)
 
 
+class MediaExtractTool(ToolBase, ProjectUtilsMixin):
+    name = 'media.extract'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser.add_argument('--project', dest='project_file', type=Path)
+        parser.add_argument('--export-path', type=Path, required=True)
+        parser.add_argument('--export-url', type=str, required=True)
+
+    def run(self, args):
+        self._load_project(args.project_file)
+
+        base_url = args.export_url
+        if dest_dir := args.export_path:
+            makedirs(dest_dir, exist_ok=True)
+
+        images_table = Table("obj_id", "title",
+                             "Size", "Type")
+
+        project_images = list(list_all_images(self.project))
+        for image_info in track(project_images, total=len(project_images)):
+            # Skip non-embedded images
+            if image_info.image_is_url:
+                continue
+
+            header, image_data = decode_image(
+                image_info.image_data
+            )
+            image_type = header[header.rfind('/')+1:]
+            imgage_size_kb = len(image_data) / 1024.0
+
+            # Write the image file to disk
+            image_name = export_image(image_info, image_type,
+                                      image_data=image_data,
+                                      dest_dir=dest_dir)
+
+            image_url = f"{base_url}/{image_name}"
+            update_image(self.project, image_info, image_type,
+                         image_path=image_url)
+
+            images_table.add_row(
+                image_info.object_id, image_info.name,
+                f"{imgage_size_kb: >8.2f} kB",
+                image_type,
+            )
+
+        console.print(images_table)
+        self._save_project(args.project_file)
+
+
 TOOLS = (
     MediaListTool,
     MediaOptimizeTool,
+    MediaExtractTool,
 )

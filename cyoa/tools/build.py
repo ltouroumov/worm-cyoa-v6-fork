@@ -31,6 +31,10 @@ class BuildTool(ToolBase, ProjectUtilsMixin):
 
         project_images = list(list_all_images(self.project))
         for image_info in project_images:
+            # Skip images that are URLs
+            if image_info.image_is_url:
+                continue
+
             header, image_data = decode_image(
                 image_info.image_data
             )
