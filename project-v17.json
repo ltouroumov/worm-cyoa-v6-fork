@@ -62058,116 +62058,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "r7bp",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-r7bp.webp",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "qbr9"
-                },
-                {
-                  "req": "hzd5"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Your ship is retrofitted with modern weapons and equipment giving you more projection power. This would bring you to the level of a ship from the end of the Cold War.\n\nThe technology level is determined by the setting but will be at least on par with 1970 earth technology, out of date but still serviceable.",
-          "title": "Ship Girl (Retrofit 1)",
-          "imageIsUrl": true
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "07n4",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-07n4.webp",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "r7bp",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Your ship is retrofitted with advanced weapons and equipment, this includes drones, long range guided missiles, multipurpose guns, stealth coating, and more.\n\nThe technology level is determined by the setting but will be at least on par with 2020 earth technology.",
-          "title": "Ship Girl (Retrofit 2)",
-          "imageIsUrl": true
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "oc9w",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-oc9w.webp",
           "isActive": false,
@@ -63082,58 +62972,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "9jff",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-9jff.webp",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "fo3s"
-                },
-                {
-                  "req": "czqr"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "Your Esper ability has the potential to reach Level 6. Whether you get your power through the Academy's curriculum or are a Gemstone you can now choose what ability you get. As an Academy esper you also start at Level 4 instead of 3 and your rate of growth increases by 50%.",
-          "title": "Level 6 Shift (Raildex)",
-          "imageIsUrl": true
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "cagp",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-cagp.webp",
           "isActive": false,
@@ -63152,9 +62990,38 @@
               "value": "35"
             }
           ],
-          "template": "2",
+          "template": "1",
           "text": "You become a Time Lord from Doctor Who and know how to make the technology from the show, including the TARDIS.",
           "title": "Time Lord",
+          "imageIsUrl": true
+        },
+        {
+          "id": "eve6",
+          "title": "Spark of Genius (Girl Genius)",
+          "text": "The Spark is plugged into your mind and soul, inflaming it, filling it with a fire that boosts your mental facilities to unbelievable extents such that many things that should be impossible... suddenly aren't. While you specialize in some field to extraordinary degrees, like being able to create artificial sparks if you choose 'Von Neumann Clanks', your genius is unbound by the petty concerns lesser sparks suffer from, allowing you to shine equally bright in every field from Microbiology to Trans-Dimensional Aeronautics.\n\nYou have an instinctive grasp for scientific principles, can reverse engineer technology more or less just from seeing it, and have a head for calculation and numbers that defies belief. You can decrypt data in your head, have a completely flawless memory, and are in general the quintessential Mad Scientist. Complete with a gift for cackling and rants that can terrify anyone who isn't, by the way.\n\nWhen in the Madness Place, especially, you have an outright effect that allows you to warp time and space in a small area around you, letting you do weeks' worth of work in hours, and outright warp, twist, spindle the mutilate the very laws of physics as you craft your wonders... and horrors. Apart from the SCIENCE!, you have a charisma that borders on mind control, as anyone without a spark or an exceptionally strong willpower is drawn into your orbit by your sheer force of will, ready to help and serve wherever they can. Your body is also somewhat better than most, allowing you to go all those all-nighters without food and fight off highly trained fighters while barely paying attention.",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eve6.webp",
+          "template": "1",
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true,
+              "isActive": false
+            }
+          ],
+          "groups": [],
           "imageIsUrl": true
         }
       ],
@@ -63425,58 +63292,6 @@
           "template": 1,
           "text": "You are proficient in the use of Arcane Magic. You start off at the level of a novice Wizard (1st level spells). Through research and rigorous training you can increase the number of spells you can memorize as well as the level of spells you can cast.\n\nOutside of the D&D universe you are able to cast spells of the 10th level and higher as the gods cannot reach you there.",
           "title": "Arcane Magic (D&D)",
-          "imageIsUrl": true
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "uhe5",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-uhe5.webp",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": "r4yq"
-                },
-                {
-                  "req": "9ss6"
-                }
-              ],
-              "id": "",
-              "type": "or",
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "At the cost of a loss of skill in casting magic spells or using psionic powers, you gain an understanding of your discipline's mechanics on a different level and become a talented and skilled craftsman. Whether you become a normal Artificer, Psionic Artificer, or a supremely versatile Artificer is up to the Shardless powers you've bought.",
-          "title": "Artificer (D&D)",
           "imageIsUrl": true
         },
         {
@@ -64223,7 +64038,7 @@
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0nku.webp",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -64257,7 +64072,7 @@
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k775.webp",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -64573,64 +64388,6 @@
           "template": 1,
           "text": "You become infused by the planes and energies of pure goodness.\nThis changes your body and soul, for one thing it makes you moderately \u2018more\u2019 than a normal human in just about every which way, it also makes you incredibly and supernaturally beautiful, although not in a seductive manner, your beauty being more akin to a sacred piece of art. This beauty is supernatural in that it is not only due to your physical traits but also a supernatural tendency amongst all that view you to find your traits incredibly beautiful. Your very soul also becomes a thing of incredible beauty and value. You gain an incredible affinity for all things of light and goodness, you can feel peoples prayers and channel pure positive energy to heal and banish evil and corruption. You will find it very hard to be anything other than good and just to the people around you, it will not be impossible, but you will find that it goes against your base instincts. You can also call weak angels and celestials from the heavens, who will grow stronger as you do, to help you every so often, the can also be from the retinue of any good aligned deity if you choose to have your heritage specifically from them. although your bloodline cannot come directly from any greater or middling deity, you being at least several generations removed from them.\nYour hair shines like metal, like pure heavenly gold if you are blond, and like the purest most sacred ruby if you have red hair, and so on. Your eyes also turn golden with a soft glow to them. You can at will turn off and on a radiant halo which appears around or behind your head and will buff and heal your allies and the innocent who are hit by its light.",
           "title": "Aasimar (D&D)",
-          "imageIsUrl": true
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "quid",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-quid.webp",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "bwgx",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "25"
-            }
-          ],
-          "template": 1,
-          "text": "You embody light, life, and goodness in all it\u2019s forms. Exquisite flowers bloom where you step and your light chases away evil, depression and all things commonly thought of as bad. You can see the sins of every living thing you can gaze at. Your halo evolves and no innocent can be harmed or hurt as long as its light reaches them, you can heal just about anything other than death away in the blink of an eye, and looking at you is now akin to a religious experience. You gain massive control and power over holy sun fire, spawning it and controlling it at will, choosing what and who it can hurt. Your presence is a balm to the soul chasing away depression and other such mental or spiritual afflictions of all that surround you, you gain an infinite lifespan as while you are still a mortal you now have more in common with other celestials such as angels than a normal human. You can every week resurrect one person fully and completely, but be very careful doing so, you might just take a soul out of heaven and their eternal paradise, and that is a very, very cruel thing to do. You can feel people that are in harms way and appear near them in order to help them, this feeling extends to about the size of New York city in a circle around you. You also gain a pair of functional angel wings.\n\nAll these powers can be turned on and off at will or be dialed up and down as you please.",
-          "title": "Of all that is good",
           "imageIsUrl": true
         },
         {
@@ -70311,7 +70068,8 @@
               "requireds": [],
               "beforeText": "Cost:",
               "afterText": "SP",
-              "showScore": true
+              "showScore": true,
+              "isActive": false
             }
           ],
           "groups": [],
@@ -70886,7 +70644,8 @@
               "requireds": [],
               "beforeText": "Cost:",
               "afterText": "SP",
-              "showScore": true
+              "showScore": true,
+              "isActive": false
             }
           ],
           "groups": [],
@@ -71663,6 +71422,395 @@
           "isMultipleUseVariable": true,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "2"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5acd",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-r7bp.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "qbr9"
+                },
+                {
+                  "req": "hzd5"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your ship is retrofitted with modern weapons and equipment giving you more projection power. This would bring you to the level of a ship from the end of the Cold War.\n\nThe technology level is determined by the setting but will be at least on par with 1970 earth technology, out of date but still serviceable.",
+          "title": "Ship Girl (Retrofit 1)",
+          "imageIsUrl": true
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "3hsg",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-07n4.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "r7bp",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your ship is retrofitted with advanced weapons and equipment, this includes drones, long range guided missiles, multipurpose guns, stealth coating, and more.\n\nThe technology level is determined by the setting but will be at least on par with 2020 earth technology.",
+          "title": "Ship Girl (Retrofit 2)",
+          "imageIsUrl": true
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xd3h",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-9jff.webp",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "fo3s"
+                },
+                {
+                  "req": "czqr"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your Esper ability has the potential to reach Level 6. Whether you get your power through the Academy's curriculum or are a Gemstone you can now choose what ability you get. As an Academy esper you also start at Level 4 instead of 3 and your rate of growth increases by 50%.",
+          "title": "Level 6 Shift (Raildex)",
+          "imageIsUrl": true
+        },
+        {
+          "id": "811h",
+          "title": "Second Breakthrough (Girl Genius)",
+          "text": "Your talents with the sparks cross the basic boundaries all the way, transforming you into something altogether beyond. You have had the second breakthrough, the transformation that makes you from a Spark into true Spark Royalty! \n\nYou're not a fully grown, matured God-Spark quite yet, but you\u2019re well on your way to becoming one. Along with having psychic powers like levitation and telepathy, you can release blasts of pure energy to scour your foes from the earth. You can see in more than three dimensions, and even interact with beings beyond the mortal plane in several ways. You have the power to shapeshift freely, going from giant to normal in an instant, and acquiring any color, appearance or form you desire.\n\nYou can possess willing subjects, and break any mind control or subversion on your subjects. You can control energy in various forms, most of them rather unspecified. Most importantly, of course, your talents with actual Sparking transcend any ordinary sparks entirely, being almost as much beyond them as they are beyond mundane scientists. You have a surfeit of ideas, almost as if you can do anything!\n\nYou don't even need to bother with Madness Places very much anymore, that is, being 'Suspended in an Eternal Moment of Supreme Clarity'. You do retain your ability to scare lesser minds out of their skin just by talking. Oh, and you gain a rotating halo of any symbols of your choice, turning around your head in an endless circle. You can hide the obvious bits of this, but why would you want to?",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-811h.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "eve6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true,
+              "isActive": false
+            }
+          ],
+          "groups": [],
+          "imageIsUrl": true
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qorj",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-uhe5.webp",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": "r4yq"
+                },
+                {
+                  "req": "9ss6"
+                }
+              ],
+              "id": "",
+              "type": "or",
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "At the cost of a loss of skill in casting magic spells or using psionic powers, you gain an understanding of your discipline's mechanics on a different level and become a talented and skilled craftsman. Whether you become a normal Artificer, Psionic Artificer, or a supremely versatile Artificer is up to the Shardless powers you've bought.",
+          "title": "Artificer (D&D)",
+          "imageIsUrl": true
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "zvxc",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-quid.webp",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "bwgx",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You embody light, life, and goodness in all it\u2019s forms. Exquisite flowers bloom where you step and your light chases away evil, depression and all things commonly thought of as bad. You can see the sins of every living thing you can gaze at. Your halo evolves and no innocent can be harmed or hurt as long as its light reaches them, you can heal just about anything other than death away in the blink of an eye, and looking at you is now akin to a religious experience. You gain massive control and power over holy sun fire, spawning it and controlling it at will, choosing what and who it can hurt. Your presence is a balm to the soul chasing away depression and other such mental or spiritual afflictions of all that surround you, you gain an infinite lifespan as while you are still a mortal you now have more in common with other celestials such as angels than a normal human. You can every week resurrect one person fully and completely, but be very careful doing so, you might just take a soul out of heaven and their eternal paradise, and that is a very, very cruel thing to do. You can feel people that are in harms way and appear near them in order to help them, this feeling extends to about the size of New York city in a circle around you. You also gain a pair of functional angel wings.\n\nAll these powers can be turned on and off at will or be dialed up and down as you please.",
+          "title": "Of all that is good",
+          "imageIsUrl": true
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "g33n",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-owuw.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "51t3",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your Ring and Lantern gain a program to shift to the color of Life, White, but hold your horses - you'll need to master the Emotional Spectrum first. To do this, once your ring ascertains you've mastered your first choice of color, you can tell it to move onto another color of the Emotional Spectrum of your choice. You'll need to resist the temptation of the parasitic light of Greed, Orange, and the influence of the light of Rage, Red, but once you've successfully mastered the Emotional Spectrum, your Ring will be ready to shift to the White Light with your assistance, drawing on your expertise with the entire emotional spectrum, you'll need to balance this perfectly. Once you've done so, you'll be able to make use of all of the Emotional Spectrum on a level of potency and efficiency a league above the impure lights through the Light of Life.",
+          "title": "White Lantern Ring (DC Comics)",
+          "imageIsUrl": true
         },
         {
           "id": "ra0c",
@@ -72778,64 +72926,6 @@
           "template": 1,
           "text": "You get your hands on a lantern ring and matching power battery. You can chose any color from the emotional spectrum except for white or black.",
           "title": "Lantern Ring",
-          "imageIsUrl": true
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "owuw",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-owuw.webp",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
-          "requireds": [
-            {
-              "required": true,
-              "requireds": [],
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "id": "",
-              "type": "id",
-              "reqId": "51t3",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "showRequired": true,
-              "operator": "",
-              "afterText": "",
-              "beforeText": "Required:"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Your Ring and Lantern gain a program to shift to the color of Life, White, but hold your horses - you'll need to master the Emotional Spectrum first. To do this, once your ring ascertains you've mastered your first choice of color, you can tell it to move onto another color of the Emotional Spectrum of your choice. You'll need to resist the temptation of the parasitic light of Greed, Orange, and the influence of the light of Rage, Red, but once you've successfully mastered the Emotional Spectrum, your Ring will be ready to shift to the White Light with your assistance, drawing on your expertise with the entire emotional spectrum, you'll need to balance this perfectly. Once you've done so, you'll be able to make use of all of the Emotional Spectrum on a level of potency and efficiency a league above the impure lights through the Light of Life.",
-          "title": "White Lantern Ring (DC Comics)",
           "imageIsUrl": true
         },
         {
