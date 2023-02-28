@@ -19870,7 +19870,7 @@
             }
           ],
           "template": 1,
-          "text": "Now, even without the Tier-3 Raven power, you're capable of travelling to any universe I have access to, assuming you have a power that would  make it possible. (Any teleportation power that works on memories now works on memories from before you gained powers You can teleport to other worlds I have access to by accessing the medium in which the precognitive that predicted it released it in (A Harry Potter book for the Harry Potter universe, a Skyrim game for Skyrim, the One Piece anime for One Piece, etc.)",
+          "text": "Now, even without the Tier-1 Raven power, you're capable of traveling to any universe I have access to, assuming you have a power that would make it possible. (Any teleportation power that works on memories now works on memories from before you gained powers You can teleport to other worlds I have access to by accessing the medium in which the precognitive that predicted it released it in. (A Harry Potter book for the Harry Potter universe, a Skyrim game for Skyrim, the One Piece anime for One Piece, etc.)",
           "title": "Homecoming"
         },
         {
@@ -64804,7 +64804,7 @@
           "id": "rt86",
           "title": "Haki",
           "text": "You gain the power of Haki from One Piece, in all of its variations.\n\nArmament Haki covers all or part of your body in a black coating, enhancing your strength and durability, and allowing you to injure beings whose powers would usually make them immune, such as those who are intangible or have a body of living fire.\n\nObserver's Haki is a sensory power, which gives its user the ability to sense the aura and emotions of others in range, and with practice confers a type of combat precognition.\n\nConqueror's Haki creates a sort of 'pressure' that can knock out the weak willed, or temporarily force fear or compliance on those who fail to resist.   In extremes it can damage physical objects.\n\nUnlike most powers, Haki relies heavily on the determination and willpower of its user, and falters when they do.",
-          "image": "",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-rt86.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -64825,7 +64825,8 @@
               "showScore": true
             }
           ],
-          "groups": []
+          "groups": [],
+          "imageIsUrl": true
         }
       ],
       "styling": {
@@ -70291,8 +70292,8 @@
         {
           "id": "Ma4f",
           "title": "Doomsday",
-          "text": "You possess self-biokinetic adaptable cells capable of accelerated evolution. Your rapidly mutating somatic cells grant you peak physical, mental capabilities, and mutative regeneration capable of restoring limbs in hours. As time passes your cells get faster and better with use granting more physical strength, durability, speed, reaction speed, motor skills, coordination, thought speed, and senses. You could even develop entirely new senses with an expanded awareness of things that normal humans can\u2019t even imagine. Your mutative regenerations restore not just wounds but adapt to what causes them while also gaining new features, growths, and capabilities to match any situation regardless of the source. These rapid mutations guarantee immunity to attacks in 8-10 hits, adaption to hostile environments in minutes, and can even trump altercations to you and your mind. Pushed too far without time to rest can cause your body to start adapting out of control, much faster than normal, but can begin to negatively impact itself and hinder your movements and actions. This can be prevented through time or stored biomass, as your body naturally refines mutations to become more streamlined and efficient which allows you to return to a normal human form while maintaining all the adaptive weapons, defenses, and redundancies you have developed. Your cells can never have any demerits that will get in the way of each other, negative mutations, subversion, unfixable changes, or assimilation is impossible. Your cells, when forcefully separated from your main body, begin to decay into simple proteins that prevent anyone from properly analyzing them and can easily be reabsorbed to aid your regeneration similar to stored biomass. Consuming biomass allows you to store or gain traits to improve or add adaptations without being exposed to danger or killed. You can also use the stored biomass to rapidly alter your physical form. Your understanding and analysis of powers through your senses are accelerated as you can quickly break down and guide adaptations to counter them. This allows further streamlined adaptations based on experiences, battles, and information. An example of this is gaining immunity to flamethrowers can escalate to gaining immunity to plasma. You can even develop entirely new adaptations based on observed technological or organic abilities, replicating them inside your body. In time, you can grow immunity to poisons, sickness, Trumps, Masters, Strangers, reality rewriters, precogs, and many more. With a long and arduous journey, you can eventually shrug off the scariest beings imaginable.",
-          "image": "",
+          "text": "You possess self-biokinetic adaptable cells capable of accelerated evolution. Your rapidly mutating somatic cells grant you peak physical and mental capabilities, with mutative regeneration capable of restoring limbs in hours.\n\nAs time passes your cells get faster and better with use, granting more physical strength, durability, speed, reaction speed, motor skills, coordination, thought speed, and senses. You could even develop entirely new senses with an expanded awareness of things that normal humans can\u2019t even imagine. \n\nYour mutative regenerations restore wounds and adapt to what causes them while gaining new features, growths, and capabilities to match any situation regardless of the source. These rapid mutations guarantee immunity to attacks in 8-10 hits, adaption to hostile environments in minutes, and can even trump altercations to you and your mind. Pushed too far without time to rest can cause your body to start adapting out of control, much faster than usual, but can begin to negatively impact itself and hinder your movements and actions. \n\nThis can be prevented through time or stored biomass, as your body naturally refines mutations to become more streamlined and efficient which allows you to return to a normal human form while maintaining all the adaptive weapons, defenses, and redundancies you have developed. Your cells can never have any demerits that will get in the way of each other, negative mutations, subversion, unfixable changes, or assimilation is impossible. \n\nYour cells, when forcefully separated from your main body, begin to decay into simple proteins that prevent anyone from properly analyzing them and can easily be reabsorbed to aid your regeneration similar to stored biomass. Consuming biomass allows you to store or gain traits to improve or add adaptations without being exposed to danger or killed. You can also use the stored biomass to rapidly alter your physical form. \n\nYour understanding and analysis of powers through your senses are accelerated as you can quickly break down and guide adaptations to counter them. This allows further streamlined adaptations based on experiences, battles, and information. An example of this is gaining immunity to flamethrowers can escalate to gaining immunity to plasma. \n\nYou can even develop entirely new adaptations based on observed technological or organic abilities, replicating them inside your body. In time, you can grow immunity to poisons, sickness, Trumps, Masters, Strangers, reality rewriters, precogs, and many more. With a long and arduous journey, you can eventually shrug off the scariest beings imaginable.",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-Ma4f.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -70313,7 +70314,8 @@
               "showScore": true
             }
           ],
-          "groups": []
+          "groups": [],
+          "imageIsUrl": true
         }
       ],
       "styling": {
@@ -70865,8 +70867,8 @@
         {
           "id": "Ma3f",
           "title": "The One Who Crawls",
-          "text": "You are the pinnacle of biological perfection; your cells are in a state of superposition allowing them to simultaneously be anything and everything. All the adaptions you\u2019ve gained could be used at the same time while a single cell could operate as your brain, organ, and sensory organs all at the same time in addition to whatever adaptions you developed. Your cells have already removed the need for breathing, eating, sleeping, and even aging as you are completely self-sufficient. Because of this, you possess physical strength not many parahumans can match, skyrocketing mental capabilities that can even understand eldritch horrors, a wide array of nigh impossible senses, and an instantaneous form of healing that can make total destruction cause you to appear somewhere else akin to as if you were never there. Your highly adaptable cells can grant immunity to any attack in 2-3 hits, adaption to hostile environments in seconds, and even ignore attempts to alter your mind or body. While you have a better-evolved form of healing, you can still gain mutations and adaptions. Due to this, esoteric or rare forms of offense of sufficient variety can begin to cause your body to rapidly adapt to the point of negatively impacting your movements and actions. Although it doesn\u2019t last long due to your body\u2019s natural refinement of mutations that allows you to return to a normal human form with the additions of your new adaptions. Your cells can never have any demerits that will get in the way of each other, negative mutations, subversion, unfixable changes, or assimilation while anything that could affect you could easily be adapted to. Your cells are information black holes that make no sense to anyone but you and actively ignore forms of analysis, they could even self-destruct and vanish. Consuming biomass allows you to store or gain traits to improve or add adaptations without being exposed to danger or killed. You can also use the stored biomass to rapidly alter your physical form. Your understanding and analysis of powers from your senses can figure out even conceptual things to break down and grow immune to. This allows further enhancement of adaptions based on experiences, battles, and information. An example of this is gaining immunity to hammers can escalate to being totally immune to blunt force. You can even develop entirely new adaptions based on observed technological and organic abilities, even replicating them perfectly within you. In time you can grow immunity to everything ever imagined and shrug off things that make even the fabric of reality pale.",
-          "image": "",
+          "text": "You are the pinnacle of biological perfection; your cells are in a state of superposition allowing them to simultaneously be anything and everything. All the adaptions you\u2019ve gained could be used at the same time while a single cell could operate as your brain, organ, and sensory organs all at the same time in addition to whatever adaptions you developed.\n\nYour cells have already removed the need for breathing, eating, sleeping, and even aging as you are completely self-sufficient. Because of this, you possess physical strength not many parahumans can match, skyrocketing mental capabilities that can even understand eldritch horrors, a wide array of nigh impossible senses, and an instantaneous form of healing that can make total destruction cause you to appear somewhere else akin to as if you were never there.\n\nYour highly adaptable cells can grant immunity to any attack in 2-3 hits, adaption to hostile environments in seconds, and even ignore attempts to alter your mind or body. While you have a better-evolved form of healing, you can still gain mutations and adaptions. Due to this, esoteric or rare forms of offense with sufficient variety can begin to cause your body to rapidly adapt to the point of negatively impacting your movements and actions. Although it doesn\u2019t last long due to your body\u2019s natural refinement of mutations that allows you to return to a normal human form with the additions of your new adaptions. \n\nYour cells can never have any demerits that will get in the way of each other, negative mutations, subversion, unfixable changes, or assimilation while anything that could affect you could easily be adapted to. Your cells are information black holes that make no sense to anyone but you and actively ignore forms of analysis, they could even self-destruct and vanish. Consuming biomass allows you to store or gain traits to improve or add adaptations without being exposed to danger or killed. You can also use the stored biomass to rapidly alter your physical form. Your understanding and analysis of powers from your senses can figure out even conceptual things to break down and grow immune to. \n\nThis allows further enhancement of adaptions based on experiences, battles, and information. An example of this is gaining immunity to hammers can escalate to being immune to blunt force. You can even develop entirely new adaptions based on observed technological and organic abilities, even replicating them perfectly within you. In time you can grow immunity to everything ever imagined and shrug off things that make even the fabric of reality pale.",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-Ma3f.webp",
           "template": 1,
           "objectWidth": "",
           "isActive": false,
@@ -70887,7 +70889,8 @@
               "showScore": true
             }
           ],
-          "groups": []
+          "groups": [],
+          "imageIsUrl": true
         }
       ],
       "styling": {
@@ -71356,6 +71359,35 @@
           ],
           "groups": [],
           "imageIsUrl": true
+        },
+        {
+          "id": "bean",
+          "title": "Conquest",
+          "text": "Without any need for reason or justification, you will find that there is no one in this world or any other that you cannot overcome, for your raw ability scales seamlessly to match and just then just barely overcome any opposition you face in all your endeavors. If you would kill a man where he stood, your strength and cunning would best him. If you would take a lover for your own, you could chase them down to the ends of the earth and subjugate them beneath your body. If all humanity were to turn against you and deny you your right to do as you please, you could dance between the rain of all their weapons and prove your supremacy by force. If dragons would keep you from the treasures you seek, you could rip them from their hoards and cleave their skulls in twain, and if the very gods themselves would name you as their enemy, you could hurl them screaming from their thrones and force them into submission.\n  \n  Though naturally limitless in every respect that matters, your puissance is best expressed through paths of least resistance: you'll find that those capabilities you already possess are always infinitely quicker to expand in scope, scale, and potency than any entirely new abilities are to appear at hand. Likewise, you'll far more readily find raw ability and talent within yourself than you'll find cultivated skill. If you were to challenge a king of games to a game of chess for his throne, you would sooner find the sheer genius you needed to outwit him than discover the specialized professional understanding of a chess grandmaster, let alone the blessings of a god of the chessboard.\n  \n  As this ability gives you exactly what you need and no more at every turn, you will never lack for a challenge by this power alone: the limitless power you find within you when you exceed your grasp and your limits are tested will never sully or obsolete the simple pleasures of overcoming the mundane, and you will never be bored by the battles you might face. Similarly, though you may find the strength within you to wrest stars in twain, it is only an extension of your own will to power, and thus will never overflow beyond your ability to control; you will never face a \"world of cardboard' except insofar as you actually want to rip it all to shreds in your hands. And on the flip side, you can also never be surprised (and thus overwhelmed) by any factors you would choose to struggle against if you knew of them, for your will cannot be so easily overcome. If unseen enemies were to conspire to assassinate you, you would find it in yourself to dodge the killing bullet or purge the lethal dose from your flesh.\n  \n  Finally, whatever form of pleasure, satisfaction, and happiness you take in your victories, you may freely share at your discretion with those you have overcome. Whether this is merely another form of violence you're capable of inflicting upon others, a guilty pleasure you needn't deny your unwilling subjects the opportunity to experience, or a final self-demonstrating proof of the ecstatic rightness of your rule, is up to you.",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-bean.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "120",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": [],
+          "imageIsUrl": true,
+          "imageLink": "https://imgur.com/a/G669o6c"
         }
       ],
       "styling": {
@@ -76694,7 +76726,7 @@
       "id": "xrq4",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -82133,6 +82165,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "v0wh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Origins of power: Magic, Divinity, Sacred Gears, The soul, Obsession with breasts, and Emotions.\n\nMajor Threats: Khaos Brigade(No really, that's their name), Infinity Dragon, Stray Devils.\n\nMajor Powers: The Biblical Factions, The Indian Pantheon, The Greek Pantheon, Great red, Basically all of mythology.\n\nSuper Abilities: Magic and mythological physiologies are the standard way to get power, but many humans and half humans are blessed with sacred gears from the Biblical God, which grant them supernatural abilities.\n\nNote: You are capable of learning magic if you enter this world, and if you pick a magic power you already know at least the basics, and know much more depending on the price of your power, with sorcerer supreme giving you mastery over at least 2-3 types of magic. Also, note that the maximum physical capability of an unpowered human is around brute 8-9 This includes you if you enter this universe, but it will be nigh impossible to get this strong without extreme help, training, and very good genetics.",
+          "title": "Highschool DxD"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "tz0c",
           "image": "",
           "isActive": false,
@@ -82838,6 +82896,33 @@
           "template": 1,
           "text": "Origin of powers: Magic, biology and alien technology. Also regular technology.\n\nMajor Threats: The Chaos Gods, The regular Gods, The Empire, Bretonia, Every Ork alive, The High elves, The Wood elves, The Dark elves, The Dwarf kingdoms, The Chaos Dwarfs, The Norscans, The Lizardmen, The skaven Underempire, Talia, Keislev, The Orge Kingdoms, Cathay, Araby and Nagash. A lot ok, theres a lot. If I listed them all we\u2019d be here all day.\n\nMajor Powers: The Chaos Gods, The regular Gods, The Empire, Bretonia, Every Ork alive, The High elves, The Wood elves, The Dark elves, The Dwarf kingdoms, The Chaos Dwarfs, The Norscans, The Lizardmen, The skaven Underempire, Talia, Keislev, The Orge Kingdoms, Cathay, Araby and Nagash. A lot ok, theres a lot. If I listed them all we\u2019d be here all day.\n\nNote: If you are capable of magic of any kind you may pick one or two winds of magic which you can use, unless it is sorcerer supreme in which case you may pick all of them and every lore of magic and their spells is included in your mental library.\nNote that the Endtimes train is going strong and if you do not stop it, this world and everyone on it will die and disappear, you included, if you are here at that time. Also the chaos gods are almost invincible and horrible overpowered, and also very very evil, they will almost certainly try and corrupt you if you do not have mental shields in place to stop them. On the plus side if you get them to help, or replace them with another god which somehow gains hegemony, they will be quite the help against the warrior entity.\nAlso note that while this isn\u2019t quite 40k levels of fucked beyond belief, it is still very close. This is a VERY grim dark world you are going to. Good luck.",
           "title": "Warhammer Fantasy"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "zqe9",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-40"
+            }
+          ],
+          "template": 1,
+          "text": "Origins of power: Alien DNA, Magic, Magic Alien DNA, Super Science, Magic Super science, Genius, Technology, Extra Dimensional existence, Higher Dimensional existence. Ext.\n\nMajor Threats: The Light, Darkseid, The Injustice League, Ext. It's DC... there are far too many to mention.\n\nMajor Powers: The Justice League, The Light, Batman, Ext. Again DC.\n\nSuper Abilities: Alien DNA, Metahuman DNA, Alien technology, and magic are the standard options. But there are many, many, many differing superpowers with different origins in this setting. And they can become, or are, powerful enough to make an entity look weak, although that's relatively rare.\n\nNote: The Maximum physical capability of an unpowered human is around brute 4-5 This includes you if you enter this universe, but it will be very hard to reach this point. Anyone is capable of learning magic, including you.\nAlso note that you are willingly entering the DC multiverse, good luck man. At least people like a fully armed and operational Doctor Fate can stand a real chance of dealing with the entity.",
+          "title": "Young Justice"
         },
         {
           "addons": [],
@@ -86571,6 +86656,118 @@
           "template": 1,
           "text": "You start in Norsca, Kieslev or in the chaos wastelands. Pro tip, for the love of all thats good don\u2019t start in the chaos wastelands.\nIts cold, theres no food, everything is being corrupted by chaos and everyone is hostile, and thats just norsca. Start here if you are a real pro gamer.",
           "title": "The North"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fizr",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "zqe9",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            }
+          ],
+          "template": 1,
+          "text": "You start in Gotham city.\nThis place might legitimately have either 1000 curses or the attention of Despair of the endless. Either way, this is perhaps the worst major city I've ever seen. Expect any stay to be unpleasant.",
+          "title": "Gotham"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0wao",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "zqe9",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You start in Metropolis.\nThis place is the polar opposite of Gotham, the city of tomorrow is bustling with life, opportunity, and safety, with small-level crime being practically non-existent due to the fact that all you need to do is yell for help and Superman arrives to help you out.",
+          "title": "Metropolis"
         },
         {
           "addons": [],
