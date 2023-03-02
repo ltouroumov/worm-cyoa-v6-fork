@@ -44807,32 +44807,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "rk8k",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "4"
-            }
-          ],
-          "template": 1,
-          "text": "You can make potions/chemicals that have a number of weak effects. They can be poisonous, heal small wounds, increase natural regeneration by 100%, act as steroids without the downsides, cause emotions that can be suppressed if the person who drinks the potion has sufficient willpower, or increase senses by a significant margin. You can also make any mundane chemical with ease. Your potions can do a number of other things, but they're all fairly weak. ",
-          "title": "(Master/Tinker/Trump) Love Potion"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "qmoi",
           "image": "",
           "isActive": false,
@@ -44983,6 +44957,32 @@
           "template": 1,
           "text": "You can make one person at a time fall deeply in love with you. They can realize they're being Mastered, and their reaction to this depends on their personality, the situation, and their past interactions with you.",
           "title": "(Master) Love at First Sight"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "zwac",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "This power adds a multiplier to any action you do that would increase your reputation with someone.\nYou can choose the multiplier, as long as it is no more than ten, but the more powerful it is, the less subtle it is.",
+          "title": "(Master) Positive Multiplier"
         },
         {
           "addons": [],
@@ -45344,6 +45344,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "rk8k",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "4"
+            }
+          ],
+          "template": 1,
+          "text": "You can make potions/chemicals that have a number of weak effects. They can be poisonous, heal small wounds, increase natural regeneration by 100%, act as steroids without the downsides, cause emotions that can be suppressed if the person who drinks the potion has sufficient willpower, or increase senses by a significant margin. You can also make any mundane chemical with ease. Your potions can do a number of other things, but they're all fairly weak. ",
+          "title": "(Tinker/Master/Trump) Love Potion"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "tjz1",
           "image": "",
           "isActive": false,
@@ -45364,6 +45390,58 @@
           "template": 1,
           "text": "You can create sci-fi swords, halberds, spears, and other melee weapons. A sword made by you might be able to truly damage an Endbringer. If used by a Brute, it might even kill one... with a lucky hit.",
           "title": "(Tinker) Swords"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hu82",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "You are a wizard in the lab. You have the skills to create new materials, from super-alloys to acids to explosives to superconductors and beyond. \nThis power works best when paired with other Tinker powers.",
+          "title": "(Tinker) Chemistry"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "sl98",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "A techie's best friend, your skills with electronics are unparalleled. With the right materials you could make a supercomputer the size of a smartphone. \nThis power works best when paired with other Tinker powers, especially Mechanics.",
+          "title": "(Tinker) Electronics"
         },
         {
           "addons": [],
@@ -45396,6 +45474,84 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "87tr",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You have the skills of a master mechanic. You can design and make effectively any mechanical device, from precision timepieces to clockwork soldiers to pneumatic rifles to hydraulic battering rams. Anything that relies on purely mechanical power, you can build. \nThis power works best when paired with other Tinker powers.",
+          "title": "(Tinker) Mechanics"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "i4c7",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You tinker far faster than should be physically possible. \nYou also require fewer tools and equipment to do so, materials and components seemingly altering themselves to suit your design.",
+          "title": "(Tinker) Heterodyning"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hrev",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You can create advanced armor of various kinds. A set of power armor made by you might be able to shrug off a hit from an Endbringer.",
+          "title": "(Tinker) Armor"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "agi7",
           "image": "",
           "isActive": false,
@@ -45414,7 +45570,7 @@
             }
           ],
           "template": 1,
-          "text": "You can create robots, though by default they can't have any more than a (relatively) simple AI. I recommend you get other Tinker powers to use with this, because otherwise all you have is a bunch of barely-intelligent low-level brute servants. ",
+          "text": "You are a Tinker specializing in robotics. Unless you put in a significant amount of work, your robots won't have more than a simple AI (relative to something like Dragon), but they're perfectly capable in the role they were designed for. You are capable of programming your robots to function autonomously for some time.",
           "title": "(Tinker) Robots"
         },
         {
@@ -45422,7 +45578,7 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "uzve",
+          "id": "y00y",
           "image": "",
           "isActive": false,
           "isVisible": true,
@@ -45433,7 +45589,32 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "The most necessary ingredient of any technology. With your new skills you could make a battery that would last for years, or a power source that could run a spaceship. \nBe warned, as such inventions will draw heavy attention.",
+          "title": "(Tinker) Energy"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "skyn",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -45441,8 +45622,8 @@
             }
           ],
           "template": 1,
-          "text": "You can enchant weapons with non-Tinker powers as long as you're within 100 meters of the person with the power you're using for the entire duration of when you're making the weapon. If they leave the area you can continue with it later without losing progress. You can choose whether the weapon grants the wielder use of the power, or has a variant of the power itself.",
-          "title": "(Tinker/Trump) Enchantment"
+          "text": "You specialize in armored fighting vehicles of various kinds. This includes tanks, self-propelled artillery, and so on.",
+          "title": "(Tinker) Armored Warfare"
         },
         {
           "addons": [],
@@ -45469,6 +45650,32 @@
           "template": 1,
           "text": "Your specialty is the making of anything that cannot be easily moved. If you had a couple good shots, you could probably kill an Endbringer with one of your guns.",
           "title": "(Tinker) Fortifications and Artillery"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "utya",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "11"
+            }
+          ],
+          "template": 1,
+          "text": "You can create technology that accesses other dimensions. \nYou could make bullets that go through obstacles by sinking into another dimension, or goggles that let you see every dimension.",
+          "title": "(Tinker) Interdimensional"
         },
         {
           "addons": [],
@@ -45545,7 +45752,7 @@
             }
           ],
           "template": 1,
-          "text": "You can create robots as well as a headset to mentally control them. Your robots can make robots as well. There is no maximum or minimum size to your robots... well, they can't go subatomic, but that's the only real limit. You cannot program these robots without (Tinker) Code, and if you have (Tinker) Code you can overwrite the AI with your headset. You have unlimited multitasking.",
+          "text": "You can create robots as well as a headset to mentally control them. Your robots can make robots as well. There is no maximum or minimum size to your robots... well, they can't go subatomic, but that's the only real limit. \nYou cannot program these robots without (Tinker) Code, and if you have (Tinker) Code you can overwrite the AI with your headset. You have unlimited multitasking.",
           "title": "(Tinker/Master) Nanobots"
         },
         {
@@ -45571,7 +45778,7 @@
             }
           ],
           "template": 1,
-          "text": "You are a nuclear Tinker. 'Nugh said. ",
+          "text": "You specialize in the manipulation of nuclear physics. The obvious use is to create nuclear reactors and bombs, but you can do much more than that. You can create machines that transmute elements, advanced diagnostic imaging machines such as X-ray or MRI machines.",
           "title": "(Tinker) Nuclear"
         },
         {
@@ -45598,7 +45805,7 @@
             }
           ],
           "template": 1,
-          "text": "You are a genius when it comes to Code. You could make AI the would revolutionize the world... if they didn't destroy it. Be careful with this power... if only there was a benevolent AI that could help... Warning: The Dragonslayers WILL try to kill you out of fear of AI.",
+          "text": "You are a genius when it comes to Code. You could make AI the would revolutionize the world... if they didn't destroy it. Be careful with this power... if only there was a benevolent AI that could help... \nWarning: The Dragonslayers WILL try to kill you out of fear of AI.",
           "title": "(Tinker) Code"
         },
         {
@@ -48034,6 +48241,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "78qb",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "Every 24 hours you gain a charge, which you can hold onto or put into an item to give it powers. This slowly makes the item more powerful. This is more effective the better quality the item is. Active combat speeds up the collection of charges.",
+          "title": "(Trump/Tinker) Enhancement"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "eg0c",
           "image": "",
           "isActive": false,
@@ -48080,6 +48313,86 @@
           "template": 1,
           "text": "If you are aware of an incoming Parahuman attack, you can redirect it back at the sender of the power. If they're actively manipulating whatever you're countering, they lose control over that attack while you send it back at them.",
           "title": "(Trump) Redirection"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "llux",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "You can break the effect of any power within 50 feet. You can revert area effects, undo mind control, and banish projections. The effected target will be immune to that power for an hour afterward.",
+          "title": "(Trump) Exonerate"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "uzve",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "9"
+            }
+          ],
+          "template": 1,
+          "text": "You can enchant weapons with non-Tinker powers as long as you're within 100 meters of the person with the power you're using for the entire duration of when you're making the weapon. If they leave the area you can continue with it later without losing progress. You can choose whether the weapon grants the wielder use of the power, or has a variant of the power itself.",
+          "title": "(Trump/Tinker) Enchantment"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "kk8a",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "9"
+            }
+          ],
+          "template": 1,
+          "text": "When you activate this power, you get a power designed to solve a problem of your choice. The power is only of the same strength as a 5 point or less power, but its specifically designed to help with the problem you present to it. The power stays for up to one day and you cannot use Just the Thing again until the old power is gone. You can drop a power at any time.",
+          "title": "(Trump) Just the Thing"
         },
         {
           "addons": [],
@@ -63156,6 +63469,34 @@
           "text": "You become a Time Lord from Doctor Who and know how to make the technology from the show, including the TARDIS.",
           "title": "Time Lord",
           "imageIsUrl": true
+        },
+        {
+          "id": "b5r6",
+          "title": "A Spark of Genius (Girl Genius)",
+          "text": "The Spark is plugged into your mind and soul, inflaming it, filling it with a fire that boosts your mental facilities to unbelievable extents such that many things that should be impossible... suddenly aren't. \nWhile you specialize in some field to extraordinary degrees, like being able to create artificial sparks if you choose 'Von Neumann Clanks', your genius is unbound by the petty concerns lesser sparks suffer from, allowing you to shine equally bright in every field from Microbiology to Trans-Dimensional Aeronautics.\n\nYou have an instinctive grasp for scientific principles, can reverse engineer technology more or less just from seeing it, and have a head for calculation and numbers that defies belief. You can decrypt data in your head, have a completely flawless memory, and are in general the quintessential Mad Scientist. Complete with a gift for cackling and rants that can terrify anyone who isn't, by the way.\n\nWhen in the Madness Place, especially, you have an outright effect that allows you to warp time and space in a small area around you, letting you do weeks' worth of work in hours, and outright warp, twist, spindle the mutilate the very laws of physics as you craft your wonders... and horrors. Apart from the SCIENCE!, you have a charisma that borders on mind control, as anyone without a spark or an exceptionally strong willpower is drawn into your orbit by your sheer force of will, ready to help and serve wherever they can. Your body is also somewhat better than most, allowing you to go all those all-nighters without food and fight off highly trained fighters while barely paying attention.",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-b5r6.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "20",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": [],
+          "imageIsUrl": true
         }
       ],
       "styling": {
@@ -63478,6 +63819,33 @@
           "text": "At the cost of a loss of skill in casting magic spells or using psionic powers, you gain an understanding of your discipline's mechanics on a different level and become a talented and skilled craftsman. Whether you become a normal Artificer, Psionic Artificer, or a supremely versatile Artificer is up to the Shardless powers you've bought.",
           "title": "Artificer (D&D)",
           "imageIsUrl": true
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1kl8",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have the remarkable ability to merge magic with technology, creating things that would astound scientists and wizards alike. \nThis could be easily combined with any other Tinker power, and is severely hampered without some form of magical ability.",
+          "title": "(Tinker) Magitech"
         },
         {
           "addons": [],
@@ -71663,6 +72031,68 @@
           "isMultipleUseVariable": true,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "2"
+        },
+        {
+          "id": "y9cy",
+          "title": "Second Breakthrough (Girl Genius) ",
+          "text": "Your talents with the sparks cross the basic boundaries all the way, transforming you into something altogether beyond. You have had the second breakthrough, the transformation that makes you from a Spark into true Spark Royalty! \n\nYou're not a fully grown, matured God-Spark quite yet, but you\u2019re well on your way to becoming one. Along with having psychic powers like levitation and telepathy, you can release blasts of pure energy to scour your foes from the earth. You can see in more than three dimensions, and even interact with beings beyond the mortal plane in several ways. You have the power to shapeshift freely, going from giant to normal in an instant, and acquiring any color, appearance or form you desire.\n\nYou can possess willing subjects, and break any mind control or subversion on your subjects. You can control energy in various forms, most of them rather unspecified. Most importantly, of course, your talents with actual Sparking transcend any ordinary sparks entirely, being almost as much beyond them as they are beyond mundane scientists. You have a surfeit of ideas, almost as if you can do anything!\n\nYou don't even need to bother with Madness Places very much anymore, that is, being 'Suspended in an Eternal Moment of Supreme Clarity'. You do retain your ability to scare lesser minds out of their skin just by talking. Oh, and you gain a rotating halo of any symbols of your choice, turning around your head in an endless circle. You can hide the obvious bits of this, but why would you want to?",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-y9cy.webp",
+          "template": 1,
+          "objectWidth": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "defaultAspectWidth": 1,
+          "defaultAspectHeight": 1,
+          "requireds": [
+            {
+              "required": true,
+              "requireds": [],
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "id": "",
+              "type": "id",
+              "reqId": "b5r6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "showRequired": true,
+              "operator": "",
+              "afterText": "",
+              "beforeText": "Required:"
+            }
+          ],
+          "addons": [],
+          "scores": [
+            {
+              "id": "rm",
+              "value": "10",
+              "type": "",
+              "requireds": [],
+              "beforeText": "Cost:",
+              "afterText": "SP",
+              "showScore": true
+            }
+          ],
+          "groups": [],
+          "isSelectableMultiple": false,
+          "isMultipleUseVariable": true,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "imageIsUrl": true
         },
         {
           "id": "ra0c",
