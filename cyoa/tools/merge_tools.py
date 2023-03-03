@@ -105,13 +105,16 @@ def diff_sequence(seq_a: list, seq_b: list, update_item,
 
 
 IMPORTANT_KEYS = (
-    'id', 'title', 'text', 'scores',
+    'id', 'title', 'titleText', 'text', 'scores',
 )
 
 SPECIAL_KEYS = (
     *IMPORTANT_KEYS,
     'addons', 'image', 'requireds'
 )
+
+# Theses keys shouldn't be modified
+IGNORE_KEYS = ('currentChoices', 'isActive', 'isEditModeOn')
 
 SPECIAL_DISPLAY = {
     'scores': lambda scores: Text.assemble(*intercalate("\n", [
@@ -162,29 +165,42 @@ def update_dict(old_data: dict, new_data: dict):
             return Text(str(value))
 
     result_dict = {}
+    result_changed = False
     diff_table = Table(show_header=False, show_lines=False)
     for key in chain(SPECIAL_KEYS, rest_keys):
-        if key in old_data and key in new_data and old_data[key] != new_data[key]:
+        if key in IGNORE_KEYS:
+            # Don't change an ignored key
+            result_dict[key] = old_data[key] 
+        elif key in old_data and key in new_data and old_data[key] != new_data[key]:
             diff_table.add_row(key,
                                show_value(old_data[key], key),
                                show_value(new_data[key], key))
             result_dict[key] = new_data[key]
+            result_changed |= True
         elif key in old_data and key not in new_data:
             diff_table.add_row(key,
                                show_value(old_data[key], key),
                                Text("N/A", style="grey50"))
+            result_changed |= True
         elif key not in old_data and key in new_data:
             diff_table.add_row(key,
                                Text("N/A", style='grey50'),
                                show_value(new_data[key], key))
             result_dict[key] = new_data[key]
+            result_changed |= True
         elif key in IMPORTANT_KEYS and key in old_data:
             diff_table.add_row(key,
                                show_value(old_data[key], key),
                                Text("==", style="grey50"))
+            result_dict[key] = old_data[key]
+        elif key in old_data:
+            result_dict[key] = old_data[key]
 
     console.log(diff_table)
-    return result_dict
+    if result_changed:
+        return result_dict
+    else:
+        return old_data
 
 
 class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
@@ -199,6 +215,20 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                             type=Path, required=True)
         parser.add_argument('--write', dest='write',
                             action='store_true')
+        
+        parser.add_argument('--skip-rows', dest='skip_rows',
+                            nargs='+', action='extend',
+                            default=[])
+        parser.add_argument('--skip-objs', dest='skip_objs',
+                            nargs='+', action='extend',
+                            default=[])
+        
+        parser.add_argument('--only-rows', dest='only_rows',
+                            nargs='+', action='extend',
+                            default=[])
+        parser.add_argument('--only-objs', dest='only_objs',
+                            nargs='+', action='extend',
+                            default=[])
 
     def run(self, args):
         self._load_project(args.project_file)
@@ -207,19 +237,50 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
         def update_object(old_obj, new_obj):
             console.log(f"  Updated Item ({old_obj['id']}): {old_obj['title']}",
                         style="orange1")
+            if old_obj['id'] in args.skip_objs:
+                console.log(f"    Skipped (in exclusion list)", style="dark_slate_gray1 italic")
+                return old_obj
+            
+            if len(args.only_rows) > 0 and old_obj['id'] not in args.only_objs:
+                console.log(f"    Skipped (not in inclusion list)", style="dark_slate_gray1 italic")
+                return old_obj
+            
             return update_dict(old_obj, new_obj)
 
         def delete_object(items):
+            excluded_rows = []
             for item in items:
                 console.log(f"  Deleted Item ({item['id']}): {item['title']}", style="red")
+                if item['id'] in args.skip_objs:
+                    console.log(f"    Skipped (in exclusion list)", style="dark_slate_gray1 italic")
+                    excluded_rows.append(item)
+                    continue
+                
+                if len(args.only_objs) > 0 and item['id'] not in args.only_objs:
+                    console.log(f"    Skipped (not in inclusion list)", style="dark_slate_gray1 italic")
+                    excluded_rows.append(item)
+                    continue
+
                 update_dict(item, item)
-            return default_delete_item(items)
+
+            return excluded_rows
 
         def insert_object(new_items):
+            included_rows = []
             for item in new_items:
                 console.log(f"  Inserted Item ({item['id']}): {item['title']}", style="green")
+                if item['id'] in args.skip_objs:
+                    console.log(f"  Skipped (in exclusion list)", style="dark_slate_gray1 italic")
+                    continue
+                
+                if len(args.only_objs) > 0 and item['id'] not in args.only_objs:
+                    console.log(f"  Skipped (not in inclusion list)", style="dark_slate_gray1 italic")
+                    continue
+
                 update_dict(item, item)
-            return default_insert_item(new_items)
+                included_rows.append(item)
+                
+            return included_rows
 
         def objects_summary(equal_count, replace_count, delete_count, insert_count):
             if replace_count > 0:
@@ -231,6 +292,14 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
 
         def update_row(old_row, new_row):
             console.log(f"Updated Row ({old_row['id']}): {old_row['title']}", style="orange1")
+            if old_row['id'] in args.skip_rows:
+                console.log(f"  Skipped (in exclusion list)", style="dark_slate_gray1 italic")
+                return old_row
+            
+            if len(args.only_rows) > 0 and old_row['id'] not in args.only_rows:
+                console.log(f"  Skipped (not in inclusion list)", style="dark_slate_gray1 italic")
+                return old_row
+            
             old_objects = old_row.pop("objects", [])
             new_objects = new_row.pop("objects", [])
 
@@ -239,8 +308,7 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                 console.log("  Updated Row Data", style="orange1")
                 updated_row = update_dict(old_row, new_row)
             else:
-                updated_row = copy.deepcopy(old_row)
-                assert updated_row == old_row, "Row Copy"
+                updated_row = old_row
 
             # Handle updated objects
             if obj_hash(old_objects) != obj_hash(new_objects):
@@ -253,20 +321,45 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                     summary=objects_summary
                 )
                 updated_row["objects"] = updated_objects
+            else:
+                updated_row["objects"] = old_objects
 
             return updated_row
 
         def delete_row(rows):
+            excluded_rows = []
             for row in rows:
                 console.log(f"Deleted Row ({row['id']}): {row['title']}", style="red")
+                if row['id'] in args.skip_rows:
+                    console.log(f"  Skipped (in exclusion list)", style="dark_slate_gray1 italic")
+                    excluded_rows.append(row)
+                    continue
+                
+                if len(args.only_rows) > 0 and row['id'] not in args.only_rows:
+                    console.log(f"  Skipped (not in inclusion list)", style="dark_slate_gray1 italic")
+                    excluded_rows.append(row)
+                    continue
+                
                 update_dict(row, row)
-            return default_delete_item(rows)
+
+            return excluded_rows
 
         def insert_row(new_rows):
+            included_rows = []
             for row in new_rows:
                 console.log(f"Inserted Row ({row['id']}): {row['title']}", style="green")
+                if row['id'] in args.skip_rows:
+                    console.log(f"  Skipped (in exclusion list)", style="dark_slate_gray1 italic")
+                    continue
+                
+                if len(args.only_rows) > 0 and row['id'] not in args.only_rows:
+                    console.log(f"  Skipped (not in inclusion list)", style="dark_slate_gray1 italic")
+                    continue
+
                 update_dict(row, row)
-            return default_insert_item(new_rows)
+                included_rows.append(row)
+
+            return included_rows
 
         def rows_summary(equal_count, replace_count, delete_count, insert_count):
             if replace_count > 0:

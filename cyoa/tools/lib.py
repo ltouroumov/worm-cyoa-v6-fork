@@ -47,7 +47,7 @@ class ProjectUtilsMixin:
     def _save_project(self, project_file: Path):
         console.log(f"Saving project to {project_file}")
         with project_file.open(mode='w+') as fd:
-            json.dump(self.project, fd, indent=2)
+            json.dump(self.project, fd, indent=2, sort_keys=True)
 
 
 def find_first(values, f):
