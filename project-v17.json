@@ -101116,7 +101116,7 @@
       "id": "g51j",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": true,
       "isPrivateStyling": true,
       "isRequirementOpen": false,
@@ -101468,7 +101468,7 @@
             "selFilterSepiaIsOn": false
           },
           "template": 1,
-          "text": "MythicLegendary: Supernatural powers\nValeria: UQ Holder Powers\n\nMembers of the CYOA Discord:\nowlcool, Punchingtucan, Brigade, ObliterateFailed, CYOA Fans",
+          "text": "MythicLegendary: Supernatural powers\nValeria: UQ Holder Powers\n\nMembers of the CYOA Discord:\nowlcool, Punchingtucan, Brigade, ObliterateFailed, CYOA Fans, Iris, igor0612, crashdash",
           "title": "Content"
         },
         {

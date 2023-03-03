@@ -58222,6 +58222,33 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "evl6",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to absorb the practical expertise of anyone you focus on.\n\nThe skills you can absorb can be increased by things such as eye contact or physical contact, with each connection made increasing the breadth and depth of what you are able to steal, whether a specific skill or a target's general skill set.\n\nUnless you completely steal a target's skill, they will regain the skill over time.\n\nYou permanently retain any stolen skills and can improve them by re-stealing partially stollen skills or stealing similar skills.",
+          "title": "(Blaster/Master) Skill Thief"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "n0p3",
           "image": "",
           "isActive": false,
@@ -58242,32 +58269,6 @@
           "template": 1,
           "text": "You can make it lightning strike someone, even if it's a sunny day. This power has a recharge of three minutes. This lightning is as strong as natural lightning, and is stronger than the lightning created by Firebending.",
           "title": "(Blaster) Lightningrod"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "evl6",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "You are a firebender, you can manipulate and create fire through the use of martial arts. You find learning how to firebend to be intuitive. Eventually you'll be able to bend lightning and maybe even explosions. You can also learn how to redirect lightning. You're stronger during the day, especially when it's hotter out. You can't firebend on a solar eclipse and certain comets will enhance your ability to firebend.",
-          "title": "(Blaster) Firebender"
         },
         {
           "addons": [],
@@ -69563,149 +69564,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "whs5",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "l3ot",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "7n74",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "vub6",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "evl6",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "7"
-            }
-          ],
-          "template": 1,
-          "text": "You can not only bend all four of the elements, but you can also Energybend. With training you can give and take away bending to others. You also learn how to bend three times as quickly as you would otherwise. If your Shard runs out of Juice you will still be able to bend. When you die you will reincarnate without memories for the rest of eternity, along with any other power that you will keep after your Shard runs out of juice. If spirits exist you can communicate with them, otherwise you can communicate with Shards using Shard speak, though only when they want to speak. You have access to Avatar State which gives you access to all your previous incarnation's memories, temporarily negating any memory removing drawbacks, but if you're killed in this state you're permanently dead.",
-          "title": "Avatar"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "wo5e",
           "image": "",
           "isActive": false,
@@ -77262,6 +77120,122 @@
           "template": 1,
           "text": "You gain the power of Haki from One Piece, in all of its variations.\n\nArmament Haki covers all or part of your body in a black coating, enhancing your strength and durability, and allowing you to injure beings whose powers would usually make them immune, such as those who are intangible or have a body of living fire.\n\nObserver's Haki is a sensory power, which gives its user the ability to sense the aura and emotions of others in range, and with practice confers a type of combat precognition.\n\nConqueror's Haki creates a sort of 'pressure' that can knock out the weak willed, or temporarily force fear or compliance on those who fail to resist.   In extremes it can damage physical objects.\n\nUnlike most powers, Haki relies heavily on the determination and willpower of its user, and falters when they do.",
           "title": "Haki"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lpeh",
+          "image": "https://i.pinimg.com/736x/ad/4a/74/ad4a7412354fb5a56bb6b0961ae303e3.jpg",
+          "imageIsUrl": true,
+          "imageLink": "https://i.pinimg.com/736x/ad/4a/74/ad4a7412354fb5a56bb6b0961ae303e3.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": true,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "You are an airbender, you can manipulate air through the use of martial arts. You find learning how to airbend to be intuitive. Eventually you will be able to use air to slice through iron. You'll also be able to steal air straight from a person's lungs.",
+          "title": "(Mover/Blaster/Shaker) The Last Airbender"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8stj",
+          "image": "http://4.bp.blogspot.com/_r8VZJkQDID4/TDv3nuOQcRI/AAAAAAAAAXs/GEspbZfucs0/s1600/earthbender-1.jpg",
+          "imageIsUrl": true,
+          "imageLink": "http://4.bp.blogspot.com/_r8VZJkQDID4/TDv3nuOQcRI/AAAAAAAAAXs/GEspbZfucs0/s1600/earthbender-1.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": true,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You are an earthbender, you can manipulate the earth through the use of martial arts. You find learning how to earthbend to be intuitive. Eventually you will be able to bend metal and magma. This can also be used to detect lies. Theoretically, Earthbending could be used to bloodbend, but since waterbenders can initially only bloodbend on a full moon, and Earth Benders don't have a time when they're significantly stronger, it's likely you would never be able to learn how.",
+          "title": "(Shaker) Earthbender"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6zp7",
+          "image": "http://images4.fanpop.com/image/photos/18200000/Fire-firebending-18242312-1200-900.jpg",
+          "imageIsUrl": true,
+          "imageLink": "http://images4.fanpop.com/image/photos/18200000/Fire-firebending-18242312-1200-900.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": true,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "You are a firebender, you can manipulate and create fire through the use of martial arts. You find learning how to firebend to be intuitive. Eventually you'll be able to bend lightning and maybe even explosions. You can also learn how to redirect lightning. You're stronger during the day, especially when it's hotter out. You can't firebend on a solar eclipse and certain comets will enhance your ability to firebend.",
+          "title": "(Blaster) Firebender"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "k6mn",
+          "image": "http://images2.fanpop.com/images/photos/2800000/katara-water-bender-waterbending-2829236-564-800.jpg",
+          "imageIsUrl": true,
+          "imageLink": "http://images2.fanpop.com/images/photos/2800000/katara-water-bender-waterbending-2829236-564-800.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": true,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "You are a waterbender, you can manipulate water through the use of martial arts. You find learning how to waterbend to be intuitive. Eventually you will be able to use water to heal. You'll also be able to bloodbend or plantbend with training.",
+          "title": "(Blaster/Shaker) Waterbender"
         }
       ],
       "requireds": [
@@ -84023,7 +83997,7 @@
       "buttonText": "Click",
       "buttonType": true,
       "currentChoices": 0,
-      "defaultAspectHeight": 1,
+      "defaultAspectHeight": "3",
       "defaultAspectWidth": 1,
       "id": "3hbj",
       "image": "",
@@ -84158,6 +84132,181 @@
           "template": 1,
           "text": "Your talents with the sparks cross the basic boundaries all the way, transforming you into something altogether beyond. You have had the second breakthrough, the transformation that makes you from a Spark into true Spark Royalty! \n\nYou're not a fully grown, matured God-Spark quite yet, but you\u2019re well on your way to becoming one. Along with having psychic powers like levitation and telepathy, you can release blasts of pure energy to scour your foes from the earth. You can see in more than three dimensions, and even interact with beings beyond the mortal plane in several ways. You have the power to shapeshift freely, going from giant to normal in an instant, and acquiring any color, appearance or form you desire.\n\nYou can possess willing subjects, and break any mind control or subversion on your subjects. You can control energy in various forms, most of them rather unspecified. Most importantly, of course, your talents with actual Sparking transcend any ordinary sparks entirely, being almost as much beyond them as they are beyond mundane scientists. You have a surfeit of ideas, almost as if you can do anything!\n\nYou don't even need to bother with Madness Places very much anymore, that is, being 'Suspended in an Eternal Moment of Supreme Clarity'. You do retain your ability to scare lesser minds out of their skin just by talking. Oh, and you gain a rotating halo of any symbols of your choice, turning around your head in an endless circle. You can hide the obvious bits of this, but why would you want to?",
           "title": "Second Breakthrough (Girl Genius) "
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "eour",
+          "image": "https://cdn.wallpapersafari.com/99/88/SgQ8Xy.jpg",
+          "imageIsUrl": true,
+          "imageLink": "https://cdn.wallpapersafari.com/99/88/SgQ8Xy.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "lpeh",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "8stj",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "6zp7",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "k6mn",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": true,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You can not only bend all four of the elements, but you can also Energybend. With training you can give and take away bending to others. You also learn how to bend three times as quickly as you would otherwise. If your Shard runs out of Juice you will still be able to bend. When you die you will reincarnate without memories for the rest of eternity, along with any other power that you will keep after your Shard runs out of juice. If spirits exist you can communicate with them, otherwise you can communicate with Shards using Shard speak, though only when they want to speak. You have access to Avatar State which gives you access to all your previous incarnation's memories, temporarily negating any memory removing drawbacks, but if you're killed in this state you're permanently dead.",
+          "title": "Avatar"
         },
         {
           "addons": [],
@@ -100967,7 +101116,7 @@
       "id": "g51j",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": true,
       "isPrivateStyling": true,
       "isRequirementOpen": false,
@@ -101319,7 +101468,7 @@
             "selFilterSepiaIsOn": false
           },
           "template": 1,
-          "text": "MythicLegendary: Supernatural powers\nValeria: UQ Holder Powers\n\nMembers of the CYOA Discord:\nowlcool, Punchingtucan, Brigade, ObliterateFailed, CYOA Fans",
+          "text": "MythicLegendary: Supernatural powers\nValeria: UQ Holder Powers\n\nMembers of the CYOA Discord:\nowlcool, Punchingtucan, Brigade, ObliterateFailed, CYOA Fans, Iris, igor0612, crashdash",
           "title": "Content"
         },
         {
