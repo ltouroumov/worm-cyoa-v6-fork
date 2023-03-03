@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 -m cyoa.tools.client $@
+python3 -m cyoa.tools.client "$@"
