@@ -55000,15 +55000,16 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "8"
+              "value": "4"
             }
           ],
           "template": 1,
-          "text": "You are an airbender, you can manipulate air through the use of martial arts. You find learning how to airbend to be intuitive. Eventually you will be able to use air to slice through iron. You'll also be able to steal air straight from a person's lungs.",
-          "title": "(Mover/Blaster/Shaker) The Last Airbender"
+          "text": "You are able to move through sand, earth, and gravel like a fish through water.\n\nYou are able to dig through solid stone or stone-like materials at significantly reduced speeds.\n\nYou will not need to breath while underground, and will possess an innate sense of direction.",
+          "title": "(Mover) Ground diver"
         },
         {
           "addons": [],
@@ -55433,6 +55434,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -55440,8 +55442,8 @@
             }
           ],
           "template": 1,
-          "text": "You are an earthbender, you can manipulate the earth through the use of martial arts. You find learning how to earthbend to be intuitive. Eventually you will be able to bend metal and magma. This can also be used to detect lies. Theoretically, Earthbending could be used to bloodbend, but since waterbenders can initially only bloodbend on a full moon, and Earth Benders don't have a time when they're significantly stronger, it's likely you would never be able to learn how.",
-          "title": "(Shaker) Earthbender"
+          "text": "You can exude an aura that heals others in a 10-meter radius around yourself.\n\nWithin this area of effect, vitality is refreshed, pain is relieved, open wounds visibly close, and infections are eliminated. Bones will even set properly given enough time in your aura. The more serious the injury, the more difficult it is, and longer it takes, to heal.\n\nYou can, with enough focus, exempt individuals from this effec",
+          "title": "(Shaker) Healing Circle"
         },
         {
           "addons": [],
@@ -58286,15 +58288,16 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "8"
+              "value": "7"
             }
           ],
           "template": 1,
-          "text": "You are a waterbender, you can manipulate water through the use of martial arts. You find learning how to waterbend to be intuitive. Eventually you will be able to use water to heal. You'll also be able to bloodbend or plantbend with training.",
-          "title": "(Blaster/Shaker) Waterbender"
+          "text": "By using clay figures, paintings, or just someone's photos, you can affect the one it is resembling by interacting with it.\n\nThe severity of injuries or effects you can inflict depends on the nature and accuracy of the items used.",
+          "title": "(Blaster) Voodoo"
         },
         {
           "addons": [],
