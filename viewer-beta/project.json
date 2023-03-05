@@ -55000,15 +55000,16 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "8"
+              "value": "4"
             }
           ],
           "template": 1,
-          "text": "You are an airbender, you can manipulate air through the use of martial arts. You find learning how to airbend to be intuitive. Eventually you will be able to use air to slice through iron. You'll also be able to steal air straight from a person's lungs.",
-          "title": "(Mover/Blaster/Shaker) The Last Airbender"
+          "text": "You are able to move through sand, earth, and gravel like a fish through water.\n\nYou are able to dig through solid stone or stone-like materials at significantly reduced speeds.\n\nYou will not need to breath while underground, and will possess an innate sense of direction.",
+          "title": "(Mover) Ground diver"
         },
         {
           "addons": [],
@@ -55119,11 +55120,37 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "w5bw",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "12"
+            }
+          ],
+          "template": 1,
+          "text": "You can move fast enough to be just shy of breaking the sound barrier, with a jumping ability proportional to your speed. Your agility, coordination, reaction speed, stamina, and durability are all boosted to make this survivable, and allow you to move with the proportional grace of an Olympic athlete. This power is also supported by perfect traction, giving the ability to make impossible turns and move on any surface, from the frictionless to the vertical, or even the inverted.",
+          "title": "(Mover/Breaker/Thinker) Veloci\u2026Raptor?"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "tnjk",
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-12",
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
@@ -55433,6 +55460,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -55440,8 +55468,8 @@
             }
           ],
           "template": 1,
-          "text": "You are an earthbender, you can manipulate the earth through the use of martial arts. You find learning how to earthbend to be intuitive. Eventually you will be able to bend metal and magma. This can also be used to detect lies. Theoretically, Earthbending could be used to bloodbend, but since waterbenders can initially only bloodbend on a full moon, and Earth Benders don't have a time when they're significantly stronger, it's likely you would never be able to learn how.",
-          "title": "(Shaker) Earthbender"
+          "text": "You can exude an aura that heals others in a 10-meter radius around yourself.\n\nWithin this area of effect, vitality is refreshed, pain is relieved, open wounds visibly close, and infections are eliminated. Bones will even set properly given enough time in your aura. The more serious the injury, the more difficult it is, and longer it takes, to heal.\n\nYou can, with enough focus, exempt individuals from this effec",
+          "title": "(Shaker) Healing Circle"
         },
         {
           "addons": [],
@@ -56015,6 +56043,33 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "mhwz",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You are strong and durable to an appreciably superhuman degree. Strong enough to lift 2500 kg with the same ease a normal man might lift 40. Durable enough to shrug off the fire from anti-material rifles, explosions on the scale of infantry manned rockets, and even the efforts of industrial cutting tools. This power also includes enhanced leverage and a false increase in mass when resisting blows.",
+          "title": "(Brute) Bee Proof"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "jcx7",
           "image": "",
           "isActive": false,
@@ -56125,7 +56180,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [
             {
@@ -56148,11 +56203,38 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "h57i",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "14"
+            }
+          ],
+          "template": 1,
+          "text": "You are a premier Brute on a level short of only Alexandria herself. Capable of throwing around main battle tanks like an E-girl might throw her cat and shrugging off anything short of a tactical nuke. You are immovable by outside forces, but be careful as you will take the full force of any blow, though lesser assailants will find themselves breaking upon your body.",
+          "title": "(Brute/Breaker) The Duke"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "sbho",
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-12",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [
             {
@@ -56635,11 +56717,37 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "go6q",
+          "id": "8d8i",
           "image": "",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "14"
+            }
+          ],
+          "template": 1,
+          "text": "You can transform into a shattered figure composed of monomolecular crystal shards. In this form you can glide forward at highway speeds, though in order to change directions you must briefly shift forms. While transformed you are highly durable and will reflect most non exotic energies, but you can be temporarily scattered by sufficient force.  \nThings you target with your light for over 30 seconds will begin to repair, including humans.\nYour reaction time is 5x faster.",
+          "title": "(Mover/Breaker/Striker) Fractal"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "go6q",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
@@ -56665,7 +56773,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-12",
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
@@ -57095,6 +57203,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "ud1o",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You can temporarily siphon 25% of the mental capabilities of everyone within 25 meters of you. The combined intelligence, processing ability, multitasking, etc that you siphon lasts for 25 minutes after they leave your range, though your victims regain their full faculties immediately.",
+          "title": "(Shaker/Master/Thinker) Brain Drain"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "jfkd",
           "image": "",
           "isActive": false,
@@ -57151,7 +57285,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "",
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
@@ -57177,7 +57311,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-12",
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
@@ -58286,15 +58420,16 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "8"
+              "value": "7"
             }
           ],
           "template": 1,
-          "text": "You are a waterbender, you can manipulate water through the use of martial arts. You find learning how to waterbend to be intuitive. Eventually you will be able to use water to heal. You'll also be able to bloodbend or plantbend with training.",
-          "title": "(Blaster/Shaker) Waterbender"
+          "text": "By using clay figures, paintings, or just someone's photos, you can affect the one it is resembling by interacting with it.\n\nThe severity of injuries or effects you can inflict depends on the nature and accuracy of the items used.",
+          "title": "(Blaster) Voodoo"
         },
         {
           "addons": [],
@@ -61097,6 +61232,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "ceav",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You are aware of whenever someone is speaking about you and have a rough idea about what they are saying and where they are. This is entirely a background process and will not inconvenience you or interfere with your life. This ability is Multiversal in range but not Omniversal, you will not be made aware of discussions about your doppelgangers.",
+          "title": "(Thinker/Stranger) Taboo"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "rlg9",
           "image": "",
           "isActive": false,
@@ -61205,7 +61366,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "",
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
@@ -61231,7 +61392,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-12",
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
@@ -62273,6 +62434,318 @@
           "template": 1,
           "text": "",
           "title": "Golem"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1800",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "Hookwolf "
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7fnh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "Damsel of Distress "
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ut8e",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "Gavel"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ng3m",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "9"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "Lung"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hxlg",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "Kaiser"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "22lp",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "String Theory "
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "swcs",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "Acidbath"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qja5",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "August Prince"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "svg1",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "Blasto"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "3cnl",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "12"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "Mama Mathers"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ogxv",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "Alabaster "
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "t0c0",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "11"
+            }
+          ],
+          "template": 1,
+          "text": "",
+          "title": "Teacher"
         }
       ],
       "requireds": [
@@ -63064,6 +63537,58 @@
           "template": 1,
           "text": "Your Shard grants you access to a game-like system to manage your power(s). By default, you have access to a basic system which includes attributes and the ability to grow by gaining experience. You gain experience by completing quests or defeating enemies (does not need to involve killing them) and can increase your attributes by training. How the system works in details depends on the Shard, two people with this power can have systems that work differently.\n\nAll other powers you select interface through this one and unlock their ability to grow. As you use them, your powers will grow in strength and will unlock new aspects.\n\nYour growth potential is not unlimited, however. Your Shard can only support a certain amount of total progression. This limit will be communicated to you.",
           "title": "(Trump/Breaker/Thinker) Gamer System"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ccyw",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You can create and shape magnetic fields within a 100 meter range, field formation is instantaneous, powerful, and extremely precise. You are limited only by your concentration, focus, ingenuity, materials at hand, and the space available within your range. This can be used for applications such as manipulating, compressing, and launching metal, or anything else you can get to work through magnetic field interactions. This comes with a passive defensive shield that will protect you fully from shockwaves, and deflect magnetic attacks such as metals, electricity, or plasma.",
+          "title": "(Shaker/Blaster) Magnets, Son! How do they work?"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jumj",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You can not be harmed, arrested, detained, captured, imprisoned, or otherwise obstructed by any non powered persons or non sapient beings. Immediately before making such an attempt they will decide to spend the next hour zealously trying to kill their compatriots and then themselves.",
+          "title": "(Master/Stranger) If Anything Were To Happen\u2026"
         },
         {
           "addons": [],
