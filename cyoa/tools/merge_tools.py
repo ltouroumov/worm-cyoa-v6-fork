@@ -241,7 +241,7 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                 console.log(f"    Skipped (in exclusion list)", style="dark_slate_gray1 italic")
                 return old_obj
             
-            if len(args.only_rows) > 0 and old_obj['id'] not in args.only_objs:
+            if len(args.only_objs) > 0 and old_obj['id'] not in args.only_objs:
                 console.log(f"    Skipped (not in inclusion list)", style="dark_slate_gray1 italic")
                 return old_obj
             
