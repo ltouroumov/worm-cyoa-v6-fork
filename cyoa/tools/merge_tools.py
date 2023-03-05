@@ -119,7 +119,9 @@ IGNORE_KEYS = ('currentChoices', 'isActive', 'isEditModeOn')
 SPECIAL_DISPLAY = {
     'scores': lambda scores: Text.assemble(*intercalate("\n", [
         Text.assemble(score['beforeText'], " ", score['value'], " ", score['afterText'],
-                      " (", score['id'], ")", " (cond)" if len(score['requireds']) > 0 else "")
+                      " (", score['id'], ")", " (cond)" if len(score['requireds']) > 0 else "",
+                      " (show=%s)" % str(score['showScore']) if 'showScore' in score else "",
+                      " (active=%s)" % str(score['isActive']) if 'isActive' in score else "")
         for score in scores
     ])),
     'requireds': lambda items: Text.assemble(*intercalate("\n", [
@@ -278,6 +280,7 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                     continue
 
                 update_dict(item, item)
+                
                 included_rows.append(item)
                 
             return included_rows
@@ -356,6 +359,7 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                     console.log(f"  Skipped (not in inclusion list)", style="dark_slate_gray1 italic")
                     continue
 
+                console.log(f"  {len(row['objects'])} Items")
                 update_dict(row, row)
                 included_rows.append(row)
 
