@@ -1,5 +1,7 @@
 {
-  "activated": [],
+  "activated": [
+    ""
+  ],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -22137,7 +22139,7 @@
       "id": "pc8m",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -63338,33 +63340,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "8cpj",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8cpj.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have the powers of the Dovahkiin from Elder's Scrolls V: Skyrim. Any shout the Dovahkiin can learn, you know. With a regeneration power you will have no cooldown between shouts.",
-          "title": "(Trump) Dovahkiin"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "ak39",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ak39.webp",
           "imageIsUrl": true,
@@ -77366,6 +77341,34 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "7tp5",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-7tp5.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You become a dragonborn, a shard of time, and a demigod. You gain the knowledge of, and ability to use, all the shouts seen skyrim. As well as an understanding of the Thu'um and draconic language to where you can create new shouts from the understanding you possess.\n\nYou have a perfect ability to control your voice.\nThis also makes you able to learn faster, and absorb dragon souls in order to take in their power and experience. You are also moderately tougher and stronger.\n\nNote: The Thu'um goes from low end to high end reality warping. As you are inserting notes into the song of creation.\nA regeneration power would reduce the cooldown between shouting, but using the thu'um in quick succession for a prolonged period of time will leave you metaphysicaly drained. Use with care.",
+          "title": "Dovahkiin"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "rt86",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-rt86.webp",
           "imageIsUrl": true,
@@ -77407,7 +77410,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "isActive": true,
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -77436,7 +77439,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "isActive": true,
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -77465,7 +77468,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "isActive": true,
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -77494,7 +77497,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "isActive": true,
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -84406,6 +84409,68 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "v1jn",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-v1jn.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "7tp5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "200"
+            }
+          ],
+          "template": 1,
+          "text": "Right well I didnt expect this to happend.\nYou have acheived CHIM,\ntrue enlightenment and transcendence.\nYou understand that the world is a dream, and you are now a lucid dreamer. This means that, as long as you dont share the dream with another lucid dreamer, you alone decide what happend to the world around you. and what happend, and what will happend. This is more or less complete godhood.\nIf you are still having trouble understanding this, you have basically beomce a bodhisattva from buddisht mythology, making you one with the universe and above any gods.",
+          "title": "CHIM"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "eour",
           "image": "https://cdn.wallpapersafari.com/99/88/SgQ8Xy.jpg",
           "imageIsUrl": true,
@@ -84529,35 +84594,6 @@
               "requireds": [],
               "showRequired": true,
               "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "or"
             }
           ],
           "scores": [
@@ -84565,7 +84601,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "isActive": true,
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -101384,7 +101420,7 @@
       "id": "g51j",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": true,
       "isPrivateStyling": true,
       "isRequirementOpen": false,
