@@ -93729,7 +93729,7 @@
           "title": "The Secret of the Swordfish"
         },
         {
-          "activateOtherChoice": true,
+          "activateOtherChoice": false,
           "activateThisChoice": "j4fl",
           "addons": [],
           "defaultAspectHeight": 1,
@@ -96253,6 +96253,9 @@
             },
             {
               "req": "i2wv"
+            },
+            {
+              "req": "f6ix"
             }
           ],
           "reqId": "",
@@ -97202,7 +97205,7 @@
               "req": "q6x8"
             },
             {
-              "req": "q6x82"
+              "req": "f6ix"
             },
             {
               "req": "q6x83"
@@ -100097,6 +100100,9 @@
             },
             {
               "req": "i2wv"
+            },
+            {
+              "req": "f6ix"
             }
           ],
           "reqId": "",
