@@ -29738,6 +29738,263 @@
         },
         {
           "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "e6gc",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "You are much more likely to encounter villains in your new life, either as a victim, or as a target of recruitment.",
+          "title": "Villain Target"
+        },
+        {
+          "addons": [],
           "deactivateOtherChoice": false,
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
@@ -74978,6 +75235,33 @@
           "template": 1,
           "text": "Your genes are modified with Saiyan DNA, making you a Half-Saiyan. You gain strength sufficient to shatter a boulder with a well-placed punch, proportionally enhanced physical resilience, the ability to leap great distances, the ability to rise even stronger every time you come close to death, a natural talent for Ki, and great potential due to your Human/Saiyan hybrid nature.",
           "title": "Half-Saiyan"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ppdr",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            }
+          ],
+          "template": 1,
+          "text": "You have contracted a transdimensional bacterium called malaise, which causes a condition that has been colloquially dubbed as 'Lazarus Syndrome'. This bacterium completely rewrites their host's personal dimensional structure, rendering them completely immune to any forms of premature ceasing as to preserve the host and in turn themselves. This typically manifests as the ability to come back from the dead. \n\nBut this isn't the end of your new abilities, however. The second most prominent effect Lazarus Syndrome causes is to occasionally generate powers in relation of how you died. Death by sword? Maybe you can disconnect your body parts, or perhaps become very good a swordplay. Death by crushing? Perhaps your body will become super-dense or allow you to become intangible. You never really get to choose, but it'll always be related to how you die. The more you know how you died, or will die, the more you can narrow down what power will manifest.",
+          "title": "Lazarus Syndrome"
         }
       ],
       "requireds": [
@@ -75634,7 +75918,7 @@
               "value": "35"
             }
           ],
-          "template": "2",
+          "template": "1",
           "text": "You become a Time Lord from Doctor Who and know how to make the technology from the show, including the TARDIS.",
           "title": "Time Lord"
         },
@@ -76577,15 +76861,25 @@
           "title": "Wanded Magic (Harry Potter)"
         },
         {
+          "activateOtherChoice": false,
           "addons": [],
+          "deactivateOtherChoice": false,
+          "deactivateThisChoice": "",
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
+          "dividePointtypeIsOn": false,
           "groups": [],
           "id": "hhgq",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-hhgq.webp",
           "imageIsUrl": true,
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isNotSelectable": false,
+          "isSelectableMultiple": true,
           "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
           "objectWidth": "",
           "requireds": [
             {
@@ -76661,6 +76955,7 @@
           ],
           "template": 1,
           "text": "You are a beginner at one of the True Magics. This can be any of the 5 currently held in the Nasuverse or a new one as long as it fits the criteria.\n\nThe five currently held in the Nasuverse are Denial of Nothingness (Creation of Ether Clumps, allows for true creation and destruction), Kaleidoscope (Operation of Parallel Worlds), Heaven's Feel (Manifestation of the Soul), Unknown (Unknown), Magical Blue (Believed to be related to Entropy Manipulation) You are talented with all forms of Magic or Magecraft that you can use, gain the ability to use modern Magecraft without circuits using ancient breathing techniques, and learn more about Magic and Magecraft just from using what you do know in combat, though this process is slow.\n\n(This power essentially allows you to do anything with enough research and preparation.)",
+          "textfieldIsOn": false,
           "title": "True Magic"
         },
         {
@@ -77052,7 +77347,7 @@
             }
           ],
           "template": 1,
-          "text": "You have the power of Aura, from RWBY. You can gift the power of Aura to others if you can figure out how. Aura will absorb most damage done by any physical or elemental attack you're aware of, give you a bit of a sixth sense, and will enhance your strength, speed, durability, stamina, senses, and reflexes.",
+          "text": "You have the power of Aura from RWBY. You can gift the power of Aura to others if you can figure out how. Aura will absorb most damage done by any physical or elemental attack you're aware of, give you a bit of a sixth sense, and will enhance your strength, speed, durability, stamina, senses, and reflexes.",
           "title": "Aura"
         },
         {
@@ -77361,8 +77656,8 @@
             }
           ],
           "template": 1,
-          "text": "You become a dragonborn, a shard of time, and a demigod. You gain the knowledge of, and ability to use, all the shouts seen skyrim. As well as an understanding of the Thu'um and draconic language to where you can create new shouts from the understanding you possess.\n\nYou have a perfect ability to control your voice.\nThis also makes you able to learn faster, and absorb dragon souls in order to take in their power and experience. You are also moderately tougher and stronger.\n\nNote: The Thu'um goes from low end to high end reality warping. As you are inserting notes into the song of creation.\nA regeneration power would reduce the cooldown between shouting, but using the thu'um in quick succession for a prolonged period of time will leave you metaphysicaly drained. Use with care.",
-          "title": "Dovahkiin"
+          "text": "You become a Dragonborn, a shard of time, and a demigod. You gain the knowledge of, and ability to use all the shouts seen in Skyrim, as well as an understanding of the Thu'um and draconic language to where you can create new shouts from the understanding you possess.\n\nYou have a perfect ability to control your voice.\nThis also makes you able to learn faster, and absorb dragon souls to take in their power and experience. You are also moderately tougher and stronger.\n\nNote: The Thu'um goes from low-end to high-end reality warping, as you are inserting notes into the song of creation.\nA regeneration power would reduce the cooldown between shouting, but using the Thu'um in quick succession for a prolonged time will leave you metaphysically drained. Use with care.",
+          "title": "Dovahkiin (TES)"
         },
         {
           "addons": [],
@@ -77418,8 +77713,8 @@
             }
           ],
           "template": 1,
-          "text": "You are an airbender, you can manipulate air through the use of martial arts. You find learning how to airbend to be intuitive. Eventually you will be able to use air to slice through iron. You'll also be able to steal air straight from a person's lungs.",
-          "title": "(Mover/Blaster/Shaker) The Last Airbender"
+          "text": "You are an airbender, you can manipulate air through the use of martial arts. You find learning how to airbend to be intuitive. Eventually, you will be able to use air to slice through iron. You'll also be able to steal air straight from a person's lungs.",
+          "title": "The Last Airbender (ATLA)"
         },
         {
           "addons": [],
@@ -77447,8 +77742,8 @@
             }
           ],
           "template": 1,
-          "text": "You are an earthbender, you can manipulate the earth through the use of martial arts. You find learning how to earthbend to be intuitive. Eventually you will be able to bend metal and magma. This can also be used to detect lies. Theoretically, Earthbending could be used to bloodbend, but since waterbenders can initially only bloodbend on a full moon, and Earth Benders don't have a time when they're significantly stronger, it's likely you would never be able to learn how.",
-          "title": "(Shaker) Earthbender"
+          "text": "You are an earthbender, you can manipulate the earth through the use of martial arts. You find learning how to earthbend to be intuitive. Eventually, you will be able to bend metal and magma. This can also be used to detect lies. Theoretically, earthbending could be used to bloodbend, but since waterbenders can initially only bloodbend on a full moon, and earthbenders don't have a time when they're significantly stronger, it's likely you would never be able to learn how.",
+          "title": "Earthbender (ATLA)"
         },
         {
           "addons": [],
@@ -77476,8 +77771,8 @@
             }
           ],
           "template": 1,
-          "text": "You are a firebender, you can manipulate and create fire through the use of martial arts. You find learning how to firebend to be intuitive. Eventually you'll be able to bend lightning and maybe even explosions. You can also learn how to redirect lightning. You're stronger during the day, especially when it's hotter out. You can't firebend on a solar eclipse and certain comets will enhance your ability to firebend.",
-          "title": "(Blaster) Firebender"
+          "text": "You are a firebender, you can manipulate and create fire through the use of martial arts. You find learning how to firebend to be intuitive. Eventually, you'll be able to bend lightning and maybe even explosions. You can also learn how to redirect lightning. You're stronger during the day, especially when it's hotter out. You can't firebend on a solar eclipse and certain comets will enhance your ability to firebend.",
+          "title": "Firebender (ATLA)"
         },
         {
           "addons": [],
@@ -77505,8 +77800,8 @@
             }
           ],
           "template": 1,
-          "text": "You are a waterbender, you can manipulate water through the use of martial arts. You find learning how to waterbend to be intuitive. Eventually you will be able to use water to heal. You'll also be able to bloodbend or plantbend with training.",
-          "title": "(Blaster/Shaker) Waterbender"
+          "text": "You are a waterbender, you can manipulate water through the use of martial arts. You find learning how to waterbend to be intuitive. Eventually, you will be able to use water to heal. You'll also be able to bloodbend or plantbend with training.",
+          "title": "Waterbender (ATLA)"
         }
       ],
       "requireds": [
@@ -84463,7 +84758,7 @@
             }
           ],
           "template": 1,
-          "text": "Right well I didnt expect this to happend.\nYou have acheived CHIM,\ntrue enlightenment and transcendence.\nYou understand that the world is a dream, and you are now a lucid dreamer. This means that, as long as you dont share the dream with another lucid dreamer, you alone decide what happend to the world around you. and what happend, and what will happend. This is more or less complete godhood.\nIf you are still having trouble understanding this, you have basically beomce a bodhisattva from buddisht mythology, making you one with the universe and above any gods.",
+          "text": "Right. Well... I didn't expect this to happen.\nYou have achieved CHIM,\ntrue enlightenment, and transcendence.\nYou understand that the world is a dream, and you are now a lucid dreamer. This means that as long as you do not share the dream with another lucid dreamer, you alone decide what happens to the world around you, what happened, and what will happen. This is more or less complete godhood.\nIf you are still having trouble understanding this, you have basically become a bodhisattva from Buddhist mythology, one with the universe and above any gods.",
           "title": "CHIM"
         },
         {
@@ -84609,7 +84904,7 @@
             }
           ],
           "template": 1,
-          "text": "You can not only bend all four of the elements, but you can also Energybend. With training you can give and take away bending to others. You also learn how to bend three times as quickly as you would otherwise. If your Shard runs out of Juice you will still be able to bend. When you die you will reincarnate without memories for the rest of eternity, along with any other power that you will keep after your Shard runs out of juice. If spirits exist you can communicate with them, otherwise you can communicate with Shards using Shard speak, though only when they want to speak. You have access to Avatar State which gives you access to all your previous incarnation's memories, temporarily negating any memory removing drawbacks, but if you're killed in this state you're permanently dead.",
+          "text": "You can not only bend all four of the elements but you can also Energybend. With training, you can give and take away bending to others. You also learn how to bend three times as quickly as you would otherwise.\n\nWhen you die you will reincarnate without memories for the rest of eternity, along with any other power you have. \n\nYou can communicate with spirits. You have access to Avatar State which gives you access to all your previous incarnation's memories, temporarily negating any memory-removing drawbacks, but if you're killed in this state you're permanently dead.",
           "title": "Avatar"
         },
         {
@@ -86606,7 +86901,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [
             {
@@ -86621,8 +86916,35 @@
             }
           ],
           "template": 1,
-          "text": "You are a master of free form martial arts. You are not limited by style and instead move your entire body like a weapon and flows between moves like water.",
+          "text": "You are a master of free-form martial arts. You are not limited by style and instead, move your entire body like a weapon and flow between moves like water.",
           "title": "Thousand Styles Master"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8zpt",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You find it easy to adapt your knowledge of martial arts to fit with any and all powers you have, even if it completely changes your body. \nYou're also good at adapting martial arts to be used simultaneously with other martial arts you know.",
+          "title": "Adaptable Martial Arts"
         },
         {
           "addons": [],
@@ -86633,7 +86955,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [
             {
@@ -86728,7 +87050,7 @@
             }
           ],
           "template": 1,
-          "text": "You are a skilled marksman.\n\nYou are also proficient with most common ranged weapons and can figure out more exotic weapons with ease.",
+          "text": "You are a skilled marksman.\n\nYou are also proficient with the most common ranged weapons and can figure out more exotic weapons with ease.",
           "title": "Marksman"
         },
         {
@@ -87662,6 +87984,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "6vjg",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have the equivalent of a Ph.D. from a reputable medical school. \nYou have the skills to handle just about any medical situation.",
+          "title": "Doctor"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "9ur2",
           "image": "",
           "isActive": false,
@@ -87855,7 +88203,7 @@
             }
           ],
           "template": 1,
-          "text": "You know how to teach people. Could be useful if you want to start a school of superpowered martial arts, because frankly, martial arts won't work the same with superpowers added to them, even if it's just a weak Brute power.",
+          "text": "You know how to teach people. Could be useful if you want to start a school of superpowered martial arts because frankly, martial arts won't work the same with superpowers added to them, even if it's just a weak Brute power.",
           "title": "Teaching"
         },
         {
@@ -87882,7 +88230,7 @@
             }
           ],
           "template": 1,
-          "text": "You find it easier to take-notes, pay attention, and follow along to speeches, seminars, lectures, discussions, and anything written. Also helps you learn physically and makes studying easier. Really helps if you have ADD or ADHD.",
+          "text": "You find it easier to take notes, pay attention, and follow along with speeches, seminars, lectures, discussions, and anything written. Also helps you learn physically and makes studying easier. Really helps if you have ADD or ADHD.",
           "title": "Learning"
         },
         {
@@ -87936,7 +88284,7 @@
             }
           ],
           "template": 1,
-          "text": "You know how to make long term plans. You find it easy to grasp geography, troop locations, and the best move for your enemy to make.",
+          "text": "You know how to make long-term plans. You find it easy to grasp geography, troop locations, and the best move for your enemy to make.",
           "title": "Strategy"
         },
         {
@@ -88046,6 +88394,33 @@
           "template": 1,
           "text": "You know how to inspire people. Combined with True Good and you could end up being a Shounen protagonist. Almost.",
           "title": "Inspiration"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "inrr",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have a way with your words and actions. \nRegardless of what you do, you can make it look and sound good. \nIf you're a Hero, Villain, or public figure, you're likely to be one of the more popular ones.",
+          "title": "Presentation"
         },
         {
           "addons": [],
@@ -88226,6 +88601,33 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "4zss",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You know a variety of physical crafting skills at a professional level, such as carpentry, smithing, sewing, electrical engineering, and more. \nYou don't know any esoteric crafting skills, but you find it easy to learn new ones.",
+          "title": "Master Craftsman"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "x1wn",
           "image": "",
           "isActive": false,
@@ -88245,7 +88647,7 @@
             }
           ],
           "template": 1,
-          "text": "You know how to do basic first-aid. You know stuff like mouth-to-mouth, how to stop bleeding, and how to stop someone from biting their tongue off from pain. You have a college 101 course level knowledge on both biology and anatomy. You find learning further about these subjects to be easy.",
+          "text": "You know how to do basic first-aid. You know stuff like mouth-to-mouth, how to stop bleeding, and how to stop someone from biting their tongue off from pain. You have a college 101 course-level knowledge of both biology and anatomy. You find learning further about these subjects to be easy.",
           "title": "First-Aid"
         },
         {
@@ -88297,7 +88699,7 @@
             }
           ],
           "template": 1,
-          "text": "You know how to pickpocket. This gives you moderate skill at stealth and slight of hand.",
+          "text": "You know how to pickpocket. This gives you moderate skill at stealth and sleight of hand.",
           "title": "Pickpocketing"
         },
         {
@@ -88380,6 +88782,141 @@
           "template": 1,
           "text": "You know all the common Earth Bet slang. This is mostly useless if you chose Reincarnate or Character-Insert, though a loner or sufficiently young or old person might not know the slang.",
           "title": "Earth Bet Slang"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pdu9",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You can split a month of experience between any of your powers that improve with skill.",
+          "title": "Practice"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1oof",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "You are capable of operating any land vehicle, sea vessel, or aircraft with the exception of especially exotic Tinkertech vehicles.",
+          "title": "Driving"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lhqh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "4"
+            }
+          ],
+          "template": 1,
+          "text": "You have excellent hand-eye coordination, and while you wouldn't be a top-class athlete you are generally skilled at anything that would require it. \nDoesn't make you as good a shot as Gun Fu, nor does it make you a talented fighter",
+          "title": "Hand-Eye Coordination"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "z8ei",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You have a sense of exactly what time it is at all times, even if you can't see the sky or have been underground for long periods of time.",
+          "title": "Internal Clock"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0vds",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You know your surroundings, and always have a sense of the direction you are facing.",
+          "title": "Spatial Awareness"
         },
         {
           "addons": [],
@@ -93729,7 +94266,7 @@
           "title": "The Secret of the Swordfish"
         },
         {
-          "activateOtherChoice": false,
+          "activateOtherChoice": true,
           "activateThisChoice": "j4fl",
           "addons": [],
           "defaultAspectHeight": 1,
@@ -96253,9 +96790,6 @@
             },
             {
               "req": "i2wv"
-            },
-            {
-              "req": "f6ix"
             }
           ],
           "reqId": "",
@@ -97205,7 +97739,7 @@
               "req": "q6x8"
             },
             {
-              "req": "f6ix"
+              "req": "q6x82"
             },
             {
               "req": "q6x83"
@@ -100100,9 +100634,6 @@
             },
             {
               "req": "i2wv"
-            },
-            {
-              "req": "f6ix"
             }
           ],
           "reqId": "",
