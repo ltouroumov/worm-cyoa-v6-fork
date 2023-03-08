@@ -19302,7 +19302,7 @@
           ],
           "template": 1,
           "text": "You have the incredibly broken superpower of honestly just being a well-adjusted person. \nYour personal issues are much easier to work through then they would be for anyone else, and even if you don\u2019t have any help, you\u2019ll be able to get through them in time. This might take quite a while if it\u2019s bad, but you\u2019ll make it out eventually. \nYou\u2019re also really good at helping others through their issues, and it\u2019ll stick more often than not as long as you can get through to them.",
-          "title": "Well-Adjusted "
+          "title": "Well-Adjusted"
         },
         {
           "addons": [],
@@ -19329,7 +19329,7 @@
           ],
           "template": 1,
           "text": "Your patience is inexhaustible. \nYou could sit without moving for days with no problem, or easily spend countless hours on a single, mind-numbing task.",
-          "title": "Patience of a Saint "
+          "title": "Patience of a Saint"
         },
         {
           "addons": [],
@@ -19583,7 +19583,7 @@
           ],
           "template": 1,
           "text": "Espionage in all its form is as easy as breathing for you, with gaining contacts, expanding networks, planting spies and more being trivial for you. \nWithin days you could have your thumb on the pulse of the city, with even its deepest secrets unable to stay hidden from you.",
-          "title": "Cloak and Dagger "
+          "title": "Cloak and Dagger"
         },
         {
           "addons": [],
@@ -23703,7 +23703,7 @@
           ],
           "template": 1,
           "text": "You have an overinflated sense of your own worth, your new favorite pastime being making sure that you look your absolute best at all times.",
-          "title": "Narcissism "
+          "title": "Narcissism"
         },
         {
           "addons": [],
@@ -28042,14 +28042,58 @@
           "title": "Handicapped"
         },
         {
-          "addons": [],
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "13z7",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "Whatever disabilities you have are now a part of your Case 53 form. You are beyond saving.",
+              "title": "Monster Cape"
+            }
+          ],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "i46p",
           "image": "",
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
           "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
           "objectWidth": "",
           "requireds": [
             {
@@ -28059,19 +28103,13 @@
               "operator": "",
               "orRequired": [
                 {
-                  "req": ""
+                  "req": "zpzc"
                 },
                 {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
+                  "req": "13z7"
                 }
               ],
-              "reqId": "zpzc",
+              "reqId": "",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -28079,7 +28117,7 @@
               "required": true,
               "requireds": [],
               "showRequired": true,
-              "type": "id"
+              "type": "or"
             }
           ],
           "scores": [
@@ -28105,7 +28143,7 @@
             }
           ],
           "template": 1,
-          "text": "Not only do people believe you to be handicapped, you actually have a real disability. \nWhether you are deaf, mute, blind, paraplegic, or something else, no powers can recover what you have lost.",
+          "text": "Not only do people believe you to be handicapped, you actually have a real disability. \n\nWhether you are deaf, mute, blind, paraplegic, or something else, no powers can recover what you have lost.",
           "title": "Disabled"
         },
         {
@@ -28422,7 +28460,7 @@
           ],
           "template": 1,
           "text": "Your empathy is muffled, making it harder to see things from the perspective of others. \nBe careful this doesn't lead you down a dark path.",
-          "title": "Cold Heart "
+          "title": "Cold Heart"
         },
         {
           "addons": [],
@@ -35192,6 +35230,35 @@
               "requireds": [],
               "showRequired": false,
               "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "nyan",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
             }
           ],
           "scores": [
@@ -35499,6 +35566,35 @@
                 }
               ],
               "reqId": "shvr",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "nyan",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -35940,6 +36036,35 @@
                 }
               ],
               "reqId": "shvr",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "nyan",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -88616,7 +88741,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "5"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -88791,7 +88916,12 @@
           "id": "pdu9",
           "image": "",
           "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
           "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "6",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -93710,7 +93840,37 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "objectWidth": "",
-          "requireds": [],
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "j4fl",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
           "scores": [
             {
               "afterText": "SP",
