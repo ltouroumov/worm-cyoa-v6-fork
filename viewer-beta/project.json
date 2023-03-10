@@ -76669,7 +76669,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "12"
+              "value": "10"
             }
           ],
           "template": 1,
@@ -76697,7 +76697,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "12"
+              "value": "10"
             }
           ],
           "template": 1,
@@ -76725,7 +76725,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "12"
+              "value": "10"
             }
           ],
           "template": 1,
@@ -76936,7 +76936,8 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "g4iu",
-          "image": "",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-g4iu.webp",
+          "imageIsUrl": true,
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -76950,7 +76951,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "12"
             }
           ],
           "template": 1,
@@ -77169,6 +77170,148 @@
           "template": 1,
           "text": "You are capable of old Magic from the Age of the Gods that is equal in strength to the True Magics. Along with being capable of this, you are capable of any form of Magic used in any universe you travel to as long as over 1% of the population has the potential to use it, and have huge reserves (though not nearly infinite). You can also choose to be a beginner in either Divine Words, Fairy Characters, or Primordial Runes. You are talented with all forms of Magic or Magecraft, gain the ability to use modern Magecraft without circuits using ancient breathing techniques, and learn more about Magic and Magecraft just from using what you do know in combat, though this process is slow. You can also use Magecraft when not on or near an Earth.",
           "title": "Old Magic"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "yd0b",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-yd0b.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fcatherine-foundling-from-practical-guide-to-evil-drawn-by-haco-reasonablefantasy--312296555410143169%2F&psig=AOvVaw0JtNdhauLToF2r5Z_p5f3h&ust=1678554305647000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIjIjZvs0f0CFQAAAAAdAAAAABAE",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have Night; a power that lets you harvest power and knowledge from the dead and to wield it in various ways. You gain the skills and power of a Mighty, and can optionally become a Drow.\nThe version of Night you gain is the version of Night that existed before the reforging of Sve Noc in Serolen.",
+          "title": "Night (A Practical Guide to Evil)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "i9gx",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-i9gx.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You can call upon the Light of the heavens. With this you can heal, shield, burn, undo magic and bless artifacts.",
+          "title": "Light (A Practical Guide to Evil)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "suon",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-suon.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fsandara%2Fart%2FCatherine-Foundling-608331843&psig=AOvVaw0JtNdhauLToF2r5Z_p5f3h&ust=1678554305647000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIjIjZvs0f0CFQAAAAAdAAAAABAI",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You can wield Sorcery with sufficient skill as someone with the ability to wield High Arcana.\nYou can use magic to ward areas, summon beings, call upon the elements and more.\nYou can choose which tradition of magic you follow, such as Trismegistan, Jaquinite or Ligurian. If you choose Ligurian, then you are bestowed the innate abilities that the Gigantes had that make using it possible.",
+          "title": "Sorcery (A Practical Guide to Evil)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5gvw",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-5gvw.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You receive a Name, either based on your identity as a cape, or a Name from A Practical Guide to Evil.\nYour Name is based off the powers you wield, and the sort of story tropes you fulfill.\nYou receive either the full set of Aspects of someone who has had your Name, or one Aspect of your choice to start off with.",
+          "title": "Name (A Practical Guide to Evil)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xd81",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xd81.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You become an Elantrian. This optionally changes you physically, granting you glowing skin and silvery hair.\nYou can draw Aons, which are a sort of magical programming language based off of the land. You will have to draw Aons based off of wherever you are, and will be able to easily intuit Aons.",
+          "title": "Elantrian (Elantris)"
         },
         {
           "addons": [],
