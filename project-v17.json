@@ -63599,7 +63599,7 @@
       "id": "zg2f",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -64187,8 +64187,36 @@
             }
           ],
           "template": 1,
-          "text": "You have the ability to cast spells in with variety of magic that can reproduce the effect of non-Tinker powers. While your Shard provides you with a basic library of spells in each system and an intuitive knowledge of them, you will have to research and invent more powerful spells. Your spells will not be stronger than what Eidolon could do in his prime.\n\nYou have a pool of energy to cast spells, you have enough to cast your most powerful spells a dozen times in a short time span. The pool takes 30 minutes to fully recharge. Permanent spells like summons, buffs, and auras reserve part if your reserve while they are active and release the energy when they are cancelled or expire.",
+          "text": "You have the ability to cast spells in with variety of magic that can reproduce the effect of non-Tinker powers. While your Shard provides you with a basic library of spells in each system and an intuitive knowledge of them, you will have to research and invent more powerful spells. Your spells will not be stronger than what Eidolon could do in his prime.\n\nYou have a pool of energy to cast spells, you have enough to cast your most powerful spells a dozen times in a short time span. The pool takes 30 minutes to fully recharge. Permanent spells like summons, buffs, and auras reserve part of your reserve while they are active and release the energy when they are cancelled or expire.",
           "title": "(Trump) Arcanist"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0ppn",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0ppn.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to use psionic techniques that can reproduce the effect of non-Tinker powers. While your Shard provides you with the basics and an intuitive knowledge of how to shape the energy, you will have to research and experiment to produce more powerful results. At most, you will be as strong as Eidolon was in his prime.\n\nYour pool of energy is enough to use your most powerful techniques a dozen times in a short time span. The pool takes 30 minutes to fully recharge. Permanent effects like constructs, buffs, and auras reserve part of your reserve while they are active and release the energy when they are cancelled or expire.",
+          "title": "(Trump) Kineticist"
         },
         {
           "addons": [],
@@ -64474,7 +64502,7 @@
           ],
           "template": 1,
           "text": "In a radius of 50 meters around you, with nothing but your will alone you are capable of shaping the physical world. Moving objects, generating and manipulating all forms of energy or matter, or even creating psychic constructs.\n\nThe world is a vast ocean of vibration, matter, and energy to your senses, and all it takes is a thought to send it moving according to your wishes. Complex systems such as biology and technology will require a great deal of practice before you can reliably work them the same way you would matter and energy, with other powers here being far better at doing so and developing faster.",
-          "title": "(Shaker/Thinker) Psychokinesis"
+          "title": "(Shaker/Thinker) Omni-Kinesis"
         },
         {
           "addons": [],
@@ -70177,7 +70205,7 @@
       "id": "qldk",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -71740,7 +71768,7 @@
             }
           ],
           "template": 1,
-          "text": "Your Arcanist and Artificer powers synergize giving you access to the ability to create Wards, spells that are anchored to an area using ward stones. Wards can be connected together to pass information between them. Ward stones are not affected by the enchantment limit, be careful what you mix together however. If a wards tone is destroyed it will collapse all wards it is powering and those it is connected to.",
+          "text": "Your Arcanist and Artificer powers synergize giving you access to the ability to create Wards, spells that are anchored to an area using ward stones. Wards can be connected together to pass information between them. Ward stones are not affected by the enchantment limit, be careful what you mix together however. If a wardstone is destroyed it will collapse all wards it is powering and those it is connected to.",
           "title": "Ward Master"
         },
         {
@@ -72338,7 +72366,7 @@
       "id": "hd9l",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -72486,6 +72514,9 @@
                 },
                 {
                   "req": "bztm"
+                },
+                {
+                  "req": "0ppn"
                 }
               ],
               "reqId": "",
@@ -72512,7 +72543,7 @@
             }
           ],
           "template": 1,
-          "text": "Your Arcanist, Artificer, and Alchemist are upgraded to the next level.\n\nYou access to more magic systems as well as the ability to design your own. Your energy pool and recharge rate are multiplied by 10. Your spells are no longer limited in strength.\n\nYour enchantment cap is raised to five and you generate 6 more charges per day. Your enchantments are no longer limited in strength.\n\nYou can create potions that can have permanent effect on the drinker. Your potion can now grand powers on par with a high tier cape. You can transmute metamaterials that are more easily enchanted, or that can conduct, store, or enhance spells, as well as various power-like effects. The transmutation time is now proportional to the circle's area instead of the volume.\n\nWith this, you could potentially destroy an Entity if you put your mind to it.",
+          "text": "Arcanist, Kneticist, Artificer, and Alchemist are upgraded to the next level.\n\nYou access to more magic systems as well as the ability to design your own. Your energy pool and recharge rate are multiplied by 10. Your spells are no longer limited in strength. Your Kineticist abilities are affected in a similar way.\n\nYour enchantment cap is raised to five and you generate 6 more charges per day. Your enchantments are no longer limited in strength.\n\nYou can create potions that can have permanent effect on the drinker. Your potion can now grand powers on par with a high tier cape. You can transmute metamaterials that are more easily enchanted, or that can conduct, store, or enhance spells, as well as various power-like effects. The transmutation time is now proportional to the circle's area instead of the volume.\n\nWith this, you could potentially destroy an Entity if you put your mind to it.",
           "title": "Archmage"
         }
       ],
