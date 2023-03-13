@@ -74986,6 +74986,153 @@
           "template": 1,
           "text": "You have contracted a transdimensional bacterium called malaise, which causes a condition that has been colloquially dubbed as 'Lazarus Syndrome'. This bacterium completely rewrites their host's personal dimensional structure, rendering them completely immune to any forms of premature ceasing as to preserve the host and in turn themselves. This typically manifests as the ability to come back from the dead. \n\nBut this isn't the end of your new abilities, however. The second most prominent effect Lazarus Syndrome causes is to occasionally generate powers in relation of how you died. Death by sword? Maybe you can disconnect your body parts, or perhaps become very good a swordplay. Death by crushing? Perhaps your body will become super-dense or allow you to become intangible. You never really get to choose, but it'll always be related to how you die. The more you know how you died, or will die, the more you can narrow down what power will manifest.",
           "title": "Lazarus Syndrome"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "081d",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-081d.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You have gained the enhancements of a space marine, which chapter is up to you.\nThis also grants you the training of a freshly promoted battle brother.\nNote: This does not give you any wargear.",
+          "title": "Adeptus Astartes"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "tb06",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-tb06.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "081d",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have gotten the enchancements and training of a custodes. This is a significant upgrade as you have gone from super human to mythic hero in terms of skill and power. At this point you can easily take on entire corps of soldiers unharmed, and with proper wargear entire armies.\n\nYou also gain significant skills and training in arts, strategy, tactics, diplomacy, and much, much more.",
+          "title": "Adeptus Custodes"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qkmq",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qkmq.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "tb06",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You are a son of the Emporer of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities, or even Vulcans perpetuality. ",
+          "title": "Primarch"
         }
       ],
       "requireds": [
@@ -75673,6 +75820,305 @@
           "template": 1,
           "text": "The Spark is plugged into your mind and soul, inflaming it, filling it with a fire that boosts your mental facilities to unbelievable extents such that many things that should be impossible... suddenly aren't. \nWhile you specialize in some field to extraordinary degrees, like being able to create artificial sparks if you choose 'Von Neumann Clanks', your genius is unbound by the petty concerns lesser sparks suffer from, allowing you to shine equally bright in every field from Microbiology to Trans-Dimensional Aeronautics.\n\nYou have an instinctive grasp for scientific principles, can reverse engineer technology more or less just from seeing it, and have a head for calculation and numbers that defies belief. You can decrypt data in your head, have a completely flawless memory, and are in general the quintessential Mad Scientist. Complete with a gift for cackling and rants that can terrify anyone who isn't, by the way.\n\nWhen in the Madness Place, especially, you have an outright effect that allows you to warp time and space in a small area around you, letting you do weeks' worth of work in hours, and outright warp, twist, spindle the mutilate the very laws of physics as you craft your wonders... and horrors. Apart from the SCIENCE!, you have a charisma that borders on mind control, as anyone without a spark or an exceptionally strong willpower is drawn into your orbit by your sheer force of will, ready to help and serve wherever they can. Your body is also somewhat better than most, allowing you to go all those all-nighters without food and fight off highly trained fighters while barely paying attention.",
           "title": "A Spark of Genius (Girl Genius)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "e3m3",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-e3m3.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "qkmq",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            }
+          ],
+          "template": 1,
+          "text": "You are a Middling psyker. You gain the skills and powers of a sanctioned Gamma to Beta level psyker. This grants you access to the immaterium and the ability to shape reality with your thoughts. But be careful, because you are not alone in that dark sea.",
+          "title": "Psyker (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "voki",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-voki.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "e3m3",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have gone beyond the level of psychic might that is thought of as humanly possible. You are at this point able to turn a man inside out with glance and demolish armies. If you throw caution to the wind you are a threat to the planet you stand on.\nThis power allows you to stay relatively sane even with your powers.",
+          "title": "Alpha Level Psyker (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "n2ls",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-n2ls.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the knowledge of and ability to build, use, maintain, and somewhat understand modern imperial technology.",
+          "title": "Tinker (Adeptus Mechanicus)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jhti",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-jhti.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "n2ls",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You gain all the Knowledge mankind had of technology during the height of the golden age of technology. Please don't start another cybernetic revolt.",
+          "title": "STC (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pwnl",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pwnl.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the combined knowledge of the necron, infinite empire, at their peak. This is an immense understanding of the universe and its rules, including, but not nearly limited to such things as, inertialess drives, time manipulation, complete matter manipulation, space manipulation. And much, much more.",
+          "title": "Cryptek (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "f13x",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-f13x.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "voki",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the combined knowledge of the Eldar at the peak of their empire. This is an immense understanding of the immaterium and its ways, as well as how to build both psychic and material machines to manipulate it. This includes knowledge on how to create psychic gods and manipulation of the soul in order to reincarnate yourself in a chosen body, in effect becoming immortal. And much, much more.",
+          "title": "Asuryani (Warhammer 40k)"
         }
       ],
       "requireds": [
@@ -77336,6 +77782,34 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "gjy9",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gjy9.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "You become a Celestial brush god. This gives you the ability to re-write reality using your divine power and some skill. You can do this by stopping time and writing upon reality what you wish created, changed, or destroyed. You also, as a god, have an innate connection with nature and all things within it will recognize your authority and power, and rightly defer to you. Your power grows the more you help nature and the world, granting you more faith and therefore power. All things can grant faith, but helping humans and other sentients grants the most.\nMortal wepons and powers can no longer hurt you.\nYou can choose an animal form which you can change in and out of at will.\nNote: You use your divine powers in the form of brush techniques, you start out with knowledge and skill with one, but can expand on this by using and experiementing with your powers.",
+          "title": "Celestial Brush God (Okami)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "1dtp",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1dtp.webp",
           "imageIsUrl": true,
@@ -77553,6 +78027,34 @@
           "template": 1,
           "text": "You gain the power of Haki from One Piece, in all of its variations.\n\nArmament Haki covers all or part of your body in a black coating, enhancing your strength and durability, and allowing you to injure beings whose powers would usually make them immune, such as those who are intangible or have a body of living fire.\n\nObserver's Haki is a sensory power, which gives its user the ability to sense the aura and emotions of others in range, and with practice confers a type of combat precognition.\n\nConqueror's Haki creates a sort of 'pressure' that can knock out the weak willed, or temporarily force fear or compliance on those who fail to resist.   In extremes it can damage physical objects.\n\nUnlike most powers, Haki relies heavily on the determination and willpower of its user, and falters when they do.",
           "title": "Haki"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "w5so",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-w5so.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "50"
+            }
+          ],
+          "template": 1,
+          "text": "The Mark of the Wanderer now graces your brow. It is an ancient rune of protection, first used upon Cain as a divine punishment by God himself. This protection is truly impenetrable by anything short of exotic effects on the level of Sting, or the efforts of a Universal level being. Anyone attempting to, or succeeding at doing you harm will find their efforts returned upon them sevenfold.\nThis reflected harm is conceptual in nature. A normal human might find their punch throwing them across the room with a broken arm. But a Demon Lord dealing a grievous blow will find themselves swiftly turned into a pillar of salt.\nHaving been marked to wander eternally by God, you are immune to the ravages of time, and are completely incapable of doing yourself intentional harm.",
+          "title": "Mark of Cain (Mortal Instruments)"
         },
         {
           "addons": [],
@@ -84782,6 +85284,247 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "ukyg",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ukyg.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "gjy9",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "You step in the footsteps of Shiranui. You have mastered all the celestial brush techniques and can create more as you please. You now represent, and are, the sun, life, and goodness. Your presence drives off evil and darkness in all its forms with no exceptions. Your presence is like a divine intervention for the world around you, healing and restoring it, filling it with beauty and blessing the land and people.\n\nYour power is immense, easily enough to govern a solar system, and it will only grow the more faith you have from those around you. If you had the true faith of a medium sized country you could easily affect galaxies.\n\nNothing but true evil, and weapons made thereof, can hurt you and even then it's not like you have a weakness to such weapons or abilities, they just affect you normally.\n\nAll things in the world can feel your station, and power when you are near them. Making them naturally feel a deep respect for you. The more sentient a thing is the lesser this effect is, so humans just feel a sense of respect for you, while animals and plants would treat you like royalty. You can hide your presence, and it's effects, if you want to.",
+          "title": "The Great God"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lb79",
+          "image": "",
+          "imageIsUrl": false,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "voki",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have entered the league of legends in psychic might.\nThis is the level of the Emporer of Mankind and other beings which might as well be thought of as psychic gods. You shine like a star in the immaterium and cannot escape the attention of whatever resides there.",
+          "title": "Alpha Plus Psyker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "i8r6",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-i8r6.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://cdn.wallpapersafari.com/99/88/SgQ8Xy.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "lb79",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "qkmq",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "jhti",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You become one with the Emperor of Mankind. Gaining his skills, training, powers, body, knowledge, and more.\nYou are the new man. Ready to lead mankind to glory, or ruin.\nIt is up to you whether this is a soul fusion, or mearly you gaining his powers, knowledge, and gifts.",
+          "title": "The Emperor of Mankind"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "ra0c",
           "image": "",
           "isActive": false,
@@ -86266,6 +87009,64 @@
           "template": 1,
           "text": "An ancient relic from an advanced precursor race that had destroyed itself in war, previously used by knights and having taken damage to it's memory banks, this will find you as a suitable master or mistress. You can learn Ancient Belkan magic from this, but it's only capable of creating an artificial D-rank linker core due to low power which you'll need to use to power this, although you may use other magic sources and improve your magic power through training unlike Midchildan artificial linker cores.",
           "title": "Ancient Belkan Intelligent Device"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "bwja",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-bwja.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "n2ls"
+                },
+                {
+                  "req": "e3m3"
+                },
+                {
+                  "req": "081d"
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the wargear common to your chosen power. This scales with your strongest power from this universe, so if your strongest was a space marine you'd get wargear for that, and if your strongest was custodes then you'd gain wargear for that. This scales all the way up to the Emporers personal wargear.",
+          "title": "Wargear(40k)"
         }
       ],
       "requireds": [
