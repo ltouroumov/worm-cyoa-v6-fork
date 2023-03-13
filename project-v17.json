@@ -3057,6 +3057,7 @@
               "afterText": "SP",
               "beforeText": "Gain:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -3066,6 +3067,7 @@
               "afterText": "CP",
               "beforeText": "Cost:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -37002,6 +37004,7 @@
               "afterText": "SP",
               "beforeText": "Gain:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -37011,6 +37014,7 @@
               "afterText": "CP",
               "beforeText": "Gain:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -49361,6 +49365,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -49370,6 +49375,7 @@
               "afterText": "CP",
               "beforeText": "Cost:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -49815,6 +49821,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -49824,6 +49831,7 @@
               "afterText": "CP",
               "beforeText": "Cost:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -53477,6 +53485,35 @@
               "reqId3": "",
               "reqPoints": 0,
               "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "h1e5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
               "requireds": [],
               "showRequired": true,
               "type": "id"
@@ -60057,6 +60094,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -60109,6 +60147,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -60162,6 +60201,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -60214,6 +60254,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -63599,7 +63640,7 @@
       "id": "zg2f",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -64310,7 +64351,7 @@
             }
           ],
           "template": 1,
-          "text": "You can summon and control dolls. You can create an arbitrary amount of dolls but only have up to 10 active dolls at once. You can see, hear, and feel (but not smell and taste) through your dolls. Your maximum control range is 1000 meters, if a doll goes outside that range it will deactivate. Your capacity to multitask matches the amount of dolls you have active. You cannot summon your dolls further than at arm's length (~60cm or 2ft).\n\nBy default the dolls you create have the same strength, speed, and resistance as your own body but no other powers. When created they will not have any clothes. The size of your dolls can range from 10cm to 80cm and must have a human form.\n\n",
+          "text": "You can summon and control dolls. You can create an arbitrary amount of dolls but only have up to 10 active dolls at once. You can see, hear, and feel (but not smell and taste) through your dolls. Your maximum control range is 1000 meters, if a doll goes outside that range it will deactivate. Your capacity to multitask matches the amount of dolls you have active. You cannot summon your dolls further than at arm's length (~60cm or 2ft).\n\nBy default the dolls you create have the same strength, speed, and resistance as your own body but no other powers. When created they will not have any clothes. The size of your dolls can range from 10cm to 80cm and must have a human form.",
           "title": "(Master/Trump) Doll Master"
         },
         {
@@ -70205,7 +70246,7 @@
       "id": "qldk",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -72545,6 +72586,137 @@
           "template": 1,
           "text": "Arcanist, Kneticist, Artificer, and Alchemist are upgraded to the next level.\n\nYou access to more magic systems as well as the ability to design your own. Your energy pool and recharge rate are multiplied by 10. Your spells are no longer limited in strength. Your Kineticist abilities are affected in a similar way.\n\nYour enchantment cap is raised to five and you generate 6 more charges per day. Your enchantments are no longer limited in strength.\n\nYou can create potions that can have permanent effect on the drinker. Your potion can now grand powers on par with a high tier cape. You can transmute metamaterials that are more easily enchanted, or that can conduct, store, or enhance spells, as well as various power-like effects. The transmutation time is now proportional to the circle's area instead of the volume.\n\nWith this, you could potentially destroy an Entity if you put your mind to it.",
           "title": "Archmage"
+        },
+        {
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "64k9",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "Your Network Hub allows you to share your powers to your dolls. This overcomes the limit of standard power-sharing and allows your dolls to use Brute, Breaker, and Changer powers. However, as dolls as non-biological, some powers will not work even with this.",
+              "title": "Doll Network"
+            }
+          ],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "h1e5",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h1e5.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "hheh",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "sxhj"
+                },
+                {
+                  "req": "d0mx"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            },
+            {
+              "afterText": "DP",
+              "beforeText": "Cost:",
+              "id": "d2",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "Your ability to summon and control dolls is greatly increased. The number you can control at once increases to 20 (30 with Negentropy) and the range expands to 10km (20km with Negentropy). They can be summoned up to 5m (16ft) away from you.\n\nThis upgrade includes all of the doll upgrades in the <i>Doll Powers</i> section. Your dolls are twice as string, fast, tough and are capable of levitation. The range of sizes of your dolls expands from a cube 2cm per side to 6m and forms are no longer limited to humanoids. It is possible for a doll to exceed the maximum size, for each increment of 6m it will take up one more doll slot.\n\nYou gain the two Doll Tinker specializations (Automata and Android) and are capable of either building OR summoning dolls created with those specializations as well as any other Tinker specialization you have access to.\n\nYou are able to focus some of your powers through your dolls. For example, you can fire Blaster powers, use Striker powers, project a force-field, use empathic vision, etc. However, the dolls themselves do not have the power so Brute, Changer, or Breaker powers that are self-targeted like Deadpool, Phase, and Bowser will not work.\n\nYour dolls can be empowered through the following means: Enchantment/Artificer at the cost of charges, Aliena  for 25 points worth of powers, Prototype with 3 slots, or up to 18 SP (24 with Negentropy) worth of powers. For the last option, dolls with 12 SP or less worth of powers uses one slot, 18 SP or less uses two, and 24 or less three. The use of a Tier 2 power increases the cost of a doll by two slots.\n\nYou are able to store up to 5 dolls inside a pocket space and can summon them at will from there. (This is primarily useful for Tinker dolls.) ",
+          "title": "Doll General"
         }
       ],
       "requireds": [
@@ -83429,6 +83601,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -83496,6 +83669,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -83524,6 +83698,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -87342,6 +87517,7 @@
               "afterText": "CP",
               "beforeText": "Cost:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -89819,6 +89995,7 @@
               "afterText": "CP",
               "beforeText": "Cost:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -95940,7 +96117,7 @@
       "buttonRandomNumber": 1,
       "buttonText": "Click",
       "buttonType": true,
-      "currentChoices": 1,
+      "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
       "id": "ut3t",
@@ -96489,6 +96666,7 @@
               "afterText": "CP",
               "beforeText": "Cost:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
