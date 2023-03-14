@@ -37729,7 +37729,7 @@
       "id": "gnua",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -41331,7 +41331,7 @@
             },
             {
               "afterText": "SP",
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "id": "rm",
               "requireds": [
                 {
@@ -41395,7 +41395,7 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "60"
+              "value": "-60"
             },
             {
               "afterText": "CP",
