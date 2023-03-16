@@ -74991,6 +74991,408 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "yyyu",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your looks are increased by two levels. If you are already at the top level, then you look divinely attractive.",
+          "title": "Trojan Aesthetics"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8v6u",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "yyyu",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your looks are increased by five levels. If you are already at the top level, then you are at the maximum attractiveness that it is possible for any being in the Omniverse to reach. If you were already superhumanly attractive, then your body and appearance are impossibly, flawlessly, perfect in all aspects. The definition of your quantum foam would give Aphrodite an aneurysm (if she ever bothered to pick up a suitably powerful microscope). ",
+          "title": "Aphrodite Who?"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "iboy",
+          "image": "https://cdnb.artstation.com/p/assets/images/images/004/267/857/large/wei-wang-2013-warcraft-042-wei-rexxar-final-001-s-b.jpg?1481849628",
+          "imageIsUrl": true,
+          "imageLink": "https://cdnb.artstation.com/p/assets/images/images/004/267/857/large/wei-wang-2013-warcraft-042-wei-rexxar-final-001-s-b.jpg?1481849628",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "You have consumed the blood of Mannoroth the Destructor. Felfire now flows in your veins, empowering you to greater heights. This massively increases your ferocity and instinct for violence. All of your physical capabilities are mildly increased, and this is more effective the more powerful your physiology, though there are diminishing returns. You are now slightly resistant to magic.",
+          "title": "Fel Blood (Warcraft)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ajk6",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            }
+          ],
+          "template": 1,
+          "text": "Much like Bruce Banner, you are now host to a rage-fueled alter ego. Stress or injury will cause you to transform into a Hulking, irradiated brute. In this form, you possess massive super strength, durability, stamina, regeneration, speed, and resistance. In combat, all of these abilities scale higher as your rage grows, though you will eventually hit a soft cap. When transformed your looks are two levels below your standard appearance.",
+          "title": "Gamma Mutate (Marvel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "a3eh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ajk6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Like Jennifer Walters, you have complete control over your ability to transform. Your alternate form is now less brutish, being only a single level of looks below your standard appearance.",
+          "title": "Controlled Burn"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "4c1b",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ajk6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "qcst",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Though you are now permanently transformed, your affinity for the Gamma Radiation that saturates your being has caused your mental capabilities to skyrocket in all aspects. Additionally, as this is now your permanent form, your looks are at your standard level.",
+          "title": "Hulking Professor"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jf2p",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ajk6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You have gained control over the Gamma energies that infuse you. This allows their projection for various abilities such as flight, energy blasts, and camouflage.",
+          "title": "Atom Bomb"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "92w3",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ajk6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your rage empowerment is no longer soft-capped, and you will scale much faster.",
+          "title": "World Breaker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "081d",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-081d.webp",
           "imageIsUrl": true,
@@ -75132,33 +75534,6 @@
           "template": 1,
           "text": "You are a son of the Emperor of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities, or even Vulcans perpetuality. ",
           "title": "Primarch"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "acw3",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "35"
-            }
-          ],
-          "template": 1,
-          "text": "Much like Bruce Banner, you are now host to a rage fueled alter ego. Stress or injury will cause you to transform into a Hulking, irradiated brute. In this form you possess massive super strength, durability, stamina, regeneration, speed, and resistances. In combat all of these abilities scale exponentially as your rage grows.\n",
-          "title": "Worldbreaker Hulk"
         }
       ],
       "requireds": [
@@ -75401,6 +75776,63 @@
           "template": 1,
           "text": "This power makes you a genius of deduction and perception. It doesn't make you any better at guessing, and you need sufficient evidence to make a conclusion. However, it is a lot less likely to be wrong than Tattletale's power.",
           "title": "Holmes"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "m8jz",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "759c",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "Your ability to plan and make predictive deductions is truly staggering. Whether in a bout of fisticuffs or at the chessboard, you are dozens of steps ahead of your opponents. Able to visualize entire engagements from beginning to end before the first blow is ever struck. This power includes minor supporting improvements to general intelligence, mental processing speed, multitasking ability, and senses.",
+          "title": "Sherlock Scan "
         },
         {
           "addons": [],
@@ -76145,6 +76577,33 @@
           "template": 1,
           "text": "You gain the combined knowledge of the Eldar at the peak of their empire. This is an immense understanding of the immaterium and its ways, as well as how to build both psychic and material machines to manipulate it. This includes knowledge on how to create psychic gods and manipulation of the soul in order to reincarnate yourself in a chosen body, in effect becoming immortal. And much, much more.",
           "title": "Asuryani (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "oeca",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "Your mind's imaging systems and muscle control are perfectly in tune with the motor skills center of the brain. You possess flawless aim, perfect balance, greatly enhanced motor skills, and perfect synchronization between thought and action.",
+          "title": "Hyperkinetic (Alphas)"
         }
       ],
       "requireds": [
@@ -77389,62 +77848,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "8ghr",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8ghr.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You are a natural born Prism fit to rival Lucidonius himself. Your prismatic eyes mark you as a Lightsplitter capable of wielding the full Spectrum of Chromaturgy. White, Chi, Super-Violet, Blue, Green, Yellow, Orange, Red, Sub-Red, Paryl, Black, you are capable of Drafting all types of Luxin with the perfection of a Superchromat. Being a true Prism, you can Draft a nearly unlimited amount of Luxin, held back only by your own stamina and endurance. As the foremost example of a Drafter, you possess an unbreakable Will, capable of bending the rules of what should be possible with Luxin through sheer stubbornness. This also comes with supernaturally perfect vision, a weak healing factor, and immunity to possession.",
-          "title": "Prism (Lightbringer)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "lx1v",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-lx1v.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have the inherent potential to warp time and space. Basic use of this power allows you to mimic super-speed, combat teleport, and even teleport long distances. With practice and training you will be capable of going to any other dimensions and even through time itself, travelling the breadth of the Omniverse. ",
-          "title": "Elder Blood (The Witcher)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "0nku",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0nku.webp",
           "imageIsUrl": true,
@@ -77456,7 +77859,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5",
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -77484,7 +77887,7 @@
           "imageIsUrl": true,
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -77501,6 +77904,64 @@
           "template": 1,
           "text": "You can summon random base level Servants from the Throne of Heroes by using Saint Quartz. You gain one Saint Quartz per day and can obtain more by defeating enemies, defeating a baseline humans gives one Quartz Shard (you need 10 Shards to make a full Quartz) while defeating a Parahuman gives Quartz depending on their strength (5 Shards for a street-level parahuman, one Quartz for a mid-tier parahuman, three Quartz for a high tier parahuman, five Quartz for a top tier parahuman, and three hundred Quartz for an Endbringer). Defeating an Entity gives you ten free pulls per day for ten years.\n\nIf you obtain duplicates, they are turned into Wisdom Essence that can be used to improve your existing Servants by increasing their level or skills as well as crafting equipment.\n\n(You can substitute the catalogue for another franchise like Arknights, Azur Lane, Girls Frontline, etc. when picking the power.)",
           "title": "Spin the Gacha"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6t3d",
+          "image": "https://64.media.tumblr.com/89cff24ebbabbe0a1ff1dcbbf2f3e139/tumblr_ofmzuqRZ6S1td30h9o1_1280.jpg",
+          "imageIsUrl": true,
+          "imageLink": "https://64.media.tumblr.com/89cff24ebbabbe0a1ff1dcbbf2f3e139/tumblr_ofmzuqRZ6S1td30h9o1_1280.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You are a natural-born Prism fit to rival Lucidonius himself. Your prismatic eyes mark you as a Lightsplitter capable of wielding the full Spectrum of Chromaturgy. White, Chi, Super-Violet, Blue, Green, Yellow, Orange, Red, Sub-Red, Paryl, Black, you are capable of Drafting all types of Luxin with the perfection of a Superchromat. Being a true Prism, you can Draft a nearly unlimited amount of Luxin, held back only by your own stamina and endurance. As the foremost example of a Drafter, you possess an unbreakable Will, capable of bending the rules of what should be possible with Luxin through sheer stubbornness. This also comes with supernaturally perfect vision, a weak healing factor, and immunity to possession.",
+          "title": "Prism (Lightbringer)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "s3hf",
+          "image": "https://cdnb.artstation.com/p/assets/images/images/003/141/509/large/pavel-tomashevskiy-w3.jpg?1470210619",
+          "imageIsUrl": true,
+          "imageLink": "https://cdnb.artstation.com/p/assets/images/images/003/141/509/large/pavel-tomashevskiy-w3.jpg?1470210619",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have the inherent potential to warp time and space. The basic use of this power allows you to mimic super-speed, combat teleport, and even teleport long distances. With practice and training, one can travel the breadth of the Omniverse. Capable of going to any other dimensions and even through time itself.",
+          "title": "Elder Blood (The Witcher)"
         }
       ],
       "requireds": [
@@ -85490,6 +85951,310 @@
           "template": 1,
           "text": "You step in the footsteps of Shiranui. You have mastered all the celestial brush techniques and can create more as you please. You now represent, and are, the sun, life, and goodness. Your presence drives off evil and darkness in all its forms with no exceptions. Your presence is like a divine intervention for the world around you, healing and restoring it, filling it with beauty and blessing the land and people.\n\nYour power is immense, easily enough to govern a solar system, and it will only grow the more faith you have from those around you. If you had the true faith of a medium sized country you could easily affect galaxies.\n\nNothing but true evil, and weapons made thereof, can hurt you and even then it's not like you have a weakness to such weapons or abilities, they just affect you normally.\n\nAll things in the world can feel your station, and power when you are near them. Making them naturally feel a deep respect for you. The more sentient a thing is the lesser this effect is, so humans just feel a sense of respect for you, while animals and plants would treat you like royalty. You can hide your presence, and it's effects, if you want to.",
           "title": "The Great God"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "usps",
+          "image": "",
+          "imageIsUrl": false,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "92w3",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "iboy",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your Gamma form is infused by the Fel, removing any concern for diminishing returns and physically empowering you even further. This also provides a massive level of magic resistance.",
+          "title": "Gamma Beast"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qcst",
+          "image": "",
+          "imageIsUrl": false,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "uyys",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ajk6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "By fusing your Gamma form and Kryptonian Powers you have unlocked a Doomsday transformation, though you lose access to the fused abilities. In your Doomsday form you have truly S-tier strength, durability, speed, natural bone weapons and armor, adaptive regeneration, and adaptive resurrection.",
+          "title": "Doomsday (DC)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0v8t",
+          "image": "",
+          "imageIsUrl": false,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "qcst",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "usps",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "jf2p",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your Doomsday form is saturated in the Fel fire of the Twisting Nether. Your Doomsday transformation is further empowered in all aspects, and you can now project nearly unlimited amounts of Fel magic energy.",
+          "title": "Fel Beast"
         },
         {
           "addons": [],
