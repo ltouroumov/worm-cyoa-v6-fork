@@ -1,7 +1,5 @@
 {
-  "activated": [
-    ""
-  ],
+  "activated": [],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -833,7 +831,59 @@
       "isRequirementOpen": false,
       "isResultRow": true,
       "objectWidth": "col-md-3",
-      "objects": [],
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7fs8",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [],
+          "template": 1,
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "title": "Choice"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "accr",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [],
+          "template": 1,
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "title": "Choice"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "gmqd",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [],
+          "template": 1,
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "title": "Choice"
+        }
+      ],
       "requireds": [],
       "resultGroupId": "pp",
       "styling": {
@@ -946,7 +996,8 @@
       },
       "template": "1",
       "title": "Shard",
-      "titleText": ""
+      "titleText": "",
+      "width": false
     },
     {
       "allowedChoices": 0,
@@ -3697,7 +3748,7 @@
           ],
           "scores": [],
           "template": 1,
-          "text": "Don't want to deal with Scion but still want to enjoy the Worm-verse? I have the solution!\n\nPowers don\u2019t come from Entities, instead Shards are a symbiotic species. When a colony migrates to a planet and nests, they grant the inhabitants powers. After some time, the Shards will reproduce and smaller colonies will migrate to other worlds. None of this brings about the end of the world, you're safe. (You lose the ability to pick perks or drawbacks related to Scio/Eden and specific ones related to Entities)\n\nHowever, through some strange twist of fate, Cauldron still exists. Doctor Mother has found a dying colony of Shards and is exploiting the corpse to create vials. Eidolon still created and controls the Endbringers. With no Entity in charge, the rules are slightly different. Powers slowly grow as they are used and the Shards grows with the user. The world no longer exists on borrowed time, except the one imposed by human nature that is.",
+          "text": "Don't want to deal with Scion but still want to enjoy the Worm-verse? I have the solution!\n\nPowers don\u2019t come from Entities, instead Shards are a symbiotic species. When a colony migrates to a planet and nests, they grant the inhabitants powers. After some time, the Shards will reproduce and smaller colonies will migrate to other worlds. None of this brings about the end of the world, you're safe. (You lose the ability to pick perks or drawbacks related to Scion/Eden and specific ones related to Entities)\n\nHowever, through some strange twist of fate, Cauldron still exists. Doctor Mother has found a dying colony of Shards and is exploiting the corpse to create vials. Eidolon still created and controls the Endbringers. With no Entity in charge, the rules are slightly different. Powers slowly grow as they are used and the Shards grows with the user. The world no longer exists on borrowed time, except the one imposed by human nature that is.",
           "title": "Entities, what are those Entities you speak of?"
         },
         {
@@ -3744,7 +3795,7 @@
           ],
           "scores": [],
           "template": 1,
-          "text": "Don't want to deal with Shards either but still want to enjoy the Worm-verse?\n\nPowers don\u2019t come from Shards. All powers are shardless, even those under the Shard category. Trigger events are replaced by Awakenings, which work in similar ways but do not necessarily require a negative event. \n\nHowever, through some even stranger twist of fate, Cauldron still exists. Doctor Mother has the power to create vials that grand powers. Eidolon still created and controls the Endbringers. With no Entity or Shards in charge, the rules are slightly different. Powers slowly grow in strength and versatility the more they are used. The world no longer exists on borrowed time, except the one imposed by human nature that is.",
+          "text": "Don't want to deal with Shards either but still want to enjoy the Worm-verse?\n\nPowers don\u2019t come from Shards. All powers are shardless, even those under the Shard category. Trigger events are replaced by Awakenings, which work in similar ways but do not necessarily require a negative event. \n\nHowever, through some even stranger twist of fate, Cauldron still exists. Doctor Mother has the power to create vials that grant powers. Eidolon still created and controls the Endbringers. With no Entity or Shards in charge, the rules are slightly different. Powers slowly grow in strength and versatility the more they are used. The world no longer exists on borrowed time, except the one imposed by human nature that is.",
           "title": "Shards, what are those Shards you speak of?"
         },
         {
@@ -18921,6 +18972,33 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "ptx0",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Within 6 month of your arrival you'll be contacted by Cauldron extending their recruitment offer.\n\nYour exact position within Cauldron will depend on how useful your powerset is to them and the time period you arrive at.",
+          "title": "Cauldron Membership"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "0sh1",
           "image": "",
           "isActive": false,
@@ -19559,33 +19637,6 @@
           "template": 1,
           "text": "No matter what happens, you will keep your identity hidden even by using one minor cosmetic change. For example, putting on glasses or styling your hair differently.",
           "title": "Cover Story"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "c6e1",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "8"
-            }
-          ],
-          "template": 1,
-          "text": "Espionage in all its form is as easy as breathing for you, with gaining contacts, expanding networks, planting spies, and more being trivial for you. \nWithin days you could have your thumb on the pulse of the city, with even its deepest secrets unable to stay hidden from you.",
-          "title": "Cloak and Dagger"
         },
         {
           "addons": [],
@@ -37729,7 +37780,7 @@
       "id": "gnua",
       "image": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -54774,6 +54825,528 @@
       "template": "1",
       "title": "Shard Essences",
       "titleText": ""
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "dljy",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-3",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "e2an",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "It takes a third of the time it would otherwise for you to react to stimuli. The average human can react in 0.2 seconds, with the fastest being 0.15 seconds. If you had average human reflexes, your reaction time is now 1/15 of a second or 0.067 seconds.",
+          "title": "Mover"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fhr6",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You're able to exert up to a maximum of 1 pound of force total on objects within 50 meters of you. The 1 pound of force has to be spread between any objects you're using this power on.",
+          "title": "Shaker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "47pj",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can access all your strength at any time, allowing you to perform feats that normally could only be done when on an adrenaline high. This can cause damage to your muscles and bones. You are guaranteed to heal correctly given enough time.",
+          "title": "Brute"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "k345",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can change the temperature of your body to -50 degrees Celsius to 100 degrees Celsius with no negative effects to yourself.",
+          "title": "Breaker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "u6x2",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can set yourself under a Master effect to perform any task on autopilot, if you make a mental script for it beforehand. You can set any amount of protocols for any possible task. Quality of performance depends on the thoroughness of your script.",
+          "title": "Master"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "mv7e",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "When you're coming up with blueprints, your mental gaps will be filled by your unconscious mind as long as you have the prerequisite knowledge to come to the conclusion yourself given enough time. Also makes it easier to learn to engineer or program.",
+          "title": "Tinker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "dy7h",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You have an intuitive understanding of angles and trajectories, granting you nearly perfect aim. You can line up your shots nearly instantly, even for complex trajectories where the projectile bounces. You are still capable of missing if your aim is thrown off.",
+          "title": "Blaster"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ojin",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can give your full focus to several things at the same time without difficulty. The amount of things you are able to focus on varies depending on how mentally taxing each task is, so you might be able to hold only 2 or 3 conversations at once but you could do a dozen minor tasks simultaneously. You are still limited by your physical capability to do multiple things at once; you only have so many hands after all.",
+          "title": "Thinker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "2r4f",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can reduce the friction by up to 50% on any object you touch with a total of 1 square meter of material. You can cancel this on any object at will.",
+          "title": "Striker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1gay",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can control the length and strength of your hair and nails. You could become Rapunzel with hairs as durable as piano wires in minutes, and could grow your nails into claws as hard as steel.",
+          "title": "Changer"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "kpwp",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You know when Parahumans are nearby and have a one word generalization of their powers.",
+          "title": "Trump"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "sfkh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "People will initially come to the conclusion you're weak and that they could defeat you easily.",
+          "title": "Stranger"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "kw4p"
+            },
+            {
+              "req": "thme"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
+        }
+      ],
+      "resultGroupId": "xb",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "red",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": 0,
+        "rowBorderRadiusBottomRight": 0,
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": 0,
+        "rowBorderRadiusTopRight": 0,
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "grey",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "red",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowMargin": 10,
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Tier 0 / Lesser Powers",
+      "titleText": "These powers do not require Shards. One of these isn't even enough to make you a street-level Cape on its own, though if you're clever and skilled enough it might give you enough of an edge for you to succeed. These are all caused by your own biology, due to the effects of the dimensional transfer, so a biokinetic or biotinker might be able to remove these powers without touching your brain."
     },
     {
       "allowedChoices": 0,
@@ -73729,528 +74302,6 @@
       "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
-      "id": "dljy",
-      "image": "",
-      "isButtonRow": false,
-      "isEditModeOn": false,
-      "isInfoRow": false,
-      "isPrivateStyling": false,
-      "isRequirementOpen": false,
-      "isResultRow": false,
-      "objectWidth": "col-md-3",
-      "objects": [
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "e2an",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "It takes a third of the time it would otherwise for you to react to stimuli. The average human can react in 0.2 seconds, with the fastest being 0.15 seconds. If you had average human reflexes, your reaction time is now 1/15 of a second or 0.067 seconds.",
-          "title": "Mover"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "fhr6",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You're able to exert up to a maximum of 1 pound of force total on objects within 50 meters of you. The 1 pound of force has to be spread between any objects you're using this power on.",
-          "title": "Shaker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "47pj",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You can access all your strength at any time, allowing you to perform feats that normally could only be done when on an adrenaline high. This can cause damage to your muscles and bones. You are guaranteed to heal correctly given enough time.",
-          "title": "Brute"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "k345",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You can change the temperature of your body to -50 degrees Celsius to 100 degrees Celsius with no negative effects to yourself.",
-          "title": "Breaker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "u6x2",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "By staring at someone, you can make them feel increasingly uncomfortable. At first it's nothing bad, but given 30 minutes you could make someone feel like they just opened the door on one of their parents in the bathroom.",
-          "title": "Master"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "mv7e",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "When you're coming up with blueprints, your mental gaps will be filled by your unconscious mind as long as you have the prerequisite knowledge to come to the conclusion yourself given enough time. Also makes it easier to learn to engineer or program.",
-          "title": "Tinker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "dy7h",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You have perfect aim.",
-          "title": "Blaster"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ojin",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You know how to cold read. ",
-          "title": "Thinker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "2r4f",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You can reduce the friction by up to 50% on any object you touch with a total of 1 square meter of material. You can cancel this on any object at will.",
-          "title": "Striker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "1gay",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You control the length and strength of your hair. You could become Rapunzel in minutes, and could give your hair the tensile strength of steel. ",
-          "title": "Changer"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "kpwp",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You know when Parahumans are nearby and have a one word generalization of their powers.",
-          "title": "Trump"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "sfkh",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "People will initially come to the conclusion you're weak and that they could defeat you easily.",
-          "title": "Stranger"
-        }
-      ],
-      "requireds": [
-        {
-          "afterText": "",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": "kw4p"
-            },
-            {
-              "req": "thme"
-            }
-          ],
-          "reqId": "",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": false,
-          "type": "or"
-        }
-      ],
-      "resultGroupId": "xb",
-      "styling": {
-        "addonText": "Times New Roman",
-        "addonTextAlign": "center",
-        "addonTextColor": "#FFFFFFFF",
-        "addonTextTextSize": 100,
-        "addonTitle": "Times New Roman",
-        "addonTitleAlign": "center",
-        "addonTitleColor": "#FFFFFFFF",
-        "addonTitleTextSize": 200,
-        "backPackWidth": 1200,
-        "backgroundColor": "#000000FF",
-        "backgroundImage": "",
-        "barBackgroundColor": "#FFFFFFFF",
-        "barMargin": 0,
-        "barPadding": 0,
-        "barTextColor": "#000000",
-        "barTextFont": "Times New Roman",
-        "barTextMargin": 0,
-        "barTextPadding": 17,
-        "barTextSize": 15,
-        "objectBackgroundImage": "",
-        "objectBgColor": "#FFFFFFFF",
-        "objectBgColorIsOn": false,
-        "objectBorderColor": "#FDFDFDFF",
-        "objectBorderIsOn": true,
-        "objectBorderRadiusBottomLeft": "5",
-        "objectBorderRadiusBottomRight": "5",
-        "objectBorderRadiusIsPixels": true,
-        "objectBorderRadiusTopLeft": "5",
-        "objectBorderRadiusTopRight": "5",
-        "objectBorderStyle": "solid",
-        "objectBorderWidth": 2,
-        "objectDropShadowBlur": 0,
-        "objectDropShadowColor": "#FFEF00FF",
-        "objectDropShadowH": 0,
-        "objectDropShadowIsOn": false,
-        "objectDropShadowSpread": 0,
-        "objectDropShadowV": 0,
-        "objectHeight": true,
-        "objectImageMarginBottom": 0,
-        "objectImageMarginTop": 0,
-        "objectImageWidth": 100,
-        "objectImgBorderColor": "red",
-        "objectImgBorderIsOn": false,
-        "objectImgBorderRadiusBottomLeft": 0,
-        "objectImgBorderRadiusBottomRight": 0,
-        "objectImgBorderRadiusIsPixels": true,
-        "objectImgBorderRadiusTopLeft": 0,
-        "objectImgBorderRadiusTopRight": 0,
-        "objectImgBorderStyle": "solid",
-        "objectImgBorderWidth": 2,
-        "objectMargin": 10,
-        "objectOverflowIsOn": true,
-        "objectText": "Times New Roman",
-        "objectTextAlign": "center",
-        "objectTextColor": "#FFFFFFFF",
-        "objectTextPadding": 10,
-        "objectTextTextSize": 100,
-        "objectTitle": "Times New Roman",
-        "objectTitleAlign": "center",
-        "objectTitleColor": "#FFFFFFFF",
-        "objectTitleTextSize": 200,
-        "reqBgColorIsOn": true,
-        "reqFilterBgColor": "#6B6464FF",
-        "reqFilterBlur": 0,
-        "reqFilterBlurIsOn": false,
-        "reqFilterBright": 100,
-        "reqFilterBrightIsOn": false,
-        "reqFilterCont": 100,
-        "reqFilterContIsOn": false,
-        "reqFilterGray": 0,
-        "reqFilterGrayIsOn": false,
-        "reqFilterHue": 0,
-        "reqFilterHueIsOn": false,
-        "reqFilterInvert": "50",
-        "reqFilterInvertIsOn": false,
-        "reqFilterOpac": "25",
-        "reqFilterOpacIsOn": false,
-        "reqFilterSatur": 1,
-        "reqFilterSaturIsOn": false,
-        "reqFilterSepia": 0,
-        "reqFilterSepiaIsOn": false,
-        "reqFilterVisibleIsOn": false,
-        "rowBackgroundImage": "",
-        "rowBgColor": "#FFFFFFFF",
-        "rowBgColorIsOn": false,
-        "rowBodyMarginBottom": 25,
-        "rowBodyMarginSides": 1,
-        "rowBodyMarginTop": 25,
-        "rowBorderColor": "red",
-        "rowBorderIsOn": false,
-        "rowBorderRadiusBottomLeft": 0,
-        "rowBorderRadiusBottomRight": 0,
-        "rowBorderRadiusIsPixels": true,
-        "rowBorderRadiusTopLeft": 0,
-        "rowBorderRadiusTopRight": 0,
-        "rowBorderStyle": "solid",
-        "rowBorderWidth": 2,
-        "rowButtonXPadding": 0,
-        "rowButtonYPadding": 0,
-        "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "grey",
-        "rowDropShadowH": 0,
-        "rowDropShadowIsOn": false,
-        "rowDropShadowSpread": 0,
-        "rowDropShadowV": 0,
-        "rowImageMarginTop": 0,
-        "rowImageWidth": 100,
-        "rowImgBorderColor": "red",
-        "rowImgBorderIsOn": false,
-        "rowImgBorderRadiusBottomLeft": 0,
-        "rowImgBorderRadiusBottomRight": 0,
-        "rowImgBorderRadiusIsPixels": true,
-        "rowImgBorderRadiusTopLeft": 0,
-        "rowImgBorderRadiusTopRight": 0,
-        "rowImgBorderStyle": "solid",
-        "rowImgBorderWidth": 2,
-        "rowMargin": 10,
-        "rowOverflowIsOn": true,
-        "rowText": "Times New Roman",
-        "rowTextAlign": "center",
-        "rowTextColor": "#FFFFFFFF",
-        "rowTextPaddingX": 10,
-        "rowTextPaddingY": 5,
-        "rowTextTextSize": 100,
-        "rowTitle": "Times New Roman",
-        "rowTitleAlign": "center",
-        "rowTitleColor": "#FFFFFFFF",
-        "rowTitleTextSize": 200,
-        "scoreText": "Times New Roman",
-        "scoreTextAlign": "center",
-        "scoreTextColor": "#FFFFFFFF",
-        "scoreTextSize": 75,
-        "selBgColorIsOn": true,
-        "selFilterBgColor": "#3CAAAAFF",
-        "selFilterBlur": 0,
-        "selFilterBlurIsOn": false,
-        "selFilterBright": 100,
-        "selFilterBrightIsOn": false,
-        "selFilterCont": 100,
-        "selFilterContIsOn": false,
-        "selFilterGray": 0,
-        "selFilterGrayIsOn": false,
-        "selFilterHue": 0,
-        "selFilterHueIsOn": false,
-        "selFilterInvert": 0,
-        "selFilterInvertIsOn": false,
-        "selFilterOpac": 100,
-        "selFilterOpacIsOn": false,
-        "selFilterSatur": 1,
-        "selFilterSaturIsOn": false,
-        "selFilterSepia": 0,
-        "selFilterSepiaIsOn": false
-      },
-      "template": "1",
-      "title": "Tier 0 / Lesser Powers",
-      "titleText": "These powers do not require Shards. One of these isn't even enough to make you a street-level Cape on its own, though if you're clever and skilled enough it might give you enough of an edge for you to succeed. These are all caused by your own biology, due to the effects of the dimensional transfer, so a biokinetic or biotinker might be able to remove these powers without touching your brain."
-    },
-    {
-      "allowedChoices": 0,
-      "buttonId": "",
-      "buttonRandom": false,
-      "buttonRandomNumber": 1,
-      "buttonText": "Click",
-      "buttonType": true,
-      "currentChoices": 0,
-      "defaultAspectHeight": 1,
-      "defaultAspectWidth": 1,
       "id": "p2ty",
       "image": "",
       "imageIsUrl": true,
@@ -75131,8 +75182,35 @@
             }
           ],
           "template": 1,
-          "text": "You are a son of the Emporer of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities, or even Vulcans perpetuality. ",
+          "text": "You are a son of the Emperor of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities, or even Vulcans perpetuality. ",
           "title": "Primarch"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "acw3",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "Much like Bruce Banner, you are now host to a rage fueled alter ego. Stress or injury will cause you to transform into a Hulking, irradiated brute. In this form you possess massive super strength, durability, stamina, regeneration, speed, and resistances. In combat all of these abilities scale exponentially as your rage grows.\n",
+          "title": "Worldbreaker Hulk"
         }
       ],
       "requireds": [
@@ -76055,7 +76133,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "25"
+              "value": "35"
             }
           ],
           "template": 1,
@@ -77363,6 +77441,62 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "8ghr",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8ghr.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You are a natural born Prism fit to rival Lucidonius himself. Your prismatic eyes mark you as a Lightsplitter capable of wielding the full Spectrum of Chromaturgy. White, Chi, Super-Violet, Blue, Green, Yellow, Orange, Red, Sub-Red, Paryl, Black, you are capable of Drafting all types of Luxin with the perfection of a Superchromat. Being a true Prism, you can Draft a nearly unlimited amount of Luxin, held back only by your own stamina and endurance. As the foremost example of a Drafter, you possess an unbreakable Will, capable of bending the rules of what should be possible with Luxin through sheer stubbornness. This also comes with supernaturally perfect vision, a weak healing factor, and immunity to possession.",
+          "title": "Prism (Lightbringer)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lx1v",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-lx1v.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have the inherent potential to warp time and space. Basic use of this power allows you to mimic super-speed, combat teleport, and even teleport long distances. With practice and training you will be capable of going to any other dimensions and even through time itself, travelling the breadth of the Omniverse. ",
+          "title": "Elder Blood (The Witcher)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "0nku",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0nku.webp",
           "imageIsUrl": true,
@@ -77640,6 +77774,122 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "k6mn",
+          "image": "http://images2.fanpop.com/images/photos/2800000/katara-water-bender-waterbending-2829236-564-800.jpg",
+          "imageIsUrl": true,
+          "imageLink": "http://images2.fanpop.com/images/photos/2800000/katara-water-bender-waterbending-2829236-564-800.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "You are a waterbender, you can manipulate water through the use of martial arts. You find learning how to waterbend to be intuitive. Eventually, you will be able to use water to heal. You'll also be able to bloodbend or plantbend with training.",
+          "title": "Waterbender (ATLA)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8stj",
+          "image": "http://4.bp.blogspot.com/_r8VZJkQDID4/TDv3nuOQcRI/AAAAAAAAAXs/GEspbZfucs0/s1600/earthbender-1.jpg",
+          "imageIsUrl": true,
+          "imageLink": "http://4.bp.blogspot.com/_r8VZJkQDID4/TDv3nuOQcRI/AAAAAAAAAXs/GEspbZfucs0/s1600/earthbender-1.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You are an earthbender, you can manipulate the earth through the use of martial arts. You find learning how to earthbend to be intuitive. Eventually, you will be able to bend metal and magma. This can also be used to detect lies. Theoretically, earthbending could be used to bloodbend, but since waterbenders can initially only bloodbend on a full moon, and earthbenders don't have a time when they're significantly stronger, it's likely you would never be able to learn how.",
+          "title": "Earthbender (ATLA)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6zp7",
+          "image": "http://images4.fanpop.com/image/photos/18200000/Fire-firebending-18242312-1200-900.jpg",
+          "imageIsUrl": true,
+          "imageLink": "http://images4.fanpop.com/image/photos/18200000/Fire-firebending-18242312-1200-900.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "You are a firebender, you can manipulate and create fire through the use of martial arts. You find learning how to firebend to be intuitive. Eventually, you'll be able to bend lightning and maybe even explosions. You can also learn how to redirect lightning. You're stronger during the day, especially when it's hotter out. You can't firebend on a solar eclipse and certain comets will enhance your ability to firebend.",
+          "title": "Firebender (ATLA)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lpeh",
+          "image": "https://i.pinimg.com/736x/ad/4a/74/ad4a7412354fb5a56bb6b0961ae303e3.jpg",
+          "imageIsUrl": true,
+          "imageLink": "https://i.pinimg.com/736x/ad/4a/74/ad4a7412354fb5a56bb6b0961ae303e3.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "You are an airbender, you can manipulate air through the use of martial arts. You find learning how to airbend to be intuitive. Eventually, you will be able to use air to slice through iron. You'll also be able to steal air straight from a person's lungs.",
+          "title": "The Last Airbender (ATLA)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "e6oc",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-e6oc.webp",
           "imageIsUrl": true,
@@ -77776,34 +78026,6 @@
           "template": 1,
           "text": "You embody light, life, and goodness in all it\u2019s forms. Exquisite flowers bloom where you step and your light chases away evil, depression and all things commonly thought of as bad. You can see the sins of every living thing you can gaze at. Your halo evolves and no innocent can be harmed or hurt as long as its light reaches them, you can heal just about anything other than death away in the blink of an eye, and looking at you is now akin to a religious experience. You gain massive control and power over holy sun fire, spawning it and controlling it at will, choosing what and who it can hurt. Your presence is a balm to the soul chasing away depression and other such mental or spiritual afflictions of all that surround you, you gain an infinite lifespan as while you are still a mortal you now have more in common with other celestials such as angels than a normal human. You can every week resurrect one person fully and completely, but be very careful doing so, you might just take a soul out of heaven and their eternal paradise, and that is a very, very cruel thing to do. You can feel people that are in harms way and appear near them in order to help them, this feeling extends to about the size of New York city in a circle around you. You also gain a pair of functional angel wings.\n\nAll these powers can be turned on and off at will or be dialed up and down as you please.",
           "title": "Of all that is good"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "gjy9",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gjy9.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "35"
-            }
-          ],
-          "template": 1,
-          "text": "You become a Celestial brush god. This gives you the ability to re-write reality using your divine power and some skill. You can do this by stopping time and writing upon reality what you wish created, changed, or destroyed. You also, as a god, have an innate connection with nature and all things within it will recognize your authority and power, and rightly defer to you. Your power grows the more you help nature and the world, granting you more faith and therefore power. All things can grant faith, but helping humans and other sentients grants the most.\nMortal wepons and powers can no longer hurt you.\nYou can choose an animal form which you can change in and out of at will.\nNote: You use your divine powers in the form of brush techniques, you start out with knowledge and skill with one, but can expand on this by using and experiementing with your powers.",
-          "title": "Celestial Brush God (Okami)"
         },
         {
           "addons": [],
@@ -77949,11 +78171,12 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "g5ho",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-g5ho.webp",
+          "id": "rt86",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-rt86.webp",
           "imageIsUrl": true,
           "isActive": false,
           "isVisible": true,
+          "multipleUseVariable": 0,
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -77961,16 +78184,15 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "40"
+              "value": "20"
             }
           ],
           "template": 1,
-          "text": "You have in your very genetics the power of the universe and the future, the infinite potential. Spiral Power. You can accomplish, and do, practically anything, so long as you have confidence in yourself and the fact that you can do so. Your hotheadedness and determination determine your power, with enough heart and spirit nothing is impossible for you. You also have a much tougher body, and can come back from most injuries with little time. You can also naturally live for thousands of years.",
-          "title": "Spiral Power"
+          "text": "You gain the power of Haki from One Piece, in all of its variations.\n\nArmament Haki covers all or part of your body in a black coating, enhancing your strength and durability, and allowing you to injure beings whose powers would usually make them immune, such as those who are intangible or have a body of living fire.\n\nObserver's Haki is a sensory power, which gives its user the ability to sense the aura and emotions of others in range, and with practice confers a type of combat precognition.\n\nConqueror's Haki creates a sort of 'pressure' that can knock out the weak willed, or temporarily force fear or compliance on those who fail to resist.   In extremes it can damage physical objects.\n\nUnlike most powers, Haki relies heavily on the determination and willpower of its user, and falters when they do.",
+          "title": "Haki"
         },
         {
           "addons": [],
@@ -78005,12 +78227,11 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "rt86",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-rt86.webp",
+          "id": "gjy9",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gjy9.webp",
           "imageIsUrl": true,
           "isActive": false,
           "isVisible": true,
-          "multipleUseVariable": 0,
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -78018,15 +78239,44 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "35"
             }
           ],
           "template": 1,
-          "text": "You gain the power of Haki from One Piece, in all of its variations.\n\nArmament Haki covers all or part of your body in a black coating, enhancing your strength and durability, and allowing you to injure beings whose powers would usually make them immune, such as those who are intangible or have a body of living fire.\n\nObserver's Haki is a sensory power, which gives its user the ability to sense the aura and emotions of others in range, and with practice confers a type of combat precognition.\n\nConqueror's Haki creates a sort of 'pressure' that can knock out the weak willed, or temporarily force fear or compliance on those who fail to resist.   In extremes it can damage physical objects.\n\nUnlike most powers, Haki relies heavily on the determination and willpower of its user, and falters when they do.",
-          "title": "Haki"
+          "text": "You become a Celestial brush god. This gives you the ability to re-write reality using your divine power and some skill. You can do this by stopping time and writing upon reality what you wish created, changed, or destroyed. You also, as a god, have an innate connection with nature and all things within it will recognize your authority and power, and rightly defer to you. Your power grows the more you help nature and the world, granting you more faith and therefore power. All things can grant faith, but helping humans and other sentients grants the most.\nMortal wepons and powers can no longer hurt you.\nYou can choose an animal form which you can change in and out of at will.\nNote: You use your divine powers in the form of brush techniques, you start out with knowledge and skill with one, but can expand on this by using and experiementing with your powers.",
+          "title": "Celestial Brush God (Okami)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "g5ho",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-g5ho.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            }
+          ],
+          "template": 1,
+          "text": "You have in your very genetics the power of the universe and the future, the infinite potential. Spiral Power. You can accomplish, and do, practically anything, so long as you have confidence in yourself and the fact that you can do so. Your hotheadedness and determination determine your power, with enough heart and spirit nothing is impossible for you. You also have a much tougher body, and can come back from most injuries with little time. You can also naturally live for thousands of years.",
+          "title": "Spiral Power"
         },
         {
           "addons": [],
@@ -78061,13 +78311,12 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "lpeh",
-          "image": "https://i.pinimg.com/736x/ad/4a/74/ad4a7412354fb5a56bb6b0961ae303e3.jpg",
-          "imageIsUrl": true,
-          "imageLink": "https://i.pinimg.com/736x/ad/4a/74/ad4a7412354fb5a56bb6b0961ae303e3.jpg",
+          "id": "69h4",
+          "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "",
+          "multipleUseVariable": 0,
+          "objectWidth": "col-sm-6",
           "requireds": [],
           "scores": [
             {
@@ -78078,99 +78327,12 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "8"
+              "value": "40"
             }
           ],
           "template": 1,
-          "text": "You are an airbender, you can manipulate air through the use of martial arts. You find learning how to airbend to be intuitive. Eventually, you will be able to use air to slice through iron. You'll also be able to steal air straight from a person's lungs.",
-          "title": "The Last Airbender (ATLA)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "8stj",
-          "image": "http://4.bp.blogspot.com/_r8VZJkQDID4/TDv3nuOQcRI/AAAAAAAAAXs/GEspbZfucs0/s1600/earthbender-1.jpg",
-          "imageIsUrl": true,
-          "imageLink": "http://4.bp.blogspot.com/_r8VZJkQDID4/TDv3nuOQcRI/AAAAAAAAAXs/GEspbZfucs0/s1600/earthbender-1.jpg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "7"
-            }
-          ],
-          "template": 1,
-          "text": "You are an earthbender, you can manipulate the earth through the use of martial arts. You find learning how to earthbend to be intuitive. Eventually, you will be able to bend metal and magma. This can also be used to detect lies. Theoretically, earthbending could be used to bloodbend, but since waterbenders can initially only bloodbend on a full moon, and earthbenders don't have a time when they're significantly stronger, it's likely you would never be able to learn how.",
-          "title": "Earthbender (ATLA)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "6zp7",
-          "image": "http://images4.fanpop.com/image/photos/18200000/Fire-firebending-18242312-1200-900.jpg",
-          "imageIsUrl": true,
-          "imageLink": "http://images4.fanpop.com/image/photos/18200000/Fire-firebending-18242312-1200-900.jpg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "You are a firebender, you can manipulate and create fire through the use of martial arts. You find learning how to firebend to be intuitive. Eventually, you'll be able to bend lightning and maybe even explosions. You can also learn how to redirect lightning. You're stronger during the day, especially when it's hotter out. You can't firebend on a solar eclipse and certain comets will enhance your ability to firebend.",
-          "title": "Firebender (ATLA)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "k6mn",
-          "image": "http://images2.fanpop.com/images/photos/2800000/katara-water-bender-waterbending-2829236-564-800.jpg",
-          "imageIsUrl": true,
-          "imageLink": "http://images2.fanpop.com/images/photos/2800000/katara-water-bender-waterbending-2829236-564-800.jpg",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "8"
-            }
-          ],
-          "template": 1,
-          "text": "You are a waterbender, you can manipulate water through the use of martial arts. You find learning how to waterbend to be intuitive. Eventually, you will be able to use water to heal. You'll also be able to bloodbend or plantbend with training.",
-          "title": "Waterbender (ATLA)"
+          "text": "Your Immortal soul burns brightly, like few others, leaving your existence eternal and nearly inviolable. Over time you can recover from anything, even things like true death or reality erasure, reforming at a safe location. You will always return to peak condition in body, mind, and soul. You will not age past your prime, remaining at your peak fitness and attractiveness eternally. These protections are conceptual, allowing you to somehow heal even from things like imprisonment, misfortune or timeline alteration. This power works slowly, but is completely loophole free. You are an Omniversal constant. \n\nThis power cannot be lost, stolen, drained, suppressed, copied, or otherwise negatively affected, and it will restore your other powers and abilities just as it restores you. ",
+          "title": "Eternal Flame"
         }
       ],
       "requireds": [
@@ -83455,7 +83617,46 @@
           "title": "Young Planeswalker"
         },
         {
-          "addons": [],
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "3ndw",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "Dynamist jr trumps Gamer System and will improve it over time, but cannot be affected by Gamer System in return.",
+              "title": "Dynamic System"
+            }
+          ],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
@@ -83471,6 +83672,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -85525,6 +85727,68 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "8mxy",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8mxy.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "w0df",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "A near-indestructible gauntlet, capable of channeling the power of all the Infinity Stones at once. This Gauntlet will protect you from the backlash of using the Infinity Stones, and is able to contain the energy without being destroyed.",
+          "title": "Infinity Gauntlet (Marvel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "ra0c",
           "image": "",
           "isActive": false,
@@ -87037,9 +87301,6 @@
                 },
                 {
                   "req": "081d"
-                },
-                {
-                  "req": ""
                 }
               ],
               "reqId": "",
@@ -87065,8 +87326,67 @@
             }
           ],
           "template": 1,
-          "text": "You gain the wargear common to your chosen power. This scales with your strongest power from this universe, so if your strongest was a space marine you'd get wargear for that, and if your strongest was custodes then you'd gain wargear for that. This scales all the way up to the Emporers personal wargear.",
+          "text": "You gain the wargear common to your chosen power. This scales with your strongest power from this universe, so if your strongest was a space marine you'd get wargear for that, and if your strongest was custodes then you'd gain wargear for that. This scales all the way up to the Emperors personal wargear.",
           "title": "Wargear(40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "y8o2",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You are now the wielder of Gungnir, the \"Spear of Heaven\". An ancient weapon of vast power, in the form of a three pronged Uru spear. Once wielded by Odin Borson, it's various powers are now yours to command. Gungnir is capable of returning to your hands after being thrown, enhancing the power of your strikes, piercing through all but the toughest defenses, firing energy beams of considerable power, channeling and enhancing magical energies, and using the Bifrost for point to point teleportation at intergalactic ranges.",
+          "title": "Gungnir (Marvel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "w0df",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-w0df.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "6",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "Time, Power, Space, Mind, Reality & Soul. The Infinity Stones each control an essential aspect of existence, and when combined can be capable of feats on a universal scale. Whichever Stone you choose to purchase, it\u2019s potential is, by definition, limitless, although you'll need an Infinity Gauntlet should you wish to wield more than one. \nThe stones will continue to function even outside the universe you drop in, albeit severely weakened.",
+          "title": "Infinity Stone (Marvel)"
         }
       ],
       "requireds": [
@@ -87595,33 +87915,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "8zpt",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "col-md-4",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You find it easy to adapt your knowledge of martial arts to fit with any and all powers you have, even if it completely changes your body. \nYou're also good at adapting martial arts to be used simultaneously with other martial arts you know.",
-          "title": "Adaptable Martial Arts"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "4h26",
           "image": "",
           "isActive": false,
@@ -87643,6 +87936,33 @@
           "template": 1,
           "text": "You have a talent for learning and combining martial arts",
           "title": "Talented Artist"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8zpt",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You find it easy to adapt your knowledge of martial arts to fit with any and all powers you have, even if it completely changes your body. \nYou're also good at adapting martial arts to be used simultaneously with other martial arts you know.",
+          "title": "Adaptable Martial Arts"
         },
         {
           "addons": [],
@@ -89072,7 +89392,7 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "inrr",
+          "id": "c6e1",
           "image": "",
           "isActive": false,
           "isVisible": true,
@@ -89087,12 +89407,120 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "12"
             }
           ],
           "template": 1,
-          "text": "You have a way with your words and actions. \nRegardless of what you do, you can make it look and sound good. \nIf you're a Hero, Villain, or public figure, you're likely to be one of the more popular ones.",
-          "title": "Presentation"
+          "text": "Espionage in all its form is as easy as breathing for you, with gaining contacts, expanding networks, planting spies, and more being trivial for you. \nWithin days you could have your thumb on the pulse of the city, with even its deepest secrets unable to stay hidden from you.",
+          "title": "Cloak and Dagger"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lhqh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "4"
+            }
+          ],
+          "template": 1,
+          "text": "You have excellent hand-eye coordination, and while you wouldn't be a top-class athlete you are generally skilled at anything that would require it. \nDoesn't make you as good a shot as Gun Fu, nor does it make you a talented fighter",
+          "title": "Hand-Eye Coordination"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "57je",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You're good at banter and distraction. A bonus for this is that you gain a sense of humor, if you didn't already have one.",
+          "title": "Banter"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "z8ei",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You have a sense of exactly what time it is at all times, even if you can't see the sky or have been underground for long periods of time.",
+          "title": "Internal Clock"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0vds",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You know your surroundings, and always have a sense of the direction you are facing.",
+          "title": "Spatial Awareness"
         },
         {
           "addons": [],
@@ -89353,6 +89781,33 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "1oof",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "You are capable of operating any land vehicle, sea vessel, or aircraft with the exception of especially exotic Tinkertech vehicles.",
+          "title": "Driving"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "zam7",
           "image": "",
           "isActive": false,
@@ -89406,33 +89861,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "57je",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You're good at banter and distraction. A bonus for this is that you gain a sense of humor, if you didn't already have one.",
-          "title": "Banter"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "ml3x",
           "image": "",
           "isActive": false,
@@ -89454,6 +89882,60 @@
           "template": 1,
           "text": "You know all the common Earth Bet slang. This is mostly useless if you chose Reincarnate or Character-Insert, though a loner or sufficiently young or old person might not know the slang.",
           "title": "Earth Bet Slang"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "inrr",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have a way with your words and actions. \nRegardless of what you do, you can make it look and sound good. \nIf you're a Hero, Villain, or public figure, you're likely to be one of the more popular ones.",
+          "title": "Presentation"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "o5fo",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Without prior knowledge, you can quickly obtain a great deal of information by analyzing the person's body language, age, clothing or fashion, hairstyle...",
+          "title": "Cold Reading"
         },
         {
           "addons": [],
@@ -89486,114 +89968,6 @@
           "template": 1,
           "text": "You can split a month of experience between any of your powers that improve with skill.",
           "title": "Practice"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "1oof",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "You are capable of operating any land vehicle, sea vessel, or aircraft with the exception of especially exotic Tinkertech vehicles.",
-          "title": "Driving"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "lhqh",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "4"
-            }
-          ],
-          "template": 1,
-          "text": "You have excellent hand-eye coordination, and while you wouldn't be a top-class athlete you are generally skilled at anything that would require it. \nDoesn't make you as good a shot as Gun Fu, nor does it make you a talented fighter",
-          "title": "Hand-Eye Coordination"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "z8ei",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You have a sense of exactly what time it is at all times, even if you can't see the sky or have been underground for long periods of time.",
-          "title": "Internal Clock"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "0vds",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You know your surroundings, and always have a sense of the direction you are facing.",
-          "title": "Spatial Awareness"
         },
         {
           "addons": [],
@@ -94479,7 +94853,7 @@
           ],
           "template": 1,
           "text": "Things are a bit different than you remember them. Maybe the names are misspelled, or everyone's wearing the wrong costume or a bunch of other subtle but weird things. \nIf you didn't exist things would play out about the same story-wise, but it'll probably throw you for a loop if you still remember how things were supposed to go.",
-          "title": "Off-Kilter "
+          "title": "Off-Kilter"
         },
         {
           "addons": [],
@@ -94576,7 +94950,7 @@
           ],
           "template": 1,
           "text": "Things are definitely different from how you remember them. Maybe characters are dead where they should be alive, or a few key people got the wrong powers or some other changes of equal importance. \nIf you remember canon, that knowledge is nearly useless now, but on the bright side if you didn't that doesn't matter as much.",
-          "title": "Off the Rails "
+          "title": "Off the Rails"
         },
         {
           "addons": [],
