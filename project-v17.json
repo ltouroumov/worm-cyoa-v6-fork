@@ -20424,6 +20424,110 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "zovg",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "When traversing to a new universe, you have a legal identity there. This includes not just Worm's universes, but the greater omniverse if you possess Homecoming. You can choose to customize this legal identity within reason. Ranging from a student to a certain school to an adventurer from a guild.",
+          "title": "Legal Identity"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "s0k7",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "col-md-3",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "euib",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            }
+          ],
+          "template": 1,
+          "text": "You no longer need to eat, drink water, breathe, or exercise as your Shard will sustain your body for as long as it has energy.",
+          "title": "Shard Sustenance"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "g184",
           "image": "",
           "isActive": false,
@@ -27234,6 +27338,147 @@
           "template": 1,
           "text": "You can't hold your alcohol. A single shot and you're slurring your words, stumbling, and likely making a fool of yourself. \nNo powers or abilities you may gain can prevent this.",
           "title": "Lightweight"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "17za",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-12"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-12"
+            }
+          ],
+          "template": 1,
+          "text": "Over time you will find Parahumans of opposing alignments and goals drawn to you like moths to a flame. This will happen at a rate of roughly one Normal Shard Parahuman per month, and an additional person with a Vital Shard appearing yearly. Though the more powerful you are, the more rapidly enemies will rise to challenge you.\nThis Drawback will wear off after 10 years.\n",
+          "title": "Rogues Gallery "
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5f3w",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-3"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "When it comes to irrelevant, everyday inconveniences, you have terrible luck. You will stub your toe more frequently, often arrive at a stoplight just as it turns red, will never win at bingo, and experience other such frustrations. \nThis Drawback will wear off after 10 years.",
+          "title": "Inconsistent Minor Misfortune "
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "wemn",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "5f3w",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-3"
+            }
+          ],
+          "template": 1,
+          "text": "You are slightly less lucky in all aspects. This is a very subtle, very small decrease, but affects even combat. This effect is twice as potent if you have any Perks or Powers that increase your luck. \nThis Drawback will wear off after 10 years.",
+          "title": "Consistent Minor Misfortune "
         },
         {
           "addons": [],
