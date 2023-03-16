@@ -87199,6 +87199,114 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "pmej",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You are now the wielder of The Witchblade, a sapient, intelligent, and ancient weapon. Born from the universe's primordial opposing aspects, the Darkness and the Angelus, The Witchblade is a male aspect created to act as a balance and must have a female host*. The Witchblade takes the form of an ornate jeweled bracelet when dormant, and when active becomes a wickedly bladed gauntlet and armor for your most sensitive areas. As adaptive armor, it grows as necessary to further protect its host in nearly impervious bladed armor. Among its other powers is the ability to keep the host in peak human condition, grant superhuman strength and endurance, accelerated regeneration, low-level invulnerability covering bullets and minor explosions, pyrokinesis and immunity to heat and fire, tactile telekinetic healing of other beings, and weapon formation of blades, whips, swords, spears, wings which allow flight, projectile darts, etc.\n*Wield at your own risk, as The Witchblade may harm other user types.",
+          "title": "The Witchblade (Witchblade)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "k1z3",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "\"Chaoseater\u2026 the angry blade thirsts for destruction\" - The Charred Council\nOnce the signature weapon of the Horseman of War, now its prodigious weight rests in your hands. Chaoseater is an ornate greatsword of truly massive size, measuring over 8 feet of deadly sharp blade. As the mayhem of battle rises Chaoseater will empower you to greater and greater heights, providing limitless stamina, enhancing your regeneration the more foes you face, and healing you when you inflict wounds on others. However, the defining ability that Chaoseater possesses is its hunger for souls. As you slay powerful enemies Chaoseater will permanently grow, becoming deadlier and gaining new abilities based on what you kill.",
+          "title": "Chaoseater (Darksiders)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qyq0",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            }
+          ],
+          "template": 1,
+          "text": "You wield Curoch \"The Sword of Power\" and Iures \"The Staff of Law\", you now stand above the greatest mages to ever live, if you can survive the effort of using them. These twin artifacts were created by Jorsin Alkestes and Ezra the day before Jorsin's demise. Curoch, also called Sunderer, is said to give its wielder access to limitless power, but only the strongest mages can channel it without immediately perishing in a magical conflagration. Curoch can shift its form at will, from any weapon you can conceive into even armor pieces. Capable of cutting instantly through nearly anything, Curoch can deliver true death to even Immortal beings. The immense power of Curoch serves to amplify magic. Any magic channeled with this artifact will be multiplied 100 times over.\nIures, hidden as the blade Retribution for nearly a millennia by the Immortal Acaelus Thorne. The Staff of Law is capable of shifting its form at will. And serves as a peerless aid in the weaving of magic. It perfectly records any magic it encounters, and when channeling it allows the wielder to perform works of magic orders of magnitude more complex, at a fraction of the effort.",
+          "title": "Curoch and Iures (Night Angel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "d357",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "The Hammer of Might is a potent force on any battlefield. A massive Ebony hammer, blessed by the Daedra Malacath. It grants its wielder the strength to demolish the walls of enemy keeps with ease, and durability to match. Volendrung is enchanted with the ability to paralyze foes and can be used to bolster the capabilities and resolve of your allies.",
+          "title": "Volendrung (TES)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "cq42",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-cq42.webp",
           "imageIsUrl": true,
@@ -87221,61 +87329,6 @@
           "template": 1,
           "text": "An ancient relic from an advanced precursor race that had destroyed itself in war, previously used by knights and having taken damage to it's memory banks, this will find you as a suitable master or mistress. You can learn Ancient Belkan magic from this, but it's only capable of creating an artificial D-rank linker core due to low power which you'll need to use to power this, although you may use other magic sources and improve your magic power through training unlike Midchildan artificial linker cores.",
           "title": "Ancient Belkan Intelligent Device"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "bwja",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-bwja.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "n2ls"
-                },
-                {
-                  "req": "e3m3"
-                },
-                {
-                  "req": "081d"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "You gain the wargear common to your chosen power. This scales with your strongest power from this universe, so if your strongest was a space marine you'd get wargear for that, and if your strongest was custodes then you'd gain wargear for that. This scales all the way up to the Emperors personal wargear.",
-          "title": "Wargear(40k)"
         },
         {
           "addons": [],
@@ -87335,6 +87388,61 @@
           "template": 1,
           "text": "Time, Power, Space, Mind, Reality & Soul. The Infinity Stones each control an essential aspect of existence, and when combined can be capable of feats on a universal scale. Whichever Stone you choose to purchase, it\u2019s potential is, by definition, limitless, although you'll need an Infinity Gauntlet should you wish to wield more than one. \nThe stones will continue to function even outside the universe you drop in, albeit severely weakened.",
           "title": "Infinity Stone (Marvel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "bwja",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-bwja.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "n2ls"
+                },
+                {
+                  "req": "e3m3"
+                },
+                {
+                  "req": "081d"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the wargear common to your chosen power. This scales with your strongest power from this universe, so if your strongest was a space marine you'd get wargear for that, and if your strongest was custodes then you'd gain wargear for that. This scales all the way up to the Emperors personal wargear.",
+          "title": "Wargear(40k)"
         }
       ],
       "requireds": [
