@@ -1,5 +1,7 @@
 {
-  "activated": [],
+  "activated": [
+    ""
+  ],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -20424,6 +20426,110 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "zovg",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "When traversing to a new universe, you have a legal identity there. This includes not just Worm's universes, but the greater omniverse if you possess Homecoming. You can choose to customize this legal identity within reason. Ranging from a student to a certain school to an adventurer from a guild.",
+          "title": "Legal Identity"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "s0k7",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "col-md-3",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "euib",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            }
+          ],
+          "template": 1,
+          "text": "You no longer need to eat, drink water, breathe, or exercise as your Shard will sustain your body for as long as it has energy.",
+          "title": "Shard Sustenance"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "g184",
           "image": "",
           "isActive": false,
@@ -27234,6 +27340,147 @@
           "template": 1,
           "text": "You can't hold your alcohol. A single shot and you're slurring your words, stumbling, and likely making a fool of yourself. \nNo powers or abilities you may gain can prevent this.",
           "title": "Lightweight"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "17za",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-12"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-12"
+            }
+          ],
+          "template": 1,
+          "text": "Over time you will find Parahumans of opposing alignments and goals drawn to you like moths to a flame. This will happen at a rate of roughly one Normal Shard Parahuman per month, and an additional person with a Vital Shard appearing yearly. Though the more powerful you are, the more rapidly enemies will rise to challenge you.\nThis Drawback will wear off after 10 years.\n",
+          "title": "Rogues Gallery "
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5f3w",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-3"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "When it comes to irrelevant, everyday inconveniences, you have terrible luck. You will stub your toe more frequently, often arrive at a stoplight just as it turns red, will never win at bingo, and experience other such frustrations. \nThis Drawback will wear off after 10 years.",
+          "title": "Inconsistent Minor Misfortune "
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "wemn",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "5f3w",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-3"
+            }
+          ],
+          "template": 1,
+          "text": "You are slightly less lucky in all aspects. This is a very subtle, very small decrease, but affects even combat. This effect is twice as potent if you have any Perks or Powers that increase your luck. \nThis Drawback will wear off after 10 years.",
+          "title": "Consistent Minor Misfortune "
         },
         {
           "addons": [],
@@ -55110,6 +55357,136 @@
           "template": 1,
           "text": "People will initially come to the conclusion you're weak and that they could defeat you easily.",
           "title": "Stranger"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "soqi",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You can enter into a state of hibernation at will. While hibernating your subconscious mind will keep watch for danger and wake you when you want it to, allowing your conscious mind to rest in an enhanced sleep. Hibernation is four times more effective than sleeping, allowing a full night's rest in just two hours.",
+          "title": "Brute/Breaker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hhxn",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You could be a world-class orator, vocalist, or ventriloquist. With the ability to alter and project your voice to the limits of human ability, and slightly beyond.",
+          "title": "Shaker/Master"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "83ur",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You have a perfect instinct for navigating social circles and situations. Able to effortlessly blend into any situation, you are a true social chameleon. You are a Tinker 1 specializing in makeup, hygiene and grooming, hair styling, and general cosmetic products.",
+          "title": "Thinker/Stranger"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "um5n",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You have a perfect instinct for navigating social circles and situations. Able to effortlessly blend into any situation, you are a true social chameleon.",
+          "title": "Tinker/Changer"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lvih",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-12",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "At will, you can cause your spit and sweat to become caustic. It will cause mildly painful, short-term reactions to anyone else it touches.",
+          "title": "Blaster/Striker"
         }
       ],
       "requireds": [
@@ -55572,6 +55949,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "6tkm",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "You can walk, run, and stand in the air. You can also walk back down to the ground if you want. You can use this to stop yourself in mid-air or skid at any speed, just prepare for an impact.",
+          "title": "(Mover) Stairway to Heaven"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "p2li",
           "image": "",
           "isActive": false,
@@ -55592,6 +55995,32 @@
           "template": 1,
           "text": "You have absolute awareness of any and all matter within 5 meters of yourself, and can teleport to anywhere within 4 meters of yourself. Your cool down is half a second. All living beings in the spot you're teleporting will be teleported just outside of where you chose to teleport.",
           "title": "(Mover/Thinker) Blink and you Miss it."
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "nj6c",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "4"
+            }
+          ],
+          "template": 1,
+          "text": "At will, you can target any object in your line of sight and 'lock' yourself to it. While 'locked', you always maintain the same relative position to it that you had when you first activated this ability. You can 'unlock' yourself at any time, disabling this effect. You are immune to friction while this is active. Breaking the line of sight does not disable the 'locking' effect.",
+          "title": "(Mover) What He's Having"
         },
         {
           "addons": [],
@@ -55811,7 +56240,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -55837,7 +56266,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -56757,6 +57186,33 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "bbs5",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "You can only take so much damage at a time, regardless of how much damage you should be taking. The severity of damage is also reduced to a set amount. A single attack will gouge out a teaspoon of your flesh at most. Beams are not considered a single attack.",
+          "title": "(Brute) Ablation"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "jcx7",
           "image": "",
           "isActive": false,
@@ -56867,7 +57323,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -56894,7 +57350,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -56921,7 +57377,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -57222,6 +57678,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "78wm",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "You can enter a state where your temperature is absolute zero. Heat around you will be drawn inward, tugging on the matter as it passes. This effect grows stronger the longer you stay still.",
+          "title": "(Breaker) Solstice"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "j7qd",
           "image": "",
           "isActive": false,
@@ -57370,8 +57852,34 @@
             }
           ],
           "template": 1,
-          "text": "When you die, one of this power's charges are used, bringing you back to life a month later at some safe spot. You start with one charge, regenerate one charge per month you go without dying, and have a maximum capacity of 5 charges.",
+          "text": "When you die, one of this power's charges is used, bringing you back to life a month later at some safe spot. You start with one charge, regenerate one charge per month go without dying, and have a maximum capacity of 5 charges.",
           "title": "(Breaker) Rebirth"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "4se9",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to perform multiple actions simultaneously on a quantum level. You are limited to 10 actions at the same time and all of them must be locked in the same single point of space you are standing in.",
+          "title": "(Breaker) Superposition"
         },
         {
           "addons": [],
@@ -57434,7 +57942,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -57460,7 +57968,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -57734,6 +58242,32 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "mu5m",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You can reverse how anyone within your line of sight perceives direction. They will see up as down, left as right, and forwards as backwards. This effect wears off as soon as they are out of your line of sight.",
+          "title": "(Master/Stranger) Reversed Controls"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "2e0t",
           "image": "",
           "isActive": false,
@@ -57754,6 +58288,32 @@
           "template": 1,
           "text": "You can cause a target to have a \"gut\" feeling about a particular subject, You can influence what this gut feeling will be, but you can't completely control it.",
           "title": "(Master/Thinker) Instinct"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "kwpg",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the ability to sense and project anger and rage from those within a few blocks of you. The emotional reaction is dependent on the person affected but is also subtle and slow enough that unless they are already aware of you and your power would seem natural. You also gain an increase in general durability and strength proportional to the anger of those around you.",
+          "title": "(Master/Thinker/Brute) Anger Issues"
         },
         {
           "addons": [],
@@ -57972,7 +58532,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -57998,7 +58558,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -75783,7 +76343,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "m8jz",
-          "image": "",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Holmes_-_Steele_1903_-_The_Empty_House_-_The_Return_of_Sherlock_Holmes.jpg",
+          "imageIsUrl": true,
+          "imageLink": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Holmes_-_Steele_1903_-_The_Empty_House_-_The_Return_of_Sherlock_Holmes.jpg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -76584,7 +77146,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "oeca",
-          "image": "",
+          "image": "https://cdnb.artstation.com/p/assets/images/images/002/508/837/large/sylvain-sarrailh-streamlinesunsetartstation3.jpg?1462534855",
+          "imageIsUrl": true,
+          "imageLink": "https://cdnb.artstation.com/p/assets/images/images/002/508/837/large/sylvain-sarrailh-streamlinesunsetartstation3.jpg?1462534855",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -78721,11 +79285,13 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "69h4",
-          "image": "",
+          "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5d69d0da-04c9-4aed-a444-be1d11a96d69/dbnbath-2d686658-b7eb-4048-add1-e02912bb1539.jpg/v1/fill/w_1280,h_640,q_75,strp/phoenix_nebula_by_aerroscape_dbnbath-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvNWQ2OWQwZGEtMDRjOS00YWVkLWE0NDQtYmUxZDExYTk2ZDY5XC9kYm5iYXRoLTJkNjg2NjU4LWI3ZWItNDA0OC1hZGQxLWUwMjkxMmJiMTUzOS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.CuDVeHrUmlIHTg6wzJiofexDFDWSlqavHN3MCbz5DNA",
+          "imageIsUrl": true,
+          "imageLink": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5d69d0da-04c9-4aed-a444-be1d11a96d69/dbnbath-2d686658-b7eb-4048-add1-e02912bb1539.jpg/v1/fill/w_1280,h_640,q_75,strp/phoenix_nebula_by_aerroscape_dbnbath-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvNWQ2OWQwZGEtMDRjOS00YWVkLWE0NDQtYmUxZDExYTk2ZDY5XC9kYm5iYXRoLTJkNjg2NjU4LWI3ZWItNDA0OC1hZGQxLWUwMjkxMmJiMTUzOS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.CuDVeHrUmlIHTg6wzJiofexDFDWSlqavHN3MCbz5DNA",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-3",
           "requireds": [],
           "scores": [
             {
@@ -78742,6 +79308,36 @@
           "template": 1,
           "text": "Your Immortal soul burns brightly, like few others, leaving your existence eternal and nearly inviolable. Over time you can recover from anything, even things like true death or reality erasure, reforming at a safe location. You will always return to peak condition in body, mind, and soul. You will not age past your prime, remaining at your peak fitness and attractiveness eternally. These protections are conceptual, allowing you to somehow heal even from things like imprisonment, misfortune or timeline alteration. This power works slowly, but is completely loophole free. You are an Omniversal constant. \n\nThis power cannot be lost, stolen, drained, suppressed, copied, or otherwise negatively affected, and it will restore your other powers and abilities just as it restores you. ",
           "title": "Eternal Flame"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "m9h1",
+          "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/15996476-b385-40c5-91ee-1ccaea67af34/deco3jh-33acc522-7f15-451c-be1d-9c7dddaa4e1a.png/v1/fill/w_1024,h_1449,q_80,strp/yokudan_ansei_by_anne_wild_deco3jh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE1OTk2NDc2LWIzODUtNDBjNS05MWVlLTFjY2FlYTY3YWYzNFwvZGVjbzNqaC0zM2FjYzUyMi03ZjE1LTQ1MWMtYmUxZC05YzdkZGRhYTRlMWEucG5nIiwiaGVpZ2h0IjoiPD0xNDQ5Iiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvMTU5OTY0NzYtYjM4NS00MGM1LTkxZWUtMWNjYWVhNjdhZjM0XC9hbm5lLXdpbGQtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.Ab4qAxzEvUzfCASbS29zaJtFnNV-zfjdadR9Ur6U7ew",
+          "imageIsUrl": true,
+          "imageLink": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/15996476-b385-40c5-91ee-1ccaea67af34/deco3jh-33acc522-7f15-451c-be1d-9c7dddaa4e1a.png/v1/fill/w_1024,h_1449,q_80,strp/yokudan_ansei_by_anne_wild_deco3jh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE1OTk2NDc2LWIzODUtNDBjNS05MWVlLTFjY2FlYTY3YWYzNFwvZGVjbzNqaC0zM2FjYzUyMi03ZjE1LTQ1MWMtYmUxZC05YzdkZGRhYTRlMWEucG5nIiwiaGVpZ2h0IjoiPD0xNDQ5Iiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvMTU5OTY0NzYtYjM4NS00MGM1LTkxZWUtMWNjYWVhNjdhZjM0XC9hbm5lLXdpbGQtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.Ab4qAxzEvUzfCASbS29zaJtFnNV-zfjdadR9Ur6U7ew",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are a Sword Singer, able to harden your soul and wield it as a spirit blade to incredible effect. Starting out you will be capable of little more than rending your way through a small bandit clan. But as you grow in skill and power you will be capable of ever more extraordinary and exotic effects. Eventually, you will boast a host of esoteric sword abilities, including the power to divide the indivisible.",
+          "title": "Shehai (TES)"
         }
       ],
       "requireds": [
@@ -86261,6 +86857,223 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "msab",
+          "image": "",
+          "imageIsUrl": false,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "g0ut",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have acquired the powers of a Sage, with the choice of a summoning contract between Snakes, Toads, or Slugs.\n\nEach has its own abilities and capabilities. \n\nSage mode holds many secrets and powers, including massive improvement to any ninjutsu.",
+          "title": "Sage Mode"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "a7b2",
+          "image": "https://cdnb.artstation.com/p/assets/images/images/050/472/733/large/suke-leona.jpg?1654927541",
+          "imageIsUrl": true,
+          "imageLink": "https://cdnb.artstation.com/p/assets/images/images/050/472/733/large/suke-leona.jpg?1654927541",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "g36p",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "m9h1",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Armed and armored in your own soul, who else could possibly be a greater vessel for the energies of the Soul Stone? You are saturated in the fundamental force of Soul, increasing the power of your Aura, Semblance, and Shehai by an order of magnitude, and causing them to grow at an equally quickened rate. The weight of your soul is such that you can engage in small-scale, localized reality warping. Jumping from thin air, walking through glass, gliding across the sky, willing open locks, all this and more is within your reach.",
+          "title": "Soul Infusion (Marvel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "g36p",
+          "image": "https://cdna.artstation.com/p/assets/images/images/014/311/404/large/suke-sun-new-inside-small.jpg?1543436904",
+          "imageIsUrl": true,
+          "imageLink": "https://cdna.artstation.com/p/assets/images/images/014/311/404/large/suke-sun-new-inside-small.jpg?1543436904",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "e6oc",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "A Semblance is the manifestation of one's innate and personal power as an ability unique to each individual, with the effects varying greatly from user to user. You've awakened such an ability and doubled your Aura capacity. The nature of one's Semblance is noted as representing an aspect of their character. However, a person's Semblance can be similar to the Semblances of their parents or other family members.",
+          "title": "Semblance"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "lb79",
           "image": "",
           "imageIsUrl": false,
@@ -86450,7 +87263,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "2",
-          "objectWidth": "",
+          "objectWidth": "col-12",
           "requireds": [
             {
               "afterText": "",
@@ -87964,8 +88777,39 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "f67v",
+          "image": "https://cdn.discordapp.com/attachments/916899151642492988/1086112910897582120/OIP.png",
+          "imageIsUrl": true,
+          "imageLink": "https://cdn.discordapp.com/attachments/916899151642492988/1086112910897582120/OIP.png",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "Every thousand years, a God Tree produces a chakra fruit, which human legend holds is never to be touched. these fruits are immensely powerful, producing medicine that grants them godlike power along with extended youth and longevity.\nUpon consumption, you gain a powerful dojutsu - the Rinnesharingan. With all the powers of the Rinnegan and Sharingan. Two bloodline limits also appear. Kaguya had Ash Bones, able to instantly turn anything they hit into dust. And the byakugan.",
+          "title": "Chakra Fruit (Naruto)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "pmej",
-          "image": "",
+          "image": "https://cdnb.artstation.com/p/assets/images/images/003/091/977/large/gwenaelle-daligault-witchblade-colors.jpg?1469568074",
+          "imageIsUrl": true,
+          "imageLink": "https://cdnb.artstation.com/p/assets/images/images/003/091/977/large/gwenaelle-daligault-witchblade-colors.jpg?1469568074",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -87992,7 +88836,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "k1z3",
-          "image": "",
+          "image": "https://cdnb.artstation.com/p/assets/images/images/001/337/147/large/shem-dawson-chaos-eater-webshot01.jpg?1444629679",
+          "imageIsUrl": true,
+          "imageLink": "https://cdnb.artstation.com/p/assets/images/images/001/337/147/large/shem-dawson-chaos-eater-webshot01.jpg?1444629679",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -88046,7 +88892,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "d357",
-          "image": "",
+          "image": "https://cdna.artstation.com/p/assets/images/images/055/578/484/large/per-se-16-dovahkiin.jpg?1667289201",
+          "imageIsUrl": true,
+          "imageLink": "https://cdna.artstation.com/p/assets/images/images/055/578/484/large/per-se-16-dovahkiin.jpg?1667289201",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -88101,7 +88949,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "y8o2",
-          "image": "",
+          "image": "https://cdnb.artstation.com/p/assets/images/images/037/972/151/large/ayydee-gungnir4.jpg?1621834531",
+          "imageIsUrl": true,
+          "imageLink": "https://cdnb.artstation.com/p/assets/images/images/037/972/151/large/ayydee-gungnir4.jpg?1621834531",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,

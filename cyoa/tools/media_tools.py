@@ -1,20 +1,14 @@
 import base64
-from dataclasses import dataclass, replace
-from email.policy import default
 import io
-import operator
+from dataclasses import dataclass, replace
 from os import makedirs
 from pathlib import Path
-from shutil import copyfile
-from typing import List, Dict, Optional, Iterator
+from typing import Optional, Iterator
 
-import requests
-import humanize
 from PIL import Image
-from rich.table import Table
-from rich.progress import track
-from cyoa.tools.lib import update_obj_data, update_row_data
 from lenses import lens
+from rich.progress import track
+from rich.table import Table
 
 from cyoa.tools.lib import *
 
@@ -78,7 +72,7 @@ def list_all_images(project) -> Iterator[ImageInfo]:
     for style_prop in IMAGE_PROPS:
         if bgImage := extract_image_from_style(project, prop=style_prop):
             yield ImageInfo(object_type="proj", style_prop=style_prop,
-                            image_data=bgImage,)
+                            image_data=bgImage, )
 
     for row in project['rows']:
         if rowImage := extract_image_from_item(row):
@@ -155,6 +149,14 @@ def export_image(image_info: ImageInfo, image_type: str, image_data: bytes, dest
     return file_name
 
 
+def _set_image_lenses(encoded_image, image_is_url):
+    return (lens.Get('image').set(encoded_image),
+            lens.Get('imageLink').set(image_is_url),
+            lens.Get('imageIsUrl').set(encoded_image
+                                       if image_is_url
+                                       else None))
+
+
 def update_image(project, image_info, image_type, image_data=None, image_path=None):
     if image_data:
         encoded_image = (
@@ -173,8 +175,8 @@ def update_image(project, image_info, image_type, image_data=None, image_path=No
             encoded_image
         )
     elif image_info.object_type == 'proj' and image_info.style_prop is None:
-        project &= lens.Get('image').set(encoded_image)
-        project &= lens.Get('imageIsUrl').set(image_is_url)
+        for L in _set_image_lenses(encoded_image, image_is_url):
+            project &= L
     elif image_info.object_type == 'row' and image_info.style_prop:
         update_row_data(
             project=project,
@@ -187,8 +189,7 @@ def update_image(project, image_info, image_type, image_data=None, image_path=No
         update_row_data(
             project=project,
             row_id=image_info.row_id,
-            lens=(lens.Get('image').set(encoded_image),
-                  lens.Get('imageIsUrl').set(image_is_url))
+            lens=_set_image_lenses(encoded_image, image_is_url)
         )
     elif image_info.object_type == 'obj' and image_info.style_prop:
         update_obj_data(
@@ -196,15 +197,15 @@ def update_image(project, image_info, image_type, image_data=None, image_path=No
             row_id=image_info.row_id,
             obj_id=image_info.obj_id,
             lens=lens['styling'][image_info.style_prop].set(
-                encoded_image)
+                encoded_image
+            )
         )
     elif image_info.object_type == 'obj' and image_info.style_prop is None:
         update_obj_data(
             project=project,
             row_id=image_info.row_id,
             obj_id=image_info.obj_id,
-            lens=(lens.Get('image').set(encoded_image),
-                  lens.Get('imageIsUrl').set(image_is_url))
+            lens=_set_image_lenses(encoded_image, image_is_url)
         )
 
 
@@ -336,7 +337,7 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
             header, image_data = decode_image(
                 image_info.image_data
             )
-            image_type = header[header.rfind('/')+1:]
+            image_type = header[header.rfind('/') + 1:]
             imgage_size_kb = len(image_data) / 1024.0
 
             # Write the image file to disk

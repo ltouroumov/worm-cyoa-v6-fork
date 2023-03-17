@@ -13,7 +13,8 @@ __all__ = (
     'console',
     'ToolBase', 'ProjectUtilsMixin',
     'find_first', 'find_first_index', 'gen_id',
-    'copy_objects_from_row', 'remove_objects_from_row', 'insert_objects_in_row'
+    'copy_objects_from_row', 'remove_objects_from_row', 'insert_objects_in_row',
+    'update_row_data', 'update_obj_data'
 )
 
 console = Console()
