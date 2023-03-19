@@ -18724,6 +18724,242 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "s0k7",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "col-md-3",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "euib"
+                },
+                {
+                  "req": "d0mx"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            }
+          ],
+          "template": 1,
+          "text": "You no longer need to eat, drink water, breathe, or exercise as your Shard will sustain your body for as long as it has energy.",
+          "title": "Shard Sustenance"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "atwh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "euib",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "Your biology is altered so that you stop aging wherever you are now.\nThis doesn't increase toughness or physical ability aside from protecting you from the frailty of age.\nKeep in mind that this means whatever age you are now is the age you'll be until you die through outside means.",
+          "title": "Who Wants to Live Forever?"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pjir",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Blindspot? Hah. Your powers have no blindspots. They can see Eidolon, The Endbringers, The Entity, Mantellum, and all other blind spots.\nActually, your power does have one blindspot... it cannot see those with the <i>Blind Spot</i> perk.",
+          "title": "All Seeing Precognition"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pr2q",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "euib",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "4950",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "You have no need to sleep, you'll constantly be alert and awake. You also have a perfectly eidetic memory, capable of perfectly recalling anything that has happened to you since you received your powers. Any memories prior to your trigger are remembered as well as you could recall them when you triggered.",
+          "title": "Noctis Cape"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "kb60",
           "image": "",
           "isActive": false,
@@ -18887,6 +19123,110 @@
           "template": 1,
           "text": "You have Batman's real superpower, Money. This comes in the form of numerous bank accounts worth millions, several properties worldwide, and a few safehouses.\n\nThe money refreshes as you spend it, either from interest or dividends. If you're running low, you'll suddenly remember several more accounts or properties when convenient.",
           "title": "Wealthy"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ugys",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "You have a legal identity in the place of your arrival. You can choose to customize this legal identity within reason, ranging from a student of a certain school to a dockworker to a lawyer.\nThis is mostly useless if you chose Reincarnate or Character-Insert, though a homeless person or a sufficiently young orphan might not have one.",
+          "title": "Legal Identity"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "zovg",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "col-md-3",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ugys",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "Whenever you travel to a new universe, you already have a legal identity there. You can choose to customize this legal identity within reason, ranging from a student to a certain school to an adventurer from a guild.",
+          "title": "Multiversal Citizenship"
         },
         {
           "addons": [],
@@ -19614,114 +19954,16 @@
           "title": "'Plot' Armor"
         },
         {
-          "addons": [
-            {
-              "id": "",
-              "image": "",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "4950",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": false,
-                  "type": "id"
-                }
-              ],
-              "template": "",
-              "text": "As an Entity, you have knowledge of how to defeat entropy and generate energy ex nihilo (out of nothing). All of your Shards are capable for sustaining themselves indefinitely and produce buds during a cycle.\n\nWithout the <i>Feeder</i> cluster, your growth is very limited until you develop better energy generation capabilities.",
-              "title": "Entity Energy Generation"
-            }
-          ],
+          "addons": [],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "48m6",
+          "id": "jner",
           "image": "",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "euib",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "d0mx",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -19731,7 +19973,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "8"
+              "value": "3"
             },
             {
               "afterText": "CP",
@@ -19745,8 +19987,72 @@
             }
           ],
           "template": 1,
-          "text": "It somehow went unnoticed by the entities that your Shard had the ability they sought for eons: it defies entropy. Somehow your power allows you to defy entropy and uses this itself to keep it charged. You will never run out of energy. This is more or less useless unless you're either immortal or think you're capable of convincing the entity to leave behind all his other Shards, including Sting, and therefore not kill all humans in exchange for your Shard. A Shard without this perk may still have the ability to defy entropy, but you need to find it yourself because the Shard doesn't already know.",
-          "title": "Negentropy"
+          "text": "Wildbow's Shard, like any other Warrior Shard, was geared for conflict, and so what would really happen is a bit more spaced out. In other words, you have an extra two years, two months, and 13 days until Gold Morning, and the events of Ward also took twice as long and started two years, two months, and 13 days later.",
+          "title": "Conflicted Predictions"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xsi7",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "0s6z"
+                },
+                {
+                  "req": "4ok9"
+                },
+                {
+                  "req": "ar45"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your Shard possesses DATA about esoteric forms of reality manipulations. Grants you access to the Shardless Powers section, these powers are tied to your Shard, however.\n\nTrump powers can now copy non-shard abilities, however, these abilities will be tied to your Shard once copied.",
+          "title": "Esoteric Knowledge"
         },
         {
           "addons": [],
@@ -19985,149 +20291,50 @@
           "title": "Pocket Shard"
         },
         {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "jner",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
+          "addons": [
             {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            },
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "Wildbow's Shard, like any other Warrior Shard, was geared for conflict, and so what would really happen is a bit more spaced out. In other words, you have an extra two years, two months, and 13 days until Gold Morning, and the events of Ward also took twice as long and started two years, two months, and 13 days later.",
-          "title": "Conflicted Predictions"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "pjir",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Blindspot? Hah. Your powers have no blindspots. They can see Eidolon, The Endbringers, The Entity, Mantellum, and all other blind spots.\nActually, your power does have one blindspot... it cannot see those with the <i>Blind Spot</i> perk.",
-          "title": "All Seeing Precognition"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "xsi7",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
               "id": "",
-              "operator": "",
-              "orRequired": [
+              "image": "",
+              "requireds": [
                 {
-                  "req": "0s6z"
-                },
-                {
-                  "req": "4ok9"
-                },
-                {
-                  "req": "ar45"
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "4950",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
                 }
               ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
+              "template": "",
+              "text": "As an Entity, you have knowledge of how to defeat entropy and generate energy ex nihilo (out of nothing). All of your Shards are capable for sustaining themselves indefinitely and produce buds during a cycle.\n\nWithout the <i>Feeder</i> cluster, your growth is very limited until you develop better energy generation capabilities.",
+              "title": "Entity Energy Generation"
             }
           ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Your Shard possesses DATA about esoteric forms of reality manipulations. Grants you access to the Shardless Powers section, these powers are tied to your Shard, however.\n\nTrump powers can now copy non-shard abilities, however, these abilities will be tied to your Shard once copied.",
-          "title": "Esoteric Knowledge"
-        },
-        {
-          "addons": [],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "pr2q",
+          "id": "48m6",
           "image": "",
           "isActive": false,
           "isVisible": true,
@@ -20181,7 +20388,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "4950",
+              "reqId": "d0mx",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -20201,12 +20408,22 @@
               "requireds": [],
               "showScore": true,
               "type": "",
+              "value": "8"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
               "value": "3"
             }
           ],
           "template": 1,
-          "text": "You have no need to sleep, you'll constantly be alert and awake. You also have a perfectly eidetic memory, capable of perfectly recalling anything that has happened to you since you received your powers. Any memories prior to your trigger are remembered as well as you could recall them when you triggered.",
-          "title": "Noctis Cape"
+          "text": "It somehow went unnoticed by the entities that your Shard had the ability they sought for eons: it defies entropy. Somehow your power allows you to defy entropy and uses this itself to keep it charged. You will never run out of energy. This is more or less useless unless you're either immortal or think you're capable of convincing the entity to leave behind all his other Shards, including Sting, and therefore not kill all humans in exchange for your Shard. A Shard without this perk may still have the ability to defy entropy, but you need to find it yourself because the Shard doesn't already know.",
+          "title": "Negentropy"
         },
         {
           "addons": [],
@@ -20418,110 +20635,6 @@
           "template": 1,
           "text": "You can change how some aspects of your power work, this doesn't make it more powerful but changes some of its mechanics.",
           "title": "Power Tweak"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "zovg",
-          "image": "",
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "10",
-          "objectWidth": "col-md-3",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            },
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "When traversing to a new universe, you have a legal identity there. This includes not just Worm's universes, but the greater omniverse if you possess Homecoming. You can choose to customize this legal identity within reason. Ranging from a student to a certain school to an adventurer from a guild.",
-          "title": "Legal Identity"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "s0k7",
-          "image": "",
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "10",
-          "objectWidth": "col-md-3",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "euib",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "2"
-            }
-          ],
-          "template": 1,
-          "text": "You no longer need to eat, drink water, breathe, or exercise as your Shard will sustain your body for as long as it has energy.",
-          "title": "Shard Sustenance"
         },
         {
           "addons": [],
@@ -87000,6 +87113,553 @@
       "buttonText": "Click",
       "buttonType": true,
       "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "dgio",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-4",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "eds1",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are either the re-incarnation or somehow decended from one of Siddharta Gautama personal disciples.\nWhat this means is that you are going to cultivate very fast, and cultivate buddhist arts and paths even faster. You also naturally grow a strong body and a clear mind. Buddhas lessons are soul deep, so you find that you are naturally a good person with good morals.",
+          "title": "First Path Siddharta Bodhisattva Soul"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ht2x",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "The world is a source of great wonder, but it can also be a fantastic source of inspiration.\nThe natural world is filled with mysteries, all you need to do is comprehend them. You are\nable to take inspiration from it in order to further your skills. The unending noise of a waterfall could help progress your sound skills, the repetitive rustling of leaves in the wind could help you with a breakthrough in your sword skills. You might be surprised how the world can help you, and in what ways.",
+          "title": "Comprehension Of The World"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "k6r1",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have an extraordinary amount of luck when it comes to cultivation, where even events which should result in significant setbacks leave you better off than you began. You\u2019ve been thrown off a cliff? Not only do you survive, but you get to a hidden area at the base of the cliff before your enemies. Forced to flee through a demon forest? Your fights allow you to advance in combat acumen and body refinement, and you come across some rare spirit herbs while you\u2019re at it.",
+          "title": "Fortuitous Encounters"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0t9w",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0t9w.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0t9w.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your Meridians and the pathways in your body are formed in such a way as to not only make cultivation far easier, but allow you to form multiple golden cores. Eventually forming a stellar golden core array within yourself, making all your golden cores act as one. This would allow you to hold exponentially more Qi than any other cultivator at your level and rival cultivators several levels above your own. This also makes such things as unlocking and mastering your chakras far easier as your body can handle all types of energy far better.",
+          "title": "Grand Star Meridians Formation"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xfu4",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xfu4.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xfu4.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Passing your skills onto the next generation is the foundation of mortal society, what allows it to grow. The same thing could be said for immortal cultivators, but for the many mortals who populate the world, honing your life\u2019s craft and passing it on to your progeny is a vital part of\nensuring that their legacy continues. Be it wood carving, blacksmithing, painting or stranger.\n\nYou are a teacher and tutor without peer, capable of easily passing along your skills and\nknowledge to anyone who wants to learn from you. Beneath your gentle hand, even a moron\ncould become a master of their craft in a mere fraction of the time it would have taken an\naverage person. And if you were to teach that same average person? Their rate of growth and comprehension would have to be seen to be believed.\n\nEven the most complicated and intricate systems, concepts or philosophies can be explained to anyone regardless of their pre-existing knowledge base and if you truly know better than someone then they will realize this rather than allow pre-conceptions, arrogance or outdated thinking to blind them to your teachings.\n\nThis will also allow you to awaken the Meridians of any mortal and teach them the art of cultivation.",
+          "title": "Grand Teacher"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ijmy",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ijmy.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ijmy.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Your body is uniquely suited for Yang aligned energy and thoughts. You can advance in such techniques with ease and cultivate signifigantly faster when taking paths aligned to it.\nYou have nine suns in your body that you can cultivate and grow. Adding them to your actions, such as hitting someone with the force of a sun,or unleashing their flames and heat. you start with one small sun which grows as you abosrb Yang aligned energy.",
+          "title": "Nine sun Primordial True Yang Body"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "gy4y",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gy4y.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gy4y.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Your body is uniquely suited for Yin aligned energy and thoughts. You can advance in such techniques with ease and cultivate signifigantly faster when taking paths aligned to it.\nYou have twelve moons in your body that you can cultivate and grow. Adding them to your actions, such as hitting someone with the force of a moon, or unleashing frost and entropy. you start with one small moon which grows as you abosrb Yin aligned energy.",
+          "title": "Twelve Moon Primordial Yin Body"
+        },
+        {
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "8pxr",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "Your tower and garden combine into one internal plane with the abilities and functions of both.",
+              "title": "Utopian Garden lost in time"
+            }
+          ],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "p1xi",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have in your soul a peaceful garden in which all that grows becomes a cultivation treasure. An Apple tree planet here might give you Primordial true sun apples after it has matured. The more supernatural the plant grown here the better the cultivation treasure the plant will grow.\nThe Pocket plane is also supremely beautiful and serenely peaceful, almost Utopia like. ",
+          "title": "Garden of Avalon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8pxr",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have in your soul tower in which time flows differently. You can enter here at any time, but you always exit the place you came from when you entered. You can change how time flows in comparison to the outside universe, with at maximum time seemingly stopping in the outside world, and at minimum it being the same, as the outside world. The tower has a seemingly unlimited supply of Qi in the air, of whatever variety you wish for.",
+          "title": "Tower lost in time"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "c1zn",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "0"
+            }
+          ],
+          "template": 1,
+          "text": "You have chosen the hardest path a mortal can take.\nTrue enlightenment. Becoming one with the universe.\nThis makes cultivation significantly harder, as your power and path are now dependent on your journey to enlightenment and not the other way around. This makes it nigh impossible to advance your path if you choose to be an asshole or immoral. On the other hand your power is not almost entirely internal, meaning you can achieve great power no matter your surroundings. And if you are already a particularly moral and introspective person this could be faster than normal cultivation.\nIf you gain mastery over yourself, your desires, and your soul, There is nothing that could stop you. As you become one with existence, you would become omnipotent, omniscient, omnipresent and Omnibenevolent.\nThis is not an easy path to take, but it is a good one.",
+          "title": "True Path of Cultivation"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "choice",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "c150",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": true,
+          "type": "id"
+        }
+      ],
+      "resultGroupId": "l5",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "000000",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "000000",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#FFFFFFFF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectBorderColor": "red",
+        "objectBorderIsOn": false,
+        "objectBorderRadiusBottomLeft": 0,
+        "objectBorderRadiusBottomRight": 0,
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": 0,
+        "objectBorderRadiusTopRight": 0,
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "grey",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "000000",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "000000",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": false,
+        "reqFilterBgColor": "#FFFFFFFF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": 0,
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": 50,
+        "reqFilterOpacIsOn": true,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "red",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": 0,
+        "rowBorderRadiusBottomRight": 0,
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": 0,
+        "rowBorderRadiusTopRight": 0,
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "grey",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "red",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowMargin": 10,
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "000000",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "000000",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "000000",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#70FF7EFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Cultivation-specific upgrades",
+      "titleText": ""
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
       "defaultAspectHeight": "3",
       "defaultAspectWidth": 1,
       "id": "3hbj",
@@ -90181,553 +90841,6 @@
       },
       "template": "1",
       "title": "Objects of Power",
-      "titleText": ""
-    },
-    {
-      "allowedChoices": 0,
-      "buttonId": "",
-      "buttonRandom": false,
-      "buttonRandomNumber": 1,
-      "buttonText": "Click",
-      "buttonType": true,
-      "currentChoices": 0,
-      "defaultAspectHeight": 1,
-      "defaultAspectWidth": 1,
-      "id": "dgio",
-      "image": "",
-      "isButtonRow": false,
-      "isEditModeOn": false,
-      "isInfoRow": false,
-      "isPrivateStyling": false,
-      "isRequirementOpen": false,
-      "isResultRow": false,
-      "objectWidth": "col-md-4",
-      "objects": [
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "eds1",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "You are either the re-incarnation or somehow decended from one of Siddharta Gautama personal disciples.\nWhat this means is that you are going to cultivate very fast, and cultivate buddhist arts and paths even faster. You also naturally grow a strong body and a clear mind. Buddhas lessons are soul deep, so you find that you are naturally a good person with good morals.",
-          "title": "First Path Siddharta Bodhisattva Soul"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ht2x",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "7"
-            }
-          ],
-          "template": 1,
-          "text": "The world is a source of great wonder, but it can also be a fantastic source of inspiration.\nThe natural world is filled with mysteries, all you need to do is comprehend them. You are\nable to take inspiration from it in order to further your skills. The unending noise of a waterfall could help progress your sound skills, the repetitive rustling of leaves in the wind could help you with a breakthrough in your sword skills. You might be surprised how the world can help you, and in what ways.",
-          "title": "Comprehension Of The World"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "k6r1",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have an extraordinary amount of luck when it comes to cultivation, where even events which should result in significant setbacks leave you better off than you began. You\u2019ve been thrown off a cliff? Not only do you survive, but you get to a hidden area at the base of the cliff before your enemies. Forced to flee through a demon forest? Your fights allow you to advance in combat acumen and body refinement, and you come across some rare spirit herbs while you\u2019re at it.",
-          "title": "Fortuitous Encounters"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "0t9w",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0t9w.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0t9w.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "Your Meridians and the pathways in your body are formed in such a way as to not only make cultivation far easier, but allow you to form multiple golden cores. Eventually forming a stellar golden core array within yourself, making all your golden cores act as one. This would allow you to hold exponentially more Qi than any other cultivator at your level and rival cultivators several levels above your own. This also makes such things as unlocking and mastering your chakras far easier as your body can handle all types of energy far better.",
-          "title": "Grand Star Meridians Formation"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "xfu4",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xfu4.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xfu4.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "Passing your skills onto the next generation is the foundation of mortal society, what allows it to grow. The same thing could be said for immortal cultivators, but for the many mortals who populate the world, honing your life\u2019s craft and passing it on to your progeny is a vital part of\nensuring that their legacy continues. Be it wood carving, blacksmithing, painting or stranger.\n\nYou are a teacher and tutor without peer, capable of easily passing along your skills and\nknowledge to anyone who wants to learn from you. Beneath your gentle hand, even a moron\ncould become a master of their craft in a mere fraction of the time it would have taken an\naverage person. And if you were to teach that same average person? Their rate of growth and comprehension would have to be seen to be believed.\n\nEven the most complicated and intricate systems, concepts or philosophies can be explained to anyone regardless of their pre-existing knowledge base and if you truly know better than someone then they will realize this rather than allow pre-conceptions, arrogance or outdated thinking to blind them to your teachings.\n\nThis will also allow you to awaken the Meridians of any mortal and teach them the art of cultivation.",
-          "title": "Grand Teacher"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ijmy",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ijmy.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ijmy.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "Your body is uniquely suited for Yang aligned energy and thoughts. You can advance in such techniques with ease and cultivate signifigantly faster when taking paths aligned to it.\nYou have nine suns in your body that you can cultivate and grow. Adding them to your actions, such as hitting someone with the force of a sun,or unleashing their flames and heat. you start with one small sun which grows as you abosrb Yang aligned energy.",
-          "title": "Nine sun Primordial True Yang Body"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "gy4y",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gy4y.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gy4y.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "Your body is uniquely suited for Yin aligned energy and thoughts. You can advance in such techniques with ease and cultivate signifigantly faster when taking paths aligned to it.\nYou have twelve moons in your body that you can cultivate and grow. Adding them to your actions, such as hitting someone with the force of a moon, or unleashing frost and entropy. you start with one small moon which grows as you abosrb Yin aligned energy.",
-          "title": "Twelve Moon Primordial Yin Body"
-        },
-        {
-          "addons": [
-            {
-              "id": "",
-              "image": "",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "8pxr",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": false,
-                  "type": "id"
-                }
-              ],
-              "template": "",
-              "text": "Your tower and garden combine into one internal plane with the abilities and functions of both.",
-              "title": "Utopian Garden lost in time"
-            }
-          ],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "p1xi",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have in your soul a peaceful garden in which all that grows becomes a cultivation treasure. An Apple tree planet here might give you Primordial true sun apples after it has matured. The more supernatural the plant grown here the better the cultivation treasure the plant will grow.\nThe Pocket plane is also supremely beautiful and serenely peaceful, almost Utopia like. ",
-          "title": "Garden of Avalon"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "8pxr",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have in your soul tower in which time flows differently. You can enter here at any time, but you always exit the place you came from when you entered. You can change how time flows in comparison to the outside universe, with at maximum time seemingly stopping in the outside world, and at minimum it being the same, as the outside world. The tower has a seemingly unlimited supply of Qi in the air, of whatever variety you wish for.",
-          "title": "Tower lost in time"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "c1zn",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "0"
-            }
-          ],
-          "template": 1,
-          "text": "You have chosen the hardest path a mortal can take.\nTrue enlightenment. Becoming one with the universe.\nThis makes cultivation significantly harder, as your power and path are now dependent on your journey to enlightenment and not the other way around. This makes it nigh impossible to advance your path if you choose to be an asshole or immoral. On the other hand your power is not almost entirely internal, meaning you can achieve great power no matter your surroundings. And if you are already a particularly moral and introspective person this could be faster than normal cultivation.\nIf you gain mastery over yourself, your desires, and your soul, There is nothing that could stop you. As you become one with existence, you would become omnipotent, omniscient, omnipresent and Omnibenevolent.\nThis is not an easy path to take, but it is a good one.",
-          "title": "True Path of Cultivation"
-        }
-      ],
-      "requireds": [
-        {
-          "afterText": "choice",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            }
-          ],
-          "reqId": "c150",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": true,
-          "type": "id"
-        }
-      ],
-      "resultGroupId": "l5",
-      "styling": {
-        "addonText": "Times New Roman",
-        "addonTextAlign": "center",
-        "addonTextColor": "000000",
-        "addonTextTextSize": 100,
-        "addonTitle": "Times New Roman",
-        "addonTitleAlign": "center",
-        "addonTitleColor": "000000",
-        "addonTitleTextSize": 200,
-        "backPackWidth": 1200,
-        "backgroundColor": "#FFFFFFFF",
-        "backgroundImage": "",
-        "barBackgroundColor": "#FFFFFFFF",
-        "barMargin": 0,
-        "barPadding": 0,
-        "barTextColor": "#000000",
-        "barTextFont": "Times New Roman",
-        "barTextMargin": 0,
-        "barTextPadding": 17,
-        "barTextSize": 15,
-        "objectBackgroundImage": "",
-        "objectBgColor": "#FFFFFFFF",
-        "objectBgColorIsOn": false,
-        "objectBorderColor": "red",
-        "objectBorderIsOn": false,
-        "objectBorderRadiusBottomLeft": 0,
-        "objectBorderRadiusBottomRight": 0,
-        "objectBorderRadiusIsPixels": true,
-        "objectBorderRadiusTopLeft": 0,
-        "objectBorderRadiusTopRight": 0,
-        "objectBorderStyle": "solid",
-        "objectBorderWidth": 2,
-        "objectDropShadowBlur": 0,
-        "objectDropShadowColor": "grey",
-        "objectDropShadowH": 0,
-        "objectDropShadowIsOn": false,
-        "objectDropShadowSpread": 0,
-        "objectDropShadowV": 0,
-        "objectHeight": true,
-        "objectImageMarginBottom": 0,
-        "objectImageMarginTop": 0,
-        "objectImageWidth": 100,
-        "objectImgBorderColor": "red",
-        "objectImgBorderIsOn": false,
-        "objectImgBorderRadiusBottomLeft": 0,
-        "objectImgBorderRadiusBottomRight": 0,
-        "objectImgBorderRadiusIsPixels": true,
-        "objectImgBorderRadiusTopLeft": 0,
-        "objectImgBorderRadiusTopRight": 0,
-        "objectImgBorderStyle": "solid",
-        "objectImgBorderWidth": 2,
-        "objectMargin": 10,
-        "objectOverflowIsOn": true,
-        "objectText": "Times New Roman",
-        "objectTextAlign": "center",
-        "objectTextColor": "000000",
-        "objectTextPadding": 10,
-        "objectTextTextSize": 100,
-        "objectTitle": "Times New Roman",
-        "objectTitleAlign": "center",
-        "objectTitleColor": "000000",
-        "objectTitleTextSize": 200,
-        "reqBgColorIsOn": false,
-        "reqFilterBgColor": "#FFFFFFFF",
-        "reqFilterBlur": 0,
-        "reqFilterBlurIsOn": false,
-        "reqFilterBright": 100,
-        "reqFilterBrightIsOn": false,
-        "reqFilterCont": 100,
-        "reqFilterContIsOn": false,
-        "reqFilterGray": 0,
-        "reqFilterGrayIsOn": false,
-        "reqFilterHue": 0,
-        "reqFilterHueIsOn": false,
-        "reqFilterInvert": 0,
-        "reqFilterInvertIsOn": false,
-        "reqFilterOpac": 50,
-        "reqFilterOpacIsOn": true,
-        "reqFilterSatur": 1,
-        "reqFilterSaturIsOn": false,
-        "reqFilterSepia": 0,
-        "reqFilterSepiaIsOn": false,
-        "reqFilterVisibleIsOn": false,
-        "rowBackgroundImage": "",
-        "rowBgColor": "#FFFFFFFF",
-        "rowBgColorIsOn": false,
-        "rowBodyMarginBottom": 25,
-        "rowBodyMarginSides": 1,
-        "rowBodyMarginTop": 25,
-        "rowBorderColor": "red",
-        "rowBorderIsOn": false,
-        "rowBorderRadiusBottomLeft": 0,
-        "rowBorderRadiusBottomRight": 0,
-        "rowBorderRadiusIsPixels": true,
-        "rowBorderRadiusTopLeft": 0,
-        "rowBorderRadiusTopRight": 0,
-        "rowBorderStyle": "solid",
-        "rowBorderWidth": 2,
-        "rowButtonXPadding": 0,
-        "rowButtonYPadding": 0,
-        "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "grey",
-        "rowDropShadowH": 0,
-        "rowDropShadowIsOn": false,
-        "rowDropShadowSpread": 0,
-        "rowDropShadowV": 0,
-        "rowImageMarginTop": 0,
-        "rowImageWidth": 100,
-        "rowImgBorderColor": "red",
-        "rowImgBorderIsOn": false,
-        "rowImgBorderRadiusBottomLeft": 0,
-        "rowImgBorderRadiusBottomRight": 0,
-        "rowImgBorderRadiusIsPixels": true,
-        "rowImgBorderRadiusTopLeft": 0,
-        "rowImgBorderRadiusTopRight": 0,
-        "rowImgBorderStyle": "solid",
-        "rowImgBorderWidth": 2,
-        "rowMargin": 10,
-        "rowOverflowIsOn": true,
-        "rowText": "Times New Roman",
-        "rowTextAlign": "center",
-        "rowTextColor": "000000",
-        "rowTextPaddingX": 10,
-        "rowTextPaddingY": 5,
-        "rowTextTextSize": 100,
-        "rowTitle": "Times New Roman",
-        "rowTitleAlign": "center",
-        "rowTitleColor": "000000",
-        "rowTitleTextSize": 200,
-        "scoreText": "Times New Roman",
-        "scoreTextAlign": "center",
-        "scoreTextColor": "000000",
-        "scoreTextSize": 75,
-        "selBgColorIsOn": true,
-        "selFilterBgColor": "#70FF7EFF",
-        "selFilterBlur": 0,
-        "selFilterBlurIsOn": false,
-        "selFilterBright": 100,
-        "selFilterBrightIsOn": false,
-        "selFilterCont": 100,
-        "selFilterContIsOn": false,
-        "selFilterGray": 0,
-        "selFilterGrayIsOn": false,
-        "selFilterHue": 0,
-        "selFilterHueIsOn": false,
-        "selFilterInvert": 0,
-        "selFilterInvertIsOn": false,
-        "selFilterOpac": 100,
-        "selFilterOpacIsOn": false,
-        "selFilterSatur": 1,
-        "selFilterSaturIsOn": false,
-        "selFilterSepia": 0,
-        "selFilterSepiaIsOn": false
-      },
-      "template": "1",
-      "title": "Cultivation-specific upgrades",
       "titleText": ""
     },
     {
@@ -94650,34 +94763,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "luk0",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "A tool belt with climbing devices like hooks, ropes, and other things, though you can put almost anything unrelated on it for quick easy access in the head of battle.",
-          "title": "Tool Belt"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "3hsu",
           "image": "",
           "isActive": false,
@@ -94700,6 +94785,38 @@
           "template": 1,
           "text": "You have some kind of mundane vehicle. It could be a car, motorcycle, boat, or whatever else.",
           "title": "Vehicle"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "rv72",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-rv72.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "6",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
+            }
+          ],
+          "template": 1,
+          "text": "You have a bank account with money in it.\n\nThe first purchase gives you 500$ and each subsequent purchase multiplies the amount by 10. (5k, 50k, 500k, 5M, 50M, etc.)",
+          "title": "Bank Account"
         },
         {
           "addons": [],
@@ -94729,7 +94846,7 @@
             }
           ],
           "template": 1,
-          "text": "Tinkertech devices for many different purposes. User manuals included. They will need maintenance.\n\n(Does not include weapons)",
+          "text": "A single Tinkertech device for any purpose. User manual included. It can be Tinkertech of your own creation if you have an applicable Tinker power. It will need maintenance.\n\n(Does not include weapons)",
           "title": "Tinkertech"
         },
         {
@@ -94817,38 +94934,6 @@
           "template": 1,
           "text": "You have illegally acquired information on every Cape on Earth Bet, at least the known ones. The information is fairly in-depth. If you have digital devices, the information is available on one of them and is protected against basic hacking (won't hold off a dedicated Tinker or Thinker but a standard forensic tool won't be able to read it).",
           "title": "Bingo Book"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "rv72",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-rv72.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "6",
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You have a bank account with money in it.\n\nThe first purchase gives you 500$ and each subsequent purchase multiplies the amount by 10. (5k, 50k, 500k, 5M, 50M, etc.)",
-          "title": "Bank Account"
         },
         {
           "addons": [],
@@ -95084,6 +95169,34 @@
           "template": 1,
           "text": "You have a machine that can open portals, similiar to the one teacher would make post golden morning. You can set the machine to open a portal to any location on any world, but it takes a minute to create the portal and you need to input the exact coordinates. The interface is understandable but not intuitive.",
           "title": "Portal Maker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jftz",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are given access to a legally acquired house. This house has everything you need for everyday life. Its size and quality depend on several factors, like the location or how rich you or your family are.",
+          "title": "House"
         },
         {
           "addons": [],
