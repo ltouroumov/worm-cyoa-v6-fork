@@ -1,7 +1,5 @@
 {
-  "activated": [
-    ""
-  ],
+  "activated": [],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -53400,7 +53398,7 @@
             "objectImageMarginBottom": 0,
             "objectImageMarginTop": 0,
             "objectImageWidth": 100,
-            "objectImgBorderColor": "red",
+            "objectImgBorderColor": "#FFEEDDFF",
             "objectImgBorderIsOn": false,
             "objectImgBorderRadiusBottomLeft": 0,
             "objectImgBorderRadiusBottomRight": 0,
@@ -54283,6 +54281,222 @@
           "template": 1,
           "text": "",
           "title": "Objects of Power"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pdnv",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": true,
+          "isPrivateStyling": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-12",
+          "requireds": [],
+          "scores": [],
+          "styling": {
+            "addonText": "Times New Roman",
+            "addonTextAlign": "center",
+            "addonTextColor": "#FFFFFFFF",
+            "addonTextTextSize": 100,
+            "addonTitle": "Times New Roman",
+            "addonTitleAlign": "center",
+            "addonTitleColor": "#FFFFFFFF",
+            "addonTitleTextSize": 200,
+            "backPackWidth": 1200,
+            "backgroundColor": "#000000FF",
+            "backgroundImage": "",
+            "barBackgroundColor": "#FFFFFFFF",
+            "barMargin": 0,
+            "barPadding": 0,
+            "barTextColor": "#000000",
+            "barTextFont": "Times New Roman",
+            "barTextMargin": 0,
+            "barTextPadding": 17,
+            "barTextSize": 15,
+            "objectBackgroundImage": "",
+            "objectBgColor": "#000000FF",
+            "objectBgColorIsOn": true,
+            "objectBorderColor": "#FDFDFDFF",
+            "objectBorderIsOn": false,
+            "objectBorderRadiusBottomLeft": "5",
+            "objectBorderRadiusBottomRight": "5",
+            "objectBorderRadiusIsPixels": true,
+            "objectBorderRadiusTopLeft": "5",
+            "objectBorderRadiusTopRight": "5",
+            "objectBorderStyle": "solid",
+            "objectBorderWidth": 2,
+            "objectDropShadowBlur": 0,
+            "objectDropShadowColor": "#FFEF00FF",
+            "objectDropShadowH": 0,
+            "objectDropShadowIsOn": false,
+            "objectDropShadowSpread": 0,
+            "objectDropShadowV": 0,
+            "objectHeight": true,
+            "objectImageMarginBottom": 0,
+            "objectImageMarginTop": 0,
+            "objectImageWidth": 100,
+            "objectImgBorderColor": "#FFEEDDFF",
+            "objectImgBorderIsOn": false,
+            "objectImgBorderRadiusBottomLeft": 0,
+            "objectImgBorderRadiusBottomRight": 0,
+            "objectImgBorderRadiusIsPixels": true,
+            "objectImgBorderRadiusTopLeft": 0,
+            "objectImgBorderRadiusTopRight": 0,
+            "objectImgBorderStyle": "solid",
+            "objectImgBorderWidth": 2,
+            "objectMargin": 10,
+            "objectOverflowIsOn": true,
+            "objectText": "Times New Roman",
+            "objectTextAlign": "center",
+            "objectTextColor": "#FFFFFFFF",
+            "objectTextPadding": 10,
+            "objectTextTextSize": 100,
+            "objectTitle": "Times New Roman",
+            "objectTitleAlign": "center",
+            "objectTitleColor": "#FFFFFFFF",
+            "objectTitleTextSize": 200,
+            "reqBgColorIsOn": true,
+            "reqFilterBgColor": "#6B6464FF",
+            "reqFilterBlur": 0,
+            "reqFilterBlurIsOn": false,
+            "reqFilterBright": 100,
+            "reqFilterBrightIsOn": false,
+            "reqFilterCont": 100,
+            "reqFilterContIsOn": false,
+            "reqFilterGray": 0,
+            "reqFilterGrayIsOn": false,
+            "reqFilterHue": 0,
+            "reqFilterHueIsOn": false,
+            "reqFilterInvert": "50",
+            "reqFilterInvertIsOn": false,
+            "reqFilterOpac": "25",
+            "reqFilterOpacIsOn": false,
+            "reqFilterSatur": 1,
+            "reqFilterSaturIsOn": false,
+            "reqFilterSepia": 0,
+            "reqFilterSepiaIsOn": false,
+            "reqFilterVisibleIsOn": false,
+            "rowBackgroundImage": "",
+            "rowBgColor": "#000000FF",
+            "rowBgColorIsOn": true,
+            "rowBodyMarginBottom": 25,
+            "rowBodyMarginSides": 1,
+            "rowBodyMarginTop": 25,
+            "rowBorderColor": "#FFEEDDFF",
+            "rowBorderIsOn": false,
+            "rowBorderRadiusBottomLeft": "0",
+            "rowBorderRadiusBottomRight": "0",
+            "rowBorderRadiusIsPixels": true,
+            "rowBorderRadiusTopLeft": "0",
+            "rowBorderRadiusTopRight": "0",
+            "rowBorderStyle": "solid",
+            "rowBorderWidth": 2,
+            "rowButtonXPadding": 0,
+            "rowButtonYPadding": 0,
+            "rowDesignIsAdvanced": false,
+            "rowDropShadowBlur": 0,
+            "rowDropShadowColor": "#FFFFEEFF",
+            "rowDropShadowH": 0,
+            "rowDropShadowIsOn": false,
+            "rowDropShadowSpread": 0,
+            "rowDropShadowV": 0,
+            "rowImageMarginTop": 0,
+            "rowImageWidth": 100,
+            "rowImgBorderColor": "#FFEEDDFF",
+            "rowImgBorderIsOn": false,
+            "rowImgBorderRadiusBottomLeft": 0,
+            "rowImgBorderRadiusBottomRight": 0,
+            "rowImgBorderRadiusIsPixels": true,
+            "rowImgBorderRadiusTopLeft": 0,
+            "rowImgBorderRadiusTopRight": 0,
+            "rowImgBorderStyle": "solid",
+            "rowImgBorderWidth": 2,
+            "rowImgOverflowIsOn": false,
+            "rowMargin": "5",
+            "rowOverflowIsOn": true,
+            "rowText": "Times New Roman",
+            "rowTextAlign": "center",
+            "rowTextColor": "#FFFFFFFF",
+            "rowTextPaddingX": 10,
+            "rowTextPaddingY": 5,
+            "rowTextTextSize": 100,
+            "rowTitle": "Times New Roman",
+            "rowTitleAlign": "center",
+            "rowTitleColor": "#FFFFFFFF",
+            "rowTitleTextSize": 200,
+            "scoreText": "Times New Roman",
+            "scoreTextAlign": "center",
+            "scoreTextColor": "#FFFFFFFF",
+            "scoreTextSize": 75,
+            "selBgColorIsOn": true,
+            "selFilterBgColor": "#3CAAAAFF",
+            "selFilterBlur": 0,
+            "selFilterBlurIsOn": false,
+            "selFilterBright": 100,
+            "selFilterBrightIsOn": false,
+            "selFilterCont": 100,
+            "selFilterContIsOn": false,
+            "selFilterGray": 0,
+            "selFilterGrayIsOn": false,
+            "selFilterHue": 0,
+            "selFilterHueIsOn": false,
+            "selFilterInvert": 0,
+            "selFilterInvertIsOn": false,
+            "selFilterOpac": 100,
+            "selFilterOpacIsOn": false,
+            "selFilterSatur": 1,
+            "selFilterSaturIsOn": false,
+            "selFilterSepia": 0,
+            "selFilterSepiaIsOn": false
+          },
+          "template": 1,
+          "text": "",
+          "title": "Shardless Powers Options"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "c150",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "2epe"
+                },
+                {
+                  "req": "1ud6"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "",
+          "title": "Cultivation-specific upgrades"
         }
       ],
       "requireds": [
@@ -55433,7 +55647,7 @@
             }
           ],
           "template": 1,
-          "text": "You have a perfect instinct for navigating social circles and situations. Able to effortlessly blend into any situation, you are a true social chameleon. You are a Tinker 1 specializing in makeup, hygiene and grooming, hair styling, and general cosmetic products.",
+          "text": "You have a perfect instinct for navigating social circles and situations. Able to effortlessly blend into any situation, you are a true social chameleon. ",
           "title": "Thinker/Stranger"
         },
         {
@@ -55459,7 +55673,7 @@
             }
           ],
           "template": 1,
-          "text": "You have a perfect instinct for navigating social circles and situations. Able to effortlessly blend into any situation, you are a true social chameleon.",
+          "text": "You are a Tinker 1 specializing in makeup, hygiene and grooming, hair styling, and general cosmetic products.",
           "title": "Tinker/Changer"
         },
         {
@@ -76092,8 +76306,77 @@
             }
           ],
           "template": 1,
-          "text": "You are a son of the Emperor of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities, or even Vulcans perpetuality. ",
+          "text": "You are a son of the Emperor of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities.",
           "title": "Primarch"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "nb6a",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-nb6a.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-nb6a.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "qkmq",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-35"
+            }
+          ],
+          "template": 1,
+          "text": " The inevitable successor of the human race, you have been transformed into an  immortal and nigh-indestructible superhuman like the God-Emperor of Mankind (but not his equal).  With a mind equal to a supercomputer, and a body equal to a Primarch of old  that can regenerate from almost any injury however grievous due to an immortal soul, you can lead humanity to a golden age of prosperity or eternal damnation. But be warned, for all your potential and power, you are not unkillable.",
+          "title": "Perpetual (Warhammer 40k)"
         }
       ],
       "requireds": [
@@ -76846,9 +77129,10 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "e3m3",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-e3m3.webp",
-          "imageIsUrl": true,
+          "id": "qq33",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qq33.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qq33.webp",
+          "imageLink": true,
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -76863,7 +77147,96 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "0"
+            }
+          ],
+          "template": 1,
+          "text": "A Psyker is an individual of any intelligent species in the 40k universe who possesses some\ndegree of psychic ability or powers. Like many of the denizens of the grim dark universe, you can draw\nyour power from the extra dimensional realm known as the Warp to enforce upon the four-\ndimensional Materium Plane. However, unlike your peers you will gain the opportunity to choose how\nbig of a connection you desire to have with the Warp. But be warned, while a greater connection to the\nWarp will allow you to wield far greater powers than your peers, you gain greater attention from the\nmany predators of the Warp, who wouldn\u2019t hesitate to consume your soul if given a chance.",
+          "title": "Psyker (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "m811",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-m811.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-m811.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "qq33",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "c460"
+                },
+                {
+                  "req": "0gdn"
+                },
+                {
+                  "req": "e3m3"
+                },
+                {
+                  "req": "voki"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "1"
             },
             {
               "afterText": "SP",
@@ -76903,12 +77276,398 @@
               ],
               "showScore": true,
               "type": "",
-              "value": "-15"
+              "value": "-1"
             }
           ],
           "template": 1,
-          "text": "You are a Middling psyker. You gain the skills and powers of a sanctioned Gamma to Beta level psyker. This grants you access to the immaterium and the ability to shape reality with your thoughts. But be careful, because you are not alone in that dark sea.",
-          "title": "Psyker (Warhammer 40k)"
+          "text": "The designation given to the most basic type of Psyker by the denizens in the Warhammer galaxy. With\nproper training , you would be able to move small objects around using  telekinesis, pick apart minds,\nshoot small blasts of lightning and other feats of minor casting. ",
+          "title": "Epsilon-Class Psyker (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "c460",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c460.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c460.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "qq33",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "m811"
+                },
+                {
+                  "req": "0gdn"
+                },
+                {
+                  "req": "e3m3"
+                },
+                {
+                  "req": "voki"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "qkmq",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "The designation given to most sanctioned psykers in the Imperium. With proper training, a\nDelta level psyker can read the minds of all the people in a good-sized town simultaneously, while\ncrushing a tank in seconds. Should your destination be 40k, prepare to be be visited by the Asta Telepathica to be placed in chains aboard\n the many Black Ships bound to Terra for reeducation. The concern of Daemonic possession will be a very \nreal threat to your sanity the more you unwisely use your powers, so be wary of what you see in the Warp without Witch Eye.",
+          "title": "Delta-Class Psyker (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0gdn",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0gdn.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0gdn.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "qq33",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "e3m3"
+                },
+                {
+                  "req": "voki"
+                },
+                {
+                  "req": "c460"
+                },
+                {
+                  "req": "m811"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "qkmq",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            }
+          ],
+          "template": 1,
+          "text": "Standing powerful even amongst the other sanctioned psykers in the Imperium, your\ndesignation will earn you a great deal of interest and concern in the Astra Telepathica. \nGain the ability to  summon miniature warp storms to tear apart cities, seemingly bring the dead back to life, manipulate the threads of fate to\nsee and distort the future and past, and finally even seal apart dimensional rifts caused by ambitious\ndaemons from the Warp. Be warned, your searing presence in the Warp has garnered the interest of\ncountless daemons who desire  your soul. While outside of 40k, this wouldn't be a bother, but in 40k expect to spend the rest of your days ever so often fighting off\nadvances from Lesser and Greater Daemons alike, should you lose control over yourself.",
+          "title": "Gamma-Class Psyker (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "e3m3",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-e3m3.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "qq33",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "voki"
+                },
+                {
+                  "req": "0gdn"
+                },
+                {
+                  "req": "c460"
+                },
+                {
+                  "req": "m811"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "qkmq",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
+            }
+          ],
+          "template": 1,
+          "text": "The designation given to the unspoken powers of psykers that are feared even amongst the\nImperium Elite. Casually immolate entire islands with Warp-fire or bewtich every mind inhabiting it to\ncommit ritual suicide and summon a greater daemon to wreck apart entire country spanning Hive cities.\nFar surpassing the might of  many of your generation, should you jump into 40k,  expect to be forcibly recruited into\nGrey Knights to face the greater horrors in the wider galaxy or picked apart amongst one of the many\nravenous hands with the higher echelons of the Inquisitorial Orders for reeducation. While staying in 40k, you will need to\nlearn to exercise extreme mental disciple as Greater Daemons will haunt your mind,\npromising forbidden knowledge and power, but for a steep price.",
+          "title": "Beta-Class Psyker (Warhammer 40k)"
         },
         {
           "addons": [],
@@ -76941,7 +77700,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "e3m3",
+              "reqId": "qq33",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -76950,6 +77709,35 @@
               "requireds": [],
               "showRequired": true,
               "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "e3m3"
+                },
+                {
+                  "req": "0gdn"
+                },
+                {
+                  "req": "c460"
+                },
+                {
+                  "req": "m811"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
             }
           ],
           "scores": [
@@ -76961,12 +77749,51 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "35"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "qkmq",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
             }
           ],
           "template": 1,
-          "text": "You have gone beyond the level of psychic might that is thought of as humanly possible. You are at this point able to turn a man inside out with glance and demolish armies. If you throw caution to the wind you are a threat to the planet you stand on.\nThis power allows you to stay relatively sane even with your powers.",
-          "title": "Alpha Level Psyker (Warhammer 40k)"
+          "text": "A rarity even amongst even the greatest of Imperium psykers. Even if moderately trained, you\ncan turn a man inside-out with a glance, snap mountains in half with a flick of the wrist, speak a single\nword to turn an army upon itself in a frenzy of blood lust and scar the surface of continents by\nsummoning warp-storms. You are capable of destroying and enslaving entire worlds -- sometimes\nunintentionally. Your presence can be felt unconsciously on the minds of every living and unliving\nthing on the planet and star system you reside in, especially by the psychically attuned.",
+          "title": "Alpha-Class Psyker (Warhammer 40k)"
         },
         {
           "addons": [],
@@ -77133,7 +77960,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -79338,6 +80165,36 @@
           "template": 1,
           "text": "You are a Sword Singer, able to harden your soul and wield it as a spirit blade to incredible effect. Starting out you will be capable of little more than rending your way through a small bandit clan. But as you grow in skill and power you will be capable of ever more extraordinary and exotic effects. Eventually, you will boast a host of esoteric sword abilities, including the power to divide the indivisible.",
           "title": "Shehai (TES)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "v349",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-v349.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-v349.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are in possession of the Library of Heavens Path. What this means is that all of your knowledge can be organized in any ways you want and used to automatically infer any knowledge you can with what you already possess. Anything or anyone you look at, or touch, your power will catalog and write a mental book about, with all their flaws and strengths presented.\nWhen you are given the true gratitude of a student you guided, you are given a golden page in your mental library. The uses for this page are many, but a few are:\nIt can enhance your soul, It can instantly compile your knowledge on a subject into its best form and then push a step further beyond, and it can seal anything into the Library in a book.",
+          "title": "Library of Heavens Path"
         }
       ],
       "requireds": [
@@ -84555,6 +85412,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -84658,7 +85516,7 @@
                 }
               ],
               "template": "",
-              "text": "Dynamist jr trumps Gamer System and will improve it over time, but cannot be affected by Gamer System in return.",
+              "text": "Gamer System is trumped by Dynamist Jr.\nIt will get new features and improvements over time, but cannot affect Dynamist Jr. in return.",
               "title": "Dynamic System"
             }
           ],
@@ -87075,8 +87933,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "lb79",
-          "image": "",
-          "imageIsUrl": false,
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-lb79.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-lb79.webp",
+          "imageLink": true,
           "isActive": false,
           "isMultipleUseVariable": true,
           "isSelectableMultiple": false,
@@ -87124,12 +87983,51 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "50"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "qkmq",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
             }
           ],
           "template": 1,
-          "text": "You have entered the league of legends in psychic might.\nThis is the level of the Emporer of Mankind and other beings which might as well be thought of as psychic gods. You shine like a star in the immaterium and cannot escape the attention of whatever resides there.",
-          "title": "Alpha Plus Psyker"
+          "text": "A walking taking abomination of reality, your presence rejects the limits placed on the\nMaterium plane. Comparable to the God Emperor of Man during the Great Crusade of the 30th\nMillennium, your mind has the bandwidth and processing power to scan and interact with every living thing in the galaxy using your psyker powers. With enough dedicated practice,\nyou can focus your psychic might to send entire star systems screaming into the Warp",
+          "title": "Alpha Plus-Class Psyker"
         },
         {
           "addons": [],
@@ -87221,7 +88119,7 @@
                   "req": ""
                 }
               ],
-              "reqId": "jhti",
+              "reqId": "nb6a",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -87263,7 +88161,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "2",
-          "objectWidth": "col-12",
+          "objectWidth": "col-md-3",
           "requireds": [
             {
               "afterText": "",
@@ -89009,6 +89907,39 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "yqr8",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-yqr8.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-yqr8.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isMultipleUseVariable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "0",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "An Amulet containing the blood of a god, housing the souls of dead dragonborn rulers of the septim empire.",
+          "title": "Amulet of Kings (TES)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "bwja",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-bwja.webp",
           "imageIsUrl": true,
@@ -89250,6 +90181,553 @@
       },
       "template": "1",
       "title": "Objects of Power",
+      "titleText": ""
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "dgio",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-4",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "eds1",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are either the re-incarnation or somehow decended from one of Siddharta Gautama personal disciples.\nWhat this means is that you are going to cultivate very fast, and cultivate buddhist arts and paths even faster. You also naturally grow a strong body and a clear mind. Buddhas lessons are soul deep, so you find that you are naturally a good person with good morals.",
+          "title": "First Path Siddharta Bodhisattva Soul"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ht2x",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "The world is a source of great wonder, but it can also be a fantastic source of inspiration.\nThe natural world is filled with mysteries, all you need to do is comprehend them. You are\nable to take inspiration from it in order to further your skills. The unending noise of a waterfall could help progress your sound skills, the repetitive rustling of leaves in the wind could help you with a breakthrough in your sword skills. You might be surprised how the world can help you, and in what ways.",
+          "title": "Comprehension Of The World"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "k6r1",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have an extraordinary amount of luck when it comes to cultivation, where even events which should result in significant setbacks leave you better off than you began. You\u2019ve been thrown off a cliff? Not only do you survive, but you get to a hidden area at the base of the cliff before your enemies. Forced to flee through a demon forest? Your fights allow you to advance in combat acumen and body refinement, and you come across some rare spirit herbs while you\u2019re at it.",
+          "title": "Fortuitous Encounters"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0t9w",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0t9w.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0t9w.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your Meridians and the pathways in your body are formed in such a way as to not only make cultivation far easier, but allow you to form multiple golden cores. Eventually forming a stellar golden core array within yourself, making all your golden cores act as one. This would allow you to hold exponentially more Qi than any other cultivator at your level and rival cultivators several levels above your own. This also makes such things as unlocking and mastering your chakras far easier as your body can handle all types of energy far better.",
+          "title": "Grand Star Meridians Formation"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xfu4",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xfu4.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xfu4.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Passing your skills onto the next generation is the foundation of mortal society, what allows it to grow. The same thing could be said for immortal cultivators, but for the many mortals who populate the world, honing your life\u2019s craft and passing it on to your progeny is a vital part of\nensuring that their legacy continues. Be it wood carving, blacksmithing, painting or stranger.\n\nYou are a teacher and tutor without peer, capable of easily passing along your skills and\nknowledge to anyone who wants to learn from you. Beneath your gentle hand, even a moron\ncould become a master of their craft in a mere fraction of the time it would have taken an\naverage person. And if you were to teach that same average person? Their rate of growth and comprehension would have to be seen to be believed.\n\nEven the most complicated and intricate systems, concepts or philosophies can be explained to anyone regardless of their pre-existing knowledge base and if you truly know better than someone then they will realize this rather than allow pre-conceptions, arrogance or outdated thinking to blind them to your teachings.\n\nThis will also allow you to awaken the Meridians of any mortal and teach them the art of cultivation.",
+          "title": "Grand Teacher"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ijmy",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ijmy.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ijmy.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Your body is uniquely suited for Yang aligned energy and thoughts. You can advance in such techniques with ease and cultivate signifigantly faster when taking paths aligned to it.\nYou have nine suns in your body that you can cultivate and grow. Adding them to your actions, such as hitting someone with the force of a sun,or unleashing their flames and heat. you start with one small sun which grows as you abosrb Yang aligned energy.",
+          "title": "Nine sun Primordial True Yang Body"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "gy4y",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gy4y.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gy4y.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Your body is uniquely suited for Yin aligned energy and thoughts. You can advance in such techniques with ease and cultivate signifigantly faster when taking paths aligned to it.\nYou have twelve moons in your body that you can cultivate and grow. Adding them to your actions, such as hitting someone with the force of a moon, or unleashing frost and entropy. you start with one small moon which grows as you abosrb Yin aligned energy.",
+          "title": "Twelve Moon Primordial Yin Body"
+        },
+        {
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "8pxr",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "Your tower and garden combine into one internal plane with the abilities and functions of both.",
+              "title": "Utopian Garden lost in time"
+            }
+          ],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "p1xi",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have in your soul a peaceful garden in which all that grows becomes a cultivation treasure. An Apple tree planet here might give you Primordial true sun apples after it has matured. The more supernatural the plant grown here the better the cultivation treasure the plant will grow.\nThe Pocket plane is also supremely beautiful and serenely peaceful, almost Utopia like. ",
+          "title": "Garden of Avalon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8pxr",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have in your soul tower in which time flows differently. You can enter here at any time, but you always exit the place you came from when you entered. You can change how time flows in comparison to the outside universe, with at maximum time seemingly stopping in the outside world, and at minimum it being the same, as the outside world. The tower has a seemingly unlimited supply of Qi in the air, of whatever variety you wish for.",
+          "title": "Tower lost in time"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "c1zn",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "0"
+            }
+          ],
+          "template": 1,
+          "text": "You have chosen the hardest path a mortal can take.\nTrue enlightenment. Becoming one with the universe.\nThis makes cultivation significantly harder, as your power and path are now dependent on your journey to enlightenment and not the other way around. This makes it nigh impossible to advance your path if you choose to be an asshole or immoral. On the other hand your power is not almost entirely internal, meaning you can achieve great power no matter your surroundings. And if you are already a particularly moral and introspective person this could be faster than normal cultivation.\nIf you gain mastery over yourself, your desires, and your soul, There is nothing that could stop you. As you become one with existence, you would become omnipotent, omniscient, omnipresent and Omnibenevolent.\nThis is not an easy path to take, but it is a good one.",
+          "title": "True Path of Cultivation"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "choice",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "c150",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": true,
+          "type": "id"
+        }
+      ],
+      "resultGroupId": "l5",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "000000",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "000000",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#FFFFFFFF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectBorderColor": "red",
+        "objectBorderIsOn": false,
+        "objectBorderRadiusBottomLeft": 0,
+        "objectBorderRadiusBottomRight": 0,
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": 0,
+        "objectBorderRadiusTopRight": 0,
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "grey",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "000000",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "000000",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": false,
+        "reqFilterBgColor": "#FFFFFFFF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": 0,
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": 50,
+        "reqFilterOpacIsOn": true,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "red",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": 0,
+        "rowBorderRadiusBottomRight": 0,
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": 0,
+        "rowBorderRadiusTopRight": 0,
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "grey",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "red",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowMargin": 10,
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "000000",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "000000",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "000000",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#70FF7EFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Cultivation-specific upgrades",
       "titleText": ""
     },
     {
