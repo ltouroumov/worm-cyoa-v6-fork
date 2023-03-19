@@ -75994,7 +75994,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "ajk6",
-          "image": "",
+          "image": "https://cdna.artstation.com/p/assets/images/images/042/463/950/large/david-nakayama-hulk1-hypno-1200v.jpg?1634586850",
+          "imageIsUrl": true,
+          "imageLink": "https://cdna.artstation.com/p/assets/images/images/042/463/950/large/david-nakayama-hulk1-hypno-1200v.jpg?1634586850",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -76022,7 +76024,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "a3eh",
-          "image": "",
+          "image": "https://cdnb.artstation.com/p/assets/images/images/053/222/559/large/krystopher-decker-177-shehulk01.jpg?1661719109",
+          "imageIsUrl": true,
+          "imageLink": "https://cdnb.artstation.com/p/assets/images/images/053/222/559/large/krystopher-decker-177-shehulk01.jpg?1661719109",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -76079,7 +76083,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "4c1b",
-          "image": "",
+          "image": "https://cdna.artstation.com/p/assets/images/images/047/430/144/large/isaque-p-g-1h.jpg?1647561114",
+          "imageIsUrl": true,
+          "imageLink": "https://cdna.artstation.com/p/assets/images/images/047/430/144/large/isaque-p-g-1h.jpg?1647561114",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -76165,7 +76171,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "jf2p",
-          "image": "",
+          "image": "https://cdna.artstation.com/p/assets/images/images/005/535/098/large/robert-barrett-sprot-when-the-stars-fell-wide.jpg?1491778894",
+          "imageIsUrl": true,
+          "imageLink": "https://cdna.artstation.com/p/assets/images/images/005/535/098/large/robert-barrett-sprot-when-the-stars-fell-wide.jpg?1491778894",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -76223,7 +76231,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "92w3",
-          "image": "",
+          "image": "https://cdna.artstation.com/p/assets/images/images/047/123/064/large/kael-ngu-20220110-marvel-hulk-4-final-op.jpg?1646823217",
+          "imageIsUrl": true,
+          "imageLink": "https://cdna.artstation.com/p/assets/images/images/047/123/064/large/kael-ngu-20220110-marvel-hulk-4-final-op.jpg?1646823217",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -76368,65 +76378,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "qkmq",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qkmq.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "tb06",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You are a son of the Emperor of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities.",
-          "title": "Primarch"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "nb6a",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-nb6a.webp",
           "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-nb6a.webp",
@@ -76490,6 +76441,65 @@
           "template": 1,
           "text": " The inevitable successor of the human race, you have been transformed into an  immortal and nigh-indestructible superhuman like the God-Emperor of Mankind (but not his equal).  With a mind equal to a supercomputer, and a body equal to a Primarch of old  that can regenerate from almost any injury however grievous due to an immortal soul, you can lead humanity to a golden age of prosperity or eternal damnation. But be warned, for all your potential and power, you are not unkillable.",
           "title": "Perpetual (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qkmq",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qkmq.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "tb06",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You are a son of the Emperor of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities.",
+          "title": "Primarch"
         }
       ],
       "requireds": [
@@ -87857,6 +87867,124 @@
           "template": 1,
           "text": "Right. Well... I didn't expect this to happen.\nYou have achieved CHIM,\ntrue enlightenment, and transcendence.\nYou understand that the world is a dream, and you are now a lucid dreamer. This means that as long as you do not share the dream with another lucid dreamer, you alone decide what happens to the world around you, what happened, and what will happen. This is more or less complete godhood.\nIf you are still having trouble understanding this, you have basically become a bodhisattva from Buddhist mythology, one with the universe and above any gods.",
           "title": "CHIM"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "s4w9",
+          "image": "https://vignette.wikia.nocookie.net/dragonball/images/2/21/GokuS35.png/revision/latest?cb=20180905200011",
+          "imageIsUrl": true,
+          "imageLink": "https://vignette.wikia.nocookie.net/dragonball/images/2/21/GokuS35.png/revision/latest?cb=20180905200011",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1dtp"
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You have learned the Art of spirit Control from the planet Yardrat. \n\nWhile you have not mastered every technique you start off with the proficiency Goku possesses during the Android Saga. \n\nThus you now have greater Ki Control, Instant Transmission which also comes with the ability to sense other living beings. \n\nYou also have the neccesary knowledge to continue your spirit control training to the point of mastery which will allow you to gain new abilities along with making your Ki more potent in strength. ",
+          "title": "Spirit Control"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "wvaf",
+          "image": "https://i.pinimg.com/736x/5d/b4/5b/5db45b7a11d722a251c792d8da8d2de4.jpg",
+          "imageIsUrl": true,
+          "imageLink": "https://i.pinimg.com/736x/5d/b4/5b/5db45b7a11d722a251c792d8da8d2de4.jpg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "1dtp",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "30"
+            }
+          ],
+          "template": 1,
+          "text": "Through either training with the gods or Somehow learning to breaks the barriers of the limits of mortals you have obtained God Ki.\n\nCompared to Regular Ki God ki is much denser and much more easier to control you also gain an immense boost in power compared to your full power when using your regular Ki.\n\nWhile you using God Ki no one who possesses God ki or has reached the level of the Gods in power can sense your energy.    \n\nYou also become immune to the effects of Dark magics but you can mimic the effects should you have the necessary knowledge. ",
+          "title": "God Ki"
         },
         {
           "addons": [],
