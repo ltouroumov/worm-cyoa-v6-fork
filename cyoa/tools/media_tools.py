@@ -7,6 +7,7 @@ from typing import Optional, Iterator
 
 from PIL import Image
 from lenses import lens
+import requests
 from rich.progress import track
 from rich.table import Table
 
@@ -134,6 +135,15 @@ def export_image(image_info: ImageInfo, image_type: str, image_data: bytes, dest
     if dest_dir is None:
         return
 
+    file_name = export_image_name(image_info, image_type)
+
+    with open(dest_dir / file_name, mode='wb+') as fd:
+        fd.write(image_data)
+
+    return file_name
+
+
+def export_image_name(image_info, image_type):
     if image_info.object_type == "proj":
         file_name = f"{image_info.object_type}-{image_info.short_id}.{image_type}"
     elif image_info.object_type == "row":
@@ -142,10 +152,6 @@ def export_image(image_info: ImageInfo, image_type: str, image_data: bytes, dest
         file_name = f"{image_info.object_type}-{image_info.short_id}.{image_type}"
     else:
         raise Exception("Invalid image info")
-
-    with open(dest_dir / file_name, mode='wb+') as fd:
-        fd.write(image_data)
-
     return file_name
 
 
@@ -318,6 +324,50 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
         parser.add_argument('--export-path', type=Path, required=True)
         parser.add_argument('--export-url', type=str, required=True)
 
+    def extract_image(self, image_info, dest_dir, base_url, images_table):
+        header, image_data = decode_image(
+            image_info.image_data
+        )
+        image_type = header[header.rfind('/') + 1:]
+        imgage_size_kb = len(image_data) / 1024.0
+
+        # Write the image file to disk
+        image_name = export_image(image_info, image_type,
+                                  image_data=image_data,
+                                  dest_dir=dest_dir)
+
+        image_url = f"{base_url}/{image_name}"
+        update_image(self.project, image_info, image_type,
+                     image_path=image_url)
+
+        images_table.add_row(
+            image_info.object_id, image_info.name,
+            f"{imgage_size_kb: >8.2f} kB",
+            image_type,
+        )
+
+    def download_image(self, image_info: ImageInfo, dest_dir, base_url, images_table):
+        if str.startswith(image_info.image_data, base_url):
+            return
+
+        response = requests.get(image_info.image_data)
+        if response.ok:
+            image_bytes = response.content
+            image = Image.open(io.BytesIO(image_bytes))
+            image_type = str.lower(image.format)
+            image_name = export_image_name(image_info, image_type)
+            console.log(f'Export to {image_name}')
+            image_url = f"{base_url}/{image_name}"
+
+            with open(dest_dir / image_name, mode='wb+') as fd:
+                fd.write(image_bytes)
+
+            update_image(self.project, image_info, image_type,
+                         image_path=image_url)
+        else:
+            console.log(f"Failed to download {image_info.image_data}")
+            console.log(response.content)
+
     def run(self, args):
         self._load_project(args.project_file)
 
@@ -332,28 +382,11 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
         for image_info in track(project_images, total=len(project_images)):
             # Skip non-embedded images
             if image_info.image_is_url:
-                continue
-
-            header, image_data = decode_image(
-                image_info.image_data
-            )
-            image_type = header[header.rfind('/') + 1:]
-            imgage_size_kb = len(image_data) / 1024.0
-
-            # Write the image file to disk
-            image_name = export_image(image_info, image_type,
-                                      image_data=image_data,
-                                      dest_dir=dest_dir)
-
-            image_url = f"{base_url}/{image_name}"
-            update_image(self.project, image_info, image_type,
-                         image_path=image_url)
-
-            images_table.add_row(
-                image_info.object_id, image_info.name,
-                f"{imgage_size_kb: >8.2f} kB",
-                image_type,
-            )
+                self.download_image(image_info, dest_dir,
+                                    base_url, images_table)
+            else:
+                self.extract_image(image_info, dest_dir,
+                                   base_url, images_table)
 
         console.print(images_table)
         self._save_project(args.project_file)
