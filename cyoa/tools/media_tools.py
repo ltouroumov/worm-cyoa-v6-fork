@@ -356,7 +356,6 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
             image = Image.open(io.BytesIO(image_bytes))
             image_type = str.lower(image.format)
             image_name = export_image_name(image_info, image_type)
-            console.log(f'Export to {image_name}')
             image_url = f"{base_url}/{image_name}"
 
             with open(dest_dir / image_name, mode='wb+') as fd:
