@@ -79282,7 +79282,7 @@
           ],
           "template": 1,
           "text": "You have the ability to use wanded magic and the knowledge of how to build a wand that matches you perfectly.\n\nYou instinctively know the basics and find yourself learning quickly. This covers magic-adjacent disciplines like Potions, Herbology, and so on as well.\n\n(Non-canon concepts such as the use of Arithmancy and Runes, or magical cores is up to you if they exist or not. This power essentially allows you to do anything with enough research and preparation.)",
-          "title": "Wanded Magic (Harry Potter)"
+          "title": "Witchcraft & Wizardry (Harry Potter)"
         },
         {
           "activateOtherChoice": false,
@@ -79679,9 +79679,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "6t3d",
-          "image": "https://64.media.tumblr.com/89cff24ebbabbe0a1ff1dcbbf2f3e139/tumblr_ofmzuqRZ6S1td30h9o1_1280.jpg",
+          "image": "https://cdn.discordapp.com/attachments/1075197034979667978/1087705153479647322/tumblr_ofmzuqRZ6S1td30h9o1_1280.png",
           "imageIsUrl": true,
-          "imageLink": "https://64.media.tumblr.com/89cff24ebbabbe0a1ff1dcbbf2f3e139/tumblr_ofmzuqRZ6S1td30h9o1_1280.jpg",
+          "imageLink": "https://cdn.discordapp.com/attachments/1075197034979667978/1087705153479647322/tumblr_ofmzuqRZ6S1td30h9o1_1280.png",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "col-md-3",
@@ -79730,6 +79730,124 @@
           "template": 1,
           "text": "You have the inherent potential to warp time and space. The basic use of this power allows you to mimic super-speed, combat teleport, and even teleport long distances. With practice and training, one can travel the breadth of the Omniverse. Capable of going to any other dimensions and even through time itself.",
           "title": "Elder Blood (The Witcher)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "l6nj",
+          "image": "https://cdn.discordapp.com/attachments/1075197034979667978/1087702875372785764/Void_Magic.png",
+          "imageIsUrl": true,
+          "imageLink": "https://cdn.discordapp.com/attachments/1075197034979667978/1087702875372785764/Void_Magic.png",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-3",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "dy8n",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You are one of the few mages who can wield the Holy Element of the Void. You can use it to decimate armies, to create vast illusions, to open gates to other worlds, and to undo the magic of others.",
+          "title": "Void Mage (Familiar of Zero)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "dy8n",
+          "image": "https://cdn.discordapp.com/attachments/1075197034979667978/1087703026963316786/500.png",
+          "imageIsUrl": true,
+          "imageLink": "https://cdn.discordapp.com/attachments/1075197034979667978/1087703026963316786/500.png",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-3",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "l6nj",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are a Square Mage, someone who can combine four elements into one spell. You are capable of wielding all of the four standard elements, such as fire, wind, water and earth.",
+          "title": "Square Mage (Familiar of Zero)"
         }
       ],
       "requireds": [
