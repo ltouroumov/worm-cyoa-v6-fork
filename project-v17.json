@@ -78261,6 +78261,94 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "2np0",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-2np0.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-2np0.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have tapped into the power of the collective Ork unconscious, you are able to apply effects such as making red objects go faster and gaining that the properties of a tank by chanting: \"I'm a tank\", you need to truly believe in these effects for it to work.\n\nThis comes Optionally with ork mentality and physiology, either or both.",
+          "title": " WAAAGH Energy (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0msq",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0msq.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0msq.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "2np0",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "By focusing WAAAGH energy while creating tech you are able to create literally impossible technology, guns that don't use bullets, cars without engines, and even hunks of scraps that move as if they were a giant mech, you must believe in the effect for it to take effect. This technology is inherently unreplicatable without WAAAGH energy.",
+          "title": "Ork Mekboy (Warhammer 40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "oeca",
           "image": "https://cdnb.artstation.com/p/assets/images/images/002/508/837/large/sylvain-sarrailh-streamlinesunsetartstation3.jpg?1462534855",
           "imageIsUrl": true,
@@ -89105,6 +89193,68 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "8mxy",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8mxy.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "col-md-3",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "w0df",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "A near-indestructible gauntlet, capable of channeling the power of all the Infinity Stones at once. This Gauntlet will protect you from the backlash of using the Infinity Stones, and is able to contain the energy without being destroyed.",
+          "title": "Infinity Gauntlet (Marvel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "ra0c",
           "image": "",
           "isActive": false,
@@ -89816,6 +89966,611 @@
           "template": 1,
           "text": "The Celestial Inventory comes with a dimensional pocket where you can store and retrieve objects, liquids, gases, or any other tangible thing. The pocket space has unlimited capacity and contained entities do not come into contact.\n\nYou can move an object of any size smaller than 100m<sup>3</sup> instantly, larger objects will take 1s per additional 100m<sup>3</sup>. You can only move objects as a whole, you cannot only store part of a building for example. Liquids and gases move at a rate of 100m<sup>3</sup> per second. You can move arbitrary volumes of liquids and gasses.\n\nThe pocket dimension has its own search and favorites system.",
           "title": "Dimensional Pocket (Celestial Inventory)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0j9b",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": true,
+          "isPrivateStyling": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-12",
+          "requireds": [],
+          "scores": [],
+          "styling": {
+            "addonText": "Times New Roman",
+            "addonTextAlign": "center",
+            "addonTextColor": "#FFFFFFFF",
+            "addonTextTextSize": 100,
+            "addonTitle": "Times New Roman",
+            "addonTitleAlign": "center",
+            "addonTitleColor": "#FFFFFFFF",
+            "addonTitleTextSize": 200,
+            "backPackWidth": 1200,
+            "backgroundColor": "#000000FF",
+            "backgroundImage": "",
+            "barBackgroundColor": "#FFFFFFFF",
+            "barMargin": 0,
+            "barPadding": 0,
+            "barTextColor": "#000000",
+            "barTextFont": "Times New Roman",
+            "barTextMargin": 0,
+            "barTextPadding": 17,
+            "barTextSize": 15,
+            "objectBackgroundImage": "",
+            "objectBgColor": "#000000FF",
+            "objectBgColorIsOn": true,
+            "objectBorderColor": "#FDFDFDFF",
+            "objectBorderIsOn": false,
+            "objectBorderRadiusBottomLeft": "5",
+            "objectBorderRadiusBottomRight": "5",
+            "objectBorderRadiusIsPixels": true,
+            "objectBorderRadiusTopLeft": "5",
+            "objectBorderRadiusTopRight": "5",
+            "objectBorderStyle": "solid",
+            "objectBorderWidth": 2,
+            "objectDropShadowBlur": 0,
+            "objectDropShadowColor": "#FFEF00FF",
+            "objectDropShadowH": 0,
+            "objectDropShadowIsOn": false,
+            "objectDropShadowSpread": 0,
+            "objectDropShadowV": 0,
+            "objectHeight": true,
+            "objectImageMarginBottom": 0,
+            "objectImageMarginTop": 0,
+            "objectImageWidth": 100,
+            "objectImgBorderColor": "red",
+            "objectImgBorderIsOn": false,
+            "objectImgBorderRadiusBottomLeft": 0,
+            "objectImgBorderRadiusBottomRight": 0,
+            "objectImgBorderRadiusIsPixels": true,
+            "objectImgBorderRadiusTopLeft": 0,
+            "objectImgBorderRadiusTopRight": 0,
+            "objectImgBorderStyle": "solid",
+            "objectImgBorderWidth": 2,
+            "objectMargin": 10,
+            "objectOverflowIsOn": true,
+            "objectText": "Times New Roman",
+            "objectTextAlign": "center",
+            "objectTextColor": "#FFFFFFFF",
+            "objectTextPadding": 10,
+            "objectTextTextSize": 100,
+            "objectTitle": "Times New Roman",
+            "objectTitleAlign": "center",
+            "objectTitleColor": "#FFFFFFFF",
+            "objectTitleTextSize": 200,
+            "reqBgColorIsOn": true,
+            "reqFilterBgColor": "#6B6464FF",
+            "reqFilterBlur": 0,
+            "reqFilterBlurIsOn": false,
+            "reqFilterBright": 100,
+            "reqFilterBrightIsOn": false,
+            "reqFilterCont": 100,
+            "reqFilterContIsOn": false,
+            "reqFilterGray": 0,
+            "reqFilterGrayIsOn": false,
+            "reqFilterHue": 0,
+            "reqFilterHueIsOn": false,
+            "reqFilterInvert": "50",
+            "reqFilterInvertIsOn": false,
+            "reqFilterOpac": "25",
+            "reqFilterOpacIsOn": false,
+            "reqFilterSatur": 1,
+            "reqFilterSaturIsOn": false,
+            "reqFilterSepia": 0,
+            "reqFilterSepiaIsOn": false,
+            "reqFilterVisibleIsOn": false,
+            "rowBackgroundImage": "",
+            "rowBgColor": "#000000FF",
+            "rowBgColorIsOn": true,
+            "rowBodyMarginBottom": 25,
+            "rowBodyMarginSides": 1,
+            "rowBodyMarginTop": 25,
+            "rowBorderColor": "#FFEEDDFF",
+            "rowBorderIsOn": false,
+            "rowBorderRadiusBottomLeft": "0",
+            "rowBorderRadiusBottomRight": "0",
+            "rowBorderRadiusIsPixels": true,
+            "rowBorderRadiusTopLeft": "0",
+            "rowBorderRadiusTopRight": "0",
+            "rowBorderStyle": "solid",
+            "rowBorderWidth": 2,
+            "rowButtonXPadding": 0,
+            "rowButtonYPadding": 0,
+            "rowDesignIsAdvanced": false,
+            "rowDropShadowBlur": 0,
+            "rowDropShadowColor": "#FFFFEEFF",
+            "rowDropShadowH": 0,
+            "rowDropShadowIsOn": false,
+            "rowDropShadowSpread": 0,
+            "rowDropShadowV": 0,
+            "rowImageMarginTop": 0,
+            "rowImageWidth": 100,
+            "rowImgBorderColor": "#FFEEDDFF",
+            "rowImgBorderIsOn": false,
+            "rowImgBorderRadiusBottomLeft": 0,
+            "rowImgBorderRadiusBottomRight": 0,
+            "rowImgBorderRadiusIsPixels": true,
+            "rowImgBorderRadiusTopLeft": 0,
+            "rowImgBorderRadiusTopRight": 0,
+            "rowImgBorderStyle": "solid",
+            "rowImgBorderWidth": 2,
+            "rowImgOverflowIsOn": false,
+            "rowMargin": "5",
+            "rowOverflowIsOn": true,
+            "rowText": "Times New Roman",
+            "rowTextAlign": "center",
+            "rowTextColor": "#FFFFFFFF",
+            "rowTextPaddingX": 10,
+            "rowTextPaddingY": 5,
+            "rowTextTextSize": 100,
+            "rowTitle": "Times New Roman",
+            "rowTitleAlign": "center",
+            "rowTitleColor": "#FFFFFFFF",
+            "rowTitleTextSize": 200,
+            "scoreText": "Times New Roman",
+            "scoreTextAlign": "center",
+            "scoreTextColor": "#FFFFFFFF",
+            "scoreTextSize": 75,
+            "selBgColorIsOn": true,
+            "selFilterBgColor": "#3CAAAAFF",
+            "selFilterBlur": 0,
+            "selFilterBlurIsOn": false,
+            "selFilterBright": 100,
+            "selFilterBrightIsOn": false,
+            "selFilterCont": 100,
+            "selFilterContIsOn": false,
+            "selFilterGray": 0,
+            "selFilterGrayIsOn": false,
+            "selFilterHue": 0,
+            "selFilterHueIsOn": false,
+            "selFilterInvert": 0,
+            "selFilterInvertIsOn": false,
+            "selFilterOpac": 100,
+            "selFilterOpacIsOn": false,
+            "selFilterSatur": 1,
+            "selFilterSaturIsOn": false,
+            "selFilterSepia": 0,
+            "selFilterSepiaIsOn": false
+          },
+          "template": 1,
+          "text": "",
+          "title": "Keystone/foundation Upgrades"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fvwi",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "xa04"
+                },
+                {
+                  "req": "nj93"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You can easily walk through entire swarms and multitudes of ravenous monsters and powerful superhumans and not even notice their attacks upon you.\nYou\u2019ll be able to get and then keep, until you allow them to focus elsewhere, the attention of any foe you engage with regardless of whether or not attacking you would be a wise course of action for them,\nand your equipment is now impossible to break or damage by any method as long as you are\nholding or wearing it.\nYour bodyguard abilities can now be applied to a massive number of people, and will intercept up to 90% of the damage that would normally have gone to them.\nYour defensive abilities apply in full against the damage sent your way, as normal, meaning you\ncould potentially tank for entire raid groups all on your own. \nNaturally, no matter how powerful you are as a defense-focused warrior you\u2019re insanely good at actual fighting as well, though not quite to the same extent as the Frankish warrior or Norse berserker. This power synergizes tremendously well with the base warrior powers as they allow the warrior to drag out battles near indefinitely, allowing them to benefit from regeneration, tirelessness, and slowly-increasing strength as the battle grows longer until eventually they\u2019ll be able to batter down just about any opposition.\nTo defeat such a warrior would require quick and overwhelming force, for in the long battle (which\nthey would be uniquely suited to engaging in) they are a nearly insurmountable force.",
+          "title": "Son of the 300 (Greek Hoplite)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qluk",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qluk.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qluk.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "xa04"
+                },
+                {
+                  "req": "nj93"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "No man is an island and a chain is only as strong as its weakest link, none embody this ideal more you do.\nYou know more than anyone the importance of a powerful army and your power reflects that, you are a general, a warrior and leader rolled in one\nyou know the best strategies to take in war and can make plans that makes those of your opponents look stupid by comparison.\nYour charisma can only be described as a thing of legend. Able to make men fight for you to their very last breath as thought you were their father. Or able to make men fear you as though you were the devil himself.\nYou can turn even the most spineless of weaklings into a hardened bad ass who can fight anything the world throws at them, and that is only the beginning of your army as they to grow in strength both in physical, and mental might, the more they fight for you.\nIn less time than you think, you will have an army of bad ass superhuman men and women ready to fight and die by your word,\nplease try and avoid the temptation to take over the world.",
+          "title": "Roman Consul"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "z9nw",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-z9nw.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-z9nw.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "qluk",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "War is not but a matter of logistics and moral, and you are the master of both. \n\nYou would be able to gather a ludicrous amount of resources from a barren desert, and then send those supplies through a bandit infested waste without being molested, and then turn around and convince your mutining troops to march to certain doom for you.\n\nStrategy and Tactics are child's play, you are able to correctly predict and counter any move your opponent makes. Even the greatest of commanders and generals would fall before you.",
+          "title": "Heir of Alexander/Caesar"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "x13x",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x13x.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x13x.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "xa04"
+                },
+                {
+                  "req": "nj93"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Rage, if there is one word to describe you, it would be pure unrelenting rage, you are fury distilled into a person but woe to the fool who thinks you a mindless brute as your fury could never blind you or cloud your judgment if you don't want it to.\n\nYour skills are virtually unmatched when it comes to defeating (but not necessarily killing) others.\nYou could casually defeat entire armies of men and beasts without even batting an eyelash, and even beings of legendary martial prowess will find themselves green with envy at your skill at cutting down people dumb enough to draw your fury. \n\nAnother thing that makes you so scary is that for you, every kill you make in a single battle only warms you up and enables you to kill faster, and better. Lesser beings might tire from tearing apart hundreds of men apart on your own; for you, it shall simply ensure you can kill the next hundred in half the time.\n\nThough you might show the cosmetic effects of exertion, such as heavy breathing and profuse sweating, you won\u2019t slow down or be truly exhausted at all. You can even potentially slay any\nof the endbringers, as long as you inflict enough carnage beforehand to guarantee they\u2019d collapse under a flurry of incarnate violence, every warrior power is an army by itself but you are the purest expression of this. \nYour weapons will fail you long, long before your body does.\nA Norse berserker benefits tremendously from also the Son of the 300 power, as their increased knowledge and skill in defensive abilities serves only to heighten their knowledge at exploiting the defenses of others.",
+          "title": "Norse berserker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pjqa",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pjqa.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pjqa.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "xa04"
+                },
+                {
+                  "req": "nj93"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Noble knight, with sword in hand,\nRode forth to fight for his dear land.\nWith armor shining, he spurred his steed,\nTo battle the enemy with great speed.\n\nYour heart is pure, your will is unbreakable and your sense of justice is unmatched, let the innocent rejoice for you are their defender.\nYou are no berserker who revels in blood baths nor are you an unmoveable stone wall but you are is versatile. \n\nYou are not as good in the song of violence as norse berserker nor are you as unbreakable as a greek hoplite, but you are good enough in both aspects capable of taking it as well as dishing it out but your true power is your mighty stead, your stead can be anything as long as it is mobile, from a powerful warhorse to a Gundam, you are unmatched as a rider as your stead scales with you, a horse could turn into a divine beast and a car could evolve into battleship.\n\nYou are also increadibly adept in using different armors and weapons. Able to use maces, swords, spears, lances, and more with equal skill, and if your skill improves with one form of weaponry or armory, it likewise improves with all of them.",
+          "title": "Paladin of Charlemagne"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "uspc",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-uspc.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-uspc.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "xa04"
+                },
+                {
+                  "req": "nj93"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Some laugh at the archer, calling them cowards who fear mono e mono combat, you laugh at their corpse.\n\nYou might as well be a god of the art of gun fu, you can clip the wing of a butterfly fifteen mile away and you have turned the way of archery into a martial art so perfect and unreal, it makes even the greatest archers green with envy of what you have done. You are a master at every range, though you may not be as good in melee as with gun play, but even then you can hold your own with best of them.",
+          "title": "Archer of Albion"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "tdmj",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-tdmj.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-tdmj.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "xa04"
+                },
+                {
+                  "req": "nj93"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "As a martial artist you are utterly unmatched in unarmed combat, with dexterity, agility, strength and endurance unmatched, to make up for any lack of weaponry.\nYou have a supreme calm and focus, able to take in all details you can see an act instantly upon them. You know several supernatural martial arts which boggles the mind of lesser warriors, and are able to execute them in battle fluidly and precisely.\n\nYou seek to hone your body, mind, and spirit to it's limit, as such you find you gain far more from your training and gain it faster as well.",
+          "title": "Shaolin Monk"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "356u",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-356u.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-356u.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "xa04"
+                },
+                {
+                  "req": "nj93"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "Somehow you have found yourself in possession of a bundle of raw Universal potential, this mysterious and shifting energy has bound itself to the concept of your martial prowess. This strange and fortuitous marriage of potential allows you to will armaments into being as you need them. Weapons, armor, projectiles, can be flash forged in the heat of battle, but will fade when not in use. \nAs you grow in your craft of war, these armaments will grow alongside you. Becoming stronger, swifter, sharper, and more resilient. Eventually even providing exotic effects such as physical enhancement, force multiplication or deflection, elemental effects, etc.",
+          "title": "Kaleidoscopic Armoury"
         }
       ],
       "requireds": [
@@ -101332,6 +102087,34 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "r6re",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-80"
+            }
+          ],
+          "template": 1,
+          "text": "Origin of Powers: The Immaterium, Biology, Souls, Emotions, Thoughts.\n\nMajor Threats: The Imperium of mankind, Eldar, Dark Eldar, Tau, Chaos, Orks, Necrons, Tyranids, Adeptus Mechanicus\n\nMajor Powers: The Imperium of mankind, Eldar, Dark Eldar, Tau, Chaos, Orks, Necrons, Tyranids, Adeptus Mechanicus\n\nNote: Anyone with a soul entering this universe will technically be a psyker. However it is of such little power as to be irrelivent. Also note that Perks such as blindspot and mental barrier do somewhat protect against chaos. But if a deamon gets your soul no amount of perks are gonna help you.\n\nYou can choose if you want to go to the galaxy in the 40th millenium or the 30th.\n\nIf you are a primarch and choose to start in 30k you can choose to be a lost primarch and have the emperor come to look for you and give you a legion of space marines if you serve under him.",
+          "title": "Warhammer 40k/30k"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "zqe9",
           "image": "",
           "isActive": false,
@@ -105201,6 +105984,231 @@
           "template": 1,
           "text": "You start in Metropolis.\nThis place is the polar opposite of Gotham, the city of tomorrow is bustling with life, opportunity, and safety, with small-level crime being practically non-existent due to the fact that all you need to do is yell for help and Superman arrives to help you out.",
           "title": "Metropolis"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ux5c",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "r6re",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
+            }
+          ],
+          "template": 1,
+          "text": "A random planet inhabited by humans in some form, this could be a paradise world inhabited by humans with knowledge of technology to a feudal world to a death world were humanity is barely clinging to life.",
+          "title": "Random Inhabited Planet (40k)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hkqn",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "r6re",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-40"
+            }
+          ],
+          "template": 1,
+          "text": "Alright, you asked for this.\nThis is a death world, extremely unsuited for human habitation, but still colonized for god knows what reason. Perhaps the planets fauna and flora have evolved to be super predators or perhaps the world is enitrely frozen or there is an active and warring population of chaos or orks. Either way this planet is a hell on earth.",
+          "title": "Death World"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "29dk",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "r6re",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "A very pleasant happy world with plenty of resources and likely a high level of technology. There are not any major wars or disasters and people live their lives generally in peace and happiness. Although given the universe this isnt likely to last.",
+          "title": "Paradise world"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "idvq",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "r6re",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            }
+          ],
+          "template": 1,
+          "text": "A world much like our own in less technologically advanced times.\nA world without any advanced technology beyond maybe a few poorly understood 'relics'.",
+          "title": "Feudal World"
         },
         {
           "addons": [],
