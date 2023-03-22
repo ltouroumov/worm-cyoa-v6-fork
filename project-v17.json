@@ -1420,7 +1420,7 @@
       "buttonText": "Click",
       "buttonType": true,
       "choicesShareTemplate": true,
-      "currentChoices": -1,
+      "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
       "id": "okyz",
@@ -1575,6 +1575,166 @@
       },
       "template": "1",
       "title": "Doll Powers",
+      "titleText": ""
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "choicesShareTemplate": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "deselectChoices": false,
+      "id": "i5zf",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": true,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": true,
+      "objectWidth": "col-md-3",
+      "objects": [],
+      "requireds": [
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "2epe"
+            },
+            {
+              "req": "1ud6"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
+        }
+      ],
+      "resultGroupId": "gt",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "000000",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "000000",
+        "addonTitleTextSize": 200,
+        "backgroundColor": "#FFFFFFFF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "grey",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageBorderRadius": 0,
+        "objectImageWidth": 100,
+        "objectMargin": 10,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "000000",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "000000",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": false,
+        "reqFilterBgColor": "#FFFFFFFF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": 0,
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": 50,
+        "reqFilterOpacIsOn": true,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 1,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "grey",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageBorderRadius": 0,
+        "rowImageWidth": 100,
+        "rowMargin": 0,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "000000",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 1,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "000000",
+        "rowTitleTextSize": 200,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#70FF7EFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Cultivation-specific upgrades",
       "titleText": ""
     },
     {
@@ -2084,6 +2244,11 @@
       "elements": [],
       "id": "5i",
       "name": "Companions"
+    },
+    {
+      "elements": [],
+      "id": "gt",
+      "name": "Cultivation-specific upgrades"
     }
   ],
   "importedChoicesIsOpen": true,
@@ -54940,7 +55105,7 @@
             }
           ],
           "template": 1,
-          "text": "You can pick powers from the Tier 1, Tier 2, and Tier 3 sections. Since these powers are not tied to a Shard, they can be grown through use and creative exploration.",
+          "text": "You can pick powers from the Tier 1, Tier 2, and Tier 3 sections.",
           "title": "Essence of Shard (Noble)"
         },
         {
@@ -55037,7 +55202,7 @@
             }
           ],
           "template": 1,
-          "text": "You can pick powers from the Tier 1, and Tier 2 sections. Since these powers are not tied to a Shard, they can be grown through use and creative exploration.",
+          "text": "You can pick powers from the Tier 1, and Tier 2 sections.",
           "title": "Essence of Shard (Vital)"
         },
         {
@@ -55124,7 +55289,7 @@
             }
           ],
           "template": 1,
-          "text": "You can pick powers from the Tier 1 section. Since these powers are not tied to a Shard, they can be grown through use and creative exploration.",
+          "text": "You can pick powers from the Tier 1 section.",
           "title": "Essence of Shard (Normal)"
         }
       ],
@@ -55188,7 +55353,7 @@
           "type": "id"
         }
       ],
-      "resultGroupId": "",
+      "resultGroupId": "pp",
       "rowJustify": "center",
       "styling": {
         "addonText": "Times New Roman",
@@ -55346,7 +55511,7 @@
       },
       "template": "1",
       "title": "Shard Essences",
-      "titleText": ""
+      "titleText": "Since these powers are not tied to a Shard, they can be grown through use and creative exploration. They also count as Negentropic."
     },
     {
       "allowedChoices": 0,
@@ -66206,6 +66371,7 @@
       "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
+      "deselectChoices": false,
       "id": "o58j",
       "image": "",
       "isButtonRow": false,
@@ -76498,7 +76664,7 @@
             }
           ],
           "template": 1,
-          "text": "You are a son of the Emperor of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities.",
+          "text": "You are a son of the Emperor of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\n\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities.",
           "title": "Primarch"
         }
       ],
@@ -77274,7 +77440,7 @@
             }
           ],
           "template": 1,
-          "text": "A Psyker is an individual of any intelligent species in the 40k universe who possesses some\ndegree of psychic ability or powers. Like many of the denizens of the grim dark universe, you can draw\nyour power from the extra dimensional realm known as the Warp to enforce upon the four-\ndimensional Materium Plane. However, unlike your peers you will gain the opportunity to choose how\nbig of a connection you desire to have with the Warp. But be warned, while a greater connection to the\nWarp will allow you to wield far greater powers than your peers, you gain greater attention from the\nmany predators of the Warp, who wouldn\u2019t hesitate to consume your soul if given a chance.",
+          "text": "A Psyker is an individual of any intelligent species in the 40k universe who possesses some degree of psychic ability or powers. Like many of the denizens of the grim dark universe, you can draw your power from the extra dimensional realm known as the Warp to enforce upon the four- dimensional Materium Plane. \nHowever, unlike your peers you will gain the opportunity to choose how big of a connection you desire to have with the Warp. But be warned, while a greater connection to the Warp will allow you to wield far greater powers than your peers, you gain greater attention from the many predators of the Warp, who wouldn\u2019t hesitate to consume your soul if given a chance.",
           "title": "Psyker (Warhammer 40k)"
         },
         {
@@ -77403,7 +77569,7 @@
             }
           ],
           "template": 1,
-          "text": "The designation given to the most basic type of Psyker by the denizens in the Warhammer galaxy. With\nproper training , you would be able to move small objects around using  telekinesis, pick apart minds,\nshoot small blasts of lightning and other feats of minor casting. ",
+          "text": "The designation given to the most basic type of Psyker by the denizens in the Warhammer galaxy. With proper training, you would be able to move small objects around using telekinesis, pick apart minds, shoot small blasts of lightning and other feats of minor casting. ",
           "title": "Epsilon-Class Psyker (Warhammer 40k)"
         },
         {
@@ -77532,7 +77698,7 @@
             }
           ],
           "template": 1,
-          "text": "The designation given to most sanctioned psykers in the Imperium. With proper training, a\nDelta level psyker can read the minds of all the people in a good-sized town simultaneously, while\ncrushing a tank in seconds. Should your destination be 40k, prepare to be be visited by the Asta Telepathica to be placed in chains aboard\n the many Black Ships bound to Terra for reeducation. The concern of Daemonic possession will be a very \nreal threat to your sanity the more you unwisely use your powers, so be wary of what you see in the Warp without Witch Eye.",
+          "text": "The designation given to most sanctioned psykers in the Imperium. With proper training, a Delta level psyker can read the minds of all the people in a good-sized town simultaneously, while crushing a tank in seconds. Should your destination be 40k, prepare to be be visited by the Asta Telepathica to be placed in chains aboard the many Black Ships bound to Terra for reeducation. The concern of Daemonic possession will be a very real threat to your sanity the more you unwisely use your powers, so be wary of what you see in the Warp without Witch Eye.",
           "title": "Delta-Class Psyker (Warhammer 40k)"
         },
         {
@@ -77661,7 +77827,7 @@
             }
           ],
           "template": 1,
-          "text": "Standing powerful even amongst the other sanctioned psykers in the Imperium, your\ndesignation will earn you a great deal of interest and concern in the Astra Telepathica. \nGain the ability to  summon miniature warp storms to tear apart cities, seemingly bring the dead back to life, manipulate the threads of fate to\nsee and distort the future and past, and finally even seal apart dimensional rifts caused by ambitious\ndaemons from the Warp. Be warned, your searing presence in the Warp has garnered the interest of\ncountless daemons who desire  your soul. While outside of 40k, this wouldn't be a bother, but in 40k expect to spend the rest of your days ever so often fighting off\nadvances from Lesser and Greater Daemons alike, should you lose control over yourself.",
+          "text": "Standing powerful even amongst the other sanctioned psykers in the Imperium, your designation will earn you a great deal of interest and concern in the Astra Telepathica. Gain the ability to  summon miniature warp storms to tear apart cities, seemingly bring the dead back to life, manipulate the threads of fate to see and distort the future and past, and finally even seal apart dimensional rifts caused by ambitious daemons from the Warp. Be warned, your searing presence in the Warp has garnered the interest of countless daemons who desire your soul. While outside of 40k, this wouldn't be a bother, but in 40k expect to spend the rest of your days ever so often fighting off advances from Lesser and Greater Daemons alike, should you lose control over yourself.",
           "title": "Gamma-Class Psyker (Warhammer 40k)"
         },
         {
@@ -77789,7 +77955,7 @@
             }
           ],
           "template": 1,
-          "text": "The designation given to the unspoken powers of psykers that are feared even amongst the\nImperium Elite. Casually immolate entire islands with Warp-fire or bewtich every mind inhabiting it to\ncommit ritual suicide and summon a greater daemon to wreck apart entire country spanning Hive cities.\nFar surpassing the might of  many of your generation, should you jump into 40k,  expect to be forcibly recruited into\nGrey Knights to face the greater horrors in the wider galaxy or picked apart amongst one of the many\nravenous hands with the higher echelons of the Inquisitorial Orders for reeducation. While staying in 40k, you will need to\nlearn to exercise extreme mental disciple as Greater Daemons will haunt your mind,\npromising forbidden knowledge and power, but for a steep price.",
+          "text": "The designation given to the unspoken powers of psykers that are feared even amongst the Imperium Elite. Casually immolate entire islands with Warp-fire or bewtich every mind inhabiting it to commit ritual suicide and summon a greater daemon to wreck apart entire country spanning Hive cities. Far surpassing the might of  many of your generation, should you jump into 40k,  expect to be forcibly recruited into Grey Knights to face the greater horrors in the wider galaxy or picked apart amongst one of the many ravenous hands with the higher echelons of the Inquisitorial Orders for reeducation. While staying in 40k, you will need to learn to exercise extreme mental disciple as Greater Daemons will haunt your mind, promising forbidden knowledge and power, but for a steep price.",
           "title": "Beta-Class Psyker (Warhammer 40k)"
         },
         {
@@ -77915,7 +78081,7 @@
             }
           ],
           "template": 1,
-          "text": "A rarity even amongst even the greatest of Imperium psykers. Even if moderately trained, you\ncan turn a man inside-out with a glance, snap mountains in half with a flick of the wrist, speak a single\nword to turn an army upon itself in a frenzy of blood lust and scar the surface of continents by\nsummoning warp-storms. You are capable of destroying and enslaving entire worlds -- sometimes\nunintentionally. Your presence can be felt unconsciously on the minds of every living and unliving\nthing on the planet and star system you reside in, especially by the psychically attuned.",
+          "text": "A rarity even amongst even the greatest of Imperium psykers. Even if moderately trained, you can turn a man inside-out with a glance, snap mountains in half with a flick of the wrist, speak a single word to turn an army upon itself in a frenzy of blood lust and scar the surface of continents by summoning warp-storms. You are capable of destroying and enslaving entire worlds -- sometimes unintentionally. Your presence can be felt unconsciously on the minds of every living and unliving\nthing on the planet and star system you reside in, especially by the psychically attuned.",
           "title": "Alpha-Class Psyker (Warhammer 40k)"
         },
         {
@@ -78029,7 +78195,7 @@
             }
           ],
           "template": 1,
-          "text": "You gain the combined knowledge of the necron, infinite empire, at their peak. This is an immense understanding of the universe and its rules, including, but not nearly limited to such things as, inertialess drives, time manipulation, complete matter manipulation, space manipulation. And much, much more.",
+          "text": "You gain the combined knowledge of the necron, infinite empire, at their peak. This is an immense understanding of the universe and its rules, including, but not nearly limited to such things as, inertialess drives, time manipulation, complete matter manipulation, space manipulation, and much, much more.",
           "title": "Cryptek (Warhammer 40k)"
         },
         {
@@ -78087,7 +78253,7 @@
             }
           ],
           "template": 1,
-          "text": "You gain the combined knowledge of the Eldar at the peak of their empire. This is an immense understanding of the immaterium and its ways, as well as how to build both psychic and material machines to manipulate it. This includes knowledge on how to create psychic gods and manipulation of the soul in order to reincarnate yourself in a chosen body, in effect becoming immortal. And much, much more.",
+          "text": "You gain the combined knowledge of the Eldar at the peak of their empire. This is an immense understanding of the immaterium and its ways, as well as how to build both psychic and material machines to manipulate it. This includes knowledge on how to create psychic gods and manipulation of the soul in order to reincarnate yourself in a chosen body, effectively becoming immortal, and much, much more.",
           "title": "Asuryani (Warhammer 40k)"
         },
         {
@@ -87503,7 +87669,7 @@
           "type": "id"
         }
       ],
-      "resultGroupId": "l5",
+      "resultGroupId": "gt",
       "styling": {
         "addonText": "Times New Roman",
         "addonTextAlign": "center",
@@ -88814,7 +88980,7 @@
             }
           ],
           "template": 1,
-          "text": "A walking taking abomination of reality, your presence rejects the limits placed on the\nMaterium plane. Comparable to the God Emperor of Man during the Great Crusade of the 30th\nMillennium, your mind has the bandwidth and processing power to scan and interact with every living thing in the galaxy using your psyker powers. With enough dedicated practice,\nyou can focus your psychic might to send entire star systems screaming into the Warp",
+          "text": "A walking taking abomination of reality, your presence rejects the limits placed on the Materium plane. Comparable to the God Emperor of Man during the Great Crusade of the 30th Millennium, your mind has the bandwidth and processing power to scan and interact with every living thing in the galaxy using your psyker powers. With enough dedicated practice, you can focus your psychic might to send entire star systems screaming into the Warp.",
           "title": "Alpha Plus-Class Psyker"
         },
         {
@@ -88933,68 +89099,6 @@
           "template": 1,
           "text": "You become one with the Emperor of Mankind. Gaining his skills, training, powers, body, knowledge, and more.\nYou are the new man. Ready to lead mankind to glory, or ruin.\nIt is up to you whether this is a soul fusion, or mearly you gaining his powers, knowledge, and gifts.",
           "title": "The Emperor of Mankind"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "8mxy",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8mxy.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "2",
-          "objectWidth": "col-md-3",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "w0df",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "A near-indestructible gauntlet, capable of channeling the power of all the Infinity Stones at once. This Gauntlet will protect you from the backlash of using the Infinity Stones, and is able to contain the energy without being destroyed.",
-          "title": "Infinity Gauntlet (Marvel)"
         },
         {
           "addons": [],
@@ -89939,7 +90043,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -89967,7 +90071,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -90025,7 +90129,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -90053,7 +90157,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -90659,6 +90763,7 @@
           "title": "Gungnir (Marvel)"
         },
         {
+          "activateOtherChoice": false,
           "addons": [],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
@@ -90689,6 +90794,38 @@
           "template": 1,
           "text": "Time, Power, Space, Mind, Reality & Soul. The Infinity Stones each control an essential aspect of existence, and when combined can be capable of feats on a universal scale. Whichever Stone you choose to purchase, it\u2019s potential is, by definition, limitless, although you'll need an Infinity Gauntlet should you wish to wield more than one. \nThe stones will continue to function even outside the universe you drop in, albeit severely weakened.",
           "title": "Infinity Stone (Marvel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "x87u",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8mxy.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "A near-indestructible gauntlet, capable of channeling the power of all the Infinity Stones at once. This Gauntlet will protect you from the backlash of using the Infinity Stones, and is able to contain the energy without being destroyed.",
+          "title": "Infinity Gauntlet (Marvel)"
         },
         {
           "addons": [],
