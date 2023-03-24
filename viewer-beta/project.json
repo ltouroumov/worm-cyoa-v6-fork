@@ -80690,6 +80690,36 @@
           "template": 1,
           "text": "You are in possession of the Library of Heavens Path. What this means is that all of your knowledge can be organized in any ways you want and used to automatically infer any knowledge you can with what you already possess. Anything or anyone you look at, or touch, your power will catalog and write a mental book about, with all their flaws and strengths presented.\nWhen you are given the true gratitude of a student you guided, you are given a golden page in your mental library. The uses for this page are many, but a few are:\nIt can enhance your soul, It can instantly compile your knowledge on a subject into its best form and then push a step further beyond, and it can seal anything into the Library in a book.",
           "title": "Library of Heavens Path"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "j9en",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-j9en.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-j9en.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You. Have. Risen! Through great internal struggle you have surpassed the chains of fate. The slings and arrows of misfortune no longer find purchase upon your being, leaving your fortunes untarnished and unfettered. To any that observe you it will appear as if you are walking on the very clouds themselves, impossibly and  preternaturally lucky in all of your actions and pursuits.",
+          "title": "Fate Breaker"
         }
       ],
       "requireds": [
@@ -85975,6 +86005,35 @@
           "title": "Young Planeswalker"
         },
         {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xsdn",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xsdn.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xsdn.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You have the potential to create anything you can imagine.\nYour skills at crafting with your hands have no limit and you can defy reason and rationality to create stunning works of art the likes of which have never before been seen.\nYour skill at blacksmithing and other such arts of creation is at the peak of mortal skill and you have no limit on how high it can go in the future. You gain skill at a tremendous rate and with each work you create you seemingly grow to be able to surpass your previous work. Fixing any flaws or adding new perfections.\nThis power allows you to imbue any concepts, ideas, ideals, energies, and material properties into your creations, limited only by your understanding, skill, and time.\n\nA blacksmith must have their workshop and a craftsman their tools to work. Luckily you have both at hand at all times. As your workshop metaphysically travels with you wherever you go. What this means is that wherever you may find yourself as long as you wish it the tools you need seem to just appear, or perhaps change the environment in such a way as to function as well as your proper tools if you wish. Such as using a river to quench a blade you are working on, and using a stone nearby as an anvil. These tools grow with you, as you do, and can withstand anything you need them to in order to create your works.",
+          "title": "Blacksmith of Potential"
+        },
+        {
           "addons": [
             {
               "id": "",
@@ -86798,6 +86857,35 @@
           "template": 1,
           "text": "You are the pinnacle of biological perfection; your cells are in a state of superposition allowing them to simultaneously be anything and everything. All the adaptions you\u2019ve gained could be used at the same time while a single cell could operate as your brain, organ, and sensory organs all at the same time in addition to whatever adaptions you developed.\n\nYour cells have already removed the need for breathing, eating, sleeping, and even aging as you are completely self-sufficient. Because of this, you possess physical strength not many parahumans can match, skyrocketing mental capabilities that can even understand eldritch horrors, a wide array of nigh impossible senses, and an instantaneous form of healing that can make total destruction cause you to appear somewhere else akin to as if you were never there.\n\nYour highly adaptable cells can grant immunity to any attack in 2-3 hits, adaption to hostile environments in seconds, and even ignore attempts to alter your mind or body. While you have a better-evolved form of healing, you can still gain mutations and adaptions. Due to this, esoteric or rare forms of offense with sufficient variety can begin to cause your body to rapidly adapt to the point of negatively impacting your movements and actions. Although it doesn\u2019t last long due to your body\u2019s natural refinement of mutations that allows you to return to a normal human form with the additions of your new adaptions. \n\nYour cells can never have any demerits that will get in the way of each other, negative mutations, subversion, unfixable changes, or assimilation while anything that could affect you could easily be adapted to. Your cells are information black holes that make no sense to anyone but you and actively ignore forms of analysis, they could even self-destruct and vanish. Consuming biomass allows you to store or gain traits to improve or add adaptations without being exposed to danger or killed. You can also use the stored biomass to rapidly alter your physical form. Your understanding and analysis of powers from your senses can figure out even conceptual things to break down and grow immune to. \n\nThis allows further enhancement of adaptions based on experiences, battles, and information. An example of this is gaining immunity to hammers can escalate to being immune to blunt force. You can even develop entirely new adaptions based on observed technological and organic abilities, even replicating them perfectly within you. In time you can grow immunity to everything ever imagined and shrug off things that make even the fabric of reality pale.",
           "title": "The One Who Crawls"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "du0m",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-du0m.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-du0m.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "60"
+            }
+          ],
+          "template": 1,
+          "text": "You have the potential to create anything you can imagine.\nYou can craft objects with such splendor and beauty as to leave gods stunned, weapons to sunder armies with a single swing and more. Your level of skill with all types of craftsmanship leaves you rival only to gods and greater powers with such domains. This includes more esoteric forms of craftsmanship such as music, drawing, and painting. You can work with any type of energy concept or idea you want, such as weaving a dress made of the night sky, or forging a blade made from the prayers of all dead warriors.\nYour skills at crafting with your hands have no limit and you can defy reason and rationality to create stunning works of art the likes of which have never before been seen.\nYour skill at blacksmithing and other such arts of creation is at levels unimaginable to mortals and most gods alike. And you have no limit on how high it can go in the future. You gain skill at a tremendous rate and with each work you create you seemingly grow to be able to surpass your previous work. Fixing any flaws or adding new perfections.\nThis power allows you to imbue any concepts, ideas, ideals, energies, and material properties into your creations, limited only by your understanding, skill, and time.\n\nA blacksmith must have their workshop, and a craftsman their tools to work. Luckily you have both at hand at all times. As your workshop metaphysically travels with you wherever you go. What this means is that wherever you may find yourself as long as you wish it the tools you need seem to just appear, or perhaps change the environment in such a way as to function as well as your proper tools if you wish. Such as using a river to quench a blade you are working on, and using a stone nearby as an anvil. These tools grow with you, as you do, and can withstand anything you need them to in order to create your works.\n",
+          "title": "Divine Craftsman"
         }
       ],
       "requireds": [
