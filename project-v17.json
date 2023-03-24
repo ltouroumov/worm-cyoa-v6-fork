@@ -76875,7 +76875,7 @@
       "imageIsUrl": true,
       "imageLink": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -76915,9 +76915,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "m8jz",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Holmes_-_Steele_1903_-_The_Empty_House_-_The_Return_of_Sherlock_Holmes.jpg",
-          "imageIsUrl": true,
-          "imageLink": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Holmes_-_Steele_1903_-_The_Empty_House_-_The_Return_of_Sherlock_Holmes.jpg",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-m8jz.jpeg",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-m8jz.jpeg",
+          "imageLink": true,
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -76967,6 +76967,35 @@
           "template": 1,
           "text": "Your ability to plan and make predictive deductions is truly staggering. Whether in a bout of fisticuffs or at the chessboard, you are dozens of steps ahead of your opponents. Able to visualize entire engagements from beginning to end before the first blow is ever struck. This power includes minor supporting improvements to general intelligence, mental processing speed, multitasking ability, and senses.",
           "title": "Sherlock Scan "
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "h3u2",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h3u2.jpeg",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h3u2.jpeg",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "A pretty diversified skill giving more intensity and consistency to your imagination from training against mental images to visualizing a mind projection of yourself countering the attacks of your opponent before the fight even started. \n\nThis power also grants one the ability to like masters of old to develop their own fighting style or styles from observing the movements of animals along with copying the moves martial artists you have watched or faced in combat.\n\nYou are still limited by your own physical capabilities so unless you have a superhuman physique don't expect you will be able to perform superhuman feats with this skill.",
+          "title": "Imagination Power (Baki)"
         },
         {
           "addons": [],
@@ -87209,7 +87238,7 @@
             }
           ],
           "template": 1,
-          "text": "You have up to five of any powers you desire at any given time. You have a vast number of powers from which you may select and this roster will improve with time with new powers eventually forming in this set to suit your needs if one does not already exist.\n\nYou can shift between powers instantly and at will. If you cannot think of a power to achieve a goal, your powers will automatically offer you the best solution available, most if not all of which are absurdly powerful in their own right.\n\nPowers granted by this ability may include equivalent to greater powers or weaker depending on what is required for your purposes. Powers you use will improve, increasing the relative capability of powers you use frequently and more steadily increasing those you've used even once. The number of powers you may access at a time will also slowly increment. albeit at a sluggish pace comparatively. With extreme training you may attain Paragon powers through this ability and grow existing ones into Paragon powers. However, the pool of Paragon powers accessible through this power is much more limited than your usual abilities.\n\nThis power comes with a significant cognitive enhancement which allows these powers to operate at their absolute maximum potential, as well as discern your intent before you could actually think of it. What this means is that, if you do not consciously direct them, your powers will find and switch to an optimal set of abilities often choosing powers optimal for your current situation or any future one you could encounter. Whenever you switch to a new power, you are given a perfect understanding of its limits, capabilities, applications in near-infinite scenarios, and combination potential with other powers among vast number within your reach.",
+          "text": "You have up to five of any powers you desire at any given time. You have a vast number of powers from which you may select and this roster will improve with time with new powers eventually forming in this set to suit your needs if one does not already exist.\n\nYou can shift between powers instantly and at will. If you cannot think of a power to achieve a goal, your powers will automatically offer you the best solution available, most if not all of which are absurdly powerful in their own right.\n\nPowers granted by this ability may include equivalent to Keystone powers or weaker depending on what is required for your purposes. Powers you use will improve, increasing the relative capability of powers you use frequently and more steadily increasing those you've used even once. The number of powers you may access at a time will also slowly increment. albeit at a sluggish pace comparatively. With extreme training you may attain Paragon powers through this ability and grow existing ones into Paragon powers. However, the pool of Paragon powers accessible through this power is much more limited than your usual abilities.\n\nThis power comes with a significant cognitive enhancement which allows these powers to operate at their absolute maximum potential, as well as discern your intent before you could actually think of it. What this means is that, if you do not consciously direct them, your powers will find and switch to an optimal set of abilities often choosing powers optimal for your current situation or any future one you could encounter. Whenever you switch to a new power, you are given a perfect understanding of its limits, capabilities, applications in near-infinite scenarios, and combination potential with other powers among vast number within your reach.",
           "title": "Polybius"
         },
         {
@@ -89393,68 +89422,6 @@
           "template": 1,
           "text": "You become one with the Emperor of Mankind. Gaining his skills, training, powers, body, knowledge, and more.\nYou are the new man. Ready to lead mankind to glory, or ruin.\nIt is up to you whether this is a soul fusion, or mearly you gaining his powers, knowledge, and gifts.",
           "title": "The Emperor of Mankind"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "8mxy",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8mxy.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "2",
-          "objectWidth": "col-md-3",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "w0df",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "A near-indestructible gauntlet, capable of channeling the power of all the Infinity Stones at once. This Gauntlet will protect you from the backlash of using the Infinity Stones, and is able to contain the energy without being destroyed.",
-          "title": "Infinity Gauntlet (Marvel)"
         },
         {
           "addons": [],
