@@ -76450,6 +76450,153 @@
           "template": 1,
           "text": "You are a son of the Emperor of mankind. You have a mind, and body, like no other. Superhuman in every meaning of the word.\n\nYou have an unimmagiable level of charisma and ability to lead other. Combat comes naturally to you with a level of skill utterly impossible to even the best space marines and other superhumans.\n\nAll primarchs are somewhat psychic, or have the potential. And are atleast somewhat protected from the warp by sheer natural willpower if nothing else.\n\nYou can also choose one power or boon which any canon primarch held, such as roboute guillimans innate administrative abilities.",
           "title": "Primarch"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "sjhy",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-sjhy.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-sjhy.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the quirk of Izuku Midoriya: One for All.\nYour body generates and stockpiles energy, allowing you to release it in a physical attack, at first you can only use 100% of your stockpiled energy, this causes you to shatter your bones whenever you use it. However you can train in order to gain the ability to use less, or even more than 100%, and by gaining muscle you are resistant to the bone shattering effect.\n\nYou can transfer this ability to another person through your DNA, making it stronger in the process.\n\nYou lose this ability if you transfer it. This ability can not be taken without consent, but it may be given to someone who does not consent.",
+          "title": "One for All"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1tvd",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1tvd.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1tvd.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "sjhy",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Do not fear! For YOU are here!\nInstead of having to start with nothing, you instead start with the amount of power shown by All-Might. \n\nYou still break bones, however! You are also given the ability to transform into an extremely muscular version of yourself (that is also 2 levels of beauty above you) for an hour, when in this form your power generation quadruples and no longer break your bones. You can train to increase this time limit, when your reach the 24 hour limit you may use this form indefinitely.\n\nYou can transfer this ability to another person through your DNA (however only on the level of One for All), making it stronger in the process, the receiver also gains weakened copies of your abilities, they can train these and improve their strength. You lose this ability if you transfer it, however you may keep using it as long as you have energy stockpiled, but you can't generate any more energy. This ability can not be taken without consent, but it may be given to someone who does not consent. ",
+          "title": "All-Might"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5zah",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-5zah.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-5zah.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "1tvd",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "You are truly a symbol of peace. You are given the strength of All-Might at his prime, on the level of Superman, people who look upon you are filled with courage, determination, and hope. \n\nYou find all your abilities are slightly improved, and will grow in power (at a slower rate than Dynamist Jr.). Your previous muscular form is now able to be used indefinitely right off the bat, you also no longer break your bones no matter what form you are in. \n\nThere is a bit of a drawback though, you are compelled to do good deeds and be as big of a ham as possible.\n\nYou may pass on this ability through having someone ingest your DNA and keep it. The receiver gains it at the level of All-Might and gains perfect copies of all your abilities, they may also pass on their power and have it stockpile even more powers and abilities. \nThe receiver can train in order to improve these abilities. Any attempt at taking the power without your consent will destroy half of the attempted thief's respiratory organs. \n\nThis power can only be given to one, non-evil, consenting person. If you die after giving it out you may continue existing as a voice in the head of the person (you are removed from their head if you are resurrected) you passed this power on to, similar to the Butcher. \n\nThis power slowly makes you immune to trump abilities, at 1% a week. (If you are already immune, and only then, you may transfer the current percentage to another person) ",
+          "title": "United States of SMASH!"
         }
       ],
       "requireds": [
@@ -79549,6 +79696,65 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "dy8n",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-dy8n.png",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-dy8n.png",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "col-md-3",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "l6nj",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are a Square Mage, someone who can combine four elements into one spell. You are capable of wielding all of the four standard elements, such as fire, wind, water and earth.",
+          "title": "Square Mage (Familiar of Zero)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "l6nj",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-l6nj.png",
           "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-l6nj.png",
@@ -79608,13 +79814,39 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "dy8n",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-dy8n.png",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-dy8n.png",
-          "imageLink": true,
+          "id": "kwhv",
+          "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-3",
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to manipulate Magicka, energy form the plane of Aetherius. You are able to train to increase your magicka pool, you may use any spell usable in the Elder Scrolls game, you may train and study to create new spells. The eight schools you have access to are: Illusion, Alteration, Destruction, Conjuration, Restoration, Mysticism, Thaumaturgy, and Enchantment. You may create soul gems out of geodes.",
+          "title": "Magicka Casting (TES)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "khyf",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -79635,14 +79867,14 @@
                   "req": ""
                 }
               ],
-              "reqId": "l6nj",
+              "reqId": "kwhv",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
               "reqPoints": 0,
-              "required": false,
+              "required": true,
               "requireds": [],
-              "showRequired": false,
+              "showRequired": true,
               "type": "id"
             }
           ],
@@ -79651,16 +79883,15 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "10"
             }
           ],
           "template": 1,
-          "text": "You are a Square Mage, someone who can combine four elements into one spell. You are capable of wielding all of the four standard elements, such as fire, wind, water and earth.",
-          "title": "Square Mage (Familiar of Zero)"
+          "text": "You are able to learn and train in more esoteric forms of magic such as: Ayleid magic, Necromancy, Shadow magic, Tonal magic, the Thu'um, and any magic referenced in any piece of lore (canon or not) (although the Thu'um is extremely hard and complicated to learn, and you will never be on the level of a dragonborn).\n(With enough time you are able to do anything with this power)",
+          "title": "Esoteric Magick (TES)"
         }
       ],
       "requireds": [
