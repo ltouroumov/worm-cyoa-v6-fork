@@ -87612,553 +87612,6 @@
       "buttonText": "Click",
       "buttonType": true,
       "currentChoices": 0,
-      "defaultAspectHeight": 1,
-      "defaultAspectWidth": 1,
-      "id": "dgio",
-      "image": "",
-      "isButtonRow": false,
-      "isEditModeOn": false,
-      "isInfoRow": false,
-      "isPrivateStyling": false,
-      "isRequirementOpen": false,
-      "isResultRow": false,
-      "objectWidth": "col-md-4",
-      "objects": [
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "eds1",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "You are either the re-incarnation or somehow decended from one of Siddharta Gautama personal disciples.\nWhat this means is that you are going to cultivate very fast, and cultivate buddhist arts and paths even faster. You also naturally grow a strong body and a clear mind. Buddhas lessons are soul deep, so you find that you are naturally a good person with good morals.",
-          "title": "First Path Siddharta Bodhisattva Soul"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ht2x",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "7"
-            }
-          ],
-          "template": 1,
-          "text": "The world is a source of great wonder, but it can also be a fantastic source of inspiration.\nThe natural world is filled with mysteries, all you need to do is comprehend them. You are\nable to take inspiration from it in order to further your skills. The unending noise of a waterfall could help progress your sound skills, the repetitive rustling of leaves in the wind could help you with a breakthrough in your sword skills. You might be surprised how the world can help you, and in what ways.",
-          "title": "Comprehension Of The World"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "k6r1",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have an extraordinary amount of luck when it comes to cultivation, where even events which should result in significant setbacks leave you better off than you began. You\u2019ve been thrown off a cliff? Not only do you survive, but you get to a hidden area at the base of the cliff before your enemies. Forced to flee through a demon forest? Your fights allow you to advance in combat acumen and body refinement, and you come across some rare spirit herbs while you\u2019re at it.",
-          "title": "Fortuitous Encounters"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "0t9w",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0t9w.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0t9w.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "Your Meridians and the pathways in your body are formed in such a way as to not only make cultivation far easier, but allow you to form multiple golden cores. Eventually forming a stellar golden core array within yourself, making all your golden cores act as one. This would allow you to hold exponentially more Qi than any other cultivator at your level and rival cultivators several levels above your own. This also makes such things as unlocking and mastering your chakras far easier as your body can handle all types of energy far better.",
-          "title": "Grand Star Meridians Formation"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "xfu4",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xfu4.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xfu4.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "Passing your skills onto the next generation is the foundation of mortal society, what allows it to grow. The same thing could be said for immortal cultivators, but for the many mortals who populate the world, honing your life\u2019s craft and passing it on to your progeny is a vital part of\nensuring that their legacy continues. Be it wood carving, blacksmithing, painting or stranger.\n\nYou are a teacher and tutor without peer, capable of easily passing along your skills and\nknowledge to anyone who wants to learn from you. Beneath your gentle hand, even a moron\ncould become a master of their craft in a mere fraction of the time it would have taken an\naverage person. And if you were to teach that same average person? Their rate of growth and comprehension would have to be seen to be believed.\n\nEven the most complicated and intricate systems, concepts or philosophies can be explained to anyone regardless of their pre-existing knowledge base and if you truly know better than someone then they will realize this rather than allow pre-conceptions, arrogance or outdated thinking to blind them to your teachings.\n\nThis will also allow you to awaken the Meridians of any mortal and teach them the art of cultivation.",
-          "title": "Grand Teacher"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ijmy",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ijmy.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ijmy.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "Your body is uniquely suited for Yang aligned energy and thoughts. You can advance in such techniques with ease and cultivate signifigantly faster when taking paths aligned to it.\nYou have nine suns in your body that you can cultivate and grow. Adding them to your actions, such as hitting someone with the force of a sun,or unleashing their flames and heat. you start with one small sun which grows as you abosrb Yang aligned energy.",
-          "title": "Nine sun Primordial True Yang Body"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "gy4y",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gy4y.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gy4y.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "Your body is uniquely suited for Yin aligned energy and thoughts. You can advance in such techniques with ease and cultivate signifigantly faster when taking paths aligned to it.\nYou have twelve moons in your body that you can cultivate and grow. Adding them to your actions, such as hitting someone with the force of a moon, or unleashing frost and entropy. you start with one small moon which grows as you abosrb Yin aligned energy.",
-          "title": "Twelve Moon Primordial Yin Body"
-        },
-        {
-          "addons": [
-            {
-              "id": "",
-              "image": "",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "8pxr",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": false,
-                  "type": "id"
-                }
-              ],
-              "template": "",
-              "text": "Your tower and garden combine into one internal plane with the abilities and functions of both.",
-              "title": "Utopian Garden lost in time"
-            }
-          ],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "p1xi",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have in your soul a peaceful garden in which all that grows becomes a cultivation treasure. An Apple tree planet here might give you Primordial true sun apples after it has matured. The more supernatural the plant grown here the better the cultivation treasure the plant will grow.\nThe Pocket plane is also supremely beautiful and serenely peaceful, almost Utopia like. ",
-          "title": "Garden of Avalon"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "8pxr",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have in your soul tower in which time flows differently. You can enter here at any time, but you always exit the place you came from when you entered. You can change how time flows in comparison to the outside universe, with at maximum time seemingly stopping in the outside world, and at minimum it being the same, as the outside world. The tower has a seemingly unlimited supply of Qi in the air, of whatever variety you wish for.",
-          "title": "Tower lost in time"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "c1zn",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "0"
-            }
-          ],
-          "template": 1,
-          "text": "You have chosen the hardest path a mortal can take.\nTrue enlightenment. Becoming one with the universe.\nThis makes cultivation significantly harder, as your power and path are now dependent on your journey to enlightenment and not the other way around. This makes it nigh impossible to advance your path if you choose to be an asshole or immoral. On the other hand your power is not almost entirely internal, meaning you can achieve great power no matter your surroundings. And if you are already a particularly moral and introspective person this could be faster than normal cultivation.\nIf you gain mastery over yourself, your desires, and your soul, There is nothing that could stop you. As you become one with existence, you would become omnipotent, omniscient, omnipresent and Omnibenevolent.\nThis is not an easy path to take, but it is a good one.",
-          "title": "True Path of Cultivation"
-        }
-      ],
-      "requireds": [
-        {
-          "afterText": "choice",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            }
-          ],
-          "reqId": "c150",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": true,
-          "type": "id"
-        }
-      ],
-      "resultGroupId": "gt",
-      "styling": {
-        "addonText": "Times New Roman",
-        "addonTextAlign": "center",
-        "addonTextColor": "000000",
-        "addonTextTextSize": 100,
-        "addonTitle": "Times New Roman",
-        "addonTitleAlign": "center",
-        "addonTitleColor": "000000",
-        "addonTitleTextSize": 200,
-        "backPackWidth": 1200,
-        "backgroundColor": "#FFFFFFFF",
-        "backgroundImage": "",
-        "barBackgroundColor": "#FFFFFFFF",
-        "barMargin": 0,
-        "barPadding": 0,
-        "barTextColor": "#000000",
-        "barTextFont": "Times New Roman",
-        "barTextMargin": 0,
-        "barTextPadding": 17,
-        "barTextSize": 15,
-        "objectBackgroundImage": "",
-        "objectBgColor": "#FFFFFFFF",
-        "objectBgColorIsOn": false,
-        "objectBorderColor": "red",
-        "objectBorderIsOn": false,
-        "objectBorderRadiusBottomLeft": 0,
-        "objectBorderRadiusBottomRight": 0,
-        "objectBorderRadiusIsPixels": true,
-        "objectBorderRadiusTopLeft": 0,
-        "objectBorderRadiusTopRight": 0,
-        "objectBorderStyle": "solid",
-        "objectBorderWidth": 2,
-        "objectDropShadowBlur": 0,
-        "objectDropShadowColor": "grey",
-        "objectDropShadowH": 0,
-        "objectDropShadowIsOn": false,
-        "objectDropShadowSpread": 0,
-        "objectDropShadowV": 0,
-        "objectHeight": true,
-        "objectImageMarginBottom": 0,
-        "objectImageMarginTop": 0,
-        "objectImageWidth": 100,
-        "objectImgBorderColor": "red",
-        "objectImgBorderIsOn": false,
-        "objectImgBorderRadiusBottomLeft": 0,
-        "objectImgBorderRadiusBottomRight": 0,
-        "objectImgBorderRadiusIsPixels": true,
-        "objectImgBorderRadiusTopLeft": 0,
-        "objectImgBorderRadiusTopRight": 0,
-        "objectImgBorderStyle": "solid",
-        "objectImgBorderWidth": 2,
-        "objectMargin": 10,
-        "objectOverflowIsOn": true,
-        "objectText": "Times New Roman",
-        "objectTextAlign": "center",
-        "objectTextColor": "000000",
-        "objectTextPadding": 10,
-        "objectTextTextSize": 100,
-        "objectTitle": "Times New Roman",
-        "objectTitleAlign": "center",
-        "objectTitleColor": "000000",
-        "objectTitleTextSize": 200,
-        "reqBgColorIsOn": false,
-        "reqFilterBgColor": "#FFFFFFFF",
-        "reqFilterBlur": 0,
-        "reqFilterBlurIsOn": false,
-        "reqFilterBright": 100,
-        "reqFilterBrightIsOn": false,
-        "reqFilterCont": 100,
-        "reqFilterContIsOn": false,
-        "reqFilterGray": 0,
-        "reqFilterGrayIsOn": false,
-        "reqFilterHue": 0,
-        "reqFilterHueIsOn": false,
-        "reqFilterInvert": 0,
-        "reqFilterInvertIsOn": false,
-        "reqFilterOpac": 50,
-        "reqFilterOpacIsOn": true,
-        "reqFilterSatur": 1,
-        "reqFilterSaturIsOn": false,
-        "reqFilterSepia": 0,
-        "reqFilterSepiaIsOn": false,
-        "reqFilterVisibleIsOn": false,
-        "rowBackgroundImage": "",
-        "rowBgColor": "#FFFFFFFF",
-        "rowBgColorIsOn": false,
-        "rowBodyMarginBottom": 25,
-        "rowBodyMarginSides": 1,
-        "rowBodyMarginTop": 25,
-        "rowBorderColor": "red",
-        "rowBorderIsOn": false,
-        "rowBorderRadiusBottomLeft": 0,
-        "rowBorderRadiusBottomRight": 0,
-        "rowBorderRadiusIsPixels": true,
-        "rowBorderRadiusTopLeft": 0,
-        "rowBorderRadiusTopRight": 0,
-        "rowBorderStyle": "solid",
-        "rowBorderWidth": 2,
-        "rowButtonXPadding": 0,
-        "rowButtonYPadding": 0,
-        "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "grey",
-        "rowDropShadowH": 0,
-        "rowDropShadowIsOn": false,
-        "rowDropShadowSpread": 0,
-        "rowDropShadowV": 0,
-        "rowImageMarginTop": 0,
-        "rowImageWidth": 100,
-        "rowImgBorderColor": "red",
-        "rowImgBorderIsOn": false,
-        "rowImgBorderRadiusBottomLeft": 0,
-        "rowImgBorderRadiusBottomRight": 0,
-        "rowImgBorderRadiusIsPixels": true,
-        "rowImgBorderRadiusTopLeft": 0,
-        "rowImgBorderRadiusTopRight": 0,
-        "rowImgBorderStyle": "solid",
-        "rowImgBorderWidth": 2,
-        "rowMargin": 10,
-        "rowOverflowIsOn": true,
-        "rowText": "Times New Roman",
-        "rowTextAlign": "center",
-        "rowTextColor": "000000",
-        "rowTextPaddingX": 10,
-        "rowTextPaddingY": 5,
-        "rowTextTextSize": 100,
-        "rowTitle": "Times New Roman",
-        "rowTitleAlign": "center",
-        "rowTitleColor": "000000",
-        "rowTitleTextSize": 200,
-        "scoreText": "Times New Roman",
-        "scoreTextAlign": "center",
-        "scoreTextColor": "000000",
-        "scoreTextSize": 75,
-        "selBgColorIsOn": true,
-        "selFilterBgColor": "#70FF7EFF",
-        "selFilterBlur": 0,
-        "selFilterBlurIsOn": false,
-        "selFilterBright": 100,
-        "selFilterBrightIsOn": false,
-        "selFilterCont": 100,
-        "selFilterContIsOn": false,
-        "selFilterGray": 0,
-        "selFilterGrayIsOn": false,
-        "selFilterHue": 0,
-        "selFilterHueIsOn": false,
-        "selFilterInvert": 0,
-        "selFilterInvertIsOn": false,
-        "selFilterOpac": 100,
-        "selFilterOpacIsOn": false,
-        "selFilterSatur": 1,
-        "selFilterSaturIsOn": false,
-        "selFilterSepia": 0,
-        "selFilterSepiaIsOn": false
-      },
-      "template": "1",
-      "title": "Cultivation-specific upgrades",
-      "titleText": ""
-    },
-    {
-      "allowedChoices": 0,
-      "buttonId": "",
-      "buttonRandom": false,
-      "buttonRandomNumber": 1,
-      "buttonText": "Click",
-      "buttonType": true,
-      "currentChoices": 0,
       "defaultAspectHeight": "3",
       "defaultAspectWidth": 1,
       "id": "3hbj",
@@ -88364,8 +87817,8 @@
           "groups": [],
           "id": "s4w9",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-s4w9.png",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-s4w9.png",
-          "imageLink": true,
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-s4w9.png",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -88423,8 +87876,8 @@
           "groups": [],
           "id": "wvaf",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-wvaf.jpeg",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-wvaf.jpeg",
-          "imageLink": true,
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-wvaf.jpeg",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -88480,10 +87933,132 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "z44f",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "kwhv",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "You now have the knowledge to weave Magicka spells with melee combat, also giving you a body equivalent to a brute 2.",
+          "title": "Spellsword (TES)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "b3mf",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "z44f",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "Your Magickal and combat abilities are now entwined and improved, you gain physical strength as your understanding of Magicka and spells increase. You now start as a brute 3.",
+          "title": "Battlemage (TES)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "eour",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eour.jpeg",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eour.jpeg",
-          "imageLink": true,
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eour.jpeg",
           "isActive": false,
           "isVisible": true,
           "objectWidth": "",
@@ -88689,8 +88264,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "usps",
-          "image": "",
-          "imageIsUrl": false,
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-usps.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-usps.webp",
           "isActive": false,
           "isMultipleUseVariable": true,
           "isSelectableMultiple": false,
@@ -88781,8 +88357,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "qcst",
-          "image": "",
-          "imageIsUrl": false,
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qcst.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qcst.webp",
           "isActive": false,
           "isMultipleUseVariable": true,
           "isSelectableMultiple": false,
@@ -88873,8 +88450,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "0v8t",
-          "image": "",
-          "imageIsUrl": false,
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0v8t.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0v8t.webp",
           "isActive": false,
           "isMultipleUseVariable": true,
           "isSelectableMultiple": false,
@@ -89056,8 +88634,8 @@
           "groups": [],
           "id": "a7b2",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-a7b2.jpeg",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-a7b2.jpeg",
-          "imageLink": true,
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-a7b2.jpeg",
           "isActive": false,
           "isMultipleUseVariable": true,
           "isSelectableMultiple": false,
@@ -89148,8 +88726,8 @@
           "groups": [],
           "id": "g36p",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-g36p.jpeg",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-g36p.jpeg",
-          "imageLink": true,
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-g36p.jpeg",
           "isActive": false,
           "isMultipleUseVariable": true,
           "isSelectableMultiple": false,
@@ -90418,7 +89996,7 @@
             }
           ],
           "template": 1,
-          "text": "No man is an island and a chain is only as strong as its weakest link, none embody this ideal more you do.\nYou know more than anyone the importance of a powerful army and your power reflects that, you are a general, a warrior and leader rolled in one\nyou know the best strategies to take in war and can make plans that makes those of your opponents look stupid by comparison.\nYour charisma can only be described as a thing of legend. Able to make men fight for you to their very last breath as thought you were their father. Or able to make men fear you as though you were the devil himself.\nYou can turn even the most spineless of weaklings into a hardened bad ass who can fight anything the world throws at them, and that is only the beginning of your army as they to grow in strength both in physical, and mental might, the more they fight for you.\nIn less time than you think, you will have an army of bad ass superhuman men and women ready to fight and die by your word,\nplease try and avoid the temptation to take over the world.",
+          "text": "No man is an island and a chain is only as strong as its weakest link, none embody this ideal more you do.\nYou know more than anyone the importance of a powerful army and your power reflects that, you are a general, a warrior and leader rolled in one.\nYou know the best strategies to take in war and can make plans that makes those of your opponents look stupid by comparison.\nYour charisma can only be described as a thing of legend, able to make men fight for you to their very last breath as thought you were their father or fear you as though you were the devil himself.\nYou can turn even the most spineless of weaklings into a hardened badasses who can fight anything the world throws at them, and that is only the beginning.\nYour army will grow both in physical and mental might the more they fight for you.\nSoon you will have an army of badass superhuman men and women ready to fight and die by your word,\nPlease try and avoid the temptation to take over the world.",
           "title": "Roman Consul"
         },
         {
@@ -90738,12 +90316,828 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "25"
+              "value": "35"
             }
           ],
           "template": 1,
           "text": "Somehow you have found yourself in possession of a bundle of raw Universal potential, this mysterious and shifting energy has bound itself to the concept of your martial prowess. This strange and fortuitous marriage of potential allows you to will armaments into being as you need them. Weapons, armor, projectiles, can be flash forged in the heat of battle, but will fade when not in use. \nAs you grow in your craft of war, these armaments will grow alongside you. Becoming stronger, swifter, sharper, and more resilient. Eventually even providing exotic effects such as physical enhancement, force multiplication or deflection, elemental effects, etc.",
           "title": "Kaleidoscopic Armoury"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "btbw",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "0"
+            }
+          ],
+          "template": 1,
+          "text": "You have chosen the hardest path a mortal can take.\nTrue enlightenment. Becoming one with the universe.\nThis makes cultivation significantly harder, as your power and path are now dependent on your journey to enlightenment and not the other way around. This makes it nigh impossible to advance your path if you choose to be an asshole or immoral. On the other hand your power is not almost entirely internal, meaning you can achieve great power no matter your surroundings. And if you are already a particularly moral and introspective person this could be faster than normal cultivation.\nIf you gain mastery over yourself, your desires, and your soul, There is nothing that could stop you. As you become one with existence, you would become omnipotent, omniscient, omnipresent and Omnibenevolent.\nThis is not an easy path to take, but it is a good one.",
+          "title": "True Path of Cultivation"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ilua",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You are either the re-incarnation or somehow decended from one of Siddharta Gautama personal disciples.\nWhat this means is that you are going to cultivate very fast, and cultivate buddhist arts and paths even faster. You also naturally grow a strong body and a clear mind. Buddhas lessons are soul deep, so you find that you are naturally a good person with good morals.",
+          "title": "First Path Siddharta Bodhisattva Soul"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "vp44",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "The world is a source of great wonder, but it can also be a fantastic source of inspiration.\nThe natural world is filled with mysteries, all you need to do is comprehend them. You are\nable to take inspiration from it in order to further your skills. The unending noise of a waterfall could help progress your sound skills, the repetitive rustling of leaves in the wind could help you with a breakthrough in your sword skills. You might be surprised how the world can help you, and in what ways.",
+          "title": "Comprehension Of The World"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hktj",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have an extraordinary amount of luck when it comes to cultivation, where even events which should result in significant setbacks leave you better off than you began. You\u2019ve been thrown off a cliff? Not only do you survive, but you get to a hidden area at the base of the cliff before your enemies. Forced to flee through a demon forest? Your fights allow you to advance in combat acumen and body refinement, and you come across some rare spirit herbs while you\u2019re at it.",
+          "title": "Fortuitous Encounters"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qwpc",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0t9w.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0t9w.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your Meridians and the pathways in your body are formed in such a way as to not only make cultivation far easier, but allow you to form multiple golden cores. Eventually forming a stellar golden core array within yourself, making all your golden cores act as one. This would allow you to hold exponentially more Qi than any other cultivator at your level and rival cultivators several levels above your own. This also makes such things as unlocking and mastering your chakras far easier as your body can handle all types of energy far better.",
+          "title": "Grand Star Meridians Formation"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "dp90",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ijmy.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ijmy.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Your body is uniquely suited for Yang aligned energy and thoughts. You can advance in such techniques with ease and cultivate signifigantly faster when taking paths aligned to it.\nYou have nine suns in your body that you can cultivate and grow. Adding them to your actions, such as hitting someone with the force of a sun,or unleashing their flames and heat. You start with one small sun which grows as you abosrb Yang aligned energy.",
+          "title": "Nine Sun Primordial True Yang Body"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6ova",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gy4y.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gy4y.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Your body is uniquely suited for Yin aligned energy and thoughts. You can advance in such techniques with ease and cultivate signifigantly faster when taking paths aligned to it.\nYou have twelve moons in your body that you can cultivate and grow. Adding them to your actions, such as hitting someone with the force of a moon, or unleashing frost and entropy. You start with one small moon which grows as you abosrb Yin aligned energy.",
+          "title": "Twelve Moon Primordial True Yin Body"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9fsd",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-9fsd.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-9fsd.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "qwpc",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "dp90",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "6ova",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Once, you held within your being the very heavenly bodies themselves. From these celestial objects you have wrought a singularity of fearsome and unrivaled power.\nNine Suns to carve a bottomless hole, dark as the Primordial void. \nTwelve Moons to forge a spiral crown, luminous as the Primordial spark.\nWith this sacrifice you have achieved the summit of potential in your Qi circulatory system, allowing you to store infinite personal Qi. Your Stellar Core Array will feed the hungering singularity within you, increasing the speed and efficiency of your Cultivation by one hundred and eight times. The power and swiftness of your Qi circulation is likewise enhanced, empowering all of your techniques to a truly massive degree, as if the galactic core followed in their wake. And finally, your affinity for all Qi types is raised to the absolute pinnacle of potential. ",
+          "title": "Celestial Infinity Devouring Core"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "j04r",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xfu4.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xfu4.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Passing your skills onto the next generation is the foundation of mortal society, what allows it to grow. The same thing could be said for immortal cultivators, but for the many mortals who populate the world, honing your life\u2019s craft and passing it on to your progeny is a vital part of\nensuring that their legacy continues. Be it wood carving, blacksmithing, painting or stranger.\n\nYou are a teacher and tutor without peer, capable of easily passing along your skills and\nknowledge to anyone who wants to learn from you. Beneath your gentle hand, even a moron\ncould become a master of their craft in a mere fraction of the time it would have taken an\naverage person. And if you were to teach that same average person? Their rate of growth and comprehension would have to be seen to be believed.\n\nEven the most complicated and intricate systems, concepts or philosophies can be explained to anyone regardless of their pre-existing knowledge base and if you truly know better than someone then they will realize this rather than allow pre-conceptions, arrogance or outdated thinking to blind them to your teachings.\n\nThis will also allow you to awaken the Meridians of any mortal and teach them the art of cultivation.",
+          "title": "Grand Teacher"
+        },
+        {
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "8pxr",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "Your tower and garden combine into one internal plane with the abilities and functions of both.",
+              "title": "Utopian Garden lost in time"
+            }
+          ],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "kk50",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have in your soul a peaceful garden in which all that grows becomes a cultivation treasure. An Apple tree planet here might give you Primordial true sun apples after it has matured. The more supernatural the plant grown here the better the cultivation treasure the plant will grow.\nThe Pocket plane is also supremely beautiful and serenely peaceful, almost Utopia like. ",
+          "title": "Garden of Avalon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "73an",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1ud6"
+                },
+                {
+                  "req": "2epe"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have in your soul tower in which time flows differently. You can enter here at any time, but you always exit the place you came from when you entered. You can change how time flows in comparison to the outside universe, with at maximum time seemingly stopping in the outside world, and at minimum it being the same, as the outside world. The tower has a seemingly unlimited supply of Qi in the air, of whatever variety you wish for.",
+          "title": "Tower lost in time"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "p0lb",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p0lb.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p0lb.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "2v19"
+                },
+                {
+                  "req": "5cbj"
+                },
+                {
+                  "req": "mv8b"
+                },
+                {
+                  "req": "5vch"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to instantaneously convert one form of magical energy into another with 100% efficiency, such as turning White Mana into Black Mana, or divine energies into infernal ones. This only works on energy sources you can directly manipulate. ",
+          "title": "Conversion"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "n25u",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-n25u.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-n25u.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "2v19"
+                },
+                {
+                  "req": "5cbj"
+                },
+                {
+                  "req": "mv8b"
+                },
+                {
+                  "req": "5vch"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You have incredibly heightened control over your own magic. You can cast spells almost instantaneously and without any waste whatsoever.",
+          "title": "Control"
         }
       ],
       "requireds": [
@@ -91871,6 +92265,90 @@
           "template": 1,
           "text": "A transformation belt that can be used to allow you to become a Kamen Rider. A masked warrior, granted great abilities and armanents to fight with! Whether it be for justice, or for evil.\n\nTo add on, this belt comes with a variety of cards, many of which blank and ready to be imprinted with a warrior that you have made a significant bond with to earn their power. With different cards, whether to change into their form, access their alternative forms and abilities, to wield a finisher based off of them, or even to temporarily reform them into a weapon for your use!",
           "title": "Decadriver (Kamen Rider"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ljhq",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You gain a Yu-Gi-Oh deck that is based off of your personal beliefs, history, and personality, you also gain a duel disk. You are now a master at children's card games.\n\nAs long as you believe in the \"Heart of the Cards\" you find that when playing a game of any sort you always seem to get just what you need at any moment.\n\nYou may summon digital replicas of a card, and activate spells and traps in any fight with a parahuman.",
+          "title": "Heart of the Cards (Yu-Gi-Oh)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "apto",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ljhq",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are now a master at all games, and your Yu-Gi-Oh deck is upgraded to include a card of legendary Strength, such as a God card, a Number card, or any card that radically gives you an advantage.\n\nYou now magically summon monsters made of flesh and blood to be at your bec and call, summoning requirements apply and you need to be in a fight to tribute monsters, you may also actually cast spell cards and set and use traps while in battle. ",
+          "title": "King of Games (Yu-Gi-Oh)"
         }
       ],
       "requireds": [
@@ -94914,871 +95392,6 @@
       "currentChoices": 0,
       "defaultAspectHeight": 1,
       "defaultAspectWidth": 1,
-      "id": "h7tq",
-      "image": "",
-      "isButtonRow": false,
-      "isEditModeOn": false,
-      "isInfoRow": false,
-      "isPrivateStyling": false,
-      "isRequirementOpen": false,
-      "isResultRow": false,
-      "objectWidth": "col-md-4",
-      "objects": [
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "o7qr",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": 0
-            }
-          ],
-          "template": 1,
-          "text": "<i>Cheap and humble, zero fashion points</i>\n\nYou won't bother with your costume, whether because you can't afford it or find it needless. A simple mask bought in a store you were passing by and casual every day clothes is the best you can expect",
-          "title": "Budget"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "o974",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "2"
-            }
-          ],
-          "template": 1,
-          "text": "<i>Very dangerous and very fabulous</i>\n\nDespite the fact that parahumans are literally called capes, most of them don't actually wear capes as they aren't very practical in combat and not many can look cool in them either. Pick this if you think you can pull it off.",
-          "title": "Cape"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "n8j6",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "<i>Simple and reliable, not very original</i>\n\nA common choice among heroes and villains alike. Doesn't constrict movement, fits with any combination of powers and doesn't require much to maintain and fix in the event that it gets broken in a fight.",
-          "title": "Bodysuit"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "zsg0",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "<i>Catchy and notorious, depends on powerset</i>\n\nYou have a costume which incorporates various attributes that describe or relate to your powerset in some way. Will require some creativity if your powers don't fit with each other or aren't as obvious.",
-          "title": "Thematic"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "m3lm",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "<i>Heavy and sturdy, very expensive</i>\n\nYour pick is a tinkertech suit, or an actual set of medieval or some other sort of armor. Will most likely slow you down and constrict your movements, but it offers the the best protection against conventional weapons or attacks.",
-          "title": "Armor"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "4oku",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "4"
-            }
-          ],
-          "template": 1,
-          "text": "<i>For the artist in you</i>\n\nAn option for those who don't find all other variants appealing and wish to make their own unique costume.",
-          "title": "Custom"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "echo",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "col-12",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "Your costume is Tinkertech in some fashion. It can be Tinkertech of your own creation if you have an applicable Tinker power. It will need to be maintained frequently to continue functioning.",
-          "title": "Tinkertech"
-        }
-      ],
-      "requireds": [
-        {
-          "afterText": "choice",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            }
-          ],
-          "reqId": "id2m",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": false,
-          "type": "id"
-        }
-      ],
-      "resultGroupId": "q6",
-      "styling": {
-        "addonText": "Times New Roman",
-        "addonTextAlign": "center",
-        "addonTextColor": "#FFFFFFFF",
-        "addonTextTextSize": 100,
-        "addonTitle": "Times New Roman",
-        "addonTitleAlign": "center",
-        "addonTitleColor": "#FFFFFFFF",
-        "addonTitleTextSize": 200,
-        "backPackWidth": 1200,
-        "backgroundColor": "#000000FF",
-        "backgroundImage": "",
-        "barBackgroundColor": "#FFFFFFFF",
-        "barMargin": 0,
-        "barPadding": 0,
-        "barTextColor": "#000000",
-        "barTextFont": "Times New Roman",
-        "barTextMargin": 0,
-        "barTextPadding": 17,
-        "barTextSize": 15,
-        "objectBackgroundImage": "",
-        "objectBgColor": "#FFFFFFFF",
-        "objectBgColorIsOn": false,
-        "objectBorderColor": "#FDFDFDFF",
-        "objectBorderIsOn": true,
-        "objectBorderRadiusBottomLeft": "5",
-        "objectBorderRadiusBottomRight": "5",
-        "objectBorderRadiusIsPixels": true,
-        "objectBorderRadiusTopLeft": "5",
-        "objectBorderRadiusTopRight": "5",
-        "objectBorderStyle": "solid",
-        "objectBorderWidth": 2,
-        "objectDropShadowBlur": 0,
-        "objectDropShadowColor": "#FFEF00FF",
-        "objectDropShadowH": 0,
-        "objectDropShadowIsOn": false,
-        "objectDropShadowSpread": 0,
-        "objectDropShadowV": 0,
-        "objectHeight": true,
-        "objectImageMarginBottom": 0,
-        "objectImageMarginTop": 0,
-        "objectImageWidth": 100,
-        "objectImgBorderColor": "red",
-        "objectImgBorderIsOn": false,
-        "objectImgBorderRadiusBottomLeft": 0,
-        "objectImgBorderRadiusBottomRight": 0,
-        "objectImgBorderRadiusIsPixels": true,
-        "objectImgBorderRadiusTopLeft": 0,
-        "objectImgBorderRadiusTopRight": 0,
-        "objectImgBorderStyle": "solid",
-        "objectImgBorderWidth": 2,
-        "objectMargin": 10,
-        "objectOverflowIsOn": true,
-        "objectText": "Times New Roman",
-        "objectTextAlign": "center",
-        "objectTextColor": "#FFFFFFFF",
-        "objectTextPadding": 10,
-        "objectTextTextSize": 100,
-        "objectTitle": "Times New Roman",
-        "objectTitleAlign": "center",
-        "objectTitleColor": "#FFFFFFFF",
-        "objectTitleTextSize": 200,
-        "reqBgColorIsOn": true,
-        "reqFilterBgColor": "#6B6464FF",
-        "reqFilterBlur": 0,
-        "reqFilterBlurIsOn": false,
-        "reqFilterBright": 100,
-        "reqFilterBrightIsOn": false,
-        "reqFilterCont": 100,
-        "reqFilterContIsOn": false,
-        "reqFilterGray": 0,
-        "reqFilterGrayIsOn": false,
-        "reqFilterHue": 0,
-        "reqFilterHueIsOn": false,
-        "reqFilterInvert": "50",
-        "reqFilterInvertIsOn": false,
-        "reqFilterOpac": "25",
-        "reqFilterOpacIsOn": false,
-        "reqFilterSatur": 1,
-        "reqFilterSaturIsOn": false,
-        "reqFilterSepia": 0,
-        "reqFilterSepiaIsOn": false,
-        "reqFilterVisibleIsOn": false,
-        "rowBackgroundImage": "",
-        "rowBgColor": "#FFFFFFFF",
-        "rowBgColorIsOn": false,
-        "rowBodyMarginBottom": 25,
-        "rowBodyMarginSides": 1,
-        "rowBodyMarginTop": 25,
-        "rowBorderColor": "#FFEEDDFF",
-        "rowBorderIsOn": false,
-        "rowBorderRadiusBottomLeft": 0,
-        "rowBorderRadiusBottomRight": 0,
-        "rowBorderRadiusIsPixels": true,
-        "rowBorderRadiusTopLeft": 0,
-        "rowBorderRadiusTopRight": 0,
-        "rowBorderStyle": "solid",
-        "rowBorderWidth": 2,
-        "rowButtonXPadding": 0,
-        "rowButtonYPadding": 0,
-        "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "#FFFFEEFF",
-        "rowDropShadowH": 0,
-        "rowDropShadowIsOn": false,
-        "rowDropShadowSpread": 0,
-        "rowDropShadowV": 0,
-        "rowImageMarginTop": 0,
-        "rowImageWidth": 100,
-        "rowImgBorderColor": "red",
-        "rowImgBorderIsOn": false,
-        "rowImgBorderRadiusBottomLeft": 0,
-        "rowImgBorderRadiusBottomRight": 0,
-        "rowImgBorderRadiusIsPixels": true,
-        "rowImgBorderRadiusTopLeft": 0,
-        "rowImgBorderRadiusTopRight": 0,
-        "rowImgBorderStyle": "solid",
-        "rowImgBorderWidth": 2,
-        "rowMargin": 10,
-        "rowOverflowIsOn": true,
-        "rowText": "Times New Roman",
-        "rowTextAlign": "center",
-        "rowTextColor": "#FFFFFFFF",
-        "rowTextPaddingX": 10,
-        "rowTextPaddingY": 5,
-        "rowTextTextSize": 100,
-        "rowTitle": "Times New Roman",
-        "rowTitleAlign": "center",
-        "rowTitleColor": "#FFFFFFFF",
-        "rowTitleTextSize": 200,
-        "scoreText": "Times New Roman",
-        "scoreTextAlign": "center",
-        "scoreTextColor": "#FFFFFFFF",
-        "scoreTextSize": 75,
-        "selBgColorIsOn": true,
-        "selFilterBgColor": "#3CAAAAFF",
-        "selFilterBlur": 0,
-        "selFilterBlurIsOn": false,
-        "selFilterBright": 100,
-        "selFilterBrightIsOn": false,
-        "selFilterCont": 100,
-        "selFilterContIsOn": false,
-        "selFilterGray": 0,
-        "selFilterGrayIsOn": false,
-        "selFilterHue": 0,
-        "selFilterHueIsOn": false,
-        "selFilterInvert": 0,
-        "selFilterInvertIsOn": false,
-        "selFilterOpac": 100,
-        "selFilterOpacIsOn": false,
-        "selFilterSatur": 1,
-        "selFilterSaturIsOn": false,
-        "selFilterSepia": 0,
-        "selFilterSepiaIsOn": false
-      },
-      "template": "1",
-      "title": "Costume",
-      "titleText": ""
-    },
-    {
-      "allowedChoices": 0,
-      "buttonId": "",
-      "buttonRandom": false,
-      "buttonRandomNumber": 1,
-      "buttonText": "Click",
-      "buttonType": true,
-      "currentChoices": 0,
-      "defaultAspectHeight": 1,
-      "defaultAspectWidth": 1,
-      "id": "pdde",
-      "image": "",
-      "isButtonRow": false,
-      "isEditModeOn": false,
-      "isInfoRow": false,
-      "isPrivateStyling": false,
-      "isRequirementOpen": false,
-      "isResultRow": false,
-      "objectWidth": "col-md-3",
-      "objects": [
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ra6t",
-          "image": "",
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "3",
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "Your weapon can be used at melee range to slash your opponents. This can include swords, daggers, axes, halberds, scimitars, and scythes.",
-          "title": "Melee (Slashing)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "0z6a",
-          "image": "",
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "3",
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "Your weapon can be used at melee range to pierce your opponents. This can include swords, daggers, spears, halberds, and pitchforks.",
-          "title": "Melee (Piercing)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "7o5b",
-          "image": "",
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "3",
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "2"
-            }
-          ],
-          "template": 1,
-          "text": "Your weapon can be used at melee range to smash your opponents. This can include maces, hammers, nunchaku, flails, bats, gauntlets, shields, staves, and canes.",
-          "title": "Melee (Blunt)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ka73",
-          "image": "",
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "3",
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "You have a gun that can hit people accurately at less than 200 meters.",
-          "title": "Gun (Short to Mid Ranged)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "amtp",
-          "image": "",
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "3",
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "You have a gun that can hit people accurately farther than 200 meters away.",
-          "title": "Gun (Long Ranged)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "7siq",
-          "image": "",
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isNotSelectable": false,
-          "isSelectableMultiple": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "3",
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "4"
-            }
-          ],
-          "template": 1,
-          "text": "This includes any ranged weapon that is not a gun. This includes bows, slingshots blowpipes, or crossbows.",
-          "title": "Ranged"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "v174",
-          "image": "",
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "3",
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "You have a stockpile of weapons meant to be thrown. This includes throwing knives, grenades, javelins, and boomerangs.",
-          "title": "Thrown"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "uje6",
-          "image": "",
-          "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "3",
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "Your weapon is Tinkertech in some fashion. It can be Tinkertech of your own creation if you have an applicable Tinker power. It will need to be maintained frequently to continue functioning.",
-          "title": "Tinkertech"
-        }
-      ],
-      "requireds": [
-        {
-          "afterText": "choice",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            }
-          ],
-          "reqId": "id2m",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": false,
-          "type": "id"
-        }
-      ],
-      "resultGroupId": "q6",
-      "styling": {
-        "addonText": "Times New Roman",
-        "addonTextAlign": "center",
-        "addonTextColor": "#FFFFFFFF",
-        "addonTextTextSize": 100,
-        "addonTitle": "Times New Roman",
-        "addonTitleAlign": "center",
-        "addonTitleColor": "#FFFFFFFF",
-        "addonTitleTextSize": 200,
-        "backPackWidth": 1200,
-        "backgroundColor": "#000000FF",
-        "backgroundImage": "",
-        "barBackgroundColor": "#FFFFFFFF",
-        "barMargin": 0,
-        "barPadding": 0,
-        "barTextColor": "#000000",
-        "barTextFont": "Times New Roman",
-        "barTextMargin": 0,
-        "barTextPadding": 17,
-        "barTextSize": 15,
-        "objectBackgroundImage": "",
-        "objectBgColor": "#FFFFFFFF",
-        "objectBgColorIsOn": false,
-        "objectBorderColor": "#FDFDFDFF",
-        "objectBorderIsOn": true,
-        "objectBorderRadiusBottomLeft": "5",
-        "objectBorderRadiusBottomRight": "5",
-        "objectBorderRadiusIsPixels": true,
-        "objectBorderRadiusTopLeft": "5",
-        "objectBorderRadiusTopRight": "5",
-        "objectBorderStyle": "solid",
-        "objectBorderWidth": 2,
-        "objectDropShadowBlur": 0,
-        "objectDropShadowColor": "#FFEF00FF",
-        "objectDropShadowH": 0,
-        "objectDropShadowIsOn": false,
-        "objectDropShadowSpread": 0,
-        "objectDropShadowV": 0,
-        "objectHeight": true,
-        "objectImageMarginBottom": 0,
-        "objectImageMarginTop": 0,
-        "objectImageWidth": 100,
-        "objectImgBorderColor": "red",
-        "objectImgBorderIsOn": false,
-        "objectImgBorderRadiusBottomLeft": 0,
-        "objectImgBorderRadiusBottomRight": 0,
-        "objectImgBorderRadiusIsPixels": true,
-        "objectImgBorderRadiusTopLeft": 0,
-        "objectImgBorderRadiusTopRight": 0,
-        "objectImgBorderStyle": "solid",
-        "objectImgBorderWidth": 2,
-        "objectMargin": 10,
-        "objectOverflowIsOn": true,
-        "objectText": "Times New Roman",
-        "objectTextAlign": "center",
-        "objectTextColor": "#FFFFFFFF",
-        "objectTextPadding": 10,
-        "objectTextTextSize": 100,
-        "objectTitle": "Times New Roman",
-        "objectTitleAlign": "center",
-        "objectTitleColor": "#FFFFFFFF",
-        "objectTitleTextSize": 200,
-        "reqBgColorIsOn": true,
-        "reqFilterBgColor": "#6B6464FF",
-        "reqFilterBlur": 0,
-        "reqFilterBlurIsOn": false,
-        "reqFilterBright": 100,
-        "reqFilterBrightIsOn": false,
-        "reqFilterCont": 100,
-        "reqFilterContIsOn": false,
-        "reqFilterGray": 0,
-        "reqFilterGrayIsOn": false,
-        "reqFilterHue": 0,
-        "reqFilterHueIsOn": false,
-        "reqFilterInvert": "50",
-        "reqFilterInvertIsOn": false,
-        "reqFilterOpac": "25",
-        "reqFilterOpacIsOn": false,
-        "reqFilterSatur": 1,
-        "reqFilterSaturIsOn": false,
-        "reqFilterSepia": 0,
-        "reqFilterSepiaIsOn": false,
-        "reqFilterVisibleIsOn": false,
-        "rowBackgroundImage": "",
-        "rowBgColor": "#FFFFFFFF",
-        "rowBgColorIsOn": false,
-        "rowBodyMarginBottom": 25,
-        "rowBodyMarginSides": 1,
-        "rowBodyMarginTop": 25,
-        "rowBorderColor": "#FFEEDDFF",
-        "rowBorderIsOn": false,
-        "rowBorderRadiusBottomLeft": 0,
-        "rowBorderRadiusBottomRight": 0,
-        "rowBorderRadiusIsPixels": true,
-        "rowBorderRadiusTopLeft": 0,
-        "rowBorderRadiusTopRight": 0,
-        "rowBorderStyle": "solid",
-        "rowBorderWidth": 2,
-        "rowButtonXPadding": 0,
-        "rowButtonYPadding": 0,
-        "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "#FFFFEEFF",
-        "rowDropShadowH": 0,
-        "rowDropShadowIsOn": false,
-        "rowDropShadowSpread": 0,
-        "rowDropShadowV": 0,
-        "rowImageMarginTop": 0,
-        "rowImageWidth": 100,
-        "rowImgBorderColor": "red",
-        "rowImgBorderIsOn": false,
-        "rowImgBorderRadiusBottomLeft": 0,
-        "rowImgBorderRadiusBottomRight": 0,
-        "rowImgBorderRadiusIsPixels": true,
-        "rowImgBorderRadiusTopLeft": 0,
-        "rowImgBorderRadiusTopRight": 0,
-        "rowImgBorderStyle": "solid",
-        "rowImgBorderWidth": 2,
-        "rowMargin": 10,
-        "rowOverflowIsOn": true,
-        "rowText": "Times New Roman",
-        "rowTextAlign": "center",
-        "rowTextColor": "#FFFFFFFF",
-        "rowTextPaddingX": 10,
-        "rowTextPaddingY": 5,
-        "rowTextTextSize": 100,
-        "rowTitle": "Times New Roman",
-        "rowTitleAlign": "center",
-        "rowTitleColor": "#FFFFFFFF",
-        "rowTitleTextSize": 200,
-        "scoreText": "Times New Roman",
-        "scoreTextAlign": "center",
-        "scoreTextColor": "#FFFFFFFF",
-        "scoreTextSize": 75,
-        "selBgColorIsOn": true,
-        "selFilterBgColor": "#3CAAAAFF",
-        "selFilterBlur": 0,
-        "selFilterBlurIsOn": false,
-        "selFilterBright": 100,
-        "selFilterBrightIsOn": false,
-        "selFilterCont": 100,
-        "selFilterContIsOn": false,
-        "selFilterGray": 0,
-        "selFilterGrayIsOn": false,
-        "selFilterHue": 0,
-        "selFilterHueIsOn": false,
-        "selFilterInvert": 0,
-        "selFilterInvertIsOn": false,
-        "selFilterOpac": 100,
-        "selFilterOpacIsOn": false,
-        "selFilterSatur": 1,
-        "selFilterSaturIsOn": false,
-        "selFilterSepia": 0,
-        "selFilterSepiaIsOn": false
-      },
-      "template": "1",
-      "title": "Weapons",
-      "titleText": ""
-    },
-    {
-      "allowedChoices": 0,
-      "buttonId": "",
-      "buttonRandom": false,
-      "buttonRandomNumber": 1,
-      "buttonText": "Click",
-      "buttonType": true,
-      "currentChoices": 0,
-      "defaultAspectHeight": 1,
-      "defaultAspectWidth": 1,
       "id": "xrq4",
       "image": "",
       "isButtonRow": false,
@@ -95810,7 +95423,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "2"
+              "value": "1"
             }
           ],
           "template": 1,
@@ -95837,7 +95450,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "3"
+              "value": "2"
             }
           ],
           "template": 1,
@@ -95864,40 +95477,12 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "4"
+              "value": "3"
             }
           ],
           "template": 1,
           "text": "A mid-range desktop computer from Earth Bet. Actual desk not included.",
           "title": "Desktop"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "3qo8",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "Seven sets of non-combat clothing tailored to your tastes. Additionally, this includes one set of athletic wear and one set of sleepwear. You can choose to wake up wearing one of them if you didn't choose Character Insert.",
-          "title": "Regular Clothing"
         },
         {
           "addons": [],
@@ -95923,90 +95508,8 @@
             }
           ],
           "template": 1,
-          "text": "A backpack or messenger bag filled with survival gear. This includes a water purifier, a map of your starting location, some rations, a bedroll, and a firestarter.",
-          "title": "Survival Gear"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "er4o",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "You get to keep ten of your possessions.",
-          "title": "Possessions"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "p744",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "1"
-            }
-          ],
-          "template": 1,
-          "text": "You have a set of items necessary to keep yourself clean. The exact contents change depending on your sex. Can include a razor, a toothbrush, toothpaste, towels, soap, shampoo, conditioner, a hairbrush, a comb, menstrual products, and more.",
-          "title": "Hygiene Items"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "3hsu",
-          "image": "",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "7"
-            }
-          ],
-          "template": 1,
-          "text": "You have some kind of mundane vehicle. It could be a car, motorcycle, boat, or whatever else.",
-          "title": "Vehicle"
+          "text": "A backpack or messenger bag filled with survival gear. This includes a water purifier, a map of your starting location, some rations, a bedroll, a firestarter, and two sets of non-combat clothing tailored to your tastes.",
+          "title": "Survival Kit"
         },
         {
           "addons": [],
@@ -96033,7 +95536,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "1"
+              "value": "2"
             }
           ],
           "template": 1,
@@ -96045,15 +95548,11 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "nqmh",
+          "id": "er4o",
           "image": "",
           "isActive": false,
-          "isMultipleUseVariable": true,
-          "isSelectableMultiple": true,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "50",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -96061,6 +95560,7 @@
               "afterText": "CP",
               "beforeText": "Cost:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -96068,8 +95568,64 @@
             }
           ],
           "template": 1,
-          "text": "A single Tinkertech device for any purpose. User manual included. It can be Tinkertech of your own creation if you have an applicable Tinker power. It will need maintenance.\n\n(Does not include weapons)",
-          "title": "Tinkertech"
+          "text": "You get to keep ten of your possessions.",
+          "title": "Possessions"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "il50",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            }
+          ],
+          "template": 1,
+          "text": "Costume and equipment suited for infiltration and action during night time, tailored specifically for you. Easy to maintain and can be put on and off very quickly.",
+          "title": "Stealth Suit"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "m5tz",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "2"
+            }
+          ],
+          "template": 1,
+          "text": "You have a costume which incorporates various attributes that describe or relate to your powerset in some way. Will require some creativity if your powers don't fit with each other or aren't as obvious.",
+          "title": "Cape Outfit"
         },
         {
           "addons": [],
@@ -96107,7 +95663,38 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "il50",
+          "id": "nqmh",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "50",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "You have a Tinkertech device for a specific purpose. \nUser manual included. \n\nIt can be Tinkertech of your own creation if you have an applicable Tinker power. It will need regular maintenance.\n\n(Does not include weapons)",
+          "title": "Tinkertech Gadget"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "3hsu",
           "image": "",
           "isActive": false,
           "isVisible": true,
@@ -96123,12 +95710,132 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "2"
+              "value": "7"
             }
           ],
           "template": 1,
-          "text": "Costume and equipment suited for infiltration and action during night time. Tailored specifically for you. Easy to maintain and can be put on and off very quickly.",
-          "title": "Stealth Suit"
+          "text": "You have some kind of mundane vehicle. It could be a car, motorcycle, boat, or whatever else.",
+          "title": "Vehicle"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xfab",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "16"
+            }
+          ],
+          "template": 1,
+          "text": "You have some kind of Tinkertech vehicle. It could be a mech, hovercraft, plane, tank, or whatever else.\nUser manual included.\n\nIt can be Tinkertech of your own creation if you have an applicable Tinker power. It will need to be maintained frequently to continue functioning.",
+          "title": "Tinkertech Vehicle"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "a84z",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "You have a mundane weapon of your choice. It could be a sword, stockpile of grenades, sniper rifle, or whatever else.",
+          "title": "Mundane Weapon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "wm2y",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "You have a tinkertech weapon of your choice. It could be a freeze ray, laser sword, fully automatic rocket-powered harpoon gun, or whatever else. \nUser manual included.\n\nIt can be Tinkertech of your own creation if you have an applicable Tinker power. It will need regular maintenance.",
+          "title": "Tinkertech Weapon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "dwiq",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have a tinkertech suit of power armor. It augments your strength to a superhuman degree and offers the the best protection against conventional weapons or attacks without slowing you down or constricting your movements too much. \nUser manual included.\n\nIt can be Tinkertech of your own creation if you have an applicable Tinker power. It will need to be maintained frequently to continue functioning.",
+          "title": "Tinkertech Armor"
         },
         {
           "addons": [],
@@ -96413,7 +96120,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "8"
             }
           ],
           "template": 1,

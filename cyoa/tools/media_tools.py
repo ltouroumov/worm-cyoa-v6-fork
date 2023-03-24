@@ -157,10 +157,10 @@ def export_image_name(image_info, image_type):
 
 def _set_image_lenses(encoded_image, image_is_url):
     return (lens.Get('image').set(encoded_image),
-            lens.Get('imageLink').set(image_is_url),
-            lens.Get('imageIsUrl').set(encoded_image
+            lens.Get('imageLink').set(encoded_image
                                        if image_is_url
-                                       else None))
+                                       else None),
+            lens.Get('imageIsUrl').set(image_is_url))
 
 
 def update_image(project, image_info, image_type, image_data=None, image_path=None):
