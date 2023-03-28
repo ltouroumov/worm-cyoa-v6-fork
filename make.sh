@@ -14,6 +14,7 @@ fi
 
 PROJECT="project-$VERSION.json"
 
+
 cp "$INPUT" $PROJECT
 
 # Format the JSON document

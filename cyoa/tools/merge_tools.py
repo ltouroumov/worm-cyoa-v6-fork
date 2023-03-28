@@ -119,7 +119,7 @@ IGNORE_KEYS = ('currentChoices', 'isActive', 'isEditModeOn')
 
 SPECIAL_DISPLAY = {
     'scores': lambda scores: Text.assemble(*intercalate("\n", [
-        Text.assemble(score['beforeText'], " ", score['value'], " ", score['afterText'],
+        Text.assemble(score['beforeText'], " ", str(score['value']), " ", score['afterText'],
                       " (", score['id'], ")", " (cond)" if len(
                           score['requireds']) > 0 else "",
                       " (show=%s)" % str(
@@ -157,7 +157,7 @@ def update_dict(old_data: dict, new_data: dict):
         elif isinstance(value, str) and len(value) == 0:
             return Text('N/A', style="grey50")
         elif isinstance(value, str):
-            return Text(value[:60] + "..." if len(value) > 60 else value)
+            return Text(value)
         elif isinstance(value, list) and len(value) == 0:
             return Text("[]")
         elif isinstance(value, list):

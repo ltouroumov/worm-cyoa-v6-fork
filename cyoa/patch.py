@@ -42,3 +42,15 @@ class FixMultiSelectCounters(PatchBase):
     def patch_counter(self, obj):
         if obj.get('isSelectableMultiple', False) and obj.get('isMultipleUseVariable', False):
             obj['multipleUseVariable'] = 0
+
+
+class FixIsNotSelectableFlag(PatchBase):
+    @patch(target='object')
+    def patch_flags(self, obj):
+        if 'isNotSelectable' in obj and obj['isNotSelectable'] is False:
+            del obj['isNotSelectable']
+
+    @patch(target="object.score")
+    def patch_points(self, score):
+        if 'isActive' in score and score['isActive'] is False:
+            del score['isActive']
