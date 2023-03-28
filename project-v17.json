@@ -78066,6 +78066,45 @@
               "showScore": true,
               "type": "",
               "value": "15"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "qkmq",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
             }
           ],
           "template": 1,
@@ -78124,6 +78163,45 @@
               "showScore": true,
               "type": "",
               "value": "25"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "i8r6",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
             }
           ],
           "template": 1,
@@ -90500,7 +90578,46 @@
           "title": "Comprehension Of The World"
         },
         {
-          "addons": [],
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "j9en",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "You simply cannot be cut down a peg. No matter what you do you profit from it in some manner. When someone assembles a team to take you down you seemingly become allies instead, when you fall asleep in a meadow you wake up finding that someone lost their treasures right at your feet. And you never seem to get any comeuppance from whatever crazy stunts you pull, seemingly always coming out of it smelling of roses.",
+              "title": "Luck of the Devil "
+            }
+          ],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
@@ -90838,7 +90955,46 @@
           "title": "Celestial Infinity Devouring Core"
         },
         {
-          "addons": [],
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "qluk",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "Your Ability to train others boggles the mind. You have not only the ability to make others superhuman of body, but also of mind and spirit. You are no longer bound by having to teach your own path to your students, but instead can see what path best suits them and guide them perfectly down it. This not only allows you to teach martial arts, cultivation, or physical excellence, but things such as spiritual enlightenment, inner peace, or even just technical information, depending on what your student needs. And you always know what your student needs in order to grow better.\nYour students learn and grow at mind boggling speeds, practically ignoring their own limits and abilities as you help them grow.\n",
+              "title": "Master Teacher"
+            }
+          ],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
@@ -90916,7 +91072,7 @@
                       "req": ""
                     }
                   ],
-                  "reqId": "8pxr",
+                  "reqId": "73an",
                   "reqId1": "",
                   "reqId2": "",
                   "reqId3": "",
