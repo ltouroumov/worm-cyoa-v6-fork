@@ -1,5 +1,7 @@
 {
-  "activated": [],
+  "activated": [
+    ""
+  ],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -54396,7 +54398,7 @@
           "scores": [],
           "template": 1,
           "text": "",
-          "title": "Transformations"
+          "title": "Esoteric & Abstract"
         },
         {
           "addons": [],
@@ -75092,7 +75094,7 @@
       "imageIsUrl": true,
       "imageLink": "",
       "isButtonRow": false,
-      "isEditModeOn": false,
+      "isEditModeOn": true,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -76806,7 +76808,7 @@
       "imageIsUrl": true,
       "imageLink": "",
       "isButtonRow": false,
-      "isEditModeOn": true,
+      "isEditModeOn": false,
       "isInfoRow": false,
       "isPrivateStyling": false,
       "isRequirementOpen": false,
@@ -78410,6 +78412,35 @@
           "template": 1,
           "text": "Your mind's imaging systems and muscle control are perfectly in tune with the motor skills center of the brain. You possess flawless aim, perfect balance, greatly enhanced motor skills, and perfect synchronization between thought and action.",
           "title": "Hyperkinetic (Alphas)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "786e",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-786e.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-786e.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You know how to create Neuromods. Neuromods change the structure of the user's brain based on a template scanned by someone with the relevant skills referred to as a neural map or \"connectome\"; for example, a Neuromod created from a scan of a concert pianist will allow the user to have all the skills that pianist had and play as if they had always known how to. Extracting a Neuromod resets the brain to the state it was in before the Neuromod was applied, meaning not only the loss of the desired skill but also the loss of all memories obtained in the period of time since the Neuromod was installed.",
+          "title": "Neuromods (Prey)"
         }
       ],
       "requireds": [
@@ -81176,6 +81207,328 @@
           "template": 1,
           "text": "You gain the ability to transform into any one fictional character from an official source (that you recognize as fiction), as well as gaining all their abilities, memories, and skills. You have their abilities, memories, and skills even when you're not transformed, and can summon any item significant to the character at will in either form. Any character chosen that is a planet-destroyer will have their abilities weakened so that they're hard pressed to destroy a planet. Don't choose an Eldritch Abomination, you will go insane. You gain their weaknesses as well.\n\nYou can only have a single spirit active at once but can switch between them at will.",
           "title": "Grand Servant"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "bwmg",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-bwmg.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-bwmg.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You can transmogrify equipment to make it look like another piece of equipment. While it doesn't provide any practical uses, it can drastically alter the appearance of things. You can even change weapons, but too differing of appearance might hamper proper usage of the weapon.",
+          "title": "Transmogrification (Diablo)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "a0mm",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-a0mm.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-a0mm.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You can socket precious gems into equipment to grant the wearer greater power. You can combine worst-quality gems to make higher-quality gems that have greater power. Gems attached to equipment can have a variety of effects ranging from increased damage to reflecting damage.",
+          "title": "Jeweler (Diablo)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "rmb0",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-rmb0.png",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-rmb0.png",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "You know how to Sing, Dance, and Play in order to revitalize allies and motivate them to continue. Skilled usage of these abilities can improve their offensive and defensive powers, and even allow them to surpass their limits and move further than they could normally.",
+          "title": "Sing, Play, and Dance (Fire Emblem)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "huu9",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-huu9.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-huu9.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "col-md-4",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "An art form made from the corpses of monsters and only tangentially unlocked in the rarest of armors. Using parts from powerful beings you can imbue their properties into weapons and armor. This makes the weapons and armor even gain lesser abilities based on the parts they came from.",
+          "title": "Infusionist (Monster Hunter)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "gwl4",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gwl4.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gwl4.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "huu9",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Rather than using parts of of the being to create equipment with special traits and abilities. You can directly take their souls and shape it into equipment you want. This essentially skips the need to forge it and allows you to immediately begin using it.",
+          "title": "Rememberances (Elden Ring)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "cuo0",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-cuo0.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-cuo0.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "huu9",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You can create E.G.O Equipment from the being in question. While the E.G.Os are much harder and oftentimes more dangerous to use, they are a lot stronger. They have harvested Ideas from the being in question and E.G.O Equipment made from them grants you not only abilities of original, but resistances, skills, and even weaknesses. Those without sufficient willpower will find themselves consumed, but the potential for even greater power is at the tips of your finger.",
+          "title": "E.G.O (Lobotomy Corporation)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0073",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0073.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0073.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "cuo0",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Aberrations are weaker variations of Abnormalities. And the E.G.O Equipment from them is also weaker. You can reproduce your unique E.G.Os to create weaker versions of them, with weaker requirements as well.",
+          "title": "Aberrations (Wonderlab)"
         }
       ],
       "requireds": [
@@ -81367,7 +81720,7 @@
         "selFilterSepiaIsOn": false
       },
       "template": "1",
-      "title": "Transformations",
+      "title": "Esoteric & Abstract",
       "titleText": ""
     },
     {
@@ -89984,7 +90337,7 @@
           },
           "template": 1,
           "text": "",
-          "title": "Keystone/foundation Upgrades"
+          "title": "Ascension Upgrades"
         },
         {
           "addons": [],
@@ -89992,6 +90345,325 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "fvwi",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "80"
+            }
+          ],
+          "template": 1,
+          "text": "You are not a God, in a conventional sense. You are an Eldritch Being away from Human Comprehension. You stray from the Human-Centric myths and religions and never needed their faith to act. The only thing restraining you is yourself, as you grow the more you comprehend this fabric of reality. Your influence spreads as you move closer to reality, for better or worst for mortals.",
+          "title": "Nascent Eldritch"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pd91",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pd91.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pd91.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1xgy"
+                },
+                {
+                  "req": "bqul"
+                },
+                {
+                  "req": "bbio"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are the manager of the System, rather than needing faith you collect a small portion of experience mortals gift you when they gain experience. They use your system to get stronger and you get stronger through the experience they gift you. You can control their system, strengthen them or even take it away. You can even create custom skills for those you favor.",
+          "title": "System Manager"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6t2q",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": true,
+          "isPrivateStyling": true,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-12",
+          "requireds": [],
+          "scores": [],
+          "styling": {
+            "addonText": "Times New Roman",
+            "addonTextAlign": "center",
+            "addonTextColor": "#FFFFFFFF",
+            "addonTextTextSize": 100,
+            "addonTitle": "Times New Roman",
+            "addonTitleAlign": "center",
+            "addonTitleColor": "#FFFFFFFF",
+            "addonTitleTextSize": 200,
+            "backPackWidth": 1200,
+            "backgroundColor": "#000000FF",
+            "backgroundImage": "",
+            "barBackgroundColor": "#FFFFFFFF",
+            "barMargin": 0,
+            "barPadding": 0,
+            "barTextColor": "#000000",
+            "barTextFont": "Times New Roman",
+            "barTextMargin": 0,
+            "barTextPadding": 17,
+            "barTextSize": 15,
+            "objectBackgroundImage": "",
+            "objectBgColor": "#000000FF",
+            "objectBgColorIsOn": true,
+            "objectBorderColor": "#FDFDFDFF",
+            "objectBorderIsOn": false,
+            "objectBorderRadiusBottomLeft": "5",
+            "objectBorderRadiusBottomRight": "5",
+            "objectBorderRadiusIsPixels": true,
+            "objectBorderRadiusTopLeft": "5",
+            "objectBorderRadiusTopRight": "5",
+            "objectBorderStyle": "solid",
+            "objectBorderWidth": 2,
+            "objectDropShadowBlur": 0,
+            "objectDropShadowColor": "#FFEF00FF",
+            "objectDropShadowH": 0,
+            "objectDropShadowIsOn": false,
+            "objectDropShadowSpread": 0,
+            "objectDropShadowV": 0,
+            "objectHeight": true,
+            "objectImageMarginBottom": 0,
+            "objectImageMarginTop": 0,
+            "objectImageWidth": 100,
+            "objectImgBorderColor": "red",
+            "objectImgBorderIsOn": false,
+            "objectImgBorderRadiusBottomLeft": 0,
+            "objectImgBorderRadiusBottomRight": 0,
+            "objectImgBorderRadiusIsPixels": true,
+            "objectImgBorderRadiusTopLeft": 0,
+            "objectImgBorderRadiusTopRight": 0,
+            "objectImgBorderStyle": "solid",
+            "objectImgBorderWidth": 2,
+            "objectMargin": 10,
+            "objectOverflowIsOn": true,
+            "objectText": "Times New Roman",
+            "objectTextAlign": "center",
+            "objectTextColor": "#FFFFFFFF",
+            "objectTextPadding": 10,
+            "objectTextTextSize": 100,
+            "objectTitle": "Times New Roman",
+            "objectTitleAlign": "center",
+            "objectTitleColor": "#FFFFFFFF",
+            "objectTitleTextSize": 200,
+            "reqBgColorIsOn": true,
+            "reqFilterBgColor": "#6B6464FF",
+            "reqFilterBlur": 0,
+            "reqFilterBlurIsOn": false,
+            "reqFilterBright": 100,
+            "reqFilterBrightIsOn": false,
+            "reqFilterCont": 100,
+            "reqFilterContIsOn": false,
+            "reqFilterGray": 0,
+            "reqFilterGrayIsOn": false,
+            "reqFilterHue": 0,
+            "reqFilterHueIsOn": false,
+            "reqFilterInvert": "50",
+            "reqFilterInvertIsOn": false,
+            "reqFilterOpac": "25",
+            "reqFilterOpacIsOn": false,
+            "reqFilterSatur": 1,
+            "reqFilterSaturIsOn": false,
+            "reqFilterSepia": 0,
+            "reqFilterSepiaIsOn": false,
+            "reqFilterVisibleIsOn": false,
+            "rowBackgroundImage": "",
+            "rowBgColor": "#000000FF",
+            "rowBgColorIsOn": true,
+            "rowBodyMarginBottom": 25,
+            "rowBodyMarginSides": 1,
+            "rowBodyMarginTop": 25,
+            "rowBorderColor": "#FFEEDDFF",
+            "rowBorderIsOn": false,
+            "rowBorderRadiusBottomLeft": "0",
+            "rowBorderRadiusBottomRight": "0",
+            "rowBorderRadiusIsPixels": true,
+            "rowBorderRadiusTopLeft": "0",
+            "rowBorderRadiusTopRight": "0",
+            "rowBorderStyle": "solid",
+            "rowBorderWidth": 2,
+            "rowButtonXPadding": 0,
+            "rowButtonYPadding": 0,
+            "rowDesignIsAdvanced": false,
+            "rowDropShadowBlur": 0,
+            "rowDropShadowColor": "#FFFFEEFF",
+            "rowDropShadowH": 0,
+            "rowDropShadowIsOn": false,
+            "rowDropShadowSpread": 0,
+            "rowDropShadowV": 0,
+            "rowImageMarginTop": 0,
+            "rowImageWidth": 100,
+            "rowImgBorderColor": "#FFEEDDFF",
+            "rowImgBorderIsOn": false,
+            "rowImgBorderRadiusBottomLeft": 0,
+            "rowImgBorderRadiusBottomRight": 0,
+            "rowImgBorderRadiusIsPixels": true,
+            "rowImgBorderRadiusTopLeft": 0,
+            "rowImgBorderRadiusTopRight": 0,
+            "rowImgBorderStyle": "solid",
+            "rowImgBorderWidth": 2,
+            "rowImgOverflowIsOn": false,
+            "rowMargin": "5",
+            "rowOverflowIsOn": true,
+            "rowText": "Times New Roman",
+            "rowTextAlign": "center",
+            "rowTextColor": "#FFFFFFFF",
+            "rowTextPaddingX": 10,
+            "rowTextPaddingY": 5,
+            "rowTextTextSize": 100,
+            "rowTitle": "Times New Roman",
+            "rowTitleAlign": "center",
+            "rowTitleColor": "#FFFFFFFF",
+            "rowTitleTextSize": 200,
+            "scoreText": "Times New Roman",
+            "scoreTextAlign": "center",
+            "scoreTextColor": "#FFFFFFFF",
+            "scoreTextSize": 75,
+            "selBgColorIsOn": true,
+            "selFilterBgColor": "#3CAAAAFF",
+            "selFilterBlur": 0,
+            "selFilterBlurIsOn": false,
+            "selFilterBright": 100,
+            "selFilterBrightIsOn": false,
+            "selFilterCont": 100,
+            "selFilterContIsOn": false,
+            "selFilterGray": 0,
+            "selFilterGrayIsOn": false,
+            "selFilterHue": 0,
+            "selFilterHueIsOn": false,
+            "selFilterInvert": 0,
+            "selFilterInvertIsOn": false,
+            "selFilterOpac": 100,
+            "selFilterOpacIsOn": false,
+            "selFilterSatur": 1,
+            "selFilterSaturIsOn": false,
+            "selFilterSepia": 0,
+            "selFilterSepiaIsOn": false
+          },
+          "template": 1,
+          "text": "",
+          "title": "Keystone/Foundation Upgrades"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7b32",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.webp",
           "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.webp",
           "imageLink": true,
@@ -90362,6 +91034,59 @@
           "template": 1,
           "text": "As a martial artist you are utterly unmatched in unarmed combat, with dexterity, agility, strength and endurance unmatched, to make up for any lack of weaponry.\nYou have a supreme calm and focus, able to take in all details you can see an act instantly upon them. You know several supernatural martial arts which boggles the mind of lesser warriors, and are able to execute them in battle fluidly and precisely.\n\nYou seek to hone your body, mind, and spirit to it's limit, as such you find you gain far more from your training and gain it faster as well.",
           "title": "Shaolin Monk"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "nl3w",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-nl3w.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-nl3w.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "xa04"
+                },
+                {
+                  "req": "nj93"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are the spy, the hitman, the man of mystery. You are supernaturally able to understand people and charm them into following your every whim, having a person you just met throw themselves in front of a bullet of their own free will.\n\nYou also gain understanding of how to make, maintain, and use any number of gadgets related to your mission. You also gain an innate understanding of martial arts and firearms. You gain a sixth sense, able to 'feel' the presence of other people and their weaknesses.",
+          "title": "License to Kill"
         },
         {
           "addons": [],
@@ -91307,8 +92032,1118 @@
             }
           ],
           "template": 1,
-          "text": "You have incredibly heightened control over your own magic. You can cast spells almost instantaneously and without any waste whatsoever.",
+          "text": "You have incredibly heightened control over your own magic. You can cast spells almost instantaneously and without any waste whatsoever. Your magic cannot be subverted or controlled, and magic that seemed to run out of control becomes tamed under your command.",
           "title": "Control"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "49j3",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-49j3.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-49j3.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "2v19"
+                },
+                {
+                  "req": "5cbj"
+                },
+                {
+                  "req": "mv8b"
+                },
+                {
+                  "req": "5vch"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your personal flavor of magic is clean of imperfections, reducing the effort needed to wield it.\nMagical creatures and sensitive mages adore your presence and grow stronger from it, as it shows them how to improve.",
+          "title": "Infatuating Mana"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "vxg6",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-vxg6.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-vxg6.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "2v19"
+                },
+                {
+                  "req": "5cbj"
+                },
+                {
+                  "req": "mv8b"
+                },
+                {
+                  "req": "5vch"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Every cell in your body is capable of channeling magic, making your spells more potent and reducing the toll on yourself from dangerous magic and misspells.\nYou also make for fine alchemical ingredients.",
+          "title": "Magic Mitochondria"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "k257",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k257.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k257.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "2v19"
+                },
+                {
+                  "req": "5cbj"
+                },
+                {
+                  "req": "mv8b"
+                },
+                {
+                  "req": "5vch"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your magic recognizes itself and the spells you cast avoid interfering with each other unintentionally.\nIf you use a Fireball-spell inside a Blizzard-spell of yours, the blizzard avoids hurting your fireball, so no heat is lost.",
+          "title": "Harmony"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "s9cn",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-s9cn.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-s9cn.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "mv8b"
+                },
+                {
+                  "req": "5vch"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your soul is fierce and unrelenting, you cause great pain to creatures without normal biology, though you can choose not to. This can protect you from even the many eldritch monstrosities you may encounter in the space between worlds.",
+          "title": "Reality Check"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ompb",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ompb.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ompb.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ompb",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You can mark one perk at a time, and by seriously training in a related topic, you can get a discount of up to 90% on it.\nKeep in mind, the amount of effort required grows exponentially to the power of the perk. And some things are too esoteric to be trained.",
+          "title": "Blood and Sweat"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ud9z",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ud9z.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ud9z.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ompb",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "For every one selected, you gain an additional 50 CP per day. This upgrade goes up to an additional 500 CP gained per day.",
+          "title": "Greater Dailies"
+        },
+        {
+          "addons": [],
+          "cleanACtivatedOnSelect": false,
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "n19l",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-n19l.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-n19l.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "6",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "3c8l",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Increases the frequency of charges. Each purchase decreases the time between charges generated by 1 day. At max upgrades, it does 1 Charge per day.",
+          "title": "Greater Charges"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "r7d0",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-r7d0.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-r7d0.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "wci9",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Increases the frequency of charges. Each purchase halves the time between charges generated (every 12h, 6h, 3h).\n",
+          "title": "Increased Frequency (Builder)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fuyo",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fuyo.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fuyo.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "pa82",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Increases the frequency of charges. Each purchase halves the time between charges generated (every 12h, 6h, 3h).\n",
+          "title": "Increased Frequency (Engineer)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7yu2",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-7yu2.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-7yu2.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "wci9",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You generate 5 additional charges per 24h.\n",
+          "title": "Increased Charges (Builder)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "x1g7",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x1g7.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x1g7.jpeg",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "pa82",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You generate an additional charge per 24h.\n",
+          "title": "Increased Charges (Engineer)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jk1o",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-jk1o.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-jk1o.jpeg",
+          "isActive": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "Ma4f"
+                },
+                {
+                  "req": "Ma3f"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Your power is able to generate biomass to fuel its uses, meaning you are not limited to whatever material is on hand. Shifting the nature and function of biomass takes only a thought, with it automatically conforming to what you desire and what you want it to be and do.",
+          "title": "Biomass Creation"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "sezr",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-sezr.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-sezr.jpeg",
+          "isActive": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "Ma4f"
+                },
+                {
+                  "req": "Ma3f"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your body is not only just a container to your soul, it protects it just like any other part of you. Your soul can evolve with your body, granting it the same level of defense that your physical body possesses. Your mind, body, and soul are one.",
+          "title": "Soul Container"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "wolm",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-wolm.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-wolm.jpeg",
+          "isActive": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "Ma4f"
+                },
+                {
+                  "req": "Ma3f"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "7"
+            }
+          ],
+          "template": 1,
+          "text": "Your biokinesis extends to separate parts of your body, capable of acting even if you are far away. Your consciousness is no longer limited to your brain. This allows you to function consciously even if you lose your entire nervous system, and as long as biomass remains you are still alive.",
+          "title": "Incomplete"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "59ye",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-59ye.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-59ye.jpeg",
+          "isActive": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "wlso"
+                },
+                {
+                  "req": "bnvs"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your sense of self is buried deep inside your soul, in layers. If you make a horrible mistake, you can easily remake your brain, and if you fracture your soul, the memories you don't care for will be the first to go, while your ego and core memories are better protected.",
+          "title": "Personality Core"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "oty9",
+          "image": "https://commonsensegamer.com/wp-content/uploads/2022/10/Tech-Tree-in-Terra-Invicta-700x368.jpg",
+          "imageIsUrl": true,
+          "imageLink": "https://commonsensegamer.com/wp-content/uploads/2022/10/Tech-Tree-in-Terra-Invicta-700x368.jpg",
+          "isActive": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "bqul",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "bbio",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "Your Gamer Systems have fused, requiring far less experience than normal with a greater range of evolutions. It's as if they compounded on each other, you can not only grow but can predict your powers and skill evolutions to plan ahead. You can even stockpile and spend experience on skills even if you haven't used them. This allows you to level up powers that have a harder time being used.",
+          "title": "Gamer\u00b2"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "wros",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-wros.png",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-wros.png",
+          "isActive": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "bbio",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You can access the inner workings of your system(s?) through the Debugger Console. This special window grants you access to the source code and assets that run the Gamer System. The language used is unknown to you unless you have code-related powers or skills. Modifications you do through the console happen in real-time and your system will glitch out if your code has bugs. Thankfully, there is a version control system built in so you can save your modifications and revert to an earlier state if you wish.\n\nWhile you can modify the inner workings of the system and are able to change the rules, you cannot modify your player data directly and are still limited by some rules. The level of freedom you have with your modifications depends on how strong you are.",
+          "title": "Debugger Console"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1sn2",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1sn2.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1sn2.jpeg",
+          "isActive": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "2v19"
+                },
+                {
+                  "req": "5cbj"
+                },
+                {
+                  "req": "wlso"
+                },
+                {
+                  "req": "bnvs"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You can awaken the talents you possess into another. To impart the capabilities to use supernatural power within them to grow just like you do. While they may not possess the library of knowledge you have, you can still teach them many more. If you are teaching them personally, they grow leaps and bounds faster than self-study.",
+          "title": "Awakener"
         }
       ],
       "requireds": [
@@ -91657,6 +93492,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -91666,6 +93502,183 @@
           "template": 1,
           "text": "You gain possession of an Omnitrix. You also gain an understanding of how to operate it.\n\n(The Entities and Enbringers lack DNA, the Omnitrix cannot transform you into them)",
           "title": "Omnitrix"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7fhk",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-7fhk.png",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-7fhk.png",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "5w1s",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "s6cg",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You possess the Ultimate Omnitrix, otherwise known as Ultimatrix, that can function not only as a normal Omnitrix but can evolve the aliens with the Evolutionary Feature to gain far stronger alien forms.\n\nThis Ultimatrix lacks the flaws of its predecessors and doesn't have any known bugs that the previous Ultimatrix possessed.",
+          "title": "Ultimatrix"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "s6cg",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-s6cg.png",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-s6cg.png",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "5w1s",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "7fhk",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You possess the Biomatrix, capable of fusing two aliens together. This dual-Omnitrix can also work as a normal Omnitrix by just using one. While the fused alien can use the powers and abilities of both, they aren't as strong as the single-transformed version.",
+          "title": "Biomatrix"
         },
         {
           "addons": [],
@@ -92520,6 +94533,35 @@
           "template": 1,
           "text": "You are now a master at all games, and your Yu-Gi-Oh deck is upgraded to include a card of legendary Strength, such as a God card, a Number card, or any card that radically gives you an advantage.\n\nYou now magically summon monsters made of flesh and blood to be at your bec and call, summoning requirements apply and you need to be in a fight to tribute monsters, you may also actually cast spell cards and set and use traps while in battle. ",
           "title": "King of Games (Yu-Gi-Oh)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "c1za",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1za.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1za.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "The artifact known as Kanai\u2019s Cube is said to have incomprehensible powers of transmutation. With the potential for transmutation and alchemy, it can do more than transmute one material into another and one gem into a different gem. The Kenai's Cube can upgrade items into legendary treasures and open portals to teleport from one place to another. It can even break down legendary artifacts to passively grant you it's power without even wearing it.",
+          "title": "Kenai's Cube (Diablo)"
         }
       ],
       "requireds": [
@@ -103219,6 +105261,114 @@
           "template": 1,
           "text": "You find yourself on the bright side of the Moon.",
           "title": "Moon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "a79v",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-25"
+            }
+          ],
+          "template": 1,
+          "text": "You find yourself inside the center of the Sun.",
+          "title": "Sun"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ydso",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            }
+          ],
+          "template": 1,
+          "text": "You find yourself stranded on Mars.",
+          "title": "Mars"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "z46k",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
+            }
+          ],
+          "template": 1,
+          "text": "You find yourself stranded on a random asteroid in the Asteroid Belt.",
+          "title": "Mars"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "d9nr",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            }
+          ],
+          "template": 1,
+          "text": "You find yourself floating in space, orbiting Earth like a satellite.",
+          "title": "Orbiting Earth"
         }
       ],
       "requireds": [
