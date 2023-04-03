@@ -24773,6 +24773,174 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "vllg",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "d0mx",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "choice",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "You can't explain your powers to others. If you try to, no information is conveyed in the attempt, even if the explanation was a lie (speech sounds silent, writing doesn't appear on the page, etc). Others can come to their own conclusions on how your powers work just fine, although attempts to confirm or deny their theories fail as well.",
+          "title": "In One Ear..."
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "h7le",
           "image": "",
           "isActive": false,
@@ -25893,6 +26061,68 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "yf15",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "kht1"
+                },
+                {
+                  "req": "8tcr"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            }
+          ],
+          "template": 1,
+          "text": "You forget everything from your current life. You are like a walking duckling who has no clue who or what everything is unless you have Wildbow's predictions. Any friends your current life made, any family, and even any enemies. You don't remember them.",
+          "title": "Amnesia"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "1gaf",
           "image": "",
           "isActive": false,
@@ -25923,6 +26153,42 @@
           "template": 1,
           "text": "You forget everything from your first life EXCEPT Wildbow's predictions. Wow, that's some serious dedication. You don't remember your thoughts or feelings about Wildbow's predictions, just the facts.",
           "title": "Selective Amnesia"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ebmg",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            }
+          ],
+          "template": 1,
+          "text": "You are incredibly annoying, cocky, and arrogant to your last breath. Most people would garner actual hate and disgust for you and your attitude after a single sentence",
+          "title": "Smarmy Asshole"
         },
         {
           "addons": [],
@@ -26019,6 +26285,143 @@
           "template": 1,
           "text": "Good news, you have a teleportation power. Bad news, it only works when no one is looking at you through mundane means and you can't control it. It's also global in scale. ",
           "title": "Ryoga Hibiki"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "7zmv",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-7zmv.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-7zmv.jpeg",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multiplyPointtypeIsOn": false,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "q1l1",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            }
+          ],
+          "template": 1,
+          "text": "Good news, you no long teleport around the Earth at random,\nBad news you now teleport across the multiverse at random. \nYou are stuck in the universe you arrive in for one hour, you will not be teleported somewhere where you instantly die, such as a volcano or space, and when your hour is up you are returned to a random place from the place you left.\nThe place you arrive at can range from hugely beneficial, such as inside Scrouge Mcducks vault, to rather benign, such as a random street in Kings Landing, or even very dangerous, such as Commoragh in Warhammer 40k. This means you have a 1/3 chance of being in immediate Danger.\n\nAfter 100 jumps this power wears off.",
+          "title": "Reluctant Dimension Hopper"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xf0h",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xf0h.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-xf0h.jpeg",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "7zmv",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-40"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-40"
+            }
+          ],
+          "template": 1,
+          "text": "Oh. Oh no. Don't pick this.\nSo, usually, when you hop dimensions the location is 2/3 times going to be fine, but with this option every dimension you travel to, you will be faced with immediate and life-threatening danger, still unable to leave for 1 hour, thankfully whoever did this to you has a little mercy and this will wear off in 50 jumps if you can survive.\nAlso gives you a free pair of AMAZING (yet mundane) running shoes. \n",
+          "title": "Reluctant Dimension Hopper"
         },
         {
           "addons": [],
@@ -79920,8 +80323,8 @@
             }
           ],
           "template": 1,
-          "text": "You know how to create Neuromods. Neuromods change the structure of the user's brain based on a template scanned by someone with the relevant skills referred to as a neural map or \"connectome\"; for example, a Neuromod created from a scan of a concert pianist will allow the user to have all the skills that pianist had and play as if they had always known how to. Extracting a Neuromod resets the brain to the state it was in before the Neuromod was applied, meaning not only the loss of the desired skill but also the loss of all memories obtained in the period of time since the Neuromod was installed.",
-          "title": "Neuromods (Prey)"
+          "text": "You have the knowledge and capabilities to build the wonderful technology found on Talos I. Their most notable invention is Neuromods, capable of implanting skills and other things scanned from the brains of a target to implant within yourself. But you also have access to other technology such as drones, recycling bombs, and even fabricators.",
+          "title": "Talos I (Prey)"
         }
       ],
       "requireds": [
@@ -88130,7 +88533,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-12",
           "requireds": [
             {
               "afterText": "",
@@ -88437,66 +88840,6 @@
           "template": 1,
           "text": "You are a divine entity within the grand celestial bureaucracy. Luckily for you, the region of the multiverse you operate in is sparsely populated by other gods and your superiors are very hands-off as long as you work towards the perpetuation of Creation.\n\nYou have dominion over a primary Domain, which can be things such as fire, war, administration, or cheese, and two related secondary Domains, such as weapon for war or storm for water. From these Domains, you gain Charms which are the expression of your divine dominion. As you grow in power, you will be able to gain more Charms and pick up more domains.\n\nYour true self resides in your Sanctuary, a pocket universe which is under your complete dominion and is the only place you can truly be killed in. This Sanctuary will be influenced by your domains and will grow as you do as it is, in essence, a part of you. Outside of your domain, your powers are more limited but still formidable. Your avatar can take any form you desire. If your avatar is killed outside of your domain, something not easy to acheive, you will revive within the hour in your center of power.\n\nThe strength of your divinity is proportional to the amount of followers you have and the fervor of their faith. To aid you in this, you are able to empower champions with aspects of your power to gather followers for you. It is also possible to grant boons or powers from your Domains in response to prayers or to any mortal you encounter. You can choose to let the souls of mortals who die into your domain and can set the rules under which they can do so. If multiple divines stake a claim to the same soul, they are given the choice of where to go.\n",
           "title": "Nascent Divine"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "uiu9",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.jpeg",
-          "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.jpeg",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "col-sm-6",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "shm2",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "80"
-            }
-          ],
-          "template": 1,
-          "text": "You are not a God, in a conventional sense. You are an Eldritch Being away from Human Comprehension. You stray from the Human-Centric myths and religions and never needed their faith to act. The only thing restraining you is yourself, as you grow the more you comprehend this fabric of reality. Your influence spreads as you move closer to reality, for better or worst for mortals.",
-          "title": "Nascent Eldritch"
         }
       ],
       "requireds": [
@@ -90504,267 +90847,6 @@
       "isResultRow": false,
       "objectWidth": "col-md-3",
       "objects": [
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "1p6q",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1p6q.webp",
-          "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1p6q.webp",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "p7br",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "985a",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "The Lor Starcutter is an ancient vessel that was crafted by the ancients, people of the past who made legendary treasures and pieces of technology. The ship was apparently crafted using an \u201cincredible power.\u201d The ship has the ability to travel throughout space and time by creating dimensional rifts. ",
-          "title": "Lor Starcutter"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "vzmq",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-vzmq.webp",
-          "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-vzmq.webp",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "1p6q",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "eo6y"
-                },
-                {
-                  "req": "m6kb"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "5cbj",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "This is a planet-sized supercomputer that uses both magic and science to warp reality to an absurd level, able to alter the laws of the universe at will.",
-          "title": "Clockwork Star"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": "3",
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ompb",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ompb.jpeg",
-          "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ompb.jpeg",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "ompb",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "You can mark one perk at a time, and by seriously training in a related topic, you can get a discount of up to 90% on it.\nKeep in mind, the amount of effort required grows exponentially to the power of the perk. And some things are too esoteric to be trained.",
-          "title": "Blood and Sweat"
-        },
         {
           "addons": [],
           "defaultAspectHeight": 1,
@@ -93248,6 +93330,66 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "fvwi",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.jpeg",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "80"
+            }
+          ],
+          "template": 1,
+          "text": "You are not a God, in a conventional sense. You are an Eldritch Being away from Human Comprehension. You stray from the Human-Centric myths and religions and never needed their faith to act. The only thing restraining you is yourself, as you grow the more you comprehend this fabric of reality. Your influence spreads as you move closer to reality, for better or worst for mortals.",
+          "title": "Nascent Eldritch"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "pd91",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pd91.jpeg",
           "imageIsUrl": true,
@@ -93328,6 +93470,207 @@
           "template": 1,
           "text": "You are the manager of the System, rather than needing faith you collect a small portion of experience mortals gift you when they gain experience. They use your system to get stronger and you get stronger through the experience they gift you. You can control their system, strengthen them or even take it away. You can even create custom skills for those you favor.",
           "title": "System Manager"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1p6q",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1p6q.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1p6q.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "p7br",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "985a",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "The Lor Starcutter is an ancient vessel that was crafted by the ancients, people of the past who made legendary treasures and pieces of technology. The ship was apparently crafted using an \u201cincredible power.\u201d The ship has the ability to travel throughout space and time by creating dimensional rifts. ",
+          "title": "Lor Starcutter"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "vzmq",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-vzmq.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-vzmq.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "1p6q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "eo6y"
+                },
+                {
+                  "req": "m6kb"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "5cbj",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "This is a planet-sized supercomputer that uses both magic and science to warp reality to an absurd level, able to alter the laws of the universe at will.",
+          "title": "Clockwork Star"
         },
         {
           "addons": [],
@@ -96207,9 +96550,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "vvbj",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ud9z.jpeg",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-vvbj.jpeg",
           "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ud9z.jpeg",
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-vvbj.jpeg",
           "isActive": false,
           "isMultipleUseVariable": true,
           "isNotSelectable": false,
