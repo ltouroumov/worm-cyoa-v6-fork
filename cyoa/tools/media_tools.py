@@ -279,6 +279,10 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             img_size_kb = img_size / 1024.0
             total_before += img_size_kb
 
+            if img is None:
+                console.print(img_type)
+                continue
+
             if (
                 (args.filter_size_gte is None or img_size_kb >= args.filter_size_gte) and
                 img_type not in ('data:image/webp',)

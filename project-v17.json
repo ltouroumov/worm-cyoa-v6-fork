@@ -1,7 +1,5 @@
 {
-  "activated": [
-    ""
-  ],
+  "activated": [],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -58824,7 +58822,7 @@
             }
           ],
           "template": 1,
-          "text": "You can create one perfect clone of yourself each day. All your clones are part of a Hive Mind under your control, meaning you all share your consciousnesses with each other, with you being in charge of it all. Your Hive Mind has all your powers at 100% capacity EXCEPT Hive Mind itself.",
+          "text": "You can create one perfect clone of yourself each day. All your clones are part of a Hive Mind under your control, meaning you all share your consciousnesses with each other, with you being in charge of it all. Your Hive Mind shares all your powers at 100% capacity EXCEPT Hive Mind itself.\nShould the original you die, a random clone will become the original.",
           "title": "(Master) Hive Mind"
         },
         {
@@ -75484,7 +75482,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -75515,7 +75513,7 @@
             }
           ],
           "template": 1,
-          "text": "You can teleport to any place you have been before or anywhere within your line of sight. Whenever you teleport you can choose to move one of your existing bodies there or create a new body at the destination. You can have a maximum of 5 bodies at a time, you can dismiss any body at will unless you have only one. All your bodies form a single hive-mind. Your strength is inversely proportional to the number of active copies. ",
+          "text": "You can teleport to any place you have been before or anywhere within your line of sight. Whenever you teleport you can choose to move one of your existing bodies there or create a new body at the destination. You can have a maximum of 5 bodies at a time, you can dismiss any body at will unless you have only one. All your bodies form a single hive-mind. You get stronger with less active copies, being 5 times as strong with a single body. ",
           "title": "Harem"
         },
         {
@@ -75595,7 +75593,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "30"
+              "value": "20"
             }
           ],
           "template": 1,
@@ -75623,7 +75621,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "35"
+              "value": "25"
             }
           ],
           "template": 1,
@@ -75735,7 +75733,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "30"
+              "value": "20"
             }
           ],
           "template": 1,
@@ -76593,7 +76591,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "25"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -76820,6 +76818,35 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "h3u2",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h3u2.jpeg",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h3u2.jpeg",
+          "imageLink": true,
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "A pretty diversified skill giving more intensity and consistency to your imagination from training against mental images to visualizing a mind projection of yourself countering the attacks of your opponent before the fight even started. \n\nThis power also grants one the ability to like masters of old to develop their own fighting style or styles from observing the movements of animals along with copying the moves martial artists you have watched or faced in combat.\n\nYou are still limited by your own physical capabilities so unless you have a superhuman physique don't expect you will be able to perform superhuman feats with this skill.",
+          "title": "Imagination Power (Baki)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "759c",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-759c.webp",
           "imageIsUrl": true,
@@ -76900,35 +76927,6 @@
           "template": 1,
           "text": "Your ability to plan and make predictive deductions is truly staggering. Whether in a bout of fisticuffs or at the chessboard, you are dozens of steps ahead of your opponents. Able to visualize entire engagements from beginning to end before the first blow is ever struck. This power includes minor supporting improvements to general intelligence, mental processing speed, multitasking ability, and senses.",
           "title": "Sherlock Scan "
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "h3u2",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h3u2.jpeg",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h3u2.jpeg",
-          "imageLink": true,
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "A pretty diversified skill giving more intensity and consistency to your imagination from training against mental images to visualizing a mind projection of yourself countering the attacks of your opponent before the fight even started. \n\nThis power also grants one the ability to like masters of old to develop their own fighting style or styles from observing the movements of animals along with copying the moves martial artists you have watched or faced in combat.\n\nYou are still limited by your own physical capabilities so unless you have a superhuman physique don't expect you will be able to perform superhuman feats with this skill.",
-          "title": "Imagination Power (Baki)"
         },
         {
           "addons": [],
@@ -79812,37 +79810,7 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "col-md-3",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "l6nj",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -79871,37 +79839,7 @@
           "isActive": false,
           "isVisible": true,
           "objectWidth": "col-md-3",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "dy8n",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
+          "requireds": [],
           "scores": [
             {
               "afterText": "SP",
@@ -79911,7 +79849,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "17"
             }
           ],
           "template": 1,
@@ -81131,7 +81069,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -81158,7 +81096,7 @@
           "image": "",
           "isActive": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -81191,7 +81129,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -81224,7 +81162,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -81257,7 +81195,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -81290,7 +81228,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -81323,7 +81261,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -81357,7 +81295,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -81420,7 +81358,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -81483,7 +81421,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "5",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -81529,6 +81467,102 @@
           "template": 1,
           "text": "Aberrations are weaker variations of Abnormalities. And the E.G.O Equipment from them is also weaker. You can reproduce your unique E.G.Os to create weaker versions of them, with weaker requirements as well.",
           "title": "Aberrations (Wonderlab)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "pz3p",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pz3p.avif",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pz3p.avif",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You seem to have been accidentally added to the Multiversal Chat group that allows you to communicate with a multiversal group of people that belong to a certain archetype (magicians, cultivators, mad scientists, etc.), some of which you'll recognize from fiction, but others you will not. \nYou can access this chat group through your phone (or any other device that allows for long-distance communication).",
+          "title": "Multiversal Chatgroup"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6nul",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-6nul.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-6nul.webp",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "pz3p",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have access to a Multiversal Marketplace that allows you to anonymously barter and trade various things between various random worlds. These trades are protected by the marketplace rules and even protect you should someone try to immediately take back what you rightfully bought.",
+          "title": "Multiversal Marketplace"
         }
       ],
       "requireds": [
@@ -85818,7 +85852,7 @@
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-12",
+          "objectWidth": "col-sm-6",
           "requireds": [
             {
               "afterText": "",
@@ -86087,6 +86121,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -86096,6 +86131,65 @@
           "template": 1,
           "text": "You are a divine entity within the grand celestial bureaucracy. Luckily for you, the region of the multiverse you operate in is sparsely populated by other gods and your superiors are very hands-off as long as you work towards the perpetuation of Creation.\n\nYou have dominion over a primary Domain, which can be things such as fire, war, administration, or cheese, and two related secondary Domains, such as weapon for war or storm for water. From these Domains, you gain Charms which are the expression of your divine dominion. As you grow in power, you will be able to gain more Charms and pick up more domains.\n\nYour true self resides in your Sanctuary, a pocket universe which is under your complete dominion and is the only place you can truly be killed in. This Sanctuary will be influenced by your domains and will grow as you do as it is, in essence, a part of you. Outside of your domain, your powers are more limited but still formidable. Your avatar can take any form you desire. If your avatar is killed outside of your domain, something not easy to acheive, you will revive within the hour in your center of power.\n\nThe strength of your divinity is proportional to the amount of followers you have and the fervor of their faith. To aid you in this, you are able to empower champions with aspects of your power to gather followers for you. It is also possible to grant boons or powers from your Domains in response to prayers or to any mortal you encounter. You can choose to let the souls of mortals who die into your domain and can set the rules under which they can do so. If multiple divines stake a claim to the same soul, they are given the choice of where to go.\n",
           "title": "Nascent Divine"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "uiu9",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-sm-6",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "80"
+            }
+          ],
+          "template": 1,
+          "text": "You are not a God, in a conventional sense. You are an Eldritch Being away from Human Comprehension. You stray from the Human-Centric myths and religions and never needed their faith to act. The only thing restraining you is yourself, as you grow the more you comprehend this fabric of reality. Your influence spreads as you move closer to reality, for better or worst for mortals.",
+          "title": "Nascent Eldritch"
         }
       ],
       "requireds": [
@@ -89452,6 +89546,290 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "pd91",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pd91.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pd91.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "shm2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "1xgy"
+                },
+                {
+                  "req": "bqul"
+                },
+                {
+                  "req": "bbio"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are the manager of the System, rather than needing faith you collect a small portion of experience mortals gift you when they gain experience. They use your system to get stronger and you get stronger through the experience they gift you. You can control their system, strengthen them or even take it away. You can even create custom skills for those you favor.",
+          "title": "System Manager"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "1p6q",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1p6q.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-1p6q.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "p7br",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "985a",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "The Lor Starcutter is an ancient vessel that was crafted by the ancients, people of the past who made legendary treasures and pieces of technology. The ship was apparently crafted using an \u201cincredible power.\u201d The ship has the ability to travel throughout space and time by creating dimensional rifts. ",
+          "title": "Lor Starcutter"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "vzmq",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-vzmq.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-vzmq.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "1p6q",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "eo6y"
+                },
+                {
+                  "req": "m6kb"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "5cbj",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "This is a planet-sized supercomputer that uses both magic and science to warp reality to an absurd level, able to alter the laws of the universe at will.",
+          "title": "Clockwork Star"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "ra0c",
           "image": "",
           "isActive": false,
@@ -90163,325 +90541,6 @@
           "template": 1,
           "text": "The Celestial Inventory comes with a dimensional pocket where you can store and retrieve objects, liquids, gases, or any other tangible thing. The pocket space has unlimited capacity and contained entities do not come into contact.\n\nYou can move an object of any size smaller than 100m<sup>3</sup> instantly, larger objects will take 1s per additional 100m<sup>3</sup>. You can only move objects as a whole, you cannot only store part of a building for example. Liquids and gases move at a rate of 100m<sup>3</sup> per second. You can move arbitrary volumes of liquids and gasses.\n\nThe pocket dimension has its own search and favorites system.",
           "title": "Dimensional Pocket (Celestial Inventory)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "0j9b",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": true,
-          "isPrivateStyling": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "col-12",
-          "requireds": [],
-          "scores": [],
-          "styling": {
-            "addonText": "Times New Roman",
-            "addonTextAlign": "center",
-            "addonTextColor": "#FFFFFFFF",
-            "addonTextTextSize": 100,
-            "addonTitle": "Times New Roman",
-            "addonTitleAlign": "center",
-            "addonTitleColor": "#FFFFFFFF",
-            "addonTitleTextSize": 200,
-            "backPackWidth": 1200,
-            "backgroundColor": "#000000FF",
-            "backgroundImage": "",
-            "barBackgroundColor": "#FFFFFFFF",
-            "barMargin": 0,
-            "barPadding": 0,
-            "barTextColor": "#000000",
-            "barTextFont": "Times New Roman",
-            "barTextMargin": 0,
-            "barTextPadding": 17,
-            "barTextSize": 15,
-            "objectBackgroundImage": "",
-            "objectBgColor": "#000000FF",
-            "objectBgColorIsOn": true,
-            "objectBorderColor": "#FDFDFDFF",
-            "objectBorderIsOn": false,
-            "objectBorderRadiusBottomLeft": "5",
-            "objectBorderRadiusBottomRight": "5",
-            "objectBorderRadiusIsPixels": true,
-            "objectBorderRadiusTopLeft": "5",
-            "objectBorderRadiusTopRight": "5",
-            "objectBorderStyle": "solid",
-            "objectBorderWidth": 2,
-            "objectDropShadowBlur": 0,
-            "objectDropShadowColor": "#FFEF00FF",
-            "objectDropShadowH": 0,
-            "objectDropShadowIsOn": false,
-            "objectDropShadowSpread": 0,
-            "objectDropShadowV": 0,
-            "objectHeight": true,
-            "objectImageMarginBottom": 0,
-            "objectImageMarginTop": 0,
-            "objectImageWidth": 100,
-            "objectImgBorderColor": "red",
-            "objectImgBorderIsOn": false,
-            "objectImgBorderRadiusBottomLeft": 0,
-            "objectImgBorderRadiusBottomRight": 0,
-            "objectImgBorderRadiusIsPixels": true,
-            "objectImgBorderRadiusTopLeft": 0,
-            "objectImgBorderRadiusTopRight": 0,
-            "objectImgBorderStyle": "solid",
-            "objectImgBorderWidth": 2,
-            "objectMargin": 10,
-            "objectOverflowIsOn": true,
-            "objectText": "Times New Roman",
-            "objectTextAlign": "center",
-            "objectTextColor": "#FFFFFFFF",
-            "objectTextPadding": 10,
-            "objectTextTextSize": 100,
-            "objectTitle": "Times New Roman",
-            "objectTitleAlign": "center",
-            "objectTitleColor": "#FFFFFFFF",
-            "objectTitleTextSize": 200,
-            "reqBgColorIsOn": true,
-            "reqFilterBgColor": "#6B6464FF",
-            "reqFilterBlur": 0,
-            "reqFilterBlurIsOn": false,
-            "reqFilterBright": 100,
-            "reqFilterBrightIsOn": false,
-            "reqFilterCont": 100,
-            "reqFilterContIsOn": false,
-            "reqFilterGray": 0,
-            "reqFilterGrayIsOn": false,
-            "reqFilterHue": 0,
-            "reqFilterHueIsOn": false,
-            "reqFilterInvert": "50",
-            "reqFilterInvertIsOn": false,
-            "reqFilterOpac": "25",
-            "reqFilterOpacIsOn": false,
-            "reqFilterSatur": 1,
-            "reqFilterSaturIsOn": false,
-            "reqFilterSepia": 0,
-            "reqFilterSepiaIsOn": false,
-            "reqFilterVisibleIsOn": false,
-            "rowBackgroundImage": "",
-            "rowBgColor": "#000000FF",
-            "rowBgColorIsOn": true,
-            "rowBodyMarginBottom": 25,
-            "rowBodyMarginSides": 1,
-            "rowBodyMarginTop": 25,
-            "rowBorderColor": "#FFEEDDFF",
-            "rowBorderIsOn": false,
-            "rowBorderRadiusBottomLeft": "0",
-            "rowBorderRadiusBottomRight": "0",
-            "rowBorderRadiusIsPixels": true,
-            "rowBorderRadiusTopLeft": "0",
-            "rowBorderRadiusTopRight": "0",
-            "rowBorderStyle": "solid",
-            "rowBorderWidth": 2,
-            "rowButtonXPadding": 0,
-            "rowButtonYPadding": 0,
-            "rowDesignIsAdvanced": false,
-            "rowDropShadowBlur": 0,
-            "rowDropShadowColor": "#FFFFEEFF",
-            "rowDropShadowH": 0,
-            "rowDropShadowIsOn": false,
-            "rowDropShadowSpread": 0,
-            "rowDropShadowV": 0,
-            "rowImageMarginTop": 0,
-            "rowImageWidth": 100,
-            "rowImgBorderColor": "#FFEEDDFF",
-            "rowImgBorderIsOn": false,
-            "rowImgBorderRadiusBottomLeft": 0,
-            "rowImgBorderRadiusBottomRight": 0,
-            "rowImgBorderRadiusIsPixels": true,
-            "rowImgBorderRadiusTopLeft": 0,
-            "rowImgBorderRadiusTopRight": 0,
-            "rowImgBorderStyle": "solid",
-            "rowImgBorderWidth": 2,
-            "rowImgOverflowIsOn": false,
-            "rowMargin": "5",
-            "rowOverflowIsOn": true,
-            "rowText": "Times New Roman",
-            "rowTextAlign": "center",
-            "rowTextColor": "#FFFFFFFF",
-            "rowTextPaddingX": 10,
-            "rowTextPaddingY": 5,
-            "rowTextTextSize": 100,
-            "rowTitle": "Times New Roman",
-            "rowTitleAlign": "center",
-            "rowTitleColor": "#FFFFFFFF",
-            "rowTitleTextSize": 200,
-            "scoreText": "Times New Roman",
-            "scoreTextAlign": "center",
-            "scoreTextColor": "#FFFFFFFF",
-            "scoreTextSize": 75,
-            "selBgColorIsOn": true,
-            "selFilterBgColor": "#3CAAAAFF",
-            "selFilterBlur": 0,
-            "selFilterBlurIsOn": false,
-            "selFilterBright": 100,
-            "selFilterBrightIsOn": false,
-            "selFilterCont": 100,
-            "selFilterContIsOn": false,
-            "selFilterGray": 0,
-            "selFilterGrayIsOn": false,
-            "selFilterHue": 0,
-            "selFilterHueIsOn": false,
-            "selFilterInvert": 0,
-            "selFilterInvertIsOn": false,
-            "selFilterOpac": 100,
-            "selFilterOpacIsOn": false,
-            "selFilterSatur": 1,
-            "selFilterSaturIsOn": false,
-            "selFilterSepia": 0,
-            "selFilterSepiaIsOn": false
-          },
-          "template": 1,
-          "text": "",
-          "title": "Ascension Upgrades"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "fvwi",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.jpeg",
-          "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.jpeg",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "shm2",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "80"
-            }
-          ],
-          "template": 1,
-          "text": "You are not a God, in a conventional sense. You are an Eldritch Being away from Human Comprehension. You stray from the Human-Centric myths and religions and never needed their faith to act. The only thing restraining you is yourself, as you grow the more you comprehend this fabric of reality. Your influence spreads as you move closer to reality, for better or worst for mortals.",
-          "title": "Nascent Eldritch"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "pd91",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pd91.jpeg",
-          "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pd91.jpeg",
-          "isActive": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "shm2",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "1xgy"
-                },
-                {
-                  "req": "bqul"
-                },
-                {
-                  "req": "bbio"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "You are the manager of the System, rather than needing faith you collect a small portion of experience mortals gift you when they gain experience. They use your system to get stronger and you get stronger through the experience they gift you. You can control their system, strengthen them or even take it away. You can even create custom skills for those you favor.",
-          "title": "System Manager"
         },
         {
           "addons": [],
@@ -91571,29 +91630,6 @@
           "multipleUseVariable": 0,
           "objectWidth": "",
           "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "1ud6"
-                },
-                {
-                  "req": "2epe"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            },
             {
               "afterText": "",
               "beforeText": "Required:",
