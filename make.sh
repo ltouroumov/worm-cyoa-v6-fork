@@ -30,6 +30,7 @@ python3 -m cyoa.tools.client media.extract --project $PROJECT \
 python3 -m cyoa.tools.client project.patch --project $PROJECT \
   --patch cyoa.patch:FixScoreLabels \
           cyoa.patch:FixConditionLabels \
+          cyoa.patch:ClearEditingFlag \
           cyoa.patch:FixMultiSelectCounters
 
 # Update the viewer

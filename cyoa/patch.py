@@ -54,3 +54,9 @@ class FixIsNotSelectableFlag(PatchBase):
     def patch_points(self, score):
         if 'isActive' in score and score['isActive'] is False:
             del score['isActive']
+
+class ClearEditingFlag(PatchBase):
+    @patch(target='row')
+    def patch_row(self, row):
+        if row.get('isEditModeOn', False):
+            row['isEditModeOn'] = False
