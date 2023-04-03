@@ -115,7 +115,7 @@ SPECIAL_KEYS = (
 )
 
 # Theses keys shouldn't be modified
-IGNORE_KEYS = ('currentChoices', 'isActive', 'isEditModeOn')
+IGNORE_KEYS = ('currentChoices', 'isActive', 'isEditModeOn','isNotSelectable')
 
 SPECIAL_DISPLAY = {
     'scores': lambda scores: Text.assemble(*intercalate("\n", [
@@ -174,8 +174,9 @@ def update_dict(old_data: dict, new_data: dict):
     diff_table = Table(show_header=False, show_lines=False)
     for key in chain(SPECIAL_KEYS, rest_keys):
         if key in IGNORE_KEYS:
-            # Don't change an ignored key
-            result_dict[key] = old_data[key]
+            if key in old_data:
+                # Don't change an ignored key
+                result_dict[key] = old_data[key]
         elif key in old_data and key in new_data and old_data[key] != new_data[key]:
             diff_table.add_row(key,
                                show_value(old_data[key], key),
@@ -201,11 +202,7 @@ def update_dict(old_data: dict, new_data: dict):
         elif key in old_data:
             result_dict[key] = old_data[key]
 
-    console.log(diff_table)
-    if result_changed:
-        return result_dict
-    else:
-        return old_data
+    return result_dict, result_changed, diff_table
 
 
 class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
@@ -246,13 +243,18 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                            (len(args.only_objs) > 0 and old_obj['id'] not in args.only_objs))
             if should_skip:
                 if args.verbose:
-                    console.log(f"  Skipped Updated Item ({old_obj['id']}): {old_obj['title']}",
+                    console.print(f"  Skipped Updated Item ({old_obj['id']}): {old_obj['title']}",
                                 style="dark_slate_gray1 italic")
                 return old_obj
-
-            console.log(f"  Updated Item ({old_obj['id']}): {old_obj['title']}",
-                        style="orange1")
-            return update_dict(old_obj, new_obj)
+            
+            updated_obj, has_changed, diff_table = update_dict(old_obj, new_obj)
+            if has_changed:
+                console.print(f"  Updated Item ({old_obj['id']}): {old_obj['title']}",
+                            style="orange1")
+                console.print(diff_table)
+                return updated_obj
+            else:
+                return old_obj
 
         def delete_object(items):
             excluded_rows = []
@@ -267,10 +269,12 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                         )
                     excluded_rows.append(item)
                     continue
-                console.log(
+                
+                _, _, diff_table = update_dict(item, item)
+                console.print(
                     f"  Deleted Item ({item['id']}): {item['title']}", style="red"
                 )
-                update_dict(item, item)
+                console.print(diff_table)
 
             return excluded_rows
 
@@ -281,39 +285,41 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                                (len(args.only_objs) > 0 and item['id'] not in args.only_objs))
                 if should_skip:
                     if args.verbose:
-                        console.log(
+                        console.print(
                             f"  Skipped Inserted Item ({item['id']}): {item['title']}", style="dark_slate_gray1 italic"
                         )
                     continue
-
-                console.log(
+                
+                
+                _, _, diff_table = update_dict(item, item)
+                console.print(
                     f"  Inserted Item ({item['id']}): {item['title']}", style="green"
                 )
-                update_dict(item, item)
+                console.print(diff_table)
                 included_rows.append(item)
 
             return included_rows
 
         def objects_summary(equal_count, replace_count, delete_count, insert_count):
             if replace_count > 0:
-                console.log(f"  Total Updated Objects: {replace_count}")
+                console.print(f"  Total Updated Objects: {replace_count}")
             if delete_count > 0:
-                console.log(f"  Total Deleted Objects: {delete_count}")
+                console.print(f"  Total Deleted Objects: {delete_count}")
             if insert_count > 0:
-                console.log(f"  Total Inserted Objects: {insert_count}")
+                console.print(f"  Total Inserted Objects: {insert_count}")
 
         def update_row(old_row, new_row):
             should_skip = (old_row['id'] in args.skip_rows or
                            (len(args.only_rows) > 0 and old_row['id'] not in args.only_rows))
             if should_skip:
                 if args.verbose:
-                    console.log(
+                    console.print(
                         f"Skipped Updated Row ({old_row['id']}): {old_row['title']}",
                         style="dark_slate_gray1 italic"
                     )
                 return old_row
 
-            console.log(
+            console.print(
                 f"Updated Row ({old_row['id']}): {old_row['title']}", style="orange1"
             )
 
@@ -322,8 +328,12 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
 
             # Handle updated properties
             if obj_hash(old_row) != obj_hash(new_row):
-                console.log("  Updated Row Data", style="orange1")
-                updated_row = update_dict(old_row, new_row)
+                updated_row, has_changed, diff_table = update_dict(old_row, new_row)
+                if has_changed:
+                    console.print("  Updated Row Data", style="orange1")
+                    console.print(diff_table)
+                else:
+                    updated_row = old_row
             else:
                 updated_row = old_row
 
@@ -350,17 +360,18 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                                (len(args.only_rows) > 0 and row['id'] not in args.only_rows))
                 if should_skip:
                     if args.verbose:
-                        console.log(
+                        console.print(
                             f"Skipped Deleted Row ({row['id']}): {row['title']}",
                             style="dark_slate_gray1 italic"
                         )
                     excluded_rows.append(row)
                     continue
 
-                console.log(
+                _, _, diff_table = update_dict(row, row)
+                console.print(
                     f"Deleted Row ({row['id']}): {row['title']}", style="red"
                 )
-                update_dict(row, row)
+                console.print(diff_table)
 
             return excluded_rows
 
@@ -371,16 +382,18 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                                (len(args.only_rows) > 0 and row['id'] not in args.only_rows))
                 if should_skip:
                     if args.verbose:
-                        console.log(
+                        console.print(
                             f"Skipped Inserted Row ({row['id']}): {row['title']}", style="dark_slate_gray1 italic"
                         )
                     continue
-                console.log(
+                console.print(
                     f"Inserted Row ({row['id']}): {row['title']}", style="green"
                 )
 
-                console.log(f"  {len(row['objects'])} Items")
-                update_dict(row, row)
+                _, _, diff_table = update_dict(row, row)
+                console.print(f"  {len(row['objects'])} Items")
+                console.print(diff_table)
+
                 included_rows.append(row)
 
             return included_rows
