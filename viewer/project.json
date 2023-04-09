@@ -108403,7 +108403,7 @@
       "isPrivateStyling": false,
       "isRequirementOpen": false,
       "isResultRow": false,
-      "objectWidth": "col-sm-6",
+      "objectWidth": "col-md-4",
       "objects": [
         {
           "addons": [],
@@ -108434,8 +108434,62 @@
             }
           ],
           "template": 1,
-          "text": "Everything is better with friends, even fights for the fate of the multiverse. For each friend you pick, they can fill the CYOA (or you can fill it for them).\n\nYou can bring/drag up to 5 friends along with you. World affecting drawbacks apply if one person picks it but they do not stack.",
-          "title": "Friends"
+          "text": "Everything is better with friends, even fights for the fate of the multiverse. Pick a person real or fictional and have them fill the CYOA (or you can fill it for them) to come along with you. This can include one of your friends, a character from Worm/Ward or even another fictional property. Though depending on who, you will need to actually befriend them as well.\n\nYou can bring/drag up to 5 people along with you. Perks and Drawbacks that change the world/universe affect every person but do not stack if taken multiple times (which means everyone should take them). ",
+          "title": "Companion"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ab0s",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "25"
+            }
+          ],
+          "template": 1,
+          "text": "Your CYOA opens up to five other participants. \n\nUnlike companions, you do not control the build of those participants, instead, they are some of your friends/acquaintances that have filled a compatible CYOA and just happened to chose the same destination as you. The builds they have chosen can vary in strength wildly. ",
+          "title": "Private Lobby"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6xkp",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-25"
+            }
+          ],
+          "template": 1,
+          "text": "Your CYOA opens up to five other participants. \n\nUnlike companions, you do not control the build of those participants, instead, they are random people on the internet that have filled a compatible CYOA and just happened to chose the same destination as you. The builds they have chosen can vary in strength but at least one will be in the same strength class as you.",
+          "title": "Public Lobby"
         }
       ],
       "requireds": [
