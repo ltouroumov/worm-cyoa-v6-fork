@@ -61168,6 +61168,509 @@
       "titleText": "Since these powers are not tied to a Shard, they can be grown through use and creative exploration. They also count as Negentropic."
     },
     {
+      "allowedChoices": 1,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "wtbt",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-3",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ej4d",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ej4d.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "13z7",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "Good news, you still look human from the waist up. Bad news, you're attached to a very large spider body. Hopefully you're not arachnophobic.\n\nYou can climb walls and ceilings with your spider legs. You can also produce silk with your spinnerets and weave it, the silk is much more resistant than regular spider's silk. You gain a minor Tinker 0 power to easily weave clothes and various constructs from your silk.",
+          "title": "Arachne"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9o81",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "13z7",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "You take on the appearance of a humanoid lizard.\n\nYou gain increased night vision, the ability to climb walls and ceilings, and a hallucinogenic spit.",
+          "title": "Lizardfolk"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "iq77",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "13z7",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "You take on a slug-like appearance. Your skin becomes a translucent brown, your bones take on a dark brown color, and your organs seemingly float inside of you.\n\nYou gain the ability to synthesize chemicals inside of you and expel them. ",
+          "title": "Slugbeast"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "lm0e",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "13z7",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "You take on a snail-like appearance. Your skin becomes a translucent white with many shell-like formations on its surface and your organs seemingly float inside of you.\n\nYou gain the ability to synthesize chemicals inside of you and expel them. ",
+          "title": "Snailbeast"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "529h",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-529h.webp",
+          "imageIsUrl": true,
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "13z7",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "6"
+            }
+          ],
+          "template": 1,
+          "text": "Your body has become a type of solid substance (metal, wood, stone, glass, etc.), you absorb this substance into yourself on contact even involuntarily. Your body takes on the properties of the substance you've been transformed into (metal is magnetic, wood is flammable, and so on).",
+          "title": "Living Elemental"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "choice",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "wyqq",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "id"
+        }
+      ],
+      "resultGroupId": "xb",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "#FFEEDDFF",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": 0,
+        "rowBorderRadiusBottomRight": 0,
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": 0,
+        "rowBorderRadiusTopRight": 0,
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "#FFFFEEFF",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "red",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowMargin": 10,
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Lucky Mutations",
+      "titleText": "These Case 53 mutations come with their own specific powers. Your choice in the appearance section influences what you will look like. The more good looking your appearance the more human and good-looking your appearance will be. On the other hand, if you chose ugly or disfigured, your appearance will be more monstrous."
+    },
+    {
       "allowedChoices": 0,
       "buttonId": "",
       "buttonRandom": false,
@@ -70606,509 +71109,6 @@
       "titleText": "You're copying the power of a Parahuman. Powers like Eidolon's or Glaistig Uaine's won't be here. "
     },
     {
-      "allowedChoices": 1,
-      "buttonId": "",
-      "buttonRandom": false,
-      "buttonRandomNumber": 1,
-      "buttonText": "Click",
-      "buttonType": true,
-      "currentChoices": 0,
-      "defaultAspectHeight": 1,
-      "defaultAspectWidth": 1,
-      "id": "wtbt",
-      "image": "",
-      "isButtonRow": false,
-      "isEditModeOn": false,
-      "isInfoRow": false,
-      "isPrivateStyling": false,
-      "isRequirementOpen": false,
-      "isResultRow": false,
-      "objectWidth": "col-md-3",
-      "objects": [
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ej4d",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ej4d.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "13z7",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "8"
-            }
-          ],
-          "template": 1,
-          "text": "Good news, you still look human from the waist up. Bad news, you're attached to a very large spider body. Hopefully you're not arachnophobic.\n\nYou can climb walls and ceilings with your spider legs. You can also produce silk with your spinnerets and weave it, the silk is much more resistant than regular spider's silk. You gain a minor Tinker 0 power to easily weave clothes and various constructs from your silk.",
-          "title": "Arachne"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "9o81",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "13z7",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "You take on the appearance of a humanoid lizard.\n\nYou gain increased night vision, the ability to climb walls and ceilings, and a hallucinogenic spit.",
-          "title": "Lizardfolk"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "iq77",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "13z7",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "You take on a slug-like appearance. Your skin becomes a translucent brown, your bones take on a dark brown color, and your organs seemingly float inside of you.\n\nYou gain the ability to synthesize chemicals inside of you and expel them. ",
-          "title": "Slugbeast"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "lm0e",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "13z7",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "You take on a snail-like appearance. Your skin becomes a translucent white with many shell-like formations on its surface and your organs seemingly float inside of you.\n\nYou gain the ability to synthesize chemicals inside of you and expel them. ",
-          "title": "Snailbeast"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "529h",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-529h.webp",
-          "imageIsUrl": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "13z7",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "Your body has become a type of solid substance (metal, wood, stone, glass, etc.), you absorb this substance into yourself on contact even involuntarily. Your body takes on the properties of the substance you've been transformed into (metal is magnetic, wood is flammable, and so on).",
-          "title": "Living Elemental"
-        }
-      ],
-      "requireds": [
-        {
-          "afterText": "choice",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            }
-          ],
-          "reqId": "wyqq",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": false,
-          "type": "id"
-        }
-      ],
-      "resultGroupId": "xb",
-      "styling": {
-        "addonText": "Times New Roman",
-        "addonTextAlign": "center",
-        "addonTextColor": "#FFFFFFFF",
-        "addonTextTextSize": 100,
-        "addonTitle": "Times New Roman",
-        "addonTitleAlign": "center",
-        "addonTitleColor": "#FFFFFFFF",
-        "addonTitleTextSize": 200,
-        "backPackWidth": 1200,
-        "backgroundColor": "#000000FF",
-        "backgroundImage": "",
-        "barBackgroundColor": "#FFFFFFFF",
-        "barMargin": 0,
-        "barPadding": 0,
-        "barTextColor": "#000000",
-        "barTextFont": "Times New Roman",
-        "barTextMargin": 0,
-        "barTextPadding": 17,
-        "barTextSize": 15,
-        "objectBackgroundImage": "",
-        "objectBgColor": "#FFFFFFFF",
-        "objectBgColorIsOn": false,
-        "objectBorderColor": "#FDFDFDFF",
-        "objectBorderIsOn": true,
-        "objectBorderRadiusBottomLeft": "5",
-        "objectBorderRadiusBottomRight": "5",
-        "objectBorderRadiusIsPixels": true,
-        "objectBorderRadiusTopLeft": "5",
-        "objectBorderRadiusTopRight": "5",
-        "objectBorderStyle": "solid",
-        "objectBorderWidth": 2,
-        "objectDropShadowBlur": 0,
-        "objectDropShadowColor": "#FFEF00FF",
-        "objectDropShadowH": 0,
-        "objectDropShadowIsOn": false,
-        "objectDropShadowSpread": 0,
-        "objectDropShadowV": 0,
-        "objectHeight": true,
-        "objectImageMarginBottom": 0,
-        "objectImageMarginTop": 0,
-        "objectImageWidth": 100,
-        "objectImgBorderColor": "red",
-        "objectImgBorderIsOn": false,
-        "objectImgBorderRadiusBottomLeft": 0,
-        "objectImgBorderRadiusBottomRight": 0,
-        "objectImgBorderRadiusIsPixels": true,
-        "objectImgBorderRadiusTopLeft": 0,
-        "objectImgBorderRadiusTopRight": 0,
-        "objectImgBorderStyle": "solid",
-        "objectImgBorderWidth": 2,
-        "objectMargin": 10,
-        "objectOverflowIsOn": true,
-        "objectText": "Times New Roman",
-        "objectTextAlign": "center",
-        "objectTextColor": "#FFFFFFFF",
-        "objectTextPadding": 10,
-        "objectTextTextSize": 100,
-        "objectTitle": "Times New Roman",
-        "objectTitleAlign": "center",
-        "objectTitleColor": "#FFFFFFFF",
-        "objectTitleTextSize": 200,
-        "reqBgColorIsOn": true,
-        "reqFilterBgColor": "#6B6464FF",
-        "reqFilterBlur": 0,
-        "reqFilterBlurIsOn": false,
-        "reqFilterBright": 100,
-        "reqFilterBrightIsOn": false,
-        "reqFilterCont": 100,
-        "reqFilterContIsOn": false,
-        "reqFilterGray": 0,
-        "reqFilterGrayIsOn": false,
-        "reqFilterHue": 0,
-        "reqFilterHueIsOn": false,
-        "reqFilterInvert": "50",
-        "reqFilterInvertIsOn": false,
-        "reqFilterOpac": "25",
-        "reqFilterOpacIsOn": false,
-        "reqFilterSatur": 1,
-        "reqFilterSaturIsOn": false,
-        "reqFilterSepia": 0,
-        "reqFilterSepiaIsOn": false,
-        "reqFilterVisibleIsOn": false,
-        "rowBackgroundImage": "",
-        "rowBgColor": "#FFFFFFFF",
-        "rowBgColorIsOn": false,
-        "rowBodyMarginBottom": 25,
-        "rowBodyMarginSides": 1,
-        "rowBodyMarginTop": 25,
-        "rowBorderColor": "#FFEEDDFF",
-        "rowBorderIsOn": false,
-        "rowBorderRadiusBottomLeft": 0,
-        "rowBorderRadiusBottomRight": 0,
-        "rowBorderRadiusIsPixels": true,
-        "rowBorderRadiusTopLeft": 0,
-        "rowBorderRadiusTopRight": 0,
-        "rowBorderStyle": "solid",
-        "rowBorderWidth": 2,
-        "rowButtonXPadding": 0,
-        "rowButtonYPadding": 0,
-        "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "#FFFFEEFF",
-        "rowDropShadowH": 0,
-        "rowDropShadowIsOn": false,
-        "rowDropShadowSpread": 0,
-        "rowDropShadowV": 0,
-        "rowImageMarginTop": 0,
-        "rowImageWidth": 100,
-        "rowImgBorderColor": "red",
-        "rowImgBorderIsOn": false,
-        "rowImgBorderRadiusBottomLeft": 0,
-        "rowImgBorderRadiusBottomRight": 0,
-        "rowImgBorderRadiusIsPixels": true,
-        "rowImgBorderRadiusTopLeft": 0,
-        "rowImgBorderRadiusTopRight": 0,
-        "rowImgBorderStyle": "solid",
-        "rowImgBorderWidth": 2,
-        "rowMargin": 10,
-        "rowOverflowIsOn": true,
-        "rowText": "Times New Roman",
-        "rowTextAlign": "center",
-        "rowTextColor": "#FFFFFFFF",
-        "rowTextPaddingX": 10,
-        "rowTextPaddingY": 5,
-        "rowTextTextSize": 100,
-        "rowTitle": "Times New Roman",
-        "rowTitleAlign": "center",
-        "rowTitleColor": "#FFFFFFFF",
-        "rowTitleTextSize": 200,
-        "scoreText": "Times New Roman",
-        "scoreTextAlign": "center",
-        "scoreTextColor": "#FFFFFFFF",
-        "scoreTextSize": 75,
-        "selBgColorIsOn": true,
-        "selFilterBgColor": "#3CAAAAFF",
-        "selFilterBlur": 0,
-        "selFilterBlurIsOn": false,
-        "selFilterBright": 100,
-        "selFilterBrightIsOn": false,
-        "selFilterCont": 100,
-        "selFilterContIsOn": false,
-        "selFilterGray": 0,
-        "selFilterGrayIsOn": false,
-        "selFilterHue": 0,
-        "selFilterHueIsOn": false,
-        "selFilterInvert": 0,
-        "selFilterInvertIsOn": false,
-        "selFilterOpac": 100,
-        "selFilterOpacIsOn": false,
-        "selFilterSatur": 1,
-        "selFilterSaturIsOn": false,
-        "selFilterSepia": 0,
-        "selFilterSepiaIsOn": false
-      },
-      "template": "1",
-      "title": "Lucky Mutations",
-      "titleText": "These Case 53 mutations come with their own specific powers. Your choice in the appearance section influences what you will look like. The more good looking your appearance the more human and good-looking your appearance will be. On the other hand, if you chose ugly or disfigured, your appearance will be more monstrous."
-    },
-    {
       "allowedChoices": 0,
       "buttonId": "",
       "buttonRandom": false,
@@ -79692,6 +79692,70 @@
           "template": 1,
           "text": "Your ability to summon and control dolls is greatly increased. The number you can control at once increases to 20 (30 with Negentropy) and the range expands to 10km (20km with Negentropy). They can be summoned up to 5m (16ft) away from you.\n\nThis upgrade includes all of the doll upgrades in the <i>Doll Powers</i> section. Your dolls are twice as string, fast, tough and are capable of levitation. The range of sizes of your dolls expands from a cube 2cm per side to 6m and forms are no longer limited to humanoids. It is possible for a doll to exceed the maximum size, for each increment of 6m it will take up one more doll slot.\n\nYou gain the two Doll Tinker specializations (Automata and Android) and are capable of either building OR summoning dolls created with those specializations as well as any other Tinker specialization you have access to.\n\nYou are able to focus some of your powers through your dolls. For example, you can fire Blaster powers, use Striker powers, project a force-field, use empathic vision, etc. However, the dolls themselves do not have the power so Brute, Changer, or Breaker powers that are self-targeted like Deadpool, Phase, and Bowser will not work.\n\nYour dolls can be empowered through the following means: Enchantment/Artificer at the cost of charges, Aliena  for 25 points worth of powers, Prototype with 3 slots, or up to 18 SP (24 with Negentropy) worth of powers. For the last option, dolls with 12 SP or less worth of powers uses one slot, 18 SP or less uses two, and 24 or less three. The use of a Tier 2 power increases the cost of a doll by two slots.\n\nYou are able to store up to 5 dolls inside a pocket space and can summon them at will from there. (This is primarily useful for Tinker dolls.) ",
           "title": "Doll General"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "exfe",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-4p0y.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-4p0y.jpeg",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "bqul",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You can consume Cauldron Vials for more Powers without mutations or danger by sacrificing Levels. \n\nShould you lack the levels to safely consume them, you could potentially suffer permanent side effects such as hallucinations, detachment, loss of humanity, irreversible physical mutations...",
+          "title": "Unlimited Shard Works"
         }
       ],
       "requireds": [
@@ -83102,6 +83166,36 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "h3u2",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h3u2.jpeg",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h3u2.jpeg",
+          "imageLink": true,
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "A pretty diversified skill giving more intensity and consistency to your imagination from training against mental images to visualizing a mind projection of yourself countering the attacks of your opponent before the fight even started. \n\nThis power also grants one the ability to like masters of old to develop their own fighting style or styles from observing the movements of animals along with copying the moves martial artists you have watched or faced in combat.\n\nYou are still limited by your own physical capabilities so unless you have a superhuman physique don't expect you will be able to perform superhuman feats with this skill.",
+          "title": "Imagination Power (Baki)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "759c",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-759c.webp",
           "imageIsUrl": true,
@@ -83184,36 +83278,6 @@
           "template": 1,
           "text": "Your ability to plan and make predictive deductions is truly staggering. Whether in a bout of fisticuffs or at the chessboard, you are dozens of steps ahead of your opponents. Able to visualize entire engagements from beginning to end before the first blow is ever struck. This power includes minor supporting improvements to general intelligence, mental processing speed, multitasking ability, and senses.",
           "title": "Sherlock Scan "
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "h3u2",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h3u2.jpeg",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-h3u2.jpeg",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "6"
-            }
-          ],
-          "template": 1,
-          "text": "A pretty diversified skill giving more intensity and consistency to your imagination from training against mental images to visualizing a mind projection of yourself countering the attacks of your opponent before the fight even started. \n\nThis power also grants one the ability to like masters of old to develop their own fighting style or styles from observing the movements of animals along with copying the moves martial artists you have watched or faced in combat.\n\nYou are still limited by your own physical capabilities so unless you have a superhuman physique don't expect you will be able to perform superhuman feats with this skill.",
-          "title": "Imagination Power (Baki)"
         },
         {
           "addons": [],
@@ -83351,7 +83415,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "12"
             }
           ],
           "template": 1,
@@ -93727,6 +93791,44 @@
               "template": "",
               "text": "Gamer System is trumped by Dynamist Jr.\nIt will get new features and improvements over time, but cannot affect Dynamist Jr. in return.",
               "title": "Dynamic System"
+            },
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "bqul",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "Your Gamer Systems have fused, requiring far less experience than normal with a greater range of evolutions. It's as if they compounded on each other, you can not only grow but can predict your powers and skill evolutions to plan ahead. You can even stockpile and spend experience on skills even if you haven't used them. This allows you to level up powers that have a harder time being used.",
+              "title": "Gamer\u00b2"
             }
           ],
           "defaultAspectHeight": 1,
@@ -99292,7 +99394,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "5"
             }
           ],
           "template": 1,
@@ -99791,29 +99893,6 @@
           "multipleUseVariable": 0,
           "objectWidth": "",
           "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "1ud6"
-                },
-                {
-                  "req": "2epe"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            },
             {
               "afterText": "",
               "beforeText": "Required:",
@@ -101539,7 +101618,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "20"
+              "value": "15"
             }
           ],
           "template": 1,
@@ -101652,10 +101731,79 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "zf7c",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": false,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "5"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "zf7c",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": 0
             }
           ],
           "template": 1,
@@ -101749,10 +101897,79 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "zf7c",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": false,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "15"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "zf7c",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "10"
             }
           ],
           "template": 1,
@@ -101980,89 +102197,6 @@
           "defaultAspectHeight": "3",
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "oty9",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-oty9.jpeg",
-          "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-oty9.jpeg",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isSelectableMultiple": false,
-          "isVisible": true,
-          "multipleScoreId": "rm",
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "10",
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "bqul",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "bbio",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [],
-          "template": 1,
-          "text": "Your Gamer Systems have fused, requiring far less experience than normal with a greater range of evolutions. It's as if they compounded on each other, you can not only grow but can predict your powers and skill evolutions to plan ahead. You can even stockpile and spend experience on skills even if you haven't used them. This allows you to level up powers that have a harder time being used.",
-          "title": "Gamer\u00b2"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": "3",
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "wros",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-wros.png",
           "imageIsUrl": true,
@@ -102084,19 +102218,13 @@
               "operator": "",
               "orRequired": [
                 {
-                  "req": ""
+                  "req": "bbio"
                 },
                 {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
+                  "req": "bqul"
                 }
               ],
-              "reqId": "bbio",
+              "reqId": "",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -102104,7 +102232,7 @@
               "required": true,
               "requireds": [],
               "showRequired": true,
-              "type": "id"
+              "type": "or"
             }
           ],
           "scores": [
@@ -102112,79 +102240,107 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": "bqul"
+                    },
+                    {
+                      "req": "bbio"
+                    }
+                  ],
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": false,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "or"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "20"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "bqul",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                },
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "bbio",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "10"
             }
           ],
           "template": 1,
           "text": "You can access the inner workings of your system(s?) through the Debugger Console. This special window grants you access to the source code and assets that run the Gamer System. The language used is unknown to you unless you have code-related powers or skills. Modifications you do through the console happen in real-time and your system will glitch out if your code has bugs. Thankfully, there is a version control system built in so you can save your modifications and revert to an earlier state if you wish.\n\nWhile you can modify the inner workings of the system and are able to change the rules, you cannot modify your player data directly and are still limited by some rules. The level of freedom you have with your modifications depends on how strong you are.",
           "title": "Debugger Console"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": "3",
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "4p0y",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-4p0y.jpeg",
-          "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-4p0y.jpeg",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isSelectableMultiple": false,
-          "isVisible": true,
-          "multipleScoreId": "rm",
-          "multipleUseVariable": 0,
-          "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "10",
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "bbio",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "By sacrificing Levels gained you can consume Cauldron Vials for more Powers without mutations or danger. \n\nBut should you lack the levels to safely consume them, you could potentially mutate and break down your physical body. ",
-          "title": "PSYCHO"
         },
         {
           "addons": [],
@@ -102276,19 +102432,13 @@
               "operator": "",
               "orRequired": [
                 {
-                  "req": ""
+                  "req": "3ndw"
                 },
                 {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
+                  "req": "bbio"
                 }
               ],
-              "reqId": "3ndw",
+              "reqId": "",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -102296,7 +102446,7 @@
               "required": true,
               "requireds": [],
               "showRequired": true,
-              "type": "id"
+              "type": "or"
             }
           ],
           "scores": [
@@ -102304,14 +102454,107 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "requireds": [],
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": "bbio"
+                    },
+                    {
+                      "req": "3ndw"
+                    }
+                  ],
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": false,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "or"
+                }
+              ],
               "showScore": true,
               "type": "",
               "value": "5"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "bbio",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                },
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "3ndw",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": 0
             }
           ],
           "template": 1,
-          "text": "Instead of automatically mutating, Dynamist Jr. will build an upgrade tree for your powers.\n\nEach power has its own upgrade tree, how it works depends on the power itself but will usually follow either a fully diverging tree or a simple web of interconnected nodes.\n\nThe number of nodes you can select depends on the form of the skill tree. For webs, the number of choices is proportional to the size.\n\nChoices are not permanent, you can change your selection whenever you want. It takes around 5 minutes of meditation for the power to reconfigure itself, during this it cannot be used actively. Interrupting the meditation will result in a failed reconfigure and consequences.",
+          "text": "Your power will build an upgrade tree for your powers.\n\nEach power has its own upgrade tree, how it works depends on the power itself but will usually follow either a fully diverging tree or a simple web of interconnected nodes.\n\nThe number of nodes you can select depends on the form of the skill tree. For webs, the number of choices is proportional to the size.\n\nChoices are not permanent, you can change your selection whenever you want. It takes around 5 minutes of meditation for the power to reconfigure itself, during this it cannot be used actively. Interrupting the meditation will result in a failed reconfiguration and other consequences.",
           "title": "Skill Tree Jr."
         },
         {
