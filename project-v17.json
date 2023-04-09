@@ -1,7 +1,5 @@
 {
-  "activated": [
-    ""
-  ],
+  "activated": [],
   "backpack": [
     {
       "allowedChoices": 0,
@@ -16101,460 +16099,6 @@
           "template": 1,
           "text": "Elementary school but you're also an orphan.",
           "title": "(Orphan) Elementary School Student"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "59qh",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isPrivateStyling": true,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "col-12",
-          "requireds": [],
-          "scores": [],
-          "styling": {
-            "addonText": "Times New Roman",
-            "addonTextAlign": "center",
-            "addonTextColor": "#FFFFFFFF",
-            "addonTextTextSize": 100,
-            "addonTitle": "Times New Roman",
-            "addonTitleAlign": "center",
-            "addonTitleColor": "#FFFFFFFF",
-            "addonTitleTextSize": 200,
-            "backPackWidth": 1200,
-            "backgroundColor": "#000000FF",
-            "backgroundImage": "",
-            "barBackgroundColor": "#FFFFFFFF",
-            "barMargin": 0,
-            "barPadding": 0,
-            "barTextColor": "#000000",
-            "barTextFont": "Times New Roman",
-            "barTextMargin": 0,
-            "barTextPadding": 17,
-            "barTextSize": 15,
-            "objectBackgroundImage": "",
-            "objectBgColor": "#000000FF",
-            "objectBgColorIsOn": true,
-            "objectBorderColor": "#FDFDFDFF",
-            "objectBorderIsOn": false,
-            "objectBorderRadiusBottomLeft": "5",
-            "objectBorderRadiusBottomRight": "5",
-            "objectBorderRadiusIsPixels": true,
-            "objectBorderRadiusTopLeft": "5",
-            "objectBorderRadiusTopRight": "5",
-            "objectBorderStyle": "solid",
-            "objectBorderWidth": 2,
-            "objectDropShadowBlur": 0,
-            "objectDropShadowColor": "#FFEF00FF",
-            "objectDropShadowH": 0,
-            "objectDropShadowIsOn": false,
-            "objectDropShadowSpread": 0,
-            "objectDropShadowV": 0,
-            "objectHeight": true,
-            "objectImageMarginBottom": 0,
-            "objectImageMarginTop": 0,
-            "objectImageWidth": 100,
-            "objectImgBorderColor": "#FFEEDDFF",
-            "objectImgBorderIsOn": false,
-            "objectImgBorderRadiusBottomLeft": 0,
-            "objectImgBorderRadiusBottomRight": 0,
-            "objectImgBorderRadiusIsPixels": true,
-            "objectImgBorderRadiusTopLeft": 0,
-            "objectImgBorderRadiusTopRight": 0,
-            "objectImgBorderStyle": "solid",
-            "objectImgBorderWidth": 2,
-            "objectMargin": 10,
-            "objectOverflowIsOn": true,
-            "objectText": "Times New Roman",
-            "objectTextAlign": "center",
-            "objectTextColor": "#FFFFFFFF",
-            "objectTextPadding": 10,
-            "objectTextTextSize": 100,
-            "objectTitle": "Times New Roman",
-            "objectTitleAlign": "center",
-            "objectTitleColor": "#FFFFFFFF",
-            "objectTitleTextSize": 200,
-            "reqBgColorIsOn": true,
-            "reqFilterBgColor": "#6B6464FF",
-            "reqFilterBlur": 0,
-            "reqFilterBlurIsOn": false,
-            "reqFilterBright": 100,
-            "reqFilterBrightIsOn": false,
-            "reqFilterCont": 100,
-            "reqFilterContIsOn": false,
-            "reqFilterGray": 0,
-            "reqFilterGrayIsOn": false,
-            "reqFilterHue": 0,
-            "reqFilterHueIsOn": false,
-            "reqFilterInvert": "50",
-            "reqFilterInvertIsOn": false,
-            "reqFilterOpac": "25",
-            "reqFilterOpacIsOn": false,
-            "reqFilterSatur": 1,
-            "reqFilterSaturIsOn": false,
-            "reqFilterSepia": 0,
-            "reqFilterSepiaIsOn": false,
-            "reqFilterVisibleIsOn": false,
-            "rowBackgroundImage": "",
-            "rowBgColor": "#000000FF",
-            "rowBgColorIsOn": true,
-            "rowBodyMarginBottom": 25,
-            "rowBodyMarginSides": 1,
-            "rowBodyMarginTop": 25,
-            "rowBorderColor": "#FFEEDDFF",
-            "rowBorderIsOn": false,
-            "rowBorderRadiusBottomLeft": "0",
-            "rowBorderRadiusBottomRight": "0",
-            "rowBorderRadiusIsPixels": true,
-            "rowBorderRadiusTopLeft": "0",
-            "rowBorderRadiusTopRight": "0",
-            "rowBorderStyle": "solid",
-            "rowBorderWidth": 2,
-            "rowButtonXPadding": 0,
-            "rowButtonYPadding": 0,
-            "rowDesignIsAdvanced": false,
-            "rowDropShadowBlur": 0,
-            "rowDropShadowColor": "#FFFFEEFF",
-            "rowDropShadowH": 0,
-            "rowDropShadowIsOn": false,
-            "rowDropShadowSpread": 0,
-            "rowDropShadowV": 0,
-            "rowImageMarginTop": 0,
-            "rowImageWidth": 100,
-            "rowImgBorderColor": "#FFEEDDFF",
-            "rowImgBorderIsOn": false,
-            "rowImgBorderRadiusBottomLeft": 0,
-            "rowImgBorderRadiusBottomRight": 0,
-            "rowImgBorderRadiusIsPixels": true,
-            "rowImgBorderRadiusTopLeft": 0,
-            "rowImgBorderRadiusTopRight": 0,
-            "rowImgBorderStyle": "solid",
-            "rowImgBorderWidth": 2,
-            "rowImgOverflowIsOn": false,
-            "rowMargin": "5",
-            "rowOverflowIsOn": true,
-            "rowText": "Times New Roman",
-            "rowTextAlign": "center",
-            "rowTextColor": "#FFFFFFFF",
-            "rowTextPaddingX": 10,
-            "rowTextPaddingY": 5,
-            "rowTextTextSize": 100,
-            "rowTitle": "Times New Roman",
-            "rowTitleAlign": "center",
-            "rowTitleColor": "#FFFFFFFF",
-            "rowTitleTextSize": 200,
-            "scoreText": "Times New Roman",
-            "scoreTextAlign": "center",
-            "scoreTextColor": "#FFFFFFFF",
-            "scoreTextSize": 75,
-            "selBgColorIsOn": true,
-            "selFilterBgColor": "#3CAAAAFF",
-            "selFilterBlur": 0,
-            "selFilterBlurIsOn": false,
-            "selFilterBright": 100,
-            "selFilterBrightIsOn": false,
-            "selFilterCont": 100,
-            "selFilterContIsOn": false,
-            "selFilterGray": 0,
-            "selFilterGrayIsOn": false,
-            "selFilterHue": 0,
-            "selFilterHueIsOn": false,
-            "selFilterInvert": 0,
-            "selFilterInvertIsOn": false,
-            "selFilterOpac": 100,
-            "selFilterOpacIsOn": false,
-            "selFilterSatur": 1,
-            "selFilterSaturIsOn": false,
-            "selFilterSepia": 0,
-            "selFilterSepiaIsOn": false
-          },
-          "template": 1,
-          "text": "What is your life like outside of education/work?",
-          "title": "Homelife"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "vlz0",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "objectWidth": "w-20",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "m93b"
-                },
-                {
-                  "req": "2n9h"
-                },
-                {
-                  "req": "gewm"
-                },
-                {
-                  "req": "8yiu"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Your home life is happy. You likely don't have anyone dead in your immediate family, and if you do then they were either terrible people who hurt you on a regular basis or you're at least middle-aged and your parents died of old age.",
-          "title": "Happy"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "m93b",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "objectWidth": "w-20",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "vlz0"
-                },
-                {
-                  "req": "2n9h"
-                },
-                {
-                  "req": "gewm"
-                },
-                {
-                  "req": "8yiu"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "3"
-            }
-          ],
-          "template": 1,
-          "text": "Your home life is mostly happy, but it isn't all sunshine and rainbows.",
-          "title": "Good"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "2n9h",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "objectWidth": "w-20",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "vlz0"
-                },
-                {
-                  "req": "m93b"
-                },
-                {
-                  "req": "gewm"
-                },
-                {
-                  "req": "8yiu"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "or"
-            }
-          ],
-          "scores": [],
-          "template": 1,
-          "text": "Your life isn't terrible, but it isn't very good either. Or it switches between terrible and good on a regular basis.",
-          "title": "It has its ups and downs"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "gewm",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "objectWidth": "w-20",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "vlz0"
-                },
-                {
-                  "req": "m93b"
-                },
-                {
-                  "req": "2n9h"
-                },
-                {
-                  "req": "8yiu"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Gain:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "-3"
-            }
-          ],
-          "template": 1,
-          "text": "Your life isn't terrible, but it's far from good. Bad things happen on a regular basis, but nothing that can't be recovered from.",
-          "title": "Bad"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "8yiu",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "objectWidth": "w-20",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "vlz0"
-                },
-                {
-                  "req": "m93b"
-                },
-                {
-                  "req": "2n9h"
-                },
-                {
-                  "req": "gewm"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Gain:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "-5"
-            }
-          ],
-          "template": 1,
-          "text": "Your life is awful. Multiple of your loves ones is dead, if you had any in the first place, and bad things happen on a regular basis. You likely suffer from depression, and maybe even PTSD.",
-          "title": "Terrible"
         }
       ],
       "requireds": [
@@ -16763,6 +16307,515 @@
       "template": "1",
       "title": "Civilian Identity",
       "titleText": "What do you do as a civilian? You gain the memories and skills of the person you reincarnate as, so as long as they had the prerequisite knowledge, you do too."
+    },
+    {
+      "allowedChoices": 1,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "p61a",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-3",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "6azo",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "w-20",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "m93b"
+                },
+                {
+                  "req": "2n9h"
+                },
+                {
+                  "req": "gewm"
+                },
+                {
+                  "req": "8yiu"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Your home life is happy. You likely don't have anyone dead in your immediate family, and if you do then they were either terrible people who hurt you on a regular basis or you're at least middle-aged and your parents died of old age.",
+          "title": "Happy"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "j0gv",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "w-20",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "vlz0"
+                },
+                {
+                  "req": "2n9h"
+                },
+                {
+                  "req": "gewm"
+                },
+                {
+                  "req": "8yiu"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "3"
+            }
+          ],
+          "template": 1,
+          "text": "Your home life is mostly happy, but it isn't all sunshine and rainbows.",
+          "title": "Good"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "m79t",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "w-20",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "vlz0"
+                },
+                {
+                  "req": "m93b"
+                },
+                {
+                  "req": "gewm"
+                },
+                {
+                  "req": "8yiu"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "Your life isn't terrible, but it isn't very good either. Or it switches between terrible and good on a regular basis.",
+          "title": "It has its ups and downs"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "3i24",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "w-20",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "vlz0"
+                },
+                {
+                  "req": "m93b"
+                },
+                {
+                  "req": "2n9h"
+                },
+                {
+                  "req": "8yiu"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-3"
+            }
+          ],
+          "template": 1,
+          "text": "Your life isn't terrible, but it's far from good. Bad things happen on a regular basis, but nothing that can't be recovered from.",
+          "title": "Bad"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "wsnv",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "w-20",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "vlz0"
+                },
+                {
+                  "req": "m93b"
+                },
+                {
+                  "req": "2n9h"
+                },
+                {
+                  "req": "gewm"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "Your life is awful. Multiple of your loves ones is dead, if you had any in the first place, and bad things happen on a regular basis. You likely suffer from depression, and maybe even PTSD.",
+          "title": "Terrible"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "58k6"
+            },
+            {
+              "req": "jfl2"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
+        },
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": "mhk8"
+            },
+            {
+              "req": "kxnn"
+            }
+          ],
+          "reqId": "",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "or"
+        }
+      ],
+      "resultGroupId": "",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#000000FF",
+        "objectBgColorIsOn": true,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#000000FF",
+        "rowBgColorIsOn": true,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "#FFEEDDFF",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": "0",
+        "rowBorderRadiusBottomRight": "0",
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": "0",
+        "rowBorderRadiusTopRight": "0",
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDesignIsAdvanced": false,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "#FFFFEEFF",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "#FFEEDDFF",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowImgOverflowIsOn": false,
+        "rowMargin": "5",
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Homelife",
+      "titleText": "What is your life like outside of education/work?"
     },
     {
       "allowedChoices": 1,
@@ -27904,7 +27957,7 @@
           ],
           "template": 1,
           "text": "Oh. Oh no. Don't pick this.\n\nSo, usually, when you hop dimensions the location is 2/3 times going to be fine, but with this option every dimension you travel to, you will be faced with immediate and life-threatening danger, still unable to leave for 1 hour, thankfully whoever did this to you has a little mercy and this will wear off in 50 jumps if you can survive. This drawback only activates once every 20 to 24 hours.\n\nAlso gives you a free pair of AMAZING (yet mundane) running shoes. \n",
-          "title": "Reluctant Dimension Hopper"
+          "title": "Friend of the Doctor"
         },
         {
           "addons": [],
