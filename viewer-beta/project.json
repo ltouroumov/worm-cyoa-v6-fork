@@ -100547,7 +100547,7 @@
             }
           ],
           "template": 1,
-          "text": "Your Magic jumps to position, ignoring the need for charging up or moving Mana to where it needs to be to cast Magic. This allows you to cast magic the moment you need be.",
+          "text": "Your Magic jumps to position, ignoring the need for charging up or moving Mana to where it needs to be. This allows you to cast magic the moment you need to.",
           "title": "Fast Cast"
         },
         {
@@ -100607,7 +100607,7 @@
             }
           ],
           "template": 1,
-          "text": "Mana is the fundamental energy of the Universe and you can manipulate it. It can't be suppressed or snuffled, and attempts of blocking it would fail. You're casting magic and nothing will stop you from it.",
+          "text": "Mana is a fundamental energy of the Universe and you can manipulate it. When in your hands it can't be suppressed or snuffled, and attempts to block it fail. You're casting magic and nothing will stop you.",
           "title": "Boundless"
         },
         {
@@ -100781,7 +100781,7 @@
             }
           ],
           "template": 1,
-          "text": "Magic has many ways of casting itself, and for you, you don't need the hard limits of them. You can interchangeably cast magic with your Omnicasting to cast Magic in ways that some Magic Systems are unable to do. Such as silent casting verbal magic and wandless casting wand magic.",
+          "text": "There are many ways to use Magic, and for you, insofar as casting methods are concerned, there are no hard limits. You can cast spells in ways their Magic Systems might not normally allow. Some examples are silent casting verbal magic and wandless casting wand magic.",
           "title": "Omnicasting"
         },
         {
@@ -100839,7 +100839,7 @@
             }
           ],
           "template": 1,
-          "text": "You can store Magic Spells beforehand to automatically cast them for you. By storing them you can even cast magic in your sleep by setting the right parameters. This can be used to defend if you are busy with something else or distracted.",
+          "text": "You can store Magic Spells beforehand in order to automatically cast them later. Stored Spells can even be cast while you are sleep by setting the right parameters. This can be used to defend yourself if you are busy with something else or distracted.",
           "title": "Autonomous Casting"
         },
         {
@@ -101944,7 +101944,7 @@
             }
           ],
           "template": 1,
-          "text": "The limits to your understanding are not merely being immune, as you get further hit it begins to reach negatively. Immunity becomes Countering and Limits become Barriers. Psychic Immunity gains Psychic Hacking and Pyrokinetics can become subverted. You gain an even stronger understanding of the fundamental supernatural and mundane to match, maybe even replicate them. For what are Psychics but with a brain and Magic with strange genetic mutations? Although some, even with that, could not be replicated fully.",
+          "text": "Your ability to adapt is no longer limited to merely granting immunity. As you are further exposed to attacks and environments that you are already adapted to, you gain an understanding of the fundamental principles upon which they operate. This understanding can be used to subvert, counter or even usurp other powers. Additionally, replicating the abilities of others is much easier, for what are psychics and mages, but people blessed by a quirk of genetics. Even so, not every ability can be fully replicated.",
           "title": "Infinite Suppressions"
         },
         {
@@ -102002,7 +102002,7 @@
             }
           ],
           "template": 1,
-          "text": "On one hand, flesh and other metal. The distinction between organic and inorganic augmentation isn't something to be considered different. You can consume metal and parts just like flesh and bones. Convert them like any other biomass as if they were your own to use to your liking. ",
+          "text": "For you there is no distinction between organic and inorganic augmentation. You can consume any material as if it were flesh and bones and anything consumed can be converted to your own biomass. As far as you are concerned, flesh and metal are just two sides of the same coin.",
           "title": "Inorganics"
         },
         {
