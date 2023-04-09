@@ -23409,35 +23409,6 @@
               "requireds": [],
               "showRequired": true,
               "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Incompatible:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "d0mx",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
             }
           ],
           "scores": [
