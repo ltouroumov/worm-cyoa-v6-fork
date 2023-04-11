@@ -103480,7 +103480,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "10",
-          "objectWidth": "w-20",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -103698,7 +103698,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "10",
-          "objectWidth": "w-20",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -103907,7 +103907,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "10",
-          "objectWidth": "w-20",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -104195,7 +104195,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "10",
-          "objectWidth": "w-20",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -104413,7 +104413,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "10",
-          "objectWidth": "w-20",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -104674,7 +104674,7 @@
       "isPrivateStyling": false,
       "isRequirementOpen": false,
       "isResultRow": false,
-      "objectWidth": "col-md-4",
+      "objectWidth": "col-md-3",
       "objects": [
         {
           "addons": [],
@@ -104688,7 +104688,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -104719,7 +104719,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -104779,7 +104779,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -104808,7 +104808,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -104838,7 +104838,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -104867,7 +104867,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -104896,7 +104896,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -104925,7 +104925,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -104954,7 +104954,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -104983,7 +104983,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105012,7 +105012,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105041,7 +105041,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105070,7 +105070,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105098,7 +105098,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105127,7 +105127,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105155,7 +105155,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105183,7 +105183,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105211,7 +105211,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105241,7 +105241,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105271,7 +105271,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105301,7 +105301,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105329,7 +105329,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105359,7 +105359,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105388,7 +105388,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105418,7 +105418,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105451,7 +105451,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "2",
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105485,7 +105485,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "6",
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105519,7 +105519,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "0",
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105548,7 +105548,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -105605,7 +105605,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105635,7 +105635,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105663,7 +105663,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105691,7 +105691,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -105751,7 +105751,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105785,7 +105785,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "10",
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105815,7 +105815,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -105845,7 +105845,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -105905,7 +105905,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -105965,7 +105965,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -106025,7 +106025,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -106055,7 +106055,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -106085,7 +106085,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -106115,7 +106115,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -106145,7 +106145,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -106175,7 +106175,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -106205,7 +106205,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-3",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
