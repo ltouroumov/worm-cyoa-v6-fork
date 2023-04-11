@@ -81973,12 +81973,42 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "30"
+              "value": "15"
             }
           ],
           "template": 1,
-          "text": "Your X-Gene is activated and your latent mutant powers awaken. The powers you gain from this are random but will at least be Alpha level and you will be able to train them through practice. You are guaranteed to not be physically mutated in an unappealing way.",
+          "text": "Your X-Gene is activated and your latent mutant powers awaken. The powers you gain from this are random but will be Alpha level and you will be able to train them through practice. You are guaranteed to not be physically mutated in an unappealing way.",
           "title": "Homo Superior"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "p33j",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p33j.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p33j.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            }
+          ],
+          "template": 1,
+          "text": "Your Mazarin-Rashoud node is activated and you gain incredible powers from subconsciously manipulating the four fundamental forces & quantum physics. The powers you gain from this are any you could take during default character creation (Such as Mega-Attributes & Quantum Powers) and you will be able to train & expand them through practice or special meditation. You don't have to worry about Taint and never will. Note that despite being a Shardless power, an M-R Node looks remarkably like a Corona Pollentia, even to medical experts.",
+          "title": "Nova"
         },
         {
           "addons": [],
@@ -96238,6 +96268,288 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "d679",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-d679.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-d679.webp",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "mm77",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You may have whatever Alpha level or below powers you want.",
+          "title": "Weapon X (Marvel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "moge",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-moge.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-moge.webp",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "mm77",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "d679",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You may have the Omega level ability of your choice, except for Franklin Richards & Nate Grey.",
+          "title": "Omega-Level Mutant (Marvel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "aegi",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-aegi.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-aegi.webp",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "2",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "mm77",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "d679",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "moge",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "200"
+            }
+          ],
+          "template": 1,
+          "text": "You have the abilities of Franklin Richards & Nate Grey. You are basically Mutant God, which is why this option is priced like CHIM.",
+          "title": "Beyond Omega-Level Mutant (Marvel)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "usps",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-usps.webp",
           "imageIsUrl": true,
@@ -99294,60 +99606,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "nl3w",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-nl3w.jpeg",
-          "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-nl3w.jpeg",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "xa04"
-                },
-                {
-                  "req": "nj93"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Stealth is but another way of fighting. Maximizing your advantages before moving in for the kill is not cowardly, it\u2019s just sensible. At Least that\u2019s what you seem to think.\nYour ability to go unnoticed, unseen, and unheard is greatly enhanced.\nYou have superhuman charisma, and the ability to tease out secrets, as well as the ability to look cool and suave in almost any situation, potentially throwing your enemy for a loop.\nYou gain a sixth sense, able to 'feel' the presence of other people and their weaknesses.",
-          "title": "License to Kill"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "x13x",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x13x.webp",
           "imageIsUrl": true,
@@ -99450,6 +99708,60 @@
           "template": 1,
           "text": "You focus on the cultivation of your skill into realms that defy the laws of reality.\nThis makes your martial skills grow by leaps and bounds faster than someone without this power. Your focus and skill has reached the realms of seemingly allowing you to take on and defeat enemies physically out of your league. Even if you are technically weaker your skill more often than not more than makes up for it.",
           "title": "Adept"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "nl3w",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-nl3w.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-nl3w.jpeg",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "xa04"
+                },
+                {
+                  "req": "nj93"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "Stealth is but another way of fighting. Maximizing your advantages before moving in for the kill is not cowardly, it\u2019s just sensible. At Least that\u2019s what you seem to think.\nYour ability to go unnoticed, unseen, and unheard is greatly enhanced.\nYou have superhuman charisma, and the ability to tease out secrets, as well as the ability to look cool and suave in almost any situation, potentially throwing your enemy for a loop.\nYou gain a sixth sense, able to 'feel' the presence of other people and their weaknesses.",
+          "title": "License to Kill"
         },
         {
           "addons": [],
