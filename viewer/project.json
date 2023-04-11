@@ -88065,6 +88065,105 @@
           "template": 1,
           "text": "Aberrations are weaker variations of Abnormalities. And the E.G.O Equipment from them is also weaker. You can reproduce your unique E.G.Os to create weaker versions of them, with weaker requirements as well.",
           "title": "Aberrations (Wonderlab)"
+        },
+        {
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "9fpy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "Your tower and garden combine into one internal plane with the abilities and functions of both.",
+              "title": "Utopian Garden lost in time"
+            }
+          ],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "bmnn",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have in your soul a peaceful garden in which all that grows becomes a supernatural treasure. Perfect for whatever supernatual power systems you have, such as magic or cultivation or even psychic powers. You can enter and exit it at will, as well as take anything or anyone you are touching with you.\nAn Apple tree planet here might give you Primordial true sun apples after it has matured as an example, you have a little control over what type of abilites or features the resulting treasures have. The more supernatural the plant grown here the better the treasure the plant will grow.\nThe Pocket plane is also supremely beautiful and serenely peaceful, almost Utopia like. This comes with an aura seeemingly removing all stress and pain leaving you calm and comfortable when you enter this realm.",
+          "title": "Garden of Avalon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9fpy",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
+          "imageLink": true,
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have in your soul tower in which time flows differently. You can enter here at any time, but you always exit the place you came from when you entered. You can change how time flows in comparison to the outside universe, with at maximum time seemingly stopping in the outside world, and at minimum it being the same, as the outside world. The tower has a seemingly unlimited supply of whatever supernatural powersources you have access to, such as any type or flavour of mana, Qi or other such things, even realms and other things, such as a calm Warp or sea of souls if you have the psyker power.\nThere is also a kitchen which restocks food and drinks every 24 hours you spend inside it. This kitchen has whatever type of food you want.",
+          "title": "Tower lost in time"
         }
       ],
       "requireds": [
@@ -99081,60 +99180,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "7b32",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fvwi.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "xa04"
-                },
-                {
-                  "req": "nj93"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "You can easily walk through entire swarms and multitudes of ravenous monsters and powerful superhumans and not even notice their attacks upon you.\nYou\u2019ll be able to get and then keep, until you allow them to focus elsewhere, the attention of any foe you engage with regardless of whether or not attacking you would be a wise course of action for them,\nand your equipment is now impossible to break or damage by any method as long as you are\nholding or wearing it.\nYour bodyguard abilities can now be applied to a massive number of people, and will intercept up to 90% of the damage that would normally have gone to them.\nYour defensive abilities apply in full against the damage sent your way, as normal, meaning you\ncould potentially tank for entire raid groups all on your own. \nNaturally, no matter how powerful you are as a defense-focused warrior you\u2019re insanely good at actual fighting as well, though not quite to the same extent as the Frankish warrior or Norse berserker. This power synergizes tremendously well with the base warrior powers as they allow the warrior to drag out battles near indefinitely, allowing them to benefit from regeneration, tirelessness, and slowly-increasing strength as the battle grows longer until eventually they\u2019ll be able to batter down just about any opposition.\nTo defeat such a warrior would require quick and overwhelming force, for in the long battle (which\nthey would be uniquely suited to engaging in) they are a nearly insurmountable force.",
-          "title": "Son of the 300 (Greek Hoplite)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "qluk",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qluk.webp",
           "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qluk.webp",
@@ -99237,228 +99282,12 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "10"
+              "value": "5"
             }
           ],
           "template": 1,
           "text": "War is not but a matter of logistics and moral, and you are the master of both. \n\nYou would be able to gather a ludicrous amount of resources from a barren desert, and then send those supplies through a bandit infested waste without being molested, and then turn around and convince your mutinying troops to march to certain doom for you.\n\nStrategy and Tactics are child's play, you are able to correctly predict and counter any move your opponent makes. Even the greatest of commanders and generals would fall before you.",
           "title": "Heir of Alexander/Caesar"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "x13x",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x13x.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x13x.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "xa04"
-                },
-                {
-                  "req": "nj93"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "Rage, if there is one word to describe you, it would be pure unrelenting rage, you are fury distilled into a person but woe to the fool who thinks you a mindless brute as your fury could never blind you or cloud your judgment if you don't want it to.\n\nYour skills are virtually unmatched when it comes to defeating (but not necessarily killing) others.\nYou could casually defeat entire armies of men and beasts without even batting an eyelash, and even beings of legendary martial prowess will find themselves green with envy at your skill at cutting down people dumb enough to draw your fury. \n\nAnother thing that makes you so scary is that for you, every kill you make in a single battle only warms you up and enables you to kill faster, and better. Lesser beings might tire from tearing apart hundreds of men apart on your own; for you, it shall simply ensure you can kill the next hundred in half the time.\n\nThough you might show the cosmetic effects of exertion, such as heavy breathing and profuse sweating, you won\u2019t slow down or be truly exhausted at all. You can even potentially slay any\nof the endbringers, as long as you inflict enough carnage beforehand to guarantee they\u2019d collapse under a flurry of incarnate violence, every warrior power is an army by itself but you are the purest expression of this. \nYour weapons will fail you long, long before your body does.\nA Norse berserker benefits tremendously from also the Son of the 300 power, as their increased knowledge and skill in defensive abilities serves only to heighten their knowledge at exploiting the defenses of others.",
-          "title": "Norse berserker"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "pjqa",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pjqa.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-pjqa.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "xa04"
-                },
-                {
-                  "req": "nj93"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "Noble knight, with sword in hand,\nRode forth to fight for his dear land.\nWith armor shining, he spurred his steed,\nTo battle the enemy with great speed.\n\nYour heart is pure, your will is unbreakable and your sense of justice is unmatched, let the innocent rejoice for you are their defender.\nYou are no berserker who revels in blood baths nor are you an unmovable stone wall but what you are is versatile. \n\nYou are not as good in the song of violence as norse berserker nor are you as unbreakable as a greek hoplite, but you are good enough in both aspects capable of taking it as well as dishing it out but your true power is your mighty stead, your stead can be anything as long as it is mobile, from a powerful warhorse to a Gundam, you are unmatched as a rider as your stead scales with you, a horse could turn into a divine beast and a car could evolve into battleship.\n\nYou are also incredibly adept in using different armors and weapons. Able to use maces, swords, spears, lances, and more with equal skill, and if your skill improves with one form of weaponry or armory, it likewise improves with all of them.",
-          "title": "Paladin of Charlemagne"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "uspc",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-uspc.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-uspc.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "xa04"
-                },
-                {
-                  "req": "nj93"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "Some laugh at the archer, calling them cowards who fear mono e mono combat, you laugh at their corpse.\n\nYou might as well be a god of the art of gun fu, you can clip the wing of a butterfly fifteen mile away and you have turned the way of archery into a martial art so perfect and unreal, it makes even the greatest archers green with envy of what you have done. You are a master at every range, though you may not be as good in melee as with gun play, but even then you can hold your own with best of them.",
-          "title": "Archer of Albion"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "tdmj",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-tdmj.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-tdmj.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "xa04"
-                },
-                {
-                  "req": "nj93"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "As a martial artist you are utterly unmatched in unarmed combat, with dexterity, agility, strength and endurance unmatched, to make up for any lack of weaponry.\nYou have a supreme calm and focus, able to take in all details you can see an act instantly upon them. You know several supernatural martial arts which boggles the mind of lesser warriors, and are able to execute them in battle fluidly and precisely.\n\nYou seek to hone your body, mind, and spirit to it's limit, as such you find you gain far more from your training and gain it faster as well.",
-          "title": "Shaolin Monk"
         },
         {
           "addons": [],
@@ -99511,7 +99340,7 @@
             }
           ],
           "template": 1,
-          "text": "You are the spy, the hitman, the man of mystery. You are supernaturally able to understand people and charm them into following your every whim, having a person you just met throw themselves in front of a bullet of their own free will.\n\nYou also gain understanding of how to make, maintain, and use any number of gadgets related to your mission. You also gain an innate understanding of martial arts and firearms. You gain a sixth sense, able to 'feel' the presence of other people and their weaknesses.",
+          "text": "Stealth is but another way of fighting. Maximizing your advantages before moving in for the kill is not cowardly, it\u2019s just sensible. At Least that\u2019s what you seem to think.\nYour ability to go unnoticed, unseen, and unheard is greatly enhanced.\nYou have superhuman charisma, and the ability to tease out secrets, as well as the ability to look cool and suave in almost any situation, potentially throwing your enemy for a loop.\nYou gain a sixth sense, able to 'feel' the presence of other people and their weaknesses.",
           "title": "License to Kill"
         },
         {
@@ -99519,9 +99348,63 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "356u",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-356u.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-356u.webp",
+          "id": "x13x",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x13x.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x13x.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "xa04"
+                },
+                {
+                  "req": "nj93"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You focus on the cultivation of your body into a temple worthy of greatness.\nThis makes you grow faster and better. able to gain more raw physical ability for less effort than someone without this power. This also makes you very muscular and enhances your beauty if you want, as you strive to make your body into its best self.",
+          "title": "Temple Body"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "tdmj",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-tdmj.webp",
+          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-tdmj.webp",
           "imageLink": true,
           "isActive": false,
           "isNotSelectable": false,
@@ -99561,270 +99444,12 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "35"
+              "value": "10"
             }
           ],
           "template": 1,
-          "text": "Somehow you have found yourself in possession of a bundle of raw Universal potential, this mysterious and shifting energy has bound itself to the concept of your martial prowess. This strange and fortuitous marriage of potential allows you to will armaments into being as you need them. Weapons, armor, projectiles, can be flash forged in the heat of battle, but will fade when not in use. \nAs you grow in your craft of war, these armaments will grow alongside you. Becoming stronger, swifter, sharper, and more resilient. Eventually even providing exotic effects such as physical enhancement, force multiplication or deflection, elemental effects, etc.",
-          "title": "Kaleidoscopic Armoury"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "btbw",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-c1zn.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "1ud6"
-                },
-                {
-                  "req": "2epe"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "0"
-            }
-          ],
-          "template": 1,
-          "text": "You have chosen the hardest path a mortal can take.\nTrue enlightenment. Becoming one with the universe.\nThis makes cultivation significantly harder, as your power and path are now dependent on your journey to enlightenment and not the other way around. This makes it nigh impossible to advance your path if you choose to be an asshole or immoral. On the other hand your power is not almost entirely internal, meaning you can achieve great power no matter your surroundings. And if you are already a particularly moral and introspective person this could be faster than normal cultivation.\nIf you gain mastery over yourself, your desires, and your soul, There is nothing that could stop you. As you become one with existence, you would become omnipotent, omniscient, omnipresent and Omnibenevolent.\nThis is not an easy path to take, but it is a good one.",
-          "title": "True Path of Cultivation"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "ilua",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-eds1.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "1ud6"
-                },
-                {
-                  "req": "2epe"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "15"
-            }
-          ],
-          "template": 1,
-          "text": "You are either the re-incarnation or somehow descended from one of Siddharta Gautama personal disciples.\nWhat this means is that you are going to cultivate very fast, and cultivate buddhist arts and paths even faster. You also naturally grow a strong body and a clear mind. Buddhas lessons are soul deep, so you find that you are naturally a good person with good morals.",
-          "title": "First Path Siddharta Bodhisattva Soul"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "vp44",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ht2x.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "1ud6"
-                },
-                {
-                  "req": "2epe"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "7"
-            }
-          ],
-          "template": 1,
-          "text": "The world is a source of great wonder, but it can also be a fantastic source of inspiration.\nThe natural world is filled with mysteries, all you need to do is comprehend them. You are\nable to take inspiration from it in order to further your skills. The unending noise of a waterfall could help progress your sound skills, the repetitive rustling of leaves in the wind could help you with a breakthrough in your sword skills. You might be surprised how the world can help you, and in what ways.",
-          "title": "Comprehension Of The World"
-        },
-        {
-          "addons": [
-            {
-              "id": "",
-              "image": "",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "j9en",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": false,
-                  "type": "id"
-                }
-              ],
-              "template": "",
-              "text": "You simply cannot be cut down a peg. No matter what you do you profit from it in some manner. When someone assembles a team to take you down you seemingly become allies instead, when you fall asleep in a meadow you wake up finding that someone lost their treasures right at your feet. And you never seem to get any comeuppance from whatever crazy stunts you pull, seemingly always coming out of it smelling of roses.",
-              "title": "Luck of the Devil "
-            }
-          ],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "hktj",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-k6r1.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "1ud6"
-                },
-                {
-                  "req": "2epe"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have an extraordinary amount of luck when it comes to cultivation, where even events which should result in significant setbacks leave you better off than you began. You\u2019ve been thrown off a cliff? Not only do you survive, but you get to a hidden area at the base of the cliff before your enemies. Forced to flee through a demon forest? Your fights allow you to advance in combat acumen and body refinement, and you come across some rare spirit herbs while you\u2019re at it.",
-          "title": "Fortuitous Encounters"
+          "text": "You focus on the cultivation of your skill into realms that defy the laws of reality.\nThis makes your martial skills grow by leaps and bounds faster than someone without this power. Your focus and skill has reached the realms of seemingly allowing you to take on and defeat enemies physically out of your league. Even if you are technically weaker your skill more often than not more than makes up for it.",
+          "title": "Adept"
         },
         {
           "addons": [],
@@ -100184,153 +99809,6 @@
           "template": 1,
           "text": "Passing your skills onto the next generation is the foundation of mortal society, what allows it to grow. The same thing could be said for immortal cultivators, but for the many mortals who populate the world, honing your life\u2019s craft and passing it on to your progeny is a vital part of\nensuring that their legacy continues. Be it wood carving, blacksmithing, painting or stranger.\n\nYou are a teacher and tutor without peer, capable of easily passing along your skills and\nknowledge to anyone who wants to learn from you. Beneath your gentle hand, even a moron\ncould become a master of their craft in a mere fraction of the time it would have taken an\naverage person. And if you were to teach that same average person? Their rate of growth and comprehension would have to be seen to be believed.\n\nEven the most complicated and intricate systems, concepts or philosophies can be explained to anyone regardless of their pre-existing knowledge base and if you truly know better than someone then they will realize this rather than allow pre-conceptions, arrogance or outdated thinking to blind them to your teachings.\n\nThis will also allow you to awaken the Meridians of any mortal and teach them the art of cultivation.",
           "title": "Grand Teacher"
-        },
-        {
-          "addons": [
-            {
-              "id": "",
-              "image": "",
-              "requireds": [
-                {
-                  "afterText": "",
-                  "beforeText": "Required:",
-                  "id": "",
-                  "operator": "",
-                  "orRequired": [
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    },
-                    {
-                      "req": ""
-                    }
-                  ],
-                  "reqId": "73an",
-                  "reqId1": "",
-                  "reqId2": "",
-                  "reqId3": "",
-                  "reqPoints": 0,
-                  "required": true,
-                  "requireds": [],
-                  "showRequired": false,
-                  "type": "id"
-                }
-              ],
-              "template": "",
-              "text": "Your tower and garden combine into one internal plane with the abilities and functions of both.",
-              "title": "Utopian Garden lost in time"
-            }
-          ],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "kk50",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-p1xi.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "1ud6"
-                },
-                {
-                  "req": "2epe"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have in your soul a peaceful garden in which all that grows becomes a cultivation treasure. An Apple tree planet here might give you Primordial true sun apples after it has matured. The more supernatural the plant grown here the better the cultivation treasure the plant will grow.\nThe Pocket plane is also supremely beautiful and serenely peaceful, almost Utopia like. ",
-          "title": "Garden of Avalon"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "73an",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
-          "imageIsUrl": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8pxr.webp",
-          "imageLink": true,
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "objectWidth": "",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": "1ud6"
-                },
-                {
-                  "req": "2epe"
-                }
-              ],
-              "reqId": "",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": true,
-              "requireds": [],
-              "showRequired": true,
-              "type": "or"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "20"
-            }
-          ],
-          "template": 1,
-          "text": "You have in your soul tower in which time flows differently. You can enter here at any time, but you always exit the place you came from when you entered. You can change how time flows in comparison to the outside universe, with at maximum time seemingly stopping in the outside world, and at minimum it being the same, as the outside world. The tower has a seemingly unlimited supply of Qi in the air, of whatever variety you wish for.",
-          "title": "Tower lost in time"
         },
         {
           "addons": [],
