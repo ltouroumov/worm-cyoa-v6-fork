@@ -71503,6 +71503,35 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "lz8n",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-lz8n.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-lz8n.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Titans are parahumans who have undergone a 'broken' second trigger, which results in their shard taking full agency over their body. You have dodged losing control of your body, but have still gained the ability to transform into a state were your shard is dominant and all of your powers lose their limits. Any powers you take are buffed to be at around the level an Endbringer's might be, and you have access to the full breadth of your shard.\n",
+          "title": "(Brute/Breaker/Trump) Titans"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "gbd9",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-gbd9.webp",
           "imageIsUrl": true,
@@ -71532,8 +71561,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "oen1",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-oen1.webp",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-oen1.jpeg",
           "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-oen1.jpeg",
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
@@ -79780,6 +79810,65 @@
           "template": 1,
           "text": "You can consume Cauldron Vials for more Powers without mutations or danger by sacrificing Levels. \n\nShould you lack the levels to safely consume them, you could potentially suffer permanent side effects such as hallucinations, detachment, loss of humanity, irreversible physical mutations...",
           "title": "Unlimited Shard Works"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "q770",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-q770.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-q770.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "oen1",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "You can now directly influence the powers you get. It isn't as simple as just choosing the powers you want but you can place basic requirements such as 'it must be a laser power', or 'it must grant me a form of flight', or 'it must be a tinker power'. You can also hold onto powers for a longer period of time.",
+          "title": "Higher Priest"
         }
       ],
       "requireds": [
