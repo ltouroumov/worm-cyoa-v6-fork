@@ -63492,6 +63492,60 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "d28j",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "14"
+            }
+          ],
+          "template": 1,
+          "text": "You can create and control all forms of crystals though your defaults are alexandrite and diamond. Creating other types of crystals takes some concentration on your part. You are able to create all crystals within 12 metres of yourself and control all of your creative crystals within a hundred-metre range of yourself. You are able to transform your body into a crystal, that if damage can be healed by absorbing crystals, the crystals that make up your breaker state are significantly more durable than normal.",
+          "title": "(Shaker/Breaker) Alexandrite"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "jkvm",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "col-sm-6",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "14"
+            }
+          ],
+          "template": 1,
+          "text": "You possess complete terrakinesis within a hundred-metre range of yourself. You also possess the ability to increase the density and durability of all stones that you are controlling, though this is significantly improved if you are directly touching the stone in question. You are also able to transform all non-living things into stone. Your strength and durability are increased 10-fold.",
+          "title": "(Shaker/Striker/Brute) Gaia"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "dh91",
           "image": "",
           "isActive": false,
@@ -65865,6 +65919,33 @@
           "template": 1,
           "text": "The most necessary ingredient of any technology. With your new skills you could make a battery that would last for years, or a power source that could run a spaceship. \nBe warned, as such inventions will draw heavy attention.",
           "title": "(Tinker) Energy"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9cwo",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "8"
+            }
+          ],
+          "template": 1,
+          "text": "You are able to create magical-themed personal gear, including clothing, concealed weapons, armour, and accessories. You also possess a minor ability to Mark equipment and items with a symbol that allows you to keep track of them no matter the distance between you and the marked item, and finally, you possess the ability to gain greater insight into arguments and plans, allowing you to figure out weaknesses in arguments and plans.",
+          "title": "(Tinker/Thinker/Striker) Taking The Stage"
         },
         {
           "addons": [],
@@ -73034,6 +73115,33 @@
           "template": 1,
           "text": "You can make portals to anywhere you've seen since triggering, even if only through pictures or videos. As many as you want, and anything that passes through one keeps all its momentum. ",
           "title": "(Mover) Door Me"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "bwkw",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You have three slots that every 24 hours will roll new powers; they can range from being very weak to decently strong, and every six days you gain 15 charges. For the cost of one charge, you can use it to re-roll a single power, and you can use two charges to determine either how powerful the power will be or what type of power it will be, or you can use three charges to determine both how powerful it will be and what type of power it will be, though that can only be done once per power slot every six days.\n\nWith Negentropy you gain two more power slots and you gain five more charges per 6 days for a total of five powers slots and 20 charges",
+          "title": "(Trump) Wheel of Fortune"
         }
       ],
       "requireds": [
@@ -77925,6 +78033,33 @@
           "template": 1,
           "text": "Your have access to a network of 512 Nodes (768 with Negentropy) that can be used for several purposes. For every 16 unallocated nodes, your thinking speed is increased by 25% additively.\n\nNodes can be used to store approximately 2.5 PB (petabytes) of information, this includes memories. One Node is sufficient to store a perfect snapshot of your brain.\n\nNodes also be grouped into a Module, this allows them to be programmed to perform various functions like keeping track of time, automatically creating a backup of your brain, process your vision to parse any text and store it in a node, and more. If it can be done with a computer, it can be done with a module. One node has roughly the same processing power as a high end server.\n\nYou can also use Nodes to create a Cluster, this allows them to host Thinker powers. A power uses a number of nodes equivalent to the square of it's rating (Thinker 2 takes 4 Nodes, Thinker 3 takes 9 Nodes, and so on). Your maximum rating is 9. The powers can only use information gathered from your own senses,  including any power granted sense.",
           "title": "(Thinker) Neural Network"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "qee2",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "you are able to become a person shaped supernova you're able to create and manipulate plasma that is over a billion degrees centigrade you also possess immense control over all forms of radiation allowing you to touch individuals in your breaker state without harming them\n\nyou have almost complete control over gravity and are able to condense matter to the point where you can create black holes and you control over gravity is so Potent you can prevent black holes from absorbing other matter",
+          "title": "(Breaker/Shaker/Blaster/Mover) Embodiment of the supernova"
         }
       ],
       "requireds": [
@@ -114288,35 +114423,6 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "ip7m",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "",
-          "requireds": [],
-          "scores": [
-            {
-              "afterText": "CP",
-              "beforeText": "Gain:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "-5"
-            }
-          ],
-          "template": 1,
-          "text": "Cauldron has decided to go public about their abilities early on. In fact, they are running a marketing scheme saying that their vials are what caused Parahumans to exist in the first place! Natural Triggers were just people who accidentally drank from contaminated water. Due to a higher focus on Cauldron Vials, they perfected their methods and drinkers no longer suffer mutations. Those that have been mutated are informed they messed with the vials and mind wiped so they have no proof they didn't do that. The rich have strong powers and the poor usually possesses vials that Cauldron knows give weaker powers.",
-          "title": "Buy now and get a 5% Discount!"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
           "id": "o18a",
           "image": "",
           "isActive": false,
@@ -114378,6 +114484,167 @@
           "template": 1,
           "text": "All 20 Endbringers have been released. Randomly around the world, the world will have to face 20 Endbringers.",
           "title": "20 Endbringers in 1 World"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ip7m",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            }
+          ],
+          "template": 1,
+          "text": "Cauldron has decided to go public about their abilities early on. In fact, they are running a marketing scheme saying that their vials are what caused Parahumans to exist in the first place! Natural Triggers were just people who accidentally drank from contaminated water. Due to a higher focus on Cauldron Vials, they perfected their methods and drinkers no longer suffer mutations. Those that have been mutated are informed they messed with the vials and mind wiped so they have no proof they didn't do that. The rich have strong powers and the poor usually possesses vials that Cauldron knows give weaker powers.",
+          "title": "Buy now and get a 5% Discount!"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "l70a",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Eidolon discovers how to recharge his power before the first Enderbringer appears. Alongside discovering how to create and control enderbringer consciously, though he is limited to the original three, this pushes the destruction of humanity back a couple of decades.",
+          "title": "Competent Eidolon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "3bd5",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "l70a",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Eidolon managed to discover a way to use his powers to solve entropine, allowing him to generate energy out of nothing. He can now control all 20 Enderbringer if he wishes, though he only has five of them active currently and will not activate any more unless absolutely necessary. This has pushed back the destruction of humanity to either the end of the cycle or a couple of decades after the death of Eidolon, whichever comes first.",
+          "title": "Solver of Entropine Eidolon"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "5j4o",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "During the initials of the assault on Nilbog, Emily Piggot triggered with a powerful power capable of taking down Nilbog, which has led to the Ellisburg containment zone never existing, and Emily Piggot becoming a protectorate Hero. Instead of being a PRT director and unlike her Canon counterpart she doesn't hate or dislike parahumans, but she is incredibly harsh with those that she considers to not be doing their best to help humanity.",
+          "title": "Hero of Ellisburg"
         },
         {
           "addons": [],
