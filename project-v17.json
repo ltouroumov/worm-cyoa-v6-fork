@@ -95607,8 +95607,8 @@
       "buttonText": "Click",
       "buttonType": true,
       "currentChoices": 0,
-      "defaultAspectHeight": "3",
-      "defaultAspectWidth": 1,
+      "defaultAspectHeight": "7",
+      "defaultAspectWidth": "4",
       "id": "3hbj",
       "image": "",
       "isButtonRow": false,
@@ -102517,6 +102517,209 @@
           "template": 1,
           "text": "Time means nothing to you, and when you begin to craft something time stops for you. This time stop doesn't affect your crafting at all. And when you finish time resumes. Leaving in the middle of crafting would result in time continuing again as time stop can only be used for crafting.",
           "title": "Hyper Time Crafting"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "7",
+          "defaultAspectWidth": "4",
+          "groups": [],
+          "id": "iozc",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-iozc.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-iozc.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "eo6y"
+                },
+                {
+                  "req": "m6kb"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to comprehend even the most complicated systems from the smallest scraps of information. An accurate but simple description of a phenomenon is sufficent to theorize about the principles that cause it. Simply observing the greatest technological marvels in operation is enough to derive their bluprints, with no need for precise measurements or advanced sensory capabilites. The usual risks of woking with flawed information are much less significant to you. If the only possible conclusions from available data are incorrect, you can intuitively sense that further data is needed. Mistakes you make are much more likely to be quantitative than qualitative.",
+          "title": "Advanced Analytics"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "7",
+          "defaultAspectWidth": "4",
+          "groups": [],
+          "id": "w63z",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-w63z.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-w63z.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "eo6y"
+                },
+                {
+                  "req": "m6kb"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your computational ability is entirely unthethered from any and all limitations of your brain or mind. As long as your understanding is correct and your information sufficient you can perfecty simulate even the most complicated scenarios. This however has little impact on your problem solving capabilities. A bluprint conjured up with barely a thought will still have any flaws inherent to its design and the results of even a perfect simulation have to analyzed in order to understand any implications it might have.",
+          "title": "Quantum Supremacy"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "7",
+          "defaultAspectWidth": "4",
+          "groups": [],
+          "id": "8jac",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8jac.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-8jac.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "eo6y"
+                },
+                {
+                  "req": "m6kb"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "w63z",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You can employ arbitrary numbers of parallel streams of thought, speed up or slow down the perception of time of different portions of your mind.\nYour understanding of yourself is perfect, allowing you to analyze and even dissect your own thinking processes and modify your own mental state and structure at will. With some effort can perfectly predict both the short- and long-term consequences of any changes you can make.\nWith repeated analysis and modification you will always discover ways to improve any of your mental capabilites without sacrificing performance in other areas or losing anything that holds even the mildest importance to you. In addition, you are much more resilient against any eldritch truths you might discover and over time will inevitably incorporate them into your understanding of the universe - no different than the rest of your knowledge.",
+          "title": "Toposophic Emergence"
         }
       ],
       "requireds": [
