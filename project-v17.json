@@ -106356,6 +106356,96 @@
           "template": 1,
           "text": "The greatest treasure passed down through the royal family of the Kingdom of Altar and the strongest sword in the world of Infinite Dendrogram, surpassing even Superior Arms. Altar appears as a decorated blue crystal sword with beauty beyond human knowledge. Its true form is that of an elemental created by the Smith, one of the previous administrators of the world. You were born qualified to use this sword even if you do not have the Superior Job [Sacred Princess] or [Sacred King].\n\nAltar possesses the ability of Absolute Severance, to cut absolutely everything, from physical objects to energy and even concepts. Individuals cut by this sword cannot heal ever again. In the case of certain immortals, they can only heal by dying and returning. \n",
           "title": "The Primeval Sword, Altar (Infinite Dendrogram)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "n85e",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-n85e.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-n85e.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You gain a briefcase which contains a standard B-rank Border Agency Triggers, a full complement of modules, and a Bail Out anchor beacon. The trigger can equip up to eight modules, four in each hand.\n\nWhen first used, the trigger will create a Trion Gland of average strength in the user. ",
+          "title": "Border Trigger"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0wrn",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0wrn.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0wrn.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You gain a trigger manufactured by one of the Neighbor nations. This includes the Horn Triggers of Aftokrator. (Either one that was seen in the series or an original creation.)\n\nWhen first used, the trigger will create a Trion Gland of average strength in the user. Horn Triggers also grow a pair of Trion gathering horns on their user.",
+          "title": "Neighbor Trigger"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "e2ei",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-e2ei.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-e2ei.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You gain a Black Trigger of your choice. (Either one that was seen in the series or an original creation.)\n\nThe trigger will create a high quality Trion Gland in the user upon first use.",
+          "title": "Black Trigger"
         }
       ],
       "requireds": [
