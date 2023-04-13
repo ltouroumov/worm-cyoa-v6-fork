@@ -2781,7 +2781,7 @@
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [],
           "template": 1,
@@ -2798,7 +2798,7 @@
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [],
           "template": 1,
@@ -56088,6 +56088,531 @@
       "titleText": "How powerful is your Shard? This effects the maximum strength of powers you can receive."
     },
     {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "2y41",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-3",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "z235",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "l620",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "fnnp",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You can pick powers from the Tier 1, Tier 2, and Tier 3 sections.",
+          "title": "Essence of Shard (Noble)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "l620",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "z235",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "fnnp",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Cost:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You can pick powers from the Tier 1, and Tier 2 sections.",
+          "title": "Essence of Shard (Vital)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fnnp",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-4",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "z235",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "l620",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": false,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "You can pick powers from the Tier 1 section.",
+          "title": "Essence of Shard (Normal)"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "choice",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "xy6v",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "id"
+        },
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "d0mx",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "id"
+        }
+      ],
+      "resultGroupId": "pp",
+      "rowJustify": "center",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#FFFFFFFF",
+        "objectBgColorIsOn": false,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#FFFFFFFF",
+        "rowBgColorIsOn": false,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "red",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": 0,
+        "rowBorderRadiusBottomRight": 0,
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": 0,
+        "rowBorderRadiusTopRight": 0,
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "grey",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "red",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowMargin": 10,
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Shard Essences",
+      "titleText": "Since these powers are not tied to a Shard, they can be grown through use and creative exploration. They also count as Negentropic."
+    },
+    {
       "allowedChoices": 1,
       "buttonId": "",
       "buttonRandom": false,
@@ -61462,531 +61987,6 @@
       "template": "1",
       "title": "Shardless Powers",
       "titleText": ""
-    },
-    {
-      "allowedChoices": 0,
-      "buttonId": "",
-      "buttonRandom": false,
-      "buttonRandomNumber": 1,
-      "buttonText": "Click",
-      "buttonType": true,
-      "currentChoices": 0,
-      "defaultAspectHeight": 1,
-      "defaultAspectWidth": 1,
-      "id": "2y41",
-      "image": "",
-      "isButtonRow": false,
-      "isEditModeOn": false,
-      "isInfoRow": false,
-      "isPrivateStyling": false,
-      "isRequirementOpen": false,
-      "isResultRow": false,
-      "objectWidth": "col-md-3",
-      "objects": [
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "z235",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "l620",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "fnnp",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "10"
-            }
-          ],
-          "template": 1,
-          "text": "You can pick powers from the Tier 1, Tier 2, and Tier 3 sections.",
-          "title": "Essence of Shard (Noble)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "l620",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "z235",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "fnnp",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            },
-            {
-              "afterText": "CP",
-              "beforeText": "Cost:",
-              "id": "2b",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "You can pick powers from the Tier 1, and Tier 2 sections.",
-          "title": "Essence of Shard (Vital)"
-        },
-        {
-          "addons": [],
-          "defaultAspectHeight": 1,
-          "defaultAspectWidth": 1,
-          "groups": [],
-          "id": "fnnp",
-          "image": "",
-          "isActive": false,
-          "isNotSelectable": false,
-          "isVisible": true,
-          "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
-          "requireds": [
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "z235",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            },
-            {
-              "afterText": "",
-              "beforeText": "Required:",
-              "id": "",
-              "operator": "",
-              "orRequired": [
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                },
-                {
-                  "req": ""
-                }
-              ],
-              "reqId": "l620",
-              "reqId1": "",
-              "reqId2": "",
-              "reqId3": "",
-              "reqPoints": 0,
-              "required": false,
-              "requireds": [],
-              "showRequired": false,
-              "type": "id"
-            }
-          ],
-          "scores": [
-            {
-              "afterText": "SP",
-              "beforeText": "Cost:",
-              "id": "rm",
-              "isActive": false,
-              "requireds": [],
-              "showScore": true,
-              "type": "",
-              "value": "5"
-            }
-          ],
-          "template": 1,
-          "text": "You can pick powers from the Tier 1 section.",
-          "title": "Essence of Shard (Normal)"
-        }
-      ],
-      "requireds": [
-        {
-          "afterText": "choice",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            }
-          ],
-          "reqId": "udrw",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": false,
-          "type": "id"
-        },
-        {
-          "afterText": "",
-          "beforeText": "Required:",
-          "id": "",
-          "operator": "",
-          "orRequired": [
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            },
-            {
-              "req": ""
-            }
-          ],
-          "reqId": "d0mx",
-          "reqId1": "",
-          "reqId2": "",
-          "reqId3": "",
-          "reqPoints": 0,
-          "required": true,
-          "requireds": [],
-          "showRequired": false,
-          "type": "id"
-        }
-      ],
-      "resultGroupId": "pp",
-      "rowJustify": "center",
-      "styling": {
-        "addonText": "Times New Roman",
-        "addonTextAlign": "center",
-        "addonTextColor": "#FFFFFFFF",
-        "addonTextTextSize": 100,
-        "addonTitle": "Times New Roman",
-        "addonTitleAlign": "center",
-        "addonTitleColor": "#FFFFFFFF",
-        "addonTitleTextSize": 200,
-        "backPackWidth": 1200,
-        "backgroundColor": "#000000FF",
-        "backgroundImage": "",
-        "barBackgroundColor": "#FFFFFFFF",
-        "barMargin": 0,
-        "barPadding": 0,
-        "barTextColor": "#000000",
-        "barTextFont": "Times New Roman",
-        "barTextMargin": 0,
-        "barTextPadding": 17,
-        "barTextSize": 15,
-        "objectBackgroundImage": "",
-        "objectBgColor": "#FFFFFFFF",
-        "objectBgColorIsOn": false,
-        "objectBorderColor": "#FDFDFDFF",
-        "objectBorderIsOn": true,
-        "objectBorderRadiusBottomLeft": "5",
-        "objectBorderRadiusBottomRight": "5",
-        "objectBorderRadiusIsPixels": true,
-        "objectBorderRadiusTopLeft": "5",
-        "objectBorderRadiusTopRight": "5",
-        "objectBorderStyle": "solid",
-        "objectBorderWidth": 2,
-        "objectDropShadowBlur": 0,
-        "objectDropShadowColor": "#FFEF00FF",
-        "objectDropShadowH": 0,
-        "objectDropShadowIsOn": false,
-        "objectDropShadowSpread": 0,
-        "objectDropShadowV": 0,
-        "objectHeight": true,
-        "objectImageMarginBottom": 0,
-        "objectImageMarginTop": 0,
-        "objectImageWidth": 100,
-        "objectImgBorderColor": "red",
-        "objectImgBorderIsOn": false,
-        "objectImgBorderRadiusBottomLeft": 0,
-        "objectImgBorderRadiusBottomRight": 0,
-        "objectImgBorderRadiusIsPixels": true,
-        "objectImgBorderRadiusTopLeft": 0,
-        "objectImgBorderRadiusTopRight": 0,
-        "objectImgBorderStyle": "solid",
-        "objectImgBorderWidth": 2,
-        "objectMargin": 10,
-        "objectOverflowIsOn": true,
-        "objectText": "Times New Roman",
-        "objectTextAlign": "center",
-        "objectTextColor": "#FFFFFFFF",
-        "objectTextPadding": 10,
-        "objectTextTextSize": 100,
-        "objectTitle": "Times New Roman",
-        "objectTitleAlign": "center",
-        "objectTitleColor": "#FFFFFFFF",
-        "objectTitleTextSize": 200,
-        "reqBgColorIsOn": true,
-        "reqFilterBgColor": "#6B6464FF",
-        "reqFilterBlur": 0,
-        "reqFilterBlurIsOn": false,
-        "reqFilterBright": 100,
-        "reqFilterBrightIsOn": false,
-        "reqFilterCont": 100,
-        "reqFilterContIsOn": false,
-        "reqFilterGray": 0,
-        "reqFilterGrayIsOn": false,
-        "reqFilterHue": 0,
-        "reqFilterHueIsOn": false,
-        "reqFilterInvert": "50",
-        "reqFilterInvertIsOn": false,
-        "reqFilterOpac": "25",
-        "reqFilterOpacIsOn": false,
-        "reqFilterSatur": 1,
-        "reqFilterSaturIsOn": false,
-        "reqFilterSepia": 0,
-        "reqFilterSepiaIsOn": false,
-        "reqFilterVisibleIsOn": false,
-        "rowBackgroundImage": "",
-        "rowBgColor": "#FFFFFFFF",
-        "rowBgColorIsOn": false,
-        "rowBodyMarginBottom": 25,
-        "rowBodyMarginSides": 1,
-        "rowBodyMarginTop": 25,
-        "rowBorderColor": "red",
-        "rowBorderIsOn": false,
-        "rowBorderRadiusBottomLeft": 0,
-        "rowBorderRadiusBottomRight": 0,
-        "rowBorderRadiusIsPixels": true,
-        "rowBorderRadiusTopLeft": 0,
-        "rowBorderRadiusTopRight": 0,
-        "rowBorderStyle": "solid",
-        "rowBorderWidth": 2,
-        "rowButtonXPadding": 0,
-        "rowButtonYPadding": 0,
-        "rowDropShadowBlur": 0,
-        "rowDropShadowColor": "grey",
-        "rowDropShadowH": 0,
-        "rowDropShadowIsOn": false,
-        "rowDropShadowSpread": 0,
-        "rowDropShadowV": 0,
-        "rowImageMarginTop": 0,
-        "rowImageWidth": 100,
-        "rowImgBorderColor": "red",
-        "rowImgBorderIsOn": false,
-        "rowImgBorderRadiusBottomLeft": 0,
-        "rowImgBorderRadiusBottomRight": 0,
-        "rowImgBorderRadiusIsPixels": true,
-        "rowImgBorderRadiusTopLeft": 0,
-        "rowImgBorderRadiusTopRight": 0,
-        "rowImgBorderStyle": "solid",
-        "rowImgBorderWidth": 2,
-        "rowMargin": 10,
-        "rowOverflowIsOn": true,
-        "rowText": "Times New Roman",
-        "rowTextAlign": "center",
-        "rowTextColor": "#FFFFFFFF",
-        "rowTextPaddingX": 10,
-        "rowTextPaddingY": 5,
-        "rowTextTextSize": 100,
-        "rowTitle": "Times New Roman",
-        "rowTitleAlign": "center",
-        "rowTitleColor": "#FFFFFFFF",
-        "rowTitleTextSize": 200,
-        "scoreText": "Times New Roman",
-        "scoreTextAlign": "center",
-        "scoreTextColor": "#FFFFFFFF",
-        "scoreTextSize": 75,
-        "selBgColorIsOn": true,
-        "selFilterBgColor": "#3CAAAAFF",
-        "selFilterBlur": 0,
-        "selFilterBlurIsOn": false,
-        "selFilterBright": 100,
-        "selFilterBrightIsOn": false,
-        "selFilterCont": 100,
-        "selFilterContIsOn": false,
-        "selFilterGray": 0,
-        "selFilterGrayIsOn": false,
-        "selFilterHue": 0,
-        "selFilterHueIsOn": false,
-        "selFilterInvert": 0,
-        "selFilterInvertIsOn": false,
-        "selFilterOpac": 100,
-        "selFilterOpacIsOn": false,
-        "selFilterSatur": 1,
-        "selFilterSaturIsOn": false,
-        "selFilterSepia": 0,
-        "selFilterSepiaIsOn": false
-      },
-      "template": "1",
-      "title": "Shard Essences",
-      "titleText": "Since these powers are not tied to a Shard, they can be grown through use and creative exploration. They also count as Negentropic."
     },
     {
       "allowedChoices": 1,
