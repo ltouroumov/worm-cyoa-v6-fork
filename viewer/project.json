@@ -2754,7 +2754,7 @@
       "objects": [
         {
           "activateOtherChoice": true,
-          "activateThisChoice": "ck5v,yedw,bxz5,cjqy,b0pr,xy6v,udrw,wwyj,id2m,ovah,j9ec,6dri",
+          "activateThisChoice": "ck5v,yedw,bxz5,cjqy,b0pr,xy6v,udrw,wwyj,id2m,ovah,j9ec,6dri,sybd",
           "addons": [],
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
@@ -2781,7 +2781,7 @@
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [],
           "template": 1,
@@ -2798,7 +2798,7 @@
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
-          "objectWidth": "col-sm-6",
+          "objectWidth": "col-md-4",
           "requireds": [],
           "scores": [],
           "template": 1,
@@ -2821,6 +2821,23 @@
           "template": 1,
           "text": "At what point you will arrive.",
           "title": "Scenario"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "sybd",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [],
+          "template": 1,
+          "text": "Those are challenges you can take to make your story more interesting if you want.",
+          "title": "Missions"
         },
         {
           "addons": [],
@@ -8556,6 +8573,786 @@
       "template": "1",
       "title": "Scenario",
       "titleText": ""
+    },
+    {
+      "allowedChoices": 0,
+      "buttonId": "",
+      "buttonRandom": false,
+      "buttonRandomNumber": 1,
+      "buttonText": "Click",
+      "buttonType": true,
+      "currentChoices": 0,
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
+      "id": "nsof",
+      "image": "",
+      "isButtonRow": false,
+      "isEditModeOn": false,
+      "isInfoRow": false,
+      "isPrivateStyling": false,
+      "isRequirementOpen": false,
+      "isResultRow": false,
+      "objectWidth": "col-md-4",
+      "objects": [
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "z4ew",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "bney",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "rjb2",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ptx0",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "Find a way of indirectly teaching Eidolon how to recharge his powers; you cannot directly tell him how to do so, nor can you tell anyone else how Eidolon can recharge his powers, but if you manage to succeed, it will prevent the rise of the endbringers due to Eidolon thinking he can recharge his powers by fighting strong opponents. You have a little over 4 years to teach him before the rise of Behemoth.\n\nIf you do not manage to succeed in teaching Eidolon how to recharge his powers, two endbringers will awaken at a time, which will force Eidolon to use up more of his reserves of power to keep the larger number of endbringers at bay, and this increases the decay of human civilization.\n\nBut if you manage to succeed, you gain the ability to summon and command one of the enderbringers or the full powers of one of them. Or you gain a discounted Eidolon power that grants you at your best two medium-strength powers, though you can have more at the cost of potency, alongside the ability to create a command one lesser version of the Canon endbringers.",
+          "title": "Prevent The Rise of The Endbringers"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "52mo",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "48m6",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "Within your mind is incredible knowledge about entropy and the partial formula for negentropy. Completing  it would require multiple years or even multiple decades of work, gathering large amounts of information about the powers of at least nine out of twenty seven parahumans as well as studying either Scion or the corpse of Eden.\n\nIf too many of the parahumans die before you can gather the data, or if the Corpse of Eden is destroyed and Scion is killed before you can study them, then the secrets of negentropy are forever lost to you and your shard (if you have one).\n\nBut if you manage to complete the formula, it will allow you, if you are a normal human, to create ex nihilo generators and power plants, allowing you to create energy from nothing. If you are a parahuman, you will also give your Shard knowledge on how to defy entropy and create energy out of nothing.",
+          "title": "The Partial Formula of Negentropy"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "8w8a",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "boxl",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "You must prevent the moral downfall of both the Protectorate and Cauldron by saving the life of Hero from the Siberian, a.k.a. William Manton. This can be done either publicly or secretly. If you wish to do it publicly, you must wait until the start of the Siberian attack to save hero, either by killing the Siberian or getting hero away from the Siberian, but if you choose to do it secretly, you must kill William Manton without anyone noticing.\n\nIf you fail, then not only will Hero be killed, but Legend will also be killed by the Serbian, and by the deaths of both of the moral pillars of the Protectorate and Cauldron, both organisations will fall further and further into darkness, becoming more and more twisted, until the Protectorate will become a completely corrupt place where anyone with an ounce of decency or morality is kicked out and arrested on false charges, and Cauldron will create horrific experiments in an attempt to create more powerful soldiers. They will be running hundreds of horrific experiments that would make even the most heinous of the Nazi scientists look at them in disgust and horror.\n\nIf you manage to succeed in protecting Hero, the Protectorate and Cauldron will not fall into the decay that they would have experienced. The Protectorate will become an organisation nearly completely free of corruption, alongside all connecting organisations; they will be pillars of stability, and Cauldron will never fall into depravity or cruelty, especially not as hero will discover a way to use tinkertech to recharge Eidolon power alongside creating a tinkertech that can damage and kill not only the Endbringers but also the Entity.",
+          "title": "Protect The Hero"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "2fcw",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "9d7l",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ee5n",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "You must find, teach, and guide Taylor Anne Hebert to become a hero. Assist her with learning her powers. You are incapable of finding her the first time through any means outside of technological or physical searching for her, and she will be distrustful of you and possibly even view you as a threat if you are not careful with how you approach her.\n\nIf you do not manage to reach her and train her before she begins her fight with Lung, she will die, and Scion will take note of the death of the host of Queen Administrator, and take it back rather than allow it to find another host, which will increase Scion's intelligence.\n\nIf you managed to succeed in teaching and guiding Taylor Anne Hebert to become a hero before April 7, 2011, Queen Administrator will be healed of the damage Scion did to it alongside gaining Negentropy, Taylor will gain the power (Trump) Aliena and you will be immensely trusted by Taylor.",
+          "title": "Teaching of a Hero"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "hnjx",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "9d7l",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "ee5n",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "You must find and guide Taylor into becoming a villain instead of a hero before her first outing as a cape without telling her. Sophia Hess is Shadow Stalker, a member of the Wards, or orchestrating the death of her father, and you are also incapable of finding her through any means, outside of technology or physical searching for her the first time.\n\nIf you fail to turn Taylor into a villain before her first outing as a cape, or if she has not made her outing as a villain before April 8, 2011, you will find yourself significantly less charismatic and enabled to convince other people, along with Taylor going to the Protectorate with all of the information she has on you, which is significantly more than you would expect, and they will believe her.\n\nIf you managed to succeed in turning Taylor into a villain, she will become loyal to you and will view you as her surrogate parent, Queen Administrator will be healed of the damage Scion did to it alongside gaining Negentropy, Taylor will gain the Tier 2 power (Trump) Aliena.",
+          "title": "The birth of the arch villain"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xnxh",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "1y99",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "You must save Lisa Wilborn before she is forcibly recruited by Coil, but you will find yourself incapable of finding her until after she has escaped her parents and arrived in Brookton Bay and caught the attention of Coil. By then, you will have between one week to a month to find her and save her.\n\nIf you do not manage to succeed in saving her, Coil will learn of your powers, abilities, and identity, and Lisa Wilborn will blame you for her forced recruitment by Coil. Due to this, she will do everything within her power to bring you down.\n\nIf you manage to succeed in saving her from Coil, she will gain the ability to gain information from shards, a perfect memory, and a minor precognition ability that allows her to see a minute into the future. and she is no longer be affected by thinker headaches. Her shard will also gain Negentropy but will not announce it to the network. She will consider herself in your debt and be immensely loyal to you.",
+          "title": "Saving the tattle-tale"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "a8i7",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [],
+          "template": 1,
+          "text": "You must find a way of permanently killing the Butcher. Without killing the current butcher, you will be unable to find or interact with the Butcher until the original butcher is dead.\n\nIf you kill the current Butcher without killing the original butcher or do not manage to kill the butcher within 10 years of either the second butcher or your arrival/reincarnation, the Butcher will gain Negentropy, and the original butcher will take over whoever is currently the Butcher's host, alongside gaining a 200% increase in the power of the current host and possessing the full power of every single previous host.\n\nIf you manage to succeed in killing the Butcher without killing the Current Butcher, you will gain the power to create clone bodies that you can jump to if you die or the power to take over the bodies of individuals you have marked. This will allow you to gain their powers, abilities, and knowledge. You do not have to worry about hearing anyone else's voice due to the fact that you destroy their minds when you jump into their bodies.",
+          "title": "The End of the Butcher"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0g83",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "o315",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "3nzj",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "y68r",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "You must manage to not only convince Scion and/or Eden not to commit genocide but also to become the Guardian and protector of humanity.\n\nIf you fail, not only will they fight with their full powers, but they will also begin to take back specific Shards. They will also no longer be constrained by energy concerns due to their gaining Negentropy as well as esoteric knowledge. They will also consider you the main target to be taken care of, and due to that lack of concern for energy, not only will their powers be stronger, but the barrier around their true bodies is significantly reinforced.\n\nIf you managed to succeed then there will be no Gold Morning and humanity will gain one or two Guardians to watch over and guide humanity through the next steps of its evolution they will also discover the secrets of Negentropy within a decade and you will gain a power equal to one of Scion's or Eden's personal powers with no Artificial limitations or restrictions",
+          "title": "End Of The Cycle Beginning Of The Golden Age"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "f788",
+          "image": "",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "6byd",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [],
+          "template": 1,
+          "text": "You appear/arrive either inside or outside of Ellisburg on February 1st, 2001, though you find yourself unable to look for Jamie Rinke, who will become known as Nilbog the Goblin King, until he begins his attack. After he begins his attack, you must save at least a quarter of the townspeople and prevent the deaths of more than half of the PRT team and kill Jamie Rinke a.k.a Nilbog.\n\nIf you do not succeed in saving at least a quarter of the townspeople and half of the PRT team and killing Jamie Rinke, a.k.a. Nilbog, he will experience a second trigger event that will significantly increase his power, increasing both the range and speed of his personal abilities and the power of his creations, while also allowing him to be reincarnated into any of his creations. He will also possess a deep, burning hatred for you due to your actions on February 2nd, 2001. Due to this, he will prepare to attack and kill you some time before the Golden Mourning.\n\nBut if you manage to succeed in saving at least a quarter of the townspeople and half of the PRT team and killing Jamie Rinke, AKA Nilbog, you will either gain Nilbog's second-triggered power as described above or a biotinker and a biomanipulator power similar to a perfect combination of bonesaw and panacea powers.",
+          "title": "Goblin King Slayer"
+        }
+      ],
+      "requireds": [
+        {
+          "afterText": "",
+          "beforeText": "Required:",
+          "id": "",
+          "operator": "",
+          "orRequired": [
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            },
+            {
+              "req": ""
+            }
+          ],
+          "reqId": "sybd",
+          "reqId1": "",
+          "reqId2": "",
+          "reqId3": "",
+          "reqPoints": 0,
+          "required": true,
+          "requireds": [],
+          "showRequired": false,
+          "type": "id"
+        }
+      ],
+      "resultGroupId": "",
+      "styling": {
+        "addonText": "Times New Roman",
+        "addonTextAlign": "center",
+        "addonTextColor": "#FFFFFFFF",
+        "addonTextTextSize": 100,
+        "addonTitle": "Times New Roman",
+        "addonTitleAlign": "center",
+        "addonTitleColor": "#FFFFFFFF",
+        "addonTitleTextSize": 200,
+        "backPackWidth": 1200,
+        "backgroundColor": "#000000FF",
+        "backgroundImage": "",
+        "barBackgroundColor": "#FFFFFFFF",
+        "barMargin": 0,
+        "barPadding": 0,
+        "barTextColor": "#000000",
+        "barTextFont": "Times New Roman",
+        "barTextMargin": 0,
+        "barTextPadding": 17,
+        "barTextSize": 15,
+        "objectBackgroundImage": "",
+        "objectBgColor": "#000000FF",
+        "objectBgColorIsOn": true,
+        "objectBorderColor": "#FDFDFDFF",
+        "objectBorderIsOn": true,
+        "objectBorderRadiusBottomLeft": "5",
+        "objectBorderRadiusBottomRight": "5",
+        "objectBorderRadiusIsPixels": true,
+        "objectBorderRadiusTopLeft": "5",
+        "objectBorderRadiusTopRight": "5",
+        "objectBorderStyle": "solid",
+        "objectBorderWidth": 2,
+        "objectDropShadowBlur": 0,
+        "objectDropShadowColor": "#FFEF00FF",
+        "objectDropShadowH": 0,
+        "objectDropShadowIsOn": false,
+        "objectDropShadowSpread": 0,
+        "objectDropShadowV": 0,
+        "objectHeight": true,
+        "objectImageMarginBottom": 0,
+        "objectImageMarginTop": 0,
+        "objectImageWidth": 100,
+        "objectImgBorderColor": "red",
+        "objectImgBorderIsOn": false,
+        "objectImgBorderRadiusBottomLeft": 0,
+        "objectImgBorderRadiusBottomRight": 0,
+        "objectImgBorderRadiusIsPixels": true,
+        "objectImgBorderRadiusTopLeft": 0,
+        "objectImgBorderRadiusTopRight": 0,
+        "objectImgBorderStyle": "solid",
+        "objectImgBorderWidth": 2,
+        "objectMargin": 10,
+        "objectOverflowIsOn": true,
+        "objectText": "Times New Roman",
+        "objectTextAlign": "center",
+        "objectTextColor": "#FFFFFFFF",
+        "objectTextPadding": 10,
+        "objectTextTextSize": 100,
+        "objectTitle": "Times New Roman",
+        "objectTitleAlign": "center",
+        "objectTitleColor": "#FFFFFFFF",
+        "objectTitleTextSize": 200,
+        "reqBgColorIsOn": true,
+        "reqFilterBgColor": "#6B6464FF",
+        "reqFilterBlur": 0,
+        "reqFilterBlurIsOn": false,
+        "reqFilterBright": 100,
+        "reqFilterBrightIsOn": false,
+        "reqFilterCont": 100,
+        "reqFilterContIsOn": false,
+        "reqFilterGray": 0,
+        "reqFilterGrayIsOn": false,
+        "reqFilterHue": 0,
+        "reqFilterHueIsOn": false,
+        "reqFilterInvert": "50",
+        "reqFilterInvertIsOn": false,
+        "reqFilterOpac": "25",
+        "reqFilterOpacIsOn": false,
+        "reqFilterSatur": 1,
+        "reqFilterSaturIsOn": false,
+        "reqFilterSepia": 0,
+        "reqFilterSepiaIsOn": false,
+        "reqFilterVisibleIsOn": false,
+        "rowBackgroundImage": "",
+        "rowBgColor": "#000000FF",
+        "rowBgColorIsOn": true,
+        "rowBodyMarginBottom": 25,
+        "rowBodyMarginSides": 1,
+        "rowBodyMarginTop": 25,
+        "rowBorderColor": "#FFEEDDFF",
+        "rowBorderIsOn": false,
+        "rowBorderRadiusBottomLeft": "0",
+        "rowBorderRadiusBottomRight": "0",
+        "rowBorderRadiusIsPixels": true,
+        "rowBorderRadiusTopLeft": "0",
+        "rowBorderRadiusTopRight": "0",
+        "rowBorderStyle": "solid",
+        "rowBorderWidth": 2,
+        "rowButtonXPadding": 0,
+        "rowButtonYPadding": 0,
+        "rowDesignIsAdvanced": false,
+        "rowDropShadowBlur": 0,
+        "rowDropShadowColor": "#FFFFEEFF",
+        "rowDropShadowH": 0,
+        "rowDropShadowIsOn": false,
+        "rowDropShadowSpread": 0,
+        "rowDropShadowV": 0,
+        "rowImageMarginTop": 0,
+        "rowImageWidth": 100,
+        "rowImgBorderColor": "#FFEEDDFF",
+        "rowImgBorderIsOn": false,
+        "rowImgBorderRadiusBottomLeft": 0,
+        "rowImgBorderRadiusBottomRight": 0,
+        "rowImgBorderRadiusIsPixels": true,
+        "rowImgBorderRadiusTopLeft": 0,
+        "rowImgBorderRadiusTopRight": 0,
+        "rowImgBorderStyle": "solid",
+        "rowImgBorderWidth": 2,
+        "rowImgOverflowIsOn": false,
+        "rowMargin": "5",
+        "rowOverflowIsOn": true,
+        "rowText": "Times New Roman",
+        "rowTextAlign": "center",
+        "rowTextColor": "#FFFFFFFF",
+        "rowTextPaddingX": 10,
+        "rowTextPaddingY": 5,
+        "rowTextTextSize": 100,
+        "rowTitle": "Times New Roman",
+        "rowTitleAlign": "center",
+        "rowTitleColor": "#FFFFFFFF",
+        "rowTitleTextSize": 200,
+        "scoreText": "Times New Roman",
+        "scoreTextAlign": "center",
+        "scoreTextColor": "#FFFFFFFF",
+        "scoreTextSize": 75,
+        "selBgColorIsOn": true,
+        "selFilterBgColor": "#3CAAAAFF",
+        "selFilterBlur": 0,
+        "selFilterBlurIsOn": false,
+        "selFilterBright": 100,
+        "selFilterBrightIsOn": false,
+        "selFilterCont": 100,
+        "selFilterContIsOn": false,
+        "selFilterGray": 0,
+        "selFilterGrayIsOn": false,
+        "selFilterHue": 0,
+        "selFilterHueIsOn": false,
+        "selFilterInvert": 0,
+        "selFilterInvertIsOn": false,
+        "selFilterOpac": 100,
+        "selFilterOpacIsOn": false,
+        "selFilterSatur": 1,
+        "selFilterSaturIsOn": false,
+        "selFilterSepia": 0,
+        "selFilterSepiaIsOn": false
+      },
+      "template": "1",
+      "title": "Missions",
+      "titleText": "Are you willing to take on missions in exchange for rewards? But there is a danger of failure and a punishment if you fail, so think long and carefully before you choose."
     },
     {
       "allowedChoices": 0,
