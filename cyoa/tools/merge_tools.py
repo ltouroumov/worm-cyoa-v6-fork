@@ -263,7 +263,7 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                                (len(args.only_objs) > 0 and item['id'] not in args.only_objs))
                 if should_skip:
                     if args.verbose:
-                        console.log(
+                        console.print(
                             f"  Skipped Deleted Item ({item['id']}): {item['title']}",
                             style="dark_slate_gray1 italic"
                         )

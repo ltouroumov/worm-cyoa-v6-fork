@@ -20405,7 +20405,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "3"
+              "value": "5"
             }
           ],
           "template": 1,
@@ -20436,13 +20436,19 @@
               "operator": "",
               "orRequired": [
                 {
-                  "req": "euib"
+                  "req": ""
                 },
                 {
-                  "req": "d0mx"
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
                 }
               ],
-              "reqId": "",
+              "reqId": "euib",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -20450,7 +20456,36 @@
               "required": false,
               "requireds": [],
               "showRequired": true,
-              "type": "or"
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "4950",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
             }
           ],
           "scores": [
@@ -20466,8 +20501,8 @@
             }
           ],
           "template": 1,
-          "text": "You no longer need to eat, drink water, breathe, or exercise as your Shard will sustain your body for as long as it has energy.",
-          "title": "Shard Sustenance"
+          "text": "You no longer need to eat, drink water, breathe, or exercise as your Shard or Power will sustain your body for as long as it has energy.",
+          "title": "Powered Sustenance"
         },
         {
           "addons": [],
@@ -22360,7 +22395,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "5"
+              "value": "3"
             }
           ],
           "template": 1,
@@ -24807,7 +24842,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "5",
+          "numMultipleTimesPluss": "10",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -25066,7 +25101,7 @@
           "isVisible": true,
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "5",
+          "numMultipleTimesPluss": "10",
           "objectWidth": "",
           "requireds": [],
           "scores": [
@@ -26246,7 +26281,7 @@
           "multipleScoreId": "q5",
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "3",
+          "numMultipleTimesPluss": "6",
           "objectWidth": "",
           "requireds": [
             {
@@ -26420,7 +26455,7 @@
           "multipleScoreId": "03",
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
-          "numMultipleTimesPluss": "3",
+          "numMultipleTimesPluss": "6",
           "objectWidth": "",
           "requireds": [
             {
@@ -40749,7 +40784,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -41065,7 +41100,7 @@
           "isNotSelectable": false,
           "isVisible": true,
           "multipleUseVariable": 0,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -41416,7 +41451,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "10",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -41746,6 +41781,325 @@
           "text": "Your Shard has placed limitations on one of your chosen powers. If an aspect is restricted, another aspect gets improved to compensate.\n\nFor example, the power can only be used under certain circumstances but the effect is increased, the range is reduced in exchange for potency, the number of choices is limited but they can be improved over time, etc.",
           "textfieldIsOn": false,
           "title": "Arbitrary Limitations (One Power)"
+        },
+        {
+          "activateOtherChoice": false,
+          "addons": [],
+          "deactivateOtherChoice": false,
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "x5g4",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "euib",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "4950",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-5"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            }
+          ],
+          "template": 1,
+          "text": "Within you is a seal, enforced either by your shard or by your power itself, that hold back your strength and splits it between two different layers. When a requirement (your choice to decide what requirement it is), is met, your powers can temporarily scale up back to what they were previously.\n\nDepending on what you choose as your requirement, the amount of power held back by your seal can vary massively. The more specific the requirement, the less your powers are restricted. If the requirement is extremely easy to achieve, your power is almost entirely sealed. If the requirement is nearly impossible to achieve, you could access up to half your power, even with the seal in place.",
+          "textfieldIsOn": false,
+          "title": "Seals"
         },
         {
           "addons": [],
@@ -73157,7 +73511,7 @@
           ],
           "template": 1,
           "text": "You gain control of a custom Endbringer. ",
-          "title": "(Master) Endbringer"
+          "title": "(Master) Bringer of the End"
         },
         {
           "addons": [],
@@ -73216,7 +73570,7 @@
           ],
           "template": 1,
           "text": "You can transform into a custom Endbringer. You cannot use your non-Endbringer powers in this form. When your Shard runs out of juice, you're stuck in whatever form you're in at the time.",
-          "title": "(Changer) Endbringer"
+          "title": "(Changer) The End-Becomer"
         },
         {
           "addons": [],
@@ -73273,7 +73627,7 @@
           ],
           "template": 1,
           "text": "You have the body of an Endbringer. While you still look human, your body is extremely dense and has a core. If the core is destroyed, you die. You're very durable, strong, and fast now.\n\nAll your powers are 25% stronger. Powers that do not have variable components (radius, duration, charges, etc...) are not affected.",
-          "title": "(Brute) Endbringer"
+          "title": "(Brute) Typhon"
         },
         {
           "addons": [],
@@ -73302,7 +73656,7 @@
           ],
           "template": 1,
           "text": "Titans are parahumans who have undergone a 'broken' second trigger, which results in their shard taking full agency over their body. You have dodged losing control of your body, but have still gained the ability to transform into a state were your shard is dominant and all of your powers lose their limits. Any powers you take are buffed to be at around the level an Endbringer's might be, and you have access to the full breadth of your shard.\n",
-          "title": "(Brute/Breaker/Trump) Titans"
+          "title": "(Brute/Breaker/Trump) Cronus"
         },
         {
           "addons": [],
@@ -73759,6 +74113,7 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -73939,6 +74294,132 @@
           "template": 1,
           "text": "You have three slots that every 24 hours will roll new powers; they can range from being very weak to decently strong, and every six days you gain 15 charges. For the cost of one charge, you can use it to re-roll a single power, and you can use two charges to determine either how powerful the power will be or what type of power it will be, or you can use three charges to determine both how powerful it will be and what type of power it will be, though that can only be done once per power slot every six days.\n\nWith Negentropy you gain two more power slots and you gain five more charges per 6 days for a total of five powers slots and 20 charges",
           "title": "(Trump) Wheel of Fortune"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "agqv",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-agqv.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-agqv.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Counterpart to the vicious power of the Endbringer, you gain immense power in conflict resolution, you gain these abilities to help you resolve conflict.\nIn a passive aura around you, equal to a half of a mile in all directions, you completely disable a shards conflict drive. You gain the ability to soothe emotions, able to cancel violent feelings and induce minor joy and euphoria in all those within your aura range.\nYou can cancel any powers actively being used for conflict within your sight line. You gain a thinker ability which lets you sense all violent emotions, thoughts, and actions within your aura range.\nYou also become a tinker specializing in all machines, with minor enhancement, however you are given a massive boost in one area for 6 hours after you witness active conflict that could be best stopped by that specialization. (You see Fire users fight, you get a massive bonus in Cryo tech and heat absorption and dispersion tech)\nYou are not given incredible strength, only equal to a level 4 brute. Your speed is equal to a level 8 mover. While you're defense and stamina get massive boosts, giving you enough to go at your best for at least 3 days straight and your defense is strong enough to easily tank Endbringer attacks and at least 10 full power Entity attacks. ",
+          "title": "(Trump/Tinker/Brute) PeaceBringer"
+        },
+        {
+          "addons": [
+            {
+              "id": "",
+              "image": "",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "ulph",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "template": "",
+              "text": "When used in conjunction with Jack Slash's ability, you are able to manipulate shards like Jack Slash manipulates Hosts; they also become more like their host during interactions with you, such as The Shaper acting more like Amelia, or The High Priest acting more gruff and hungry like Eidolon.",
+              "title": "[Broadcast]"
+            }
+          ],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "fdda",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fdda.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-fdda.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the conscious ability to reach out and speak to other shards, allowing you to understand them and them to understand you in turn.\nYou can use this to request Data transfers between your shard and themselves, gather environmental or personal information they might have access to, such as Host Data and ability data which could allow your shard to replicate their powers. This relies on your ability to get the shard to agree with your request and comply with their demands.\nYou gain an awareness of a shard's current power and function when within 30ft of it's user and a burst of information pertaining to their rank, function and potential power within the Entity network when you connect with them for the first time. This power also assures that shards you interact with will not report back on your abilities, interactions or plans. (Shards will not sense your Negentropy unless you bring it up.)",
+          "title": "(Thinker/Trump) [Query] [Response]"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "kqwm",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-kqwm.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-kqwm.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "Your body emits an undetectable virus within a small range of 5ft around you. You can choose which people are active infected with a thought. (Everyone touched by the aura is a dormant infected)\nActive infected limit is 200 and shard users take up more than one slot depending on ability, Eidolon for example takes 100 while Alexandria takes 35.\nEndbringer's cores are the only part that can be infected with this power, range still applies but it must be in relation to the core. An active infected Endbringer costs 120. (You'll need some help for this one)\nThe infected will begin to act differently from their normal selves, becoming stronger and more powerful ability wise as well, they will also begin to hate what you tell them to and think about things as you do. These changes are not instant but slow and will take about a week.\nYou can change an Active infected back to a passive infected, this will take only 30 seconds and the person will remember everything they did during their time active. They will almost certainly assume you mastered them if you ever gave them direct commands but will assume nothing other than the fact that they were acting strange if all you did was subtle influence.\nAfter activation they will be incredibly loyal to you and never question why, they will hang on to your every word and command even dying for you. When not near you they will act on your mental commands, or in your best interests. (Entities are immune)",
+          "title": " (Master/Trump/Brute) Logic Virus"
         }
       ],
       "requireds": [
@@ -78532,8 +79013,8 @@
       "buttonText": "Click",
       "buttonType": true,
       "currentChoices": 0,
-      "defaultAspectHeight": "3",
-      "defaultAspectWidth": "1",
+      "defaultAspectHeight": 1,
+      "defaultAspectWidth": 1,
       "id": "e018",
       "image": "",
       "isButtonRow": false,
@@ -78836,6 +79317,36 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "0j8t",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0j8t.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0j8t.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            }
+          ],
+          "template": 1,
+          "text": "You now have the ability to wield the power known as Stilling an incredible power that allows you to negate and manipulate wavelengths. \n\nIt\u2019s versatility is immense, as it can be used for disintegrating molecular bonds, cancellation of heat and sound, slowing or stopping motion, negating the effects of virtually any superhuman ability/power. It can even be used to heal and far more. \n\nThis power manifests as golden light, which you can shape into any form you wish. All of your \"stilling\" effects are completely silent, can range greatly in power (from pencil-thin cutting beams to planet-destroying blasts), and has practically infinite range. Your light can even track and home in on targets, even curving in mid-air. \n\nYou are capable of manifesting a golden aura which grants you the ability to fly at immense speeds. Thanks to the aura itself, you are able to fly even through space and other hostile environments without any problems. \n\nYou can use your Stilling ability to \"tune\" your defenses to negate any power, even if they are far more powerful than you. You also have an automatic adaptive defense that makes you immune to anything used against you. \n\nYou are able to use the Stilling ability to it\u2019s fullest potential even without knowing exactly how it works.",
+          "title": "(Mover/Shaker/Breaker/Blaster/Trump) Stilling"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "qee2",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qee2.jpeg",
           "imageIsUrl": true,
@@ -78866,10 +79377,10 @@
           "defaultAspectHeight": 1,
           "defaultAspectWidth": 1,
           "groups": [],
-          "id": "0j8t",
-          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0j8t.webp",
+          "id": "o8n0",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-o8n0.webp",
           "imageIsUrl": true,
-          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0j8t.webp",
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-o8n0.webp",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -78880,7 +79391,35 @@
               "afterText": "SP",
               "beforeText": "Cost:",
               "id": "rm",
-              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "You have the ability to become, create and manipulate ice, your body is naturally in a state of being a man made of ice though you always look human.\nThis power allows you to ignore physical attacks by shattering around them, regrowing your ice body, or manipulating your body around the attack. Your body instinctually becomes ice when attacked, you can fight this.\nYou can create ice from nothing for up to a half a mile around you, and freeze natural water for up to 2 miles in a sphere around you (Up to the molecular level). You have a secondary Thinker ability which allows you to sense all water, in all forms, and created ice within your radius.\nWhen more energy is expended you can drop your ice's temperature to absolute zero. Killing all energy next to your ice immediately and making your ice strong enough to tank at least one hit from an Entity level ability. If focus is kept on the ice the temperature will stay down but if not it will rapidly heat up to it's normal temperature, superheating the area around it to temperature in excess of 15M \u00b0C.\nIt will take an immense amount of energy but if you drop yourself to absolute zero, you gain the durability mentioned along with Alexandria level strength but your most notable ability is that time will freeze around you for as long as you stay at absolute Zero, you can move and do things in this state but it will expend more energy to do so and freeze those you hit during this time. (This power will kill your shard if used for more than 24 hours and rapidly decreases its life span when in use, Negentropy stops these negative effects)",
+          "title": "(Brute/Shaker/Changer) Cocytus"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "67wl",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-67wl.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-67wl.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
               "requireds": [],
               "showScore": true,
               "type": "",
@@ -78888,8 +79427,8 @@
             }
           ],
           "template": 1,
-          "text": "You now have the ability to wield the power known as Stilling an incredible power that allows you to negate and manipulate wavelengths. \n\nIt\u2019s versatility is immense, as it can be used for disintegrating molecular bonds, cancellation of heat and sound, slowing or stopping motion, negating the effects of virtually any superhuman ability/power. It can even be used to heal and far more. \n\nThis power manifests as golden light, which you can shape into any form you wish. All of your \"stilling\" effects are completely silent, can range greatly in power (from pencil-thin cutting beams to planet-destroying blasts), and has practically infinite range. Your light can even track and home in on targets, even curving in mid-air. \n\nYou are capable of manifesting a golden aura which grants you the ability to fly at immense speeds. Thanks to the aura itself, you are able to fly even through space and other hostile environments without any problems. \n\nYou can use your Stilling ability to \"tune\" your defenses to negate any power, even if they are far more powerful than you. You also have an automatic adaptive defense that makes you immune to anything used against you. \n\nYou are able to use the Stilling ability to it\u2019s fullest potential even without knowing exactly how it works.",
-          "title": "(Mover/Shaker/Breaker/Blaster/Trump) Stilling"
+          "text": "You gain the ability to summon and resend Alternate versions of Shard bearers that you meet, clones of the originals as well.\nThese summons will be perfectly loyal, but will still hold their personality, they will be given a general understanding of both your world and you upon summoning. They will sacrifice themselves and their morals to protect you and do what you say. Their powers start at 50% strength and after a full 1 month of being summoned they are boosted to 200% their normal strength from then on. (This only happens once.)\nYou are given a Thinker ability which allows you to perceive a mental rotating list of currently useful summons for the tasks you need done. You are given an Aura of 30 feet which counts as your range for the \"meet\" condition.\nEndbringers and Entities can be summoned, alts and clones alike, but only under the condition that you touch their core for Endbringers and Seriously injure their for Entities. (To summon a clone Leviathan or Alt Leviathan you would need to touch its core; to summon a Scion clone or Alt Scion you would need to seriously injure his real body.)\nEvery summoning takes shard power and requires focus to keep active after they complete their original task, summoning Endbringers is an immense drain of both shard energy and mental focus and will do serious damage to your shard if held too long while Entity summons will instantly drop your shard to less than 1 week of energy left and knock you unconscious for at least 1 hour, they will shatter your shard if summoned for longer than their task takes.\nSummon's initial energy and focus requirements are substantially higher than continual summoning post task. (Negentropy will completely null all the shard based drawbacks of this power and half all mental drain)\nThis power will allow you to perform this ability with any and all \"powered\" individuals in the multiverse if taken with Esoteric Knowledge and Trump Compatibility, or just Esoteric Knowledge if (Noble) Shard Essence is used.",
+          "title": "(Master/Trump/Thinker) The Friend Bringer"
         }
       ],
       "requireds": [
@@ -79571,7 +80110,7 @@
           ],
           "template": 1,
           "text": "You can take control over any single one of the existing Endbringers, while keeping all your other powers as well as getting theirs.",
-          "title": "The End-Becomer"
+          "title": "The End-Usurper"
         },
         {
           "addons": [],
@@ -88420,6 +88959,41 @@
           "template": 1,
           "text": "You are able to learn and train in more esoteric forms of magic such as: Ayleid magic, Necromancy, Shadow magic, Tonal magic, the Thu'um, and any magic referenced in any piece of lore (canon or not) (although the Thu'um is extremely hard and complicated to learn, and you will never be on the level of a dragonborn).\n(With enough time you are able to do anything with this power)",
           "title": "Esoteric Magick (TES)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "q6al",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-q6al.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-q6al.webp",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isNotSelectable": false,
+          "isSelectableMultiple": true,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "5",
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "You are proficient in a type of magic of your choice, such as Sorcery, Miracles, Pyromancy, or Incantations. You start out with a moderate level of skill in your form of magic, magical potency and reserves to match, knowledge of a handful of pre-existing spells, and a decent casting implement such as a staff or seal. Additionally, you may optionally choose to specialize in a specific branch of magic, like Crystal Sorcery or Black Flame Incantations.(With enough time you are able to do anything with this power)",
+          "title": "Magic (Soulsborne)"
         }
       ],
       "requireds": [
@@ -89314,6 +89888,37 @@
           "template": 1,
           "text": "You. Have. Risen! Through great internal struggle you have surpassed the chains of fate. The slings and arrows of misfortune no longer find purchase upon your being, leaving your fortunes untarnished and unfettered. To any that observe you it will appear as if you are walking on the very clouds themselves, impossibly and  preternaturally lucky in all of your actions and pursuits.",
           "title": "Fate Breaker"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "9znj",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-9znj.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-9znj.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "col-md-3",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "You have Zarathos the Angel of Vengeance bound to your soul, and have gained the appropriate powers to boot. You can transform into the Ghost Rider, with the ability to lift 25 pounds without noticing. You are superhumanly agile, and have a sixth sense for any person with powers (parahuman or otherwise), you are also able to 'exorcize' people, forcing any sort of evil spirits from their body (and causing parahumans to lose their powers if you have Trump Compatibility). You are immune to physical injury, either completely no selling an injury or regenerating from it instantly, you are immortal, turning into the Ghost Rider and regenerating when major harm would come to you.\n\nYou have the ability to control hellfire, creating constructs and infusing it into an object (such as a motorcycle), making them much more powerful, and able to burn a person's soul and body, leaving wounds not even modern medicine can heal. You have the ability to perceive the sins of any other person and the ability to control any hellfire infused vehicle with your mind. You can summon hellfire infused chains from hell to grapple and drag anything.\n\nYour penultimate ability is the penance state, having the target look you in the eyes and experience all the pain and suffering they have caused on another person. People like Jack Slash and the Slaughterhouse 9 will be completely carbonized and have their souls destroyed.",
+          "title": "Ghost Rider"
         }
       ],
       "requireds": [
@@ -102890,6 +103495,64 @@
           "defaultAspectHeight": "3",
           "defaultAspectWidth": 1,
           "groups": [],
+          "id": "af3r",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-af3r.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-af3r.webp",
+          "isActive": false,
+          "isMultipleUseVariable": true,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "2v19"
+                },
+                {
+                  "req": "5cbj"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your magic is now eternal, free from the effects of time. Once you cast a spell, it will persist indefinitely until it is disrupted by a force rivaling yourself: Conjurations do not dissipate unless meant to be short-lived, and enchantments and alchemical materials do not degrade or stop working, though the physical items enchantments are imbued into are still subject to aging if not accounted for.",
+          "title": "Infinity"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
           "id": "s9cn",
           "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-s9cn.jpeg",
           "imageIsUrl": true,
@@ -103738,6 +104401,65 @@
           "template": 1,
           "text": "Your sense of self is buried deep inside your soul, in layers. If you make a horrible mistake, you can easily remake your brain, and if you fracture your soul, the memories you don't care for will be the first to go, while your ego and core memories are better protected.",
           "title": "Personality Core"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": "3",
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ms4n",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ms4n.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ms4n.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleScoreId": "rm",
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "wlso"
+                },
+                {
+                  "req": "bnvs"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "10"
+            }
+          ],
+          "template": 1,
+          "text": "Your mind and psychic powers now no longer require your physical form in order to persist, allowing you to sever yourself from your body and exist as a disembodied psychic presence, with only a minor hit to your overall abilities due to the lack of a physical brain. As an additional bonus, this naturally also allows you to ignore any neglect or damage your body suffers if needed in order to continue working or fighting.",
+          "title": "Psychic Specter"
         },
         {
           "addons": [],
@@ -107366,6 +108088,96 @@
           "template": 1,
           "text": "You gain a Black Trigger of your choice. (Either one that was seen in the series or an original creation.)\n\nThe trigger will create a high quality Trion Gland in the user upon first use.",
           "title": "Black Trigger"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "o0h5",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-o0h5.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-o0h5.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "20"
+            }
+          ],
+          "template": 1,
+          "text": "You have come into the possession of a Keyblade, a weapon with the power to open and close almost any lock or door, from magical seals, to a person's Heart, to even gates between worlds, as long as you can locate and reach it. Though it may appear quite impractical, the magic within allows it to function effectively despite how unwieldy it looks, as well as allowing it to teleport back to your hand at will.\n\nYou start with the Keychain for the Kingdom Key, a handful of basic spells such as Fire, Cure or Reflect, and magical power roughly on par with Sora near the start of his first adventure. Though you can expand your physical and magical abilities with simple training, new Keychains are typically only obtained by undergoing significant events, forming strong bonds with others, or through Synthesis.",
+          "title": "Keyblade"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "rn78",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-rn78.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-rn78.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "o0h5",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "5"
+            }
+          ],
+          "template": 1,
+          "text": "How curious; it seems that you have not only obtained a second Keyblade, but also the ability to wield two at once, something normally only possible by holding two Hearts in the same body. You also now have the Keychains for the Kingdom Key D and the Starlight. While this doesn't actually boost your power beyond benefitting from two Keychains, the value of simply having two magical skeleton keys shouldn't be understated.",
+          "title": "Synch Blade"
         }
       ],
       "requireds": [
@@ -114172,6 +114984,35 @@
               "requireds": [],
               "showRequired": true,
               "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "kvjt",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
             }
           ],
           "scores": [],
@@ -114217,6 +115058,35 @@
               "reqId3": "",
               "reqPoints": 0,
               "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "94ra",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
               "requireds": [],
               "showRequired": true,
               "type": "id"
@@ -114271,12 +115141,13 @@
           "scores": [
             {
               "afterText": "CP",
-              "beforeText": "Cost:",
+              "beforeText": "Gain:",
               "id": "2b",
+              "isActive": false,
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "15"
+              "value": "-15"
             }
           ],
           "template": 1,
@@ -118067,6 +118938,35 @@
           "template": 1,
           "text": "Origin of Powers: Science, the Occult, Monstrous/Alien/Anthromorphic animal/Eldritch Biology, Superpowers, and the Toonforce. \n\nMajor Threats: Bill Cipher trapped in the Oregon Triangle, Toffee and King Phobos as multiversal conquerers, Drossel von Flugel's kingdom unaware that humanity isn't at war with it, DOR-15, King Candy's Cybugs breaking more and more technology, Doofenshmirtz openly trying to take over the Tri-state area, various Disney Villains having established domains attempting to gather more and more power risking open war. \n\nMajor Powers: Toffee's and King Phobos' Empires, the United States Government, Calisota Conglomerate, Doofania, Drakktech, Xanatos Enterprises, Tomorrowland, Tempest Domain, Master Control Program of ENCOM, the United Galactic Federation, this could go on. \n\nNote: If you are capable of magic of any kind, you'll find yourself having talent in this world's magic. If you have the Sorcerer Supreme power, you can get both a Merlinean Encantus and a Morganian Encantus from your library. \n\nThis is a world that could easily fall into an apocalyptic war, so it's best to be careful, but not too careful, as the local Eldritch Abomination known as Bill Cipher will almost certainly escape given time, and Toffee has his eyes on and an unknown reason for a grudge against Earth.\n\nGiven time, this setting's powers are likely to ramp up in power such that they could present more and more of a threat to Scion.",
           "title": "Disney Villains Victorious: Gridlocked"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ek5k",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-80"
+            }
+          ],
+          "template": 1,
+          "text": "Origin of Powers: Genetics, Power Cosmic, Mutations, Lab Accidents, Science Experiments, Radiation, Magic, Deals with Cosmic Beings\n\nMajor Threats: The One Above All/The One Below All (Same Being) The Living Tribunal, Galactus, The Beyonders, The Celestials, Molecule Man, Dark Phoenix, The Dread Dormammu, Mephisto, Thanos, Kang, Skull, Kree, Franklin Richards, Dr. Doom if you're not Latverian, etc. (It's a comic's universe, there's a lot of threats)\n\nMajor Powers: The One Above All/Below All, The Celestials, just everything in Major Threats and a bit more.\n\nNotes: You may enter at any time after the creation of Captain America. Entropy is not a thing in this universe due to Galactus generating new energy. By coming to this universe you now have access to the entire Marvel multiverse, where some universes are less powerful and others are basically going to kill you upon entry.\n\nWarning: This universe, and by extension the Marvel Multiverse, is guarded by the Living Tribunal, try not to make it a dystopia if you want to continue existing. If you are a Spider Totem you are now being hunted by the Inheritors. Also universe threatening event are common, have fun!",
+          "title": "Universe 616 (Marvel)"
         },
         {
           "addons": [],
@@ -122467,6 +123367,60 @@
           "template": 1,
           "text": "You appear before the setting's Main Character. They will be fully clothed and decent when this happens.",
           "title": "Main Character's Face"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "xr26",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            }
+          ],
+          "template": 1,
+          "text": "If the Main Antagonist of the setting has a base of operations, you appear right outside of it, or, if you want, inside of it. If they don't have one, you appear in their resting space, even if that's just a camp or hotel room.",
+          "title": "Main Antagonist's Lair"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "38so",
+          "image": "",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "-30"
+            }
+          ],
+          "template": 1,
+          "text": "You appear before the setting's Main Antagonist. They will be fully clothed and decent when this happens. ",
+          "title": "Main Antagonist's Face"
         },
         {
           "addons": [],
