@@ -71350,7 +71350,7 @@
               "requireds": [],
               "showScore": true,
               "type": "",
-              "value": "9"
+              "value": "13"
             }
           ],
           "template": 1,
@@ -78040,7 +78040,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "qee2",
-          "image": "",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qee2.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-qee2.webp",
           "isActive": false,
           "isVisible": true,
           "multipleUseVariable": 0,
@@ -78060,6 +78062,36 @@
           "template": 1,
           "text": "you are able to become a person shaped supernova you're able to create and manipulate plasma that is over a billion degrees centigrade you also possess immense control over all forms of radiation allowing you to touch individuals in your breaker state without harming them\n\nyou have almost complete control over gravity and are able to condense matter to the point where you can create black holes and you control over gravity is so Potent you can prevent black holes from absorbing other matter",
           "title": "(Breaker/Shaker/Blaster/Mover) Embodiment of the supernova"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "0j8t",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0j8t.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-0j8t.webp",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            }
+          ],
+          "template": 1,
+          "text": "You now have the ability to wield the power known as Stilling an incredible power that allows you to negate and manipulate wavelengths. \n\nIt\u2019s versatility is immense, as it can be used for disintegrating molecular bonds, cancellation of heat and sound, slowing or stopping motion, negating the effects of virtually any superhuman ability/power. It can even be used to heal and far more. \n\nThis power manifests as golden light, which you can shape into any form you wish. All of your \"stilling\" effects are completely silent, can range greatly in power (from pencil-thin cutting beams to planet-destroying blasts), and has practically infinite range. Your light can even track and home in on targets, even curving in mid-air. \n\nYou are capable of manifesting a golden aura which grants you the ability to fly at immense speeds. Thanks to the aura itself, you are able to fly even through space and other hostile environments without any problems. \n\nYou can use your Stilling ability to \"tune\" your defenses to negate any power, even if they are far more powerful than you. You also have an automatic adaptive defense that makes you immune to anything used against you. \n\nYou are able to use the Stilling ability to it\u2019s fullest potential even without knowing exactly how it works.",
+          "title": "(Mover/Shaker/Breaker/Blaster/Trump) Stilling"
         }
       ],
       "requireds": [
@@ -86024,6 +86056,36 @@
           "template": 1,
           "text": "You have the knowledge and capabilities to build the wonderful technology found on Talos I. Their most notable invention is Neuromods, capable of implanting skills and other things scanned from the brains of a target to implant within yourself. But you also have access to other technology such as drones, recycling bombs, and even fabricators.",
           "title": "Talos I (Prey)"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "ouq3",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ouq3.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-ouq3.jpeg",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "You gain the knowledge of how to create any technology in Star Wars, both legends and canon. From a hyperdrive to kaminoan cloning to the death star you can make it all. You can also synthesize any material from Star Wars, such as Kyber, Beskar, and blaster gases. \n\nYou can grow plants such as the trees of Kashyyyk or even grow bacteria such as Bacta.\n\n(If you do not have the force you are still able to build force-reliant tech, you just can't use it)",
+          "title": "The-One-Who-Creates (Star Wars)"
         }
       ],
       "requireds": [
@@ -98486,6 +98548,66 @@
           "template": 1,
           "text": "You become one with the Emperor of Mankind. Gaining his skills, training, powers, body, knowledge, and more.\nYou are the new man. Ready to lead mankind to glory, or ruin.\nIt is up to you whether this is a soul fusion, or merely you gaining his powers, knowledge, and gifts.",
           "title": "The Emperor of Mankind"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "urwf",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-urwf.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-urwf.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "g0ut",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "15"
+            }
+          ],
+          "template": 1,
+          "text": "Normally the human body only uses 20% of it's chakra in order to prevent the body from harming itself through over-exertion. However: you are different.\n\nYou have learned the Eight Gates technique, allowing you to remove your bodies natural limiters (or gates) for greater power through.\nThe gates are as follows:\nGate of Opening\n-Removes Mental inhibitions\nGate of Healing\n-Increases strength \nGate of Life\n-Increases blood flow, turns skin red with bulging veins\nGate of Pain\n-Increases Strength, your muscles may start to tear\nGate of Limit\n-Increases strength further than the gate of pain, you start to fracture your bones\nGate of Wonder\n-Your strength increases to such an extent that your muscle fibers start to rupture\nGate of Death\n-By puncturing your heart with your thumb you unlock the 8th gate of death, your strength is increased 100 fold, however the amount of chakra flowing through your body evaporates your blood (causing a red aura-like mist to surround you), and will slowly cook your body, there is a near 100% chance you will die. ",
+          "title": "Eight Gates Technique"
         },
         {
           "addons": [],
@@ -123311,7 +123433,7 @@
             "selFilterSepiaIsOn": false
           },
           "template": 1,
-          "text": "MythicLegendary: Supernatural powers\nValeria: UQ Holder Powers\n\nMembers of the CYOA Discord:\nowlcool, Punchingtucan, Brigade, ObliterateFailed, CYOA Fans, Iris, igor0612, crashdash, Symbol, northernmage, ComradeChairmanKGB, Cudi, HydrogenPeroxide, Banagher Asenion, Hierophant, Dr. Doom",
+          "text": "MythicLegendary: Supernatural powers\nValeria: UQ Holder Powers\n\nMembers of the CYOA Discord:\nowlcool, Punchingtucan, Brigade, ObliterateFailed, CYOA Fans, Iris, igor0612, crashdash, Symbol, northernmage, ComradeChairmanKGB, Cudi, HydrogenPeroxide, Banagher Asenion, Hierophant, Dr. Doom, Indigo, PgX27,",
           "title": "Content"
         },
         {
