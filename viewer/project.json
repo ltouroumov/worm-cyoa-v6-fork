@@ -20913,7 +20913,7 @@
             }
           ],
           "template": 1,
-          "text": "You have Batman's real superpower, Money. This comes in the form of numerous bank accounts worth millions, several properties worldwide, and a few safehouses.\n\nThe money refreshes as you spend it, either from interest or dividends, but you only have 5 million dollars in liquid assets, if you need to withdraw any more than that you'll need to talk to your private banker. ",
+          "text": "You have Batman's real superpower, Money. This comes in the form of numerous bank accounts worth millions, several properties worldwide, and a few safehouses. (it goes without saying these assets are only on your world of arrival)\n\nThe money refreshes as you spend it, either from interest or dividends, but you only have 5 million dollars in liquid assets, if you need to withdraw any more than that you'll need to talk to your private banker. ",
           "title": "Wealthy"
         },
         {
@@ -25405,6 +25405,324 @@
           "template": 1,
           "text": "Regardless if you're immune to Master/Stranger powers or not, you have a geas on you. A geas is a compulsion you must obey. You are unaware of your geas, and their effects are entirely mental. If your chosen geas was to be a good person, then you would find yourself genuinely trying to be a good person. If that was your geas, you would have to shift your alignment to good though. This is NOT caused by your Shard if you have one. To be clear, you forget you chose this Perk even if you remember all your other choices. The more general the Geas is, the less it affects your personality. If your Geas was to be good, you'd find yourself a significantly better person, or at least trying to be a significantly better person, but you might still occasionally do something you know isn't good because of selfishness, revenge, or some other reason. If your geas was more specific, like to not steal, you'd obsessively hate the idea of stealing and likely couldn't do it even if it would stop the entity from ending all worlds.",
           "title": "Unconscious Geas"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "orxr",
+          "image": "",
+          "isActive": false,
+          "isMultipleUseVariable": false,
+          "isNotSelectable": false,
+          "isSelectableMultiple": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "numMultipleTimesMinus": "0",
+          "numMultipleTimesPluss": "10",
+          "objectWidth": "",
+          "requireds": [
+            {
+              "afterText": "",
+              "beforeText": "Required:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": "uh4g"
+                },
+                {
+                  "req": "42jg"
+                },
+                {
+                  "req": "pjir"
+                },
+                {
+                  "req": "akq3"
+                }
+              ],
+              "reqId": "",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": true,
+              "requireds": [],
+              "showRequired": true,
+              "type": "or"
+            }
+          ],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                },
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "2",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "pointCompare"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-15"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "isActive": false,
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dstd",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-30"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "deasy",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-40"
+            },
+            {
+              "afterText": "SP",
+              "beforeText": "Gain:",
+              "id": "rm",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-10"
+            },
+            {
+              "afterText": "CP",
+              "beforeText": "Gain:",
+              "id": "2b",
+              "requireds": [
+                {
+                  "afterText": "",
+                  "beforeText": "Required:",
+                  "id": "",
+                  "operator": "",
+                  "orRequired": [
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    },
+                    {
+                      "req": ""
+                    }
+                  ],
+                  "reqId": "dhard",
+                  "reqId1": "",
+                  "reqId2": "",
+                  "reqId3": "",
+                  "reqPoints": 0,
+                  "required": true,
+                  "requireds": [],
+                  "showRequired": false,
+                  "type": "id"
+                }
+              ],
+              "showScore": true,
+              "type": "",
+              "value": "-20"
+            }
+          ],
+          "template": 1,
+          "text": "Oh, you didn't <i>actually</i> think I could give perks that affect powers *everywhere* in the multiverse, did you?\n\nPerks such as Blindspot, Mental Barrier, All Seeing Precognition, and Plot Amour no longer work everywhere against all powers. (They're guaranteed to work fully as stated within any part of the multiverse the entities can access, however)\nI hope you are prepared for this if you have powers that let you travel outside of the areas of the multiverse that the entities have access to, it isn't a kind place outside (though you'll most likely be fine statistically speaking... probably)",
+          "title": "Some Terms and Conditions apply"
         },
         {
           "addons": [],
@@ -36546,7 +36864,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "3",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -36864,7 +37182,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "3",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -37184,7 +37502,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "3",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -37502,7 +37820,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "3",
-          "objectWidth": "col-sm-6",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -37849,7 +38167,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "3",
-          "objectWidth": "col-sm-6",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -38196,7 +38514,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "3",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -38516,7 +38834,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "3",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -38834,7 +39152,7 @@
           "multipleUseVariable": 0,
           "numMultipleTimesMinus": "0",
           "numMultipleTimesPluss": "3",
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -39146,7 +39464,7 @@
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -39430,7 +39748,7 @@
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -39718,7 +40036,7 @@
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -40004,7 +40322,7 @@
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [
             {
               "afterText": "",
@@ -40329,7 +40647,7 @@
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
@@ -40585,7 +40903,7 @@
           "isActive": false,
           "isNotSelectable": false,
           "isVisible": true,
-          "objectWidth": "col-md-4",
+          "objectWidth": "",
           "requireds": [],
           "scores": [
             {
