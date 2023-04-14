@@ -8790,7 +8790,7 @@
           ],
           "scores": [],
           "template": 1,
-          "text": "You must prevent the moral downfall of both the Protectorate and Cauldron by saving the life of Hero from the Siberian, a.k.a. William Manton. This can be done either publicly or secretly. If you wish to do it publicly, you must wait until the start of the Siberian attack to save hero, either by killing the Siberian or getting hero away from the Siberian, but if you choose to do it secretly, you must kill William Manton without anyone noticing.\n\nIf you fail, then not only will Hero be killed, but Legend will also be killed by the Serbian, and by the deaths of both of the moral pillars of the Protectorate and Cauldron, both organisations will fall further and further into darkness, becoming more and more twisted, until the Protectorate will become a completely corrupt place where anyone with an ounce of decency or morality is kicked out and arrested on false charges, and Cauldron will create horrific experiments in an attempt to create more powerful soldiers. They will be running hundreds of horrific experiments that would make even the most heinous of the Nazi scientists look at them in disgust and horror.\n\nIf you manage to succeed in protecting Hero, the Protectorate and Cauldron will not fall into the decay that they would have experienced. The Protectorate will become an organisation nearly completely free of corruption, alongside all connecting organisations; they will be pillars of stability, and Cauldron will never fall into depravity or cruelty, especially not as hero will discover a way to use tinkertech to recharge Eidolon power alongside creating a tinkertech that can damage and kill not only the Endbringers but also the Entity.",
+          "text": "You must prevent the moral downfall of both the Protectorate and Cauldron by saving the life of Hero from the Siberian, a.k.a. William Manton. This can be done either publicly or secretly. If you wish to do it publicly, you must wait until the start of the Siberian attack to save hero, either by killing the Siberian or getting hero away from the Siberian, but if you choose to do it secretly, you must kill William Manton without anyone noticing.\n\nIf you fail, then not only will Hero be killed, but Legend will also be killed by the Siberian, and by the deaths of both of the moral pillars of the Protectorate and Cauldron, both organisations will fall further and further into darkness, becoming more and more twisted, until the Protectorate will become a completely corrupt place where anyone with an ounce of decency or morality is kicked out and arrested on false charges, and Cauldron will create horrific experiments in an attempt to create more powerful soldiers. They will be running hundreds of horrific experiments that would make even the most heinous of the Nazi scientists look at them in disgust and horror.\n\nIf you manage to succeed in protecting Hero, the Protectorate and Cauldron will not fall into the decay that they would have experienced. The Protectorate will become an organisation nearly completely free of corruption, alongside all connecting organisations; they will be pillars of stability, and Cauldron will never fall into depravity or cruelty, especially not as hero will discover a way to use tinkertech to recharge Eidolon power alongside creating a tinkertech that can damage and kill not only the Endbringers but also the Entity.",
           "title": "Protect The Hero"
         },
         {
@@ -8854,6 +8854,35 @@
                 }
               ],
               "reqId": "ee5n",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "hnjx",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -8930,6 +8959,35 @@
                 }
               ],
               "reqId": "ee5n",
+              "reqId1": "",
+              "reqId2": "",
+              "reqId3": "",
+              "reqPoints": 0,
+              "required": false,
+              "requireds": [],
+              "showRequired": true,
+              "type": "id"
+            },
+            {
+              "afterText": "",
+              "beforeText": "Incompatible:",
+              "id": "",
+              "operator": "",
+              "orRequired": [
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                },
+                {
+                  "req": ""
+                }
+              ],
+              "reqId": "2fcw",
               "reqId1": "",
               "reqId2": "",
               "reqId3": "",
@@ -41790,7 +41848,9 @@
           "defaultAspectWidth": 1,
           "groups": [],
           "id": "x5g4",
-          "image": "",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x5g4.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-x5g4.jpeg",
           "isActive": false,
           "isMultipleUseVariable": true,
           "isNotSelectable": false,
@@ -79429,6 +79489,64 @@
           "template": 1,
           "text": "You gain the ability to summon and resend Alternate versions of Shard bearers that you meet, clones of the originals as well.\nThese summons will be perfectly loyal, but will still hold their personality, they will be given a general understanding of both your world and you upon summoning. They will sacrifice themselves and their morals to protect you and do what you say. Their powers start at 50% strength and after a full 1 month of being summoned they are boosted to 200% their normal strength from then on. (This only happens once.)\nYou are given a Thinker ability which allows you to perceive a mental rotating list of currently useful summons for the tasks you need done. You are given an Aura of 30 feet which counts as your range for the \"meet\" condition.\nEndbringers and Entities can be summoned, alts and clones alike, but only under the condition that you touch their core for Endbringers and Seriously injure their for Entities. (To summon a clone Leviathan or Alt Leviathan you would need to touch its core; to summon a Scion clone or Alt Scion you would need to seriously injure his real body.)\nEvery summoning takes shard power and requires focus to keep active after they complete their original task, summoning Endbringers is an immense drain of both shard energy and mental focus and will do serious damage to your shard if held too long while Entity summons will instantly drop your shard to less than 1 week of energy left and knock you unconscious for at least 1 hour, they will shatter your shard if summoned for longer than their task takes.\nSummon's initial energy and focus requirements are substantially higher than continual summoning post task. (Negentropy will completely null all the shard based drawbacks of this power and half all mental drain)\nThis power will allow you to perform this ability with any and all \"powered\" individuals in the multiverse if taken with Esoteric Knowledge and Trump Compatibility, or just Esoteric Knowledge if (Noble) Shard Essence is used.",
           "title": "(Master/Trump/Thinker) The Friend Bringer"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "98xr",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-98xr.jpeg",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-98xr.jpeg",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            }
+          ],
+          "template": 1,
+          "text": "You have the power to rewrite your own existence.\nAble to will yourself to change into another person, have any tier 2 power and turn yourself into anything. You could will yourself into becoming Metal, Fire, Water, Space, Time and anything you could think off.\nYou are capable of turning yourself more intelligent, stronger, faster all by your will alone. You are also able to teleport across the Wormverse earth simply by wanting to be there.\n\n(You can only turn into more esoteric things by buying the Esoteric Knowledge perk or being Shardless. You're also only able to go to other multiverses by having Homecoming).",
+          "title": "(Breaker/Trump/Changer) Self-Rewrite"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "oli7",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-oli7.png",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-oli7.png",
+          "isActive": false,
+          "isVisible": true,
+          "multipleUseVariable": 0,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "40"
+            }
+          ],
+          "template": 1,
+          "text": "A Tinker specializing in the manipulation of shards, this power allows for personal Shard editing and Data gain from nearby Shards. \n Data gathering takes active combat with a Shard bearer to copy data, this will allow your shard to gain these powers or off shoots. You can cannibalize different data to strengthen or weaken different powers, making changes with the Raw Data and Energy.\n You gain both a passive Raw Data acclimation, which accelerates depending on how much data you have in your shard. (You can edit more and more, much larger changes and ability addition, faster depending on how much data you have copied from other shards) and a passive Energy gain which will increase your shards life span if left unused. \n This shard can be overtaxed until it breaks in terms of raw energy, though you will be warned before hand. (Will be negated with Negentropy) \n If giving direct access to unused shards (I.E. The Garden of Eden) you will be able to freely manipulate these shards with a touch, and with significant energy use you can discover how to make shards and make powers from/for them. (This analysis will take direct contact for 72 hour, unboosted) \n The creation of new shards and powers will cost incredible amounts of Raw Data and Energy, enough that each use will cause a serious risk of immediate shard death. (Drawback will be negated with Negentropy.) The Raw Data needed is about a year of moderate generation  (20 fully copied shards worth of generations for a full year with no additional use) for Shard creation but Raw Data needed for power is variable.",
+          "title": "Shard Tinker"
         }
       ],
       "requireds": [
