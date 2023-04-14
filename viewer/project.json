@@ -84381,8 +84381,8 @@
             }
           ],
           "template": 1,
-          "text": "Your Mazarin-Rashoud node is activated and you gain incredible powers from subconsciously manipulating the four fundamental forces & quantum physics. The powers you gain from this are any you could take during default character creation (Such as Mega-Attributes & Quantum Powers) and you will be able to train & expand them through practice or special meditation. You don't have to worry about Taint and never will. Note that despite being a Shardless power, an M-R Node looks remarkably like a Corona Pollentia, even to medical experts.",
-          "title": "Nova"
+          "text": "Your Mazarin-Rashoud node is activated and you gain incredible powers from subconsciously manipulating the four fundamental forces & quantum physics. The powers you gain from this are any you could take during default character creation (Such as Mega-Attributes & Quantum Powers) and you will be able to train & expand them through practice or special meditation. You don't have to worry about Taint and never will. You also don't need to worry about Quantum age restrictions. Note that despite being a Shardless power, an M-R Node looks remarkably like a Corona Pollentia, even to medical experts.",
+          "title": "Nova (Abberant)"
         },
         {
           "addons": [],
@@ -89475,6 +89475,36 @@
           "template": 1,
           "text": "You embody light, life, and goodness in all it\u2019s forms. Exquisite flowers bloom where you step and your light chases away evil, depression and all things commonly thought of as bad. You can see the sins of every living thing you can gaze at. Your halo evolves and no innocent can be harmed or hurt as long as its light reaches them, you can heal just about anything other than death away in the blink of an eye, and looking at you is now akin to a religious experience. You gain massive control and power over holy sun fire, spawning it and controlling it at will, choosing what and who it can hurt. Your presence is a balm to the soul chasing away depression and other such mental or spiritual afflictions of all that surround you, you gain an infinite lifespan as while you are still a mortal you now have more in common with other celestials such as angels than a normal human. You can every week resurrect one person fully and completely, but be very careful doing so, you might just take a soul out of heaven and their eternal paradise, and that is a very, very cruel thing to do. You can feel people that are in harms way and appear near them in order to help them, this feeling extends to about the size of New York city in a circle around you. You also gain a pair of functional angel wings.\n\nAll these powers can be turned on and off at will or be dialed up and down as you please.",
           "title": "Of all that is good"
+        },
+        {
+          "addons": [],
+          "defaultAspectHeight": 1,
+          "defaultAspectWidth": 1,
+          "groups": [],
+          "id": "zmsm",
+          "image": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-zmsm.webp",
+          "imageIsUrl": true,
+          "imageLink": "https://ltouroumov.github.io/worm-cyoa-v6-fork/images/v17/obj-zmsm.webp",
+          "isActive": false,
+          "isNotSelectable": false,
+          "isVisible": true,
+          "objectWidth": "",
+          "requireds": [],
+          "scores": [
+            {
+              "afterText": "SP",
+              "beforeText": "Cost:",
+              "id": "rm",
+              "isActive": false,
+              "requireds": [],
+              "showScore": true,
+              "type": "",
+              "value": "35"
+            }
+          ],
+          "template": 1,
+          "text": "You are given a Solar Exaltation without the Great Curse & without age limits. You have the abilities of Solar during starting character creation. You have conceptual attacks and defenses comparable to Heroic Spirits from Fate, with Perfect Parries being able to do things like Block Sting, and Unblockable Attacks being able to hit Contessa actively dodging you.",
+          "title": "Solar Exalted (Exalted)"
         },
         {
           "addons": [],
