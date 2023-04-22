@@ -223,6 +223,9 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
         parser.add_argument('--skip-rows', dest='skip_rows',
                             nargs='+', action='extend',
                             default=[])
+        parser.add_argument('--skip-rows-data', dest='skip_rows_data',
+                            nargs='+', action='extend',
+                            default=[])
         parser.add_argument('--skip-objs', dest='skip_objs',
                             nargs='+', action='extend',
                             default=[])
@@ -328,8 +331,15 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
 
             # Handle updated properties
             if obj_hash(old_row) != obj_hash(new_row):
+                should_skip_data = (old_row['id'] in args.skip_rows_data or
+                                    len(args.skip_rows_data) > 0)
                 updated_row, has_changed, diff_table = update_dict(old_row, new_row)
-                if has_changed:
+                if should_skip_data:
+                    console.print(
+                        f"  Skipped Data Update",
+                        style="dark_slate_gray1 italic"
+                    )
+                elif has_changed:
                     console.print("  Updated Row Data", style="orange1")
                     console.print(diff_table)
                 else:
