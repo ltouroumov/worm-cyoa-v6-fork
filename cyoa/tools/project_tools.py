@@ -107,6 +107,17 @@ def check_requirements(project):
                 f"Missing outputs for {row.title} / {obj.title} ({oid}): {missing_outputs}")
 
 
+def check_backpack(project):
+    result_groups = {group['id']: group['name']
+                     for group in project['groups']}
+
+    for row_data in project['rows']:
+        gid = row_data.get('resultGroupId', None)
+        if not gid:
+            console.print(f'Row {row_data["title"]} ({row_data["id"]}) has no group')
+        elif gid not in result_groups:
+            console.print(f'Row {row_data["title"]} ({row_data["id"]}) has invalid group {gid}')
+
 class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
     name = 'project.check'
 
@@ -120,6 +131,7 @@ class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
 
         check_duplicates(self.project)
         check_requirements(self.project)
+        check_backpack(self.project)
 
 
 def visit_project(project, visitor: PatchBase):
