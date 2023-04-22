@@ -60,3 +60,27 @@ class ClearEditingFlag(PatchBase):
     def patch_row(self, row):
         if row.get('isEditModeOn', False):
             row['isEditModeOn'] = False
+
+class FixImageLinks(PatchBase):
+    def _patch_image(self, data):
+        img_is_url = data.get('imageIsUrl', False)
+        img_data: str | None = data.get('image', None)
+        if (img_is_url is False and img_data and
+            img_data.startswith('http')):
+            data['image'] = None
+            del data['imageLink']
+        elif (img_is_url is True and img_data and
+              img_data.startswith('data')):
+            data['image'] = None
+            del data['imageLink']
+        elif (img_is_url is True and img_data and
+              img_data.startswith('http')):
+            data['imageLink'] = img_data
+
+    @patch(target='row')
+    def patch_row(self, row):
+        self._patch_image(row)
+
+    @patch(target='object')
+    def patch_obj(self, obj):
+        self._patch_image(obj)

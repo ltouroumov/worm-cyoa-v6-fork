@@ -20,6 +20,10 @@ cp "$INPUT" $PROJECT
 # Format the JSON document
 python3 -m cyoa.tools.client project.format --project $PROJECT --skip-backup
 
+# Apply images normalization
+python3 -m cyoa.tools.client project.patch --project $PROJECT \
+  --patch cyoa.patch:FixImageLinks
+
 # Optimize and extract medias
 python3 -m cyoa.tools.client media.optimize --project $PROJECT --write
 python3 -m cyoa.tools.client media.extract --project $PROJECT \
