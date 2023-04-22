@@ -103,7 +103,7 @@ class ObjectCutTool(ToolBase, ProjectUtilsMixin):
         parser.add_argument('--project', dest='project_file', type=Path, required=True)
         parser.add_argument('--row-id', type=str, required=True)
         parser.add_argument('--obj-id', dest='object_ids', type=str, nargs='+', action='extend', default=[])
-        parser.add_argument('--obj-range', dest='object_range', type=str, default=None)
+        parser.add_argument('--obj-range', dest='object_ranges', type=str, nargs='+', action='extend', default=[])
         parser.add_argument('--output', type=Path)
 
     def run(self, args):
@@ -138,12 +138,15 @@ class ObjectMoveTool(ToolBase, ProjectUtilsMixin):
         parser.add_argument('--dest-after-idx', type=int)
         parser.add_argument('--dest-after-obj', type=str)
         parser.add_argument('--obj-id', dest='object_ids', type=str, nargs='+', action='extend', default=[])
+        parser.add_argument('--obj-range', dest='object_ranges', type=str, nargs='+', action='extend', default=[])
         parser.add_argument('--obj-all', dest='object_all', action='store_true')
 
     def run(self, args):
         self._load_project(args.project_file)
 
-        if args.object_all is False and len(args.object_ids) == 0:
+        if (args.object_all is False and 
+            len(args.object_ids) == 0 and
+            len(args.object_ranges) == 0):
             console.print("Missing --obj-id or --obj-all", style="red")
             return
 
@@ -156,10 +159,12 @@ class ObjectMoveTool(ToolBase, ProjectUtilsMixin):
         # Move the objects into a temporary list
         objects_data = copy_objects_from_row(from_row_data,
                                              object_ids=args.object_ids,
-                                             object_all=args.object_all)
+                                             object_all=args.object_all,
+                                             object_ranges=args.object_ranges)
         remove_objects_from_row(from_row_data,
                                 object_ids=args.object_ids,
-                                object_all=args.object_all)
+                                object_all=args.object_all,
+                                object_ranges=args.object_ranges)
 
         # Insert the object into the destination row
         insert_objects_in_row(dest_row_data, objects_data,
