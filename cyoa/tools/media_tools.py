@@ -89,7 +89,7 @@ def list_all_images(project) -> Iterator[ImageInfo]:
             if objImage := extract_image_from_item(obj):
                 yield replace(objImage, object_type="obj", row_id=row.get('id', None), obj_id=obj.get('id', None),
                               name=obj.get('title', None))
-
+            
             for style_prop in IMAGE_PROPS:
                 if bgImage := extract_image_from_style(project, prop=style_prop):
                     yield replace(bgImage, object_type="obj", row_id=row.get('id', None), obj_id=obj.get('id', None),
@@ -158,8 +158,8 @@ def export_image_name(image_info, image_type):
 def _set_image_lenses(encoded_image, image_is_url):
     return (lens.Get('image').set(encoded_image),
             lens.Get('imageLink').set(encoded_image
-                                       if image_is_url
-                                       else None),
+                                      if image_is_url
+                                      else None),
             lens.Get('imageIsUrl').set(image_is_url))
 
 
