@@ -2,6 +2,13 @@ from cyoa.tools.lib import console
 from cyoa.tools.patch import PatchBase, patch, PatchContext
 
 
+class FixActiveFlags(PatchBase):
+    @patch(target="object.score")
+    def patch_points(self, score):
+        if 'isActive' in score:
+            del score['isActive']
+
+
 class FixScoreLabels(PatchBase):
     @patch(target="object.score")
     def patch_points(self, score, obj, context: PatchContext):
