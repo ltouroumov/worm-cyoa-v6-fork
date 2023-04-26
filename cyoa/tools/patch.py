@@ -9,7 +9,7 @@ from cyoa.tools.lib import console
 
 def patch(*, target: str, context: Optional[str] = None):
     def __curry__(fn):
-        fn._patch = {'target': target, 'context': context}
+        fn._patch = {"target": target, "context": context}
         return fn
 
     return __curry__
@@ -27,11 +27,19 @@ class PatchBase(abc.ABC):
     def __init_subclass__(cls, **kwargs):
         super().__init_subclass__(**kwargs)
         cls.handlers: dict[str, list[str]] = defaultdict(list)
-        for name, method in inspect.getmembers(cls, lambda m: inspect.isfunction(m) and hasattr(m, '_patch')):
-            target_name = getattr(method, '_patch')['target']
+        for name, method in inspect.getmembers(
+            cls, lambda m: inspect.isfunction(m) and hasattr(m, "_patch")
+        ):
+            target_name = getattr(method, "_patch")["target"]
             cls.handlers[target_name].append(name)
 
-    def visit(self, node_type: str, node_data: Any, parents: dict[str, Any] = None, context: PatchContext = None):
+    def visit(
+        self,
+        node_type: str,
+        node_data: Any,
+        parents: dict[str, Any] = None,
+        context: PatchContext = None,
+    ):
         if type_handlers := self.handlers.get(node_type, None):
             for handler_name in type_handlers:
                 self._dispatch(handler_name, node_data, parents, context)
@@ -45,10 +53,12 @@ class PatchBase(abc.ABC):
                 call_params[name] = node_data
             elif name in parents:
                 call_params[name] = parents[name]
-            elif name in ('context', 'ctx'):
+            elif name in ("context", "ctx"):
                 call_params[name] = context
             else:
-                console.log(f"Skipped argument [b]{name}[/] of [b]{type(self).__name__}.{handler_name}[/]")
+                console.log(
+                    f"Skipped argument [b]{name}[/] of [b]{type(self).__name__}.{handler_name}[/]"
+                )
                 call_params[name] = None
 
         try:
