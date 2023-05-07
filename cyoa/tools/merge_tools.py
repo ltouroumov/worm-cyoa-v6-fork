@@ -254,7 +254,8 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
             if has_changed:
                 console.print(f"  Updated Item ({old_obj['id']}): {old_obj['title']}",
                             style="orange1")
-                console.print(diff_table)
+                if args.verbose:
+                    console.print(diff_table)
                 return updated_obj
             else:
                 return old_obj
@@ -277,7 +278,8 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                 console.print(
                     f"  Deleted Item ({item['id']}): {item['title']}", style="red"
                 )
-                console.print(diff_table)
+                if args.verbose:
+                    console.print(diff_table)
 
             return excluded_rows
 
@@ -298,7 +300,8 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                 console.print(
                     f"  Inserted Item ({item['id']}): {item['title']}", style="green"
                 )
-                console.print(diff_table)
+                if args.verbose:
+                    console.print(diff_table)
                 included_rows.append(item)
 
             return included_rows
@@ -381,7 +384,8 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                 console.print(
                     f"Deleted Row ({row['id']}): {row['title']}", style="red"
                 )
-                console.print(diff_table)
+                if args.verbose:
+                    console.print(diff_table)
 
             return excluded_rows
 
@@ -390,6 +394,7 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
             for row in new_rows:
                 should_skip = (row['id'] in args.skip_rows or
                                (len(args.only_rows) > 0 and row['id'] not in args.only_rows))
+                
                 if should_skip:
                     if args.verbose:
                         console.print(
@@ -402,7 +407,8 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
 
                 _, _, diff_table = update_dict(row, row)
                 console.print(f"  {len(row['objects'])} Items")
-                console.print(diff_table)
+                if args.verbose:
+                    console.print(diff_table)
 
                 included_rows.append(row)
 
