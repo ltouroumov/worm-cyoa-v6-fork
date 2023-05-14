@@ -241,6 +241,10 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
         self._load_project(args.project_file)
         patch_project = self._load_file(args.patch)
 
+        total_inserted_objs = 0
+        total_deleted_objs = 0
+        total_replaced_objs = 0
+
         def update_object(old_obj, new_obj):
             should_skip = (old_obj['id'] in args.skip_objs or
                            (len(args.only_objs) > 0 and old_obj['id'] not in args.only_objs))
@@ -416,11 +420,11 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
 
         def rows_summary(equal_count, replace_count, delete_count, insert_count):
             if replace_count > 0:
-                console.log(f"Total Updated Rows: {replace_count}")
+                console.print(f"Total Updated Rows: {replace_count}")
             if delete_count > 0:
-                console.log(f"Total Deleted Rows: {delete_count}")
+                console.print(f"Total Deleted Rows: {delete_count}")
             if insert_count > 0:
-                console.log(f"Total Inserted Rows: {insert_count}")
+                console.print(f"Total Inserted Rows: {insert_count}")
 
         new_rows = diff_sequence(
             self.project["rows"],
