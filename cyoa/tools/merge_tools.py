@@ -26,6 +26,8 @@ def default_delete_item(seq_a):
 def default_insert_item(seq_b):
     return seq_b
 
+def default_equal_item(seq):
+    console.print(seq)
 
 def default_summary(equal_count, replace_count, delete_count, insert_count):
     console.log(
@@ -35,6 +37,7 @@ def default_summary(equal_count, replace_count, delete_count, insert_count):
 def diff_sequence(seq_a: list, seq_b: list, update_item,
                   delete_item=default_delete_item,
                   insert_item=default_insert_item,
+                  equal_item=None,
                   summary=default_summary):
     def hash_objects(seq):
         return [
@@ -53,7 +56,11 @@ def diff_sequence(seq_a: list, seq_b: list, update_item,
     seq_out = []
     for tag, a_start, a_end, b_start, b_end in seq_match.get_opcodes():
         if tag == 'equal':
-            seq_out.extend(seq_a[a_start:a_end])
+            seq = seq_a[a_start:a_end]
+            if equal_item:
+                equal_item(seq)
+
+            seq_out.extend(seq)
             equal_count += 1  # No changes, skip
         elif tag == 'replace' and a_end - a_start == b_end - b_start:
             # Same number of items get updated
@@ -219,6 +226,8 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                             action='store_true')
         parser.add_argument('--quiet', dest='verbose',
                             action='store_false')
+        parser.add_argument('--equal', dest='equal',
+                            action='store_true')
 
         parser.add_argument('--skip-rows', dest='skip_rows',
                             nargs='+', action='extend',
@@ -241,9 +250,12 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
         self._load_project(args.project_file)
         patch_project = self._load_file(args.patch)
 
-        total_inserted_objs = 0
-        total_deleted_objs = 0
-        total_replaced_objs = 0
+        def equal_object(objs):
+            if not args.equal:
+                return
+            
+            for obj in objs:
+                console.print(f"  Equal Item ({obj['id']}): {obj['title']}")
 
         def update_object(old_obj, new_obj):
             should_skip = (old_obj['id'] in args.skip_objs or
@@ -318,6 +330,13 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
             if insert_count > 0:
                 console.print(f"  Total Inserted Objects: {insert_count}")
 
+        def equal_row(rows):
+            if not args.equal:
+                return
+            
+            for row in rows:
+                console.print(f"Equal Row ({row['id']}): {row['title']}")
+
         def update_row(old_row, new_row):
             should_skip = (old_row['id'] in args.skip_rows or
                            (len(args.only_rows) > 0 and old_row['id'] not in args.only_rows))
@@ -362,6 +381,7 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                     update_item=update_object,
                     delete_item=delete_object,
                     insert_item=insert_object,
+                    equal_item=equal_object,
                     summary=objects_summary
                 )
                 updated_row["objects"] = updated_objects
@@ -410,9 +430,11 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                 )
 
                 _, _, diff_table = update_dict(row, row)
-                console.print(f"  {len(row['objects'])} Items")
                 if args.verbose:
                     console.print(diff_table)
+
+                insert_object(row['objects'])
+                console.print(f"  {len(row['objects'])} Items")
 
                 included_rows.append(row)
 
@@ -432,6 +454,7 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
             update_item=update_row,
             delete_item=delete_row,
             insert_item=insert_row,
+            equal_item=equal_row,
             summary=rows_summary
         )
         self.project["rows"] = new_rows
