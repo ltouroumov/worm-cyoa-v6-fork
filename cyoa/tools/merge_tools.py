@@ -367,7 +367,8 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
                     )
                 elif has_changed:
                     console.print("  Updated Row Data", style="orange1")
-                    console.print(diff_table)
+                    if args.verbose:
+                        console.print(diff_table)
                 else:
                     updated_row = old_row
             else:

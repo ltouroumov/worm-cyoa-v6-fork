@@ -383,7 +383,9 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
 
         project_images = list(list_all_images(self.project))
         for image_info in track(project_images, total=len(project_images)):
-            # Skip non-embedded images
+            if image_info.image_data is None:
+                continue
+            
             if image_info.image_is_url:
                 self.download_image(image_info, dest_dir,
                                     base_url, images_table)
