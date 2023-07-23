@@ -272,6 +272,9 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             # Skip all non-embedded images
             if image_info.image_is_url:
                 continue
+            # Skip all missing images
+            if image_info.image_data is None:
+                continue
 
             img, img_size, img_type, img_dim = get_image_info(
                 image_info.image_data

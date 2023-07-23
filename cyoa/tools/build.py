@@ -34,6 +34,9 @@ class BuildTool(ToolBase, ProjectUtilsMixin):
             # Skip images that are URLs
             if image_info.image_is_url:
                 continue
+            # Skip all missing images
+            if image_info.image_data is None:
+                continue
 
             header, image_data = decode_image(
                 image_info.image_data
