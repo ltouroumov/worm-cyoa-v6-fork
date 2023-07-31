@@ -4,6 +4,7 @@ from shutil import copyfile
 from typing import List, Dict
 
 from rich.table import Table
+from cyoa.graph.lib import Graph
 
 from cyoa.tools.lib import *
 from cyoa.tools.patch import PatchBase, PatchContext
@@ -23,7 +24,7 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
 
         if args.skip_backup is False:
             backup_file = args.project_file.parent / \
-                          f"{args.project_file.name}.bak"
+                f"{args.project_file.name}.bak"
             console.log(f"Backing up project to {backup_file}")
             copyfile(args.project_file, backup_file)
 
@@ -74,9 +75,22 @@ class ProjectPointsTool(ToolBase, ProjectUtilsMixin):
 
         console.print(points_table)
 
+def show_duplicates(obj_id, titles, graph: Graph):
+    console.print(f"Duplicate {obj_id}: {str.join(', ', titles)}")
+    vertex = graph.vertices[obj_id]
+    for input_id in vertex.inputs:
+        obj_data = graph.objects[input_id]
+        console.print(f"  input: {obj_data.title} ({obj_data.obj_id})")
+    
+    for output_id in vertex.outputs:
+        obj_data = graph.objects[output_id]
+        console.print(f"  output: {obj_data.title} ({obj_data.obj_id})")
 
 def check_duplicates(project):
+    from cyoa.graph.lib import build_graph
+
     object_ids: Dict[str, List] = {}
+    graph = build_graph(project)
     for row_data in project['rows']:
         for object_data in row_data['objects']:
             object_ids.setdefault(object_data['id'], [])
@@ -84,7 +98,8 @@ def check_duplicates(project):
 
     for obj_id, titles in object_ids.items():
         if len(titles) > 1:
-            console.print(f"Duplicate {obj_id}: {str.join(', ', titles)}")
+            show_duplicates(obj_id, titles, graph)
+
 
 
 def check_requirements(project):
@@ -101,22 +116,32 @@ def check_requirements(project):
 
         if len(missing_inputs := (vertex.inputs - object_ids)) > 0:
             console.print(
-                f"Missing inputs for {row.title} / {obj.title} ({oid}): {missing_inputs}")
+                f"Missing inputs for {row.title} / {obj.title} ({oid}): {missing_inputs}"
+            )
         if len(missing_outputs := (vertex.outputs - object_ids)) > 0:
             console.print(
-                f"Missing outputs for {row.title} / {obj.title} ({oid}): {missing_outputs}")
+                f"Missing outputs for {row.title} / {obj.title} ({oid}): {missing_outputs}"
+            )
 
 
-def check_backpack(project):
+def check_backpack(project, ignore: set[str]):
     result_groups = {group['id']: group['name']
                      for group in project['groups']}
 
     for row_data in project['rows']:
+        if row_data['id'] in ignore:
+            continue
+
         gid = row_data.get('resultGroupId', None)
         if not gid:
-            console.print(f'Row {row_data["title"]} ({row_data["id"]}) has no group')
+            console.print(
+                f'Row {row_data["title"]} ({row_data["id"]}) has no group'
+            )
         elif gid not in result_groups:
-            console.print(f'Row {row_data["title"]} ({row_data["id"]}) has invalid group {gid}')
+            console.print(
+                f'Row {row_data["title"]} ({row_data["id"]}) has invalid group {gid}'
+            )
+
 
 class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
     name = 'project.check'
@@ -129,9 +154,18 @@ class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
     def run(self, args):
         self._load_project(args.project_file)
 
+        console.print('[b]Check Duplicates[/]')
         check_duplicates(self.project)
+        
+        console.print('[b]Check Requirements[/]')
         check_requirements(self.project)
-        check_backpack(self.project)
+        
+        console.print('[b]Check Backpack[/]')
+        check_backpack(
+            self.project,
+            {'ckrc', '0v3n', 'otza', 'dlut',
+             '4dzp', 'dn8o', 'h4ce', 'kgqo', 'g51j'}
+        )
 
 
 def visit_project(project, visitor: PatchBase):
