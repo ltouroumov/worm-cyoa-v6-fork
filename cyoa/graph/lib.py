@@ -153,7 +153,8 @@ class Graph:
 
         deps = ((obj.obj_id, dep)
                 for obj in self.objects.values()
-                for dep in collect_object_deps(obj))
+                for dep in collect_object_deps(obj)
+                if dep in self.objects)
         for oid, dep in deps:
             self._vertices[dep].outputs.add(oid)
             self._vertices[oid].inputs.add(dep)

@@ -296,8 +296,10 @@ class ProjectGraphTool(ToolBase, ProjectUtilsMixin):
     @classmethod
     def setup_parser(cls, parent):
         parser = parent.add_parser(cls.name, help='Format a project file')
-        parser.add_argument('--project', dest='project_file', type=Path, required=True)
-        parser.add_argument('--output', dest='output_file', type=Path, required=True)
+        parser.add_argument('--project', dest='project_file',
+                            type=Path, required=True)
+        parser.add_argument('--output', dest='output_file',
+                            type=Path, required=True)
 
     def run(self, args):
         from cyoa.graph.lib import build_graph, collect_condition_deps
@@ -312,15 +314,16 @@ class ProjectGraphTool(ToolBase, ProjectUtilsMixin):
         # CREATE (Keanu)-[:ACTED_IN {roles:['Neo']}]->(TheMatrix),
 
         for row_object in project_graph.objects.values():
-            print(f"CREATE (obj_{row_object.obj_id}:RowObject {{title: {json.dumps(row_object.title)}}})", file=output_file)
+            print(
+                f"CREATE (obj_{row_object.obj_id}:RowObject {{title: {json.dumps(row_object.title)}}})", file=output_file)
 
         for row_object in project_graph.objects.values():
             for dep_id in collect_condition_deps(row_object.requirements):
-                print(f"CREATE (obj_{row_object.obj_id})-[:REQUIRES]->(obj_{dep_id})", file=output_file)
-
+                print(
+                    f"CREATE (obj_{row_object.obj_id})-[:REQUIRES]->(obj_{dep_id})", file=output_file)
 
         output_file.close()
-        
+
 
 class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
     name = 'project.costs'
@@ -369,7 +372,7 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
             't6in',  # Paragon Powers
             'rbdo',  # Objects of Power
         }
-        
+
         UPGRADE_ROWS = {
             'o58j',  # (Master) Custom Endbringer Powers
             'qd5r',  # (Master) Custom Endbringer Appearance
@@ -395,13 +398,16 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
         }
 
         EXCLUDE_POWERS = {
-            'c26q', # Cache
+            'c26q',  # Cache
+            'bbio',  # Gamer System
         }
 
         # Extract only objects that are in the power rows
-        project_graph = build_graph(self.project, visit_scores=True, visit_addons=False, skip_incompatibles=True)
+        project_graph = build_graph(
+            self.project, visit_scores=True, visit_addons=False, skip_incompatibles=True)
         powers_graph = project_graph.filter(
-            lambda obj, vrt: obj.row_id in (POWER_ROWS | UPGRADE_ROWS) and obj.obj_id not in EXCLUDE_POWERS
+            lambda obj, vrt: obj.row_id in (
+                POWER_ROWS | UPGRADE_ROWS) and obj.obj_id not in EXCLUDE_POWERS
         )
 
         console.log(f"Powers: {len(powers_graph.vertices)}")
@@ -439,7 +445,7 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
                     # Update ownerships
                     for item_id in item_ids:
                         upgrade_chain_ownership[item_id] = primary_id
-                    
+
                     # Remove from the pool
                     del upgrade_chains[secondary_id]
 
@@ -454,10 +460,10 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
 
         def show_prices(scores: Sequence[Score]):
             return str.join(', ', [
-                f"{score.value} {connected_graph.point_types[score.points_id].suffix}" 
+                f"{score.value} {connected_graph.point_types[score.points_id].suffix}"
                 for score in scores
             ])
-        
+
         def add_score(totals: dict[str, Score], scores: list[Score]):
             for score in scores:
                 if score.points_id not in totals:
@@ -479,7 +485,8 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
             graph_file = open(f"tmp/graphs/{chain_id}.dot", "w+")
             print("digraph {", file=graph_file)
 
-            sorted_members, cycles = topological_sort({mid: connected_graph.vertices[mid] for mid in members})
+            sorted_members, cycles = topological_sort(
+                {mid: connected_graph.vertices[mid] for mid in members})
             if len(cycles) > 0:
                 console.log("Cycle Detected!", style="red")
                 console.log(cycles)
@@ -488,22 +495,26 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
             score_totals = {}
             for member_id in sorted_members:
                 if member_id not in connected_graph.objects:
-                    console.log(f"External Requirement: {member_id}", style="orange1")
+                    console.log(
+                        f"External Requirement: {member_id}", style="orange1")
                 if member_id not in project_graph.objects:
-                    console.log(f"Broken Requirement: {member_id}", style="red")
+                    console.log(
+                        f"Broken Requirement: {member_id}", style="red")
                     continue
                 object_data = project_graph.objects[member_id]
-                console.log(f"  ({object_data.obj_id}) {object_data.title} ({show_prices(object_data.scores)})")
+                console.log(
+                    f"  ({object_data.obj_id}) {object_data.title} ({show_prices(object_data.scores)})")
                 add_score(score_totals, object_data.scores)
-                print(f"obj_{member_id} [label={json.dumps(object_data.title)}]", file=graph_file)
+                print(
+                    f"obj_{member_id} [label={json.dumps(object_data.title)}]", file=graph_file)
 
                 for dep_id in collect_object_deps(object_data):
                     print(f"obj_{member_id} -> obj_{dep_id}", file=graph_file)
 
-            console.log(f"Total Cost: {show_prices(score_totals.values())}")   
+            console.log(f"Total Cost: {show_prices(score_totals.values())}")
 
             print("}", file=graph_file)
-            graph_file.close()         
+            graph_file.close()
 
 
 TOOLS = (
