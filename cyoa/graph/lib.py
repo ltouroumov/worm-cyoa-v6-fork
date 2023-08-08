@@ -109,20 +109,38 @@ class Vertex:
     outputs: Set[str]
 
 
-def collect_condition_deps(cond: Optional[Condition]):
+def collect_condition_deps(cond: Optional[Condition],
+                           path_requirements: bool = True,
+                           path_incompatibles: bool = True):
     if isinstance(cond, (AndCondition, OrCondition)):
         for item in cond.terms:
-            yield from collect_condition_deps(item)
-    elif isinstance(cond, (RequiredCondition, IncompatibleCondition)):
+            yield from collect_condition_deps(item,
+                                              path_requirements,
+                                              path_incompatibles)
+    elif isinstance(cond, RequiredCondition) and path_requirements:
+        yield cond.object_id
+    elif isinstance(cond, IncompatibleCondition) and path_incompatibles:
         yield cond.object_id
 
 
-def collect_object_deps(obj: RowObject):
-    yield from collect_condition_deps(obj.requirements)
-    for score in obj.scores:
-        yield from collect_condition_deps(score.requirements)
-    for addon in obj.addons:
-        yield from collect_condition_deps(addon.requirements)
+def collect_object_deps(obj: RowObject,
+                        path_requirements: bool = True,
+                        path_incompatibles: bool = True,
+                        path_scores: bool = True,
+                        path_addons: bool = True):
+    yield from collect_condition_deps(obj.requirements,
+                                      path_requirements,
+                                      path_incompatibles)
+    if path_scores:
+        for score in obj.scores:
+            yield from collect_condition_deps(score.requirements,
+                                              path_requirements,
+                                              path_incompatibles)
+    if path_addons:
+        for addon in obj.addons:
+            yield from collect_condition_deps(addon.requirements,
+                                              path_requirements,
+                                              path_incompatibles)
 
 
 @dataclass
@@ -130,6 +148,12 @@ class Graph:
     rows: Dict[str, RowData]
     objects: Dict[str, RowObject]
     point_types: Dict[str, PointType]
+
+    path_requirements: bool = True
+    path_incompatibles: bool = True
+    path_scores: bool = True
+    path_addons: bool = True
+
     _vertices: Dict[str, Vertex] = None
 
     def objects_in_row(self, row_id):
@@ -143,6 +167,10 @@ class Graph:
              for obj_id, obj in self.objects.items()
              if filter(obj, self._vertices.get(obj_id, None))},
             self.point_types,
+            path_requirements=self.path_requirements,
+            path_incompatibles=self.path_incompatibles,
+            path_scores=self.path_scores,
+            path_addons=self.path_addons
         )
 
     def _build_vertices(self):
@@ -153,7 +181,11 @@ class Graph:
 
         deps = ((obj.obj_id, dep)
                 for obj in self.objects.values()
-                for dep in collect_object_deps(obj)
+                for dep in collect_object_deps(obj,
+                                               path_requirements=self.path_requirements,
+                                               path_incompatibles=self.path_incompatibles,
+                                               path_scores=self.path_scores,
+                                               path_addons=self.path_addons)
                 if dep in self.objects)
         for oid, dep in deps:
             self._vertices[dep].outputs.add(oid)
@@ -184,13 +216,15 @@ class Stage:
     objects: OrderedDict[str, RowObject]
 
 
-def build_graph(project_data, visit_scores=True, visit_addons=True, skip_incompatibles=False):
+def build_graph(project_data,
+                path_requirements: bool = True,
+                path_incompatibles: bool = True,
+                path_scores: bool = True,
+                path_addons: bool = True):
     def build_requirement(data) -> Condition:
         if data['type'] == 'id' and data['required']:
             return RequiredCondition(data['reqId'])
         elif data['type'] == 'id' and not data['required']:
-            if skip_incompatibles:
-                return TermCondition(data)
             return IncompatibleCondition(data['reqId'])
         elif data['type'] == 'or' and data['required']:
             return OrCondition([RequiredCondition(item['req'])
@@ -225,10 +259,8 @@ def build_graph(project_data, visit_scores=True, visit_addons=True, skip_incompa
             row_id=row_id,
             title=object_data['title'],
             requirements=build_requirements(object_data['requireds']),
-            addons=[build_addon(
-                data) for data in object_data['addons']] if visit_addons else [],
-            scores=[build_score(data)
-                    for data in object_data['scores']] if visit_scores else []
+            addons=[build_addon(data) for data in object_data['addons']],
+            scores=[build_score(data) for data in object_data['scores']]
         )
 
     def build_row(row_data) -> RowData:
@@ -244,7 +276,11 @@ def build_graph(project_data, visit_scores=True, visit_addons=True, skip_incompa
                  for row_data in project_data['rows']
                  for object_data in row_data['objects']},
         point_types={data['id']: PointType(points_id=data['id'], name=data['name'], suffix=data['afterText'], starting_sum=data['startingSum'])
-                     for data in project_data['pointTypes']}
+                     for data in project_data['pointTypes']},
+        path_requirements=path_requirements,
+        path_incompatibles=path_incompatibles,
+        path_scores=path_scores,
+        path_addons=path_addons
     )
 
 

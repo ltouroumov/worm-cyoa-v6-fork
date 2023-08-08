@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import secrets
 from shutil import copyfile
+import sys
 from typing import List, Dict, Sequence
 
 from rich.table import Table
@@ -290,55 +291,28 @@ class ProjectPatchTool(ToolBase, ProjectUtilsMixin):
         self._save_project(args.project_file)
 
 
-class ProjectGraphTool(ToolBase, ProjectUtilsMixin):
-    name = 'project.graph'
-
-    @classmethod
-    def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
-        parser.add_argument('--project', dest='project_file',
-                            type=Path, required=True)
-        parser.add_argument('--output', dest='output_file',
-                            type=Path, required=True)
-
-    def run(self, args):
-        from cyoa.graph.lib import build_graph, collect_condition_deps
-
-        self._load_project(args.project_file)
-        project_graph = build_graph(self.project)
-
-        output_file = open(args.output_file, mode='w+')
-
-        # CREATE (Keanu:Person {name:'Keanu Reeves', born:1964})
-        # CREATE (TheMatrix:Movie {title:'The Matrix', released:1999, tagline:'Welcome to the Real World'})
-        # CREATE (Keanu)-[:ACTED_IN {roles:['Neo']}]->(TheMatrix),
-
-        for row_object in project_graph.objects.values():
-            print(
-                f"CREATE (obj_{row_object.obj_id}:RowObject {{title: {json.dumps(row_object.title)}}})", file=output_file)
-
-        for row_object in project_graph.objects.values():
-            for dep_id in collect_condition_deps(row_object.requirements):
-                print(
-                    f"CREATE (obj_{row_object.obj_id})-[:REQUIRES]->(obj_{dep_id})", file=output_file)
-
-        output_file.close()
-
-
 class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
     name = 'project.costs'
 
     @classmethod
     def setup_parser(cls, parent):
         parser = parent.add_parser(cls.name, help='Format a project file')
-        parser.add_argument('--project', dest='project_file', type=Path)
-        parser.add_argument('--patch', dest='patches',
-                            nargs='+', action='extend')
+        parser.add_argument('--project', dest='project_file',
+                            type=Path, required=True)
+        parser.add_argument('--min-score', dest='min_score',
+                            type=int, default=0)
+        parser.add_argument('--max-score', dest='max_score',
+                            type=int, default=10000)
+        parser.add_argument('--output', dest='output_file',
+                            type=Path, default=None)
 
     def run(self, args):
         from cyoa.graph.lib import build_graph, topological_sort, collect_object_deps, Score
 
         self._load_project(args.project_file)
+
+        MIN_THRESHOLD = args.min_score
+        MAX_THRESHOLD = args.max_score
 
         POWER_ROWS = {
             'dljy',  # Tier 0 / Lesser Powers
@@ -366,10 +340,10 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
             '1ok7',  # Spiritual and Divine Powers
             'y3gb',  # Technology and Artifice Powers
             '3pua',  # Esoteric and Abstract Powers
-            'mbxo',  # Ascension Path
+            # 'mbxo',  # Ascension Path
             'xk24',  # Foundation Powers
             'umg9',  # Keystone Powers
-            't6in',  # Paragon Powers
+            # 't6in',  # Paragon Powers
             'rbdo',  # Objects of Power
         }
 
@@ -404,10 +378,16 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
 
         # Extract only objects that are in the power rows
         project_graph = build_graph(
-            self.project, visit_scores=True, visit_addons=False, skip_incompatibles=True)
+            self.project,
+            path_scores=False,
+            path_addons=False,
+            path_incompatibles=False,
+            path_requirements=True
+        )
+
         powers_graph = project_graph.filter(
-            lambda obj, vrt: obj.row_id in (
-                POWER_ROWS | UPGRADE_ROWS) and obj.obj_id not in EXCLUDE_POWERS
+            lambda obj, vrt: (obj.row_id in (POWER_ROWS | UPGRADE_ROWS)
+                              and obj.obj_id not in EXCLUDE_POWERS)
         )
 
         console.log(f"Powers: {len(powers_graph.vertices)}")
@@ -418,45 +398,41 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
 
         console.log(f"Vertices: {len(connected_graph.vertices)}")
 
-        upgrade_chains: dict[str, set[str]] = {}
-        upgrade_chain_ownership: dict[str, str] = {}
+        upgrade_chains: dict[str, list[list[str]]] = {}
 
-        for obj_id, vrt in connected_graph.vertices.items():
-            existing_chains = list({
-                upgrade_chain_ownership[vrt_edge]
-                for vrt_edge in itertools.chain(vrt.inputs, vrt.outputs)
-                if vrt_edge in upgrade_chain_ownership
-            })
+        def find_all_graph_paths(graph: Graph, root_id: str):
+            def dfs_outputs(node_id: str, path: list[str]):
+                next_path = [*path, node_id]
+                vertex = graph.vertices[node_id]
+                if len(vertex.outputs) == 0:
+                    yield next_path
+                else:
+                    for output_id in vertex.outputs:
+                        yield from dfs_outputs(output_id, next_path)
 
-            if len(existing_chains) > 1:
-                # console.log(f"Object in multiple chains: {str.join(', ', sorted(existing_chains))}", style="orange1")
-                # Arbitrarily pick one chain to merge into
-                primary_id, *secondary_ids = sorted(existing_chains)
+            yield from dfs_outputs(root_id, [])
 
-                # Add current ID to primary chain
-                upgrade_chains[primary_id].add(obj_id)
-                upgrade_chain_ownership[obj_id] = primary_id
+        def backtrack_graph_paths(graph: Graph, root_id: str, chain: list[str]):
+            def dfs_inputs(node_id: str, path: list[str]):
+                next_path = [*path, node_id]
+                vertex = graph.vertices[node_id]
+                if len(vertex.inputs) == 0:
+                    yield next_path
+                else:
+                    for output_id in vertex.inputs:
+                        if output_id in chain or output_id in path:
+                            continue
 
-                # Merge secondary chains
-                for secondary_id in secondary_ids:
-                    item_ids = upgrade_chains[secondary_id]
-                    upgrade_chains[primary_id].update(item_ids)
+                        yield from dfs_inputs(output_id, next_path)
 
-                    # Update ownerships
-                    for item_id in item_ids:
-                        upgrade_chain_ownership[item_id] = primary_id
+            yield from dfs_inputs(root_id, [])
 
-                    # Remove from the pool
-                    del upgrade_chains[secondary_id]
+        for obj_id, obj_data in connected_graph.objects.items():
+            if obj_data.row_id not in POWER_ROWS:
+                continue
 
-            elif len(existing_chains) == 1:
-                chain_id = existing_chains[0]
-                upgrade_chains[chain_id].add(obj_id)
-                upgrade_chain_ownership[obj_id] = chain_id
-            else:
-                chain_id = secrets.token_hex(8)
-                upgrade_chains[chain_id] = {obj_id, }
-                upgrade_chain_ownership[obj_id] = chain_id
+            obj_chains = find_all_graph_paths(connected_graph, obj_id)
+            upgrade_chains[obj_id] = list(obj_chains)
 
         def show_prices(scores: Sequence[Score]):
             return str.join(', ', [
@@ -465,56 +441,91 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
             ])
 
         def add_score(totals: dict[str, Score], scores: list[Score]):
+            max_scores = {}
             for score in scores:
-                if score.points_id not in totals:
-                    totals[score.points_id] = Score(
-                        points_id=score.points_id,
+                if score.points_id not in max_scores:
+                    max_scores[score.points_id] = score.value
+                else:
+                    max_scores[score.points_id] = max(
+                        max_scores[score.points_id],
+                        score.value
+                    )
+
+            for points_id, score in max_scores.items():
+                if points_id not in totals:
+                    totals[points_id] = Score(
+                        points_id=points_id,
                         value=0,
                         requirements=None
                     )
 
-                totals[score.points_id].value += score.value
+                totals[points_id].value += score
+
+        def get_score(totals: dict[str, Score], score_id: str):
+            if score_id in totals:
+                return totals[score_id].value
+            else:
+                return 0
 
         console.log(f"Chains: {len(upgrade_chains)}")
-        for chain_id, members in upgrade_chains.items():
-            if len(members) < 100:
-                continue
 
-            console.log(f"[b]{chain_id}[/] [i](len={len(members)})[/]")
+        output_file = sys.stdout
+        if args.output_file:
+            output_file = open(args.output_file, 'w+')
 
-            graph_file = open(f"tmp/graphs/{chain_id}.dot", "w+")
-            print("digraph {", file=graph_file)
+        last_visited = set()
+        for chains in upgrade_chains.values():
+            for chain in chains:
+                last_id = chain[-1]
+                last_data = project_graph.objects[last_id]
 
-            sorted_members, cycles = topological_sort(
-                {mid: connected_graph.vertices[mid] for mid in members})
-            if len(cycles) > 0:
-                console.log("Cycle Detected!", style="red")
-                console.log(cycles)
-                continue
-
-            score_totals = {}
-            for member_id in sorted_members:
-                if member_id not in connected_graph.objects:
-                    console.log(
-                        f"External Requirement: {member_id}", style="orange1")
-                if member_id not in project_graph.objects:
-                    console.log(
-                        f"Broken Requirement: {member_id}", style="red")
+                if last_id in last_visited:
                     continue
-                object_data = project_graph.objects[member_id]
-                console.log(
-                    f"  ({object_data.obj_id}) {object_data.title} ({show_prices(object_data.scores)})")
-                add_score(score_totals, object_data.scores)
-                print(
-                    f"obj_{member_id} [label={json.dumps(object_data.title)}]", file=graph_file)
+                last_visited.add(last_id)
 
-                for dep_id in collect_object_deps(object_data):
-                    print(f"obj_{member_id} -> obj_{dep_id}", file=graph_file)
+                score_totals = {}
+                chain_labels = []
 
-            console.log(f"Total Cost: {show_prices(score_totals.values())}")
+                visited = set()
+                for member_id in chain:
+                    if member_id not in project_graph.objects:
+                        console.log(
+                            f"Broken Requirement: {member_id}", style="red"
+                        )
+                        continue
 
-            print("}", file=graph_file)
-            graph_file.close()
+                    object_data = project_graph.objects[member_id]
+                    visited.add(member_id)
+
+                    requisite_chains = list(backtrack_graph_paths(powers_graph, member_id, chain))
+                    for requisite_chain in requisite_chains:
+                        for requisite_id in requisite_chain:
+                            if requisite_id in visited:
+                                continue
+
+                            requisite_data = project_graph.objects[requisite_id]
+                            visited.add(requisite_id)
+                            
+                            add_score(score_totals, requisite_data.scores)
+                            chain_labels.append(
+                                f"[{requisite_data.obj_id}] {requisite_data.title} ({show_prices(requisite_data.scores)})"
+                            )
+
+                    add_score(score_totals, object_data.scores)
+                    chain_labels.append(
+                        f"[{object_data.obj_id}] {object_data.title} ({show_prices(object_data.scores)})"
+                    )
+
+                chain_score = get_score(score_totals, 'rm')
+                if chain_score >= MIN_THRESHOLD and chain_score <= MAX_THRESHOLD:
+                    print(
+                        f"### {last_data.title} => {show_prices(score_totals.values())}", 
+                        file=output_file
+                    )
+                    print(f"```", file=output_file)
+                    for label in chain_labels:
+                        print(f"-> {label}", file=output_file)
+                    print(f"```", file=output_file)
 
 
 TOOLS = (
@@ -522,6 +533,5 @@ TOOLS = (
     ProjectPointsTool,
     ProjectCheckTool,
     ProjectPatchTool,
-    ProjectGraphTool,
     ProjectCostsTool,
 )
