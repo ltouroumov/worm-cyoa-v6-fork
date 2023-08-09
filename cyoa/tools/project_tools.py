@@ -1,11 +1,10 @@
 import importlib
-import itertools
-import json
 from pathlib import Path
-import secrets
 from shutil import copyfile
 import sys
 from typing import List, Dict, Sequence
+from asciidag.graph import Graph as DAG
+from asciidag.node import Node as DAGNode
 
 from rich.table import Table
 from cyoa.graph.lib import Graph
@@ -398,21 +397,9 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
 
         console.log(f"Vertices: {len(connected_graph.vertices)}")
 
-        upgrade_chains: dict[str, list[list[str]]] = {}
+        upgrade_graphs: dict[str, Graph] = {}
 
-        def find_all_graph_paths(graph: Graph, root_id: str):
-            def dfs_outputs(node_id: str, path: list[str]):
-                next_path = [*path, node_id]
-                vertex = graph.vertices[node_id]
-                if len(vertex.outputs) == 0:
-                    yield next_path
-                else:
-                    for output_id in vertex.outputs:
-                        yield from dfs_outputs(output_id, next_path)
-
-            yield from dfs_outputs(root_id, [])
-
-        def backtrack_graph_paths(graph: Graph, root_id: str, chain: list[str]):
+        def backtrack_graph_paths(graph: Graph, root_id: str):
             def dfs_inputs(node_id: str, path: list[str]):
                 next_path = [*path, node_id]
                 vertex = graph.vertices[node_id]
@@ -420,19 +407,17 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
                     yield next_path
                 else:
                     for output_id in vertex.inputs:
-                        if output_id in chain or output_id in path:
-                            continue
-
                         yield from dfs_inputs(output_id, next_path)
 
             yield from dfs_inputs(root_id, [])
 
         for obj_id, obj_data in connected_graph.objects.items():
-            if obj_data.row_id not in POWER_ROWS:
-                continue
+            graph_paths = backtrack_graph_paths(connected_graph, obj_id)
+            graph_nodes = set(node_id for path in graph_paths for node_id in path)
 
-            obj_chains = find_all_graph_paths(connected_graph, obj_id)
-            upgrade_chains[obj_id] = list(obj_chains)
+            upgrade_graphs[obj_id] = connected_graph.filter(
+                lambda obj, _: obj.obj_id in graph_nodes
+            )
 
         def show_prices(scores: Sequence[Score]):
             return str.join(', ', [
@@ -467,65 +452,51 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
             else:
                 return 0
 
-        console.log(f"Chains: {len(upgrade_chains)}")
+        def print_tree(graph: Graph, root_id: str, file):
+            nodes = {}
+            tips = set()
+
+            def print_node(node_id: str, parent_node: DAGNode):
+                if node_id not in nodes:
+                    node_data = graph.objects[node_id]
+                    nodes[node_id] = DAGNode(
+                        item=f"[{node_id}] {node_data.title} ({show_prices(node_data.scores)})",
+                        parents=[parent_node] if parent_node else None
+                    )
+
+                children = graph.vertices[node_id].inputs
+                if len(children) == 0:
+                    tips.add(nodes[node_id])
+
+                for child_id in children:
+                    print_node(child_id, nodes[node_id])
+
+            print_node(root_id, parent_node=None)
+
+            DAG(file, use_color=False).show_nodes(tips)
+
+        console.log(f"Graphs: {len(upgrade_graphs)}")
 
         output_file = sys.stdout
         if args.output_file:
             output_file = open(args.output_file, 'w+')
 
-        last_visited = set()
-        for chains in upgrade_chains.values():
-            for chain in chains:
-                last_id = chain[-1]
-                last_data = project_graph.objects[last_id]
+        for root_id, graph in upgrade_graphs.items():
+            root_data = graph.objects[root_id]
 
-                if last_id in last_visited:
-                    continue
-                last_visited.add(last_id)
+            score_totals = {}
+            for object_data in graph.objects.values():
+                add_score(score_totals, object_data.scores)
 
-                score_totals = {}
-                chain_labels = []
-
-                visited = set()
-                for member_id in chain:
-                    if member_id not in project_graph.objects:
-                        console.log(
-                            f"Broken Requirement: {member_id}", style="red"
-                        )
-                        continue
-
-                    object_data = project_graph.objects[member_id]
-                    visited.add(member_id)
-
-                    requisite_chains = list(backtrack_graph_paths(powers_graph, member_id, chain))
-                    for requisite_chain in requisite_chains:
-                        for requisite_id in requisite_chain:
-                            if requisite_id in visited:
-                                continue
-
-                            requisite_data = project_graph.objects[requisite_id]
-                            visited.add(requisite_id)
-                            
-                            add_score(score_totals, requisite_data.scores)
-                            chain_labels.append(
-                                f"[{requisite_data.obj_id}] {requisite_data.title} ({show_prices(requisite_data.scores)})"
-                            )
-
-                    add_score(score_totals, object_data.scores)
-                    chain_labels.append(
-                        f"[{object_data.obj_id}] {object_data.title} ({show_prices(object_data.scores)})"
-                    )
-
-                chain_score = get_score(score_totals, 'rm')
-                if chain_score >= MIN_THRESHOLD and chain_score <= MAX_THRESHOLD:
-                    print(
-                        f"### {last_data.title} => {show_prices(score_totals.values())}", 
-                        file=output_file
-                    )
-                    print(f"```", file=output_file)
-                    for label in chain_labels:
-                        print(f"-> {label}", file=output_file)
-                    print(f"```", file=output_file)
+            chain_score = get_score(score_totals, 'rm')
+            if chain_score >= MIN_THRESHOLD and chain_score <= MAX_THRESHOLD:
+                print(
+                    f"### {root_data.title} => {show_prices(score_totals.values())}", 
+                    file=output_file
+                )
+                print(f"```", file=output_file)
+                print_tree(graph, root_id, output_file)
+                print(f"```", file=output_file)
 
 
 TOOLS = (

@@ -104,7 +104,14 @@ class RowData:
 
 
 @dataclass
+class Edge:
+    start: str
+    end: str
+
+
+@dataclass
 class Vertex:
+    id: str
     inputs: Set[str]
     outputs: Set[str]
 
@@ -159,13 +166,18 @@ class Graph:
     def objects_in_row(self, row_id):
         return sorted(filter(lambda item: item.row_id == row_id, self.objects.values()), key=attrgetter('obj_id'))
 
-    def filter(self, filter):
+    def filter(self, filter=None):
         self._build_vertices()
+        objects = {obj_id: obj
+                   for obj_id, obj in self.objects.items()
+                   if filter is None or filter(obj, self._vertices.get(obj_id, None))}
+        row_ids = {obj.row_id for obj in objects.values()}
+        rows = {row_id: row
+                for row_id, row in self.rows.items()
+                if row_id in row_ids}
+        
         return Graph(
-            self.rows,
-            {obj_id: obj
-             for obj_id, obj in self.objects.items()
-             if filter(obj, self._vertices.get(obj_id, None))},
+            rows, objects,
             self.point_types,
             path_requirements=self.path_requirements,
             path_incompatibles=self.path_incompatibles,
@@ -174,10 +186,13 @@ class Graph:
         )
 
     def _build_vertices(self):
-        self._vertices = defaultdict(lambda: Vertex(set(), set()))
+        self._vertices = {}
 
         for obj in self.objects.values():
-            self._vertices[obj.obj_id] = Vertex(set(), set())
+            self._vertices[obj.obj_id] = Vertex(
+                obj.obj_id,
+                set(), set()
+            )
 
         deps = ((obj.obj_id, dep)
                 for obj in self.objects.values()
@@ -364,84 +379,3 @@ def topological_sort(components: Dict[str, Component | Vertex]):
     cycles = {key: (components[key], heads) for key,
               heads in num_heads.items() if key not in ordered}
     return ordered, cycles
-
-
-def print_graph(graph: Graph):
-    def list_objects(req):
-        if isinstance(req, (RequiredCondition, IncompatibleCondition)):
-            yield req.object_id
-        elif isinstance(req, (AndCondition, OrCondition)):
-            yield from (r for term in req.terms for r in list_objects(term))
-
-    for row in graph.rows.values():
-        print(f"[{row.row_id}] {row.title}")
-        for obj in graph.objects_in_row(row.row_id):
-            print(f"  - [{obj.obj_id}] {obj.title}")
-            if len(obj.scores) > 0:
-                scores_repr = [f"{graph.point_types[score.points_id].name}: {score.value} => {score.requirements}"
-                               for score in obj.scores]
-                print(f"    Scores: {str.join(', ', scores_repr)}")
-            if obj.requirements:
-                print(f"    Requirements: {repr(obj.requirements)}")
-
-            for req in list_objects(obj.requirements):
-                if req not in graph.objects:
-                    print(f"    Broken Link: {req}")
-
-
-def run_stages(stages, choices, points):
-    def cond_match(requirements, choices):
-        if requirements is not None:
-            return requirements.run(choices)
-        else:
-            return True
-
-    def run_stage(stage, points):
-        for obj_id, row_obj in ((oid, obj) for oid, obj in stage.items() if oid in choices):
-            if cond_match(row_obj.requirements, choices):
-                print(f"Selected {row_obj.title} / {obj_id}")
-                points = points | {
-                    points_id: points.get(points_id, 0) - sum(
-                        score.value for score in scores if cond_match(score.requirements, choices))
-                    for points_id, scores in itertools.groupby(sorted(row_obj.scores, key=attrgetter('points_id')), key=attrgetter('points_id'))
-                }
-            else:
-                print(f"Invalid Selection {obj_id} !")
-
-        return points
-
-    for stage in stages:
-        points = run_stage(stage, points)
-
-    print(points)
-
-
-if __name__ == '__main__':
-    with open('viewer/project.json', mode='r') as fd:
-        project = json.load(fd)
-
-    graph = build_graph(project)
-    print_graph(graph)
-    components = find_strongly_connected_components(graph)
-    sorted_deps, cycles = topological_sort(components)
-
-    if len(cycles) > 0:
-        print("Has a cycle")
-        print(cycles)
-    else:
-        stages = [
-            {n: graph.objects[n]
-                for n in component.object_ids if n in graph.objects}
-            for component in (components[n] for n in sorted_deps)
-            if any(n in graph.objects for n in component.object_ids)
-        ]
-
-        print(f"{len(stages)} stages")
-
-        choices = {"8mhz", "1psq", "deasy", "iwf0", "1y99", "g124", "i7bw", "kht1", "myd7", "puxg", "fbcq", "gl7t", "imhz", "0s6z", "sxhj",
-                   "hfao", "ar4o", "uh4g", "9mam", "4ech", "42jg", "87du", "w0ll", "eo3o", "akq3", "x88q", "pl4z", "xsyg", "6io0", "ui8c",
-                   "h8sf", "5dyo", "hheh", "okhr", "vczo", "l64d", "0yio", "08it", "z4p4", "bpuq", "hzoj", "prfi", "qokx", "346g", "0mr3",
-                   "ob4i", "9sto", "4jnj", "974r", "1irf", "q6x83", "4tfy", "1x0q"}
-
-        run_stages(stages, choices, {
-                   pt.points_id: pt.starting_sum for pt in graph.point_types.values()})
