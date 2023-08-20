@@ -1,4 +1,4 @@
-from cyoa.tools.lib import console
+from cyoa.tools.lib import console, find_first
 from cyoa.tools.patch import PatchBase, patch, PatchContext
 
 
@@ -12,7 +12,17 @@ class FixActiveFlags(PatchBase):
 class FixScoreLabels(PatchBase):
     @patch(target="object.score")
     def patch_points(self, score, obj, context: PatchContext):
-        if point_type := context.point_types.get(score['id'], None):
+        point_type = context.point_types.get(score['id'], None)
+        if not point_type:
+            console.log(f"Object {obj['id']} missing score_id: {score}")
+            suffix = score['afterText']
+            point_type = find_first(
+                context.point_types.values(),
+                lambda pt: pt['afterText'] == suffix
+            )
+
+        if point_type:
+            score['id'] = point_type['id']
             if len(point_type['afterText']) > 0:
                 score['afterText'] = point_type['afterText']
 
