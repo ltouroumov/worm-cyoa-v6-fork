@@ -1,8 +1,9 @@
 import importlib
+from io import TextIOBase
 from pathlib import Path
 from shutil import copyfile
 import sys
-from typing import List, Dict, Sequence
+from typing import List, Dict, Optional, Sequence
 from asciidag.graph import Graph as DAG
 from asciidag.node import Node as DAGNode
 
@@ -499,10 +500,92 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
                 print(f"```", file=output_file)
 
 
+class ProjectAddonsTool(ToolBase, ProjectUtilsMixin):
+    name = 'project.addons'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser.add_argument('--project', dest='project_file',
+                            type=Path, required=True)
+        parser.add_argument('--output', dest='output_file',
+                            type=Path, default=None)
+
+    def run(self, args):
+        from cyoa.graph.lib import (
+            build_graph, Condition, 
+            AndCondition, OrCondition, 
+            RequiredCondition, IncompatibleCondition
+        )
+        
+        self._load_project(args.project_file)
+        graph = build_graph(self.project)
+
+        if args.output_file:
+            output: TextIOBase = open(args.output_file, mode='w+')
+        else:
+            output: TextIOBase = sys.stdout
+        
+        addon_rows = []
+        for row_data in self.project['rows']:
+            addon_objs = []
+            for obj_data in row_data['objects']:
+                if (addons := obj_data.get('addons', None)) and len(addons) > 0:
+                    addon_objs.append(obj_data)
+
+            if len(addon_objs) > 0:
+                addon_rows.append([row_data, addon_objs])
+
+
+        def get_requirements(reqs: Optional[Condition], root: bool):
+            match reqs:
+                case AndCondition(terms) if root:
+                    return [
+                        req
+                        for term in terms
+                        for req in get_requirements(term, root=False)
+                    ]
+                case OrCondition(terms) if root:
+                    return [
+                        req
+                        for term in terms
+                        for req in get_requirements(term, root=False)
+                    ]
+                case RequiredCondition(object_id):
+                    obj_data = graph.objects[object_id]
+                    return [f"Required: {obj_data.title}"]
+                case IncompatibleCondition(object_id):
+                    obj_data = graph.objects[object_id]
+                    return [f"Incompatible: {obj_data.title}"]
+                case _:
+                    return []
+
+
+        for row_data, objects in addon_rows:
+            output.write(f"## {row_data['title']}\n")
+
+            for obj_data in objects:
+                output.write(f"**{obj_data['title']}**\n")
+                
+                obj_meta = graph.objects[obj_data['id']]
+
+                for addon in obj_meta.addons:
+                    output.write(f"  * __{addon.title}__<br/>\n")
+                    output.write(f"    {addon.requirements}<br/>\n")
+                    reqs = str.join("<br/>\n", [
+                        f"    {req}"
+                        for req in get_requirements(addon.requirements, root=True)
+                    ])
+                    output.write(f"{reqs}\n")
+                
+                output.write("\n")
+
+
 TOOLS = (
     ProjectFormatTool,
     ProjectPointsTool,
     ProjectCheckTool,
     ProjectPatchTool,
     ProjectCostsTool,
+    ProjectAddonsTool,
 )

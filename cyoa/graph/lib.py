@@ -60,7 +60,7 @@ class AndCondition(Condition):
         return all(term.run(choices) for term in self.terms)
 
     def __repr__(self):
-        return str.join(" && ", map(repr, self.terms))
+        return "(" + str.join(" && ", map(repr, self.terms)) + ")"
 
 
 @dataclass
@@ -71,7 +71,7 @@ class OrCondition(Condition):
         return any(term.run(choices) for term in self.terms)
 
     def __repr__(self):
-        return str.join(" || ", map(repr, self.terms))
+        return "(" + str.join(" || ", map(repr, self.terms)) + ")"
 
 
 @dataclass
