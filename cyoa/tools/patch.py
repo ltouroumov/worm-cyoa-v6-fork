@@ -19,8 +19,6 @@ def patch(*, target: str, context: Optional[str] = None):
 class PatchContext:
     point_types: dict[str, Any]
     groups: dict[str, Any]
-    rows: dict[str, Any]
-    objects: dict[str, Any]
 
 
 class PatchBase(abc.ABC):
