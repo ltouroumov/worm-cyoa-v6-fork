@@ -31,10 +31,10 @@ span.fullHeight span.row.pa-0>div.row>div.col.pa-0>img {
 
 span.fullHeight span.row.pa-0 span>img+span {
     display: inline-block;
-    max-height: 30rem;
+    /* max-height: 30rem;
     overflow-y: auto;
     overflow-x: hidden;
-    scrollbar-width: thin;
+    scrollbar-width: thin; */
 }
  
 div.v-dialog span.fullHeight span.row.pa-0 span>img+span {
