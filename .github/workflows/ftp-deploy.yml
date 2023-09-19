@@ -6,6 +6,10 @@ on:
     branches:
       - master
 
+concurrency:
+  group: "ftp-deploy"
+  cancel-in-progress: true
+
 jobs:
   ftp-deploy-images:
     name: 🖼 Upload Images
@@ -21,8 +25,8 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: images/v17
-          server-dir: images/v17
+          local-dir: images/v17/
+          server-dir: images/v17/
           state-name: .states/v17-images.json
 
   ftp-deploy-viewer:
@@ -39,6 +43,6 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: viewer
-          server-dir: viewer/v17
+          local-dir: viewer/
+          server-dir: viewer/v17/
           state-name: .states/v17-viewer.json
