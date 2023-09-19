@@ -28,6 +28,7 @@ jobs:
           local-dir: viewer/
           server-dir: viewer/
           state-name: .states-viewer.json
+          log-level: minimal
 
       - name: 📂 Sync Images
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -38,4 +39,4 @@ jobs:
           local-dir: images/v17/
           server-dir: images/v17/
           state-name: .states-images.json
-          
+          log-level: minimal
