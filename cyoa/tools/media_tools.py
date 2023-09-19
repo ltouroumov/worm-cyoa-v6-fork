@@ -163,7 +163,7 @@ def _set_image_lenses(encoded_image, image_is_url):
             lens.Get('imageIsUrl').set(image_is_url))
 
 
-def update_image(project, image_info, image_type, image_data=None, image_path=None):
+def update_image(project, image_info, image_type=None, image_data=None, image_path=None):
     if image_data:
         encoded_image = (
             f"data:image/{image_type};base64," +
@@ -400,8 +400,47 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
         self._save_project(args.project_file)
 
 
+class MediaMigrateTool(ToolBase, ProjectUtilsMixin):
+    name = 'media.migrate'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser.add_argument('--project', dest='project_file', type=Path)
+        parser.add_argument('--old-base-url', type=str, required=True)
+        parser.add_argument('--new-base-url', type=str, required=True)
+
+    def update_image(self, image_info: ImageInfo, old_base_url, new_base_url):
+        if str.startswith(image_info.image_data, new_base_url):
+            return
+
+        if str.startswith(image_info.image_data, old_base_url):
+            update_image(
+                self.project,
+                image_info,
+                image_path=str.replace(image_info.image_data, old_base_url, new_base_url)
+            )
+
+    def run(self, args):
+        self._load_project(args.project_file)
+
+        project_images = list(list_all_images(self.project))
+        for image_info in track(project_images, total=len(project_images)):
+            if image_info.image_data is None:
+                continue
+            
+            if image_info.image_is_url:
+                self.update_image(
+                    image_info,
+                    args.old_base_url,
+                    args.new_base_url
+                )
+
+        self._save_project(args.project_file)
+
 TOOLS = (
     MediaListTool,
     MediaOptimizeTool,
     MediaExtractTool,
+    MediaMigrateTool,
 )
