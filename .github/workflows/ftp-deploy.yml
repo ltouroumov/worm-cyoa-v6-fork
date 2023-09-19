@@ -12,32 +12,14 @@ concurrency:
 
 jobs:
   ftp-deploy-images:
-    name: 🖼 Upload Images
+    name: 📦 Upload Files
     runs-on: ubuntu-latest
 
     steps:
       - name: 🚚 Checkout
         uses: actions/checkout@v4
 
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: images/v17/
-          server-dir: images/v17/
-          state-name: .states-images.json
-
-  ftp-deploy-viewer:
-    name: 📟 Upload Viewer
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: 🚚 Checkout
-        uses: actions/checkout@v4
-
-      - name: 📂 Sync files
+      - name: 📂 Sync Viewer
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_HOST }}
@@ -46,3 +28,14 @@ jobs:
           local-dir: viewer/
           server-dir: viewer/v17/
           state-name: .states-viewer.json
+
+      - name: 📂 Sync Images
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: images/v17/
+          server-dir: images/v17/
+          state-name: .states-images.json
+          
