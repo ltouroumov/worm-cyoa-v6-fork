@@ -1,8 +1,10 @@
 name: 🚀 Deploy
 
 on: 
+  workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - master
 
 jobs:
   ftp-deploy-images:
