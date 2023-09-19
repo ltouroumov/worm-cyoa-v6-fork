@@ -27,7 +27,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: images/v17/
           server-dir: images/v17/
-          state-name: .states/v17-images.json
+          state-name: .states-images.json
 
   ftp-deploy-viewer:
     name: 📟 Upload Viewer
@@ -45,4 +45,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: viewer/
           server-dir: viewer/v17/
-          state-name: .states/v17-viewer.json
+          state-name: .states-viewer.json
