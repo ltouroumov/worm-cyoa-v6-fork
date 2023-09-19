@@ -5,7 +5,7 @@ Fork of the Worm CYOA V6 by PixelGMS
 * [Version 6.0](https://interactivewormcyoav6.neocities.org/WormCYOAV6/WormCYOAV6.html)
 * [Version 6.1](https://interactivewormcyoav6.neocities.org/WormCYOAV6.1/Worm.html)
 
-<center><h3><a href="https://ltouroumov.github.io/worm-cyoa-v6-fork/viewer/">View Here</a></h3></center>
+<center><h3><a href="https://cyoa.ltouroumov.ch/viewer/">View Here</a></h3></center>
 
 ## TODO List
 
