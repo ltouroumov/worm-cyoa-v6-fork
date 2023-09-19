@@ -14,36 +14,46 @@ span.fullHeight span.row.pa-0>span.ma-0>span {
 span.fullHeight span.row.pa-0>span>img {
     aspect-ratio: 5/3;
     object-fit: cover;
+    object-position: top center;
 }
 
 span.fullHeight span.row.pa-0>div.row>div.col.pa-0 {
-    max-width: 25%;
+    max-width: 30%;
 }
 
 span.fullHeight span.row.pa-0>div.row>div.col.pa-0>img {
     object-fit: cover;
 }
 
-
 .fullHeight>.pa-0>span.ma-0>span:first-child {
     display: inline-block;
 }
 
-span.fullHeight span.row.pa-0 span>img+span {
-    display: inline-block;
-    /* max-height: 30rem;
-    overflow-y: auto;
-    overflow-x: hidden;
-    scrollbar-width: thin; */
+@media all and (min-width: 760px) {
+    span.fullHeight span.row.pa-0 span>img+span {
+        display: inline-block;
+        max-height: 30rem;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: thin;
+    }
+    
+    
+    *::-webkit-scrollbar {
+      width: 12px;
+    }
+    
+    *::-webkit-scrollbar-track {
+      background: black;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+      background-color: gray;
+      border-radius: 20px;
+      border: 3px solid black;
+    }
 }
- 
+
 div.v-dialog span.fullHeight span.row.pa-0 span>img+span {
     max-height: none;
 }
-
-/*
-span>img+span img+span {
-    display: inline;
-    overflow: unset;
-}
-*/
