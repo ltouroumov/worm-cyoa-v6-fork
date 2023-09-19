@@ -17,7 +17,7 @@ span.fullHeight span.row.pa-0>span>img {
 }
 
 span.fullHeight span.row.pa-0>div.row>div.col.pa-0 {
-    max-width: 400px;
+    max-width: 25%;
 }
 
 span.fullHeight span.row.pa-0>div.row>div.col.pa-0>img {
@@ -35,6 +35,10 @@ span.fullHeight span.row.pa-0 span>img+span {
     overflow-y: auto;
     overflow-x: hidden;
     scrollbar-width: thin;
+}
+ 
+div.v-dialog span.fullHeight span.row.pa-0 span>img+span {
+    max-height: none;
 }
 
 /*
