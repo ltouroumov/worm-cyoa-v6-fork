@@ -1,0 +1,45 @@
+div.row div.col>div {
+    margin: 0 1% !important;
+}
+
+span.fullHeight span.row.pa-0 {
+    border-radius: 10px !important;
+    border-width: 1px !important;
+}
+
+span.fullHeight span.row.pa-0>span.ma-0>span {
+    padding: 0.2rem 0.4rem !important;
+}
+
+span.fullHeight span.row.pa-0>span>img {
+    aspect-ratio: 5/3;
+    object-fit: cover;
+}
+
+span.fullHeight span.row.pa-0>div.row>div.col.pa-0 {
+    max-width: 400px;
+}
+
+span.fullHeight span.row.pa-0>div.row>div.col.pa-0>img {
+    object-fit: cover;
+}
+
+
+.fullHeight>.pa-0>span.ma-0>span:first-child {
+    display: inline-block;
+}
+
+span.fullHeight span.row.pa-0 span>img+span {
+    display: inline-block;
+    max-height: 30rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+
+/*
+span>img+span img+span {
+    display: inline;
+    overflow: unset;
+}
+*/
