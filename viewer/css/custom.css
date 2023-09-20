@@ -47,6 +47,10 @@ span.fullHeight span.row.pa-0>div.row>div.col.pa-0>img {
         max-height: 40rem;
     }
 
+    div.col.col-sm-3>span.fullHeight>span.row.pa-0>span.ma-0 {
+        max-height: 45rem;
+    }
+
     div.col.col-sm-4>span.fullHeight>span.row.pa-0>span.ma-0 {
         max-height: 60rem;
     }
