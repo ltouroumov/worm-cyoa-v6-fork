@@ -30,14 +30,30 @@ span.fullHeight span.row.pa-0>div.row>div.col.pa-0>img {
 }
 
 @media all and (min-width: 760px) {
-    span.fullHeight>span.row.pa-0>span.ma-0>img+span {
-        display: inline-block;
-        max-height: 30rem;
+
+    span.fullHeight>span.row.pa-0>span.ma-0 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    span.fullHeight>span.row.pa-0>span.ma-0>span {
+        flex-grow: 1;
         overflow-y: auto;
         overflow-x: hidden;
         scrollbar-width: thin;
     }
-    
+
+    div.col.w-20>span.fullHeight>span.row.pa-0>span.ma-0 {
+        max-height: 40rem;
+    }
+
+    div.col.col-sm-4>span.fullHeight>span.row.pa-0>span.ma-0 {
+        max-height: 60rem;
+    }
+
+    div.col.col-sm-6>span.fullHeight>span.row.pa-0>span.ma-0 {
+        max-height: 70rem;
+    }
     
     *::-webkit-scrollbar {
       width: 12px;
