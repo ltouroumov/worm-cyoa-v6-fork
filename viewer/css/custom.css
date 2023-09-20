@@ -30,7 +30,7 @@ span.fullHeight span.row.pa-0>div.row>div.col.pa-0>img {
 }
 
 @media all and (min-width: 760px) {
-    span.fullHeight span.row.pa-0 span>img+span {
+    span.fullHeight>span.row.pa-0>span.ma-0>img+span {
         display: inline-block;
         max-height: 30rem;
         overflow-y: auto;
