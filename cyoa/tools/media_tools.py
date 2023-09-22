@@ -125,12 +125,29 @@ def get_image_info(image_data, decode=True):
         return None, 0, f"Error while reading '{image_data[:16]}': {type(e)}", (0, 0)
 
 
-def optimize_image(image: Image):
+def optimize_image(image: Image.Image, max_size=None):
     image_data = io.BytesIO()
+
+    if max_size is not None:
+        max_w, max_h = max_size
+        cur_w, cur_h = image.size
+        if cur_w > max_w:
+            ratio = max_w / cur_w
+            new_size = (max_w, round(cur_h * ratio))
+            console.log(f'resize W {image.size} => {new_size}')
+            image.resize(size=new_size)
+        elif cur_h > max_h:
+            ratio = max_h / cur_h
+            new_size=(round(cur_w * ratio), max_h)
+            console.log(f'resize H {image.size} => {new_size}')
+            image.resize(size=new_size)
+
     image.save(image_data, format='webp',
                lossless=False,
                quality=80,
                method=4)
+    
+
     return image_data.getvalue()
 
 
@@ -257,12 +274,14 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
 
         parser.add_argument('--size-gte', dest='filter_size_gte', type=float,
                             default=None)
+        parser.add_argument('--max-dim', dest='max_dim', type=str,
+                            default=None)
         parser.add_argument('--export-dir', type=Path, default=None)
 
         parser.add_argument('--optimize-urls', action='store_true')
         parser.add_argument('--export-url', type=str, default=None)
 
-    def optimize_and_extract(self, image_info, images_table, filter_size_gte, base_url, dest_dir):
+    def optimize_and_extract(self, image_info, images_table, filter_size_gte, base_url, dest_dir, max_dim):
         img, img_size, img_type, img_dim = get_image_info(
             image_info.image_data
         )
@@ -276,7 +295,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             (filter_size_gte is None or img_size_kb >= filter_size_gte) and
             img_type not in ('data:image/webp',)
         ):
-            optimized_image = optimize_image(img)
+            optimized_image = optimize_image(img, max_size=max_dim)
             optimized_image_size = len(optimized_image) / 1024.0
 
             images_table.add_row(
@@ -309,7 +328,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         images_table,
         filter_size_gte: float,
         base_url: str,
-        base_path: Path
+        base_path: Path, 
+        max_dim
     ):
         image_name = str.replace(image_info.image_data, base_url, '')
         image_path = base_path / image_name
@@ -329,7 +349,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             (filter_size_gte is None and not str.endswith(image_name, '.webp')) or
             (filter_size_gte is not None and img_size_kb >= filter_size_gte)
         ):
-            optimized_image = optimize_image(img)
+            optimized_image = optimize_image(img, max_size=max_dim)
             optimized_image_size = len(optimized_image) / 1024.0
 
             images_table.add_row(
@@ -340,19 +360,20 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                 img_type
             )
 
-            image_name = export_image(
+            export_name = export_image(
                 image_info, "webp",
                 image_data=optimized_image,
                 dest_dir=base_path
             )
-            image_url = f"{base_url}/{image_name}"
+            export_url = f"{base_url}/{export_name}"
 
             update_image(
                 self.project, image_info, "webp",
-                image_path=image_url
+                image_path=export_url
             )
 
-            image_path.unlink()
+            if not str.endswith(image_name, '.webp'):
+                image_path.unlink()
 
             return optimized_image_size, img_size_kb
         else:
@@ -360,6 +381,9 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
 
     def run(self, args):
         self._load_project(args.project_file)
+
+        if max_dim_val := args.max_dim:
+            max_dim = tuple(map(int, str.split(max_dim_val, 'x')))
 
         if dest_dir := args.export_dir:
             makedirs(dest_dir, exist_ok=True)
@@ -382,17 +406,21 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                     continue
                 if not str.startswith(image_info.image_data, args.export_url):
                     continue
-
+                
                 size_after, size_before = self.optimize_file_inplace(
                     image_info,
                     images_table,
                     args.filter_size_gte,
                     args.export_url,
                     dest_dir,
+                    max_dim
                 )
 
                 total_before += size_before
                 total_after += size_after
+
+                if size_after != size_before:
+                    return
             else:
                 size_after, size_before = self.optimize_and_extract(
                     image_info,
@@ -400,6 +428,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                     args.filter_size_gte,
                     args.export_url,
                     dest_dir,
+                    max_dim
                 )
 
                 total_before += size_before
