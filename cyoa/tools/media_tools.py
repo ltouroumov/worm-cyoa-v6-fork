@@ -89,7 +89,7 @@ def list_all_images(project) -> Iterator[ImageInfo]:
             if objImage := extract_image_from_item(obj):
                 yield replace(objImage, object_type="obj", row_id=row.get('id', None), obj_id=obj.get('id', None),
                               name=obj.get('title', None))
-            
+
             for style_prop in IMAGE_PROPS:
                 if bgImage := extract_image_from_style(project, prop=style_prop):
                     yield replace(bgImage, object_type="obj", row_id=row.get('id', None), obj_id=obj.get('id', None),
@@ -111,9 +111,12 @@ def decode_image(image_data):
     return header, data_bytes
 
 
-def get_image_info(image_data):
+def get_image_info(image_data, decode=True):
     try:
-        header, data_bytes = decode_image(image_data)
+        if decode:
+            header, data_bytes = decode_image(image_data)
+        else:
+            header, data_bytes = None, image_data
 
         image_size = len(data_bytes)
         image = Image.open(io.BytesIO(data_bytes))
@@ -122,7 +125,7 @@ def get_image_info(image_data):
         return None, 0, f"Error while reading '{image_data[:16]}': {type(e)}", (0, 0)
 
 
-def optimize_image(image: Image, format: str):
+def optimize_image(image: Image):
     image_data = io.BytesIO()
     image.save(image_data, format='webp',
                lossless=False,
@@ -250,15 +253,115 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
     def setup_parser(cls, parent):
         parser = parent.add_parser(cls.name, help='Format a project file')
         parser.add_argument('--project', dest='project_file', type=Path)
+        parser.add_argument('--write', action='store_true')
+
         parser.add_argument('--size-gte', dest='filter_size_gte', type=float,
                             default=None)
-        parser.add_argument('--export-to', type=Path, default=None)
-        parser.add_argument('--write', action='store_true')
+        parser.add_argument('--export-dir', type=Path, default=None)
+
+        parser.add_argument('--optimize-urls', action='store_true')
+        parser.add_argument('--export-url', type=str, default=None)
+
+    def optimize_and_extract(self, image_info, images_table, filter_size_gte, dest_dir, base_url):
+        img, img_size, img_type, img_dim = get_image_info(
+            image_info.image_data
+        )
+        img_size_kb = img_size / 1024.0
+
+        if img is None:
+            console.print(img_type)
+            return 0
+
+        if (
+            (filter_size_gte is None or img_size_kb >= filter_size_gte) and
+            img_type not in ('data:image/webp',)
+        ):
+            optimized_image = optimize_image(img)
+            optimized_image_size = len(optimized_image) / 1024.0
+
+            images_table.add_row(
+                image_info.object_id, image_info.name,
+                "%d x %d" % img_dim,
+                f"{img_size_kb: >8.2f} kB",
+                f"{optimized_image_size: >8.2f} kB",
+                img_type
+            )
+
+            image_name = export_image(
+                image_info, "webp",
+                image_data=optimized_image,
+                dest_dir=dest_dir
+            )
+            image_url = f"{base_url}/{image_name}"
+
+            update_image(
+                self.project, image_info, "webp",
+                image_path=image_url
+            )
+
+            return optimized_image_size, img_size_kb
+        else:
+            return img_size_kb, img_size_kb
+
+    def optimize_file_inplace(
+        self,
+        image_info: ImageInfo,
+        images_table,
+        filter_size_gte: float,
+        base_url: str,
+        base_path: Path
+    ):
+        image_name = str.replace(image_info.image_data, base_url, '')
+        image_path = base_path / image_name
+
+        if not image_path.exists():
+            return 0, 0
+
+        with image_path.open(mode='rb') as fd:
+            image_bytes = fd.read()
+
+        img, img_size, img_type, img_dim = get_image_info(
+            image_bytes, decode=False
+        )
+        img_size_kb = img_size / 1024.0
+
+        if (
+            (filter_size_gte is None or img_size_kb >= filter_size_gte) and
+            str.endswith(image_name, '.webp')
+        ):
+            optimized_image = optimize_image(img)
+            optimized_image_size = len(optimized_image) / 1024.0
+
+            images_table.add_row(
+                image_info.object_id, image_info.name,
+                "%d x %d" % img_dim,
+                f"{img_size_kb: >8.2f} kB",
+                f"{optimized_image_size: >8.2f} kB",
+                img_type
+            )
+
+            image_name = export_image(
+                image_info, "webp",
+                image_data=optimized_image,
+                dest_dir=base_path
+            )
+            image_url = f"{base_url}/{image_name}"
+
+            update_image(
+                self.project, image_info, "webp",
+                image_path=image_url
+            )
+
+            image_path.unlink()
+
+            return optimized_image_size, img_size_kb
+        else:
+            return img_size_kb, img_size_kb
 
     def run(self, args):
         self._load_project(args.project_file)
 
-        if dest_dir := args.export_to:
+        if dest_dir := args.export_dir:
             makedirs(dest_dir, exist_ok=True)
 
         images_table = Table("obj_id", "title", "Dimensions",
@@ -269,46 +372,34 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
 
         project_images = list(list_all_images(self.project))
         for image_info in track(project_images, total=len(project_images)):
-            # Skip all non-embedded images
-            if image_info.image_is_url:
-                continue
             # Skip all missing images
             if image_info.image_data is None:
                 continue
 
-            img, img_size, img_type, img_dim = get_image_info(
-                image_info.image_data
-            )
-            img_size_kb = img_size / 1024.0
-            total_before += img_size_kb
+            # Skip all non-embedded images
+            if image_info.image_is_url:
+                if not args.optimize_urls:
+                    continue
+                if not str.startswith(image_info.image_data, args.base_url):
+                    continue
 
-            if img is None:
-                console.print(img_type)
-                continue
-
-            if (
-                (args.filter_size_gte is None or img_size_kb >= args.filter_size_gte) and
-                img_type not in ('data:image/webp',)
-            ):
-                optimized_image = optimize_image(img, img_type)
-                optimized_image_size = len(optimized_image) / 1024.0
-
-                images_table.add_row(
-                    image_info.object_id, image_info.name,
-                    "%d x %d" % img_dim,
-                    f"{img_size_kb: >8.2f} kB",
-                    f"{optimized_image_size: >8.2f} kB",
-                    img_type
+                size_after, size_before = self.optimize_file_inplace(
+                    image_info,
+                    images_table,
+                    args.filter_size_gte,
+                    args.export_url,
+                    dest_dir,
+                )
+            else:
+                size_after, size_before = self.optimize_and_extract(
+                    image_info,
+                    images_table,
+                    args.filter_size_gte,
+                    dest_dir,
                 )
 
-                export_image(image_info, "webp",
-                             image_data=optimized_image, dest_dir=dest_dir)
-                update_image(self.project, image_info, "webp",
-                             image_data=optimized_image)
-
-                total_after += optimized_image_size
-            else:
-                total_after += img_size_kb
+                total_before += size_before
+                total_after += size_after
 
         images_table.add_row(
             "", "Total", "",
@@ -328,7 +419,7 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
     def setup_parser(cls, parent):
         parser = parent.add_parser(cls.name, help='Format a project file')
         parser.add_argument('--project', dest='project_file', type=Path)
-        parser.add_argument('--export-path', type=Path, required=True)
+        parser.add_argument('--export-dir', type=Path, required=True)
         parser.add_argument('--export-url', type=str, required=True)
 
     def extract_image(self, image_info, dest_dir, base_url, images_table):
@@ -378,7 +469,7 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
         self._load_project(args.project_file)
 
         base_url = args.export_url
-        if dest_dir := args.export_path:
+        if dest_dir := args.export_dir:
             makedirs(dest_dir, exist_ok=True)
 
         images_table = Table("obj_id", "title",
@@ -388,7 +479,7 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
         for image_info in track(project_images, total=len(project_images)):
             if image_info.image_data is None:
                 continue
-            
+
             if image_info.image_is_url:
                 self.download_image(image_info, dest_dir,
                                     base_url, images_table)
@@ -418,7 +509,8 @@ class MediaMigrateTool(ToolBase, ProjectUtilsMixin):
             update_image(
                 self.project,
                 image_info,
-                image_path=str.replace(image_info.image_data, old_base_url, new_base_url)
+                image_path=str.replace(
+                    image_info.image_data, old_base_url, new_base_url)
             )
 
     def run(self, args):
@@ -428,7 +520,7 @@ class MediaMigrateTool(ToolBase, ProjectUtilsMixin):
         for image_info in track(project_images, total=len(project_images)):
             if image_info.image_data is None:
                 continue
-            
+
             if image_info.image_is_url:
                 self.update_image(
                     image_info,
@@ -437,6 +529,7 @@ class MediaMigrateTool(ToolBase, ProjectUtilsMixin):
                 )
 
         self._save_project(args.project_file)
+
 
 TOOLS = (
     MediaListTool,
