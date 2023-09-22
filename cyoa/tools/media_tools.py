@@ -390,6 +390,9 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                     args.export_url,
                     dest_dir,
                 )
+
+                total_before += size_before
+                total_after += size_after
             else:
                 size_after, size_before = self.optimize_and_extract(
                     image_info,
