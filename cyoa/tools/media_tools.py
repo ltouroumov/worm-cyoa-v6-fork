@@ -262,7 +262,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         parser.add_argument('--optimize-urls', action='store_true')
         parser.add_argument('--export-url', type=str, default=None)
 
-    def optimize_and_extract(self, image_info, images_table, filter_size_gte, dest_dir, base_url):
+    def optimize_and_extract(self, image_info, images_table, filter_size_gte, base_url, dest_dir):
         img, img_size, img_type, img_dim = get_image_info(
             image_info.image_data
         )
@@ -326,8 +326,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         img_size_kb = img_size / 1024.0
 
         if (
-            (filter_size_gte is None or img_size_kb >= filter_size_gte) and
-            str.endswith(image_name, '.webp')
+            (filter_size_gte is None and not str.endswith(image_name, '.webp')) or
+            (filter_size_gte is not None and img_size_kb >= filter_size_gte)
         ):
             optimized_image = optimize_image(img)
             optimized_image_size = len(optimized_image) / 1024.0
@@ -380,7 +380,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             if image_info.image_is_url:
                 if not args.optimize_urls:
                     continue
-                if not str.startswith(image_info.image_data, args.base_url):
+                if not str.startswith(image_info.image_data, args.export_url):
                     continue
 
                 size_after, size_before = self.optimize_file_inplace(
@@ -395,6 +395,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                     image_info,
                     images_table,
                     args.filter_size_gte,
+                    args.export_url,
                     dest_dir,
                 )
 
