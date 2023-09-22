@@ -134,12 +134,10 @@ def optimize_image(image: Image.Image, max_size=None):
         if cur_w > max_w:
             ratio = max_w / cur_w
             new_size = (max_w, round(cur_h * ratio))
-            console.log(f'resize W {image.size} => {new_size}')
             image.resize(size=new_size)
         elif cur_h > max_h:
             ratio = max_h / cur_h
             new_size=(round(cur_w * ratio), max_h)
-            console.log(f'resize H {image.size} => {new_size}')
             image.resize(size=new_size)
 
     image.save(image_data, format='webp',
@@ -418,9 +416,6 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
 
                 total_before += size_before
                 total_after += size_after
-
-                if size_after != size_before:
-                    return
             else:
                 size_after, size_before = self.optimize_and_extract(
                     image_info,
