@@ -233,6 +233,11 @@ def update_image(project, image_info, image_type=None, image_data=None, image_pa
             lens=_set_image_lenses(encoded_image, image_is_url)
         )
 
+def check_size(max_size: None | float, cur_size: float):
+    if max_size is None:
+        return True
+    else:
+        return cur_size <= max_size
 
 class MediaListTool(ToolBase, ProjectUtilsMixin):
     name = 'media.list'
@@ -290,36 +295,33 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             console.print(img_type)
             return 0
 
-        if (
-            (filter_size_gte is None or img_size_kb >= filter_size_gte) and
-            img_type not in ('data:image/webp',)
-        ):
-            optimized_image = optimize_image(img, max_size=max_dim)
-            optimized_image_size = len(optimized_image) / 1024.0
-
-            images_table.add_row(
-                image_info.object_id, image_info.name,
-                "%d x %d" % img_dim,
-                f"{img_size_kb: >8.2f} kB",
-                f"{optimized_image_size: >8.2f} kB",
-                img_type
-            )
-
-            image_name = export_image(
-                image_info, "webp",
-                image_data=optimized_image,
-                dest_dir=dest_dir
-            )
-            image_url = f"{base_url}/{image_name}"
-
-            update_image(
-                self.project, image_info, "webp",
-                image_path=image_url
-            )
-
-            return optimized_image_size, img_size_kb
-        else:
+        if img_type in ('data:image/webp',) and check_size(filter_size_gte, img_size_kb):
             return img_size_kb, img_size_kb
+
+        optimized_image = optimize_image(img, max_size=max_dim)
+        optimized_image_size = len(optimized_image) / 1024.0
+
+        images_table.add_row(
+            image_info.object_id, image_info.name,
+            "%d x %d" % img_dim,
+            f"{img_size_kb: >8.2f} kB",
+            f"{optimized_image_size: >8.2f} kB",
+            img_type
+        )
+
+        image_name = export_image(
+            image_info, "webp",
+            image_data=optimized_image,
+            dest_dir=dest_dir
+        )
+        image_url = f"{base_url}/{image_name}"
+
+        update_image(
+            self.project, image_info, "webp",
+            image_path=image_url
+        )
+
+        return optimized_image_size, img_size_kb
 
     def optimize_file_inplace(
         self,
@@ -345,42 +347,39 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         )
         img_size_kb = img_size / 1024.0
 
-        if (
-            not str.endswith(image_name, '.webp') or
-            (filter_size_gte is not None and img_size_kb >= filter_size_gte)
-        ):
-            console.log(f"In-Place Optimization: {image_name}")
-
-            optimized_image = optimize_image(img, max_size=max_dim)
-            optimized_image_size = len(optimized_image) / 1024.0
-
-            images_table.add_row(
-                image_info.object_id, image_info.name,
-                "%d x %d" % img_dim,
-                f"{img_size_kb: >8.2f} kB",
-                f"{optimized_image_size: >8.2f} kB",
-                img_type
-            )
-
-            export_name = export_image(
-                image_info, "webp",
-                image_data=optimized_image,
-                dest_dir=base_path
-            )
-            export_url = f"{base_url}/{export_name}"
-
-            update_image(
-                self.project, image_info, "webp",
-                image_path=export_url
-            )
-
-            if export_name != image_name:
-                image_path.unlink()
-
-            return optimized_image_size, img_size_kb
-        else:
-            console.log(f"Skipped image: {image_name}")
+        if str.endswith(image_name, '.webp') and check_size(filter_size_gte, img_size_kb):
+            console.log(f"Skipped image: {image_name} (webp & small)")
             return img_size_kb, img_size_kb
+
+        console.log(f"In-Place Optimization: {image_name} ({img_size_kb}kb, {img_dim})")
+
+        optimized_image = optimize_image(img, max_size=max_dim)
+        optimized_image_size = len(optimized_image) / 1024.0
+
+        images_table.add_row(
+            image_info.object_id, image_info.name,
+            "%d x %d" % img_dim,
+            f"{img_size_kb: >8.2f} kB",
+            f"{optimized_image_size: >8.2f} kB",
+            img_type
+        )
+
+        export_name = export_image(
+            image_info, "webp",
+            image_data=optimized_image,
+            dest_dir=base_path
+        )
+        export_url = f"{base_url}/{export_name}"
+
+        update_image(
+            self.project, image_info, "webp",
+            image_path=export_url
+        )
+
+        if export_name != image_name:
+            image_path.unlink()
+
+        return optimized_image_size, img_size_kb
 
     def run(self, args):
         self._load_project(args.project_file)
