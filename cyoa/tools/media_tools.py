@@ -344,8 +344,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         img_size_kb = img_size / 1024.0
 
         if (
-            (filter_size_gte is None and not str.endswith(image_name, '.webp')) or
-            (filter_size_gte is not None and img_size_kb >= filter_size_gte)
+            not str.endswith(image_name, '.webp') and
+            (filter_size_gte is None or img_size_kb >= filter_size_gte)
         ):
             optimized_image = optimize_image(img, max_size=max_dim)
             optimized_image_size = len(optimized_image) / 1024.0
