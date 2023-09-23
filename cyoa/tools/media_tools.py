@@ -8,6 +8,7 @@ from typing import Optional, Iterator
 from PIL import Image
 from lenses import lens
 import requests
+from rich.console import Console
 from rich.progress import track
 from rich.table import Table
 
@@ -347,6 +348,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             not str.endswith(image_name, '.webp') and
             (filter_size_gte is None or img_size_kb >= filter_size_gte)
         ):
+            console.log(f"In-Place Optimization: {image_name}")
+
             optimized_image = optimize_image(img, max_size=max_dim)
             optimized_image_size = len(optimized_image) / 1024.0
 
@@ -375,6 +378,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
 
             return optimized_image_size, img_size_kb
         else:
+            console.log(f"Skipped image: {image_name}")
             return img_size_kb, img_size_kb
 
     def run(self, args):
