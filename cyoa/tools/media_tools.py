@@ -1,4 +1,5 @@
 import base64
+from glob import glob
 import io
 from dataclasses import dataclass, replace
 from os import makedirs
@@ -9,7 +10,7 @@ from PIL import Image
 from lenses import lens
 import requests
 from rich.console import Console
-from rich.progress import Progress
+from rich.progress import Progress, track
 from rich.table import Table
 
 from cyoa.tools.lib import *
@@ -586,10 +587,46 @@ class MediaMigrateTool(ToolBase, ProjectUtilsMixin):
 
         self._save_project(args.project_file)
 
+class MediaCleanTool(ToolBase, ProjectUtilsMixin):
+    name = 'media.clean'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser.add_argument('--project', dest='project_file', type=Path)
+        parser.add_argument('--export-dir', type=Path, required=True)
+        parser.add_argument('--export-url', type=str, required=True)
+
+    def run(self, args):
+        self._load_project(args.project_file)
+
+        image_files = set(args.export_dir.glob('*'))
+        console.log(f"Total Images: {len(image_files)}")
+
+        project_images = list(list_all_images(self.project))
+        for image_info in project_images:
+            if image_info.image_data is None:
+                continue
+
+            if (image_info.image_is_url and
+                str.startswith(image_info.image_data, args.export_url)):
+                image_name = str.replace(image_info.image_data, args.export_url, '')
+                image_path = args.export_dir / image_name
+
+                if image_path not in image_files:
+                    console.log(f"Missing Image: {image_path}", style="red")
+                else:
+                    image_files.remove(image_path)
+
+        console.log(f"Orphan Images: {len(image_files)}")
+        for image in image_files:
+            console.log(f"Removing {image}")
+            image.unlink()
 
 TOOLS = (
     MediaListTool,
     MediaOptimizeTool,
     MediaExtractTool,
     MediaMigrateTool,
+    MediaCleanTool,
 )
