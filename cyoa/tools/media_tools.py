@@ -338,6 +338,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         image_path = base_path / image_name
 
         if not image_path.exists():
+            console.log(f"Skipped image: {image_name} (file missing)", style="red")
             print(f"Skipped {image_info.object_id} ({image_name}): File Missing", file=report_io)
             return 0, 0
 
