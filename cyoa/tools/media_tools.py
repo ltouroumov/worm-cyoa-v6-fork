@@ -338,6 +338,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         image_path = base_path / image_name
 
         if not image_path.exists():
+            print(f"Skipped {image_info.object_id} ({image_name}): File Missing", file=report_io)
             return 0, 0
 
         with image_path.open(mode='rb') as fd:
@@ -358,7 +359,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             print(f"Skipped {image_info.object_id} ({image_name}): Already Optimized", file=report_io)
             return img_size_kb, img_size_kb
 
-        console.log(f"In-Place Optimization: {image_name} ({img_size_kb}kb, {img_dim})")
+        console.log(f"In-Place Optimization: {image_name} ({img_size_kb:.2f} kB, {img_dim})")
 
         optimized_image = optimize_image(img, max_size=max_dim)
         optimized_image_size = len(optimized_image) / 1024.0
@@ -421,6 +422,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                 if image_info.image_is_url:
                     if not args.optimize_urls:
                         continue
+
                     if not str.startswith(image_info.image_data, args.export_url):
                         print(f"Skipped {image_info.object_id}: Wrong Prefix", file=report_io)
                         continue
