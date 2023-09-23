@@ -3,13 +3,13 @@ import io
 from dataclasses import dataclass, replace
 from os import makedirs
 from pathlib import Path
-from typing import Optional, Iterator
+from typing import Optional, Iterator, Tuple
 
 from PIL import Image
 from lenses import lens
 import requests
 from rich.console import Console
-from rich.progress import track
+from rich.progress import Progress
 from rich.table import Table
 
 from cyoa.tools.lib import *
@@ -328,7 +328,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         filter_size_gte: float,
         base_url: str,
         base_path: Path, 
-        max_dim
+        max_dim: Tuple[int, int],
+        console: Console
     ):
         image_name = str.replace(image_info.image_data, base_url, '')
         image_path = base_path / image_name
@@ -397,41 +398,47 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         total_after = 0
 
         project_images = list(list_all_images(self.project))
-        for image_info in track(project_images, total=len(project_images)):
-            # Skip all missing images
-            if image_info.image_data is None:
-                continue
+        with Progress() as pg:
+            pg_task = pg.add_task('Optimize Images', total=len(project_images))
 
-            # Skip all non-embedded images
-            if image_info.image_is_url:
-                if not args.optimize_urls:
+            for image_info in project_images:
+                pg.advance(pg_task)
+                # Skip all missing images
+                if image_info.image_data is None:
                     continue
-                if not str.startswith(image_info.image_data, args.export_url):
-                    continue
-                
-                size_after, size_before = self.optimize_file_inplace(
-                    image_info,
-                    images_table,
-                    args.filter_size_gte,
-                    args.export_url,
-                    dest_dir,
-                    max_dim
-                )
 
-                total_before += size_before
-                total_after += size_after
-            else:
-                size_after, size_before = self.optimize_and_extract(
-                    image_info,
-                    images_table,
-                    args.filter_size_gte,
-                    args.export_url,
-                    dest_dir,
-                    max_dim
-                )
+                # Skip all non-embedded images
+                if image_info.image_is_url:
+                    if not args.optimize_urls:
+                        continue
+                    if not str.startswith(image_info.image_data, args.export_url):
+                        continue
+                    
+                    size_after, size_before = self.optimize_file_inplace(
+                        image_info,
+                        images_table,
+                        args.filter_size_gte,
+                        args.export_url,
+                        dest_dir,
+                        max_dim,
+                        pg.console
+                    )
 
-                total_before += size_before
-                total_after += size_after
+                    total_before += size_before
+                    total_after += size_after
+                else:
+                    size_after, size_before = self.optimize_and_extract(
+                        image_info,
+                        images_table,
+                        args.filter_size_gte,
+                        args.export_url,
+                        dest_dir,
+                        max_dim,
+                        pg.console
+                    )
+
+                    total_before += size_before
+                    total_after += size_after
 
         images_table.add_row(
             "", "Total", "",
