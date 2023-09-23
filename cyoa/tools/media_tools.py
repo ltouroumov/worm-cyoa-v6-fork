@@ -370,7 +370,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                 image_path=export_url
             )
 
-            if not str.endswith(image_name, '.webp'):
+            if export_name != image_name:
                 image_path.unlink()
 
             return optimized_image_size, img_size_kb
