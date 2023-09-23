@@ -352,10 +352,10 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             return img_size_kb, img_size_kb
 
         if str.endswith(image_name, '.webp') and check_size(filter_size_gte, img_size_kb):
-            console.log(f"Skipped image: {image_name} (webp & small)")
+            # console.log(f"Skipped image: {image_name} (webp & small)")
             return img_size_kb, img_size_kb
 
-        console.log(f"In-Place Optimization: {image_name} ({img_size_kb}kb, {img_dim})")
+        # console.log(f"In-Place Optimization: {image_name} ({img_size_kb}kb, {img_dim})")
 
         optimized_image = optimize_image(img, max_size=max_dim)
         optimized_image_size = len(optimized_image) / 1024.0
