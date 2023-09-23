@@ -28,6 +28,10 @@ python3 -m cyoa.tools.client project.patch --project $PROJECT \
   --patch cyoa.patch:FixImageLinks
 
 # Optimize and extract medias
+python3 -m cyoa.tools.client media.extract --project $PROJECT \
+  --export-dir images/$VERSION \
+  --export-url https://cyoa.ltouroumov.ch/images/$VERSION \
+
 python3 -m cyoa.tools.client media.optimize --project $PROJECT \
   --export-dir images/$VERSION \
   --export-url https://cyoa.ltouroumov.ch/images/$VERSION \
