@@ -348,7 +348,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         img_size_kb = img_size / 1024.0
 
         if img is None:
-            console.log(f"Skipped image: {image_name} (empty??)")
+            console.log(f"Skipped image: {image_name} (empty??)", style="red")
             return img_size_kb, img_size_kb
 
         if str.endswith(image_name, '.webp') and check_size(filter_size_gte, img_size_kb):
