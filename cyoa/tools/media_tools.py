@@ -331,7 +331,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         base_url: str,
         base_path: Path, 
         max_dim: Tuple[int, int],
-        console: Console
+        console: Console,
+        report_io: io.StringIO
     ):
         image_name = str.replace(image_info.image_data, base_url, '')
         image_path = base_path / image_name
@@ -348,14 +349,16 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         img_size_kb = img_size / 1024.0
 
         if img is None:
-            console.log(f"Skipped image: {image_name} (empty??)", style="red")
+            console.log(f"Skipped image: {image_name} (decode error)", style="red")
+            print(f"Skipped {image_info.object_id} ({image_name}): Decode Failed", file=report_io)
             return img_size_kb, img_size_kb
 
         if str.endswith(image_name, '.webp') and check_size(filter_size_gte, img_size_kb):
-            # console.log(f"Skipped image: {image_name} (webp & small)")
+            console.log(f"Skipped image: {image_name} (webp & small)")
+            print(f"Skipped {image_info.object_id} ({image_name}): Already Optimized", file=report_io)
             return img_size_kb, img_size_kb
 
-        # console.log(f"In-Place Optimization: {image_name} ({img_size_kb}kb, {img_dim})")
+        console.log(f"In-Place Optimization: {image_name} ({img_size_kb}kb, {img_dim})")
 
         optimized_image = optimize_image(img, max_size=max_dim)
         optimized_image_size = len(optimized_image) / 1024.0
@@ -383,6 +386,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         if export_name != image_name:
             image_path.unlink()
 
+        print(f"Optimized {image_info.object_id}: {export_name}; {img_size_kb:.2f} kB => {optimized_image_size:.2f} kB", file=report_io)
         return optimized_image_size, img_size_kb
 
     def run(self, args):
@@ -400,6 +404,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         total_before = 0
         total_after = 0
 
+        report_io = io.StringIO()
+
         project_images = list(list_all_images(self.project))
         with Progress() as pg:
             pg_task = pg.add_task('Optimize Images', total=len(project_images))
@@ -408,6 +414,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                 pg.advance(pg_task)
                 # Skip all missing images
                 if image_info.image_data is None:
+                    print(f"Skipped {image_info.object_id}: No Data", file=report_io)
                     continue
 
                 # Skip all non-embedded images
@@ -415,6 +422,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                     if not args.optimize_urls:
                         continue
                     if not str.startswith(image_info.image_data, args.export_url):
+                        print(f"Skipped {image_info.object_id}: Wrong Prefix", file=report_io)
                         continue
                     
                     size_after, size_before = self.optimize_file_inplace(
@@ -424,7 +432,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                         args.export_url,
                         dest_dir,
                         max_dim,
-                        pg.console
+                        pg.console,
+                        report_io
                     )
 
                     total_before += size_before
@@ -437,7 +446,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
                         args.export_url,
                         dest_dir,
                         max_dim,
-                        pg.console
+                        pg.console,
+                        report_io
                     )
 
                     total_before += size_before
@@ -452,6 +462,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         console.print(images_table)
         if args.write:
             self._save_project(args.project_file)
+            open("report.txt", mode='w+').write(report_io.getvalue())
 
 
 class MediaExtractTool(ToolBase, ProjectUtilsMixin):
