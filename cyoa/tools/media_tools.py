@@ -1,10 +1,12 @@
 import base64
+from collections import OrderedDict
 from glob import glob
 import io
 from dataclasses import dataclass, replace
 from os import makedirs
 from pathlib import Path
 from typing import Optional, Iterator, Tuple
+from zipfile import ZipFile
 
 from PIL import Image
 from lenses import lens
@@ -623,10 +625,114 @@ class MediaCleanTool(ToolBase, ProjectUtilsMixin):
             console.log(f"Removing {image}")
             image.unlink()
 
+
+class MediaListTool(ToolBase, ProjectUtilsMixin):
+    name = 'media.list'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser.add_argument('--project', dest='project_file', type=Path)
+
+    def run(self, args):
+        self._load_project(args.project_file)
+
+        image_rows = dict()
+
+        project_images = list(list_all_images(self.project))
+        for image_info in project_images:
+            if image_info.image_data is None:
+                continue
+            
+            if image_info.row_id not in image_rows:
+                image_rows[image_info.row_id] = 0
+            
+            image_rows[image_info.row_id] += 1
+
+        row_names = [
+            (row['id'], row['title'])
+            for row in self.project['rows']
+        ]
+
+        total_images = 0
+        console.print(f"! Row ID !! Row Name !! # Images")
+        for row_id, row_name in row_names:
+            if image_count := image_rows.get(row_id, None):
+                console.print(f"|-")
+                console.print(f"| {row_id} || {row_name} || {image_count}")
+                total_images += image_count
+        
+        console.print(f"| Total || {total_images}")
+        console.print(f"| Image Rows || {len(image_rows)}")
+
+
+class MediaZipTool(ToolBase, ProjectUtilsMixin):
+    name = 'media.zip'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser.add_argument('--project', dest='project_file', type=Path)
+        parser.add_argument('--export-dir', type=Path, required=True)
+        parser.add_argument('--export-url', type=str, required=True)
+        parser.add_argument('--archive-dir', type=Path, required=True)
+
+    def run(self, args):
+        self._load_project(args.project_file)
+
+        base_path = args.export_dir
+        base_url = args.export_url
+        archive_dir = args.archive_dir
+        makedirs(archive_dir, exist_ok=True)
+
+        images_per_row: dict[str, list] = dict()
+
+        with Progress() as pg:
+            project_images = list(list_all_images(self.project))
+            group_task = pg.add_task('Group Images', total=len(project_images))
+            for image_info in project_images:
+                pg.advance(group_task)
+                if (image_info.image_data is None or
+                    not image_info.image_is_url or
+                    not str.startswith(image_info.image_data, args.export_url)):
+                    continue
+
+                if image_info.row_id not in images_per_row:
+                    images_per_row[image_info.row_id] = []
+                
+                images_per_row[image_info.row_id].append(image_info)
+
+            archive_task = pg.add_task('Archive Groups', total=len(images_per_row))
+            for row_id, images in sorted(images_per_row.items()):
+                archive_row_task = pg.add_task(f"Row {row_id}", total=len(images))
+                archive_file = archive_dir / f"row-{row_id}.zip"
+                pg.console.print(f"Creating ZIP for {archive_file} ({len(images)} images)")
+
+                archive = ZipFile(archive_file, mode='w')
+                archive.mkdir(f"row-{row_id}")
+                for image_info in images:
+                    image_name = str.replace(image_info.image_data, base_url, '')
+                    image_path = base_path / image_name
+
+                    archive.write(
+                        filename=image_path,
+                        arcname=f"row-{row_id}/{image_name}"
+                    )
+
+                    pg.advance(archive_row_task)
+                
+                archive.close()
+
+                pg.advance(archive_task)
+                pg.remove_task(archive_row_task)
+
+
 TOOLS = (
     MediaListTool,
     MediaOptimizeTool,
     MediaExtractTool,
     MediaMigrateTool,
     MediaCleanTool,
+    MediaListTool,
+    MediaZipTool,
 )

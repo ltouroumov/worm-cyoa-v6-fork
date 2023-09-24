@@ -1,6 +1,9 @@
 import json
 from pathlib import Path
 
+from rich.table import Table
+from rich.box import MARKDOWN
+
 from cyoa.tools.lib import *
 from cyoa.tools.lib import remove_rows_from_project
 
@@ -17,8 +20,14 @@ class RowListTool(ToolBase, ProjectUtilsMixin):
     def run(self, args):
         self._load_project(args.project_file)
 
+        table = Table(
+            "id", "title", "# objects",
+            box=MARKDOWN
+        )
         for row_data in self.project['rows']:
-            console.print(row_data['id'], row_data['title'])
+            table.add_row(row_data['id'], row_data['title'], f"{len(row_data['objects'])}")
+        
+        console.print(table)
 
 
 class RowCopyTool(ToolBase, ProjectUtilsMixin):
