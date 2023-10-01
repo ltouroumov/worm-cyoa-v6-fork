@@ -468,7 +468,6 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         console.print(images_table)
         if args.write:
             self._save_project(args.project_file)
-            open("report.txt", mode='w+').write(report_io.getvalue())
 
 
 class MediaExtractTool(ToolBase, ProjectUtilsMixin):

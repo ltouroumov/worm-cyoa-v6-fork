@@ -30,16 +30,16 @@ python3 -m cyoa.tools.client project.patch --project $PROJECT \
 # Extract, Optimize, and Clean media files
 python3 -m cyoa.tools.client media.extract --project $PROJECT \
   --export-dir images/$VERSION \
-  --export-url https://cyoa.ltouroumov.ch/images/$VERSION \
+  --export-url https://cyoa.ltouroumov.ch/images/$VERSION/
 
 python3 -m cyoa.tools.client media.optimize --project $PROJECT \
   --export-dir images/$VERSION \
-  --export-url https://cyoa.ltouroumov.ch/images/$VERSION \
+  --export-url https://cyoa.ltouroumov.ch/images/$VERSION/ \
   --write
 
 python3 -m cyoa.tools.client media.clean --project $PROJECT \
   --export-dir images/$VERSION \
-  --export-url https://cyoa.ltouroumov.ch/images/$VERSION \
+  --export-url https://cyoa.ltouroumov.ch/images/$VERSION/
 
 # Apply fix patches
 python3 -m cyoa.tools.client project.patch --project $PROJECT \
