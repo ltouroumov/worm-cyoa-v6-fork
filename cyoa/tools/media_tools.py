@@ -493,6 +493,7 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
                                   dest_dir=dest_dir)
 
         image_url = f"{base_url}/{image_name}"
+        console.log(f"Extract: {image_url}")
         update_image(self.project, image_info, image_type,
                      image_path=image_url)
 
