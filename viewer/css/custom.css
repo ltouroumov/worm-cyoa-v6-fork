@@ -54,6 +54,10 @@ span.fullHeight span.row.pa-0>div.row>div.col.pa-0>img {
     div.col.col-sm-6>span.fullHeight>span.row.pa-0>span.ma-0 {
         max-height: 70rem;
     }
+
+    div.col.col-xl-1>span.fullHeight>span.row.pa-0>span.ma-0 {
+        max-height: 70rem;
+    }
     
     *::-webkit-scrollbar {
       width: 12px;
