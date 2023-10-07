@@ -34,13 +34,13 @@ python3 -m cyoa.tools.client media.extract --project $PROJECT \
 
 python3 -m cyoa.tools.client media.optimize --project $PROJECT \
   --export-dir images/$VERSION \
-  --export-url https://cyoa.ltouroumov.ch/images/$VERSION/ \
+  --export-url https://cyoa.ltouroumov.ch/images/$VERSION \
   --size-gte 500 --max-dim=1000x1000 --optimize-urls \
   --write
 
 python3 -m cyoa.tools.client media.clean --project $PROJECT \
   --export-dir images/$VERSION \
-  --export-url https://cyoa.ltouroumov.ch/images/$VERSION/
+  --export-url https://cyoa.ltouroumov.ch/images/$VERSION
 
 # Apply fix patches
 python3 -m cyoa.tools.client project.patch --project $PROJECT \

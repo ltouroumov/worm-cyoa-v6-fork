@@ -338,7 +338,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
         console: Console,
         report_io: io.StringIO
     ):
-        image_name = str.replace(image_info.image_data, base_url, '')
+        image_name = str.replace(image_info.image_data, base_url, '').strip('/')
         image_path = base_path / image_name
 
         if not image_path.exists():
@@ -380,8 +380,8 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             image_data=optimized_image,
             dest_dir=base_path
         )
-        console.log(f"{export_name=}")
         export_url = f"{base_url}/{export_name}"
+        console.log(f"{export_name=} => {export_url=}")
 
         update_image(
             self.project, image_info, "webp",
@@ -612,7 +612,7 @@ class MediaCleanTool(ToolBase, ProjectUtilsMixin):
 
             if (image_info.image_is_url and
                 str.startswith(image_info.image_data, args.export_url)):
-                image_name = str.replace(image_info.image_data, args.export_url, '')
+                image_name = str.replace(image_info.image_data, args.export_url, '').strip('/')
                 image_path = args.export_dir / image_name
 
                 if image_path not in image_files:
