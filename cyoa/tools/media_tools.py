@@ -380,6 +380,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             image_data=optimized_image,
             dest_dir=base_path
         )
+        console.log(f"{export_name=}")
         export_url = f"{base_url}/{export_name}"
 
         update_image(
