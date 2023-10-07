@@ -135,11 +135,12 @@ def optimize_image(image: Image.Image, max_size=None):
     if max_size is not None:
         max_w, max_h = max_size
         cur_w, cur_h = image.size
-        if cur_w > max_w:
+        if cur_w > cur_h and cur_w > max_w:
             ratio = max_w / cur_w
             new_size = (max_w, round(cur_h * ratio))
             image.resize(size=new_size)
-        elif cur_h > max_h:
+        
+        if cur_h > cur_w and cur_h > max_h:
             ratio = max_h / cur_h
             new_size=(round(cur_w * ratio), max_h)
             image.resize(size=new_size)
@@ -359,8 +360,6 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
             return img_size_kb, img_size_kb
 
         if str.endswith(image_name, '.webp') and check_size(filter_size_gte, img_size_kb):
-            console.log(f"Skipped image: {image_name} (webp & small)")
-            print(f"Skipped {image_info.object_id} ({image_name}): Already Optimized", file=report_io)
             return img_size_kb, img_size_kb
 
         console.log(f"In-Place Optimization: {image_name} ({img_size_kb:.2f} kB, {img_dim})")
