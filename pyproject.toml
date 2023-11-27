@@ -5,7 +5,7 @@ description = ""
 authors = ["Laureline David <ltouroumov@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.11"
 rich = "*"
 pillow = "*"
 humanize = "*"

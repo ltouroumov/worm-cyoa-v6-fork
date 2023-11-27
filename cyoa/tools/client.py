@@ -4,7 +4,7 @@ from typing import Type, Dict
 from cyoa.tools.lib import *
 from cyoa.tools import (
     project_tools, row_tools, object_tools,
-    media_tools, merge_tools, build
+    media_tools, merge_tools, wiki_tools, build
 )
 
 TOOLS: tuple[Type[ToolBase], ...] = (
@@ -13,6 +13,7 @@ TOOLS: tuple[Type[ToolBase], ...] = (
     *object_tools.TOOLS,
     *media_tools.TOOLS,
     *merge_tools.TOOLS,
+    *wiki_tools.TOOLS,
     build.BuildTool
 )
 
