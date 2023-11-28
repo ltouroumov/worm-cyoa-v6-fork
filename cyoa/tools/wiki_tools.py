@@ -1,10 +1,12 @@
 import os
 from pathlib import Path
+from typing import Any
 
 import jinja2
 import requests
 
 from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console
+from cyoa.tools.wiki.config import STRUCTURE
 
 URL_BASE = "https://cyoa.ltouroumov.ch/wiki/api.php"
 
@@ -42,9 +44,10 @@ class WikiAPI:
             "lgpassword": password,
             "lgtoken": login_token,
             "format": "json",
-        })
+        }).json()
 
-        console.log(res.text)
+        if res['login']['result'] != 'Success':
+            console.log(res)
 
     def _query_raw(self, **kwargs):
         query_res = self.session.get(URL_BASE, params={
@@ -55,8 +58,22 @@ class WikiAPI:
         return query_res.json()
 
     def query_prefix(self, prefix: str, **kwargs):
-        query_res = self._query_raw(list="prefixsearch", pssearch=prefix, **kwargs)
-        return query_res['query']['prefixsearch']
+        can_continue = True
+        do_continue = None
+        while can_continue:
+            query_res = self._query_raw(
+                list="allpages",
+                apprefix=prefix,
+                apcontinue=do_continue,
+                **kwargs
+            )
+
+            if 'query' in query_res:
+                yield from query_res['query']['allpages']
+            if 'continue' in query_res:
+                do_continue = query_res['continue']['apcontinue']
+            else:
+                can_continue = False
 
     def query_content(self, **kwargs):
         query_res = self._query_raw(prop="revisions", rvslots="*", rvprop="ids|content", **kwargs)
@@ -85,82 +102,148 @@ class WikiAPI:
             return query_res['edit']
 
 
-STRUCTURE = {
-    # 'Project_V17/Sections': {
-    #     "mode": "index"
-    # },
-    # 'Project_V17/Sections/Meta': {
-    #     "mode": "inline",
-    #     "row_ids": ["91nq", "m08s", "p9a8"],
-    # },
-    # 'Project_V17/Sections/Difficulty': {
-    #     "mode": "inline",
-    #     "row_ids": ["yk8d", "81zz"],
-    # },
-    'Project V17/Sections/Scenario': {
-        "mode": "subpage",
-        "section": {"columns": 3},
-        "row_ids": ["lht3"]
-    },
-}
-
-
 def get_last_revision(wiki_page):
     return wiki_page['revisions'][0]['slots']['main']['*']
 
 
-def splice_text(wiki_page, page_text, marker):
-    wiki_text = get_last_revision(wiki_page)
-
-    marker_start = f'<!-- {marker} -->'
-    marker_end = f'<!-- /{marker} -->'
-    section_start = wiki_text.find(marker_start)
-    section_end = wiki_text.find(marker_end)
-
+def maker_marker(marker_start, marker_end):
     def mark(text):
         return f"{marker_start}\n{text}\n{marker_end}"
+
+    return mark
+
+
+def splice_text(wiki_page, page_text, marker):
+    marker_start = f'<!-- {marker} -->'
+    marker_end = f'<!-- /{marker} -->'
+    mark = maker_marker(marker_start, marker_end)
+
+    if not wiki_page:
+        return mark(page_text)
+
+    wiki_text = get_last_revision(wiki_page)
+    section_start = wiki_text.find(marker_start)
+    section_end = wiki_text.find(marker_end)
 
     if section_start < 0 or section_end < 0 or section_end < section_start:
         # Squash page contents for now
         return f"{mark(page_text)}"
     elif section_start == 0:
         # Splice from the start
-        return f"{mark(page_text)}{wiki_text[section_end+len(marker_end):]}"
+        return f"{mark(page_text)}{wiki_text[section_end + len(marker_end):]}"
     else:
-        return f"{wiki_text[:section_start]}{mark(page_text)}{wiki_text[section_end+len(marker_end):]}"
+        return f"{wiki_text[:section_start]}{mark(page_text)}{wiki_text[section_end + len(marker_end):]}"
 
+
+def check_title(title: str):
+    return title.replace('/', '\uFF0F')
+
+
+def get_depth(path: str):
+    return len(path.split('/'))
+
+def last_title_part(title: str):
+    slash_idx = title.rfind('/')
+    if slash_idx >= 0:
+        return title[slash_idx+1:]
+    else:
+        return title
 
 class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
     name = 'wiki.update'
+
+    api: WikiAPI
+    env: jinja2.Environment
+    rows: dict[str, Any]
+    objects: dict[str, Any]
 
     @classmethod
     def setup_parser(cls, parent):
         parser = parent.add_parser(cls.name, help='Format a project file')
         parser.add_argument('--project', dest='project_file', type=Path)
+        parser.add_argument('--preview', action='store_true')
         parser.add_argument('--bot-username')
         parser.add_argument('--bot-password')
 
-    def run(self, args):
-        self._load_project(args.project_file)
+    def setup(self, args):
+        self.api = WikiAPI()
+        self.api.login(
+            args.bot_username,
+            args.bot_password
+        )
 
         tpl_path = os.path.join(os.path.dirname(__file__), 'wiki')
-        tpl_env = jinja2.Environment(
+        self.env = jinja2.Environment(
             loader=jinja2.FileSystemLoader(tpl_path)
         )
 
-        project_rows = {
+        self.rows = {
             row['id']: row
             for row in self.project['rows']
         }
 
-        api = WikiAPI()
-        api.login(args.bot_username, args.bot_password)
+        self.objects = {
+            obj['id']: obj
+            for row in self.rows.values()
+            for obj in row['objects']
+        }
 
-        for path, config in STRUCTURE.items():
+        self.env.filters['last_title_part'] = last_title_part
+        self.env.globals = {
+            "rows": self.rows,
+            "objects": self.objects,
+        }
+
+    def run(self, args):
+        self._load_project(args.project_file)
+        self.setup(args)
+
+        css_file_path = os.path.join(os.path.dirname(__file__), "wiki/custom.css")
+        with open(css_file_path, mode='r') as css_file:
+            self.api.edit(title="MediaWiki:Common.css",
+                          text=css_file.read())
+
+            console.print('Updated: CSS')
+
+        sorted_elements = sorted(
+            STRUCTURE.items(),
+            key=lambda tup: (
+                -1 if tup[1]['mode'] != 'index' else 1,
+                tup[0]
+            )
+        )
+        for path, config in sorted_elements:
             console.print(f'Section "{path}"')
+            match config['mode']:
+                case 'section':
+                    pass # self.build_section(path, config)
+                case 'index':
+                    self.build_index(path, config)
 
-            wiki_pages: list = api.query_prefix(path)
-            wiki_pages: dict = api.query_content(pageids=str.join('|', [
+    def build_index(self, path, config):
+        console.print(f'index: {path}')
+        cur_depth = get_depth(path)
+        search_depth = config['index']['depth']
+        wiki_pages = filter(
+            lambda item: (
+                    item['title'] != path and
+                    (get_depth(item['title']) - cur_depth) <= search_depth
+            ),
+            self.api.query_prefix(path),
+        )
+
+        index_tpl = self.env.get_template('index.tpl')
+        index_text = index_tpl.render(
+            pages=wiki_pages,
+            config=config
+        )
+        self.api.edit(title=path, text=index_text)
+        console.print(f'updated: {path}')
+
+    def build_section(self, path, config):
+        wiki_pages: list = list(self.api.query_prefix(path))
+        if len(wiki_pages) > 0:
+            wiki_pages: dict = self.api.query_content(pageids=str.join('|', [
                 f"{wiki_page['pageid']}"
                 for wiki_page in wiki_pages
             ]))
@@ -168,46 +251,54 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
                 wiki_page['title']: wiki_page
                 for wiki_page in wiki_pages.values()
             }
+        else:
+            wiki_pages: dict = {}
 
-            pages = []
-            for row_id in config['row_ids']:
-                row_data = project_rows[row_id]
-                for obj_data in row_data['objects']:
-                    page_name = f"{path}/{obj_data['title']}"
-                    wiki_page = wiki_pages.get(page_name, None)
+        page_rows = []
+        for row_id in config['row_ids']:
+            row_data = self.rows[row_id]
+            row_pages = []
+            for obj_data in row_data['objects']:
+                page_title = check_title(obj_data['title'])
+                page_name = f"{path}/{page_title}"
+                wiki_page = wiki_pages.get(page_name, None)
 
-                    page_tpl = tpl_env.get_template('choice.tpl')
-                    page_text = page_tpl.render(
-                        page_name=page_name,
-                        row=row_data,
-                        obj=obj_data
-                    )
+                page_tpl = self.env.get_template('object.tpl')
+                page_text = page_tpl.render(
+                    page_name=page_name,
+                    row=row_data,
+                    obj=obj_data
+                )
+                page_text = splice_text(
+                    wiki_page,
+                    page_text,
+                    marker=f'SYNC:{obj_data["id"]}'
+                )
 
-                    if wiki_page:
-                        page_text = splice_text(
-                            wiki_page,
-                            page_text,
-                            marker=f'SYNC:{obj_data["id"]}'
-                        )
+                self.api.edit(title=page_name,
+                              text=page_text)
 
-                    api.edit(title=page_name,
-                             text=page_text)
+                console.print(f'updated: {page_name}')
 
-                    console.log(f'updated: {page_name}')
-                    console.log(page_text)
+                row_pages.append({
+                    "name": page_name,
+                    "obj": row_data,
+                })
 
-                    pages.append({
-                        "name": page_name,
-                        "row": obj_data,
-                        "obj": row_data,
-                    })
+            page_rows.append({
+                "row": row_data,
+                "objects": row_pages
+            })
 
-            # Update the index
-            index_tpl = tpl_env.get_template('section.tpl')
-            index_text = index_tpl.render(pages=pages, config=config)
-            api.edit(title=path, text=index_text)
-            console.log(f'updated: {path}')
-            console.log(index_text)
+        # Update the index
+        index_tpl = self.env.get_template('section.tpl')
+        index_text = index_tpl.render(
+            page_rows=page_rows,
+            config=config
+        )
+
+        self.api.edit(title=path, text=index_text)
+        console.print(f'updated: {path}')
 
 
 TOOLS = (
