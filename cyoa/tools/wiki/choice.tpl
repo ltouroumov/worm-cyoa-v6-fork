@@ -1,3 +1,4 @@
+<onlyinclude>
 <div class="choice">
 == [[{{ page_name }}|{{ obj.title }}]] ==
 {% if obj.imageLink -%}
@@ -5,3 +6,4 @@
 {% endif -%}
 {{ obj.text }}
 </div>
+</onlyinclude>
