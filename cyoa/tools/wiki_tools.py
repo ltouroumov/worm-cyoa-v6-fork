@@ -43,9 +43,25 @@ class WikiAPI:
 
         console.log(res.text)
 
-    def query(self, **kwargs):
+    def _query_raw(self, **kwargs):
         query_res = self.session.get(URL_BASE, params={
             "action": "query", "format": "json",
+            **kwargs
+        })
+
+        return query_res.json()
+
+    def query_prefix(self, prefix: str, **kwargs):
+        query_res = self._query_raw(list="prefixsearch", pssearch=prefix, **kwargs)
+        return query_res['query']['prefixsearch']
+
+    def query_content(self, **kwargs):
+        query_res = self._query_raw(prop="revisions", rvslots="*", rvprop="ids|content", **kwargs)
+        return query_res['query']['pages']
+
+    def parse(self, **kwargs):
+        query_res = self.session.get(URL_BASE, params={
+            "action": "parse", "format": "json",
             **kwargs
         })
 
@@ -78,11 +94,18 @@ STRUCTURE = {
     #     "mode": "inline",
     #     "row_ids": ["yk8d", "81zz"],
     # },
-    'Project_V17/Sections/Scenario': {
+    'Project V17/Sections/Scenario': {
         "mode": "subpage",
         "row_ids": ["lht3"]
     },
 }
+
+
+def content_matches(new_text, wiki_page):
+    if not wiki_page:
+        return False
+
+    return new_text == wiki_page['revisions'][0]['slots']['main']['*']
 
 
 class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
@@ -105,24 +128,36 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
         api = WikiAPI()
         api.login(args.bot_username, args.bot_password)
 
-        api.query(list="prefixsearch",
-                  pssearch="Project_V17")
-
         for path, config in STRUCTURE.items():
             console.print(f'Section "{path}"')
+
+            wiki_pages: list = api.query_prefix(path)
+            wiki_pages: dict = api.query_content(pageids=str.join('|', [
+                f"{wiki_page['pageid']}"
+                for wiki_page in wiki_pages
+            ]))
+            wiki_pages: dict = {
+                wiki_page['title']: wiki_page
+                for wiki_page in wiki_pages.values()
+            }
 
             pages = []
             for row_id in config['row_ids']:
                 row_data = project_rows[row_id]
-                console.print(f'Row "{row_data["title"]}"')
                 for obj_data in row_data['objects']:
-                    console.print(f'Object: {obj_data["title"]}')
                     page_name = f"{path}/{obj_data['title']}"
+                    wiki_page = wiki_pages.get(page_name, None)
+
                     page_text = obj_data['text']
                     if image := obj_data.get('imageLink', None):
                         page_text = f"{image}\n{page_text}"
 
-                    api.edit(title=page_name, text=page_text)
+                    if not content_matches(page_text, wiki_page):
+                        console.print(f'updated: {page_name}')
+                        api.edit(title=page_name, text=page_text)
+                    else:
+                        console.print(f'skipped: {page_name}')
+
                     pages.append({"name": page_name, "title": obj_data['title']})
 
             # Update the index
