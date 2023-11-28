@@ -79,6 +79,7 @@ def remove_rows_from_project(project, row_ids):
 
         del project['rows'][row_idx]
 
+
 def copy_objects_from_row(row_data, object_ids: list = None, object_ranges: list = None, object_all: bool = False):
     if object_all:
         return copy.deepcopy(row_data['objects'])
@@ -144,7 +145,7 @@ def update_row_data(project, row_id: str, lens):
             lambda acc, lens: lens(acc),
             lens,
             row_data
-        ) 
+        )
     else:
         row_data = lens(row_data)
 
@@ -165,7 +166,7 @@ def update_obj_data(project, row_id: str, obj_id: str, lens):
             lambda acc, lens: lens(acc),
             lens,
             obj_data
-        ) 
+        )
     else:
         obj_data = lens(obj_data)
 

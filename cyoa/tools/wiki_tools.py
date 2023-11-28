@@ -1,4 +1,7 @@
+import os
 from pathlib import Path
+
+import jinja2
 import requests
 
 from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console
@@ -96,16 +99,35 @@ STRUCTURE = {
     # },
     'Project V17/Sections/Scenario': {
         "mode": "subpage",
+        "section": {"columns": 3},
         "row_ids": ["lht3"]
     },
 }
 
 
-def content_matches(new_text, wiki_page):
-    if not wiki_page:
-        return False
+def get_last_revision(wiki_page):
+    return wiki_page['revisions'][0]['slots']['main']['*']
 
-    return new_text == wiki_page['revisions'][0]['slots']['main']['*']
+
+def splice_text(wiki_page, page_text, marker):
+    wiki_text = get_last_revision(wiki_page)
+
+    marker_start = f'<!-- {marker} -->'
+    marker_end = f'<!-- /{marker} -->'
+    section_start = wiki_text.find(marker_start)
+    section_end = wiki_text.find(marker_end)
+
+    def mark(text):
+        return f"{marker_start}\n{text}\n{marker_end}"
+
+    if section_start < 0 or section_end < 0 or section_end < section_start:
+        # Squash page contents for now
+        return f"{mark(page_text)}"
+    elif section_start == 0:
+        # Splice from the start
+        return f"{mark(page_text)}{wiki_text[section_end+len(marker_end):]}"
+    else:
+        return f"{wiki_text[:section_start]}{mark(page_text)}{wiki_text[section_end+len(marker_end):]}"
 
 
 class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
@@ -120,6 +142,12 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
 
     def run(self, args):
         self._load_project(args.project_file)
+
+        tpl_path = os.path.join(os.path.dirname(__file__), 'wiki')
+        tpl_env = jinja2.Environment(
+            loader=jinja2.FileSystemLoader(tpl_path)
+        )
+
         project_rows = {
             row['id']: row
             for row in self.project['rows']
@@ -148,24 +176,38 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
                     page_name = f"{path}/{obj_data['title']}"
                     wiki_page = wiki_pages.get(page_name, None)
 
-                    page_text = obj_data['text']
-                    if image := obj_data.get('imageLink', None):
-                        page_text = f"{image}\n{page_text}"
+                    page_tpl = tpl_env.get_template('choice.tpl')
+                    page_text = page_tpl.render(
+                        page_name=page_name,
+                        row=row_data,
+                        obj=obj_data
+                    )
 
-                    if not content_matches(page_text, wiki_page):
-                        console.print(f'updated: {page_name}')
-                        api.edit(title=page_name, text=page_text)
-                    else:
-                        console.print(f'skipped: {page_name}')
+                    if wiki_page:
+                        page_text = splice_text(
+                            wiki_page,
+                            page_text,
+                            marker=f'SYNC:{obj_data["id"]}'
+                        )
 
-                    pages.append({"name": page_name, "title": obj_data['title']})
+                    api.edit(title=page_name,
+                             text=page_text)
+
+                    console.log(f'updated: {page_name}')
+                    console.log(page_text)
+
+                    pages.append({
+                        "name": page_name,
+                        "row": obj_data,
+                        "obj": row_data,
+                    })
 
             # Update the index
-            index_text = [
-                f'* [[{subpage["name"]}|{subpage["title"]}]]'
-                for subpage in pages
-            ]
-            api.edit(title=path, text=str.join('\n', index_text))
+            index_tpl = tpl_env.get_template('section.tpl')
+            index_text = index_tpl.render(pages=pages, config=config)
+            api.edit(title=path, text=index_text)
+            console.log(f'updated: {path}')
+            console.log(index_text)
 
 
 TOOLS = (
