@@ -1,9 +1,11 @@
 import os
+from fnmatch import fnmatch
 from pathlib import Path
 from typing import Any
 
 import jinja2
 import requests
+from lenses import lens
 
 from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console
 from cyoa.tools.wiki.config import STRUCTURE
@@ -136,18 +138,30 @@ def splice_text(wiki_page, page_text, marker):
 
 
 def check_title(title: str):
-    return title.replace('/', '\uFF0F')
+    return (
+        title
+        .replace('/', '\uFF0F')
+        .replace('[', '')
+        .replace(']', '')
+    )
 
 
 def get_depth(path: str):
     return len(path.split('/'))
 
+
+def get_index_order(title: str, structure):
+    ORDER_LENS = lens.Get(title, {}).Get('index', {}).Get('order', -1).get()
+    return ORDER_LENS(structure)
+
+
 def last_title_part(title: str):
     slash_idx = title.rfind('/')
     if slash_idx >= 0:
-        return title[slash_idx+1:]
+        return title[slash_idx + 1:]
     else:
         return title
+
 
 class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
     name = 'wiki.update'
@@ -156,12 +170,15 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
     env: jinja2.Environment
     rows: dict[str, Any]
     objects: dict[str, Any]
+    scores: dict[str, Any]
 
     @classmethod
     def setup_parser(cls, parent):
         parser = parent.add_parser(cls.name, help='Format a project file')
         parser.add_argument('--project', dest='project_file', type=Path)
         parser.add_argument('--preview', action='store_true')
+        parser.add_argument('--filter-path', default='*')
+        parser.add_argument('--filter-type', default='section,index')
         parser.add_argument('--bot-username')
         parser.add_argument('--bot-password')
 
@@ -188,10 +205,16 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
             for obj in row['objects']
         }
 
+        self.scores = {
+            score['id']: score
+            for score in self.project['pointTypes']
+        }
+
         self.env.filters['last_title_part'] = last_title_part
         self.env.globals = {
             "rows": self.rows,
             "objects": self.objects,
+            "scores": self.scores,
         }
 
     def run(self, args):
@@ -212,24 +235,33 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
                 tup[0]
             )
         )
+
         for path, config in sorted_elements:
-            console.print(f'Section "{path}"')
+            if not fnmatch(path, args.filter_path):
+                continue
+            if config['mode'] not in args.filter_type:
+                continue
+
             match config['mode']:
                 case 'section':
-                    pass # self.build_section(path, config)
+                    self.build_section(path, config, args)
                 case 'index':
-                    self.build_index(path, config)
+                    self.build_index(path, config, args)
 
-    def build_index(self, path, config):
-        console.print(f'index: {path}')
+    def build_index(self, path, config, args):
+        console.print(f'index: {path} ({config!r})')
         cur_depth = get_depth(path)
         search_depth = config['index']['depth']
         wiki_pages = filter(
-            lambda item: (
-                    item['title'] != path and
-                    (get_depth(item['title']) - cur_depth) <= search_depth
-            ),
+            lambda item: (item['title'] != path and (get_depth(item['title']) - cur_depth) <= search_depth),
             self.api.query_prefix(path),
+        )
+        wiki_pages = sorted(
+            wiki_pages,
+            key=lambda item: (
+                get_index_order(item['title'], STRUCTURE),
+                item['title']
+            )
         )
 
         index_tpl = self.env.get_template('index.tpl')
@@ -237,10 +269,14 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
             pages=wiki_pages,
             config=config
         )
-        self.api.edit(title=path, text=index_text)
-        console.print(f'updated: {path}')
+        if args.preview:
+            console.print(index_text)
+        else:
+            self.api.edit(title=path, text=index_text)
+            console.print(f'updated: {path}')
 
-    def build_section(self, path, config):
+    def build_section(self, path, config, args):
+        print(f'section: {path} ({config!r})')
         wiki_pages: list = list(self.api.query_prefix(path))
         if len(wiki_pages) > 0:
             wiki_pages: dict = self.api.query_content(pageids=str.join('|', [
@@ -275,8 +311,11 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
                     marker=f'SYNC:{obj_data["id"]}'
                 )
 
-                self.api.edit(title=page_name,
-                              text=page_text)
+                if args.preview:
+                    console.print(page_text)
+                else:
+                    self.api.edit(title=page_name,
+                                  text=page_text)
 
                 console.print(f'updated: {page_name}')
 
@@ -297,7 +336,10 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
             config=config
         )
 
-        self.api.edit(title=path, text=index_text)
+        if args.preview:
+            console.print(index_text)
+        else:
+            self.api.edit(title=path, text=index_text)
         console.print(f'updated: {path}')
 
 

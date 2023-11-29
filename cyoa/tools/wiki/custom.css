@@ -42,16 +42,45 @@
   border-radius: 10px;
   padding: 0.5rem;
   max-width: 50rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: start;
 }
 
 .object h2 {
   margin-top: 0;
+  text-align: center;
 }
 
-.object img {
+.object .image {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.object .image img {
+  width: 100%;
   aspect-ratio: 5/3;
   object-fit: cover;
   object-position: top center;
+}
+
+.object .scores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.15rem;
+  margin: 0.25rem 0;
+  font-size: 0.75rem;
+}
+.object .scores .score {
+  min-width: max-content;
+}
+
+.object .text {
+  overflow-x: hidden;
 }
 
 .index-grid {

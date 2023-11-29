@@ -3,17 +3,20 @@
 <div class="object">
 <h2>[[{{ page_name }}|{{ obj.title }}]]</h2>
 {% if obj.imageLink -%}
-<div class="image">
-<htmltag tagname="img" src="{{ obj.imageLink }}" width="100%"/>
-</div>
+<div class="image"><htmltag tagname="img" src="{{ obj.imageLink }}" /></div>
 {% endif -%}
-<div class="text">{{ obj.text }}</div>
+{% include "_scores.tpl" %}
+<div class="text">
+{{ obj.text }}
+</div>
 </div>
 </onlyinclude>
 {% for addon in obj.addons -%}
 <div class="addon">
 <h3>{{ addon.title }}</h3>
-<div class="text">{{ addon.text }}</div>
+<div class="text">
+{{ addon.text }}
+</div>
 </div>
 {% endfor -%}
 </div>
