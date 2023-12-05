@@ -10,7 +10,7 @@
 {%- for required in score.requireds -%}
 {{ show_requirement(required) }}
 {%- endfor -%}
-){%- endif -%}
+){%- endif %}
 </div>
 {% endfor %}
 </div>

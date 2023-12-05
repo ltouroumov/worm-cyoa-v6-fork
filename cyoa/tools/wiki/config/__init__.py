@@ -1,5 +1,7 @@
 from cyoa.tools.wiki.config.defaults import DEFAULT_SECTION
 from cyoa.tools.wiki.config.character import CHARACTER_STRUCTURE
+from cyoa.tools.wiki.config.drawbacks import DRAWBACKS_STRUCTURE
+from cyoa.tools.wiki.config.powers import POWERS_STRUCTURE
 
 STRUCTURE = {
     'Project V17': {
@@ -36,13 +38,15 @@ STRUCTURE = {
         "row_ids": ["gra1"]
     },
     'Project V17/Drawbacks': {
-        "mode": "section",
-        "section": {
-            **DEFAULT_SECTION,
-            "group_by_row": True,
-            "skip_row_title": ["pc8m"]
-        },
-        "index": {"order": 5},
-        "row_ids": ["pc8m", "5icl", "47ds", "xzwv", "h2ju", "qvf1", "gnua", "at5y"]
+        "mode": "combined",
+        "section": DEFAULT_SECTION,
+        "index": {"depth": 1, "order": 5},
+        "row_ids": ["pc8m"]
     },
+    **DRAWBACKS_STRUCTURE,
+    'Project V17/Powers': {
+        "mode": "index",
+        "index": {"depth": 1, "order": 6},
+    },
+    **POWERS_STRUCTURE,
 }

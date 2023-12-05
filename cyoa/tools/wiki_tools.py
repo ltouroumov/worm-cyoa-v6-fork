@@ -1,3 +1,4 @@
+import itertools
 import os
 from fnmatch import fnmatch
 from pathlib import Path
@@ -11,6 +12,15 @@ from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console
 from cyoa.tools.wiki.config import STRUCTURE
 
 URL_BASE = "https://cyoa.ltouroumov.ch/wiki/api.php"
+
+
+def batched(iterable, n):
+    # batched('ABCDEFG', 3) --> ABC DEF G
+    if n < 1:
+        raise ValueError('n must be at least one')
+    it = iter(iterable)
+    while batch := tuple(itertools.islice(it, n)):
+        yield batch
 
 
 class WikiError(BaseException):
@@ -108,6 +118,14 @@ def get_last_revision(wiki_page):
     return wiki_page['revisions'][0]['slots']['main']['*']
 
 
+def matches_last_revision(wiki_page, page_text):
+    if not wiki_page:
+        return False
+
+    wiki_text = get_last_revision(wiki_page)
+    return wiki_text == page_text
+
+
 def maker_marker(marker_start, marker_end):
     def mark(text):
         return f"{marker_start}\n{text}\n{marker_end}"
@@ -143,6 +161,7 @@ def check_title(title: str):
         .replace('/', '\uFF0F')
         .replace('[', '')
         .replace(']', '')
+        .strip()
     )
 
 
@@ -163,6 +182,16 @@ def last_title_part(title: str):
         return title
 
 
+def child_pages_of(pages: list, path: str, search_depth: int = 1):
+    cur_depth = get_depth(path)
+    return filter(
+        lambda item: (item['title'] != path and
+                      str.startswith(item['title'], path) and
+                      (get_depth(item['title']) - cur_depth) <= search_depth),
+        pages,
+    )
+
+
 class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
     name = 'wiki.update'
 
@@ -178,7 +207,7 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
         parser.add_argument('--project', dest='project_file', type=Path)
         parser.add_argument('--preview', action='store_true')
         parser.add_argument('--filter-path', default='*')
-        parser.add_argument('--filter-type', default='section,index')
+        parser.add_argument('--filter-type', default='section,index,combined')
         parser.add_argument('--bot-username')
         parser.add_argument('--bot-password')
 
@@ -211,6 +240,7 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
         }
 
         self.env.filters['last_title_part'] = last_title_part
+        self.env.filters['child_pages_of'] = child_pages_of
         self.env.globals = {
             "rows": self.rows,
             "objects": self.objects,
@@ -231,7 +261,7 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
         sorted_elements = sorted(
             STRUCTURE.items(),
             key=lambda tup: (
-                -1 if tup[1]['mode'] != 'index' else 1,
+                -1 if tup[1]['mode'] == 'section' else 1,
                 tup[0]
             )
         )
@@ -242,20 +272,29 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
             if config['mode'] not in args.filter_type:
                 continue
 
-            match config['mode']:
-                case 'section':
-                    self.build_section(path, config, args)
-                case 'index':
-                    self.build_index(path, config, args)
+            self.build_section(path, config, args)
 
-    def build_index(self, path, config, args):
-        console.print(f'index: {path} ({config!r})')
+    def collect_index(self, path, config):
+        console.print(f'collecting: {path} ...')
         cur_depth = get_depth(path)
         search_depth = config['index']['depth']
-        wiki_pages = filter(
-            lambda item: (item['title'] != path and (get_depth(item['title']) - cur_depth) <= search_depth),
-            self.api.query_prefix(path),
+        # Search for sub-pages in structure
+        wiki_page_names = filter(
+            lambda item: (item != path and
+                          str.startswith(item, path) and
+                          (get_depth(item) - cur_depth) <= search_depth),
+            STRUCTURE.keys(),
         )
+        # Fetch page data (batched)
+        wiki_pages = [
+            self.api.query_content(titles=str.join('|', batch))
+            for batch in batched(wiki_page_names, 20)
+        ]
+        # Flatten batches
+        wiki_pages = itertools.chain.from_iterable(
+            batch.values() for batch in wiki_pages
+        )
+        # Sort pages by order
         wiki_pages = sorted(
             wiki_pages,
             key=lambda item: (
@@ -263,20 +302,10 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
                 item['title']
             )
         )
+        return list(wiki_pages)
 
-        index_tpl = self.env.get_template('index.tpl')
-        index_text = index_tpl.render(
-            pages=wiki_pages,
-            config=config
-        )
-        if args.preview:
-            console.print(index_text)
-        else:
-            self.api.edit(title=path, text=index_text)
-            console.print(f'updated: {path}')
-
-    def build_section(self, path, config, args):
-        print(f'section: {path} ({config!r})')
+    def collect_pages(self, path, config, args):
+        console.print(f'loading: {path} ...')
         wiki_pages: list = list(self.api.query_prefix(path))
         if len(wiki_pages) > 0:
             wiki_pages: dict = self.api.query_content(pageids=str.join('|', [
@@ -289,6 +318,8 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
             }
         else:
             wiki_pages: dict = {}
+
+        console.print(f'pages: {len(wiki_pages.keys())}')
 
         page_rows = []
         for row_id in config['row_ids']:
@@ -313,11 +344,14 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
 
                 if args.preview:
                     console.print(page_text)
-                else:
+
+                if not matches_last_revision(wiki_page, page_text):
                     self.api.edit(title=page_name,
                                   text=page_text)
 
-                console.print(f'updated: {page_name}')
+                    console.print(f'updated: {page_name} (new: {wiki_page is None})')
+                else:
+                    console.print(f'skipped: {page_name}')
 
                 row_pages.append({
                     "name": page_name,
@@ -329,18 +363,34 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
                 "objects": row_pages
             })
 
-        # Update the index
+        return page_rows
+
+    def build_section(self, path, config, args):
+        console.print(f'section: {path}')
+        console.print_json(data=config)
+
+        if config['mode'] in ('index', 'combined'):
+            wiki_pages = self.collect_index(path, config)
+        else:
+            wiki_pages = []
+
+        if config['mode'] in ('section', 'combined'):
+            page_rows = self.collect_pages(path, config, args)
+        else:
+            page_rows = []
+
         index_tpl = self.env.get_template('section.tpl')
         index_text = index_tpl.render(
+            page_path=path,
             page_rows=page_rows,
+            pages=wiki_pages,
             config=config
         )
-
         if args.preview:
             console.print(index_text)
         else:
             self.api.edit(title=path, text=index_text)
-        console.print(f'updated: {path}')
+            console.print(f'updated: {path}')
 
 
 TOOLS = (

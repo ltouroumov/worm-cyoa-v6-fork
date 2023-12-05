@@ -78,6 +78,24 @@
 .object .scores .score {
   min-width: max-content;
 }
+.object .scores .score p {
+  margin: 0;
+}
+
+.object .requirements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.15rem;
+  margin: 0.25rem 0;
+  font-size: 0.75rem;
+}
+.object .requirements .requirement {
+  min-width: max-content;
+}
+.object .requirements .requirement p {
+  margin:0;
+}
 
 .object .text {
   overflow-x: hidden;
@@ -96,6 +114,6 @@
   padding: 0.5rem;
   max-width: 50rem;
 }
-.index-card h2 {
+.index-card h2, .index-card h3 {
   margin: 0;
 }

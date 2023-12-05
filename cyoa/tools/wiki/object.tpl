@@ -6,6 +6,7 @@
 <div class="image"><htmltag tagname="img" src="{{ obj.imageLink }}" /></div>
 {% endif -%}
 {% include "_scores.tpl" %}
+{% include "_requirements.tpl" %}
 <div class="text">
 {{ obj.text }}
 </div>
