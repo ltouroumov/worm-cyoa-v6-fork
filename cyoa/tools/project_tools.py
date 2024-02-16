@@ -1,3 +1,4 @@
+import csv
 import importlib
 from io import TextIOBase
 from pathlib import Path
@@ -8,7 +9,7 @@ from asciidag.graph import Graph as DAG
 from asciidag.node import Node as DAGNode
 
 from rich.table import Table
-from cyoa.graph.lib import Graph
+from cyoa.graph.lib import Graph, Score
 
 from cyoa.tools.lib import *
 from cyoa.tools.patch import PatchBase, PatchContext
@@ -291,6 +292,63 @@ class ProjectPatchTool(ToolBase, ProjectUtilsMixin):
         self._save_project(args.project_file)
 
 
+POWER_ROWS = {
+    'dljy',  # Tier 0 / Lesser Powers
+    'tc7n',  # Tier 1 - Mover
+    'wtn7',  # Tier 1 - Shaker
+    'vs8q',  # Tier 1 - Brute
+    'r2u5',  # Tier 1 - Breaker
+    'ghw4',  # Tier 1 - Master
+    'nwgn',  # Tier 1 - Tinker
+    'z0zb',  # Tier 1 - Blaster
+    '4x5f',  # Tier 1 - Thinker
+    'xu5q',  # Tier 1 - Striker
+    'b7r5',  # Tier 1 - Changer
+    'bbyi',  # Tier 1 - Trump
+    'hyzg',  # Tier 1 - Stranger
+    'jsch',  # Power Copy
+    'zg2f',  # Tier 2 Powers
+    'e018',  # Tier 3 Powers
+    'qldk',  # Power Fusions (Shard)
+    'hd9l',  # Power Upgrades (Shard)
+    'iu9w',  # (Entity) Shard Clusters
+    'p2ty',  # Physical Powers
+    'd4pp',  # Mental and Psychic Powers
+    'tg45',  # Magic and Mystic Powers
+    '1ok7',  # Spiritual and Divine Powers
+    'y3gb',  # Technology and Artifice Powers
+    '3pua',  # Esoteric and Abstract Powers
+    'mbxo',  # Ascension Path
+    'xk24',  # Foundation Powers
+    'umg9',  # Keystone Powers
+    't6in',  # Paragon Powers
+    'rbdo',  # Objects of Power
+}
+
+UPGRADE_ROWS = {
+    'o58j',  # (Master) Custom Endbringer Powers
+    'qd5r',  # (Master) Custom Endbringer Appearance
+    'jmco',  # (Changer) Custom Endbringer Powers
+    'ab0a',  # (Changer) Custom Endbringer Appearance
+    'wy6p',  # Doll Powers
+    'qldk',  # Power Fusions (Shard)
+    'hd9l',  # Power Upgrades (Shard)
+    'a0dv',  # Base Power Upgrades
+    'fqrt',  # Physical Power Upgrades
+    '8lqj',  # Mental and Psychic Power Upgrades
+    'arnl',  # Magic and Mystic Power Upgrades
+    '0ye0',  # Spiritual and Divine Power Upgrades
+    'rw0w',  # Technology and Artifice Power Upgrades
+    'ufcz',  # Esoteric and Abstract Power Upgrades
+    'c369',  # Ascension Upgrades
+    'pmie',  # Eternal Mangekyō Sharingan Abilities
+    '0d43',  # Destiny Upgrades
+    'dj3w',  # Foundation Upgrades
+    'jzns',  # Paragon Upgrades
+    's92s',  # Object of Power Upgrades
+    'a3ql',  # Ascension Fusions
+}
+
 class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
     name = 'project.costs'
 
@@ -314,61 +372,9 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
         MIN_THRESHOLD = args.min_score
         MAX_THRESHOLD = args.max_score
 
-        POWER_ROWS = {
-            'dljy',  # Tier 0 / Lesser Powers
-            'tc7n',  # Tier 1 - Mover
-            'wtn7',  # Tier 1 - Shaker
-            'vs8q',  # Tier 1 - Brute
-            'r2u5',  # Tier 1 - Breaker
-            'ghw4',  # Tier 1 - Master
-            'nwgn',  # Tier 1 - Tinker
-            'z0zb',  # Tier 1 - Blaster
-            '4x5f',  # Tier 1 - Thinker
-            'xu5q',  # Tier 1 - Striker
-            'b7r5',  # Tier 1 - Changer
-            'bbyi',  # Tier 1 - Trump
-            'hyzg',  # Tier 1 - Stranger
-            'jsch',  # Power Copy
-            'zg2f',  # Tier 2 Powers
-            'e018',  # Tier 3 Powers
-            'qldk',  # Power Fusions (Shard)
-            'hd9l',  # Power Upgrades (Shard)
-            'iu9w',  # (Entity) Shard Clusters
-            'p2ty',  # Physical Powers
-            'd4pp',  # Mental and Psychic Powers
-            'tg45',  # Magic and Mystic Powers
-            '1ok7',  # Spiritual and Divine Powers
-            'y3gb',  # Technology and Artifice Powers
-            '3pua',  # Esoteric and Abstract Powers
-            # 'mbxo',  # Ascension Path
-            'xk24',  # Foundation Powers
-            'umg9',  # Keystone Powers
-            # 't6in',  # Paragon Powers
-            'rbdo',  # Objects of Power
-        }
-
-        UPGRADE_ROWS = {
-            'o58j',  # (Master) Custom Endbringer Powers
-            'qd5r',  # (Master) Custom Endbringer Appearance
-            'jmco',  # (Changer) Custom Endbringer Powers
-            'ab0a',  # (Changer) Custom Endbringer Appearance
-            'wy6p',  # Doll Powers
-            'qldk',  # Power Fusions (Shard)
-            'hd9l',  # Power Upgrades (Shard)
-            'a0dv',  # Base Power Upgrades
-            'fqrt',  # Physical Power Upgrades
-            '8lqj',  # Mental and Psychic Power Upgrades
-            'arnl',  # Magic and Mystic Power Upgrades
-            '0ye0',  # Spiritual and Divine Power Upgrades
-            'rw0w',  # Technology and Artifice Power Upgrades
-            'ufcz',  # Esoteric and Abstract Power Upgrades
-            'c369',  # Ascension Upgrades
-            'pmie',  # Eternal Mangekyō Sharingan Abilities
-            '0d43',  # Destiny Upgrades
-            'dj3w',  # Foundation Upgrades
-            'jzns',  # Paragon Upgrades
-            's92s',  # Object of Power Upgrades
-            'a3ql',  # Ascension Fusions
+        EXCLUDE_ROWS = {        
+            'mbxo',  # Ascension Path
+            't6in',  # Paragon Powers
         }
 
         EXCLUDE_POWERS = {
@@ -581,6 +587,90 @@ class ProjectAddonsTool(ToolBase, ProjectUtilsMixin):
                 output.write("\n")
 
 
+class ProjectPowersTool(ToolBase, ProjectUtilsMixin):
+    name = 'project.powers'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser.add_argument('--project', dest='project_file',
+                            type=Path, required=True)
+        parser.add_argument('--output', dest='output_file',
+                            type=Path, default=None)
+
+    def run(self, args):
+        from cyoa.graph.lib import (
+            build_graph, Condition, 
+            AndCondition, OrCondition, 
+            RequiredCondition, IncompatibleCondition
+        )
+        
+        self._load_project(args.project_file)
+        graph = build_graph(self.project)
+
+        if args.output_file:
+            output: TextIOBase = open(args.output_file, mode='w+')
+        else:
+            output: TextIOBase = sys.stdout
+        
+        csv_output = csv.DictWriter(output, fieldnames=['row_title', 'obj_title', 'obj_cost', 'obj_reqs'])
+        csv_output.writeheader()
+
+        def get_requirements(reqs: Optional[Condition], root: bool):
+            match reqs:
+                case AndCondition(terms) if root:
+                    return [
+                        req
+                        for term in terms
+                        for req in get_requirements(term, root=False)
+                    ]
+                case OrCondition(terms) if root:
+                    return [
+                        req
+                        for term in terms
+                        for req in get_requirements(term, root=False)
+                    ]
+                case RequiredCondition(object_id):
+                    obj_data = graph.objects[object_id]
+                    return [f"Required: {obj_data.title}"]
+                case IncompatibleCondition(object_id):
+                    obj_data = graph.objects[object_id]
+                    return [f"Incompatible: {obj_data.title}"]
+                case _:
+                    return []
+
+        def get_score(score: Score):
+            point_type = graph.point_types[score.points_id]
+            return f"{score.value} {point_type.suffix}"
+
+        for row_data in self.project['rows']:
+            if row_data['id'] not in POWER_ROWS:
+                continue
+
+            for obj_data in row_data['objects']:
+                obj_meta = graph.objects[obj_data['id']]
+
+                if obj_meta.requirements:
+                    obj_reqs = str.join('; ', [
+                        f"{req}"
+                        for req in get_requirements(obj_meta.requirements, root=True)
+                    ])
+                else:
+                    obj_reqs = 'N/A'
+                
+                obj_cost = str.join('| ', [
+                    get_score(score)
+                    for score in obj_meta.scores
+                ])
+
+                csv_output.writerow({
+                    'row_title': row_data['title'],
+                    'obj_title': obj_data['title'],
+                    'obj_cost': obj_cost,
+                    'obj_reqs': obj_reqs,
+                })
+
+
 TOOLS = (
     ProjectFormatTool,
     ProjectPointsTool,
@@ -588,4 +678,5 @@ TOOLS = (
     ProjectPatchTool,
     ProjectCostsTool,
     ProjectAddonsTool,
+    ProjectPowersTool,
 )
