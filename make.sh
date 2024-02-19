@@ -54,4 +54,4 @@ python3 -m cyoa.tools.client project.patch --project $PROJECT \
 python3 -m cyoa.tools.client build --input $PROJECT --output $BUILD
 
 # Generate the list of powers
-python3 -m cyoa.tools.client project.powers --input $PROJECT --output powers-$VERSION.csv
+python3 -m cyoa.tools.client project.powers --project $PROJECT --output powers-$VERSION.csv
