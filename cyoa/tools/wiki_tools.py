@@ -1,5 +1,7 @@
 import itertools
 import os
+from concurrent.futures import as_completed
+from concurrent.futures.thread import ThreadPoolExecutor
 from fnmatch import fnmatch
 from pathlib import Path
 from typing import Any
@@ -7,6 +9,7 @@ from typing import Any
 import jinja2
 import requests
 from lenses import lens
+from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, TimeRemainingColumn, MofNCompleteColumn
 
 from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console
 from cyoa.tools.wiki.config import STRUCTURE
@@ -60,6 +63,7 @@ class WikiAPI:
 
         if res['login']['result'] != 'Success':
             console.log(res)
+            raise Exception('Failed to login')
 
     def _query_raw(self, **kwargs):
         query_res = self.session.get(URL_BASE, params={
@@ -126,7 +130,7 @@ def matches_last_revision(wiki_page, page_text):
     return wiki_text == page_text
 
 
-def maker_marker(marker_start, marker_end):
+def make_marker(marker_start, marker_end):
     def mark(text):
         return f"{marker_start}\n{text}\n{marker_end}"
 
@@ -136,7 +140,7 @@ def maker_marker(marker_start, marker_end):
 def splice_text(wiki_page, page_text, marker):
     marker_start = f'<!-- {marker} -->'
     marker_end = f'<!-- /{marker} -->'
-    mark = maker_marker(marker_start, marker_end)
+    mark = make_marker(marker_start, marker_end)
 
     if not wiki_page:
         return mark(page_text)
@@ -165,6 +169,14 @@ def check_title(title: str):
     )
 
 
+def remove_indent(text: str) -> str:
+    lines = text.split('\n')
+    return str.join('\n', (
+        str.lstrip(line)
+        for line in lines
+    ))
+
+
 def get_depth(path: str):
     return len(path.split('/'))
 
@@ -184,12 +196,12 @@ def last_title_part(title: str):
 
 def child_pages_of(pages: list, path: str, search_depth: int = 1):
     cur_depth = get_depth(path)
-    return filter(
+    return list(filter(
         lambda item: (item['title'] != path and
                       str.startswith(item['title'], path) and
                       (get_depth(item['title']) - cur_depth) <= search_depth),
         pages,
-    )
+    ))
 
 
 class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
@@ -220,7 +232,8 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
 
         tpl_path = os.path.join(os.path.dirname(__file__), 'wiki')
         self.env = jinja2.Environment(
-            loader=jinja2.FileSystemLoader(tpl_path)
+            loader=jinja2.FileSystemLoader(tpl_path),
+            undefined=jinja2.ChainableUndefined
         )
 
         self.rows = {
@@ -258,24 +271,40 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
 
             console.print('Updated: CSS')
 
-        sorted_elements = sorted(
-            STRUCTURE.items(),
+        sorted_elements = list(sorted(
+            filter(
+                lambda tup: (
+                    fnmatch(tup[0], args.filter_path) and
+                    tup[1]['mode'] in args.filter_type
+                ),
+                STRUCTURE.items()
+            ),
             key=lambda tup: (
                 -1 if tup[1]['mode'] == 'section' else 1,
                 tup[0]
             )
-        )
+        ))
 
-        for path, config in sorted_elements:
-            if not fnmatch(path, args.filter_path):
-                continue
-            if config['mode'] not in args.filter_type:
-                continue
+        columns = [
+            TextColumn("[progress.description]{task.description}"),
+            BarColumn(),
+            MofNCompleteColumn(),
+            TimeRemainingColumn(),
+        ]
+        with (Progress(*columns) as p,
+              ThreadPoolExecutor(max_workers=8) as ex):
+            _main = p.add_task("Sections", total=len(sorted_elements))
 
-            self.build_section(path, config, args)
+            futures = [
+                ex.submit(self.build_section, path, config, args, p)
+                for path, config in sorted_elements
+            ]
+            for _fut in as_completed(futures):
+                _fut.result()
+                p.advance(_main)
 
-    def collect_index(self, path, config):
-        console.print(f'collecting: {path} ...')
+    def collect_index(self, path, config, p):
+        # p.console.print(f'collecting: {path} ...')
         cur_depth = get_depth(path)
         search_depth = config['index']['depth']
         # Search for sub-pages in structure
@@ -304,8 +333,8 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
         )
         return list(wiki_pages)
 
-    def collect_pages(self, path, config, args):
-        console.print(f'loading: {path} ...')
+    def collect_pages(self, path, config, args, p):
+        # p.console.print(f'loading: {path} ...')
         wiki_pages: list = list(self.api.query_prefix(path))
         if len(wiki_pages) > 0:
             wiki_pages: dict = self.api.query_content(pageids=str.join('|', [
@@ -319,23 +348,32 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
         else:
             wiki_pages: dict = {}
 
-        console.print(f'pages: {len(wiki_pages.keys())}')
+        # p.console.print(f'pages: {len(wiki_pages.keys())}')
 
+        _rows = p.add_task(
+            f'Section {path}',
+            total=len(config['row_ids'])
+        )
         page_rows = []
         for row_id in config['row_ids']:
             row_data = self.rows[row_id]
             row_pages = []
+            skipped_count = 0
+            _objects = p.add_task(
+                f'Row {row_data["title"]}',
+                total=len(row_data['objects'])
+            )
             for obj_data in row_data['objects']:
                 page_title = check_title(obj_data['title'])
                 page_name = f"{path}/{page_title}"
                 wiki_page = wiki_pages.get(page_name, None)
 
                 page_tpl = self.env.get_template('object.tpl')
-                page_text = page_tpl.render(
+                page_text = remove_indent(page_tpl.render(
                     page_name=page_name,
                     row=row_data,
                     obj=obj_data
-                )
+                ))
                 page_text = splice_text(
                     wiki_page,
                     page_text,
@@ -349,48 +387,54 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
                     self.api.edit(title=page_name,
                                   text=page_text)
 
-                    console.print(f'updated: {page_name} (new: {wiki_page is None})')
+                    p.console.print(f'updated: {page_name} (new: {wiki_page is None})')
                 else:
-                    console.print(f'skipped: {page_name}')
+                    skipped_count += 1
 
                 row_pages.append({
                     "name": page_name,
                     "obj": row_data,
                 })
+                p.advance(_objects)
 
+            # p.console.print(f'skipped: {skipped_count}')
+            p.remove_task(_objects)
             page_rows.append({
                 "row": row_data,
                 "objects": row_pages
             })
 
+            p.advance(_rows)
+
+        p.remove_task(_rows)
         return page_rows
 
-    def build_section(self, path, config, args):
-        console.print(f'section: {path}')
-        console.print_json(data=config)
+    def build_section(self, path, config, args, p):
+        # p.console.print(f'section: {path}')
+        # console.print_json(data=config)
 
         if config['mode'] in ('index', 'combined'):
-            wiki_pages = self.collect_index(path, config)
+            wiki_pages = self.collect_index(path, config, p)
         else:
             wiki_pages = []
 
         if config['mode'] in ('section', 'combined'):
-            page_rows = self.collect_pages(path, config, args)
+            page_rows = self.collect_pages(path, config, args, p)
         else:
             page_rows = []
 
         index_tpl = self.env.get_template('section.tpl')
-        index_text = index_tpl.render(
+        index_text = remove_indent(index_tpl.render(
             page_path=path,
             page_rows=page_rows,
             pages=wiki_pages,
             config=config
-        )
+        ))
         if args.preview:
             console.print(index_text)
         else:
             self.api.edit(title=path, text=index_text)
-            console.print(f'updated: {path}')
+            p.console.print(f'updated: {path}')
 
 
 TOOLS = (

@@ -1,9 +1,9 @@
 {%- macro show_requirement(req) -%}
 {%- if req.type =='id' -%}
-{{ objects[req.reqId].title }}
+{{ objects[req.reqId].title | d('Unknown') }}
 {%- elif req.type == 'or' -%}
 {%- for orReq in req.orRequired -%}
-{{ objects[orReq.req].title }},
+{{ objects[orReq.req].title | d('Unknown') }},
 {%- endfor -%}
 {%- endif -%}
 {%- endmacro -%}
