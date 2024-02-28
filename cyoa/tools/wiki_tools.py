@@ -1,7 +1,9 @@
 import itertools
+import operator
 import os
 from concurrent.futures import as_completed
 from concurrent.futures.thread import ThreadPoolExecutor
+from difflib import context_diff
 from fnmatch import fnmatch
 from pathlib import Path
 from typing import Any
@@ -271,36 +273,45 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
 
             console.print('Updated: CSS')
 
-        sorted_elements = list(sorted(
-            filter(
-                lambda tup: (
-                    fnmatch(tup[0], args.filter_path) and
-                    tup[1]['mode'] in args.filter_type
-                ),
-                STRUCTURE.items()
+        structure_items = filter(
+            lambda tup: (
+                fnmatch(tup[0], args.filter_path) and
+                tup[1]['mode'] in args.filter_type
             ),
-            key=lambda tup: (
-                -1 if tup[1]['mode'] == 'section' else 1,
-                tup[0]
-            )
-        ))
+            STRUCTURE.items()
+        )
+
+        leaf_nodes = []
+        index_nodes = []
+        for path, node in structure_items:
+            if node['mode'] == 'section':
+                leaf_nodes.append((path, node))
+            else:
+                index_nodes.append((path, node))
 
         columns = [
             TextColumn("[progress.description]{task.description}"),
             BarColumn(),
             MofNCompleteColumn(),
             TimeRemainingColumn(),
+            TimeRemainingColumn(),
         ]
         with (Progress(*columns) as p,
-              ThreadPoolExecutor(max_workers=8) as ex):
-            _main = p.add_task("Sections", total=len(sorted_elements))
+              ThreadPoolExecutor() as ex):
+            total_nodes = len(leaf_nodes) + len(index_nodes)
+            _main = p.add_task("Sections", total=total_nodes)
 
-            futures = [
+            leaf_futures = [
                 ex.submit(self.build_section, path, config, args, p)
-                for path, config in sorted_elements
+                for path, config in leaf_nodes
             ]
-            for _fut in as_completed(futures):
+            for _fut in as_completed(leaf_futures):
                 _fut.result()
+                p.advance(_main)
+
+            index_ordered = reversed(sorted(index_nodes, key=operator.itemgetter(0)))
+            for path, config in index_ordered:
+                self.build_section(path, config, args, p)
                 p.advance(_main)
 
     def collect_index(self, path, config, p):
@@ -350,19 +361,15 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
 
         # p.console.print(f'pages: {len(wiki_pages.keys())}')
 
-        _rows = p.add_task(
-            f'Section {path}',
-            total=len(config['row_ids'])
+        _objects = p.add_task(
+            f'Section {last_title_part(path)}',
+            total=sum((len(self.rows[row_id]['objects']) for row_id in config['row_ids']))
         )
         page_rows = []
         for row_id in config['row_ids']:
             row_data = self.rows[row_id]
             row_pages = []
             skipped_count = 0
-            _objects = p.add_task(
-                f'Row {row_data["title"]}',
-                total=len(row_data['objects'])
-            )
             for obj_data in row_data['objects']:
                 page_title = check_title(obj_data['title'])
                 page_name = f"{path}/{page_title}"
@@ -387,7 +394,7 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
                     self.api.edit(title=page_name,
                                   text=page_text)
 
-                    p.console.print(f'updated: {page_name} (new: {wiki_page is None})')
+                    p.console.print(f'updated page: {page_name} (new: {wiki_page is None})')
                 else:
                     skipped_count += 1
 
@@ -398,15 +405,12 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
                 p.advance(_objects)
 
             # p.console.print(f'skipped: {skipped_count}')
-            p.remove_task(_objects)
             page_rows.append({
                 "row": row_data,
                 "objects": row_pages
             })
 
-            p.advance(_rows)
-
-        p.remove_task(_rows)
+        p.remove_task(_objects)
         return page_rows
 
     def build_section(self, path, config, args, p):
@@ -423,6 +427,12 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
         else:
             page_rows = []
 
+        _pages = self.api.query_content(titles=path)
+        if len(_pages) > 0:
+            index_wiki = list(_pages.values())[0]
+        else:
+            index_wiki = None
+
         index_tpl = self.env.get_template('section.tpl')
         index_text = remove_indent(index_tpl.render(
             page_path=path,
@@ -430,11 +440,15 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
             pages=wiki_pages,
             config=config
         ))
+
         if args.preview:
             console.print(index_text)
-        else:
-            self.api.edit(title=path, text=index_text)
-            p.console.print(f'updated: {path}')
+
+        if not matches_last_revision(index_wiki, index_text):
+            self.api.edit(title=path,
+                          text=index_text)
+
+            p.console.print(f'updated index: {path}')
 
 
 TOOLS = (
