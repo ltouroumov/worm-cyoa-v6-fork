@@ -40,10 +40,10 @@ Tier 0 / Lesser Powers,Thinker/Mover,1 SP,N/A
 Tier 0 / Lesser Powers,Stranger (Strange Blood),1 SP,N/A
 Tier 0 / Lesser Powers,Brute (Genetic Template),1 SP,N/A
 Tier 0 / Lesser Powers,Trump (Unspent),1 SP,N/A
-Tier 0 / Lesser Powers,Thinker (Clarity),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker (Understanding),1 SP,N/A
 Tier 0 / Lesser Powers,Brute (Water Breathing),1 SP,N/A
 Tier 0 / Lesser Powers,Striker (John 2:1-11) ,1 SP,N/A
+Tier 0 / Lesser Powers,Thinker (Clarity),1 SP,N/A
 Tier 1 - Mover,(Mover) Fast as a Hedgehog,2 SP,N/A
 Tier 1 - Mover,(Mover) Flying like a Chicken,2 SP,N/A
 Tier 1 - Mover,(Mover) Rail,2 SP,N/A
@@ -302,7 +302,6 @@ Tier 1 - Tinker,(Tinker) Gravity,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Nautical,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Aero,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Thermal,7 SP| 2 SP,N/A
-Tier 1 - Tinker,(Tinker) Heterodyning,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Armor,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Style,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Evolutionary,7 SP| 2 SP,N/A
@@ -420,7 +419,6 @@ Tier 1 - Thinker,(Thinker) Scrying Orb,4 SP,N/A
 Tier 1 - Thinker,(Thinker) Multibrain,4 SP,N/A
 Tier 1 - Thinker,(Thinker) One or the other,5 SP,N/A
 Tier 1 - Thinker,(Thinker/Brute) Stolen Muscles,5 SP,N/A
-Tier 1 - Thinker,(Thinker) Tracker,5 SP,N/A
 Tier 1 - Thinker,(Thinker) Mental Probe,5 SP,N/A
 Tier 1 - Thinker,(Thinker) Eagle Vision,5 SP,N/A
 Tier 1 - Thinker,(Thinker) All Part of the Plan,5 SP,N/A
@@ -431,6 +429,7 @@ Tier 1 - Thinker,(Thinker) Ghostmates,6 SP,N/A
 Tier 1 - Thinker,(Thinker) Sightless Predictions ,6 SP,N/A
 Tier 1 - Thinker,(Thinker/Master) Chef Supreme ,6 SP,N/A
 Tier 1 - Thinker,(Thinker) Precognitive Combat,6 SP,N/A
+Tier 1 - Thinker,(Thinker) Tracker,7 SP,N/A
 Tier 1 - Thinker,(Thinker) Schrodinger,7 SP,N/A
 Tier 1 - Thinker,(Thinker/Trump) Networking,7 SP,N/A
 Tier 1 - Thinker,(Thinker) Landlord,7 SP,N/A
@@ -657,6 +656,7 @@ Power Copy,Bitch,4 SP,N/A
 Power Copy,Blasto,3 SP| 1 SP,N/A
 Power Copy,Blindside ,5 SP,N/A
 Power Copy,Bonesaw,12 SP| 6 SP,N/A
+Power Copy,Canary,8 SP,N/A
 Power Copy,Cherish,9 SP,N/A
 Power Copy,Chevalier,5 SP,N/A
 Power Copy,Circus,2 SP,N/A
@@ -665,7 +665,6 @@ Power Copy,Coil,4 SP,N/A
 Power Copy,Crawler,15 SP,N/A
 Power Copy,Crusader,5 SP,N/A
 Power Copy,Cuff,3 SP,N/A
-Power Copy,Canary,8 SP,N/A
 Power Copy,Damsel of Distress ,10 SP,N/A
 Power Copy,Dauntless,5 SP,N/A
 Power Copy,Entourage,5 SP,N/A
@@ -676,11 +675,11 @@ Power Copy,Fog,7 SP,N/A
 Power Copy,Flint,15 SP,N/A
 Power Copy,Gallant,1 SP,N/A
 Power Copy,Gavel,10 SP,N/A
+Power Copy,Genesis,13 SP,N/A
 Power Copy,Glory Girl,4 SP,N/A
 Power Copy,Golem,3 SP,N/A
-Power Copy,Grue (Second Trigger),4 SP,N/A
-Power Copy,Genesis,13 SP,N/A
 Power Copy,Grey Boy,15 SP,N/A
+Power Copy,Grue (Second Trigger),4 SP,N/A
 Power Copy,Hatchetface,12 SP,N/A
 Power Copy,Hookwolf ,7 SP,N/A
 Power Copy,Imp,6 SP,N/A
@@ -688,20 +687,20 @@ Power Copy,Kaiser,6 SP,N/A
 Power Copy,Kid Cassandra,11 SP,N/A
 Power Copy,Kid Win,5 SP| 2 SP,N/A
 Power Copy,King,7 SP,N/A
-Power Copy,Labyrinth,12 SP,N/A
 Power Copy,Lab Rat,9 SP| 4 SP,N/A
+Power Copy,Labyrinth,12 SP,N/A
 Power Copy,Lung,9 SP,N/A
 Power Copy,Mama Mathers,12 SP,N/A
 Power Copy,Marquis,5 SP,N/A
 Power Copy,Masamune,8 SP| 4 SP,N/A
 Power Copy,March,10 SP,N/A
 Power Copy,Miss Militia,4 SP,N/A
-Power Copy,Myrddin ,9 SP,N/A
 Power Copy,Moord Nag,13 SP,N/A
-Power Copy,Nilbog,14 SP,N/A
+Power Copy,Myrddin ,9 SP,N/A
 Power Copy,Newter,4 SP,N/A
 Power Copy,Nice Guy,12 SP,N/A
 Power Copy,Night,9 SP,N/A
+Power Copy,Nilbog,14 SP,N/A
 Power Copy,Null,12 SP,N/A
 Power Copy,One,8 SP,N/A
 Power Copy,Othala,8 SP,N/A
@@ -873,12 +872,13 @@ Tier 3 Powers,(Breaker/Shaker) Reality Sculptor,40 SP,N/A
 Tier 3 Powers,(Thinker) Path to Victory ,40 SP,N/A
 Tier 3 Powers,(Tinker) Clarketech,35 SP,N/A
 Tier 3 Powers,(Shaker/Breaker) Sleeper,35 SP,N/A
-Power Upgrades (Shard),Mr Worldwide,30 SP,N/A
+Power Upgrades (Shard),Mr Worldwide,30 SP,Required: Shardless; Required: Queen
 Power Upgrades (Shard),Across The Multiverse ,10 SP,Required: Mr Worldwide
 Power Upgrades (Shard),A Master’s Servant,15 SP,N/A
 Power Upgrades (Shard),Minions,10 SP,N/A
 Power Upgrades (Shard),I Hope It Haunts You,5 SP,N/A
 Power Upgrades (Shard),Hecatoncheires,10 SP,N/A
+Power Upgrades (Shard), Heterodyning,7 SP,N/A
 Power Upgrades (Shard),Singularity ,7 SP| 2 SP,Required: (Tinker/Master) Machine World
 Power Upgrades (Shard),Mass Tinkerer,7 SP| 2 SP,Required: (Tinker) Sharing
 Power Upgrades (Shard),Improved Friends,13 SP,Required: (Master) Friendbringers
@@ -919,7 +919,7 @@ Power Upgrades (Shard),Exotic Creation,10 SP,Required: (Shaker) Baryonic Creatio
 Power Upgrades (Shard),Multiversal Warping,4 SP,Required: (Shaker/Mover) Dimensional Warping
 Power Upgrades (Shard),Crystal Tinker,5 SP| 2 SP,Required: (Trump) Power Crystallization
 Power Upgrades (Shard),Memetic Me,17 SP,Required: (Trump/Thinker) Who Do You Think I Am?
-Power Upgrades (Shard),"Magnetics, Daughter ! This is how they work",5 SP,"Required: (Shaker/Blaster) Magnets, Son! How do they work?"
+Power Upgrades (Shard),"Magnetics, Daughter! This is how they work!",5 SP,"Required: (Shaker/Blaster) Magnets, Son! How do they work?"
 Power Upgrades (Shard),Primordial Earth,11 SP,Required: (Shaker/Brute) Gaia
 Power Upgrades (Shard),Mother Earth,10 SP,Required: (Shaker/Brute) Gaia
 Power Upgrades (Shard),Phoenix Star,15 SP,Required: (Trump) Fading Star
@@ -934,7 +934,7 @@ Power Upgrades (Shard),Comprehension ,5 SP,Required: (Thinker) Omniscient; Requi
 Power Upgrades (Shard),The Old,10 SP,Required: (Thinker) Precognitive Combat
 Power Upgrades (Shard),Sharing is Caring,10 SP,Required: (Blaster/Master) Skill Thief; Required: Victor; Required: (Thinker/Brute) Stolen Muscles
 Power Upgrades (Shard),Increase Advisors,5 SP,Required: (Thinker) Simulacrum Advisor
-Power Upgrades (Shard),Copenhagen Interpretation,6 SP,Required: Coil; Required: Thomas Calvert; Required: (Thinker) Schrodinger
+Power Upgrades (Shard),Copenhagen Interpretation,6 SP,Required: Coil; Required: Thomas Calvert; Required: (Thinker) Schrodinger; Required: (Thinker) Vision
 Power Upgrades (Shard),Coiling Snakes,10 SP,Required: Copenhagen Interpretation
 Power Upgrades (Shard),Monkey Paw ,3 SP,Required: (Stranger/Thinker) Discount Genie
 Power Upgrades (Shard),Nano-Fab,5 SP| 2 SP,Required: (Tinker/Master) Nanobots
@@ -1247,6 +1247,7 @@ Mental and Psychic Powers,The Hand Behind The Curtain,15 SP,N/A
 Mental and Psychic Powers,Code Geass (Code Geass),10 SP,N/A
 Mental and Psychic Powers,Legendary Skill (Type-Moon),15 SP,N/A
 Mental and Psychic Powers,Natural-Born Genius (Type-Moon),15 SP,N/A
+Mental and Psychic Powers,Sha Naqba Imuru (Type-Moon),35 SP| 20 SP,N/A
 Mental and Psychic Powers,Ultimate Talent (Danganronpa),10 SP,N/A
 Mental and Psychic Powers,Psionics (D&D),10 SP,N/A
 Mental and Psychic Powers,Esper (Raildex),10 SP,N/A
@@ -1263,12 +1264,12 @@ Mental and Psychic Powers,Beta-Class Psyker (40k),20 SP| 0 SP,Required: Psyker (
 Mental and Psychic Powers,Alpha-Class Psyker (40k),35 SP| 15 SP,Required: Psyker (40k); Incompatible: Epsilon-Class Psyker (40k); Incompatible: Delta-Class Psyker (40k); Incompatible: Gamma-Class Psyker (40k); Incompatible: Beta-Class Psyker (40k); Incompatible: Alpha Plus-Class Psyker (40k)
 Mental and Psychic Powers,Alpha Plus-Class Psyker (40k),50 SP| 25 SP,Required: Psyker (40k); Incompatible: Epsilon-Class Psyker (40k); Incompatible: Delta-Class Psyker (40k); Incompatible: Gamma-Class Psyker (40k); Incompatible: Beta-Class Psyker (40k); Incompatible: Alpha-Class Psyker (40k)
 Mental and Psychic Powers,Ephrael Stern (40k),5 SP| 0 SP,Required: Psyker (40k)
-Mental and Psychic Powers,WAAAGH Energy (40k),15 SP,N/A
+Mental and Psychic Powers,WAAAGH! Energy (40k),15 SP,N/A
+Mental and Psychic Powers,Blank (40k),5 SP,N/A
 Mental and Psychic Powers,Hyperkinetic (Alphas),8 SP,N/A
 Mental and Psychic Powers,Unseen Hands ,30 SP,N/A
 Mental and Psychic Powers,Diagram (Cosmere),6 SP,N/A
 Mental and Psychic Powers,Menticide (I'm Sorry For Being Born In This World),6 SP,N/A
-Mental and Psychic Powers,Sha Naqba Imuru (Type-Moon),35 SP| 20 SP,N/A
 Mental and Psychic Powers,"I Do Not Judge, I Merely Accept",10 SP,N/A
 Mental and Psychic Powers,Zero (Tower of God),10 SP,N/A
 Mental and Psychic Powers,Thought Cabinet (Disco Elysium),8 SP| 0 SP,N/A
@@ -1282,7 +1283,7 @@ Mental and Psychic Powers,The Principle Of All Things (Jigokuraku),8 SP,N/A
 Mental and Psychic Powers,Fighting Instinct,5 SP,N/A
 Mental and Psychic Powers,Maturity of the Hokage (Naruto),8 SP| 4 SP,N/A
 Mental and Psychic Powers,Kid-At-Heart,20 SP,N/A
-Mental and Psychic Powers,Idol (Oshi No Ko),5 SP,N/A
+Mental and Psychic Powers,Idol (Oshi no Ko),5 SP,N/A
 Mental and Psychic Powers,Lie Eater,10 SP,N/A
 Mental and Psychic Powers,Telepathy,5 SP,N/A
 Mental and Psychic Powers,Mind's Eye,5 SP,N/A
@@ -1291,8 +1292,7 @@ Mental and Psychic Powers,Autobattler,10 SP,N/A
 Mental and Psychic Powers,"Villainess? - No, I'm Totally The Heroine! (Villain Initialization)",20 SP,N/A
 Mental and Psychic Powers,Archive ,8 SP,N/A
 Mental and Psychic Powers,Thousand Image Defense (Record of Ragnarok),10 SP,N/A
-Mental and Psychic Powers,Blank (40k),5 SP,N/A
-Mental and Psychic Powers,Disastrous Life(The Disastrous Life of Saiki K),60 SP,N/A
+Mental and Psychic Powers,Disastrous Life (The Disastrous Life of Saiki K),60 SP,N/A
 Mental and Psychic Powers,Normality Restoration (Madness Combat),15 SP,N/A
 Mental and Psychic Powers,The Silence (Doctor Who),30 SP,N/A
 Mental and Psychic Powers,The Best Of Both Worlds,30 SP,N/A
@@ -1538,7 +1538,7 @@ Technology and Artifice Powers,Inspired Inventor (Worm CYOA V1),60 SP,N/A
 Technology and Artifice Powers,Earth Caste (40k),15 SP,N/A
 Technology and Artifice Powers,Adeptus Mechanicus (40k),15 SP| 0 SP,N/A
 Technology and Artifice Powers,Cryptek (40k),35 SP,N/A
-Technology and Artifice Powers,Ork Mekboy (40k),10 SP,Required: WAAAGH Energy (40k)
+Technology and Artifice Powers,Ork Mekboy (40k),10 SP,Required: WAAAGH! Energy (40k)
 Technology and Artifice Powers,Asuryani (40k),15 SP,Required: Alpha-Class Psyker (40k); Required: Alpha Plus-Class Psyker (40k)
 Technology and Artifice Powers,Jokaero Savant (40k),15 SP,N/A
 Technology and Artifice Powers,Schnee (RWBY),10 SP,N/A
@@ -1724,10 +1724,10 @@ Esoteric and Abstract Powers,Battle Aura (Mushoku Tensei),12 SP,N/A
 Esoteric and Abstract Powers,Voice of the World (Tensura),10 SP| 0 SP,N/A
 Esoteric and Abstract Powers,True Dragon (Tensura),60 SP,N/A
 Esoteric and Abstract Powers,Degenerate (Tensura),15 SP,N/A
-Esoteric and Abstract Powers,Unique Skill: Mystic Aura (Tensura),15 SP,Required: Voice of the World (Tensura)
+Esoteric and Abstract Powers,Unique Skill: Mystic Aura,15 SP,Required: Voice of the World (Tensura)
 Esoteric and Abstract Powers,Unique Skill: Milim Eye (Tensura),10 SP,Required: Voice of the World (Tensura)
-Esoteric and Abstract Powers,Unique Skill: Pact of God (Tensura),15 SP,Required: Voice of the World (Tensura)
-Esoteric and Abstract Powers,Ultimate Skill Hecate: Lord of Magic (Tensura),30 SP,Required: Voice of the World (Tensura)
+Esoteric and Abstract Powers,Unique Skill: Pact of God ,15 SP,Required: Voice of the World (Tensura)
+Esoteric and Abstract Powers,Ultimate Skill Hecate: Lord of Magic,30 SP,Required: Voice of the World (Tensura)
 Esoteric and Abstract Powers,Ultimate Skill Raphael: Lord of Wisdom (Tensura),30 SP,Required: Voice of the World (Tensura)
 Esoteric and Abstract Powers,Ultimate Skill Beelzebuth: Lord of Gluttony (Tensura),30 SP,Required: Voice of the World (Tensura)
 Esoteric and Abstract Powers,"Wait, I got just the form for this!",15 SP,N/A
@@ -1901,7 +1901,7 @@ Foundation Powers,Pandora’s Box,15 SP,N/A
 Foundation Powers,Asmodeus’s Prism,15 SP,N/A
 Foundation Powers,100 Sacred Treasures,25 SP,N/A
 Foundation Powers,Gambler’s Intuition ,15 SP,N/A
-Foundation Powers,Step in the ring,15 SP,N/A
+Foundation Powers,Step in the Ring,15 SP,N/A
 Foundation Powers,The Three Musketeers,15 SP,N/A
 Foundation Powers,Universal Aptitude,5 SP,N/A
 Foundation Powers,Promethean Ichor ,10 SP,N/A
@@ -2104,6 +2104,7 @@ Objects of Power,Embryo (Infinite Dendrogram),15 SP,N/A
 Objects of Power,"The Primeval Sword, Altar (Infinite Dendrogram)",25 SP,N/A
 Objects of Power,Infinite Stratos (Infinite Stratos),10 SP,N/A
 Objects of Power,Tessaiga (Inuyasha),17 SP,N/A
+Objects of Power,Dresden Slate (K Project),20 SP,N/A
 Objects of Power,Decadriver (Kamen Rider),15 SP,N/A
 Objects of Power,The Key of Kings (Kill Six Billion Demons),20 SP,N/A
 Objects of Power,Keyblade (Kingdom Hearts),20 SP,N/A
@@ -2129,6 +2130,7 @@ Objects of Power,Mjolnir (Marvel),25 SP,N/A
 Objects of Power,Sentinel (Marvel),20 SP,N/A
 Objects of Power,Normandy SR-2 (Mass Effect),10 SP,N/A
 Objects of Power,The Citadel (Mass Effect),25 SP,N/A
+Objects of Power,Chozo Power Suit (Metroid),20 SP,N/A
 Objects of Power,Neuralyzer (MIB),5 SP,N/A
 Objects of Power,Enchanted Golden Apple (Minecraft),6 SP,N/A
 Objects of Power,Parasite Suit (My Adventures With Superman),25 SP,N/A
@@ -2203,5 +2205,3 @@ Objects of Power,Golden Tiger Claws (Xiaolin Showdown),10 SP,N/A
 Objects of Power,Elenium Type 95 (Youjo Senki),10 SP| 5 SP,N/A
 Objects of Power,Duel Equipment (Yu-Gi-Oh!),2 SP,N/A
 Objects of Power,"Akashic Engine - 00 (Yuusha, Yamemasu)",10 SP,N/A
-Objects of Power,Chozo Power Suit (Metroid),20 SP,N/A
-Objects of Power,Dresden Slate (K Project),20 SP,N/A
