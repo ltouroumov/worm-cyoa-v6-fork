@@ -217,7 +217,7 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser = parent.add_parser(cls.name, help='Merge changes into a project file')
         parser.add_argument('--project', dest='project_file',
                             type=Path, required=True)
         parser.add_argument('--patch', dest='patch',
