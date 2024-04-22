@@ -11,7 +11,7 @@ Tier 0 / Lesser Powers,Tinker,1 SP,N/A
 Tier 0 / Lesser Powers,Blaster,1 SP,N/A
 Tier 0 / Lesser Powers,Thinker (Multitask),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker (Rubber Ducky),1 SP,N/A
-Tier 0 / Lesser Powers,Thinker (Quick Thinking),1 SP,N/A
+Tier 0 / Lesser Powers,Thinker (Bullet Time),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker (Gut Instinct),1 SP,N/A
 Tier 0 / Lesser Powers,Striker (Finger Painting),1 SP,N/A
 Tier 0 / Lesser Powers,Striker (Precise Strike),1 SP,N/A
@@ -33,7 +33,7 @@ Tier 0 / Lesser Powers,Brute/Thinker,1 SP,N/A
 Tier 0 / Lesser Powers,Blaster/Striker,1 SP,N/A
 Tier 0 / Lesser Powers,Striker/Brute,1 SP,N/A
 Tier 0 / Lesser Powers,Changer/Mover,1 SP,N/A
-Tier 0 / Lesser Powers,Changer/Brute,1 SP,N/A
+Tier 0 / Lesser Powers,Changer/Brute (Meathead),1 SP,N/A
 Tier 0 / Lesser Powers,Stranger/Mover,1 SP,N/A
 Tier 0 / Lesser Powers,Tinker/Thinker (Public Relations),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker/Mover,1 SP,N/A
@@ -192,7 +192,7 @@ Tier 1 - Breaker,(Breaker/Mover) Dark Shadow,8 SP,N/A
 Tier 1 - Breaker,(Breaker/Trump) Elemental Boost,8 SP,N/A
 Tier 1 - Breaker,(Breaker) Density,9 SP,N/A
 Tier 1 - Breaker,(Breaker) Rebirth,10 SP,N/A
-Tier 1 - Breaker,(Breaker/rump)Tri-state Area,10 SP,N/A
+Tier 1 - Breaker,(Breaker/Trump) Tri-state Area,10 SP,N/A
 Tier 1 - Breaker,(Breaker/Brute) Armored Core Ignite,10 SP,N/A
 Tier 1 - Breaker,(Breaker/Shaker) Ibis,10 SP,N/A
 Tier 1 - Breaker,(Breaker) Wendigo ,10 SP,N/A
@@ -759,7 +759,7 @@ Tier 2 Powers,(Trump) Eidolon,20 SP,N/A
 Tier 2 Powers,(Breaker/Trump) Ignis Fatuus ,20 SP,N/A
 Tier 2 Powers,(Tinker) Hero,20 SP| 10 SP,N/A
 Tier 2 Powers,(Brute/Mover) Alexandria,20 SP,N/A
-Tier 2 Powers,(Trump) Fairy Queen,20 SP,N/A
+Tier 2 Powers,(Trump) Faerie Queen,20 SP,N/A
 Tier 2 Powers,(Trump/Master) Butcher,15 SP,N/A
 Tier 2 Powers,(Blaster/Mover) Legend,20 SP,N/A
 Tier 2 Powers,(Thinker/Trump) Kingmaker,25 SP,N/A
@@ -848,7 +848,7 @@ Tier 2 Powers,(Master/Trump) Multiversal Emulator ,20 SP,N/A
 Tier 2 Powers,(Stranger) S-Class,18 SP,N/A
 Tier 2 Powers,(Breaker) Nano Cells,15 SP,N/A
 Tier 2 Powers,(Master/Trump) Pokémon Go,15 SP,N/A
-Tier 2 Powers,(Trump/Thinker) Feast,18 SP,N/A
+Tier 2 Powers,(Trump/Thinker) Feast,20 SP,N/A
 Tier 2 Powers,(Shaker) Snapshots,20 SP,N/A
 Tier 2 Powers,(Trump/Master) Highly Marketable,25 SP,N/A
 Tier 2 Powers,(Trump) The Arena,20 SP,N/A
@@ -1181,7 +1181,7 @@ Physical Powers,"Mew, too (Pokémon)",20 SP,N/A
 Physical Powers,"Aliens Are Real, And They Turned Me Into A Robot! (Inuyashiki) ",15 SP,N/A
 Physical Powers,Fel Blood (Warcraft),10 SP,N/A
 Physical Powers,Gamma Mutate (Marvel),30 SP,N/A
-Physical Powers,Adeptus Astartes (40k),5 SP,N/A
+Physical Powers,Adeptus Astartes (40k),8 SP,N/A
 Physical Powers,Perpetual (40k),35 SP| 5 SP,N/A
 Physical Powers,Quirk (MHA),10 SP,N/A
 Physical Powers,Nova (Trinity Continuum),40 SP,N/A
@@ -1231,7 +1231,7 @@ Physical Powers,Catfolk,5 SP,N/A
 Physical Powers,Bake-Danuki,20 SP,N/A
 Physical Powers,Ajin,15 SP,N/A
 Physical Powers,Peak Realm Martial Artist (Volcanic Age),5 SP,N/A
-Physical Powers,Hanma (Baki the Grappler),10 SP,N/A
+Physical Powers,Hanma (Baki the Grappler),7 SP,N/A
 Physical Powers,Ancient Human (Baki the Grappler),10 SP,N/A
 Physical Powers,Niko Style (Kengan Ashura/Omega),5 SP,N/A
 Physical Powers,Taboo Descendant (Kengan Ashura/Omega),5 SP,N/A
@@ -1292,6 +1292,7 @@ Physical Powers,Supreme Machine (ULTRAKILL),16 SP,N/A
 Physical Powers,Hibernation,3 SP,N/A
 Physical Powers,Fastest Thing Alive (Sonic the Hedgehog),15 SP,N/A
 Physical Powers,Queen of Blades (StarCraft),20 SP,N/A
+Physical Powers,The Shapeling Arts (Fallen London),15 SP,N/A
 Mental and Psychic Powers,Wifi,4 SP,N/A
 Mental and Psychic Powers,Imagination Power (Baki the Grappler),3 SP,N/A
 Mental and Psychic Powers,Repentance,3 SP,N/A
@@ -1593,6 +1594,7 @@ Spiritual and Divine Powers,Deathlord,40 SP,N/A
 Spiritual and Divine Powers,Agent of Change (Adventure Time),15 SP,N/A
 Spiritual and Divine Powers,Heart of the Cards (Yu-Gi-Oh!),3 SP,N/A
 Spiritual and Divine Powers,Beloved of the Stars,20 SP,N/A
+Spiritual and Divine Powers,Correspondence Course (Fallen London),30 SP,N/A
 Technology and Artifice Powers,Artificer (D&D),5 SP,Required: Arcane Magic (D&D/Pathfinder); Required: Psionics (D&D); Required: Occult Magic (Pathfinder)
 Technology and Artifice Powers,Phyrexian Praetor (Magic: The Gathering),20 SP,N/A
 Technology and Artifice Powers,The Tinker Toolbox,6 SP,N/A
@@ -1644,7 +1646,7 @@ Technology and Artifice Powers,Korok Warcrimes (TLoZ),17 SP,N/A
 Technology and Artifice Powers,Uber Ethereal (XCOM),20 SP,N/A
 Technology and Artifice Powers,Glitterworld (Rimworld),20 SP,N/A
 Technology and Artifice Powers,Throne of Empty Heaven (GodBound),30 SP,N/A
-Technology and Artifice Powers,Clockwork Sun (Fallen London),20 SP,N/A
+Technology and Artifice Powers,Clockwork Sun (Fallen London),30 SP,N/A
 Technology and Artifice Powers,Azure Grimoire (Blazblue),20 SP,N/A
 Technology and Artifice Powers,To Bind The Stars (Starbound),20 SP,N/A
 Technology and Artifice Powers,Toha Heavy Industries (Tsutomo Nihei),25 SP,N/A
@@ -1920,6 +1922,7 @@ Esoteric and Abstract Powers,Tako Time,15 SP,N/A
 Esoteric and Abstract Powers,Access To The Records,50 SP,N/A
 Esoteric and Abstract Powers,"No, you are the ROB!",25 SP,N/A
 Esoteric and Abstract Powers,Stagnation,40 SP,N/A
+Esoteric and Abstract Powers,The Neathbow (Fallen London),25 SP,N/A
 Ascension Path,Dragon,30 SP,N/A
 Ascension Path,Fae,20 SP,N/A
 Ascension Path,Vampire Lord,15 SP,N/A
@@ -2153,7 +2156,7 @@ Objects of Power,Excalibur Swords (DxD),20 SP,N/A
 Objects of Power,The Black Blade (Elden Ring),16 SP,N/A
 Objects of Power,Sword of Aeons (Fable: The Lost Chapters),12 SP,N/A
 Objects of Power,Buster Sword (Final Fantasy),5 SP,N/A
-Objects of Power,The Traveller Invocation (Final Fantasy XIV),15 SP,N/A
+Objects of Power,The Traveler Invocation (Final Fantasy XIV),15 SP,N/A
 Objects of Power,Crystalize Legacy (Final Fantasy XIV),10 SP,N/A
 Objects of Power,Naga's Tome (Fire Emblem),15 SP,Required: Brand of the Exalt (Fire Emblem)
 Objects of Power,Falchion (Fire Emblem),15 SP,Required: Brand of the Exalt (Fire Emblem)
@@ -2220,6 +2223,7 @@ Objects of Power,Chakra Fruit (Naruto),35 SP,N/A
 Objects of Power,Samehada (Naruto),10 SP,N/A
 Objects of Power,Hero Water (Naruto),5 SP,N/A
 Objects of Power,Mechanical Halo (Neon White),10 SP,N/A
+Objects of Power,Page from the Book of Life (Neon White),12 SP,N/A
 Objects of Power,Discount Longinus (NGE Anima Jump),10 SP| 5 SP,N/A
 Objects of Power,Curoch and Iures (Night Angel),40 SP,N/A
 Objects of Power,Devil Fruit (One Piece),10 SP,N/A
@@ -2285,4 +2289,3 @@ Objects of Power,Golden Tiger Claws (Xiaolin Showdown),10 SP,N/A
 Objects of Power,Elenium Type 95 (Youjo Senki),10 SP| 5 SP,N/A
 Objects of Power,Duel Equipment (Yu-Gi-Oh!),2 SP,N/A
 Objects of Power,"Akashic Engine - 00 (Yuusha, Yamemasu)",10 SP,N/A
-Objects of Power,Page from the Book of Life (Neon White),12 SP,N/A
