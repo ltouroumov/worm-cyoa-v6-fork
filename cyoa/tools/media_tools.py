@@ -2,6 +2,7 @@ import base64
 from collections import OrderedDict
 from glob import glob
 import io
+import textwrap
 from dataclasses import dataclass, replace
 from os import makedirs
 from pathlib import Path
@@ -503,7 +504,7 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
             image_type,
         )
 
-    def download_image(self, image_info: ImageInfo, dest_dir, base_url, images_table):
+    def download_image(self, image_info: ImageInfo, dest_dir, base_url, error_table):
         if str.startswith(image_info.image_data, base_url):
             return
 
@@ -521,8 +522,10 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
             update_image(self.project, image_info, image_type,
                          image_path=image_url)
         else:
-            console.log(f"Failed to download {image_info.image_data}")
-            console.log(response.content)
+            error_table.add_row(
+                image_info.object_id, image_info.name,
+                f"Status: {response.status_code}, Body: {textwrap.shorten(response.text, width=50)}"
+            )
 
     def run(self, args):
         self._load_project(args.project_file)
@@ -531,8 +534,8 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
         if dest_dir := args.export_dir:
             makedirs(dest_dir, exist_ok=True)
 
-        images_table = Table("obj_id", "title",
-                             "Size", "Type")
+        images_table = Table("obj_id", "title", "Size", "Type")
+        error_table = Table("obj_id", "title", "Error")
 
         project_images = list(list_all_images(self.project))
         for image_info in track(project_images, total=len(project_images)):
@@ -541,11 +544,12 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
 
             if image_info.image_is_url:
                 self.download_image(image_info, dest_dir,
-                                    base_url, images_table)
+                                    base_url, error_table)
             else:
                 self.extract_image(image_info, dest_dir,
                                    base_url, images_table)
 
+        console.print(error_table)
         console.print(images_table)
         self._save_project(args.project_file)
 
