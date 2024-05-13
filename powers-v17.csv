@@ -700,7 +700,7 @@ Power Copy,Flint,15 SP,N/A
 Power Copy,Gallant,1 SP,N/A
 Power Copy,Gavel,10 SP,N/A
 Power Copy,Genesis,13 SP,N/A
-Power Copy,Glory Girl,4 SP,N/A
+Power Copy,Glory Girl,3 SP,N/A
 Power Copy,Golem,3 SP,N/A
 Power Copy,Grey Boy,15 SP,N/A
 Power Copy,Grue (Second Trigger),4 SP,N/A
@@ -831,7 +831,7 @@ Tier 2 Powers,(Breaker) How The Turns Have Tabled!,18 SP,N/A
 Tier 2 Powers,(Shaker) Natural World,20 SP,N/A
 Tier 2 Powers,(Master) Chessman,20 SP,N/A
 Tier 2 Powers,(Trump) Mix And Match,15 SP,N/A
-Tier 2 Powers,(Stranger/Master) Identity,20 SP,N/A
+Tier 2 Powers,(Stranger/Master) Identity,25 SP,N/A
 Tier 2 Powers,(Master) Dead Body,20 SP,N/A
 Tier 2 Powers,(Master) Cloning,25 SP,N/A
 Tier 2 Powers,(Tinker) Techno-Organic,20 SP| 10 SP,N/A
@@ -938,12 +938,12 @@ Power Upgrades (Shard),Parallel Processing,2 SP,Required: Thinker (Multitask)
 Power Upgrades (Shard),Network 2.0,10 SP,Required: (Trump) Network Hub
 Power Upgrades (Shard),Safety First,5 SP,Required: (Tinker/Thinker) Safety
 Power Upgrades (Shard),The Man Of Tomorrow,10 SP| 5 SP,Required: (Tinker) Upcoming Century
-Power Upgrades (Shard),A Bugs Life,10 SP,Required: Skitter; Required: Taylor Anne Hebert
+Power Upgrades (Shard),A Bugs Life,15 SP,Required: Skitter; Required: Taylor Anne Hebert
 Power Upgrades (Shard),Relay Bug,5 SP,Required: Skitter; Required: Taylor Anne Hebert
 Power Upgrades (Shard),Revive,10 SP,Required: (Breaker) Rebirth
 Power Upgrades (Shard),Immortal,10 SP,Required: (Breaker) Rebirth
-Power Upgrades (Shard),Parahuman Clone Master,5 SP,Required: (Master) Cloning
-Power Upgrades (Shard),Parahuman Fusion Master,10 SP,Required: (Master) Cloning
+Power Upgrades (Shard),Clone Master,5 SP,Required: (Master) Cloning
+Power Upgrades (Shard),Fusion Master,10 SP,Required: (Master) Cloning
 Power Upgrades (Shard),Siberian ,10 SP,Required: (Master) Manton
 Power Upgrades (Shard),Growing Fat,2 SP,Required: (Changer/Brute) Fatty
 Power Upgrades (Shard),Stronger Fat,3 SP,Required: (Changer/Brute) Fatty
@@ -1054,7 +1054,7 @@ Power Fusions (Shard),Dominion,6 SP,Required: Skittering Legions; Required: (Mas
 Power Fusions (Shard),Muroidea Imperator,9 SP,Required: (Master) Ratatouille; Required: (Master/Thinker) Rodent King
 Power Fusions (Shard),Resurrection,15 SP,Required: (Striker) Redistribution of Pain; Required: (Breaker/Mover) Puella Magi Homura Magika
 Power Fusions (Shard),Ward Master,5 SP,Required: (Trump) Arcanist; Required: (Trump/Tinker) Artificer
-Power Fusions (Shard),The Life Maker,5 SP,Required: (Trump/Tinker) Alchemist; Required: (Trump/Tinker) Artificer
+Power Fusions (Shard),The Life Maker,5 SP| 2 SP,Required: (Trump/Tinker) Alchemist; Required: (Trump/Tinker) Artificer
 Power Fusions (Shard),Four is a Party,10 SP,Required: (Trump) Gamer System; Required: (Trump) Soulmate
 Power Fusions (Shard),Sole Looper,3 SP,Required: (Thinker) Time-Loop; Required: Blank
 Power Fusions (Shard),Optimal Choice,4 SP,Required: (Thinker) Schrodinger; Required: (Thinker) Glimpse
@@ -1128,14 +1128,14 @@ Power Fusions (Shard),Lower Dantian,15 SP,Required: Chi Master; Required: (Break
 Power Fusions (Shard),Forgotten Call,5 SP,Required: (Shaker/Stranger) Call of Oblivion; Required: (Stranger/Master) Identity
 Power Fusions (Shard),Scry And Die,7 SP,Required: (Mover/Thinker) Blink and you Miss it.; Required: (Thinker) Byakugan; Required: Thinker/Master (Autopilot)
 Power Fusions (Shard),Imp Maker,-10 SP,Required: (Master/Striker) Imp Master; Required: (Trump) Power Seed
-Power Fusions (Shard),Chaotic Tinker,5 SP,Required: String Theory ; Required: (Tinker) Absurdity
+Power Fusions (Shard),Chaotic Tinker,5 SP| 2 SP,Required: String Theory ; Required: (Tinker) Absurdity
 Power Fusions (Shard),Power Cultivator,7 SP,Required: (Trump) Growth Booster; Required: (Trump) Power Seed
 Power Fusions (Shard),Quantum,10 SP,Required: (Thinker) Laplace Demon
 Power Fusions (Shard),Elevation,8 SP,Required: (Mover/Trump) Winged One; Required: (Changer/Trump) Metamorphosis
 Power Fusions (Shard),Salem,10 SP,Required: (Shaker/Master) Grimm Pools; Required: (Changer) Grimm
 Power Fusions (Shard),Electro-Magneto,5 SP,"Required: (Shaker) Electromagnetic Warping; Required: (Shaker/Blaster) Magnets, Son! How do they work?"
 Power Fusions (Shard),The Sleeping Might,6 SP,Required: (Master/Stranger) Sleeping Guard; Required: (Thinker) Consciousness Commander
-Power Fusions (Shard),Mimic,6 SP,Required: (Tinker) Camouflage; Required: Tinker/Stranger
+Power Fusions (Shard),Mimic,6 SP| 2 SP,Required: (Tinker) Camouflage; Required: Tinker/Stranger
 Power Fusions (Shard),Reincarnated as a Slime,10 SP,Required: (Changer/Trump) Slime; Required: (Changer/Trump) Kirby; Required: (Breaker) Immune Response; Required: (Thinker) Omniscient
 Power Fusions (Shard),Unlimited Trump Works,15 SP,Required: (Trump) Manager; Required: (Trump) Prototype; Required: (Trump) Shard Supply Store 
 Power Fusions (Shard),The Ascension,,Required: (Breaker/Trump) Cronus; Required: (Thinker/Trump) [Query] [Response]; Required: (Trump) Manager; Required: (Trump) Prototype; Required: (Tinker/Trump) Shards; Required: (Shaker/Blaster) Stilling
@@ -2020,7 +2020,7 @@ Foundation Powers,Gacha Hunter,10 SP,N/A
 Foundation Powers,Weaver of Destinies,10 SP,N/A
 Foundation Powers,The Game of Life,15 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
-Foundation Powers,Across the YOU-niverse,30 SP,N/A
+Foundation Powers,Across the YOU-niverse,15 SP,N/A
 Foundation Powers,The Great Man Theory,15 SP,N/A
 Foundation Powers,Training Seal,30 SP,N/A
 Foundation Powers,Knowledge is Power,10 SP,N/A
