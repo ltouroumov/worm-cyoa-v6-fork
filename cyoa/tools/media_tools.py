@@ -1,5 +1,6 @@
 import base64
 from collections import OrderedDict
+from copy import copy
 from glob import glob
 import io
 import textwrap
@@ -606,8 +607,9 @@ class MediaCleanTool(ToolBase, ProjectUtilsMixin):
     def run(self, args):
         self._load_project(args.project_file)
 
-        image_files = set(args.export_dir.glob('*'))
-        console.log(f"Total Images: {len(image_files)}")
+        all_image_files = set(args.export_dir.glob('*'))
+        console.log(f"Total Images: {len(all_image_files)}")
+        image_files = copy(all_image_files)
 
         project_images = list(list_all_images(self.project))
         for image_info in project_images:
@@ -619,9 +621,10 @@ class MediaCleanTool(ToolBase, ProjectUtilsMixin):
                 image_name = str.replace(image_info.image_data, args.export_url, '').strip('/')
                 image_path = args.export_dir / image_name
 
-                if image_path not in image_files:
-                    console.log(f"Missing Image: {image_path}", style="red")
-                else:
+                if image_path not in all_image_files:
+                    console.log(f"Missing Image: {repr(image_path)} ({image_info.image_data})", style="red")
+                    
+                if image_path in image_files:
                     image_files.remove(image_path)
 
         console.log(f"Orphan Images: {len(image_files)}")
