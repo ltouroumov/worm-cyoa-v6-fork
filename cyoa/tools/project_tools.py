@@ -22,6 +22,7 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
     def setup_parser(cls, parent):
         parser = parent.add_parser(cls.name, help='Format a project file')
         parser.add_argument('--project', dest='project_file', type=Path)
+        parser.add_argument('--min', dest='minify', action='store_true')
         parser.add_argument('--skip-backup', action='store_true')
 
     def run(self, args):
@@ -33,7 +34,7 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
             console.log(f"Backing up project to {backup_file}")
             copyfile(args.project_file, backup_file)
 
-        self._save_project(args.project_file)
+        self._save_project(args.project_file, neat=not args.minify)
 
 
 class ProjectPointsTool(ToolBase, ProjectUtilsMixin):

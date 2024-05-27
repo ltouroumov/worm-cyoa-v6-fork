@@ -45,10 +45,13 @@ class ProjectUtilsMixin:
         with path.open(mode='r', encoding='utf-8') as fd:
             return json.load(fd)
 
-    def _save_project(self, project_file: Path):
+    def _save_project(self, project_file: Path, neat: bool = True):
         console.log(f"Saving project to {project_file}")
         with project_file.open(mode='w+') as fd:
-            json.dump(self.project, fd, indent=2, sort_keys=True)
+            if neat:
+                json.dump(self.project, fd, indent=2, sort_keys=True)
+            else:
+                json.dump(self.project, fd, sort_keys=True)
 
 
 def find_first(values, f):
