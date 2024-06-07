@@ -4,7 +4,7 @@ from io import TextIOBase
 from pathlib import Path
 from shutil import copyfile
 import sys
-from typing import List, Dict, Optional, Sequence
+from typing import List, Dict, Optional, Sequence, TextIO
 from asciidag.graph import Graph as DAG
 from asciidag.node import Node as DAGNode
 
@@ -12,6 +12,7 @@ from rich.table import Table
 from cyoa.graph.lib import Graph, Score
 
 from cyoa.tools.lib import *
+from cyoa.tools.meta import POWER_ROWS, UPGRADE_ROWS
 from cyoa.tools.patch import PatchBase, PatchContext
 
 
@@ -30,7 +31,7 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
 
         if args.skip_backup is False:
             backup_file = args.project_file.parent / \
-                f"{args.project_file.name}.bak"
+                          f"{args.project_file.name}.bak"
             console.log(f"Backing up project to {backup_file}")
             copyfile(args.project_file, backup_file)
 
@@ -293,63 +294,6 @@ class ProjectPatchTool(ToolBase, ProjectUtilsMixin):
         self._save_project(args.project_file)
 
 
-POWER_ROWS = {
-    'dljy',  # Tier 0 / Lesser Powers
-    'tc7n',  # Tier 1 - Mover
-    'wtn7',  # Tier 1 - Shaker
-    'vs8q',  # Tier 1 - Brute
-    'r2u5',  # Tier 1 - Breaker
-    'ghw4',  # Tier 1 - Master
-    'nwgn',  # Tier 1 - Tinker
-    'z0zb',  # Tier 1 - Blaster
-    '4x5f',  # Tier 1 - Thinker
-    'xu5q',  # Tier 1 - Striker
-    'b7r5',  # Tier 1 - Changer
-    'bbyi',  # Tier 1 - Trump
-    'hyzg',  # Tier 1 - Stranger
-    'jsch',  # Power Copy
-    'zg2f',  # Tier 2 Powers
-    'e018',  # Tier 3 Powers
-    'qldk',  # Power Fusions (Shard)
-    'hd9l',  # Power Upgrades (Shard)
-    'iu9w',  # (Entity) Shard Clusters
-    'p2ty',  # Physical Powers
-    'd4pp',  # Mental and Psychic Powers
-    'tg45',  # Magic and Mystic Powers
-    '1ok7',  # Spiritual and Divine Powers
-    'y3gb',  # Technology and Artifice Powers
-    '3pua',  # Esoteric and Abstract Powers
-    'mbxo',  # Ascension Path
-    'xk24',  # Foundation Powers
-    'umg9',  # Keystone Powers
-    't6in',  # Paragon Powers
-    'rbdo',  # Objects of Power
-}
-
-UPGRADE_ROWS = {
-    'o58j',  # (Master) Custom Endbringer Powers
-    'qd5r',  # (Master) Custom Endbringer Appearance
-    'jmco',  # (Changer) Custom Endbringer Powers
-    'ab0a',  # (Changer) Custom Endbringer Appearance
-    'wy6p',  # Doll Powers
-    'qldk',  # Power Fusions (Shard)
-    'hd9l',  # Power Upgrades (Shard)
-    'a0dv',  # Base Power Upgrades
-    'fqrt',  # Physical Power Upgrades
-    '8lqj',  # Mental and Psychic Power Upgrades
-    'arnl',  # Magic and Mystic Power Upgrades
-    '0ye0',  # Spiritual and Divine Power Upgrades
-    'rw0w',  # Technology and Artifice Power Upgrades
-    'ufcz',  # Esoteric and Abstract Power Upgrades
-    'c369',  # Ascension Upgrades
-    'pmie',  # Eternal Mangekyō Sharingan Abilities
-    '0d43',  # Destiny Upgrades
-    'dj3w',  # Foundation Upgrades
-    'jzns',  # Paragon Upgrades
-    's92s',  # Object of Power Upgrades
-    'a3ql',  # Ascension Fusions
-}
-
 class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
     name = 'project.costs'
 
@@ -373,7 +317,7 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
         MIN_THRESHOLD = args.min_score
         MAX_THRESHOLD = args.max_score
 
-        EXCLUDE_ROWS = {        
+        EXCLUDE_ROWS = {
             'mbxo',  # Ascension Path
             't6in',  # Paragon Powers
         }
@@ -499,7 +443,7 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
             chain_score = get_score(score_totals, 'rm')
             if chain_score >= MIN_THRESHOLD and chain_score <= MAX_THRESHOLD:
                 print(
-                    f"### {root_data.title} => {show_prices(score_totals.values())}", 
+                    f"### {root_data.title} => {show_prices(score_totals.values())}",
                     file=output_file
                 )
                 print(f"```", file=output_file)
@@ -520,19 +464,19 @@ class ProjectAddonsTool(ToolBase, ProjectUtilsMixin):
 
     def run(self, args):
         from cyoa.graph.lib import (
-            build_graph, Condition, 
-            AndCondition, OrCondition, 
+            build_graph, Condition,
+            AndCondition, OrCondition,
             RequiredCondition, IncompatibleCondition
         )
-        
+
         self._load_project(args.project_file)
         graph = build_graph(self.project)
 
         if args.output_file:
-            output: TextIOBase = open(args.output_file, mode='w+')
+            output: TextIO = open(args.output_file, mode='w+')
         else:
-            output: TextIOBase = sys.stdout
-        
+            output: TextIO = sys.stdout
+
         addon_rows = []
         for row_data in self.project['rows']:
             addon_objs = []
@@ -542,7 +486,6 @@ class ProjectAddonsTool(ToolBase, ProjectUtilsMixin):
 
             if len(addon_objs) > 0:
                 addon_rows.append([row_data, addon_objs])
-
 
         def get_requirements(reqs: Optional[Condition], root: bool):
             match reqs:
@@ -567,13 +510,12 @@ class ProjectAddonsTool(ToolBase, ProjectUtilsMixin):
                 case _:
                     return []
 
-
         for row_data, objects in addon_rows:
             output.write(f"## {row_data['title']}\n")
 
             for obj_data in objects:
                 output.write(f"**{obj_data['title']}**\n")
-                
+
                 obj_meta = graph.objects[obj_data['id']]
 
                 for addon in obj_meta.addons:
@@ -584,7 +526,7 @@ class ProjectAddonsTool(ToolBase, ProjectUtilsMixin):
                         for req in get_requirements(addon.requirements, root=True)
                     ])
                     output.write(f"{reqs}\n")
-                
+
                 output.write("\n")
 
 
@@ -601,19 +543,19 @@ class ProjectPowersTool(ToolBase, ProjectUtilsMixin):
 
     def run(self, args):
         from cyoa.graph.lib import (
-            build_graph, Condition, 
-            AndCondition, OrCondition, 
+            build_graph, Condition,
+            AndCondition, OrCondition,
             RequiredCondition, IncompatibleCondition
         )
-        
+
         self._load_project(args.project_file)
         graph = build_graph(self.project)
 
         if args.output_file:
-            output: TextIOBase = open(args.output_file, mode='w+')
+            output: TextIO = open(args.output_file, mode='w+')
         else:
-            output: TextIOBase = sys.stdout
-        
+            output: TextIO = sys.stdout
+
         csv_output = csv.DictWriter(output, fieldnames=['row_title', 'obj_title', 'obj_cost', 'obj_reqs'])
         csv_output.writeheader()
 
@@ -658,7 +600,7 @@ class ProjectPowersTool(ToolBase, ProjectUtilsMixin):
                     ])
                 else:
                     obj_reqs = 'N/A'
-                
+
                 obj_cost = str.join('| ', [
                     get_score(score)
                     for score in obj_meta.scores

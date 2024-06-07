@@ -1,18 +1,21 @@
+import csv
 import itertools
 import operator
 import os
+import sys
 from concurrent.futures import as_completed
 from concurrent.futures.thread import ThreadPoolExecutor
 from difflib import context_diff
 from fnmatch import fnmatch
 from pathlib import Path
-from typing import Any
+from typing import Any, TextIO, Optional
 
 import jinja2
 import requests
 from lenses import lens
 from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, TimeRemainingColumn, MofNCompleteColumn
 
+from cyoa.graph.lib import Score
 from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console
 from cyoa.tools.wiki.config import STRUCTURE
 
@@ -206,7 +209,7 @@ def child_pages_of(pages: list, path: str, search_depth: int = 1):
     ))
 
 
-class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
+class WikiUpdateTool(ToolBase, ProjectUtilsMixin):
     name = 'wiki.update'
 
     api: WikiAPI
@@ -451,6 +454,64 @@ class ProjectFormatTool(ToolBase, ProjectUtilsMixin):
             p.console.print(f'updated index: {path}')
 
 
+class WikiPowersIndexTool(ToolBase, ProjectUtilsMixin):
+    name = 'wiki.rows-table'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser.add_argument('--project', dest='project_file',
+                            type=Path, required=True)
+        parser.add_argument('--rows', dest='rows',
+                            action='extend', nargs='+',
+                            type=str, required=True)
+        parser.add_argument('--output', dest='output_file',
+                            type=Path, default=None)
+
+    def run(self, args):
+        self._load_project(args.project_file)
+
+        if args.output_file:
+            output: TextIO = open(args.output_file, mode='w+')
+        else:
+            output: TextIO = sys.stdout
+
+        def nl(ln: str):
+            return f"{ln}\n"
+
+        for row_data in self.project['rows']:
+            if row_data['id'] not in args.rows:
+                continue
+
+            output.writelines(map(nl, [
+                f'== {row_data["title"]} ==',
+                f'{{| class="wikitable"',
+                f'|+',
+                f'!ID',
+                f'!Object / Addon',
+                f'!Author',
+            ]))
+
+            for obj_data in row_data['objects']:
+                addon_count = len(obj_data['addons'])
+                output.writelines(map(nl, [
+                    f'|- style="vertical-align:top;"',
+                    f'|rowspan="{addon_count + 1}"|{obj_data["id"]}',
+                    f'|{obj_data["title"]}',
+                    f'|???'
+                ]))
+
+                for idx, obj_addon in enumerate(obj_data['addons']):
+                    output.writelines(map(nl, [
+                        f'|- style="vertical-align:top;"',
+                        f'|\'\'Addon\'\': {obj_addon["title"]}',
+                        f'|???'
+                    ]))
+
+            output.write('|}\n')
+
+
 TOOLS = (
-    ProjectFormatTool,
+    WikiUpdateTool,
+    WikiPowersIndexTool,
 )
