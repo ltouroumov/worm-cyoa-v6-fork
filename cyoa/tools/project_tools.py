@@ -574,11 +574,15 @@ class ProjectPowersTool(ToolBase, ProjectUtilsMixin):
                         for req in get_requirements(term, root=False)
                     ]
                 case RequiredCondition(object_id):
-                    obj_data = graph.objects[object_id]
-                    return [f"Required: {obj_data.title}"]
+                    if obj_data := graph.objects.get(object_id, None):
+                        return [f"Required: {obj_data.title}"]
+                    else:
+                        return [f"Required: {object_id}"]
                 case IncompatibleCondition(object_id):
-                    obj_data = graph.objects[object_id]
-                    return [f"Incompatible: {obj_data.title}"]
+                    if obj_data := graph.objects.get(object_id, None):
+                        return [f"Incompatible: {obj_data.title}"]
+                    else:
+                        return [f"Incompatible: {object_id}"]
                 case _:
                     return []
 

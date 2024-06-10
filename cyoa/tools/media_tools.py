@@ -487,7 +487,7 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
             image_info.image_data
         )
         image_type = header[header.rfind('/') + 1:]
-        imgage_size_kb = len(image_data) / 1024.0
+        image_size_kb = len(image_data) / 1024.0
 
         # Write the image file to disk
         image_name = export_image(image_info, image_type,
@@ -495,13 +495,13 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
                                   dest_dir=dest_dir)
 
         image_url = f"{base_url}/{image_name}"
-        console.log(f"Extract: {image_url}")
+        # console.log(f"Extract: {image_info.object_id} {image_url}")
         update_image(self.project, image_info, image_type,
                      image_path=image_url)
 
         images_table.add_row(
             image_info.object_id, image_info.name,
-            f"{imgage_size_kb: >8.2f} kB",
+            f"{image_size_kb: >8.2f} kB",
             image_type,
         )
 
@@ -509,6 +509,7 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
         if str.startswith(image_info.image_data, base_url):
             return
 
+        # console.log(f'Download {image_info.object_id}: {image_info.image_data}')
         response = requests.get(image_info.image_data)
         if response.ok:
             image_bytes = response.content
@@ -534,6 +535,9 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
         base_url = args.export_url
         if dest_dir := args.export_dir:
             makedirs(dest_dir, exist_ok=True)
+
+        console.log(f"Base URL: {base_url}")
+        console.log(f"Base DIR: {dest_dir}")
 
         images_table = Table("obj_id", "title", "Size", "Type")
         error_table = Table("obj_id", "title", "Error")
