@@ -4048,7 +4048,7 @@
                             t.$store.commit("loadApp", i);
                         }
                     }),
-                        e.open("GET", "project.json", !0),
+                        e.open("GET", projectFile, !0),
                         e.send();
                 },
                 created: function () {

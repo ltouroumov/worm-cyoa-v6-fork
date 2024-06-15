@@ -53,5 +53,17 @@ python3 -m cyoa.tools.client project.patch --project $PROJECT \
 # Update the viewer
 python3 -m cyoa.tools.client build --input $PROJECT --output $BUILD
 
+# Generate light mode
+LIGHTMODE="./lightmode.sh"
+
+if [ -x "$LIGHTMODE" ]; then
+    # Execute the script using bash
+    bash "$LIGHTMODE"
+else
+    echo "Error: $LIGHTMODE is not executable."
+    exit 1
+fi
+
+
 # Generate the list of powers
 python3 -m cyoa.tools.client project.powers --project $PROJECT --output powers-$VERSION.csv
