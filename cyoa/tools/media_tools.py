@@ -1,4 +1,5 @@
 import base64
+import urllib.parse
 from collections import OrderedDict
 from copy import copy
 from glob import glob
@@ -510,7 +511,7 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
             return
 
         # console.log(f'Download {image_info.object_id}: {image_info.image_data}')
-        response = requests.get(image_info.image_data)
+        response = requests.get(str.strip(image_info.image_data))
         if response.ok:
             image_bytes = response.content
             image = Image.open(io.BytesIO(image_bytes))
@@ -524,9 +525,10 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
             update_image(self.project, image_info, image_type,
                          image_path=image_url)
         else:
+            image_url = urllib.parse.urlparse(str.strip(image_info.image_data))
             error_table.add_row(
                 image_info.object_id, image_info.name,
-                f"Status: {response.status_code}, Body: {textwrap.shorten(response.text, width=50)}"
+                f"Domain: {image_url.hostname}, Status: {response.status_code}\nBody: {textwrap.shorten(response.text, width=50)}"
             )
 
     def run(self, args):
