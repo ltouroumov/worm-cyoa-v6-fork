@@ -100,6 +100,8 @@ Tier 1 - Shaker,(Shaker/Stranger) The Mist of London Night,4 SP,N/A
 Tier 1 - Shaker,(Shaker) Razorwire,4 SP,N/A
 Tier 1 - Shaker,(Shaker) Collateral,5 SP,N/A
 Tier 1 - Shaker,(Shaker/Master) Peace Zone,5 SP,N/A
+Tier 1 - Shaker,(Shaker) Afterimage,5 SP,N/A
+Tier 1 - Shaker,(Shaker/Master) Spicy Snap,5 SP,N/A
 Tier 1 - Shaker,(Shaker) Gravity Well,5 SP,N/A
 Tier 1 - Shaker,(Shaker/Striker) Force Construct,5 SP,N/A
 Tier 1 - Shaker,(Shaker) Electromagnetic Warping,5 SP,N/A
@@ -122,14 +124,12 @@ Tier 1 - Shaker,(Shaker/Breaker) Icy Kiss,9 SP,N/A
 Tier 1 - Shaker,(Shaker) Temporal Tempo,10 SP,N/A
 Tier 1 - Shaker,(Shaker/Trump) Power Slowdown,10 SP,N/A
 Tier 1 - Shaker,(Shaker) Amped Up,10 SP,N/A
-Tier 1 - Shaker,(Shaker) Afterimage,10 SP,N/A
 Tier 1 - Shaker,(Shaker/Thinker) Loot Box ,10 SP,N/A
 Tier 1 - Shaker,(Shaker/Striker) Time Magic!,10 SP,N/A
 Tier 1 - Shaker,(Shaker) Telekinesis,10 SP,N/A
 Tier 1 - Shaker,(Shaker) Wavecrasher,10 SP,N/A
 Tier 1 - Shaker,(Shaker/Striker) Viral Blood,10 SP,N/A
 Tier 1 - Shaker,(Shaker/Master) Dirt in Your Eye,10 SP,N/A
-Tier 1 - Shaker,(Shaker/Master) Spicy Snap,5 SP,N/A
 Tier 1 - Shaker,(Shaker) Environment Shaping,11 SP,N/A
 Tier 1 - Shaker,(Shaker/Master) Black Goo,11 SP,N/A
 Tier 1 - Shaker,(Shaker/Brute) The Floor is Lava,11 SP,N/A
@@ -983,7 +983,7 @@ Power Upgrades (Shard),Multiple Save Slots,10 SP,Required: (Thinker) Time-Loop
 Power Upgrades (Shard),Undo-Redo,8 SP,Required: Multiple Save Slots
 Power Upgrades (Shard),Archmage,20 SP,Required: (Trump) Arcanist; Required: (Trump/Tinker) Artificer; Required: (Trump/Tinker) Alchemist; Required: (Trump) Kineticist
 Power Upgrades (Shard),Doll General,25 SP| 6 DP,Required: (Master/Trump) Doll Master
-Power Upgrades (Shard),Life Tinker Specialization,5 SP,Required: Doll General
+Power Upgrades (Shard),Life Tinker Specialization,5 SP,
 Power Upgrades (Shard),Unlimited Shard Works,10 SP,Required: (Trump) Gamer System
 Power Upgrades (Shard),Higher Priest,8 SP,Required: (Trump) Eidolon
 Power Upgrades (Shard),Natsuki Subaru,8 SP,Required: (Thinker) Respawn
@@ -1313,7 +1313,6 @@ Physical Powers,Spider-Totem (Marvel),10 SP,N/A
 Physical Powers,Homo Superior (Marvel),15 SP,N/A
 Physical Powers,InHomo Supremis (Marvel),20 SP,N/A
 Physical Powers,Homo Immortalis (Marvel),40 SP,N/A
-Physical Powers,New Gods of the Fourth World (DC Comics),45 SP,N/A
 Physical Powers,Goutetsu Style Shotokan Karate (Street Fighter),5 SP,N/A
 Physical Powers,Hakkyokuseiken (King of Fighters),7 SP,N/A
 Physical Powers,Hokuto Shinken (Fist Of The North Star),10 SP,N/A
@@ -1352,6 +1351,7 @@ Physical Powers,Still Force (DC Comics),40 SP,N/A
 Physical Powers,Strength Force (DC Comics),40 SP,N/A
 Physical Powers,Martian Manhunter (DC Comics),40 SP,N/A
 Physical Powers,One of the Last Czarnians (DC Comics),40 SP,N/A
+Physical Powers,New Gods of the Fourth World (DC Comics),45 SP,N/A
 Physical Powers,Asgardian (Marvel),20 SP,N/A
 Physical Powers,Osmosian (Ben 10),15 SP,N/A
 Physical Powers,Anodite (Ben 10),35 SP,N/A
@@ -1417,7 +1417,7 @@ Physical Powers,Bake-Danuki,20 SP,N/A
 Physical Powers,Ajin,15 SP,N/A
 Physical Powers,Peak Realm Martial Artist (Volcanic Age),5 SP,N/A
 Physical Powers,Hanma (Baki the Grappler),7 SP,N/A
-Physical Powers,Ancient Human (Baki the Grappler),10 SP,N/A
+Physical Powers,Ancient Human (Baki the Grappler),7 SP,N/A
 Physical Powers,Niko Style (Kengan Ashura/Omega),5 SP,N/A
 Physical Powers,Taboo Descendant (Kengan Ashura/Omega),5 SP,N/A
 Physical Powers,Superman Syndrome (Kengan Ashura/Omega),5 SP,N/A
@@ -1828,7 +1828,7 @@ Spiritual and Divine Powers,Child of Hades (Hades),40 SP,N/A
 Spiritual and Divine Powers,Malleable/Smart Soul,5 SP,N/A
 Spiritual and Divine Powers,Benevolence Of Primordial Agony,50 SP,N/A
 Spiritual and Divine Powers,Heliobus,55 SP,N/A
-Spiritual and Divine Powers,Promise Me,55 SP,N/A
+Spiritual and Divine Powers,Promise Me,10 SP,N/A
 Spiritual and Divine Powers,Song of The Fallen (Shadow Slave),15 SP,N/A
 Spiritual and Divine Powers,Console Patron Unit (Hyperdimension Neptunia),13 SP,N/A
 Technology and Artifice Powers,Artificer (D&D),5 SP,Required: Arcane Magic (D&D/Pathfinder); Required: Psionics (D&D); Required: Occult Magic (Pathfinder)
@@ -2481,13 +2481,13 @@ Objects of Power,Weakstone (Magic: The Gathering),6 SP,N/A
 Objects of Power,Skyship Weatherlight (Magic: The Gathering),12 SP,N/A
 Objects of Power,Mirran Sword Set (Magic: The Gathering),30 SP,N/A
 Objects of Power,Super Crown (Mario),5 SP,N/A
+Objects of Power,Klyntar (Marvel),10 SP,N/A
 Objects of Power,All-Black (Marvel),30 SP,N/A
 Objects of Power,Gungnir (Marvel),25 SP,N/A
+Objects of Power,Mjolnir (Marvel),25 SP,N/A
 Objects of Power,Infinity Gauntlet (Marvel),10 SP,N/A
 Objects of Power,Infinity Stone (Marvel),25 SP| 15 SP,N/A
-Objects of Power,Klyntar (Marvel),10 SP,N/A
 Objects of Power,Mandarin Rings (Marvel),25 SP,N/A
-Objects of Power,Mjolnir (Marvel),25 SP,N/A
 Objects of Power,Sentinel (Marvel),20 SP,N/A
 Objects of Power,Soulsword (Marvel),15 SP,N/A
 Objects of Power,Normandy SR-2 (Mass Effect),10 SP,N/A
