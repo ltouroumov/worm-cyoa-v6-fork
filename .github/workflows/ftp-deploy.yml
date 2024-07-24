@@ -30,6 +30,17 @@ jobs:
           state-name: .states-viewer.json
           log-level: minimal
 
+      - name: 📂 Sync Viewer (plus)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: viewer-v2/
+          server-dir: viewer-v2/
+          state-name: .states-viewer-v2.json
+          log-level: minimal
+
       - name: 📂 Sync Images
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:

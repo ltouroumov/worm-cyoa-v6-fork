@@ -1,0 +1,79 @@
+span.fullHeight span.row.pa-0 {
+    border-radius: 10px !important;
+    border-width: 1px !important;
+}
+
+span.fullHeight span.row.pa-0>span.ma-0>span {
+    padding: 0.2rem 0.4rem !important;
+}
+
+span.fullHeight span.row.pa-0>span>img {
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    object-position: top center;
+}
+
+span.fullHeight span.row.pa-0>div.row>div.col.pa-0 {
+    max-width: 30%;
+}
+
+span.fullHeight span.row.pa-0>div.row>div.col.pa-0>img {
+    object-fit: cover;
+}
+
+.fullHeight>.pa-0>span.ma-0>span:first-child {
+    display: inline-block;
+}
+
+@media all and (min-width: 760px) {
+
+    span.fullHeight>span.row.pa-0>span.ma-0 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    span.fullHeight>span.row.pa-0>span.ma-0>span {
+        flex-grow: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: thin;
+    }
+
+    div.col.w-20>span.fullHeight>span.row.pa-0>span.ma-0 {
+        max-height: 40rem;
+    }
+
+    div.col.col-sm-3>span.fullHeight>span.row.pa-0>span.ma-0 {
+        max-height: 45rem;
+    }
+
+    div.col.col-sm-4>span.fullHeight>span.row.pa-0>span.ma-0 {
+        max-height: 60rem;
+    }
+
+    div.col.col-sm-6>span.fullHeight>span.row.pa-0>span.ma-0 {
+        max-height: 70rem;
+    }
+
+    div.col.col-xl-1>span.fullHeight>span.row.pa-0>span.ma-0 {
+        max-height: 70rem;
+    }
+    
+    *::-webkit-scrollbar {
+      width: 12px;
+    }
+    
+    *::-webkit-scrollbar-track {
+      background: black;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+      background-color: gray;
+      border-radius: 20px;
+      border: 3px solid black;
+    }
+}
+
+div.v-dialog span.fullHeight span.row.pa-0 span>img+span {
+    max-height: none;
+}
