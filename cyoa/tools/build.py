@@ -21,30 +21,5 @@ class BuildTool(ToolBase, ProjectUtilsMixin):
         if dest_dir := args.output_dir:
             makedirs(dest_dir, exist_ok=True)
 
-        images_dir = dest_dir / "images"
-        for image_file in images_dir.glob('*.*'):
-            if image_file.name in ('.gitkeep',):
-                continue
-
-            image_file.unlink()
-
-
-        project_images = list(list_all_images(self.project))
-        for image_info in project_images:
-            # Skip images that are URLs
-            if image_info.image_is_url:
-                continue
-            # Skip all missing images
-            if image_info.image_data is None:
-                continue
-
-            header, image_data = decode_image(
-                image_info.image_data
-            )
-            image_type = header[header.rfind('/')+1:]
-            
-            file_name = export_image(image_info, image_type, image_data=image_data, dest_dir=dest_dir / "images")
-            update_image(self.project, image_info, image_type, image_path=f"./images/{file_name}")
-        
-        self._save_project(dest_dir / "project.json")
+        self._save_project(dest_dir / "project.json", neat=False)
 
