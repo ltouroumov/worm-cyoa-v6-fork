@@ -978,8 +978,7 @@ Tier 2 Powers,(Shaker/Stranger) Retroactive Change,25 SP,N/A
 Tier 2 Powers,(Trump) Art of Symbolism ,20 SP,N/A
 Tier 2 Powers,(Master) God-Chooser,18 SP,N/A
 Tier 2 Powers,(Thinker/Master) Azulhod Playwright,15 SP,N/A
-Tier 2 Powers,(Thinker/Master) Azulhod Playwright,15 SP,N/A
-Tier 2 Powers,(Brute/Striker) Barebones.,15 SP,N/A
+Tier 2 Powers,(Brute/Striker) Barebones,15 SP,N/A
 Tier 2 Powers,(Shaker/Blaster) Action at a Distance,15 SP,N/A
 Tier 2 Powers,(Trump/Tinker) Conceptual Tinker,25 SP,N/A
 Tier 3 Powers,(Trump) Manager,30 SP,N/A
@@ -2463,7 +2462,7 @@ Foundation Powers,Step in the Ring,15 SP,N/A
 Foundation Powers,The Three Musketeers,15 SP,N/A
 Foundation Powers,Universal Aptitude,5 SP,N/A
 Foundation Powers,Promethean Ichor ,10 SP,N/A
-Foundation Powers,Forge In The Trial Of Combat,20 SP,N/A
+Foundation Powers,Forged In The Trials of Combat,20 SP,N/A
 Foundation Powers,Copy-Fusion-Evolve,25 SP,N/A
 Foundation Powers,VitaSync,10 SP,N/A
 Foundation Powers,True Bio-Machine,10 SP,N/A
@@ -2544,11 +2543,11 @@ Keystone Powers,Celestial Forge,60 SP,N/A
 Keystone Powers,Celestial Grimoire,60 SP,N/A
 Keystone Powers,Celestial Menagerie,60 SP,N/A
 Keystone Powers,Celestial Dojo,60 SP,N/A
-Keystone Powers,Increased CP (Celestial Collections),10 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie
-Keystone Powers,Increased Frequency (Celestial Collections),10 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie
-Keystone Powers,Blood and Sweat,10 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie
-Keystone Powers,Companionship,10 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie
-Keystone Powers,True Companions,10 SP,Required: Companionship
+Keystone Powers,Increased CP (Celestial Collections),10 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie; Required: Celestial Dojo
+Keystone Powers,Increased Frequency (Celestial Collections),10 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie; Required: Celestial Dojo
+Keystone Powers,Blood and Sweat,10 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie; Required: Celestial Dojo
+Keystone Powers,Companionship,10 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie; Required: Celestial Dojo
+Keystone Powers,True Companions,10 SP,Required: Celestial Forge; Required: Celestial Grimoire; Required: Celestial Menagerie; Required: Celestial Dojo
 Keystone Powers,Path of the Architect,,N/A
 Keystone Powers,Builder,25 SP,N/A
 Keystone Powers,Engineer,25 SP,N/A
@@ -2659,7 +2658,7 @@ Objects of Power,Avatar Tuner: Fiend (Digital Devil Saga),20 SP,N/A
 Objects of Power,Aladdin's Lamp (Disney),60 SP,N/A
 Objects of Power,Miracle Candle (Disney),15 SP,N/A
 Objects of Power,Death's Sickles (Dreamworks),15 SP,N/A
-Objects of Power,Magic Nanny Bag (Mary Poppins),5 SP,N/A
+Objects of Power,The Magical Nanny’s Bag (Mary Poppins),10 SP,N/A
 Objects of Power,Noah's Ark (D Gray-man),30 SP,N/A
 Objects of Power,Sonic Screwdriver (Doctor Who),5 SP| 0 SP,N/A
 Objects of Power,Psychic Paper (Doctor Who),5 SP| 0 SP,N/A
@@ -2694,7 +2693,7 @@ Objects of Power,Guyver Unit (Guyver),11 SP,N/A
 Objects of Power,Blade of Tathagata (The God of High School),15 SP| 5 SP,N/A
 Objects of Power,Robe of the Sage (The God of High School),15 SP| 5 SP,N/A
 Objects of Power,Mjolnir (God of War),20 SP,N/A
-Objects of Power,Draupnir Spear (God Of War),25 SP,N/A
+Objects of Power,Draupnir Spear (God Of War),15 SP,N/A
 Objects of Power,Blades of Chaos (God of War),20 SP,N/A
 Objects of Power,Leviathan Axe (God of War),20 SP,N/A
 Objects of Power,Blinker Stone (Gunnerkrigg Court),5 SP,N/A
@@ -2744,7 +2743,7 @@ Objects of Power,Infinity Stone (Marvel),25 SP| 15 SP,N/A
 Objects of Power,Mandarin Rings (Marvel),25 SP,N/A
 Objects of Power,Sentinel (Marvel),20 SP,N/A
 Objects of Power,Soulsword (Marvel),15 SP,N/A
-Objects of Power,Crimson Gem of Cyttorak (Marvel),40 SP,N/A
+Objects of Power,Totems of the Octessence (Marvel),40 SP,N/A
 Objects of Power,Normandy SR-2 (Mass Effect),10 SP,N/A
 Objects of Power,The Citadel (Mass Effect),30 SP,N/A
 Objects of Power,Chozo Power Suit (Metroid),20 SP,N/A
