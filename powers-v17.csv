@@ -1647,6 +1647,7 @@ Power Upgrades (Shard),Heavy Weather,7 SP,Required: (Shaker) Storm
 Power Upgrades (Shard),Wild Weather,6 SP,Required: (Shaker) Storm
 Power Upgrades (Shard),Sandevistan,4 SP,Required: Thinker (Bullet Time)
 Power Upgrades (Shard),A Company,6 SP,Required: (Breaker) Superposition
+Power Upgrades (Shard),Antimemetic Sinkhole,13 SP,Required: (Stranger) Shroud
 Power Fusions (Shard),Biobringer,10 SP,Required: (Changer) Self-Biokinesis
 Power Fusions (Shard),Tsundere,5 SP,Required: (Striker/Brute) Stop! Hammer Time.; Required: (Brute/Striker) Captain America
 Power Fusions (Shard),Gate of Babylon,10 SP,Required: (Shaker/Blaster) Bag of Holding; Required: (Trump/Tinker) Enchantment
@@ -2030,6 +2031,7 @@ Physical Powers,Supublic (Sidekicks),25 SP,N/A
 Physical Powers,Transcendent Trajectory (Everyone Else Is A Returnee),20 SP,N/A
 Physical Powers,Yautja Elder (Predator),12 SP,N/A
 Physical Powers,Snowflame (DC Comics),10 SP,N/A
+Physical Powers,Feel the HEAT! (Yakuza: Like a Dragon),15 SP,N/A
 Mental and Psychic Powers,Wifi,4 SP,N/A
 Mental and Psychic Powers,MUSE,5 SP,N/A
 Mental and Psychic Powers,Imagination Power (Baki the Grappler),3 SP,N/A
@@ -2422,6 +2424,7 @@ Spiritual and Divine Powers,Dreams of The Golden Valley,25 SP,N/A
 Spiritual and Divine Powers,The Wonderful Feeling of Being Devoured (Chronicles of Darkness - Beast: The Primordial),25 SP,N/A
 Spiritual and Divine Powers,Egyptian Deity (Gods of Egypt),20 SP,N/A
 Spiritual and Divine Powers,Soul Weaver,10 SP,N/A
+Spiritual and Divine Powers,Prosthetic Spirit,8 SP,N/A
 Technology and Artifice Powers,Artificer (D&D),5 SP,Required: Arcane Magic (D&D/Pathfinder); Required: Psionics (D&D); Required: Occult Magic (Pathfinder)
 Technology and Artifice Powers,Phyrexian Praetor (Magic: The Gathering),20 SP,N/A
 Technology and Artifice Powers,The Tinker Toolbox,6 SP,N/A
@@ -3006,6 +3009,7 @@ Objects of Power,Mercury's Chariot,12 SP,N/A
 Objects of Power,Schrödinger's Stein,1 SP,N/A
 Objects of Power,Magitek Planisphere,10 SP,N/A
 Objects of Power,The Golden Elixir,10 SP,N/A
+Objects of Power,Mage's Trappings,5 SP,N/A
 Objects of Power,Wargear (40k),5 SP,Required: Adeptus Mechanicus (40k); Required: Beta-Class Psyker (40k); Required: Adeptus Astartes (40k)
 Objects of Power,Finn Sword (Adventure Time),5 SP,N/A
 Objects of Power,The Emperor's Regalia (Air Gear),15 SP,N/A
