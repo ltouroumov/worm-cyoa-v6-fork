@@ -14,7 +14,8 @@ __all__ = (
     'ToolBase', 'ProjectUtilsMixin',
     'find_first', 'find_first_index', 'gen_id',
     'copy_objects_from_row', 'remove_objects_from_row', 'insert_objects_in_row',
-    'update_row_data', 'update_obj_data'
+    'update_row_data', 'update_obj_data',
+    'is_empty',
 )
 
 console = Console()
@@ -52,6 +53,10 @@ class ProjectUtilsMixin:
                 json.dump(self.project, fd, indent=2, sort_keys=True)
             else:
                 json.dump(self.project, fd, sort_keys=True)
+
+
+def is_empty(value):
+    return value is None or value == ""
 
 
 def find_first(values, f):

@@ -1,4 +1,4 @@
-from cyoa.tools.lib import console, find_first
+from cyoa.tools.lib import console, find_first, is_empty
 from cyoa.tools.patch import PatchBase, patch, PatchContext
 
 
@@ -82,17 +82,29 @@ class FixImageLinks(PatchBase):
     def _patch_image(self, data):
         img_is_url = data.get('imageIsUrl', False)
         img_data: str | None = data.get('image', None)
-        if (img_is_url is False and img_data and
-            img_data.startswith('http')):
-            data['image'] = None
-            del data['imageLink']
-        elif (img_is_url is True and img_data and
-              img_data.startswith('data')):
-            data['image'] = None
-            del data['imageLink']
-        elif (img_is_url is True and img_data and
-              img_data.startswith('http')):
+        img_url: str | None = data.get('imageLink', None)
+
+        # Remove the URL properties if the image is empty
+        if is_empty(img_data):
+            data['image'] = ""
+            data['imageIsUrl'] = False
+            data['imageLink'] = ""
+        # Remove the URL properties if the image URL is empty
+        # Keep the image data as-is
+        elif is_empty(img_url):
+            data['image'] = img_data
+            data['imageIsUrl'] = False
+            data['imageLink'] = ""
+        # Correct imageIsUrl=false but image contains an URL
+        elif img_is_url is False and img_data.startswith("http"):
+            data['image'] = img_data
             data['imageLink'] = img_data
+            data['imageIsUrl'] = True
+        # Correct imageIsUrl=true but image contains data
+        elif img_is_url is True and img_data.startswith("data"):
+            data['image'] = img_data
+            del data['imageIsUrl']
+            del data['imageLink']
 
     @patch(target='row')
     def patch_row(self, row):
