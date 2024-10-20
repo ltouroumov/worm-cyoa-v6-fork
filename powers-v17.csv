@@ -59,6 +59,8 @@ Tier 0 / Lesser Powers,Changer (Colorful Eyes),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker/Trump (Dare to be Stupid),1 SP,N/A
 Tier 0 / Lesser Powers,Brute/Breaker (Efficient Autonomic Systems),1 SP,N/A
 Tier 0 / Lesser Powers,Brute/Changer (Chuck's Distant Cousin),1 SP,N/A
+Tier 0 / Lesser Powers,Striker/Thinker (Book Osmosis),1 SP,N/A
+Tier 0 / Lesser Powers,Breaker/Striker (Clothes),1 SP,N/A
 Tier 1 - Mover,(Mover) Fast as a Hedgehog,2 SP,N/A
 Tier 1 - Mover,(Mover) Flying like a Chicken,2 SP,N/A
 Tier 1 - Mover,(Mover) Rail,2 SP,N/A
@@ -294,6 +296,7 @@ Tier 1 - Master,(Master/Striker) Strings,8 SP,N/A
 Tier 1 - Master,(Master) Kage no Bunshin,8 SP,N/A
 Tier 1 - Master,(Master) Love at First Sight,8 SP,N/A
 Tier 1 - Master,(Master) Hero Worship,8 SP,N/A
+Tier 1 - Master,(Master) Paradox,8 SP,N/A
 Tier 1 - Master,(Master/Stranger) Divine,8 SP,N/A
 Tier 1 - Master,(Master) Detached Shadow ,9 SP,N/A
 Tier 1 - Master,(Master/Striker) Shadow Boxing,9 SP,N/A
@@ -315,6 +318,7 @@ Tier 1 - Master,(Master) It’s The Thought That Counts,10 SP,N/A
 Tier 1 - Master,(Master) Victory's Path,11 SP,N/A
 Tier 1 - Master,(Master/Stranger) Sleeping Guard,11 SP,N/A
 Tier 1 - Master,(Master) Friendbringers,12 SP,N/A
+Tier 1 - Master,(Master/Trump) Open Eyes,12 SP,N/A
 Tier 1 - Master,(Master) Golem,13 SP,N/A
 Tier 1 - Master,(Master/Trump) Specter ,13 SP,N/A
 Tier 1 - Master,(Master) Hive Mind,15 SP,N/A
@@ -532,7 +536,6 @@ Tier 1 - Thinker,(Thinker) Parry,7 SP,N/A
 Tier 1 - Thinker,(Thinker/Blaster) Ricochet,7 SP,N/A
 Tier 1 - Thinker,(Thinker) Twisted World ,7 SP,N/A
 Tier 1 - Thinker,(Thinker) Mental Faculty,7 SP,N/A
-Tier 1 - Thinker,(Thinker) Paradox,8 SP,N/A
 Tier 1 - Thinker,(Thinker) My Eyes are Your Eyes,9 SP,N/A
 Tier 1 - Thinker,(Thinker) Danger Sense,9 SP,N/A
 Tier 1 - Thinker,(Thinker) Discombobulate,9 SP,N/A
@@ -552,6 +555,7 @@ Tier 1 - Thinker,(Thinker/Mover) Pathfinder,15 SP,N/A
 Tier 1 - Thinker,(Thinker) Your Only Move,15 SP,N/A
 Tier 1 - Thinker,(Thinker/Master) Self Image,15 SP,N/A
 Tier 1 - Striker,(Striker) Knockout,1 SP,N/A
+Tier 1 - Striker,(Striker) Futureport,1 SP,N/A
 Tier 1 - Striker,(Striker/Trump) Teddybear,2 SP,N/A
 Tier 1 - Striker,(Striker/Trump) Critical Hit!,2 SP,N/A
 Tier 1 - Striker,(Striker) Hardlight,3 SP,N/A
@@ -637,6 +641,7 @@ Tier 1 - Changer,(Changer/Stranger) Imposter,5 SP,N/A
 Tier 1 - Changer,(Changer/Brute) Cells At Work,5 SP,N/A
 Tier 1 - Changer,(Changer/Brute) Taller,5 SP,N/A
 Tier 1 - Changer,(Changer/Brute) Dinosaur,6 SP,N/A
+Tier 1 - Changer,(Changer/Brute) Expand And Contract ,6 SP,N/A
 Tier 1 - Changer,(Changer/Brute) Armored Skin,6 SP,N/A
 Tier 1 - Changer,(Changer) “Coil”,6 SP,N/A
 Tier 1 - Changer,(Changer/Trump) Kirby,7 SP,N/A
@@ -673,6 +678,7 @@ Tier 1 - Trump,(Trump) Loyal Companion,5 SP,N/A
 Tier 1 - Trump,(Trump) Power Crystallization,5 SP,N/A
 Tier 1 - Trump,(Trump) Resistance Increase,5 SP,N/A
 Tier 1 - Trump,(Trump/Brute) Twice Critical ,5 SP,N/A
+Tier 1 - Trump,(Trump) Bestowal,5 SP,N/A
 Tier 1 - Trump,(Trump) Fae Court,6 SP,N/A
 Tier 1 - Trump,(Trump) Desperation,6 SP,N/A
 Tier 1 - Trump,(Trump) Nope!,6 SP,N/A
@@ -680,6 +686,7 @@ Tier 1 - Trump,(Trump/Changer) Reallocate,6 SP,N/A
 Tier 1 - Trump,(Trump) Ramp,6 SP,N/A
 Tier 1 - Trump,(Trump/Tinker) Enhancer,6 SP| 2 SP,N/A
 Tier 1 - Trump,(Trump) Boosted,6 SP,N/A
+Tier 1 - Trump,(Trump) Active Combat,6 SP,N/A
 Tier 1 - Trump,(Trump) Copycat,7 SP,N/A
 Tier 1 - Trump,(Trump/Shaker) Drain Battery,7 SP,N/A
 Tier 1 - Trump,(Trump) Limit Break,7 SP,N/A
@@ -698,9 +705,9 @@ Tier 1 - Trump,(Trump/Tinker) Enchantment,9 SP| 3 SP,N/A
 Tier 1 - Trump,(Trump) Just the Thing,9 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Gatekeeper,9 SP,N/A
 Tier 1 - Trump,(Trump) Future Figures,9 SP,N/A
+Tier 1 - Trump,(Trump/Thinker) Tuning Field,9 SP,N/A
 Tier 1 - Trump,(Trump) Fluctuation,10 SP,N/A
 Tier 1 - Trump,(Trump) Protective Barrier,10 SP,N/A
-Tier 1 - Trump,(Trump) Bestowal,10 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Power Proxy,10 SP,N/A
 Tier 1 - Trump,(Trump) Power Absorption,10 SP,N/A
 Tier 1 - Trump,(Trump) Immunity,10 SP,N/A
@@ -730,11 +737,13 @@ Tier 1 - Trump,(Trump) Permanent Effect,15 SP,N/A
 Tier 1 - Stranger,(Stranger) Off Record,2 SP,N/A
 Tier 1 - Stranger,"(Stranger) Again, Sherlock?",2 SP,N/A
 Tier 1 - Stranger,(Stranger/Thinker) Call,2 SP,N/A
+Tier 1 - Stranger,(Stranger) Mime,2 SP,N/A
+Tier 1 - Stranger,(Stranger) Corner Creep,2 SP,N/A
 Tier 1 - Stranger,(Stranger) Vocals,3 SP,N/A
 Tier 1 - Stranger,(Stranger) You Are A Dragon And That's Okay,3 SP,N/A
+Tier 1 - Stranger,(Stranger) Invisible Woman,3 SP,N/A
 Tier 1 - Stranger,(Stranger) Stealthy,4 SP,N/A
 Tier 1 - Stranger,(Stranger) Pocket Dimension,5 SP,N/A
-Tier 1 - Stranger,(Stranger) Mime,5 SP,N/A
 Tier 1 - Stranger,(Stranger) Déjà vu,5 SP,N/A
 Tier 1 - Stranger,(Stranger) Average Joe,5 SP,N/A
 Tier 1 - Stranger,(Stranger) Tech Shutdown,5 SP,N/A
@@ -748,7 +757,6 @@ Tier 1 - Stranger,(Stranger/Brute) Cursed Blood,7 SP,N/A
 Tier 1 - Stranger,(Stranger) Hidden Cover ,7 SP,N/A
 Tier 1 - Stranger,(Stranger) Spooky,7 SP,N/A
 Tier 1 - Stranger,(Stranger/Thinker) Taboo,7 SP,N/A
-Tier 1 - Stranger,(Stranger) Invisible Woman,7 SP,N/A
 Tier 1 - Stranger,(Stranger) Skin's Blue,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Shaker) Turtle,8 SP,N/A
 Tier 1 - Stranger,(Stanger/Master) Trend Setter,8 SP,N/A
@@ -758,6 +766,7 @@ Tier 1 - Stranger,(Stranger/Thinker) Discount Genie,9 SP,N/A
 Tier 1 - Stranger,(Stranger) Unnoticeable,10 SP,N/A
 Tier 1 - Stranger,(Stranger) Center of Attention,10 SP,N/A
 Tier 1 - Stranger,(Stranger/Master) Harem Protagonist,10 SP,N/A
+Tier 1 - Stranger,(Stranger/Master) Absolution,10 SP,N/A
 Tier 1 - Stranger,(Stranger) Boring,12 SP,N/A
 Tier 1 - Stranger,(Stranger) Imposter Sus,12 SP,N/A
 Tier 1 - Stranger,(Stranger) Truth,13 SP,N/A
@@ -1048,7 +1057,7 @@ Power Copy,Null,12 SP,N/A
 Power Copy,Nursery,11 SP,N/A
 Power Copy,Nyx,7 SP,N/A
 Power Copy,Ogun,10 SP,N/A
-Power Copy,Oliver,10 SP,N/A
+Power Copy,Oliver,1 SP,N/A
 Power Copy,One,8 SP,N/A
 Power Copy,Operator Red,2 SP,N/A
 Power Copy,Othala,8 SP,N/A
@@ -1302,7 +1311,7 @@ Tier 2 Powers,(Shaker) Baryonic Creation  ,15 SP,N/A
 Tier 2 Powers,(Tinker/Thinker) Gaia's Hand,20 SP| 10 SP,N/A
 Tier 2 Powers,(Tinker/Thinker) Hades Protocol,20 SP| 10 SP,N/A
 Tier 2 Powers,(Tinker/Trump) Tinker of Chance,25 SP| 12 SP,N/A
-Tier 2 Powers,(Master/Thinker) Memetic King,25 SP,N/A
+Tier 2 Powers,(Master/Thinker) Memetic King,20 SP,N/A
 Tier 2 Powers,"(Tinker/Trump) Embrace the Punk, Become PUNK",15 SP| 7 SP,N/A
 Tier 2 Powers,(Trump) Fading Star,25 SP,N/A
 Tier 2 Powers,(Master) Dragon-Mail ,20 SP,N/A
@@ -1346,11 +1355,12 @@ Tier 2 Powers,(Master) God-Chooser,18 SP,N/A
 Tier 2 Powers,(Thinker/Master) Azulhod Playwright,15 SP,N/A
 Tier 2 Powers,(Brute/Striker) Barebones,15 SP,N/A
 Tier 2 Powers,(Shaker/Blaster) Action at a Distance,15 SP,N/A
-Tier 2 Powers,(Trump/Tinker) Conceptual Tinker,25 SP,N/A
+Tier 2 Powers,(Trump/Tinker) Conceptual Tinker,25 SP| 13 SP,N/A
 Tier 2 Powers,(Trump) Earth Power,15 SP,N/A
 Tier 2 Powers,(Shaker/Striker) Rewired Control,18 SP,N/A
 Tier 2 Powers,(Brute/Trump) Anu,25 SP,N/A
-Tier 2 Powers,(Tinker/Breaker) My Many Masks,16 SP,N/A
+Tier 2 Powers,(Tinker/Breaker) My Many Masks,16 SP| 8 SP,N/A
+Tier 2 Powers,(Master/Brute) Degeneration,25 SP,N/A
 Tier 3 Powers,(Trump) Manager,30 SP,N/A
 Tier 3 Powers,(Trump) Oberon,35 SP,N/A
 Tier 3 Powers,(Trump) Prototype,40 SP,N/A
@@ -1398,32 +1408,7 @@ Tier 3 Powers,(Mover/Shaker) Nexus,40 SP,N/A
 Tier 3 Powers,(Thinker/Trump) Hitchhiker’s Guide to the Firmament ,40 SP,N/A
 Tier 3 Powers,(Master/Trump) Endbringer Engine,40 SP,N/A
 Tier 3 Powers,(Changer/Trump) Intra,40 SP,N/A
-Power Upgrades (Shard),Mr. Worldwide,30 SP,Required: Shardless; Required: Queen
-Power Upgrades (Shard),Mr. Universe,10 SP,Required: Mr. Worldwide
-Power Upgrades (Shard),Mr. Multiverse,10 SP,Required: Mr. Worldwide
-Power Upgrades (Shard),[TRIUMPHANT],5 SP,N/A
-Power Upgrades (Shard),Bypass,5 SP,N/A
-Power Upgrades (Shard),New Target Acquired,7 SP,N/A
-Power Upgrades (Shard),A Master’s Servant,15 SP,N/A
-Power Upgrades (Shard),A Master’s Inheritance,10 SP,Required: A Master’s Servant
-Power Upgrades (Shard),I Hope It Haunts You,5 SP,N/A
-Power Upgrades (Shard),Minions,10 SP,N/A
-Power Upgrades (Shard),The Enemy Didn't Ascend Beyond Your Control,15 SP,N/A
-Power Upgrades (Shard),Hecatoncheires,10 SP,N/A
-Power Upgrades (Shard),Charged,10 SP,N/A
-Power Upgrades (Shard),Overclocked,5 SP,N/A
-Power Upgrades (Shard),Best of my Own,15 SP,N/A
-Power Upgrades (Shard),Secondary Powers,5 SP,N/A
-Power Upgrades (Shard),Striker → Shaker,10 SP,N/A
-Power Upgrades (Shard),Newton's Third Law,10 SP,N/A
-Power Upgrades (Shard),Second Sight,7 SP,N/A
-Power Upgrades (Shard),Shard Automation,5 SP,N/A
-Power Upgrades (Shard), Heterodyning,7 SP| 2 SP,N/A
-Power Upgrades (Shard),Shard Spark,3 SP| 1 SP,Required:  Heterodyning
-Power Upgrades (Shard),Tinker Shard Support,5 SP| 2 SP,N/A
-Power Upgrades (Shard),The Minion,-15 SP,N/A
-Power Upgrades (Shard),Learned Permanence,7 SP,N/A
-Power Upgrades (Shard),Shard Feedback,5 SP,N/A
+Tier 3 Powers,(Breaker/Trump) Miraculous,40 SP,N/A
 Power Upgrades (Shard),Singularity ,7 SP| 2 SP,Required: (Tinker/Master) Machine World
 Power Upgrades (Shard),Blessed Flesh,5 SP| 1 SP,Required: (Tinker/Master) Machine World
 Power Upgrades (Shard),Mass Tinkerer,7 SP| 2 SP,Required: (Tinker) Sharing
@@ -1444,9 +1429,6 @@ Power Upgrades (Shard),Permanent Change,5 SP,Required: (Trump) Scramble
 Power Upgrades (Shard),Controlled Tweaking,3 SP,Required: (Trump) Scramble
 Power Upgrades (Shard),"Stolen, Actually",5 SP,Required: (Trump) Nullification Hazard
 Power Upgrades (Shard),Force Elemental,3 SP,Required: (Shaker/Striker) Force Construct
-Power Upgrades (Shard),Parallel Processing,2 SP,Required: Thinker (Multitask)
-Power Upgrades (Shard),Sandevistan,4 SP,Required: Thinker (Bullet Time)
-Power Upgrades (Shard),Auto Battler,4 SP,Required: Thinker/Master (Autopilot)
 Power Upgrades (Shard),Network 2.0,10 SP,Required: (Trump) Network Hub
 Power Upgrades (Shard),Safety First,5 SP,Required: (Tinker/Thinker) Safety
 Power Upgrades (Shard),The Man Of Tomorrow,10 SP| 5 SP,Required: (Tinker) Upcoming Century
@@ -1515,7 +1497,6 @@ Power Upgrades (Shard),Archive of Expressions,2 SP,Required: Remembrance
 Power Upgrades (Shard),Royal Scepter,5 SP,Required: (Master/Trump) Scepter of Power
 Power Upgrades (Shard),Great Mage,5 SP,Required: Myrddin 
 Power Upgrades (Shard),Songbird,7 SP,Required: Canary
-Power Upgrades (Shard),Voice Amplifier,8 SP,Required: Shaker/Master (Speaker)
 Power Upgrades (Shard),Achilles,4 SP| 1 SP,Required: (Tinker) Hyperspecialized
 Power Upgrades (Shard),Automatic Defense ,5 SP,Required: (Thinker) Danger Sense
 Power Upgrades (Shard),Danger Level,3 SP,Required: (Thinker) Danger Sense
@@ -1544,7 +1525,6 @@ Power Upgrades (Shard),Otherworldly Archive,10 SP,Required: (Shaker/Master) Beas
 Power Upgrades (Shard),Wildlife Sanctuary,10 SP,Required: (Shaker/Master) Beasts of Gaia
 Power Upgrades (Shard),Golem Maker,6 SP,Required: (Changer) Golem
 Power Upgrades (Shard),Or Nothing,3 SP,Required: Miss Militia
-Power Upgrades (Shard),Project Radionoise,5 SP,Required: Stranger (Strange Blood)
 Power Upgrades (Shard),Vodou,18 SP,Required: (Blaster) Voodoo
 Power Upgrades (Shard),Controlled Escalation,5 SP,Required: (Trump) Queen of Escalation
 Power Upgrades (Shard),SUPER DUPER MURDER DEATH BEAM,2 SP,Required: (Blaster) Super Murder Death Beams
@@ -1586,6 +1566,7 @@ Power Upgrades (Shard),Enlistment,6 SP,Required: (Blaster/Tinker) Weapons Platfo
 Power Upgrades (Shard),Adoration,5 SP,Required: (Master) Hero Worship
 Power Upgrades (Shard),Solar Collapse,16 SP,Required: Sundancer
 Power Upgrades (Shard),Nat 20,3 SP,Required: (Striker/Trump) Critical Hit!
+Power Upgrades (Shard),Feat: Lucky,1 SP,Required: (Striker/Trump) Critical Hit!
 Power Upgrades (Shard),Critically critical!,1 SP,Required: (Striker/Trump) Critical Hit!
 Power Upgrades (Shard),Stronger Side of The Coin,6 SP,Required: (Breaker/Trump) Other Side of the Coin
 Power Upgrades (Shard),Another Side Of The Coin,6 SP,Required: (Breaker/Trump) Other Side of the Coin
@@ -1601,7 +1582,6 @@ Power Upgrades (Shard),Higher Manifestation,3 SP,Required: (Trump) Idle Manifest
 Power Upgrades (Shard),Leveled Manifestation,5 SP,Required: (Trump) Idle Manifestation
 Power Upgrades (Shard),Group Finder,10 SP,Required: (Thinker) Looking for More
 Power Upgrades (Shard),Cask of Amontillado,2 SP,Required: (Stranger) Magician
-Power Upgrades (Shard),Spider’s Web,7 SP,Required: Striker (Thwip!)
 Power Upgrades (Shard),Multi-Variable Tinker,10 SP| 3 SP,Required: (Tinker/Trump) Variable Tinker
 Power Upgrades (Shard),Face to Face,4 SP,Required: (Stranger/Thinker) Call
 Power Upgrades (Shard),Weight of the Sky,10 SP,Required: (Brute) Do you even lift?
@@ -1611,8 +1591,6 @@ Power Upgrades (Shard),Mundane Savant,4 SP| 1 SP,Required: (Tinker) Jack of All 
 Power Upgrades (Shard),Amon Syndrome,2 SP,Required: (Master) Kage no Bunshin
 Power Upgrades (Shard),Set Bonuses,4 SP,Required: (Trump) Aliena
 Power Upgrades (Shard),Promethium Vitae,13 SP,Required: (Brute/Blaster) Boiling Blood
-Power Upgrades (Shard),Combat Meditation,2 SP,Required: Brute/Breaker (Power Nap)
-Power Upgrades (Shard),Dream Stasis ,2 SP,Required: Brute/Breaker (Power Nap)
 Power Upgrades (Shard),Parry This You Filthy Casual,3 SP,Required: (Thinker) Parry
 Power Upgrades (Shard),Combo Combo Combo,6 SP,Required: (Striker) Combo
 Power Upgrades (Shard),Forced Re-Spec,7 SP,Required: (Blaster/Master) Skill Reallocation
@@ -1665,6 +1643,13 @@ Power Upgrades (Shard),Reverse Cannibalism  ,9 SP,Required: Jonathan Miller
 Power Upgrades (Shard),Facing Inner Demons,2 SP,Required: (Trump) Desperation
 Power Upgrades (Shard),Pressure Hull,6 SP,Required: (Brute) Airtight
 Power Upgrades (Shard),Reversed Roles,3 SP,Required: (Trump) Loyal Companion
+Power Upgrades (Shard),Money Grows On Trees,2 SP,Required: Gibbet
+Power Upgrades (Shard),Patronage,5 SP,Required: (Trump) Bestowal
+Power Upgrades (Shard),"Veni, Vidi, Vici",7 SP,Required: Kingdom Come
+Power Upgrades (Shard),You Can’t Kill An Idea,3 SP,Required: (Master/Thinker) Memetic King
+Power Upgrades (Shard),Unseen Under The Mist,6 SP,Required: (Shaker/Stranger) The Mist of London Night
+Power Upgrades (Shard),Will O' Wisp,2 SP,Required: (Master/Trump) Specter 
+Power Upgrades (Shard),Walking Afterlife,40 SP,Required: (Trump) Faerie Queen
 Power Fusions (Shard),Biobringer,10 SP,Required: (Changer) Self-Biokinesis
 Power Fusions (Shard),Tsundere,5 SP,Required: (Striker/Brute) Stop! Hammer Time.; Required: (Brute/Striker) Captain America
 Power Fusions (Shard),Gate of Babylon,10 SP,Required: (Shaker/Blaster) Bag of Holding; Required: (Trump/Tinker) Enchantment
@@ -1703,7 +1688,6 @@ Power Fusions (Shard),Ward Master,5 SP,Required: (Trump) Arcanist; Required: (Tr
 Power Fusions (Shard),The Life Maker,5 SP| 2 SP,Required: (Trump/Tinker) Alchemist; Required: (Trump/Tinker) Artificer
 Power Fusions (Shard),Four is a Party,10 SP,Required: (Trump) Gamer System; Required: (Trump) Soulmate
 Power Fusions (Shard),Sole Looper,3 SP,Required: (Thinker) Time-Loop
-Power Fusions (Shard),Circus Acrobatics,2 SP,Required: Thinker/Mover (Graceful); Required: Changer (Contortionist)
 Power Fusions (Shard),Optimal Choice,4 SP,Required: (Thinker) Schrodinger; Required: (Thinker) Glimpse
 Power Fusions (Shard),5 Coiling Serpents,4 SP,Required: (Thinker) Schrodinger
 Power Fusions (Shard),Animal Friends,5 SP,Required: (Master) Spirit Animal; Required: (Master) Friendbringers
@@ -1821,10 +1805,12 @@ Power Fusions (Shard),Master of the Hidden Veil,6 SP,Required: (Mover/Thinker) I
 Power Fusions (Shard),Synthesis Forge,11 SP,Required: Set Bonuses; Required: (Trump/Tinker) Conceptual Tinker
 Power Fusions (Shard),Harvester ,4 SP,Required: (Trump) Faerie Queen; Required: (Thinker) Simulacrum Advisor
 Power Fusions (Shard),Death Parade,25 SP,Required: (Trump/Master) Butcher; Required: (Trump) Faerie Queen
-Power Fusions (Shard),Cellular Robustness,3 SP,Required: Brute (Genetic Template); Required: Brute/Breaker (Efficient Autonomic Systems)
 Power Fusions (Shard),Moult,5 SP,Required: (Changer/Trump) Metamorphosis; Required: The Flower of the Hecatomb
 Power Fusions (Shard),The Heartbroken,3 SP,Required: Aroa Vasil; Required: Chastity Vasil; Required: Florence Vasil; Required: Guillaume Vasil; Required: Juliette Vasil; Required: Nicholas Vasil; Required: Roman Vasil; Required: Samuel Vasil; Required: Heartbreaker
 Power Fusions (Shard),Resilience,3 SP,Required: (Trump) Resistance Increase
+Power Fusions (Shard),Mechanical Deus,2 SP,Required: Ogun; Required: (Tinker/Master) Machine World
+Power Fusions (Shard),Hyakki Yagyō,6 SP,Required: (Thinker) A Thousand Souls ; Required: I Hope It Haunts You
+Power Fusions (Shard),Deep Blue Star,3 SP,Required: Ligeia; Required: Tentacles Everywhere
 Power Fusions (Shard),,,N/A
 Power Fusions (Shard),Unlimited Trump Works,15 SP,Required: (Trump) Manager; Required: (Trump) Prototype; Required: (Trump) Shard Supply Store 
 Power Fusions (Shard),Imperator,5 SP,Required: (Trump) Aliena; Required: Cleave and Lacerate
@@ -1886,6 +1872,7 @@ Physical Powers,Whirlwind Iron Cutting Fist (One Punch Man),10 SP,N/A
 Physical Powers,Water Stream Rock Smashing Fist (One Punch Man),10 SP,N/A
 Physical Powers,Master Martial Artist (One Punch Man),10 SP,N/A
 Physical Powers,(Future) Dominator of the Universe! (One Punch Man),15 SP,N/A
+Physical Powers,Metal Bat (One Punch Man),15 SP,N/A
 Physical Powers,Heracles Style Nine Lives: Shooting the Hundred Heads (Type-Moon),20 SP,N/A
 Physical Powers,God Hand: The Twelve Labors (Type-Moon),20 SP,N/A
 Physical Powers,Innocent Monster (Type-Moon),5 SP,N/A
@@ -1920,11 +1907,13 @@ Physical Powers,Androids (Dragon Ball Series),45 SP| 20 SP,N/A
 Physical Powers,Bio-Android (Dragon Ball Series),30 SP,N/A
 Physical Powers,Majin (Dragon Ball Series),50 SP,N/A
 Physical Powers,Namekian (Dragon Ball Series),15 SP,N/A
+Physical Powers,Tuffleization (Dragon Ball Series),40 SP,N/A
 Physical Powers,"Mew, too (Pokémon)",20 SP,N/A
 Physical Powers,"Aliens Are Real, And They Turned Me Into A Robot! (Inuyashiki)",15 SP,N/A
 Physical Powers,Fel Blood (Warcraft),10 SP,N/A
 Physical Powers,Adeptus Astartes (40k),8 SP,N/A
 Physical Powers,Perpetual (40k),35 SP| 5 SP,N/A
+Physical Powers,Navigator (40k),30 SP,N/A
 Physical Powers,Quirk (My Hero Academia),10 SP,N/A
 Physical Powers,Nova (Trinity Continuum),40 SP,N/A
 Physical Powers,Half-Ghost (Danny Phantom),15 SP,N/A
@@ -2062,6 +2051,13 @@ Physical Powers,Reploid (Megaman X),15 SP,N/A
 Physical Powers,Aletheia (Type-Moon),60 SP,N/A
 Physical Powers,Dead Apostle (Type-Moon),10 SP,N/A
 Physical Powers,Incubator (Puella Magi Madoka☆Magica),25 SP,N/A
+Physical Powers,Terran (Arknights),9 SP,N/A
+Physical Powers,Teekaz (Arknights),10 SP,N/A
+Physical Powers,Crystal King (Godzilla),40 SP,N/A
+Physical Powers,The Oxygen Destroyer Incarnate (Godzilla),40 SP,N/A
+Physical Powers,Borisin (Honkai: Star Rail),11 SP,N/A
+Physical Powers,Heavenly Restriction (Jujustu Kaisen),8 SP,N/A
+Physical Powers,Twin Guardian Deities of Earth (Godzilla),20 SP,N/A
 Mental and Psychic Powers,Wifi,4 SP,N/A
 Mental and Psychic Powers,MUSE,5 SP,N/A
 Mental and Psychic Powers,Imagination Power (Baki the Grappler),3 SP,N/A
@@ -2118,7 +2114,7 @@ Mental and Psychic Powers,Mind's Eye,3 SP,N/A
 Mental and Psychic Powers,Heir of Caesar,8 SP,N/A
 Mental and Psychic Powers,Autobattler,10 SP,N/A
 Mental and Psychic Powers,"Villainess? - No, I'm Totally The Heroine! (Villain Initialization)",20 SP,N/A
-Mental and Psychic Powers,Archive ,8 SP,N/A
+Mental and Psychic Powers,Archive ,5 SP,N/A
 Mental and Psychic Powers,Thousand Image Defense (Record of Ragnarok),10 SP,N/A
 Mental and Psychic Powers,Disastrous Life (The Disastrous Life of Saiki K),60 SP,N/A
 Mental and Psychic Powers,Normality Restoration (Madness Combat),15 SP,N/A
@@ -2141,6 +2137,7 @@ Mental and Psychic Powers,The Brotherhood (Assassins Creed),6 SP,N/A
 Mental and Psychic Powers,Seamless Sublimity (Second Coming of Gluttony),10 SP,N/A
 Mental and Psychic Powers,Vibe (CW Flash),10 SP,N/A
 Mental and Psychic Powers,Mind Beyond Matter,7 SP,N/A
+Mental and Psychic Powers,Aether Editing (Honkai: Star Rail),25 SP,N/A
 Magic and Mystic Powers,Magik,5 SP,N/A
 Magic and Mystic Powers,Grimnir (Magicka),17 SP,N/A
 Magic and Mystic Powers,Magician (Raildex),15 SP,N/A
@@ -2157,7 +2154,7 @@ Magic and Mystic Powers,Shadow Magic (Warcraft),10 SP,N/A
 Magic and Mystic Powers,Nature Magic (Warcraft),10 SP,N/A
 Magic and Mystic Powers,Death Magic (Warcraft),10 SP,N/A
 Magic and Mystic Powers,Fel Magic (Warcraft),10 SP,N/A
-Magic and Mystic Powers,Runic Magic (Warcraft),20 SP,N/A
+Magic and Mystic Powers,Runic Magic (Warcraft),15 SP,N/A
 Magic and Mystic Powers,Arcanist (Kingkiller Chronicles),12 SP,N/A
 Magic and Mystic Powers,Allomancy (Mistborn),10 SP,N/A
 Magic and Mystic Powers,Feruchemy (Mistborn),10 SP,N/A
@@ -2183,6 +2180,7 @@ Magic and Mystic Powers,Mystic Eyes of Petrification (Type-Moon),25 SP,N/A
 Magic and Mystic Powers,Gates of Babylon (Type-Moon),40 SP,N/A
 Magic and Mystic Powers,Summoner (Type-Moon),30 SP,N/A
 Magic and Mystic Powers,Spin the Gacha,30 SP,N/A
+Magic and Mystic Powers,Caption Curse (Type-Moon),3 SP,N/A
 Magic and Mystic Powers,Prism (Lightbringer),20 SP,N/A
 Magic and Mystic Powers,Elder Blood (The Witcher),20 SP,N/A
 Magic and Mystic Powers,Libriomancy,30 SP,N/A
@@ -2264,6 +2262,7 @@ Magic and Mystic Powers,I’Cie (Final Fantasy XII),10 SP,N/A
 Magic and Mystic Powers,"Tier Magic, kupo! (Final Fantasy)",10 SP,N/A
 Magic and Mystic Powers,Homo Magi (DC Comics),15 SP,N/A
 Magic and Mystic Powers,Logomancy (DC Comics),15 SP| 5 SP,N/A
+Magic and Mystic Powers,Atlantean Magic (DC Comics),10 SP,N/A
 Magic and Mystic Powers,Skinchanger (A Song of Ice and Fire),5 SP,N/A
 Magic and Mystic Powers,Blood Magic (A Song of Ice and Fire),10 SP,N/A
 Magic and Mystic Powers,Sorcery (Sorcerer’s Apprentice),10 SP,N/A
@@ -2308,6 +2307,9 @@ Magic and Mystic Powers,Wakfu (Dofus),15 SP,N/A
 Magic and Mystic Powers,Negative Energy (World Tree Online),15 SP,N/A
 Magic and Mystic Powers,Apprentice (Bartimaeus Sequence),10 SP,N/A
 Magic and Mystic Powers,Holy Magic (I was reincarnated as the 7th prince),10 SP,N/A
+Magic and Mystic Powers,Summoning Ceremony (The Unexplored Summon://Blood Sign),40 SP,N/A
+Magic and Mystic Powers,Sailor Guardian (Sailor Moon),20 SP,N/A
+Magic and Mystic Powers,Divination,10 SP,N/A
 Magic and Mystic Powers,,,N/A
 Magic and Mystic Powers,Heart of Runes,25 SP,N/A
 Magic and Mystic Powers,Art of the Other,25 SP,N/A
@@ -2404,7 +2406,7 @@ Spiritual and Divine Powers,Yuki Onna,20 SP,N/A
 Spiritual and Divine Powers,Hellspawn (Image Comics),35 SP,N/A
 Spiritual and Divine Powers,Seraph (Seraph of the End),20 SP,N/A
 Spiritual and Divine Powers,Guardian of A Peaceful World (Idaten) ,30 SP,N/A
-Spiritual and Divine Powers,Reincarnation ,15 SP,N/A
+Spiritual and Divine Powers,Reincarnation ,10 SP,N/A
 Spiritual and Divine Powers,Animal Spirit ,10 SP,N/A
 Spiritual and Divine Powers,Familiar Contract,15 SP,N/A
 Spiritual and Divine Powers,Power of Dominance (Castlevania),20 SP,N/A
@@ -2459,6 +2461,11 @@ Spiritual and Divine Powers,Soul Weaver,10 SP,N/A
 Spiritual and Divine Powers,Prosthetic Spirit,8 SP,N/A
 Spiritual and Divine Powers,Kung Fu (Kung Fu Panda),10 SP,N/A
 Spiritual and Divine Powers,Ride Of The Valkyries (God Of War),30 SP,N/A
+Spiritual and Divine Powers,Elemental Master (LEGO Ninjago),10 SP,N/A
+Spiritual and Divine Powers,The Right of Return (Chronicles of Darkness - Mummy: The Curse),20 SP,N/A
+Spiritual and Divine Powers,Remade (Chronicles of Darkness - Deviant: The Renegades),1 SP,N/A
+Spiritual and Divine Powers,Uratha: Child of Luna (Chronicles of Darkness - Werewolf: The Forsaken),15 SP,N/A
+Spiritual and Divine Powers,Across the Abyss (Raildex),25 SP,N/A
 Technology and Artifice Powers,Artificer (D&D),5 SP,Required: Arcane Magic (D&D/Pathfinder); Required: Psionics (D&D); Required: Occult Magic (Pathfinder)
 Technology and Artifice Powers,Phyrexian Praetor (Magic: The Gathering),20 SP,N/A
 Technology and Artifice Powers,The Tinker Toolbox,6 SP,N/A
@@ -2471,7 +2478,7 @@ Technology and Artifice Powers,Adeptus Mechanicus (40k),15 SP| 0 SP,N/A
 Technology and Artifice Powers,Gene-Seed (40k),10 SP,N/A
 Technology and Artifice Powers,Cryptek (40k),35 SP,N/A
 Technology and Artifice Powers,Ork Mekboy (40k),10 SP,Required: WAAAGH! Energy (40k)
-Technology and Artifice Powers,Asuryani (40k),15 SP,Required: Alpha-Class Psyker (40k); Required: Alpha Plus-Class Psyker (40k)
+Technology and Artifice Powers,Asuryani (40k),15 SP,Required: Beta-Class Psyker (40k); Required: Alpha-Class Psyker (40k); Required: Alpha Plus-Class Psyker (40k)
 Technology and Artifice Powers,Jokaero Savant (40k),15 SP,N/A
 Technology and Artifice Powers,Deus Est Machina (40k),25 SP,N/A
 Technology and Artifice Powers,Daemon of Innovation (40k),30 SP| 20 SP,N/A
@@ -2484,7 +2491,7 @@ Technology and Artifice Powers,Carcass Forging,12 SP,N/A
 Technology and Artifice Powers,Infusionist (Monster Hunter),10 SP,N/A
 Technology and Artifice Powers,Rememberances (Elden Ring),10 SP,N/A
 Technology and Artifice Powers,Cyberpunk 2077 (Cyberpunk),8 SP,N/A
-Technology and Artifice Powers,The Ingenuity To End The Eternal War (No Game No Life) ,15 SP,N/A
+Technology and Artifice Powers,The Ingenuity To End The Eternal War (No Game No Life),15 SP,N/A
 Technology and Artifice Powers,E.G.O. (Lobotomy Corporation),10 SP,N/A
 Technology and Artifice Powers,Project GAIA (Horizon Zero Dawn),8 SP,N/A
 Technology and Artifice Powers,Talos I (Prey),10 SP,N/A
@@ -2508,7 +2515,7 @@ Technology and Artifice Powers,Science Team (Portal/Half Life),15 SP,N/A
 Technology and Artifice Powers,YoRHa (Nier/Nier Automata),15 SP,N/A
 Technology and Artifice Powers,EXODUS (Fafner In The Azure),15 SP,N/A
 Technology and Artifice Powers,Cradle of Extinction (Armored Core),15 SP,N/A
-Technology and Artifice Powers,The Living Legacy (Humanity Lost) ,15 SP,N/A
+Technology and Artifice Powers,The Living Legacy (Humanity Lost),15 SP,N/A
 Technology and Artifice Powers,Anomaly Infusion,15 SP,N/A
 Technology and Artifice Powers,Korok Warcrimes (TLoZ),17 SP,N/A
 Technology and Artifice Powers,Uber Ethereal (XCOM),20 SP,N/A
@@ -2542,7 +2549,7 @@ Technology and Artifice Powers,The Godclads,20 SP,N/A
 Technology and Artifice Powers,Atlantic (Atlantis: The Lost Empire),12 SP,N/A
 Technology and Artifice Powers,Galactic (Treasure Planet),15 SP,N/A
 Technology and Artifice Powers,Devil Arm Creation (Devil May Cry),5 SP| 10 SP,N/A
-Technology and Artifice Powers,Visionary (Mashle) ,15 SP| 10 SP,N/A
+Technology and Artifice Powers,Visionary (Mashle),15 SP| 10 SP,N/A
 Technology and Artifice Powers,The Villain's Reversal (Villain Initialization),18 SP,N/A
 Technology and Artifice Powers,Admiralty Code (Arpeggio of Blue Steel),15 SP,N/A
 Technology and Artifice Powers,Hyperion (Borderlands),25 SP,N/A
@@ -2553,8 +2560,7 @@ Technology and Artifice Powers,The Arsenal Initiative (Call of Duty),15 SP,N/A
 Technology and Artifice Powers, ORION ARM Tech Tree (Orion's Arm),4 SP,N/A
 Technology and Artifice Powers,Mad Science! (Chronicles of Darkness fanon - Genius: The Transgression),20 SP,N/A
 Technology and Artifice Powers,Designs of the God-Machine (Chronicles of Darkness - Demon: the Descent),30 SP,N/A
-Technology and Artifice Powers,The Enginseer (Adventure Of Conrad Stargard) ,30 SP| 15 SP,N/A
-Technology and Artifice Powers,Chemical X-Pertise (Powerpuff Girls),20 SP,N/A
+Technology and Artifice Powers,The Enginseer (Adventure Of Conrad Stargard),30 SP| 15 SP,N/A
 Technology and Artifice Powers,Intergalactic Exploration (Stellaris),25 SP,N/A
 Technology and Artifice Powers,Kestrel (FTL: Faster Than Light),15 SP,N/A
 Technology and Artifice Powers,Planetary Union (The Orville),15 SP,N/A
@@ -2568,10 +2574,10 @@ Technology and Artifice Powers,Halfmad Mechanism (Chain of Isekai),10 SP,N/A
 Technology and Artifice Powers,Food Rain (Cloudy with a Chance of Meatballs),10 SP,N/A
 Technology and Artifice Powers,Sacred Scrolls (Battlestar Galactica),15 SP,N/A
 Technology and Artifice Powers,The Fifth Race (Stargate),20 SP| 15 SP,N/A
-Technology and Artifice Powers,Aincrad (SAO),10 SP,N/A
+Technology and Artifice Powers,Aincrad (SAO),5 SP,N/A
 Technology and Artifice Powers,Franz Hopper (Code Lyoko),15 SP,N/A
 Technology and Artifice Powers,Envoy (Altered Carbon),15 SP,N/A
-Technology and Artifice Powers,"Explore, Expand, Exploit and Exterminate (Factorio & Satisfactory) ",15 SP,N/A
+Technology and Artifice Powers,"Explore, Expand, Exploit and Exterminate (Factorio & Satisfactory)",15 SP,N/A
 Technology and Artifice Powers,Treasure Tools Creation,30 SP,N/A
 Technology and Artifice Powers,The Domain of Man (Starsector),20 SP,N/A
 Technology and Artifice Powers,Solo Nobre Concern (Brigador/Ma.K),10 SP,N/A
@@ -2594,10 +2600,10 @@ Technology and Artifice Powers,Celestia (Genshin Impact),10 SP,N/A
 Technology and Artifice Powers,The Seed of Knowledge (NGE),15 SP,N/A
 Technology and Artifice Powers,Rapture Science (BioShock),15 SP,N/A
 Technology and Artifice Powers,Ghost in the Machine,20 SP,N/A
-Technology and Artifice Powers,The Tale of This Star (Final Fantasy XIV) ,25 SP,N/A
+Technology and Artifice Powers,The Tale of This Star (Final Fantasy XIV),25 SP,N/A
 Technology and Artifice Powers,Academy City (Raildex),20 SP,N/A
 Technology and Artifice Powers,Titanic Legends (Apex Legends/Titanfall),15 SP,N/A
-Technology and Artifice Powers,Relic Technology (Girls Frontline),15 SP,N/A
+Technology and Artifice Powers,Relic Technology (Girls Frontline),7 SP,N/A
 Technology and Artifice Powers,House of Evolution (One Punch Man),20 SP,N/A
 Technology and Artifice Powers,Caveman Wisdom,5 SP,N/A
 Technology and Artifice Powers,Automail (FMA),5 SP,N/A
@@ -2610,7 +2616,7 @@ Technology and Artifice Powers,Improbable Projects (Madness Combat),80 SP,N/A
 Technology and Artifice Powers,Shipment (Technological Transdimensional Turbulence),4 SP,N/A
 Technology and Artifice Powers,[Resource] (Technological Transdimensional Turbulence),8 SP,N/A
 Technology and Artifice Powers,Foundation X (Kamen Rider),30 SP,N/A
-Technology and Artifice Powers,Wöden’s Blood (Über) ,5 SP,N/A
+Technology and Artifice Powers,Wöden’s Blood (Über),5 SP,N/A
 Technology and Artifice Powers,Street Technomancer,12 SP,N/A
 Technology and Artifice Powers,Tesla’s Legacy (Iron Harvest),5 SP,N/A
 Technology and Artifice Powers,Theriomorphosis Surgery (Killing Bites),8 SP,N/A
@@ -2618,7 +2624,7 @@ Technology and Artifice Powers,Mann Co. (Team Fortress 2),25 SP,N/A
 Technology and Artifice Powers,Mind of Yggdrasil (Overlord),20 SP,Required: Magitech
 Technology and Artifice Powers,Plague Inc. (Plague Inc.),10 SP,N/A
 Technology and Artifice Powers,Smart Tech (Invincible),30 SP,N/A
-Technology and Artifice Powers,The Man Who Was As Though Satan (Shinza Bansho) ,30 SP,N/A
+Technology and Artifice Powers,The Man Who Was As Though Satan (Shinza Bansho),30 SP,N/A
 Technology and Artifice Powers,Fazbear Entertainment (Five Nights at Freddy's),12 SP,N/A
 Technology and Artifice Powers,First Thinker (Ben 10),40 SP,N/A
 Technology and Artifice Powers,22nd Century (Doraemon),40 SP,N/A
@@ -2630,6 +2636,12 @@ Technology and Artifice Powers,Extraordinary Pattern Law Talent (A Regressor's T
 Technology and Artifice Powers,Cultural Database (The Culture),35 SP,N/A
 Technology and Artifice Powers,The Dark Forest (Remembrance of Earth's Past),20 SP,N/A
 Technology and Artifice Powers,Bug Hunt (Starship Troopers/Aliens vs Predator/Alien Swarm/Helldivers/Earth Defense Force),20 SP,N/A
+Technology and Artifice Powers,Alchemy of the Divine Fire (Chronicles of Darkness - Promethean the Created),10 SP,N/A
+Technology and Artifice Powers,Godcraft,30 SP,N/A
+Technology and Artifice Powers,Manpower Maker,5 SP,N/A
+Technology and Artifice Powers,Koprulu sector Database (Starcraft),20 SP,N/A
+Technology and Artifice Powers,Cybertronian Tech Mastery (Transformers),20 SP,N/A
+Technology and Artifice Powers,Dreams of a Flying Iron Fortress (Mazinger Z),20 SP,N/A
 Esoteric and Abstract Powers,Multiversal Chatgroup,5 SP,N/A
 Esoteric and Abstract Powers,Multiversal Marketplace,10 SP,N/A
 Esoteric and Abstract Powers,The Humble Merchant,10 SP,N/A
@@ -2676,7 +2688,7 @@ Esoteric and Abstract Powers,Perfect Host,25 SP,N/A
 Esoteric and Abstract Powers,Champion of the World Eater (Marvel),65 SP,N/A
 Esoteric and Abstract Powers,Tenno (Warframe),25 SP,N/A
 Esoteric and Abstract Powers,Laplace Factor (Mushoku Tensei),10 SP,N/A
-Esoteric and Abstract Powers,Battle Aura (Mushoku Tensei),12 SP,N/A
+Esoteric and Abstract Powers,Battle Aura (Mushoku Tensei),10 SP,N/A
 Esoteric and Abstract Powers,Voice of the World (Tensura),10 SP| 0 SP,N/A
 Esoteric and Abstract Powers,True Dragon (Tensura),60 SP,N/A
 Esoteric and Abstract Powers,Degenerate (Tensura),15 SP,N/A
@@ -2773,7 +2785,6 @@ Esoteric and Abstract Powers,Thou Shalt Not Die (BUNGO STRAY DOGS),10 SP,N/A
 Esoteric and Abstract Powers,Mirror Lion (BUNGO STRAY DOGS),15 SP,N/A
 Esoteric and Abstract Powers,Black Cat in the Rue Morgue (BUNGO STRAY DOGS),15 SP,N/A
 Esoteric and Abstract Powers,The Great Fitzgerald (BUNGO STRAY DOGS),15 SP,N/A
-Esoteric and Abstract Powers,Able (SCP Foundation),15 SP,N/A
 Esoteric and Abstract Powers,Animal Tamer,5 SP,N/A
 Esoteric and Abstract Powers,Object Resonance,5 SP,N/A
 Esoteric and Abstract Powers,Farmer,10 SP,N/A
@@ -2796,6 +2807,8 @@ Esoteric and Abstract Powers,Cathulhu (Battle Cats),15 SP,N/A
 Esoteric and Abstract Powers,Quantum Strings (Marvel),40 SP,N/A
 Esoteric and Abstract Powers,Most Known Game (Minecraft),20 SP,N/A
 Esoteric and Abstract Powers,Gravity Manipulation,5 SP,N/A
+Esoteric and Abstract Powers,Light Side (Magical Girl ☆Sym-tan☆),15 SP,N/A
+Esoteric and Abstract Powers,Dark Side (Magical Girl ☆Sym-tan☆),15 SP,N/A
 Esoteric and Abstract Powers,The Symbol Brigade (Magical Girl ☆Sym-tan☆),60 SP,N/A
 Esoteric and Abstract Powers,CLOWN KILLS YOU (Madness Combat),25 SP,N/A
 Esoteric and Abstract Powers,Petrichor V Survivor (Risk of Rain),35 SP,N/A
@@ -2847,8 +2860,15 @@ Esoteric and Abstract Powers,Roleplayer: Ritualist,15 SP,N/A
 Esoteric and Abstract Powers,Everywhere and Nowhere (Hellsing),30 SP,N/A
 Esoteric and Abstract Powers,Emotional Avatar (DC Comics),80 SP,N/A
 Esoteric and Abstract Powers,Algea,10 SP,N/A
+Esoteric and Abstract Powers,Essence of Darkness (Undertale),20 SP,N/A
+Esoteric and Abstract Powers,Essence of Light (Undertale),20 SP,N/A
+Esoteric and Abstract Powers,Roleplayer: True Mother,15 SP,N/A
+Esoteric and Abstract Powers,Solver Drone (Murder Drones),25 SP,N/A
+Esoteric and Abstract Powers,Hidden Strength,3 SP,N/A
+Esoteric and Abstract Powers,Mythical Creature Form,40 SP,N/A
 Esoteric and Abstract Powers,,,N/A
 Esoteric and Abstract Powers,Heir of an Echo,50 SP,N/A
+Esoteric and Abstract Powers,Street Stalker,12 SP,N/A
 Ascension Path,Dragon,30 SP,N/A
 Ascension Path,Fae,20 SP,N/A
 Ascension Path,Vampire Lord,15 SP,N/A
@@ -2868,6 +2888,7 @@ Ascension Path,Basilisk,20 SP,N/A
 Ascension Path,Nascent Divine,80 SP,N/A
 Ascension Path,Aberration,30 SP,N/A
 Ascension Path,Virus,20 SP,N/A
+Ascension Path,Elemental Spirit,15 SP,N/A
 Foundation Powers,Gamer System,20 SP,N/A
 Foundation Powers,Dynamist Jr.,20 SP,N/A
 Foundation Powers,Tinker of Fiction,25 SP,N/A
@@ -2922,6 +2943,8 @@ Foundation Powers,Roleplayer: Feat System,10 SP,N/A
 Foundation Powers,Centre of the Breach,10 SP,N/A
 Foundation Powers,The Honored One,20 SP,N/A
 Foundation Powers,Roots of Life,18 SP,N/A
+Foundation Powers,Mystery Slayer (Type-Moon),10 SP,N/A
+Foundation Powers,Power of a Human Sacrifice ,15 SP,N/A
 Keystone Powers,Path of the Worldwalker,,N/A
 Keystone Powers,World-Walker,25 SP,N/A
 Keystone Powers,Elder World-Walker,35 SP,Required: World-Walker
@@ -3051,6 +3074,9 @@ Objects of Power,Magitek Planisphere,10 SP,N/A
 Objects of Power,The Golden Elixir,10 SP,N/A
 Objects of Power,Mage's Trappings,5 SP,N/A
 Objects of Power,Master-craft Adventurer’s Armor,10 SP,N/A
+Objects of Power,Dimensional Cage,35 SP,N/A
+Objects of Power,A Certified Good Boi (or Girl),5 SP,N/A
+Objects of Power,The Crown Of One,10 SP,N/A
 Objects of Power,Wargear (40k),5 SP,Required: Adeptus Mechanicus (40k); Required: Beta-Class Psyker (40k); Required: Adeptus Astartes (40k)
 Objects of Power,Finn Sword (Adventure Time),5 SP,N/A
 Objects of Power,The Emperor's Regalia (Air Gear),15 SP,N/A
@@ -3148,6 +3174,7 @@ Objects of Power,RX-78-2 Gundam (Gundam),12 SP,N/A
 Objects of Power,Guyver Unit (Guyver),11 SP,N/A
 Objects of Power,Blade of Tathagata (The God of High School),15 SP| 5 SP,N/A
 Objects of Power,Robe of the Sage (The God of High School),15 SP| 5 SP,N/A
+Objects of Power,Kiryu (Godzilla),20 SP,N/A
 Objects of Power,Mjolnir (God of War),20 SP,N/A
 Objects of Power,Draupnir Spear (God Of War),15 SP,N/A
 Objects of Power,Blades of Chaos (God of War),20 SP,N/A
@@ -3184,6 +3211,7 @@ Objects of Power,World Rune (League of Legends),30 SP,N/A
 Objects of Power,Doran's Ring (League of Legends),5 SP,N/A
 Objects of Power,Evolution Cube (Legendary Mechanic),15 SP,N/A
 Objects of Power,NZT-48 (Limitless),6 SP,N/A
+Objects of Power,Corpse Cathedral (Lord of The Mysteries),25 SP,N/A
 Objects of Power,Trunsoest Brass Book (Lord of Mysteries),15 SP,N/A
 Objects of Power,Seedlings of the Trees (Lord of The Rings),25 SP,N/A
 Objects of Power,The One Ring (Lord of the Rings),20 SP,N/A
@@ -3204,6 +3232,7 @@ Objects of Power,Mandarin Rings (Marvel),25 SP,N/A
 Objects of Power,Sentinel (Marvel),20 SP,N/A
 Objects of Power,Soulsword (Marvel),15 SP,N/A
 Objects of Power,Totems of the Octessence (Marvel),40 SP,N/A
+Objects of Power,Sword of Might and Amulet of Right (Marvel),30 SP,N/A
 Objects of Power,Kamar-Taj (MCU),25 SP,N/A
 Objects of Power,Helicarrier (MCU),15 SP,N/A
 Objects of Power,Normandy SR-2 (Mass Effect),10 SP,N/A
@@ -3223,6 +3252,7 @@ Objects of Power,Page from the Book of Life (Neon White),12 SP,N/A
 Objects of Power,Discount Longinus (NGE Anima Jump),10 SP| 5 SP,N/A
 Objects of Power,Keel Lorenz’s Visor (NGE Anima Jump),7 SP,N/A
 Objects of Power,Autonomous Assault Ark Wunder (NGE),20 SP,N/A
+Objects of Power,YoRHa Pod (NieR Automata),5 SP,N/A
 Objects of Power,Curoch and Iures (Night Angel),40 SP,N/A
 Objects of Power,Devil Fruit (One Piece),10 SP,N/A
 Objects of Power,Devil Fruit Tree (One Piece),30 SP,N/A
@@ -3240,11 +3270,13 @@ Objects of Power,Symphogear (Senki Zesshou Symphogear),15 SP,N/A
 Objects of Power,Blasting Rod (Raildex),50 SP,N/A
 Objects of Power,Ninja Gear (Randy Cunningham 9th Grade Ninja),10 SP,N/A
 Objects of Power,Jack's Sword (Samurai Jack),5 SP,N/A
+Objects of Power,Chemical X Vial (Powerpuff Girls),20 SP,N/A
 Objects of Power,The Song of Genesis: SCP-407 (SCP Foundation),15 SP,N/A
 Objects of Power,The Coffee Machine: SCP-294 (SCP Foundation),20 SP,N/A
 Objects of Power,Little Caesar's Pizza: SCP-458 (SCP Foundation),5 SP,N/A
 Objects of Power,Miss J's Whiz Kidz Schoolhouse: SCP-5094 (SCP Foundation),10 SP,N/A
 Objects of Power,The Clockworks: SCP 914 (SCP Foundation),20 SP,N/A
+Objects of Power,The Resurrection Cube: SCP 076-1 (SCP Foundation),10 SP,N/A
 Objects of Power,The Mortal Blade (Sekiro),16 SP| 10 SP,N/A
 Objects of Power,Fountain of Youth (Seven Deadly Sins),18 SP,N/A
 Objects of Power,Lostvayne (Seven Deadly Sins),8 SP,N/A
@@ -3267,6 +3299,7 @@ Objects of Power,Volendrung (TES),10 SP,N/A
 Objects of Power,Dawnbreaker (TES),10 SP,N/A
 Objects of Power,Enhanced Dwemer Storage Cube (TES),10 SP,N/A
 Objects of Power,Relics of the Crusader (TES),30 SP,N/A
+Objects of Power,Heart of Shor (TES),35 SP,N/A
 Objects of Power,Master Sword (TLoZ),15 SP,N/A
 Objects of Power,Sheikah Slate (TLoZ),10 SP,N/A
 Objects of Power,The Mask (The Mask),20 SP,N/A
