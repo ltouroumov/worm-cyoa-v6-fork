@@ -171,7 +171,7 @@ class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
         console.print('[b]Check Backpack[/]')
         check_backpack(
             self.project,
-            {'ckrc', '0v3n', 'otza', 'dlut',
+            {'ckrc', '0v3n', 'otza', 'dlut', 'umg9', 'lip0',
              '4dzp', 'dn8o', 'h4ce', 'kgqo', 'g51j'}
         )
 
