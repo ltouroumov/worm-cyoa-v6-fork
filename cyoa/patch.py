@@ -8,6 +8,16 @@ class FixActiveFlags(PatchBase):
         if 'isActive' in score:
             del score['isActive']
 
+class FixExtraProperties(PatchBase):
+    @patch(target="object")
+    def patch_object(self, object):
+        if 'forcedActivated' in object:
+            del object['forcedActivated']
+
+    @patch(target="object.score")
+    def patch_score(self, score):
+        if 'discountIsOn' in score:
+            del score['discountIsOn']
 
 class FixScoreLabels(PatchBase):
     @patch(target="object.score")
