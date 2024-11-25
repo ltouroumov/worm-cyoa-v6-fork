@@ -30,15 +30,15 @@ jobs:
           state-name: .states-viewer.json
           log-level: minimal
 
-      - name: 📂 Sync Viewer (plus)
+      - name: 📂 Sync Viewer (old)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: viewer-v2/
-          server-dir: viewer-v2/
-          state-name: .states-viewer-v2.json
+          local-dir: viewer-old/
+          server-dir: viewer-old/
+          state-name: .states-viewer-old.json
           log-level: minimal
 
       - name: 📂 Sync Images
