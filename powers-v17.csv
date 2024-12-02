@@ -31,7 +31,6 @@ Tier 0 / Lesser Powers,Brute/Breaker (Power Nap),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker/Master (Autopilot),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker/Master (Emotional Magnet),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker/Master (Organized Mind),1 SP,N/A
-Tier 0 / Lesser Powers,Thinker (Knowledge Condensation),1 SP,N/A
 Tier 0 / Lesser Powers,Shaker/Master (Speaker),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker/Stranger (Fitting In),1 SP,N/A
 Tier 0 / Lesser Powers,Tinker/Changer (Cosmetic Artist),1 SP,N/A
@@ -73,6 +72,7 @@ Tier 0 / Lesser Powers,Brute (Blood Guidance),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker (Gitchy Feelin'),1 SP,N/A
 Tier 0 / Lesser Powers,Thinker (Problem Solving),1 SP,N/A
 Tier 0 / Lesser Powers,Brute (Biocompatibility),1 SP,N/A
+Tier 0 / Lesser Powers,Thinker (Knowledge Condensation),1 SP,N/A
 Tier 1 - Mover,(Mover) Fast as a Hedgehog,2 SP,N/A
 Tier 1 - Mover,(Mover) Flying like a Chicken,2 SP,N/A
 Tier 1 - Mover,(Mover) Rail,2 SP,N/A
@@ -93,7 +93,7 @@ Tier 1 - Mover,(Mover/Shaker) Position Control,5 SP,N/A
 Tier 1 - Mover,(Mover/Shaker) Portal,5 SP,N/A
 Tier 1 - Mover,(Mover/Striker) Gravitational Shift,6 SP,N/A
 Tier 1 - Mover,(Mover) Accelerate ,6 SP,N/A
-Tier 1 - Mover,(Mover/Striker) Spit Marker,8 SP,N/A
+Tier 1 - Mover,(Mover/Striker) Flying Raijin,8 SP,N/A
 Tier 1 - Mover,(Mover) Gear Shift,8 SP,N/A
 Tier 1 - Mover,(Mover/Trump) Winged One,8 SP,N/A
 Tier 1 - Mover,(Mover/Master) Seeing Double,9 SP,N/A
@@ -323,7 +323,7 @@ Tier 1 - Master,(Master/Striker) Strings,8 SP,N/A
 Tier 1 - Master,(Master) Kage no Bunshin,8 SP,N/A
 Tier 1 - Master,(Master) Love at First Sight,8 SP,N/A
 Tier 1 - Master,(Master) Hero Worship,8 SP,N/A
-Tier 1 - Master,(Master) Paradox,8 SP,N/A
+Tier 1 - Master,(Master/Thinker) Paradox,8 SP,N/A
 Tier 1 - Master,(Master/Stranger) Divine,8 SP,N/A
 Tier 1 - Master,(Master) Detached Shadow ,9 SP,N/A
 Tier 1 - Master,(Master/Striker) Shadow Boxing,9 SP,N/A
@@ -354,7 +354,7 @@ Tier 1 - Master,(Master/Trump) Scepter of Power,15 SP,N/A
 Tier 1 - Master,(Master) Khepri,15 SP,N/A
 Tier 1 - Master,(Master) Monster Maker,15 SP,N/A
 Tier 1 - Master,(Master) Shadow Servant,15 SP,N/A
-Tier 1 - Master,The Spark of Life (Master/Tinker),15 SP,N/A
+Tier 1 - Master,(Master/Tinker) The Spark of Life,15 SP,N/A
 Tier 1 - Tinker,(Tinker) Jack of All Trades,2 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Thrown,2 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Detection and Analysis,3 SP| 1 SP,N/A
@@ -1410,7 +1410,6 @@ Tier 2 Powers,(Brute/Trump) Anu,25 SP,N/A
 Tier 2 Powers,(Tinker/Breaker) My Many Masks,16 SP| 8 SP,N/A
 Tier 2 Powers,(Master/Brute) Degeneration,25 SP,N/A
 Tier 2 Powers,(Trump) Completely Mundane,25 SP,N/A
-Tier 2 Powers,(Master/Changer) Repulsive Reverie,15 SP,N/A
 Tier 2 Powers,(Tinker/Thinker) Control,20 SP| 10 SP,N/A
 Tier 2 Powers,(Thinker) Celestial Library,15 SP,N/A
 Tier 3 Powers,(Trump) Manager,30 SP,N/A
@@ -1743,8 +1742,7 @@ Power Upgrades (Shard),Shoggoth,3 SP,Required: Slime
 Power Upgrades (Shard),Taratect,-3 SP,Required: Arachne
 Power Upgrades (Shard),Human Tide,5 SP,Required: (Master) Child of Flemming
 Power Upgrades (Shard),Wannabe Lich,2 SP,Required: (Brute) Phylactery
-Power Upgrades (Shard),Inevitable,2 SP,Required: (Master) Child of Flemming
-Power Upgrades (Shard),Inevitable,2 SP,Required: (Master) Child of Flemming
+Power Upgrades (Shard),Inevitable,2 SP,Required: Wannabe Lich
 Power Upgrades (Shard),Cryptologist,4 SP,Required: (Thinker) Pattern Recognition
 Power Upgrades (Shard),A Freebie and a Pity System,5 SP,Required: (Trump) Randomizer
 Power Fusions (Shard),Biobringer,10 SP,Required: (Changer) Self-Biokinesis
@@ -1762,7 +1760,7 @@ Power Fusions (Shard),Hope Killer,5 SP,Required: Simurgh Lite; Required: Songbir
 Power Fusions (Shard),Maker of the End,5 SP,Required: Blasto; Required: (Tinker) Crystals!; Required: Bonesaw
 Power Fusions (Shard),Conflict Drive Architect,10 SP,Required: (Master) Monster Maker
 Power Fusions (Shard),Fractured No More,10 SP,Required: (Master/Trump) Endbringer Engine
-Power Fusions (Shard),Army of the Impossible,4 SP,Required: (Thinker) Simulacrum Advisor; Required: (Master/Trump) Multiversal Emulator ; Required: (Master/Trump) Endbringer Engine
+Power Fusions (Shard),Army of the Impossible,4 SP,Required: (Master/Trump) Endbringer Engine
 Power Fusions (Shard),Meta Knowledge,5 SP,
 Power Fusions (Shard),Gate of Truth,10 SP,Required: (Thinker) Omniscient; Required: (Trump) Soulmate
 Power Fusions (Shard),Cabbage Corp,5 SP,Required: (Thinker) Weakspot; Required: (Thinker) Plans within Plans
@@ -1787,13 +1785,13 @@ Power Fusions (Shard),Four is a Party,10 SP,Required: (Trump) Gamer System; Requ
 Power Fusions (Shard),Sole Looper,3 SP,Required: (Thinker) Time-Loop
 Power Fusions (Shard),Optimal Choice,4 SP,Required: (Thinker) Schrodinger; Required: (Thinker) Glimpse
 Power Fusions (Shard),5 Coiling Serpents,4 SP,Required: (Thinker) Schrodinger
-Power Fusions (Shard),Paradoxical ,6 SP,Required: 5 Coiling Serpents; Required: (Master) Paradox
+Power Fusions (Shard),Paradoxical ,6 SP,Required: 5 Coiling Serpents; Required: (Master/Thinker) Paradox
 Power Fusions (Shard),Animal Friends,5 SP,Required: (Master) Spirit Animal; Required: (Master) Friendbringers
 Power Fusions (Shard),Health Network,5 SP,"Required: (Brute) No, I am Spartacus; Required: (Brute) No, I am Leonidas"
 Power Fusions (Shard),Assimilation,4 SP,Required: (Master) Dominate; Required: (Master) Hive Mind
 Power Fusions (Shard),Generic Superman Expy,8 SP,Required: (Mover) Soaring through the Sky like a Flying Bison; Required: (Brute) Man of Steel; Required: (Blaster) Solar
 Power Fusions (Shard),Yaldabaoth,15 SP,Required: (Changer/Brute) Carrion; Required: (Changer/Master) The Flesh That Hungers
-Power Fusions (Shard),Celestial Artificer,20 SP,Required: (Trump/Tinker) Enhancer
+Power Fusions (Shard),Celestial Artificer,9 SP,Required: (Trump/Tinker) Enhancer
 Power Fusions (Shard),Araboth,5 SP,Required: Celestial Artificer; Required: (Trump) Prototype
 Power Fusions (Shard),Paradigm,20 SP,Required: (Trump) Paramount; Required: Higher Priest
 Power Fusions (Shard),Isekai,10 SP,Required: (Thinker/Trump) Kingmaker; Required: (Mover/Thinker) Ideal Transit; Required: (Thinker) Vision
@@ -2033,6 +2031,8 @@ Physical Powers,Fel Blood (Warcraft),10 SP,N/A
 Physical Powers,Adeptus Astartes (40k),8 SP,N/A
 Physical Powers,Perpetual (40k),35 SP| 5 SP,N/A
 Physical Powers,Navigator (40k),30 SP,N/A
+Physical Powers,The Magnum Opus of Maerorus (40k),20 SP,N/A
+Physical Powers,Officio Assassinorum Group Project (40k),15 SP,N/A
 Physical Powers,Quirk (My Hero Academia),10 SP,N/A
 Physical Powers,Nova (Trinity Continuum),40 SP,N/A
 Physical Powers,Half-Ghost (Danny Phantom),15 SP,N/A
@@ -2090,7 +2090,6 @@ Physical Powers,Oni (Re:Zero),10 SP,N/A
 Physical Powers,Unbound Form,15 SP,N/A
 Physical Powers,Apex Specimen,15 SP,N/A
 Physical Powers,Umm… Sensei! (Assassination Classroom),35 SP,N/A
-Physical Powers,The Magnum Opus of Maerorus (40k),20 SP,N/A
 Physical Powers,Immortal Physiques: Hardness (Emperor's Domination),20 SP,N/A
 Physical Powers,Immortal Physiques: Softness (Emperor's Domination),20 SP,N/A
 Physical Powers,Immortal Physiques: Yang (Emperor's Domination),20 SP,N/A
@@ -2181,7 +2180,6 @@ Physical Powers,Spinjitzu (LEGO Ninjago),5 SP,N/A
 Physical Powers,Insect Human (Jungle Juice),10 SP,N/A
 Physical Powers,Succubus/Incubus,12 SP,N/A
 Physical Powers,The Composite Human,10 SP,N/A
-Physical Powers,Officio Assassinorum Group Project (WH40K),15 SP,N/A
 Physical Powers,Blood of the Gods,15 SP,N/A
 Physical Powers,Argentum Sphere (I was reincarnated as the 7th prince),10 SP,N/A
 Physical Powers,Jötunn,25 SP,N/A
@@ -2239,6 +2237,7 @@ Mental and Psychic Powers,Lie Eater,10 SP,N/A
 Mental and Psychic Powers,Telepathy,5 SP,N/A
 Mental and Psychic Powers,Mind's Eye,3 SP,N/A
 Mental and Psychic Powers,Heir of Caesar,8 SP,N/A
+Mental and Psychic Powers,Marble Emperor,8 SP,N/A
 Mental and Psychic Powers,Autobattler,10 SP,N/A
 Mental and Psychic Powers,"Villainess? - No, I'm Totally The Heroine! (Villain Initialization)",20 SP,N/A
 Mental and Psychic Powers,Archive ,5 SP,N/A
@@ -2256,7 +2255,6 @@ Mental and Psychic Powers,Lotus Sutra,3 SP,N/A
 Mental and Psychic Powers,Omega-level Psiot (Valiant),30 SP,N/A
 Mental and Psychic Powers, A Fistful Conversation,5 SP,N/A
 Mental and Psychic Powers,Inheritance,4 SP,N/A
-Mental and Psychic Powers,Marble Emperor,8 SP,N/A
 Mental and Psychic Powers,Bene Gesserit (Dune),5 SP,N/A
 Mental and Psychic Powers,Mentat (Dune),5 SP,N/A
 Mental and Psychic Powers,Music Meister (DC Comics),10 SP,N/A
@@ -2615,7 +2613,7 @@ Spiritual and Divine Powers,Angel Player (Angel Beats),20 SP,N/A
 Spiritual and Divine Powers,Power Primate (SRMTHFG),10 SP,N/A
 Spiritual and Divine Powers,Mystical Monkey Power (Kim Possible),10 SP,N/A
 Spiritual and Divine Powers,Xiao Hei (Monster Paradise),15 SP,N/A
-Spiritual and Divine Powers,Kami (Touhou Project),30 SP,N/A
+Spiritual and Divine Powers,Divine Spirit (Touhou Project),30 SP,N/A
 Technology and Artifice Powers,Artificer (D&D),5 SP,Required: Arcane Magic (D&D/Pathfinder); Required: Psionics (D&D); Required: Occult Magic (Pathfinder)
 Technology and Artifice Powers,Phyrexian Praetor (Magic: The Gathering),20 SP,N/A
 Technology and Artifice Powers,The Tinker Toolbox,6 SP,N/A
@@ -2867,7 +2865,6 @@ Esoteric and Abstract Powers,Shifting Singularity,22 SP,N/A
 Esoteric and Abstract Powers,Oneiric Reality Manipulation,60 SP,N/A
 Esoteric and Abstract Powers,The Black Swan (The Record Of A Fallen Vampire),55 SP,N/A
 Esoteric and Abstract Powers,Mundane Acts,5 SP,N/A
-Esoteric and Abstract Powers,I Win Button,1 SP,N/A
 Esoteric and Abstract Powers,Plausible Deniability,15 SP,N/A
 Esoteric and Abstract Powers,Perfectly Hidden,25 SP,N/A
 Esoteric and Abstract Powers,You Can't Touch Me!,15 SP,N/A
@@ -3043,7 +3040,7 @@ Esoteric and Abstract Powers,,,N/A
 Esoteric and Abstract Powers,Heir of an Echo,50 SP,N/A
 Esoteric and Abstract Powers,Mythical Creature Form,40 SP,N/A
 Ascension Path,Dragon,30 SP,N/A
-Ascension Path,Fae,20 SP,N/A
+Ascension Path,Fae,10 SP,N/A
 Ascension Path,Vampire Lord,15 SP,N/A
 Ascension Path,Werewolf Alpha,15 SP,N/A
 Ascension Path,Angel,30 SP,N/A
@@ -3364,7 +3361,7 @@ Objects of Power,RX-78-2 Gundam (Gundam),12 SP,N/A
 Objects of Power,Guyver Unit (Guyver),11 SP,N/A
 Objects of Power,Blade of Tathagata (The God of High School),15 SP| 5 SP,N/A
 Objects of Power,Robe of the Sage (The God of High School),15 SP| 5 SP,N/A
-Objects of Power,Kiryu (Godzilla),20 SP,N/A
+Objects of Power,Kiryu (Godzilla Franchise),20 SP,N/A
 Objects of Power,Junior's Egg (Godzilla Franchise),15 SP,N/A
 Objects of Power,Mjölnir (God of War),20 SP,N/A
 Objects of Power,Draupnir Spear (God Of War),15 SP,N/A
