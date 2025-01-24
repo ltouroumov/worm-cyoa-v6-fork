@@ -6,12 +6,7 @@ if [ "$#" -lt "2" ]; then
 fi
 
 INPUT=$1
-VERSION=$2
-BUILD="viewer"
-if [ "$#" == "3" ]; then
-    BUILD=$3
-fi
-
+VERSION=v17
 PROJECT="project-$VERSION.json"
 
 
@@ -51,7 +46,8 @@ python3 -m cyoa.tools.client project.patch --project $PROJECT \
           cyoa.patch:FixMultiSelectCounters \
 
 # Update the viewer
-python3 -m cyoa.tools.client build --input $PROJECT --output $BUILD
+python3 -m cyoa.tools.client build --input $PROJECT --output viewer
+python3 -m cyoa.tools.client build --input $PROJECT --output viewer-old
 
 # Generate the list of powers
 python3 -m cyoa.tools.client project.powers --project $PROJECT --output powers-$VERSION.csv
