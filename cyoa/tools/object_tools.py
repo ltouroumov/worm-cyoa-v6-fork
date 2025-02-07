@@ -3,6 +3,8 @@ from dataclasses import field
 from io import StringIO
 import json
 from pathlib import Path
+from typing import OrderedDict
+from rich.table import Table
 
 from cyoa.tools.lib import *
 
@@ -24,23 +26,39 @@ class ObjectListTool(ToolBase, ProjectUtilsMixin):
                               lambda row: row['id'] == args.row_id)
 
         if args.csv:
+            point_types = []
+            point_types_map = {}
+            for point_type in self.project['pointTypes']:
+                point_types.append(point_type['name'] + ' Sign')
+                point_types.append(point_type['name'] + ' Value')
+                point_types_map[point_type['id']] = point_type['name']
+
             str_io = StringIO()
-            csv_file = csv.DictWriter(str_io, fieldnames=('index', 'object_id', 'title'))
+            csv_file = csv.DictWriter(str_io, fieldnames=('index', 'object_id', 'title', *point_types))
             csv_file.writeheader()
             for idx, object_data in enumerate(row_data['objects']):
+                scores = {}
+                for score in object_data['scores']:
+                    pt_name = point_types_map[score['id']]
+                    
+                    score_val = int(score['value'])
+                    scores[pt_name + ' Value'] = f"{abs(score_val)}"
+                    scores[pt_name + ' Sign'] = "Gain" if score_val < 0 else "Cost"
+
                 csv_file.writerow({
                     'index': idx,
                     'object_id': object_data['id'],
-                    'title': object_data['title']
+                    'title': object_data['title'],
+                    **scores
                 })
 
             print(str_io.getvalue())
         else:
-            console.print(row_data['id'], row_data['title'])
-            console.print(row_data['titleText'])
-
+            table = Table('Idx', 'ID', 'Title')
             for idx, object_data in enumerate(row_data['objects']):
-                console.print(idx, object_data['id'], object_data['title'])
+                table.add_row(str(idx), object_data['id'], object_data['title'])
+            
+            console.print(table)
 
 
 class ObjectCopyTool(ToolBase, ProjectUtilsMixin):

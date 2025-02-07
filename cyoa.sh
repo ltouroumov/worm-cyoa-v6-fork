@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 -m cyoa.tools.client "$@"
+poetry run python3 -m cyoa.tools.client "$@"
