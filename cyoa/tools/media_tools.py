@@ -138,19 +138,41 @@ def optimize_image(image: Image.Image, max_size=None):
     if max_size is not None:
         max_w, max_h = max_size
         cur_w, cur_h = image.size
+
+        # Handle horizontal images
+        # Resize when the image is wider than the maximum width
         if cur_w > cur_h and cur_w > max_w:
-            ratio = max_w / cur_w
-            new_size = (max_w, round(cur_h * ratio))
-            image.resize(size=new_size)
+            
+            # Compute the new size using the rule of three
+            #  image width       max width  
+            # -------------- = --------------
+            #  image height     [new height]
+            #
+            #               image height * max width
+            # new height = --------------------------
+            #               image width
+            #
+            new_h = round((cur_h * max_w) / cur_w)
+            image = image.resize(size=(max_w, new_h))
         
+        # Handle vertical images
+        # Resize when the image is higher than the maximum height
         if cur_h > cur_w and cur_h > max_h:
-            ratio = max_h / cur_h
-            new_size=(round(cur_w * ratio), max_h)
-            image.resize(size=new_size)
+            # Compute the new size using the rule of three
+            #  image width      [max width]
+            # -------------- = -------------
+            #  image height     max height
+            #
+            #               image width * max height
+            # new height = --------------------------
+            #               image height
+            #
+            new_w = round((cur_w * max_h) / cur_h)
+            image = image.resize(size=(new_w, max_h))
 
     image.save(image_data, format='webp',
                lossless=False,
-               quality=80,
+               quality=100,
                method=4)
     
 
