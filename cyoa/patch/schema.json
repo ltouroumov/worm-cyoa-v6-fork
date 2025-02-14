@@ -1,0 +1,1109 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "activated": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "backpack": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/row"
+      }
+    },
+    "defaultAddonText": {
+      "type": "string"
+    },
+    "defaultAddonTitle": {
+      "type": "string"
+    },
+    "defaultAfterPoint": {
+      "type": "string"
+    },
+    "defaultAfterReq": {
+      "type": "string"
+    },
+    "defaultBeforePoint": {
+      "type": "string"
+    },
+    "defaultBeforeReq": {
+      "type": "string"
+    },
+    "defaultChoiceText": {
+      "type": "string"
+    },
+    "defaultChoiceTitle": {
+      "type": "string"
+    },
+    "defaultOrReq": {
+      "type": "string"
+    },
+    "defaultRowText": {
+      "type": "string"
+    },
+    "defaultRowTitle": {
+      "type": "string"
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "elements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [],
+              "properties": {
+                "id": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "isChoicesOpen": {
+      "type": "boolean"
+    },
+    "isDesignOpen": {
+      "type": "boolean"
+    },
+    "isEditModeOnAll": {
+      "type": "boolean"
+    },
+    "isPointsOpen": {
+      "type": "boolean"
+    },
+    "isStyleOpen": {
+      "type": "boolean"
+    },
+    "pointTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "activatedId": {
+            "type": "string"
+          },
+          "afterText": {
+            "type": "string"
+          },
+          "beforeText": {
+            "type": "string"
+          },
+          "iconHeight": {
+            "type": "string"
+          },
+          "iconIsOn": {
+            "type": "boolean"
+          },
+          "iconWidth": {
+            "$ref": "#/$defs/integer_or_string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          },
+          "imageOnSide": {
+            "type": "boolean"
+          },
+          "imageSidePlacement": {
+            "type": "boolean"
+          },
+          "initValue": {
+            "$ref": "#/$defs/integer_or_string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "startingSum": {
+            "$ref": "#/$defs/integer_or_string"
+          }
+        }
+      }
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/row"
+      }
+    },
+    "styling": {
+      "$ref": "#/$defs/styling"
+    },
+    "variables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "isTrue": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "row": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "allowedChoices": {
+          "type": "integer"
+        },
+        "buttonId": {
+          "type": "string"
+        },
+        "buttonRandom": {
+          "type": "boolean"
+        },
+        "buttonRandomNumber": {
+          "type": "number"
+        },
+        "buttonText": {
+          "type": "string"
+        },
+        "buttonType": {
+          "type": "boolean"
+        },
+        "choicesShareTemplate": {
+          "type": "boolean"
+        },
+        "currentChoices": {
+          "type": "integer"
+        },
+        "defaultAspectHeight": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "defaultAspectWidth": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "isButtonRow": {
+          "type": "boolean"
+        },
+        "isEditModeOn": {
+          "type": "boolean"
+        },
+        "isInfoRow": {
+          "type": "boolean"
+        },
+        "isPrivateStyling": {
+          "type": "boolean"
+        },
+        "isRequirementOpen": {
+          "type": "boolean"
+        },
+        "isResultRow": {
+          "type": "boolean"
+        },
+        "objectWidth": {
+          "type": "string"
+        },
+        "objects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/object"
+          }
+        },
+        "requireds": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "resultGroupId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "styling": {
+          "$ref": "#/$defs/styling"
+        },
+        "template": {
+          "$ref": "#/$defs/integer_or_string_empty"
+        },
+        "title": {
+          "type": "string"
+        },
+        "titleText": {
+          "type": "string"
+        },
+        "imageIsUrl": {
+          "type": "boolean"
+        },
+        "imageLink": {
+          "type": "string"
+        },
+        "rowJustify": {
+          "type": "string",
+          "enum": [
+            "center",
+            "start",
+            "end"
+          ]
+        },
+        "deselectChoices": {
+          "type": "boolean"
+        }
+      }
+    },
+    "object": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "addons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/addon"
+          }
+        },
+        "defaultAspectHeight": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "defaultAspectWidth": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "id": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "imageIsUrl": {
+          "type": "boolean"
+        },
+        "imageLink": {
+          "type": "string"
+        },
+        "isActive": {
+          "type": "boolean"
+        },
+        "isNotSelectable": {
+          "type": "boolean"
+        },
+        "isVisible": {
+          "type": "boolean"
+        },
+        "objectWidth": {
+          "type": "string"
+        },
+        "requireds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/requirement"
+          }
+        },
+        "scores": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/score"
+          }
+        },
+        "template": {
+          "$ref": "#/$defs/integer_or_string_empty"
+        },
+        "text": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "isPrivateStyling": {
+          "type": "boolean"
+        },
+        "styling": {
+          "$ref": "#/$defs/styling"
+        },
+        "multipleUseVariable": {
+          "type": "integer"
+        },
+        "isMultipleUseVariable": {
+          "type": "boolean"
+        },
+        "isSelectableMultiple": {
+          "type": "boolean"
+        },
+        "numMultipleTimesMinus": {
+          "$ref": "#/$defs/integer_or_string_empty"
+        },
+        "numMultipleTimesPluss": {
+          "$ref": "#/$defs/integer_or_string_empty"
+        },
+        "selectedThisManyTimesProp": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "activateOtherChoice": {
+          "type": "boolean"
+        },
+        "deactivateOtherChoice": {
+          "type": "boolean"
+        },
+        "activateThisChoice": {
+          "type": "string"
+        },
+        "deactivateThisChoice": {
+          "type": "string"
+        },
+        "imageSourceTooltip": {
+          "type": "string"
+        },
+        "multipleScoreId": {
+          "type": "string"
+        },
+        "addToAllowChoice": {
+          "type": "boolean"
+        },
+        "numbAddToAllowChoice": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "allowedChoicesChange": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "multiplyPointtypeIsOn": {
+          "type": "boolean"
+        },
+        "multiplyPointtypeIsOnCheck": {
+          "type": "boolean"
+        },
+        "multiplyPointtypeIsId": {
+          "type": "boolean"
+        },
+        "multiplyWithThis": {
+          "$ref": "#/$defs/number_or_string"
+        },
+        "pointTypeToMultiply": {
+          "type": "string"
+        }
+      }
+    },
+    "addon": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "imageIsUrl": {
+          "type": "boolean"
+        },
+        "imageLink": {
+          "type": "string"
+        },
+        "requireds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/requirement"
+          }
+        },
+        "template": {
+          "$ref": "#/$defs/integer_or_string_empty"
+        },
+        "text": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      }
+    },
+    "requirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "afterText": {
+          "type": "string"
+        },
+        "beforeText": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "operator": {
+          "type": "string"
+        },
+        "orRequired": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "req": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "reqId": {
+          "type": "string"
+        },
+        "reqId1": {
+          "type": "string"
+        },
+        "reqId2": {
+          "type": "string"
+        },
+        "reqId3": {
+          "type": "string"
+        },
+        "reqPoints": {
+          "type": "integer"
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "requireds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/requirement"
+          }
+        },
+        "showRequired": {
+          "type": "boolean"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "id",
+            "or"
+          ]
+        }
+      }
+    },
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "afterText": {
+          "type": "string"
+        },
+        "beforeText": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "requireds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/requirement"
+          }
+        },
+        "showScore": {
+          "type": "boolean"
+        },
+        "type": {
+          "type": "string"
+        },
+        "value": {
+          "$ref": "#/$defs/integer_or_string"
+        }
+      }
+    },
+    "styling": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "addonText": {
+          "type": "string"
+        },
+        "addonTextAlign": {
+          "type": "string"
+        },
+        "addonTextColor": {
+          "type": "string"
+        },
+        "addonTextTextSize": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "addonTitle": {
+          "type": "string"
+        },
+        "addonTitleAlign": {
+          "type": "string"
+        },
+        "addonTitleColor": {
+          "type": "string"
+        },
+        "addonTitleTextSize": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "backPackWidth": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "backgroundColor": {
+          "type": "string"
+        },
+        "backgroundImage": {
+          "type": "string"
+        },
+        "barBackgroundColor": {
+          "type": "string"
+        },
+        "barMargin": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "barPadding": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "barTextColor": {
+          "type": "string"
+        },
+        "barTextFont": {
+          "type": "string"
+        },
+        "barTextMargin": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "barTextPadding": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "barTextSize": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectBackgroundImage": {
+          "type": "string"
+        },
+        "objectBgColor": {
+          "type": "string"
+        },
+        "objectBgColorIsOn": {
+          "type": "boolean"
+        },
+        "objectBorderColor": {
+          "type": "string"
+        },
+        "objectBorderIsOn": {
+          "type": "boolean"
+        },
+        "objectBorderRadiusBottomLeft": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectBorderRadiusBottomRight": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectBorderRadiusIsPixels": {
+          "type": "boolean"
+        },
+        "objectBorderRadiusTopLeft": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectBorderRadiusTopRight": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectBorderStyle": {
+          "type": "string"
+        },
+        "objectBorderWidth": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectDropShadowBlur": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectDropShadowColor": {
+          "type": "string"
+        },
+        "objectDropShadowH": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectDropShadowIsOn": {
+          "type": "boolean"
+        },
+        "objectDropShadowSpread": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectDropShadowV": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectHeight": {
+          "type": "boolean"
+        },
+        "objectImageMarginBottom": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectImageMarginTop": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectImageWidth": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectImgBorderColor": {
+          "type": "string"
+        },
+        "objectImgBorderIsOn": {
+          "type": "boolean"
+        },
+        "objectImgBorderRadiusBottomLeft": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectImgBorderRadiusBottomRight": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectImgBorderRadiusIsPixels": {
+          "type": "boolean"
+        },
+        "objectImgBorderRadiusTopLeft": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectImgBorderRadiusTopRight": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectImgBorderStyle": {
+          "type": "string"
+        },
+        "objectImgBorderWidth": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectImgObjectFillIsOn": {
+          "type": "boolean"
+        },
+        "objectImgObjectFillStyle": {
+          "type": "string"
+        },
+        "objectImgOverflowIsOn": {
+          "type": "boolean"
+        },
+        "objectMargin": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectOverflowIsOn": {
+          "type": "boolean"
+        },
+        "objectText": {
+          "type": "string"
+        },
+        "objectTextAlign": {
+          "type": "string"
+        },
+        "objectTextColor": {
+          "type": "string"
+        },
+        "objectTextPadding": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectTextTextSize": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "objectTitle": {
+          "type": "string"
+        },
+        "objectTitleAlign": {
+          "type": "string"
+        },
+        "objectTitleColor": {
+          "type": "string"
+        },
+        "objectTitleTextSize": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "reqBgColorIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterBgColor": {
+          "type": "string"
+        },
+        "reqFilterBlur": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "reqFilterBlurIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterBright": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "reqFilterBrightIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterCont": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "reqFilterContIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterGray": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "reqFilterGrayIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterHue": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "reqFilterHueIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterInvert": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "reqFilterInvertIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterOpac": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "reqFilterOpacIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterSatur": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "reqFilterSaturIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterSepia": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "reqFilterSepiaIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterVisibleIsOn": {
+          "type": "boolean"
+        },
+        "rowBackgroundImage": {
+          "type": "string"
+        },
+        "rowBgColor": {
+          "type": "string"
+        },
+        "rowBgColorIsOn": {
+          "type": "boolean"
+        },
+        "rowBodyMarginBottom": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowBodyMarginSides": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowBodyMarginTop": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowBorderColor": {
+          "type": "string"
+        },
+        "rowBorderIsOn": {
+          "type": "boolean"
+        },
+        "rowBorderRadiusBottomLeft": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowBorderRadiusBottomRight": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowBorderRadiusIsPixels": {
+          "type": "boolean"
+        },
+        "rowBorderRadiusTopLeft": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowBorderRadiusTopRight": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowBorderStyle": {
+          "type": "string"
+        },
+        "rowBorderWidth": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowButtonXPadding": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowButtonYPadding": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowDesignIsAdvanced": {
+          "type": "boolean"
+        },
+        "rowDropShadowBlur": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowDropShadowColor": {
+          "type": "string"
+        },
+        "rowDropShadowH": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowDropShadowIsOn": {
+          "type": "boolean"
+        },
+        "rowDropShadowSpread": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowDropShadowV": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowImageMarginTop": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowImageWidth": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowImgBorderColor": {
+          "type": "string"
+        },
+        "rowImgBorderIsOn": {
+          "type": "boolean"
+        },
+        "rowImgBorderRadiusBottomLeft": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowImgBorderRadiusBottomRight": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowImgBorderRadiusIsPixels": {
+          "type": "boolean"
+        },
+        "rowImgBorderRadiusTopLeft": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowImgBorderRadiusTopRight": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowImgBorderStyle": {
+          "type": "string"
+        },
+        "rowImgBorderWidth": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowImgOverflowIsOn": {
+          "type": "boolean"
+        },
+        "rowMargin": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowOverflowIsOn": {
+          "type": "boolean"
+        },
+        "rowText": {
+          "type": "string"
+        },
+        "rowTextAlign": {
+          "type": "string"
+        },
+        "rowTextColor": {
+          "type": "string"
+        },
+        "rowTextPaddingX": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowTextPaddingY": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowTextTextSize": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "rowTitle": {
+          "type": "string"
+        },
+        "rowTitleAlign": {
+          "type": "string"
+        },
+        "rowTitleColor": {
+          "type": "string"
+        },
+        "rowTitleTextSize": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "scoreText": {
+          "type": "string"
+        },
+        "scoreTextAlign": {
+          "type": "string"
+        },
+        "scoreTextColor": {
+          "type": "string"
+        },
+        "scoreTextSize": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "selBgColorIsOn": {
+          "type": "boolean"
+        },
+        "selFilterBgColor": {
+          "type": "string"
+        },
+        "selFilterBlur": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "selFilterBlurIsOn": {
+          "type": "boolean"
+        },
+        "selFilterBright": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "selFilterBrightIsOn": {
+          "type": "boolean"
+        },
+        "selFilterCont": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "selFilterContIsOn": {
+          "type": "boolean"
+        },
+        "selFilterGray": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "selFilterGrayIsOn": {
+          "type": "boolean"
+        },
+        "selFilterHue": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "selFilterHueIsOn": {
+          "type": "boolean"
+        },
+        "selFilterInvert": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "selFilterInvertIsOn": {
+          "type": "boolean"
+        },
+        "selFilterOpac": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "selFilterOpacIsOn": {
+          "type": "boolean"
+        },
+        "selFilterSatur": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "selFilterSaturIsOn": {
+          "type": "boolean"
+        },
+        "selFilterSepia": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "selFilterSepiaIsOn": {
+          "type": "boolean"
+        },
+        "unselFilterBlur": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "unselFilterBlurIsOn": {
+          "type": "boolean"
+        },
+        "unselFilterBright": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "unselFilterBrightIsOn": {
+          "type": "boolean"
+        },
+        "unselFilterCont": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "unselFilterContIsOn": {
+          "type": "boolean"
+        },
+        "unselFilterGray": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "unselFilterGrayIsOn": {
+          "type": "boolean"
+        },
+        "unselFilterHue": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "unselFilterHueIsOn": {
+          "type": "boolean"
+        },
+        "unselFilterInvert": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "unselFilterInvertIsOn": {
+          "type": "boolean"
+        },
+        "unselFilterOpac": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "unselFilterOpacIsOn": {
+          "type": "boolean"
+        },
+        "unselFilterSatur": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "unselFilterSaturIsOn": {
+          "type": "boolean"
+        },
+        "unselFilterSepia": {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        "unselFilterSepiaIsOn": {
+          "type": "boolean"
+        }
+      }
+    },
+    "integer_or_string": {
+      "oneOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "string",
+          "pattern": "^-?\\d+$"
+        }
+      ]
+    },
+    "integer_or_string_empty": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/integer_or_string"
+        },
+        {
+          "type": "string",
+          "pattern": "^$"
+        }
+      ]
+    },
+    "number_or_string": {
+      "oneOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "string",
+          "pattern": "^-?\\d+(.\\d+)?$"
+        }
+      ]
+    }
+  }
+}

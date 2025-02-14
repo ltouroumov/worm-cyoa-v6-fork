@@ -1,0 +1,983 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "activated": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "backpack": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "allowedChoices": {
+            "type": "string"
+          },
+          "buttonId": {
+            "type": "string"
+          },
+          "buttonRandom": {
+            "type": "string"
+          },
+          "buttonRandomNumber": {
+            "type": "number"
+          },
+          "buttonText": {
+            "type": "string"
+          },
+          "buttonType": {
+            "type": "boolean"
+          },
+          "choicesShareTemplate": {
+            "type": "boolean"
+          },
+          "currentChoices": {
+            "type": "string"
+          },
+          "defaultAspectHeight": {
+            "type": "number"
+          },
+          "defaultAspectWidth": {
+            "type": "number"
+          },
+          "id": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          },
+          "isButtonRow": {
+            "type": "string"
+          },
+          "isEditModeOn": {
+            "type": "string"
+          },
+          "isInfoRow": {
+            "type": "boolean"
+          },
+          "isPrivateStyling": {
+            "type": "string"
+          },
+          "isRequirementOpen": {
+            "type": "string"
+          },
+          "isResultRow": {
+            "type": "boolean"
+          },
+          "objectWidth": {
+            "type": "string"
+          },
+          "objects": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "requireds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resultGroupId": {
+            "type": "string"
+          },
+          "styling": {
+            "$ref": "#/$defs/styling"
+          },
+          "template": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "titleText": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "defaultAddonText": {
+      "type": "string"
+    },
+    "defaultAddonTitle": {
+      "type": "string"
+    },
+    "defaultAfterPoint": {
+      "type": "string"
+    },
+    "defaultAfterReq": {
+      "type": "string"
+    },
+    "defaultBeforePoint": {
+      "type": "string"
+    },
+    "defaultBeforeReq": {
+      "type": "string"
+    },
+    "defaultChoiceText": {
+      "type": "string"
+    },
+    "defaultChoiceTitle": {
+      "type": "string"
+    },
+    "defaultOrReq": {
+      "type": "string"
+    },
+    "defaultRowText": {
+      "type": "string"
+    },
+    "defaultRowTitle": {
+      "type": "string"
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "elements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [],
+              "properties": {
+                "id": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "isChoicesOpen": {
+      "type": "string"
+    },
+    "isDesignOpen": {
+      "type": "string"
+    },
+    "isEditModeOnAll": {
+      "type": "boolean"
+    },
+    "isPointsOpen": {
+      "type": "string"
+    },
+    "isStyleOpen": {
+      "type": "string"
+    },
+    "pointTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "activatedId": {
+            "type": "string"
+          },
+          "afterText": {
+            "type": "string"
+          },
+          "beforeText": {
+            "type": "string"
+          },
+          "iconHeight": {
+            "type": "string"
+          },
+          "iconIsOn": {
+            "type": "string"
+          },
+          "iconWidth": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          },
+          "imageOnSide": {
+            "type": "string"
+          },
+          "imageSidePlacement": {
+            "type": "string"
+          },
+          "initValue": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "startingSum": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "allowedChoices": {
+            "type": "string"
+          },
+          "buttonId": {
+            "type": "string"
+          },
+          "buttonRandom": {
+            "type": "string"
+          },
+          "buttonRandomNumber": {
+            "type": "number"
+          },
+          "buttonText": {
+            "type": "string"
+          },
+          "buttonType": {
+            "type": "boolean"
+          },
+          "currentChoices": {
+            "type": "string"
+          },
+          "defaultAspectHeight": {
+            "type": "number"
+          },
+          "defaultAspectWidth": {
+            "type": "number"
+          },
+          "id": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          },
+          "imageIsUrl": {
+            "type": "boolean"
+          },
+          "imageLink": {
+            "type": "string"
+          },
+          "isButtonRow": {
+            "type": "string"
+          },
+          "isEditModeOn": {
+            "type": "string"
+          },
+          "isInfoRow": {
+            "type": "boolean"
+          },
+          "isPrivateStyling": {
+            "type": "boolean"
+          },
+          "isRequirementOpen": {
+            "type": "string"
+          },
+          "isResultRow": {
+            "type": "string"
+          },
+          "objectWidth": {
+            "type": "string"
+          },
+          "objects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "template": {
+                  "type": "number"
+                },
+                "objectWidth": {
+                  "type": "string"
+                },
+                "isActive": {
+                  "type": "string"
+                },
+                "isVisible": {
+                  "type": "boolean"
+                },
+                "multipleUseVariable": {
+                  "type": "string"
+                },
+                "defaultAspectWidth": {
+                  "type": "number"
+                },
+                "defaultAspectHeight": {
+                  "type": "number"
+                },
+                "requireds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "addons": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "text": {
+                        "type": "string"
+                      },
+                      "template": {
+                        "type": "string"
+                      },
+                      "image": {
+                        "type": "string"
+                      },
+                      "requireds": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "scores": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "groups": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "privateBackgroundIsOn": {
+            "type": "boolean"
+          },
+          "privateFilterIsOn": {
+            "type": "boolean"
+          },
+          "privateObjectImageIsOn": {
+            "type": "boolean"
+          },
+          "privateObjectIsOn": {
+            "type": "boolean"
+          },
+          "privateRowImageIsOn": {
+            "type": "boolean"
+          },
+          "privateRowIsOn": {
+            "type": "boolean"
+          },
+          "privateTextIsOn": {
+            "type": "boolean"
+          },
+          "requireds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resultGroupId": {
+            "type": "string"
+          },
+          "template": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "titleText": {
+            "type": "string"
+          },
+          "width": {
+            "type": "string"
+          },
+          "styling": {
+            "$ref": "#/$defs/styling"
+          }
+        }
+      }
+    },
+    "styling": {
+      "$ref": "#/$defs/styling"
+    },
+    "variables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "isTrue": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "styling": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "addonText": {
+          "type": "string"
+        },
+        "addonTextAlign": {
+          "type": "string"
+        },
+        "addonTextColor": {
+          "type": "string"
+        },
+        "addonTextTextSize": {
+          "type": "number"
+        },
+        "addonTitle": {
+          "type": "string"
+        },
+        "addonTitleAlign": {
+          "type": "string"
+        },
+        "addonTitleColor": {
+          "type": "string"
+        },
+        "addonTitleTextSize": {
+          "type": "number"
+        },
+        "backPackWidth": {
+          "type": "number"
+        },
+        "backgroundColor": {
+          "type": "string"
+        },
+        "backgroundImage": {
+          "type": "string"
+        },
+        "barBackgroundColor": {
+          "type": "string"
+        },
+        "barMargin": {
+          "type": "string"
+        },
+        "barPadding": {
+          "type": "string"
+        },
+        "barTextColor": {
+          "type": "string"
+        },
+        "barTextFont": {
+          "type": "string"
+        },
+        "barTextMargin": {
+          "type": "string"
+        },
+        "barTextPadding": {
+          "type": "number"
+        },
+        "barTextSize": {
+          "type": "number"
+        },
+        "objectBackgroundImage": {
+          "type": "string"
+        },
+        "objectBgColor": {
+          "type": "string"
+        },
+        "objectBgColorIsOn": {
+          "type": "boolean"
+        },
+        "objectBorderColor": {
+          "type": "string"
+        },
+        "objectBorderIsOn": {
+          "type": "boolean"
+        },
+        "objectBorderRadiusBottomLeft": {
+          "type": "string"
+        },
+        "objectBorderRadiusBottomRight": {
+          "type": "string"
+        },
+        "objectBorderRadiusIsPixels": {
+          "type": "boolean"
+        },
+        "objectBorderRadiusTopLeft": {
+          "type": "string"
+        },
+        "objectBorderRadiusTopRight": {
+          "type": "string"
+        },
+        "objectBorderStyle": {
+          "type": "string"
+        },
+        "objectBorderWidth": {
+          "type": "string"
+        },
+        "objectDropShadowBlur": {
+          "type": "string"
+        },
+        "objectDropShadowColor": {
+          "type": "string"
+        },
+        "objectDropShadowH": {
+          "type": "string"
+        },
+        "objectDropShadowIsOn": {
+          "type": "string"
+        },
+        "objectDropShadowSpread": {
+          "type": "string"
+        },
+        "objectDropShadowV": {
+          "type": "string"
+        },
+        "objectHeight": {
+          "type": "boolean"
+        },
+        "objectImageMarginBottom": {
+          "type": "string"
+        },
+        "objectImageMarginTop": {
+          "type": "string"
+        },
+        "objectImageWidth": {
+          "type": "number"
+        },
+        "objectImgBorderColor": {
+          "type": "string"
+        },
+        "objectImgBorderIsOn": {
+          "type": "string"
+        },
+        "objectImgBorderRadiusBottomLeft": {
+          "type": "string"
+        },
+        "objectImgBorderRadiusBottomRight": {
+          "type": "string"
+        },
+        "objectImgBorderRadiusIsPixels": {
+          "type": "boolean"
+        },
+        "objectImgBorderRadiusTopLeft": {
+          "type": "string"
+        },
+        "objectImgBorderRadiusTopRight": {
+          "type": "string"
+        },
+        "objectImgBorderStyle": {
+          "type": "string"
+        },
+        "objectImgBorderWidth": {
+          "type": "number"
+        },
+        "objectImgObjectFillIsOn": {
+          "type": "boolean"
+        },
+        "objectImgObjectFillStyle": {
+          "type": "string"
+        },
+        "objectImgOverflowIsOn": {
+          "type": "string"
+        },
+        "objectMargin": {
+          "type": "number"
+        },
+        "objectOverflowIsOn": {
+          "type": "boolean"
+        },
+        "objectText": {
+          "type": "string"
+        },
+        "objectTextAlign": {
+          "type": "string"
+        },
+        "objectTextColor": {
+          "type": "string"
+        },
+        "objectTextPadding": {
+          "type": "number"
+        },
+        "objectTextTextSize": {
+          "type": "number"
+        },
+        "objectTitle": {
+          "type": "string"
+        },
+        "objectTitleAlign": {
+          "type": "string"
+        },
+        "objectTitleColor": {
+          "type": "string"
+        },
+        "objectTitleTextSize": {
+          "type": "number"
+        },
+        "reqBgColorIsOn": {
+          "type": "boolean"
+        },
+        "reqFilterBgColor": {
+          "type": "string"
+        },
+        "reqFilterBlur": {
+          "type": "string"
+        },
+        "reqFilterBlurIsOn": {
+          "type": "string"
+        },
+        "reqFilterBright": {
+          "type": "number"
+        },
+        "reqFilterBrightIsOn": {
+          "type": "string"
+        },
+        "reqFilterCont": {
+          "type": "number"
+        },
+        "reqFilterContIsOn": {
+          "type": "string"
+        },
+        "reqFilterGray": {
+          "type": "string"
+        },
+        "reqFilterGrayIsOn": {
+          "type": "string"
+        },
+        "reqFilterHue": {
+          "type": "string"
+        },
+        "reqFilterHueIsOn": {
+          "type": "string"
+        },
+        "reqFilterInvert": {
+          "type": "string"
+        },
+        "reqFilterInvertIsOn": {
+          "type": "string"
+        },
+        "reqFilterOpac": {
+          "type": "string"
+        },
+        "reqFilterOpacIsOn": {
+          "type": "string"
+        },
+        "reqFilterSatur": {
+          "type": "number"
+        },
+        "reqFilterSaturIsOn": {
+          "type": "string"
+        },
+        "reqFilterSepia": {
+          "type": "string"
+        },
+        "reqFilterSepiaIsOn": {
+          "type": "string"
+        },
+        "reqFilterVisibleIsOn": {
+          "type": "string"
+        },
+        "rowBackgroundImage": {
+          "type": "string"
+        },
+        "rowBgColor": {
+          "type": "string"
+        },
+        "rowBgColorIsOn": {
+          "type": "boolean"
+        },
+        "rowBodyMarginBottom": {
+          "type": "number"
+        },
+        "rowBodyMarginSides": {
+          "type": "string"
+        },
+        "rowBodyMarginTop": {
+          "type": "number"
+        },
+        "rowBorderColor": {
+          "type": "string"
+        },
+        "rowBorderIsOn": {
+          "type": "string"
+        },
+        "rowBorderRadiusBottomLeft": {
+          "type": "string"
+        },
+        "rowBorderRadiusBottomRight": {
+          "type": "string"
+        },
+        "rowBorderRadiusIsPixels": {
+          "type": "boolean"
+        },
+        "rowBorderRadiusTopLeft": {
+          "type": "string"
+        },
+        "rowBorderRadiusTopRight": {
+          "type": "string"
+        },
+        "rowBorderStyle": {
+          "type": "string"
+        },
+        "rowBorderWidth": {
+          "type": "number"
+        },
+        "rowButtonXPadding": {
+          "type": "string"
+        },
+        "rowButtonYPadding": {
+          "type": "string"
+        },
+        "rowDesignIsAdvanced": {
+          "type": "boolean"
+        },
+        "rowDropShadowBlur": {
+          "type": "string"
+        },
+        "rowDropShadowColor": {
+          "type": "string"
+        },
+        "rowDropShadowH": {
+          "type": "string"
+        },
+        "rowDropShadowIsOn": {
+          "type": "string"
+        },
+        "rowDropShadowSpread": {
+          "type": "string"
+        },
+        "rowDropShadowV": {
+          "type": "string"
+        },
+        "rowImageMarginTop": {
+          "type": "string"
+        },
+        "rowImageWidth": {
+          "type": "number"
+        },
+        "rowImgBorderColor": {
+          "type": "string"
+        },
+        "rowImgBorderIsOn": {
+          "type": "string"
+        },
+        "rowImgBorderRadiusBottomLeft": {
+          "type": "string"
+        },
+        "rowImgBorderRadiusBottomRight": {
+          "type": "string"
+        },
+        "rowImgBorderRadiusIsPixels": {
+          "type": "boolean"
+        },
+        "rowImgBorderRadiusTopLeft": {
+          "type": "string"
+        },
+        "rowImgBorderRadiusTopRight": {
+          "type": "string"
+        },
+        "rowImgBorderStyle": {
+          "type": "string"
+        },
+        "rowImgBorderWidth": {
+          "type": "number"
+        },
+        "rowImgOverflowIsOn": {
+          "type": "string"
+        },
+        "rowMargin": {
+          "type": "string"
+        },
+        "rowOverflowIsOn": {
+          "type": "boolean"
+        },
+        "rowText": {
+          "type": "string"
+        },
+        "rowTextAlign": {
+          "type": "string"
+        },
+        "rowTextColor": {
+          "type": "string"
+        },
+        "rowTextPaddingX": {
+          "type": "number"
+        },
+        "rowTextPaddingY": {
+          "type": "string"
+        },
+        "rowTextTextSize": {
+          "type": "number"
+        },
+        "rowTitle": {
+          "type": "string"
+        },
+        "rowTitleAlign": {
+          "type": "string"
+        },
+        "rowTitleColor": {
+          "type": "string"
+        },
+        "rowTitleTextSize": {
+          "type": "number"
+        },
+        "scoreText": {
+          "type": "string"
+        },
+        "scoreTextAlign": {
+          "type": "string"
+        },
+        "scoreTextColor": {
+          "type": "string"
+        },
+        "scoreTextSize": {
+          "type": "number"
+        },
+        "selBgColorIsOn": {
+          "type": "boolean"
+        },
+        "selFilterBgColor": {
+          "type": "string"
+        },
+        "selFilterBlur": {
+          "type": "string"
+        },
+        "selFilterBlurIsOn": {
+          "type": "string"
+        },
+        "selFilterBright": {
+          "type": "number"
+        },
+        "selFilterBrightIsOn": {
+          "type": "string"
+        },
+        "selFilterCont": {
+          "type": "number"
+        },
+        "selFilterContIsOn": {
+          "type": "string"
+        },
+        "selFilterGray": {
+          "type": "string"
+        },
+        "selFilterGrayIsOn": {
+          "type": "string"
+        },
+        "selFilterHue": {
+          "type": "string"
+        },
+        "selFilterHueIsOn": {
+          "type": "string"
+        },
+        "selFilterInvert": {
+          "type": "string"
+        },
+        "selFilterInvertIsOn": {
+          "type": "string"
+        },
+        "selFilterOpac": {
+          "type": "number"
+        },
+        "selFilterOpacIsOn": {
+          "type": "string"
+        },
+        "selFilterSatur": {
+          "type": "number"
+        },
+        "selFilterSaturIsOn": {
+          "type": "string"
+        },
+        "selFilterSepia": {
+          "type": "string"
+        },
+        "selFilterSepiaIsOn": {
+          "type": "string"
+        },
+        "unselFilterBlur": {
+          "type": "string"
+        },
+        "unselFilterBlurIsOn": {
+          "type": "string"
+        },
+        "unselFilterBright": {
+          "type": "number"
+        },
+        "unselFilterBrightIsOn": {
+          "type": "string"
+        },
+        "unselFilterCont": {
+          "type": "number"
+        },
+        "unselFilterContIsOn": {
+          "type": "string"
+        },
+        "unselFilterGray": {
+          "type": "string"
+        },
+        "unselFilterGrayIsOn": {
+          "type": "string"
+        },
+        "unselFilterHue": {
+          "type": "string"
+        },
+        "unselFilterHueIsOn": {
+          "type": "string"
+        },
+        "unselFilterInvert": {
+          "type": "string"
+        },
+        "unselFilterInvertIsOn": {
+          "type": "string"
+        },
+        "unselFilterOpac": {
+          "type": "number"
+        },
+        "unselFilterOpacIsOn": {
+          "type": "string"
+        },
+        "unselFilterSatur": {
+          "type": "string"
+        },
+        "unselFilterSaturIsOn": {
+          "type": "string"
+        },
+        "unselFilterSepia": {
+          "type": "string"
+        },
+        "unselFilterSepiaIsOn": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
