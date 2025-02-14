@@ -47,15 +47,15 @@ class ApplySchema(PatchBase):
               new_project = json_mat.full_path.update(new_project, json_val_new)
 
           else:
-            console.print(f"{error.json_path} ({error.validator}): {error.message}")
+            console.log(f"{error.json_path} ({error.validator}): {error.message}")
         case _:
-          console.print(f"{error.json_path} ({error.validator}): {error.message}")
+          console.log(f"{error.json_path} ({error.validator}): {error.message}")
       error_count += 1
 
     if error_count > 0:
-      console.print(f"[red]{error_count} errors[/]")
+      console.log(f"[red]{error_count} errors[/]")
     else:
-      console.print("[green]no errors[/]")
+      console.log("[green]no errors[/]")
 
     # write over the existing project data
     project.clear()
