@@ -52,7 +52,7 @@ class ProjectUtilsMixin:
             if neat:
                 json.dump(self.project, fd, indent=2, sort_keys=True)
             else:
-                json.dump(self.project, fd, sort_keys=True)
+                json.dump(self.project, fd, separators=(',', ':'), sort_keys=True)
 
 
 def is_empty(value):
