@@ -60,3 +60,22 @@ class ApplySchema(PatchBase):
     # write over the existing project data
     project.clear()
     project.update(new_project)
+
+
+class CheckSchema(PatchBase):
+  @patch(target="project")
+  def patch_project(self, project: dict):
+    schema_path = Path(__file__).parent / "schema.json"
+    schema_text = schema_path.read_text()
+    schema_data = json.loads(schema_text)
+
+    validator = Draft202012Validator(schema_data)
+    error_count = 0
+    for error in validator.iter_errors(project):
+      console.log(f"{error.json_path} ({error.validator}): {error.message}")
+      error_count += 1
+
+    if error_count > 0:
+      console.log(f"[red]{error_count} errors[/]")
+    else:
+      console.log("[green]no errors[/]")

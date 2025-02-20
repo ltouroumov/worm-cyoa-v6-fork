@@ -397,6 +397,9 @@
         "allowedChoicesChange": {
           "$ref": "#/$defs/integer_or_string"
         },
+        "idOfAllowChoice": {
+          "type": "string"
+        },
         "multiplyPointtypeIsOn": {
           "type": "boolean"
         },
