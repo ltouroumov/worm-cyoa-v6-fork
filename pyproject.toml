@@ -1,28 +1,27 @@
 [project]
 name = "worm-cyoa-v6-fork"
 version = "1.0.0"
-description = ""
+description = "Worm Interactive CYOA"
 authors = [{ name = "Laureline David", email = "ltouroumov@gmail.com" }]
-
 requires-python = ">=3.11"
 dependencies = [
-  "rich",
-  "pillow",
-  "humanize",
-  "lenses",
-  "requests",
-  "asciidag",
-  "jinja2",
-  "jsonschema",
-  "jsonpath-ng (>=1.7.0,<2.0.0)",
+    "rich",
+    "pillow",
+    "humanize",
+    "lenses",
+    "requests",
+    "asciidag",
+    "jinja2",
+    "jsonschema",
+    "jsonpath-ng (>=1.7.0,<2.0.0)",
 ]
 
 [tool.ruff]
 indent-width = 2
 
-[tool.poetry]
-package-mode = false
+[tool.uv]
+package = false
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
