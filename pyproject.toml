@@ -3,7 +3,7 @@ name = "worm-cyoa-v6-fork"
 version = "1.0.0"
 description = "Worm Interactive CYOA"
 authors = [{ name = "Laureline David", email = "ltouroumov@gmail.com" }]
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 dependencies = [
     "rich",
     "pillow",
