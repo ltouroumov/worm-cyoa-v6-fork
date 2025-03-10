@@ -536,6 +536,9 @@
         "showScore": {
           "type": "boolean"
         },
+        "isActive": {
+          "type": "boolean"
+        },
         "type": {
           "type": "string"
         },

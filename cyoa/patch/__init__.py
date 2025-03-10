@@ -88,12 +88,6 @@ class FixImageLinks(PatchBase):
             data['image'] = ""
             data['imageIsUrl'] = False
             data['imageLink'] = ""
-        # Remove the URL properties if the image URL is empty
-        # Keep the image data as-is
-        elif is_empty(img_url):
-            data['image'] = img_data
-            data['imageIsUrl'] = False
-            data['imageLink'] = ""
         # Correct imageIsUrl=false but image contains an URL
         elif img_is_url is False and img_data.startswith("http"):
             data['image'] = img_data
@@ -104,6 +98,17 @@ class FixImageLinks(PatchBase):
             data['image'] = img_data
             del data['imageIsUrl']
             del data['imageLink']
+        # Correct missing imageLink value
+        elif img_is_url is True and is_empty(img_url):
+            data['image'] = img_data
+            data['imageIsUrl'] = True
+            data['imageLink'] = img_data
+        # Remove the URL properties if the image URL is empty
+        # Keep the image data as-is
+        elif is_empty(img_url):
+            data['image'] = img_data
+            data['imageIsUrl'] = False
+            data['imageLink'] = ""
 
     @patch(target='row')
     def patch_row(self, row):

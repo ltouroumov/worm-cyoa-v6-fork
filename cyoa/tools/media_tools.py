@@ -506,9 +506,14 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
         parser.add_argument('--export-url', type=str, required=True)
 
     def extract_image(self, image_info, dest_dir, base_url, images_table):
-        header, image_data = decode_image(
-            image_info.image_data
-        )
+        try:
+            header, image_data = decode_image(
+                image_info.image_data
+            )
+        except:
+            console.log(f'[red]Could not extract image {image_info.image_data}')
+            return
+        
         image_type = header[header.rfind('/') + 1:]
         image_size_kb = len(image_data) / 1024.0
 
