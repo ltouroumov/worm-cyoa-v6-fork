@@ -217,12 +217,13 @@ def visit_project(project, visitor: PatchBase):
             parents={"project": project},
             context=context,
         )
-        visitor.visit(
-            node_type="row.styling",
-            node_data=row_data["styling"],
-            parents={"project": project, "row": row_data},
-            context=context,
-        )
+        if styling := row_data.get("styling", None):
+            visitor.visit(
+                node_type="row.styling",
+                node_data=styling,
+                parents={"project": project, "row": row_data},
+                context=context,
+            )
 
         for object_data in row_data["objects"]:
             visitor.visit(
