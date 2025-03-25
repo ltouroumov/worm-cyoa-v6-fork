@@ -1,10 +1,11 @@
 import argparse
 from typing import Type, Dict
 
-from cyoa.tools.lib import *
+from cyoa.tools.lib import ToolBase
 from cyoa.tools import (
     project_tools, row_tools, object_tools,
-    media_tools, merge_tools, wiki_tools, build
+    media_tools, merge_tools, wiki_tools, 
+    build, scripts
 )
 
 TOOLS: tuple[Type[ToolBase], ...] = (
@@ -14,7 +15,8 @@ TOOLS: tuple[Type[ToolBase], ...] = (
     *media_tools.TOOLS,
     *merge_tools.TOOLS,
     *wiki_tools.TOOLS,
-    build.BuildTool
+    build.BuildTool,
+    *scripts.SCRIPTS,
 )
 
 if __name__ == '__main__':
