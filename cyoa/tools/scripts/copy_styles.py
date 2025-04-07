@@ -1,8 +1,5 @@
 from pathlib import Path
 
-from rich.table import Table
-from rich.box import MARKDOWN
-
 from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console
 
 
