@@ -108,12 +108,12 @@ def show_duplicates(obj_id, titles, graph: Graph):
 def check_duplicates(project):
     from cyoa.graph.lib import build_graph
 
-    object_ids: Dict[str, List] = {}
+    object_ids: Dict[str, list[str]] = {}
     graph = build_graph(project)
     for row_data in project["rows"]:
         for object_data in row_data["objects"]:
             object_ids.setdefault(object_data["id"], [])
-            object_ids[object_data["id"]].append(object_data["title"])
+            object_ids[object_data["id"]].append(f"{object_data["title"]} in {row_data['title']} ({row_data['id']})")
 
     for obj_id, titles in object_ids.items():
         if len(titles) > 1:
@@ -190,6 +190,11 @@ class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
                 "h4ce",
                 "kgqo",
                 "g51j",
+                "hd9l",
+                "0v52",
+                "ObjectOP",
+                "nsof",
+                "v62t",
             },
         )
 
