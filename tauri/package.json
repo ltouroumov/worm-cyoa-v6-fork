@@ -1,0 +1,11 @@
+{
+  "name": "worm-cyoa-v17",
+  "packageManager": "yarn@4.6.0",
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.5.0"
+  },
+  "scripts": {
+    "dev": "python -m http.server -d static 8088",
+    "build": "echo 'TODO: copy project.json and images'"
+  }
+}
