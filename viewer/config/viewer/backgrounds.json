@@ -2,7 +2,12 @@
   "enabled": true,
   "images": [
     {
-      "url": "bgs/load-01.webp"
+      "url": "bgs/load-01.webp",
+      "weight": 95
+    },
+    {
+      "url": "bgs/collage.webp",
+      "weight": 5
     }
   ]
 }
