@@ -4,3 +4,4 @@
 __pycache__/
 tmp/
 *.mr.json
+tauri/
