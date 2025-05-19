@@ -25,10 +25,15 @@ class RowListTool(ToolBase, ProjectUtilsMixin):
     self._load_project(args.project_file)
 
     table = Table("id", "title", "# objects", box=MARKDOWN)
+    total_objects = 0
     for row_data in self.project["rows"]:
-      table.add_row(row_data["id"], row_data["title"], f"{len(row_data['objects'])}")
+      row_objects = len(row_data['objects'])
+      table.add_row(row_data["id"], row_data["title"], f"{row_objects}")
+      total_objects += row_objects
 
     console.print(table)
+    console.print(f"Total objects: {total_objects}")
+    console.print(f"Total rows: {len(self.project['rows'])}")
 
 
 class RowCopyTool(ToolBase, ProjectUtilsMixin):
