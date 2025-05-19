@@ -719,7 +719,7 @@ Tier 1 - Thinker,(Thinker/Striker) Theft,10 SP,N/A
 Tier 1 - Thinker,(Thinker) Mr(s). Fixit,10 SP,N/A
 Tier 1 - Thinker,(Thinker) Plans within Plans,12 SP,N/A
 Tier 1 - Thinker,(Thinker) Past Sight,12 SP,N/A
-Tier 1 - Thinker,(Thinker/Mover) Sphere of Insight ,13 SP,N/A
+Tier 1 - Thinker,(Thinker/Mover) Sphere of Insight,13 SP,N/A
 Tier 1 - Thinker,(Thinker) Laplace Demon,14 SP,N/A
 Tier 1 - Thinker,(Thinker) Respawn,14 SP,N/A
 Tier 1 - Thinker,(Thinker/Mover) Pathfinder,15 SP,N/A
@@ -988,7 +988,7 @@ Tier 1 - Stranger,(Stanger) My Source Is That I Made It The Fuck Up!,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Breaker) Hitchhike,9 SP,N/A
 Tier 1 - Stranger,(Stranger) Classified Information,9 SP,N/A
 Tier 1 - Stranger,(Stranger/Thinker) Discount Genie,9 SP,N/A
-Tier 1 - Stranger,(Stranger) Catch Me If You Can. ,10 SP,N/A
+Tier 1 - Stranger,(Stranger) Catch Me If You Can,10 SP,N/A
 Tier 1 - Stranger,(Stranger) Unnoticeable,10 SP,N/A
 Tier 1 - Stranger,(Stranger) Center of Attention,10 SP,N/A
 Tier 1 - Stranger,(Stranger/Master) Harem Protagonist,10 SP,N/A
@@ -2731,6 +2731,7 @@ Spiritual and Divine Powers,Elementalism,30 SP,N/A
 Spiritual and Divine Powers,To Stand In The Shoulder Of Giants (Petals of Reincarnation),30 SP,N/A
 Spiritual and Divine Powers,Ignited Soul,15 SP,N/A
 Spiritual and Divine Powers,Seraphim (Supernatural),30 SP,N/A
+Spiritual and Divine Powers,Vessel of Purgatory (Supernatural),30 SP,N/A
 Spiritual and Divine Powers,Beyonder (Lord of the Mysteries),15 SP,N/A
 Spiritual and Divine Powers,Cambion,30 SP,N/A
 Spiritual and Divine Powers,Aspect of Archery,15 SP,N/A
@@ -2864,7 +2865,6 @@ Spiritual and Divine Powers,Infernal Pact,15 SP,N/A
 Spiritual and Divine Powers,Beneath the Skin of God,8 SP,N/A
 Spiritual and Divine Powers,Son of Satan (Blue Exorcist),15 SP,N/A
 Spiritual and Divine Powers,Congenital Saint (Homebody Witch),30 SP,N/A
-Spiritual and Divine Powers,Vessel of Purgatory (Supernatural),30 SP,N/A
 Spiritual and Divine Powers,Reconstruction,12 SP,N/A
 Spiritual and Divine Powers,Fated To Grab Ahold Of Victory In The Endless Dreams (The Knight King Who Returned with a God),15 SP,N/A
 Spiritual and Divine Powers,Greater Daemon (Tensura),20 SP,N/A
@@ -3142,10 +3142,10 @@ Esoteric and Abstract Powers,Voice of the World (Tensura),10 SP| 0 SP,N/A
 Esoteric and Abstract Powers,True Dragon (Tensura),60 SP,N/A
 Esoteric and Abstract Powers,Degenerate (Tensura),15 SP,N/A
 Esoteric and Abstract Powers,Dragonoid (Tensura),30 SP,N/A
-Esoteric and Abstract Powers,Unique Skill: Mystic Aura,15 SP,Required: Voice of the World (Tensura)
+Esoteric and Abstract Powers,Unique Skill: Mystic Aura (Tensura),15 SP,Required: Voice of the World (Tensura)
 Esoteric and Abstract Powers,Unique Skill: Milim Eye (Tensura),10 SP,Required: Voice of the World (Tensura)
-Esoteric and Abstract Powers,Unique Skill: Pact of God ,15 SP,Required: Voice of the World (Tensura)
-Esoteric and Abstract Powers,Ultimate Skill Hecate: Lord of Magic,30 SP,Required: Voice of the World (Tensura)
+Esoteric and Abstract Powers,Unique Skill: Pact of God (Tensura),15 SP,Required: Voice of the World (Tensura)
+Esoteric and Abstract Powers,Ultimate Skill Hecate: Lord of Magic (Tensura),30 SP,Required: Voice of the World (Tensura)
 Esoteric and Abstract Powers,Ultimate Skill Raphael: Lord of Wisdom (Tensura),30 SP,Required: Voice of the World (Tensura)
 Esoteric and Abstract Powers,Ultimate Skill Beelzebuth: Lord of Gluttony (Tensura),30 SP,Required: Voice of the World (Tensura)
 Esoteric and Abstract Powers,Ultimate Skill: Pending (Tensura),30 SP,Required: Voice of the World (Tensura)
@@ -3371,13 +3371,13 @@ Esoteric and Abstract Powers,Survivor Simulation,10 SP,N/A
 Esoteric and Abstract Powers,The Hunting Grounds,10 SP,N/A
 Esoteric and Abstract Powers,The Chosen One Until Proven Otherwise,10 SP,N/A
 Esoteric and Abstract Powers,Time Manipulation,5 SP,N/A
+Esoteric and Abstract Powers,Space Manipulation,5 SP,N/A
 Esoteric and Abstract Powers,Shopkeepers,15 SP,N/A
 Esoteric and Abstract Powers,Poseidon (One Piece),30 SP,N/A
 Esoteric and Abstract Powers,Fera (World of Darkness),10 SP,N/A
 Esoteric and Abstract Powers,Talent Check,2 SP,N/A
 Esoteric and Abstract Powers,Winner’s Spoils,10 SP,N/A
 Esoteric and Abstract Powers,Path Runner (Worm Meme Powers Cyoa) ,7 SP,N/A
-Esoteric and Abstract Powers,Space Manipulation,5 SP,N/A
 Esoteric and Abstract Powers,Float,5 SP,N/A
 Esoteric and Abstract Powers,The Enemy of All (Ishura),35 SP,N/A
 Esoteric and Abstract Powers,Shapes of Life (Divineko),20 SP,N/A
@@ -3433,7 +3433,7 @@ Foundation Powers,The Game of Life,15 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,Across the YOU-niverse,15 SP,N/A
 Foundation Powers,The Great Man Theory,15 SP,N/A
-Foundation Powers,Training Seal,30 SP,N/A
+Foundation Powers,Training Seal,10 SP,N/A
 Foundation Powers,Knowledge is Power,10 SP,N/A
 Foundation Powers,Tower of Power,20 SP,N/A
 Foundation Powers,Skill Tree System,13 SP| 8 SP,N/A
@@ -3488,7 +3488,7 @@ Foundation Powers,Manus Superior,15 SP,N/A
 Foundation Powers,Evolution,10 SP,N/A
 Foundation Powers,More for Less,10 SP,N/A
 Foundation Powers,Parasitism,12 SP,N/A
-Foundation Powers,Researcher’s Madness,5 SP,N/A
+Foundation Powers,Researcher's Madness,5 SP,N/A
 Foundation Powers,Interface (Dorothy’s Forbidden Grimoire),10 SP,N/A
 Foundation Powers,Temporally Challenged,20 SP,N/A
 Foundation Powers,Base Building Game,30 SP,N/A
