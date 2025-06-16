@@ -110,8 +110,14 @@ def check_duplicates(project):
 
     object_ids: Dict[str, list[str]] = {}
     graph = build_graph(project)
-    for row_data in project["rows"]:
-        for object_data in row_data["objects"]:
+    for idx, row_data in enumerate(project["rows"]):
+        if len(row_data["id"]) == 0:
+            console.print(f"[red]Row [b]'{row_data['title']}'[/] at index {idx} has an empty ID[/]")
+
+        for idx, object_data in enumerate(row_data["objects"]):
+            if len(object_data["id"]) == 0:
+                console.print(f"[red]Object [b]'{object_data["title"]}'[/] at index {idx} in {row_data['title']} ({row_data['id']}) has an empty ID[/]")
+                continue
             object_ids.setdefault(object_data["id"], [])
             object_ids[object_data["id"]].append(f"{object_data["title"]} in {row_data['title']} ({row_data['id']})")
 

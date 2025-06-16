@@ -1586,7 +1586,7 @@ Tier 2 Powers,(Stranger/Master) Identity,25 SP,N/A
 Tier 2 Powers,(Master) Dead Body,20 SP,N/A
 Tier 2 Powers,(Master) Cloning,25 SP,N/A
 Tier 2 Powers,(Tinker) Techno-Organic,20 SP| 10 SP,N/A
-Tier 2 Powers,(Tinker) Supervillain,25 SP| 12 SP,N/A
+Tier 2 Powers,(Tinker) Supervillain,20 SP| 10 SP,N/A
 Tier 2 Powers,(Master) Undead,20 SP,N/A
 Tier 2 Powers,(Thinker) Clairvoyant,20 SP,N/A
 Tier 2 Powers,(Shaker) Baryonic Creation  ,15 SP,N/A
@@ -1665,7 +1665,7 @@ Tier 2 Powers,(Trump) Constellations,15 SP,N/A
 Tier 2 Powers,(Tinker/Changer) Will Make Real Tinkers Mad,20 SP| 10 SP,N/A
 Tier 2 Powers,(Master) Grave Caller,15 SP,N/A
 Tier 2 Powers,(Master) Elemental Snakes,20 SP,N/A
-Tier 2 Powers,(Shaker/Thinker/Trump) Pseudoscientific Manifestation,18 SP,N/A
+Tier 2 Powers,(Shaker/Trump) Pseudoscientific Manifestation,18 SP,N/A
 Tier 2 Powers,(Thinker) I Know You Better Than You Know Yourself ,25 SP,N/A
 Tier 2 Powers,(Striker/Shaker) Born Again,20 SP,N/A
 Tier 2 Powers,(Breaker/Blaster) Flame On,20 SP,N/A
@@ -2309,7 +2309,6 @@ Physical Powers,Type Yellow (SCP Foundation),5 SP,N/A
 Physical Powers,Type Pink (SCP Foundation),5 SP,N/A
 Physical Powers,Stella Populi,25 SP,N/A
 Physical Powers,Astrum Populi,25 SP,N/A
-Physical Powers,Sky Child (Sky: Children of the Light),10 SP,N/A
 Physical Powers,Knight’s Valor,10 SP,N/A
 Physical Powers,Machine God (Bofuri),10 SP,N/A
 Physical Powers,Au Ra (Final Fantasy XIV),5 SP,N/A
@@ -2349,7 +2348,7 @@ Physical Powers,Gladiator,6 SP,N/A
 Physical Powers,Digimon (Digimon),10 SP,N/A
 Physical Powers,Terrestrial Shaper,80 SP,N/A
 Physical Powers,Trauma Team Operator (Cyberpunk 2077),12 SP,N/A
-Physical Powers,Runebear (Elden Ring),12 SP,N/A
+Physical Powers,Runebear (Elden Ring),8 SP,N/A
 Physical Powers,Dinaurian (Fossil Fighters),8 SP,N/A
 Physical Powers,Drunken Fist,5 SP,N/A
 Physical Powers,Homunculus (Dead Cells),5 SP,N/A
@@ -2704,7 +2703,7 @@ Magic and Mystic Powers,Thaumavore,5 SP,N/A
 Magic and Mystic Powers,Bloodline Sorcerer,15 SP,N/A
 Magic and Mystic Powers,Laplace Factor (Mushoku Tensei),10 SP,N/A
 Magic and Mystic Powers,Battle Aura (Mushoku Tensei),10 SP,N/A
-Magic and Mystic Powers,Kings Rauru Right Arm (TLoZ),7 SP,N/A
+Magic and Mystic Powers,Kings Rauru Right Arm (Legend of Zelda),7 SP,N/A
 Magic and Mystic Powers,Force Magic,5 SP,N/A
 Magic and Mystic Powers,"Maybe Magic, Maybe Mundane",10 SP,N/A
 Magic and Mystic Powers,Magician (Magi: The Labyrinth of Magic),10 SP,N/A
@@ -2793,13 +2792,13 @@ Spiritual and Divine Powers,Forward & Onward,8 SP,N/A
 Spiritual and Divine Powers,Gravewalker (Shadow of War),30 SP,N/A
 Spiritual and Divine Powers,Divine Patron,15 SP,N/A
 Spiritual and Divine Powers,Grand Enchant,15 SP,N/A
-Spiritual and Divine Powers,Neverborn (Warhammer: 40k),40 SP| 20 SP,N/A
-Spiritual and Divine Powers,Champion of Khorne (Warhammer: 40k),10 SP,N/A
-Spiritual and Divine Powers,Champion of Tzeentch (Warhammer: 40k),10 SP,N/A
-Spiritual and Divine Powers,Champion of Nurgle (Warhammer: 40k),10 SP,N/A
-Spiritual and Divine Powers,Champion of Slaanesh (Warhammer: 40k),10 SP,N/A
+Spiritual and Divine Powers,Neverborn (Warhammer),40 SP| 20 SP,N/A
+Spiritual and Divine Powers,Champion of Khorne (Warhammer),10 SP,N/A
+Spiritual and Divine Powers,Champion of Tzeentch (Warhammer),10 SP,N/A
+Spiritual and Divine Powers,Champion of Nurgle (Warhammer),10 SP,N/A
+Spiritual and Divine Powers,Champion of Slaanesh (Warhammer),10 SP,N/A
 Spiritual and Divine Powers,Champion of The Great Horned Rat (Warhammer: Age of Sigmar),10 SP,N/A
-Spiritual and Divine Powers,Champion of Chaos Undivided,10 SP,N/A
+Spiritual and Divine Powers,Champion of Chaos Undivided (Warhammer),10 SP,N/A
 Spiritual and Divine Powers,Champion of Gork and Mork (Warhammer: 40k),10 SP,N/A
 Spiritual and Divine Powers,Blessed by Da Bad Moon (Warhammer: Age of Sigmar),15 SP,N/A
 Spiritual and Divine Powers,Astral Spirit (Date A Live),25 SP,N/A
@@ -2959,6 +2958,7 @@ Spiritual and Divine Powers,Mythic Beast (Fabulous Beasts),5 SP,N/A
 Spiritual and Divine Powers,Dual Embodiment,10 SP,N/A
 Spiritual and Divine Powers,Zenith and Nadir,10 SP,N/A
 Spiritual and Divine Powers,Hollow Within,5 SP,N/A
+Spiritual and Divine Powers,Sky Child (Sky: Children of the Light),10 SP,N/A
 Technology and Artifice Powers,Artificer (D&D),5 SP,Required: Arcane Magic (D&D/Pathfinder); Required: Psionics (D&D); Required: Occult Magic (Pathfinder)
 Technology and Artifice Powers,Phyrexian Praetor (Magic: The Gathering),20 SP,N/A
 Technology and Artifice Powers,Quicksmithing (Magic: The Gathering),10 SP,N/A
@@ -3014,7 +3014,7 @@ Technology and Artifice Powers,EXODUS (Fafner In The Azure),15 SP,N/A
 Technology and Artifice Powers,Cradle of Extinction (Armored Core),15 SP,N/A
 Technology and Artifice Powers,The Living Legacy (Humanity Lost),15 SP,N/A
 Technology and Artifice Powers,Anomaly Infusion,15 SP,N/A
-Technology and Artifice Powers,Korok Warcrimes (TLoZ),17 SP,N/A
+Technology and Artifice Powers,Korok Warcrimes (Legend of Zelda),17 SP,N/A
 Technology and Artifice Powers,Uber Ethereal (XCOM),20 SP,N/A
 Technology and Artifice Powers,Glitterworld (Rimworld),20 SP,N/A
 Technology and Artifice Powers,Throne of Empty Heaven (GodBound),30 SP,N/A
@@ -3456,7 +3456,7 @@ Esoteric and Abstract Powers,Shard of Creation,30 SP,N/A
 Esoteric and Abstract Powers,"It's-A-Me, Mario... Almost! (Friday Night Funkin': Mario's Madness)",25 SP,N/A
 Esoteric and Abstract Powers,Nihili Est Qui Nihil Amat,40 SP,N/A
 Esoteric and Abstract Powers,Wanderer's Apartment,5 SP,N/A
-Esoteric and Abstract Powers,Inhale (Kirby),10 SP,N/A
+Esoteric and Abstract Powers,Inhale (Kirby),5 SP,N/A
 Esoteric and Abstract Powers,Reality Anchor,12 SP,N/A
 Esoteric and Abstract Powers,The Devouring Singularity,20 SP,N/A
 Esoteric and Abstract Powers,Go Glow (Kim Possible),5 SP,N/A
@@ -3498,8 +3498,8 @@ Esoteric and Abstract Powers,Action Command (Super Mario),5 SP,N/A
 Esoteric and Abstract Powers,Trust (To Be Hero X),25 SP,N/A
 Esoteric and Abstract Powers,Bind,5 SP,N/A
 Esoteric and Abstract Powers,I Know A Guy,8 SP,N/A
-Esoteric and Abstract Powers,Spray and Pray,8 SP,N/A
-Esoteric and Abstract Powers,Two in One,8 SP,N/A
+Esoteric and Abstract Powers,Spray and Pray,5 SP,N/A
+Esoteric and Abstract Powers,Two in One,5 SP,N/A
 Esoteric and Abstract Powers,,,N/A
 Esoteric and Abstract Powers,Heir of an Echo,50 SP,N/A
 Esoteric and Abstract Powers,Mythical Creature Form,40 SP,N/A
@@ -3611,7 +3611,7 @@ Foundation Powers,Growth Tool,10 SP,N/A
 Foundation Powers,Theft,20 SP,N/A
 Foundation Powers,Dragon’s Hoard,10 SP,N/A
 Foundation Powers,Terrestrial Inventory,20 SP,N/A
-Foundation Powers,Epithet Collector ,20 SP,N/A
+Foundation Powers,Epithet Collector ,10 SP,N/A
 Foundation Powers,"Greatest of Sins, Pride",10 SP,N/A
 Foundation Powers,One Thousand Cuts,5 SP,N/A
 Keystone Powers,Path of the Worldwalker,,N/A
@@ -3657,7 +3657,7 @@ Keystone Powers,Nascent Mind,25 SP,N/A
 Keystone Powers,Almighty Mind,35 SP,Required: Nascent Mind
 Keystone Powers,Precognition,10 SP,Required: Nascent Mind
 Keystone Powers,Clairvoyance,10 SP,Required: Nascent Mind
-Keystone Powers,Psychometry ,10 SP,Required: Nascent Mind
+Keystone Powers,Psychometry,10 SP,Required: Nascent Mind
 Keystone Powers,Telepathy,10 SP,Required: Nascent Mind
 Keystone Powers,Psychokinesis,10 SP,Required: Nascent Mind
 Keystone Powers,Path of the Evolution,,N/A
@@ -3752,12 +3752,12 @@ Miscellaneous Objects of Power,Totems of the Octessence (Marvel),40 SP,N/A
 Miscellaneous Objects of Power,Master Ball (Pokemon),25 SP,N/A
 Miscellaneous Objects of Power,Poké Ball (Pokemon),10 SP,N/A
 Miscellaneous Objects of Power,Der Freischütz E.G.O.: Magic Bullet (Project Moon),15 SP,N/A
+Miscellaneous Objects of Power,Shaped Glass (Risk of Rain 2),1 SP,N/A
 Miscellaneous Objects of Power,110%: SCP-248 (SCP Foundation),5 SP,N/A
 Miscellaneous Objects of Power,The Resurrection Cube: SCP 076-1 (SCP Foundation),10 SP,N/A
 Miscellaneous Objects of Power,The Song of Genesis: SCP-407 (SCP Foundation),15 SP,N/A
 Miscellaneous Objects of Power,Symphogear (Senki Zesshou Symphogear),15 SP,N/A
 Miscellaneous Objects of Power,Yoshi Egg (Super Mario),5 SP,N/A
-Miscellaneous Objects of Power,Shaped Glass (Risk of Rain 2),1 SP,N/A
 Miscellaneous Objects of Power,Terraria Equipment (Terraria),7 SP,N/A
 Miscellaneous Objects of Power,Daedric Equipments (The Elder Scrolls),5 SP,N/A
 Miscellaneous Objects of Power,Shadow Garden (The Eminence In the Shadow),20 SP,N/A
