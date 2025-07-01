@@ -1,21 +1,19 @@
-import csv
+import itertools
 import itertools
 import operator
 import os
 import sys
 from concurrent.futures import as_completed
 from concurrent.futures.thread import ThreadPoolExecutor
-from difflib import context_diff
 from fnmatch import fnmatch
 from pathlib import Path
-from typing import Any, TextIO, Optional
+from typing import Any, TextIO
 
 import jinja2
 import requests
 from lenses import lens
-from rich.progress import Progress, TextColumn, BarColumn, TaskProgressColumn, TimeRemainingColumn, MofNCompleteColumn
+from rich.progress import Progress, TextColumn, BarColumn, TimeRemainingColumn, MofNCompleteColumn
 
-from cyoa.graph.lib import Score
 from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console
 from cyoa.tools.wiki.config import STRUCTURE
 

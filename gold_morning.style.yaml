@@ -1,0 +1,120 @@
+variables:
+  $amber400: "#FBBF24FF"
+  $orange400: "#FB923CFF"
+  $stone100: "#F5F5F4FF"
+  $stone800: "#292524FF"
+  $invisible: "#00000000"
+  # old colors
+  $teal: "#193C78FF"
+  $white: "#FFFFFFFF"
+  $black: "#000000FF"
+
+classes:
+  rowDivider: 
+    normalize: true
+    matching: ["obj/sep-*"]
+    properties:
+      objectBgColorIsOn: false
+      objectBorderIsOn: false
+      objectTextColor: { op: replace, value: $invisible }
+  rowSubHeader:
+    normalize: true
+    matching: ["obj/head-*"]
+    properties:
+      objectBgColorIsOn: false
+      objectBorderIsOn: false
+  credits:
+    normalize: true
+    matching: ["obj/pdqo", "obj/5r3m", "obj/1iet"]
+    properties:
+      objectBgColorIsOn: false
+      objectBorderIsOn: false
+
+project:
+  properties:
+    # Text Color
+    rowTextColor: { op: replace, value: $stone100, old: $white }
+    objectTextColor: { op: replace, value: $stone100, old: $white }
+    addonTextColor: { op: replace, value: $stone100, old: $white }
+    scoreTextColor: { op: replace, value: $stone100, old: $white }
+    # Title Color
+    rowTitleColor: { op: replace, value: $amber400, old: $white }
+    objectTitleColor: { op: replace, value: $amber400, old: $white }
+    addonTitleColor: { op: replace, value: $amber400, old: $white }
+    # Borders
+    objectBorderColor: { op: replace, value: $amber400, old: "#FDFDFDFF" }
+    # Background
+    # backgroundColor: { op: replace, value: $stone800, old: $black }
+    # rowBgColor: { op: replace, value: $stone800, old: $black }
+    objectBgColor: { op: replace, value: $stone800, old: $black }
+    objectBgColorIsOn: { op: replace, value: true }
+    # Selected
+    selFilterBgColor: { op: replace, value: $orange400, old: $teal }
+
+# CYOA Title
+row/ckrc:
+  normalize: true
+  properties:
+    rowDesignIsAdvanced: true
+    rowBodyMarginSides: 0
+    rowMargin: 0
+    rowTextPaddingY: 10
+
+# Symbol Objects
+obj/Symbol:
+  normalize: true
+  properties:
+    selFilterBgColor: "#D289D0D9"
+obj/N55555:
+  normalize: true
+  properties:
+    selFilterBgColor: "#D289D0D9"
+
+# Row Sub-Headers
+obj/n50e3t: { class: rowSubHeader }
+obj/q84o34: { class: rowSubHeader }
+obj/b39c: { class: rowSubHeader }
+obj/la8y: { class: rowSubHeader }
+obj/g184: { class: rowSubHeader }
+obj/pbioli: { class: rowSubHeader }
+obj/oddr: { class: rowSubHeader }
+obj/ovwj58: { class: rowSubHeader }
+obj/ued9: { class: rowSubHeader }
+obj/dly7: { class: rowSubHeader }
+obj/y2y6: { class: rowSubHeader }
+obj/fpsq: { class: rowSubHeader }
+obj/in26: { class: rowSubHeader }
+obj/xr8a: { class: rowSubHeader }
+obj/5dsw: { class: rowSubHeader }
+obj/2hkq: { class: rowSubHeader }
+obj/2wwh: { class: rowSubHeader }
+obj/ul6lsj: { class: rowSubHeader }
+obj/yamzku: { class: rowSubHeader }
+obj/lapc: { class: rowSubHeader }
+obj/lwez: { class: rowSubHeader }
+obj/ouil: { class: rowSubHeader }
+obj/qbqa: { class: rowSubHeader }
+obj/6e1q: { class: rowSubHeader }
+obj/9ur2: { class: rowSubHeader }
+obj/6j5h: { class: rowSubHeader }
+obj/si14: { class: rowSubHeader }
+
+# Dividers
+obj/8h0876: { class: rowDivider }
+obj/ge629a: { class: rowDivider }
+obj/vm56n5: { class: rowDivider }
+obj/OoP_Divider: { class: rowDivider }
+obj/db6t47: { class: rowDivider }
+obj/jipe: { class: rowDivider }
+obj/ta5j: { class: rowDivider }
+
+# Credits
+obj/pdqo: { class: credits }
+obj/5r3m: { class: credits }
+obj/1iet: { class: credits }
+
+# Reset Private Style
+obj/7wr2p2: { isPrivateStyling: false }
+obj/Channeling: { isPrivateStyling: false }
+obj/gqx7ol: { isPrivateStyling: false }
+row/lip0: { isPrivateStyling: false }

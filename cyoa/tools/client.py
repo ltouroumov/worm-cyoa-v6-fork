@@ -5,7 +5,7 @@ from cyoa.tools.lib import ToolBase
 from cyoa.tools import (
     project_tools, row_tools, object_tools,
     media_tools, merge_tools, wiki_tools, 
-    build, scripts
+    style_tools, build, scripts
 )
 
 TOOLS: tuple[Type[ToolBase], ...] = (
@@ -15,6 +15,7 @@ TOOLS: tuple[Type[ToolBase], ...] = (
     *media_tools.TOOLS,
     *merge_tools.TOOLS,
     *wiki_tools.TOOLS,
+    *style_tools.TOOLS,
     build.BuildTool,
     *scripts.SCRIPTS,
 )
