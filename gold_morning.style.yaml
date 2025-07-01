@@ -1,11 +1,17 @@
 variables:
   $amber400: "#FBBF24FF"
   $orange400: "#FB923CFF"
+  $orange600: "#C2410CFF"
   $stone100: "#F5F5F4FF"
   $stone800: "#292524FF"
+  $sky500: "#0EA5E9FF"
+  $zinc500: "#71717AFF"
+  $rose300.AA: "#F9A8D4AA"
+  $red950: "#450A0AFF"
   $invisible: "#00000000"
   # old colors
   $teal: "#193C78FF"
+  $gray: "#424242FF"
   $white: "#FFFFFFFF"
   $black: "#000000FF"
 
@@ -14,21 +20,21 @@ classes:
     normalize: true
     matching: ["obj/sep-*"]
     properties:
-      objectBgColorIsOn: false
       objectBorderIsOn: false
+      objectBgColor: { op: replace, value: $invisible }
       objectTextColor: { op: replace, value: $invisible }
   rowSubHeader:
     normalize: true
     matching: ["obj/head-*"]
     properties:
-      objectBgColorIsOn: false
       objectBorderIsOn: false
+      objectBgColor: { op: replace, value: $invisible }
   credits:
     normalize: true
     matching: ["obj/pdqo", "obj/5r3m", "obj/1iet"]
     properties:
-      objectBgColorIsOn: false
       objectBorderIsOn: false
+      objectBgColor: { op: replace, value: $invisible }
 
 project:
   properties:
@@ -49,7 +55,10 @@ project:
     objectBgColor: { op: replace, value: $stone800, old: $black }
     objectBgColorIsOn: { op: replace, value: true }
     # Selected
-    selFilterBgColor: { op: replace, value: $orange400, old: $teal }
+    selBgColorIsOn: { op: replace, value: true }
+    selFilterBgColor: { op: replace, value: $orange600, old: $teal }
+    reqBgColorIsOn: { op: replace, value: true }
+    reqFilterBgColor: { op: replace, value: $red950, old: $gray }
 
 # CYOA Title
 row/ckrc:
@@ -59,6 +68,10 @@ row/ckrc:
     rowBodyMarginSides: 0
     rowMargin: 0
     rowTextPaddingY: 10
+
+# Credits Row
+row/g51j:
+  isPrivateStyling: false
 
 # Symbol Objects
 obj/Symbol:
