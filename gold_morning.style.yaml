@@ -1,13 +1,28 @@
 variables:
   $amber400: "#FBBF24FF"
+  $amber500: "#F97316FF"
+  $amber600: "#D97706FF"
+  $amber900: "#78350FFF"
   $orange400: "#FB923CFF"
   $orange600: "#C2410CFF"
   $stone100: "#F5F5F4FF"
+  $stone700: "#3F3F46FF"
   $stone800: "#292524FF"
+  $stone900: "#1C1917FF"
   $sky500: "#0EA5E9FF"
   $zinc500: "#71717AFF"
+  $zinc700: "#3F3F46FF"
+  $zinc800: "#27272AFF"
+  $zinc900: "#18181BFF"
+  $zinc950: "#09090BFF"
   $rose300.AA: "#F9A8D4AA"
+  $red800: "#991B1BFF"
+  $red900: "#7F1D1DFF"
   $red950: "#450A0AFF"
+  $slate800: "#1E293BFF"
+  $apple: "#C34571FF"
+  $blue800: "#1E40AFFF"
+  $indigo800: "#3730A3FF"
   $invisible: "#00000000"
   # old colors
   $teal: "#193C78FF"
@@ -50,15 +65,18 @@ project:
     # Borders
     objectBorderColor: { op: replace, value: $amber400, old: "#FDFDFDFF" }
     # Background
-    # backgroundColor: { op: replace, value: $stone800, old: $black }
+    backgroundColor: { op: replace, value: $zinc900, old: $black }
     # rowBgColor: { op: replace, value: $stone800, old: $black }
-    objectBgColor: { op: replace, value: $stone800, old: $black }
+    rowBgColorIsOn: { op: replace, value: false }
+    objectBgColor: { op: replace, value: $zinc800, old: $black }
     objectBgColorIsOn: { op: replace, value: true }
     # Selected
     selBgColorIsOn: { op: replace, value: true }
-    selFilterBgColor: { op: replace, value: $orange600, old: $teal }
-    reqBgColorIsOn: { op: replace, value: true }
-    reqFilterBgColor: { op: replace, value: $red950, old: $gray }
+    selFilterBgColor: { op: replace, value: $red900, old: $teal }
+    # reqBgColorIsOn: { op: replace, value: true }
+    # reqFilterBgColor: { op: replace, value: $stone700, old: $gray }
+    reqFilterGrayIsOn: { op: replace, value: true }
+    reqFilterGray: { op: replace, value: 100 }
 
 # CYOA Title
 row/ckrc:
