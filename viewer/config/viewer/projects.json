@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "remoteFileUrl": "./project.json",
+      "file_url": "./project.json",
       "title": "Worm V6 (Lt's Fork)",
       "id": "worm-v6-lt"
     }
