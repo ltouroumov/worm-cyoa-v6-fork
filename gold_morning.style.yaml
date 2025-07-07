@@ -105,9 +105,3 @@ obj/N55555:
 obj/pdqo: { class: credits }
 obj/5r3m: { class: credits }
 obj/1iet: { class: credits }
-
-# Reset Private Style
-obj/7wr2p2: { isPrivateStyling: false }
-obj/Channeling: { isPrivateStyling: false }
-obj/gqx7ol: { isPrivateStyling: false }
-row/lip0: { isPrivateStyling: false }
