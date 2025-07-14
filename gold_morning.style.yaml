@@ -44,6 +44,8 @@ classes:
       objectTitleColor: { op: replace, value: $invisible }
       objectTitleTextSize: { op: replace, value: 0 }
       reqFilterGrayIsOn: { op: replace, value: false }
+      reqBgColorIsOn: { op: replace, value: false }
+
   rowSubHeader:
     normalize: true
     matching: ["obj/head--*"]
@@ -52,6 +54,7 @@ classes:
       objectBgColor: { op: replace, value: $invisible }
       reqFilterGrayIsOn: { op: replace, value: false }
       reqBgColorIsOn: { op: replace, value: false }
+      
   credits:
     normalize: true
     matching: ["obj/pdqo", "obj/5r3m", "obj/1iet"]
@@ -80,6 +83,8 @@ project:
     # Selected
     selBgColorIsOn: { op: replace, value: true }
     selFilterBgColor: { op: replace, value: $blue950 }
+    reqBgColorIsOn: { op: replace, value: true }
+    reqBgColorIsOn: { op: replace, value: $zinc800 }
     reqFilterGrayIsOn: { op: replace, value: true }
     reqFilterGray: { op: replace, value: 100 }
 
