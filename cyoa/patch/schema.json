@@ -143,8 +143,11 @@
         "$ref": "#/$defs/row"
       }
     },
-    "styling": {
-      "$ref": "#/$defs/styling"
+    "styling": { 
+      "oneOf": [ 
+        { "type": "null" },
+        { "$ref": "#/$defs/styling" }
+      ]
     },
     "variables": {
       "type": "array",
@@ -242,8 +245,11 @@
             "null"
           ]
         },
-        "styling": {
-          "$ref": "#/$defs/styling"
+        "styling": { 
+          "oneOf": [ 
+            { "type": "null" },
+            { "$ref": "#/$defs/styling" }
+          ]
         },
         "template": {
           "$ref": "#/$defs/integer_or_string_empty"
@@ -349,8 +355,11 @@
         "isPrivateStyling": {
           "type": "boolean"
         },
-        "styling": {
-          "$ref": "#/$defs/styling"
+        "styling": { 
+          "oneOf": [ 
+            { "type": "null" },
+            { "$ref": "#/$defs/styling" }
+          ]
         },
         "multipleUseVariable": {
           "type": "integer"

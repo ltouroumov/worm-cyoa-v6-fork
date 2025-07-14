@@ -22,6 +22,8 @@ variables:
   $slate800: "#1E293BFF"
   $apple: "#C34571FF"
   $blue800: "#1E40AFFF"
+  $blue950: "#172554FF"
+  
   $indigo800: "#3730A3FF"
   $invisible: "#00000000"
   # old colors
@@ -38,6 +40,9 @@ classes:
       objectBorderIsOn: false
       objectBgColor: { op: replace, value: $invisible }
       objectTextColor: { op: replace, value: $invisible }
+      objectTextTextSize: { op: replace, value: 0 }
+      objectTitleColor: { op: replace, value: $invisible }
+      objectTitleTextSize: { op: replace, value: 0 }
       reqFilterGrayIsOn: { op: replace, value: false }
   rowSubHeader:
     normalize: true
@@ -57,27 +62,24 @@ classes:
 project:
   properties:
     # Text Color
-    rowTextColor: { op: replace, value: $stone100, old: $white }
-    objectTextColor: { op: replace, value: $stone100, old: $white }
-    addonTextColor: { op: replace, value: $stone100, old: $white }
-    scoreTextColor: { op: replace, value: $stone100, old: $white }
+    rowTextColor: { op: replace, value: $stone100 }
+    objectTextColor: { op: replace, value: $stone100 }
+    addonTextColor: { op: replace, value: $stone100 }
+    scoreTextColor: { op: replace, value: $stone100 }
     # Title Color
-    rowTitleColor: { op: replace, value: $amber400, old: $white }
-    objectTitleColor: { op: replace, value: $amber400, old: $white }
-    addonTitleColor: { op: replace, value: $amber400, old: $white }
+    rowTitleColor: { op: replace, value: $amber400 }
+    objectTitleColor: { op: replace, value: $amber400 }
+    addonTitleColor: { op: replace, value: $amber400 }
     # Borders
-    objectBorderColor: { op: replace, value: $amber400, old: "#FDFDFDFF" }
+    objectBorderColor: { op: replace, value: $amber400 }
     # Background
-    backgroundColor: { op: replace, value: $zinc900, old: $black }
-    # rowBgColor: { op: replace, value: $stone800, old: $black }
+    backgroundColor: { op: replace, value: $zinc950 }
     rowBgColorIsOn: { op: replace, value: false }
-    objectBgColor: { op: replace, value: $zinc800, old: $black }
+    objectBgColor: { op: replace, value: $zinc900 }
     objectBgColorIsOn: { op: replace, value: true }
     # Selected
     selBgColorIsOn: { op: replace, value: true }
-    selFilterBgColor: { op: replace, value: $red900, old: $teal }
-    # reqBgColorIsOn: { op: replace, value: true }
-    # reqFilterBgColor: { op: replace, value: $stone700, old: $gray }
+    selFilterBgColor: { op: replace, value: $blue950 }
     reqFilterGrayIsOn: { op: replace, value: true }
     reqFilterGray: { op: replace, value: 100 }
 
@@ -108,3 +110,5 @@ obj/N55555:
 obj/pdqo: { class: credits }
 obj/5r3m: { class: credits }
 obj/1iet: { class: credits }
+
+obj/Sephiroth_Graal: { isPrivateStyling: false }
