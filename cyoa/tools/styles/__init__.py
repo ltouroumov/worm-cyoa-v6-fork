@@ -53,6 +53,7 @@ STYLES_DEF = {
     "objectImgBorderWidth": Number,
     "objectImgObjectFillIsOn": Boolean,
     "objectImgObjectFillStyle": String,
+    "objectImgObjectFillHeight": String,
     "objectImgOverflowIsOn": Boolean,
     "objectMargin": Number,
     "objectOverflowIsOn": Boolean,

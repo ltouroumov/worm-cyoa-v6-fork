@@ -716,6 +716,9 @@
         "objectImgObjectFillStyle": {
           "type": "string"
         },
+        "objectImgObjectFillHeight": {
+          "type": "string"
+        },
         "objectImgOverflowIsOn": {
           "type": "boolean"
         },

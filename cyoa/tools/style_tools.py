@@ -90,6 +90,9 @@ class StyleTransformer:
         elif obj_data.get('isPrivateStyling', False):
             console.print(f"Update private styles of row '{obj_data['title']}' ({obj_data['id']})")
             self.update_properties(obj_data['styling'], self.project_style['properties'], obj_ref)
+        elif context == "row":
+            # For rows, copy the global styles
+            obj_data['styling'] = self.project['styling'].copy()
         else:
             obj_data['styling'] = None
 

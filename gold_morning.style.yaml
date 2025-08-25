@@ -64,6 +64,8 @@ classes:
 
 project:
   properties:
+    # Normalize images
+    objectImgObjectFillIsOn: { op: replace, value: false }
     # Text Color
     rowTextColor: { op: replace, value: $stone100 }
     objectTextColor: { op: replace, value: $stone100 }
