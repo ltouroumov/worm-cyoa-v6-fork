@@ -1,3 +1,4 @@
+import re
 from cyoa.tools.lib import console, find_first, is_empty
 from cyoa.tools.patch import PatchBase, patch, PatchContext
 
@@ -117,3 +118,25 @@ class FixImageLinks(PatchBase):
     @patch(target='object')
     def patch_obj(self, obj):
         self._patch_image(obj)
+
+
+def has_whitespace(data):
+    return re.search(r"^\s+", data) or re.search(r"\s+$", data)
+
+
+class TrimSpaces(PatchBase):
+    @patch(target='object')
+    def patch_obj(self, obj):
+        if has_whitespace(obj['id']):
+            console.print(f"[orange1]Remove whitespace from choice ID '{obj['id']}'")
+            obj['id'] = str.strip(obj['id'])
+        if has_whitespace(obj['title']):
+            console.print(f"[orange1]Remove whitespace from choice title '{obj['title']}'")
+            obj['title'] = str.strip(obj['title'])
+
+    @patch(target='object.addon')
+    def patch_addon(self, obj):
+        if has_whitespace(obj['title']):
+            console.print(f"[orange1]Remove whitespace from addon title '{obj['title']}'")
+            obj['title'] = str.strip(obj['title'])
+    
