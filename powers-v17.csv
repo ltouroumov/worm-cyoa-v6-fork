@@ -2112,7 +2112,7 @@ Power Fusions (Shard),Primogenitor Core,10 SP,Required: Keystone Root; Required:
 Power Fusions (Shard),The Shaper,5 SP,Required: Invasive Species; Required: Dead Cells; Required: Biobringer; Required: Biomass Generation
 Power Fusions (Shard),Archive of the Entities,25 SP,Required: Age Forgotten; Required: Hosts of an Old Age
 Power Fusions (Shard),Mythology,10 SP,Required: Beast King; Required: Ancalagon
-Power Fusions (Shard),The Ascension,,Required: (Breaker/Trump) Cronus; Required: (Thinker/Trump) [Query] [Response]; Required: (Trump) Manager; Required: (Trump) Prototype; Required: (Trump/Tinker) Shards; Required: (Shaker/Blaster) Stilling
+Power Fusions (Shard),The Ascension,0 SP,Required: (Breaker/Trump) Cronus; Required: (Thinker/Trump) [Query] [Response]; Required: (Trump) Manager; Required: (Trump) Prototype; Required: (Trump/Tinker) Shards; Required: (Shaker/Blaster) Stilling
 (Entity) Shard Clusters,Administrator (Rank 0),-6 ,N/A
 (Entity) Shard Clusters,Administrator (Rank 1),-6 | 5 SP| 5 CP,Required: Administrator (Rank 0)
 (Entity) Shard Clusters,Administrator (Rank 2),-6 | 10 SP| 10 CP,Required: Administrator (Rank 1)
@@ -3008,9 +3008,9 @@ Spiritual and Divine Powers,Demigod (Percy Jackson),10 SP,N/A
 Spiritual and Divine Powers,Hunter of Artemis (Percy Jackson),12 SP,N/A
 Spiritual and Divine Powers,Saga (Valhalla Saga),10 SP,N/A
 Spiritual and Divine Powers,Divine Magic (D&D),10 SP,N/A
+Spiritual and Divine Powers,Aasimar (D&D),10 SP,N/A
 Spiritual and Divine Powers,Grail Knight (Warhammer: Fantasy),10 SP,N/A
 Spiritual and Divine Powers,Midnight Aristocrat (Warhammer: Fantasy),10 SP,N/A
-Spiritual and Divine Powers,Aasimar (D&D),10 SP,N/A
 Spiritual and Divine Powers,Solar Exalted (Exalted),25 SP,N/A
 Spiritual and Divine Powers,Abyssal Exalted (Exalted),25 SP,N/A
 Spiritual and Divine Powers,Infernal Exalted (Exalted),25 SP,N/A
@@ -3325,7 +3325,7 @@ Technology and Artifice Powers,Sufficiently Advanced (Sufficiently Advanced),20 
 Technology and Artifice Powers,Tales From Another Time (Simon Stålenhag),12 SP,N/A
 Technology and Artifice Powers,Warhammer Fantasy Technology (Warhammer: Fantasy),15 SP,N/A
 Technology and Artifice Powers,Cartoon Militarism (Metal Slug/Advance Wars),20 SP,N/A
-Technology and Artifice Powers,Iserlohn Fortress (Legend of The Galactic Heroes),10 SP,N/A
+Technology and Artifice Powers,Iserlohn Fortress (Legend of The Galactic Heroes),15 SP,N/A
 Technology and Artifice Powers,Sylean (Traveller),20 SP,N/A
 Technology and Artifice Powers,Hiigaran (Homeworld),20 SP,N/A
 Technology and Artifice Powers,Golem Factory (Automata Gigue),10 SP,Required: Magitech
@@ -3846,7 +3846,6 @@ Foundation Powers,Civilisation Lost,20 SP,N/A
 Foundation Powers,Prestige,2 SP,N/A
 Foundation Powers,Wiki Warrior,30 SP,N/A
 Foundation Powers,Ringbearer,20 SP,N/A
-Foundation Powers,Manus Superior,15 SP,N/A
 Foundation Powers,Evolution,10 SP,N/A
 Foundation Powers,More for Less,10 SP,N/A
 Foundation Powers,Parasitism,12 SP,N/A
@@ -3880,6 +3879,7 @@ Foundation Powers,Mark of The Outsider (Dishonored),15 SP,N/A
 Foundation Powers,The Nightmare Spell (Shadow Slave),10 SP,N/A
 Foundation Powers,Pioneer of the Stars (Type-Moon),10 SP| 5 SP,N/A
 Foundation Powers,Mystery Slayer (Type-Moon),10 SP,N/A
+Foundation Powers,Imperial Privilege (Type-Moon),10 SP,N/A
 Foundation Powers,Interface (Dorothy’s Forbidden Grimoire),10 SP,N/A
 Foundation Powers,Girl of Magic (Magical Girl ☆Sym-tan☆),7 SP,N/A
 Foundation Powers,Phase Awakened (Closers),15 SP,N/A
@@ -3887,7 +3887,8 @@ Foundation Powers,"D.A.G. (Devour, Assimilate, Gift)",15 SP,N/A
 Foundation Powers,Skill Master (Ascension Through Skill),15 SP,N/A
 Foundation Powers,Choose Your Idol (Holocure: Save the Fans!),15 SP,N/A
 Foundation Powers,Seven Stars (Reincarnator),10 SP,N/A
-Foundation Powers,Imperial Privilege (Type-Moon),10 SP,N/A
+Foundation Powers,,,Required: g51j
+Foundation Powers,Manus Superior,15 SP,N/A
 Keystone Powers,Path of the Worldwalker,,Required: g51j
 Keystone Powers,World-Walker,25 SP,N/A
 Keystone Powers,Elder World-Walker,35 SP,Required: World-Walker
