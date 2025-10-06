@@ -208,7 +208,7 @@ Tier 1 - Mover,(Mover/Master) Let The Feathers Fly,13 SP,N/A
 Tier 1 - Mover,(Mover/Breaker) I Believe I Can Fly,13 SP,N/A
 Tier 1 - Mover,(Mover) Raven,14 SP,N/A
 Tier 1 - Mover,(Mover/Striker) Dimensional Shunter,15 SP,N/A
-Tier 1 - Shaker,(Shaker) Target Acquired,2 SP,N/A
+Tier 1 - Shaker,(Shaker/Thinker) Target Acquired,2 SP,N/A
 Tier 1 - Shaker,(Shaker) Ruckus,2 SP,N/A
 Tier 1 - Shaker,(Shaker/Blaster) Bag of Holding,3 SP,N/A
 Tier 1 - Shaker,(Shaker) Room Temperature Mirage,3 SP,N/A
@@ -2119,7 +2119,7 @@ Power Fusions (Shard),Beast King,6 SP,Required: (Changer) Lung? Hah! I'm the rea
 Power Fusions (Shard),Ancalagon,10 SP,Required: (Changer/Brute) Here There be Dragons; Required: Dragon of Kyushu
 Power Fusions (Shard),Dragon Eggs,5 SP,Required: (Master) Dragon-Mail; Required: Dragon of Kyushu
 Power Fusions (Shard),Triarchy,10 SP,Required: (Brute/Mover) Library Junior; Required: (Trump) Daimon; Required: (Blaster/Mover) Folktale
-Power Fusions (Shard),Top-Down View,,Required: (Thinker) Full Picture; Required: (Thinker) Sympathetic Sight; Required: Object Data; Required: Thinker/Trump (HUD)
+Power Fusions (Shard),Top-Down View,2 SP,Required: (Thinker) Full Picture; Required: (Thinker) Sympathetic Sight; Required: Object Data; Required: Thinker/Trump (HUD)
 Power Fusions (Shard),Ultimate Luck,1 SP,Required: (Shaker) It Gets Worse; Required: (Brute/Breaker) Undying; Required: (Shaker) Deus Ex Machina; Required: (Stranger/Shaker) Error; Required: Four-leaf Clover; Required: Thinker/Trump (Dare to be Stupid)
 Power Fusions (Shard),Mary Sue,12 SP,
 Power Fusions (Shard),(Tinker) Tinkers,2 SP,Required: (Tinker) Code; Required: FaeR: Automata; Required: Basic Lab Assistants
@@ -2249,6 +2249,7 @@ Physical Powers,Natural Born Giant,7 SP,N/A
 Physical Powers,Half-Titan Child,20 SP,N/A
 Physical Powers,Grove Beast,8 SP,N/A
 Physical Powers,Samurai Spirit,10 SP,N/A
+Physical Powers,"Ares, Legion of One",6 SP,N/A
 Physical Powers,Super Soldier Serum (Marvel),5 SP,N/A
 Physical Powers,Spider-Totem (Marvel),15 SP,N/A
 Physical Powers,Homo Superior (Marvel),15 SP,N/A
@@ -2456,6 +2457,7 @@ Physical Powers,Project Bloodshot (Valiant),25 SP,N/A
 Physical Powers,You Keep Going (El Paso Elsewhere),10 SP,N/A
 Physical Powers,Undead (Undead Unluck),25 SP,N/A
 Physical Powers,House of the Dragon (A Song of Ice and Fire),12 SP,N/A
+Physical Powers,White Walker (A Song of Ice and Fire),12 SP,N/A
 Physical Powers,Sirius (Sirius the Jaeger),7 SP,N/A
 Physical Powers,Martial Arts (Overlord),5 SP,N/A
 Physical Powers,A God Incarnate (Godzilla Franchise),40 SP,N/A
@@ -2890,7 +2892,6 @@ Magic and Mystic Powers,Atlantean Magic (DC Comics),10 SP,N/A
 Magic and Mystic Powers,Skinchanger (A Song of Ice and Fire),5 SP,N/A
 Magic and Mystic Powers,Blood Magic (A Song of Ice and Fire),10 SP,N/A
 Magic and Mystic Powers,Water Magic (A Song of Ice and Fire),8 SP,N/A
-Magic and Mystic Powers,White Walker (A Song of Ice and Fire),12 SP,N/A
 Magic and Mystic Powers,Sorcery (Sorcerer’s Apprentice),10 SP,N/A
 Magic and Mystic Powers,First Class Mage (Sousou no Frieren),8 SP,N/A
 Magic and Mystic Powers,Dark Magic (Fire Emblem),20 SP,N/A
@@ -3115,6 +3116,8 @@ Spiritual and Divine Powers,You Like Em Bad? Cause I'm Bad To The Bone (Undertal
 Spiritual and Divine Powers,The Abominable Substance (Glitchtale),15 SP,N/A
 Spiritual and Divine Powers,The Art (Kill Six Billion Demons),20 SP| 15 SP,N/A
 Spiritual and Divine Powers,Atum Manipulation (Kill Six Billion Demons),20 SP| 15 SP,N/A
+Spiritual and Divine Powers,Infernal Ego (Kill Six Billion Demons),25 SP,N/A
+Spiritual and Divine Powers,Anointed Heaven Fall Inheritor Marked By The Broken Throne And Is Paradise Chosen (Kill Six Billion Demons),25 SP,N/A
 Spiritual and Divine Powers,Shinsu Manipulation (Tower of God),10 SP,N/A
 Spiritual and Divine Powers,Gravewalker (Shadow of War),30 SP,N/A
 Spiritual and Divine Powers,Neverborn (Warhammer),40 SP| 20 SP,N/A
@@ -4118,6 +4121,7 @@ Miscellaneous Objects of Power,Sigils of the Endless (DC Comics),50 SP,N/A
 Miscellaneous Objects of Power,Psychic Paper (Doctor Who),5 SP| 0 SP,N/A
 Miscellaneous Objects of Power,Oratrice Mecanique d'Analyse Cardinale (Genshin Impact),15 SP,N/A
 Miscellaneous Objects of Power,Junior's Egg (Godzilla Franchise),15 SP,N/A
+Miscellaneous Objects of Power,Delicate Flower (Hollow Knight),1 SP,N/A
 Miscellaneous Objects of Power,Sylladex (Homestuck),15 SP,N/A
 Miscellaneous Objects of Power,Stigmata (Honkai Impact 3rd),8 SP,N/A
 Miscellaneous Objects of Power,Magic Key (Indian in the Cupboard),25 SP,N/A
@@ -4146,6 +4150,5 @@ Miscellaneous Objects of Power,Buddy in a Box (The Binding of Isaac),3 SP,N/A
 Miscellaneous Objects of Power,Daedric Equipments (The Elder Scrolls),5 SP,N/A
 Miscellaneous Objects of Power,Shadow Garden (The Eminence In the Shadow),20 SP,N/A
 Miscellaneous Objects of Power,The AllSpark (Transformers),25 SP,N/A
-Miscellaneous Objects of Power,Delicate Flower (Hollow Knight),1 SP,N/A
 Miscellaneous Objects of Power,Warrant of Trade (Warhammer: 40k),13 SP,N/A
 Miscellaneous Objects of Power,Adepta Sororitas Sanctorum (Warhammer:40K),30 SP,N/A

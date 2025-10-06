@@ -1,4 +1,6 @@
+import random
 import re
+import string
 from cyoa.tools.lib import console, find_first, is_empty
 from cyoa.tools.patch import PatchBase, patch, PatchContext
 
@@ -140,3 +142,10 @@ class TrimSpaces(PatchBase):
             console.print(f"[orange1]Remove whitespace from addon title '{obj['title']}'")
             obj['title'] = str.strip(obj['title'])
     
+class KeyAddons(PatchBase):
+    @patch(target='object.addon')
+    def patch_addon(self, obj):
+        if is_empty(obj['id']):
+            console.print(f"[orange1]Addon '{obj['title']}' is missing an ID")
+            obj_id = str.join("", random.choices(string.ascii_lowercase + string.digits, k=8))
+            obj['id'] = obj_id

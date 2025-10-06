@@ -48,7 +48,8 @@ python3 -m cyoa.tools.client project.patch --project $PROJECT \
           cyoa.patch:FixActiveFlags \
           cyoa.patch:FixConditionLabels \
           cyoa.patch:ClearEditingFlag \
-          cyoa.patch:FixMultiSelectCounters
+          cyoa.patch:FixMultiSelectCounters \
+          cyoa.patch:KeyAddons 
 
 # Update the viewer
 python3 -m cyoa.tools.client build --input $PROJECT --output viewer
