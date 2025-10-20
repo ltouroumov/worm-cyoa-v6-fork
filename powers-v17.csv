@@ -387,6 +387,7 @@ Tier 1 - Breaker,(Breaker/Mover) Speed Force,5 SP,N/A
 Tier 1 - Breaker,(Breaker/Stranger) Thin Existence,5 SP,N/A
 Tier 1 - Breaker,(Breaker/Brute) Gamer Body,5 SP,N/A
 Tier 1 - Breaker,(Breaker) Pulseform,5 SP,N/A
+Tier 1 - Breaker,"(Breaker/Brute) “Strip His Skins and Show His Scars,”",5 SP,N/A
 Tier 1 - Breaker,(Breaker/Brute) Weld,6 SP,N/A
 Tier 1 - Breaker,(Breaker) Ant Man,6 SP,N/A
 Tier 1 - Breaker,(Breaker/Trump) Other Side of the Coin,6 SP,N/A
@@ -394,6 +395,7 @@ Tier 1 - Breaker,(Breaker) Superposition,6 SP,N/A
 Tier 1 - Breaker,(Breaker) Solstice,6 SP,N/A
 Tier 1 - Breaker,(Breaker/Stranger) Ragdoll,6 SP,N/A
 Tier 1 - Breaker,(Breaker/Shaker) Warden,6 SP,N/A
+Tier 1 - Breaker,(Breaker/Master) Maggot,6 SP,N/A
 Tier 1 - Breaker,(Breaker/Mover) Mirror World,7 SP,N/A
 Tier 1 - Breaker,(Breaker/Mover) Puella Magi Homura Magika,7 SP,N/A
 Tier 1 - Breaker,(Breaker/Mover) The Flying Brick,7 SP,N/A
@@ -518,11 +520,13 @@ Tier 1 - Master,(Master/Breaker) Bilocation,10 SP,N/A
 Tier 1 - Master,(Master/Tinker) Piggot’s Terror,10 SP,N/A
 Tier 1 - Master,(Master) Kitbash,10 SP,N/A
 Tier 1 - Master,(Master/Thinker) Brain Worms,10 SP,N/A
+Tier 1 - Master,(Master/Trump) Lionheart,11 SP,N/A
 Tier 1 - Master,(Master) Victory's Path,11 SP,N/A
 Tier 1 - Master,(Master/Stranger) Sleeping Guard,11 SP,N/A
 Tier 1 - Master,(Master) Friendbringers,12 SP,N/A
 Tier 1 - Master,(Master/Trump) Open Eyes,12 SP,N/A
 Tier 1 - Master,(Master) Child of Flemming,12 SP,N/A
+Tier 1 - Master,(Master/Breaker) Mitosis,12 SP,N/A
 Tier 1 - Master,(Master) Golem,13 SP,N/A
 Tier 1 - Master,(Master/Trump) Specter,13 SP,N/A
 Tier 1 - Master,(Master) Calling Help,14 SP,N/A
@@ -653,6 +657,7 @@ Tier 1 - Tinker,(Tinker) Destruction,14 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Lasers!,14 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Information,14 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Infectious Enhancements,14 SP| 5 SP,N/A
+Tier 1 - Tinker,(Tinker) Souls Tech,14 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Code,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Terraforming,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Amplifiers and Dampeners,15 SP| 5 SP,N/A
@@ -935,6 +940,7 @@ Tier 1 - Changer,(Changer/Brute) Dire Wolf,4 SP,N/A
 Tier 1 - Changer,(Changer/Thinker) Fangs,4 SP,N/A
 Tier 1 - Changer,(Changer) Manticore,4 SP,N/A
 Tier 1 - Changer,(Changer/Mover) Wildblink,4 SP,N/A
+Tier 1 - Changer,(Changer/Master) Sheeda,4 SP,N/A
 Tier 1 - Changer,(Changer/Brute) Fatty,5 SP,N/A
 Tier 1 - Changer,(Changer/Stranger) Imposter,5 SP,N/A
 Tier 1 - Changer,(Changer/Brute) Cells At Work,5 SP,N/A
@@ -1085,6 +1091,7 @@ Tier 1 - Stranger,(Stranger) Corner Creep,2 SP,N/A
 Tier 1 - Stranger,(Stranger) So Incredibly Still,2 SP,N/A
 Tier 1 - Stranger,(Stranger) You Are A Dragon And That's Okay,3 SP,N/A
 Tier 1 - Stranger,(Stranger) Invisible Woman,3 SP,N/A
+Tier 1 - Stranger,(Stranger/Master) Behind You!,3 SP,N/A
 Tier 1 - Stranger,(Stranger) Stealthy,4 SP,N/A
 Tier 1 - Stranger,(Stranger/Striker) Trash,4 SP,N/A
 Tier 1 - Stranger,(Stranger) Fake it Till You Make it,4 SP,N/A
@@ -1119,6 +1126,7 @@ Tier 1 - Stranger,(Stranger) Unnoticeable,10 SP,N/A
 Tier 1 - Stranger,(Stranger) Center of Attention,10 SP,N/A
 Tier 1 - Stranger,(Stranger/Master) Harem Protagonist,10 SP,N/A
 Tier 1 - Stranger,(Stranger/Master) Absolution,10 SP,N/A
+Tier 1 - Stranger,(Stranger/Master) SEP,11 SP,N/A
 Tier 1 - Stranger,(Stranger) Boring,12 SP,N/A
 Tier 1 - Stranger,(Stranger) Imposter Sus,12 SP,N/A
 Tier 1 - Stranger,(Stranger) Truth,13 SP,N/A
@@ -1776,6 +1784,7 @@ Tier 2 Powers,(Tinker) Magic is Technology,15 SP| 7 SP,N/A
 Tier 2 Powers,(Tinker) Iterative Design,20 SP| 10 SP,N/A
 Tier 2 Powers,(Trump/Shaker) Fatalis Engine,25 SP,N/A
 Tier 2 Powers,(Stranger) Extenuating Circumstances,25 SP,N/A
+Tier 2 Powers,(Brute/Breaker) Self Projection,15 SP,N/A
 Tier 3 Powers,(Trump) Manager,30 SP,N/A
 Tier 3 Powers,(Trump) Oberon,35 SP,N/A
 Tier 3 Powers,(Trump) Prototype,40 SP,N/A
@@ -2043,6 +2052,7 @@ Power Fusions (Shard),Erebus,3 SP,Required: (Mover/Stranger) Shadow Diver; Requi
 Power Fusions (Shard),Aether,5 SP,Required: Brute/Thinker (Solar); Required: (Shaker) Room Temperature Mirage; Required: (Blaster) Lighthouse; Required: (Blaster/Shaker) Lightslinger; Required: (Blaster/Breaker) Purity; Required: (Shaker/Mover) Eos; Required: Chiaroscuro
 Power Fusions (Shard),Empire of Sound,5 SP,Required: Sound Engineer; Required: (Shaker) The Sound of Silence
 Power Fusions (Shard),Armamentarium,2 SP,Required: Blaster (Deadshot); Required: (Blaster/Shaker) Musketeer; Required: Full Set
+Power Fusions (Shard),"One Shot, One Kill",1 SP,Required: (Thinker) Weakspot
 Power Fusions (Shard),Zephyr,5 SP,Required: (Shaker) Storm; Required: (Blaster) Air Cannon; Required: (Shaker/Brute) Califa de Perro; Required: (Shaker/Blaster) Eligos; Required: (Shaker) Kazikli Bey; Required: (Shaker) Stormtiger; Required: (Stranger) The Custodian
 Power Fusions (Shard),Monkey King,5 SP,Required: (Brute) Bee Proof; Required: (Brute) Deadpool; Required: (Master) Kage no Bunshin; Required: (Thinker) Twisted World; Required: (Changer/Stranger) Human Shapeshift; Required: (Trump/Thinker) Third Eye; Required: Mythical Kingdom
 Power Fusions (Shard),A Butterfly’s Wings,5 SP,Required: (Striker/Shaker) Jinx; Required: (Shaker) Bedlam; Required: Energy Valve; Required: Malum
@@ -2095,6 +2105,7 @@ Power Fusions (Shard),Konan,4 SP,Required: (Mover/Breaker) On Paper Wings; Requi
 Power Fusions (Shard),Discount Artificer,4 SP,Required: (Trump) Magik Adept; Required: (Trump/Tinker) Enhancer
 Power Fusions (Shard),Discount Alchemist,6 SP,Required: (Trump) Magik Adept; Required: (Tinker/Master) Love Potion
 Power Fusions (Shard),Gem Magik,3 SP,Required: (Trump) Magik Adept; Required: (Trump) Earth Power
+Power Fusions (Shard),Magik Cards,3 SP,Required: (Trump) Magik Adept; Required: (Trump/Tinker) Cartomancy
 Power Fusions (Shard),Discount Archmage,6 SP,Required: (Trump) Magik Adept; Required: Discount Artificer; Required: Discount Alchemist; Required: Metamagik Acquisition
 Power Fusions (Shard),"Really, Don’t Mess With a White Mage!",4 SP,Required: (Trump) Magik Adept; Required: (Trump/Shaker) Don't mess with a white mage
 Power Fusions (Shard),Rod of Mastery,6 SP,Required: Grimoire Adept; Required: (Master/Trump) Scepter of Power
@@ -2125,6 +2136,7 @@ Power Fusions (Shard),Mary Sue,12 SP,
 Power Fusions (Shard),(Tinker) Tinkers,2 SP,Required: (Tinker) Code; Required: FaeR: Automata; Required: Basic Lab Assistants
 Power Fusions (Shard),Iterative Research Paradigm,4 SP,Required: (Tinker) Iterative Design; Required: (Tinker) Research And Development
 Power Fusions (Shard),Sanguis Ex Machina,15 SP,"Required: (Tinker) Oh, the Humanity; Required: (Tinker) Living Machine; Required: (Tinker) Cybernetics"
+Power Fusions (Shard),Rampage Dress,1 SP,Required: (Brute/Breaker) Manpower; Required: (Thinker) Electroreception; Required: Brute/Mover (Surge); Required: Brute (Genetic Template); Required: Changer/Brute (Skin); Required: Brute (Muscular Growth); Required: Striker/Shaker (Wireless Charger)
 Power Fusions (Shard),Divider,,Required: g51j
 Power Fusions (Shard),Unlimited Trump Works,15 SP,Required: (Trump) Manager; Required: (Trump) Prototype; Required: (Trump) Shard Supply Store
 Power Fusions (Shard),Imperator,5 SP,Required: (Trump) Aliena; Required: Cleave and Lacerate
@@ -2231,6 +2243,7 @@ Physical Powers,Nith’Raal,7 SP,N/A
 Physical Powers,Morphontes,3 SP,N/A
 Physical Powers,Thalassids,10 SP,N/A
 Physical Powers,Noxraptora,7 SP,N/A
+Physical Powers,Murrh,15 SP,N/A
 Physical Powers,Frankenstein's Monster,5 SP,N/A
 Physical Powers,Amazonian,9 SP,N/A
 Physical Powers,Gladiator,6 SP,N/A
@@ -2250,6 +2263,10 @@ Physical Powers,Half-Titan Child,20 SP,N/A
 Physical Powers,Grove Beast,8 SP,N/A
 Physical Powers,Samurai Spirit,10 SP,N/A
 Physical Powers,"Ares, Legion of One",6 SP,N/A
+Physical Powers,The Golden Body Style,10 SP,N/A
+Physical Powers,La Lance d’Hommel,3 SP,N/A
+Physical Powers,Homebred Homunculus,10 SP,N/A
+Physical Powers,Body Metamorphosis,10 SP,N/A
 Physical Powers,Super Soldier Serum (Marvel),5 SP,N/A
 Physical Powers,Spider-Totem (Marvel),15 SP,N/A
 Physical Powers,Homo Superior (Marvel),15 SP,N/A
@@ -2560,6 +2577,8 @@ Physical Powers,UmaMusume (Umamusume: Pretty Derby),10 SP,N/A
 Physical Powers,Nail Arts (Hollow Knight),5 SP,N/A
 Physical Powers,Enhanced ES Operative (Kiddy Grade),10 SP,N/A
 Physical Powers,Modified Gavv (Kamen Rider Gavv),12 SP,N/A
+Physical Powers,Nukleans,10 SP,N/A
+Physical Powers,Oni,10 SP,N/A
 Physical Powers,,,Required: g51j
 Physical Powers,Jump Jump Hero!,10 SP,N/A
 Physical Powers,"Sliver, Fragmentado, Remasuri (Magic: the Gathering)",25 SP,N/A
@@ -2584,6 +2603,7 @@ Mental and Psychic Powers,Marble Emperor,8 SP,N/A
 Mental and Psychic Powers,Autobattler,10 SP,N/A
 Mental and Psychic Powers,Archive,5 SP,N/A
 Mental and Psychic Powers,Lotus Sutra,3 SP,N/A
+Mental and Psychic Powers,Mushin,6 SP,N/A
 Mental and Psychic Powers,Ouroboros - The Snake That Bites Its Own Tail,15 SP,N/A
 Mental and Psychic Powers,The Best Of Both Worlds,30 SP,N/A
 Mental and Psychic Powers,A Fistful Conversation,5 SP,N/A
@@ -2624,6 +2644,7 @@ Mental and Psychic Powers,Martial God,12 SP,N/A
 Mental and Psychic Powers,Axis,7 SP,N/A
 Mental and Psychic Powers,S-HED,5 SP,N/A
 Mental and Psychic Powers,Insight,5 SP,N/A
+Mental and Psychic Powers,Eye of Accumulation,5 SP,N/A
 Mental and Psychic Powers,Imagination Power (Baki the Grappler),3 SP,N/A
 Mental and Psychic Powers,Geass of Absolute Obedience (Code Geass),5 SP,N/A
 Mental and Psychic Powers,Geass of Absolute Suspension (Code Geass),5 SP,N/A
@@ -2641,6 +2662,7 @@ Mental and Psychic Powers,Esper (Raildex),10 SP,N/A
 Mental and Psychic Powers,A Spark of Genius (Girl Genius),20 SP,N/A
 Mental and Psychic Powers,The Force (Star Wars),15 SP,N/A
 Mental and Psychic Powers,Shatterpoint (Star Wars),12 SP,N/A
+Mental and Psychic Powers,Battle Meditation (Star Wars),19 SP,N/A
 Mental and Psychic Powers,Esper (Mob Psycho 100),15 SP,N/A
 Mental and Psychic Powers,Tornado of Terror (One Punch Man),40 SP,N/A
 Mental and Psychic Powers,Psiad (Trinity Continuum),15 SP,N/A
@@ -2761,6 +2783,7 @@ Magic and Mystic Powers,Painted Portal,25 SP,N/A
 Magic and Mystic Powers,Modern Magic,20 SP,N/A
 Magic and Mystic Powers,Phoenix Slayer Magic,15 SP,N/A
 Magic and Mystic Powers,Fae-Blooded,5 SP,N/A
+Magic and Mystic Powers,Tai,45 SP,N/A
 Magic and Mystic Powers,Grimnir (Magicka),17 SP,N/A
 Magic and Mystic Powers,Magician (Raildex),15 SP,N/A
 Magic and Mystic Powers,Index Librorum Prohibitorum (Raildex),10 SP,N/A
@@ -2798,6 +2821,7 @@ Magic and Mystic Powers,Name (A Practical Guide to Evil),20 SP,N/A
 Magic and Mystic Powers,Fae Ancestry (A Practical Guide to Evil),5 SP,N/A
 Magic and Mystic Powers,Old Magic (Type-Moon),25 SP,N/A
 Magic and Mystic Powers,True Magic (Type-Moon),25 SP,N/A
+Magic and Mystic Powers,Breathing & Walking (Type-Moon),5 SP| 0 SP,N/A
 Magic and Mystic Powers,Mystic Eyes (Type-Moon),15 SP,N/A
 Magic and Mystic Powers,Mystic Eyes of Death Perception (Type-Moon),20 SP,N/A
 Magic and Mystic Powers,Mystic Eyes of Petrification (Type-Moon),25 SP,N/A
@@ -2959,6 +2983,7 @@ Magic and Mystic Powers,Abhorsen (The Old Kingdom),30 SP,N/A
 Magic and Mystic Powers,Imagination Magic (Wiseman’s Grandchild),15 SP,N/A
 Magic and Mystic Powers,Devil Forgemaster (Castlevania),15 SP,N/A
 Magic and Mystic Powers,The Fifth Crest (Shikkakumon no Saikyō Kenja),10 SP,N/A
+Magic and Mystic Powers,Shadow Wielder (Blue Dragon),10 SP,N/A
 Magic and Mystic Powers,,,Required: g51j
 Magic and Mystic Powers,Heart of Runes,25 SP,N/A
 Magic and Mystic Powers,Art of the Other,25 SP,N/A
@@ -3053,6 +3078,8 @@ Spiritual and Divine Powers,Spirit Guide,2 SP,N/A
 Spiritual and Divine Powers,Shin’Yō Jutsu,10 SP,N/A
 Spiritual and Divine Powers,Mask Maker,3 SP,N/A
 Spiritual and Divine Powers,Kokyū Hohō,5 SP,N/A
+Spiritual and Divine Powers,Grasp of Bronze,15 SP,N/A
+Spiritual and Divine Powers,Ideals of a Certain Hero,4 SP,N/A
 Spiritual and Divine Powers,Ki (Dragon Ball Series),5 SP| 20 SP| 0 SP,N/A
 Spiritual and Divine Powers,Chakra (Naruto),10 SP| 0 SP,N/A
 Spiritual and Divine Powers,Haki (One Piece),15 SP,N/A
@@ -3191,6 +3218,7 @@ Spiritual and Divine Powers,Remade (Chronicles of Darkness - Deviant: The Renega
 Spiritual and Divine Powers,Uratha: Child of Luna (Chronicles of Darkness - Werewolf: The Forsaken),15 SP,N/A
 Spiritual and Divine Powers,The Wonderful Feeling of Being Devoured (Chronicles of Darkness - Beast: The Primordial),25 SP,N/A
 Spiritual and Divine Powers,Imbued (World Of Darkness - Hunter: The Reckoning),5 SP,N/A
+Spiritual and Divine Powers,To Reign In Hell (World Of Darkness - Demon: The Fallen),20 SP,N/A
 Spiritual and Divine Powers,Fera (World of Darkness - Werewolf: The Apocalypse),10 SP,N/A
 Spiritual and Divine Powers,Across the Abyss (Raildex),25 SP,N/A
 Spiritual and Divine Powers,Angel Player (Angel Beats),20 SP,N/A
@@ -3272,6 +3300,8 @@ Technology and Artifice Powers,Stick and Stones CAN Break Your Bones,10 SP,N/A
 Technology and Artifice Powers,Second Coming of Da Vinci,5 SP,N/A
 Technology and Artifice Powers,Steel Eater,10 SP,N/A
 Technology and Artifice Powers,Analyze and Replicate,5 SP,N/A
+Technology and Artifice Powers,Realer Steel,5 SP,N/A
+Technology and Artifice Powers,Sovereign of Steam and Brass,3 SP,N/A
 Technology and Artifice Powers,Artificer (D&D),5 SP,Required: Arcane Magic (D&D/Pathfinder); Required: Psionics (D&D); Required: Occult Magic (Pathfinder)
 Technology and Artifice Powers,Phyrexian Praetor (Magic: The Gathering),20 SP,N/A
 Technology and Artifice Powers,Quicksmithing (Magic: The Gathering),10 SP,N/A
@@ -3482,9 +3512,10 @@ Technology and Artifice Powers,Degree from Planet Zi (Zoids),10 SP,N/A
 Technology and Artifice Powers,Morphin Grid (Power Rangers),25 SP,N/A
 Technology and Artifice Powers,Phantastic Photons (Phantasy Star),30 SP,N/A
 Technology and Artifice Powers,Heir of Stan (Scissor Seven),10 SP,N/A
-Technology and Artifice Powers,Subnautica (Subnautica),15 SP,N/A
+Technology and Artifice Powers,Frontier Spirit (Subnautica/Natural Selection),15 SP,N/A
 Technology and Artifice Powers,Providence Index (Generator Rex),15 SP,N/A
 Technology and Artifice Powers,Warcaster (Iron Kingdoms/Warmachine),8 SP,Required: Magitech
+Technology and Artifice Powers,Splicer Extrodinaire (Splicer RPG),10 SP,N/A
 Esoteric and Abstract Powers,Multiversal Chatgroup,5 SP,N/A
 Esoteric and Abstract Powers,Multiversal Marketplace,10 SP,N/A
 Esoteric and Abstract Powers,Merchant's Appraisal,5 SP,N/A
@@ -3657,6 +3688,11 @@ Esoteric and Abstract Powers,Shroud of Power,10 SP,N/A
 Esoteric and Abstract Powers,The Equivalence of Power,10 SP,N/A
 Esoteric and Abstract Powers,The Mechanical Touch,8 SP,N/A
 Esoteric and Abstract Powers,From the Shadows,20 SP,N/A
+Esoteric and Abstract Powers,Solomon's Solution,5 SP,N/A
+Esoteric and Abstract Powers,Hope,60 SP,N/A
+Esoteric and Abstract Powers,Half-Eldritch Child,40 SP,N/A
+Esoteric and Abstract Powers,Trade Window,3 SP,N/A
+Esoteric and Abstract Powers,Nullborn,50 SP,N/A
 Esoteric and Abstract Powers,Transmogrification (Diablo),5 SP,N/A
 Esoteric and Abstract Powers,"Sing, Play, and Dance (Fire Emblem)",7 SP,N/A
 Esoteric and Abstract Powers,Abridged (DBZ:A),3 SP,N/A
@@ -3667,6 +3703,8 @@ Esoteric and Abstract Powers,Solar Energy (Destiny),7 SP,N/A
 Esoteric and Abstract Powers,Void Energy (Destiny),7 SP,N/A
 Esoteric and Abstract Powers,Arc Energy (Destiny),7 SP,N/A
 Esoteric and Abstract Powers,Umbral Core (Destiny),20 SP,N/A
+Esoteric and Abstract Powers,Stasis Energy (Destiny),7 SP,N/A
+Esoteric and Abstract Powers,Strand Energy (Destiny),7 SP,N/A
 Esoteric and Abstract Powers,Sword Logic (Destiny),15 SP| 10 SP,N/A
 Esoteric and Abstract Powers,Worm Larva (Destiny),20 SP,N/A
 Esoteric and Abstract Powers,Anthem Anatheme (Destiny),30 SP,N/A
@@ -3759,12 +3797,14 @@ Esoteric and Abstract Powers,Dream Demon (Gravity Falls),30 SP,N/A
 Esoteric and Abstract Powers,Cathulhu (Battle Cats),15 SP,N/A
 Esoteric and Abstract Powers,Quantum Strings (Marvel),40 SP,N/A
 Esoteric and Abstract Powers,Starbrand (Marvel),50 SP,N/A
+Esoteric and Abstract Powers,Oldstrong (Marvel),40 SP,N/A
 Esoteric and Abstract Powers,Most Known Game (Minecraft),20 SP,N/A
 Esoteric and Abstract Powers,Light Side (Magical Girl ☆Sym-tan☆),15 SP,N/A
 Esoteric and Abstract Powers,Dark Side (Magical Girl ☆Sym-tan☆),15 SP,N/A
 Esoteric and Abstract Powers,The Symbol Brigade (Magical Girl ☆Sym-tan☆),60 SP,N/A
 Esoteric and Abstract Powers,Shadows of The Fifth (Magical Girl ☆Sym-tan☆),60 SP,N/A
 Esoteric and Abstract Powers,Mod Status (Magical Girl ☆Sym-tan☆),30 SP,N/A
+Esoteric and Abstract Powers,Grass Week (Magical Girl ☆Sym-tan☆),7 SP,N/A
 Esoteric and Abstract Powers,Petrichor V Survivor (Risk of Rain),35 SP,N/A
 Esoteric and Abstract Powers,Unchained (Chronicles of Darkness - Demon: the Descent),25 SP,N/A
 Esoteric and Abstract Powers,Epithet (Epithet Erased),15 SP,N/A
@@ -3837,6 +3877,8 @@ Esoteric and Abstract Powers,Infinite Gacha (Mugen Gacha Level 9999),30 SP,N/A
 Esoteric and Abstract Powers,I'm One of You,5 SP,N/A
 Esoteric and Abstract Powers,Descendancy (Destroy The Godmodder),80 SP,N/A
 Esoteric and Abstract Powers,Restage (Elden Ring: Nightreign),1 SP,N/A
+Esoteric and Abstract Powers,Respawn (Minecraft),10 SP,N/A
+Esoteric and Abstract Powers,You Have No Enemies,3 SP,N/A
 Esoteric and Abstract Powers,,,Required: g51j
 Esoteric and Abstract Powers,Heir of an Echo,50 SP,N/A
 Esoteric and Abstract Powers,Mythical Creature Form,40 SP,N/A
@@ -3970,6 +4012,7 @@ Foundation Powers,Skill Master (Ascension Through Skill),15 SP,N/A
 Foundation Powers,Choose Your Idol (Holocure: Save the Fans!),15 SP,N/A
 Foundation Powers,Seven Stars (Reincarnator),10 SP,N/A
 Foundation Powers,SPEEDRUNNER (Terminal Montage Mario),30 SP,N/A
+Foundation Powers,Desire Manifestation,15 SP,N/A
 Foundation Powers,,,Required: g51j
 Foundation Powers,Manus Superior,15 SP,N/A
 Keystone Powers,Path of the Worldwalker,,Required: g51j
@@ -4101,6 +4144,7 @@ Miscellaneous Objects of Power,An Ordinary Rock,5 SP,N/A
 Miscellaneous Objects of Power,Cuddly Horror,10 SP,N/A
 Miscellaneous Objects of Power,Dimensional Cage,35 SP,N/A
 Miscellaneous Objects of Power,Displacement Containers,10 SP,N/A
+Miscellaneous Objects of Power,Fragment of the Alien God of the Moon Made of Steel and Thunder,6 SP,N/A
 Miscellaneous Objects of Power,Get Out Of Jail Free Card,5 SP,N/A
 Miscellaneous Objects of Power,Heart of a Tattletale,7 SP,N/A
 Miscellaneous Objects of Power,Homunculus,5 SP,N/A
