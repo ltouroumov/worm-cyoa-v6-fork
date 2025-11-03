@@ -2282,7 +2282,7 @@ Physical Powers,Body Metamorphosis,10 SP,N/A
 Physical Powers,Nukleans,10 SP,N/A
 Physical Powers,Oni,10 SP,N/A
 Physical Powers,An Open Hand,3 SP,N/A
-Physical Powers,Body of Steel and Fire,5 SP,N/A
+Physical Powers,Wrought Iron Body,5 SP,N/A
 Physical Powers,Descendant of the Baobhan Sith,5 SP,N/A
 Physical Powers,Super Soldier Serum (Marvel),5 SP,N/A
 Physical Powers,Spider-Totem (Marvel),15 SP,N/A
@@ -3735,6 +3735,8 @@ Esoteric and Abstract Powers,Half-Eldritch Child,40 SP,N/A
 Esoteric and Abstract Powers,Trade Window,3 SP,N/A
 Esoteric and Abstract Powers,Nullborn,50 SP,N/A
 Esoteric and Abstract Powers,Elemental Plane Creation,10 SP,N/A
+Esoteric and Abstract Powers,I'm One of You,5 SP,N/A
+Esoteric and Abstract Powers,You Have No Enemies,3 SP,N/A
 Esoteric and Abstract Powers,Transmogrification (Diablo),5 SP,N/A
 Esoteric and Abstract Powers,"Sing, Play, and Dance (Fire Emblem)",7 SP,N/A
 Esoteric and Abstract Powers,Abridged (DBZ:A),3 SP,N/A
@@ -3916,11 +3918,9 @@ Esoteric and Abstract Powers,New Order (My Hero Academia),20 SP,N/A
 Esoteric and Abstract Powers,Ability (UnOrdinary),10 SP,N/A
 Esoteric and Abstract Powers,Silent Hill's Call (Silent Hill),15 SP,N/A
 Esoteric and Abstract Powers,Infinite Gacha (Mugen Gacha Level 9999),30 SP,N/A
-Esoteric and Abstract Powers,I'm One of You,5 SP,N/A
 Esoteric and Abstract Powers,Descendancy (Destroy The Godmodder),80 SP,N/A
 Esoteric and Abstract Powers,Restage (Elden Ring: Nightreign),1 SP,N/A
 Esoteric and Abstract Powers,Respawn (Minecraft),10 SP,N/A
-Esoteric and Abstract Powers,You Have No Enemies,3 SP,N/A
 Esoteric and Abstract Powers,Frame Perfect (Your Only Move Is HUSTLE),15 SP,N/A
 Esoteric and Abstract Powers,,,Required: g51j
 Esoteric and Abstract Powers,Heir of an Echo,50 SP,N/A
@@ -4039,6 +4039,7 @@ Foundation Powers,Covenant,5 SP,N/A
 Foundation Powers,Prototype Engineering,12 SP,N/A
 Foundation Powers,Absorb to Grow,10 SP,N/A
 Foundation Powers,Let’s Go Gambling,3 SP,N/A
+Foundation Powers,Desire Manifestation,15 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -4055,7 +4056,6 @@ Foundation Powers,Skill Master (Ascension Through Skill),15 SP,N/A
 Foundation Powers,Choose Your Idol (Holocure: Save the Fans!),15 SP,N/A
 Foundation Powers,Seven Stars (Reincarnator),10 SP,N/A
 Foundation Powers,SPEEDRUNNER (Terminal Montage Mario),30 SP,N/A
-Foundation Powers,Desire Manifestation,15 SP,N/A
 Foundation Powers,,,Required: g51j
 Foundation Powers,Manus Superior,15 SP,N/A
 Keystone Powers,Path of the Worldwalker,,Required: g51j
