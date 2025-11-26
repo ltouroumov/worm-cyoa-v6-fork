@@ -1,0 +1,1 @@
+import s from"./BgSNwDXh.js";import{a as c}from"./6hzvT-dP.js";import{d as n,k as m,y as p,z as i,C as d,S as u}from"./DdzSJcTg.js";const k=n({__name:"ChoiceImage",props:{mediaId:{}},setup(e){const o=c(),t=e,r=m(()=>o.media.images[t.mediaId]);return(_,l)=>{const a=s;return i(),p("div",null,[d(a,{src:u(r).data},null,8,["src"])])}}});export{k as _};
