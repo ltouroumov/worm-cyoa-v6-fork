@@ -2309,6 +2309,7 @@ Physical Powers,Primeval River-Titan,8 SP,N/A
 Physical Powers,Heartdrumming,1 SP,N/A
 Physical Powers,Half-Dragon,20 SP,N/A
 Physical Powers,Life-Giving Fists of Love,15 SP,N/A
+Physical Powers,Jump Jump Hero!,10 SP,N/A
 Physical Powers,Super Soldier Serum (Marvel),5 SP,N/A
 Physical Powers,Spider-Totem (Marvel),15 SP,N/A
 Physical Powers,Homo Superior (Marvel),15 SP,N/A
@@ -2628,8 +2629,6 @@ Physical Powers,Mind Dragon (Lord of the Mysteries),15 SP,N/A
 Physical Powers,Squiddles (Agoraphobia / Homestuck),15 SP,N/A
 Physical Powers,Genome-Cyborg (Project Altered Beast),15 SP,N/A
 Physical Powers,Demon Reactor (The Seven Deadly Sins),30 SP,N/A
-Physical Powers,,,Required: g51j
-Physical Powers,Jump Jump Hero!,10 SP,N/A
 Physical Powers,"Sliver, Fragmentado, Remasuri (Magic: the Gathering)",25 SP,N/A
 Mental and Psychic Powers,Wifi,4 SP,N/A
 Mental and Psychic Powers,MUSE,5 SP,N/A
@@ -2714,6 +2713,7 @@ Mental and Psychic Powers,Dream for the Stars (Type-Moon),3 SP,N/A
 Mental and Psychic Powers,Ultimate Talent (Danganronpa),10 SP,N/A
 Mental and Psychic Powers,Psionics (D&D),10 SP,N/A
 Mental and Psychic Powers,Esper (Raildex),10 SP,N/A
+Mental and Psychic Powers,Kihara (Raildex),10 SP,N/A
 Mental and Psychic Powers,A Spark of Genius (Girl Genius),20 SP,N/A
 Mental and Psychic Powers,The Force (Star Wars),15 SP,N/A
 Mental and Psychic Powers,Shatterpoint (Star Wars),12 SP,N/A
@@ -2766,7 +2766,6 @@ Mental and Psychic Powers,Migeiko (Katanagatari),35 SP,N/A
 Mental and Psychic Powers,Innovation (Unconnected Oddities CYOA),3 SP,N/A
 Mental and Psychic Powers,Epiphanies (Unconnected Oddities CYOA),3 SP,N/A
 Mental and Psychic Powers,Homo Sensorium (Sense8),5 SP,N/A
-Mental and Psychic Powers,Kihara (Raildex),10 SP,N/A
 Mental and Psychic Powers,Bader-Ramjin Infomorphic Entity (SCP Foundation),5 SP,N/A
 Mental and Psychic Powers,Antimeme (SCP Foundation),5 SP,N/A
 Mental and Psychic Powers,Type Ochre (SCP Foundation),5 SP,N/A
@@ -2825,6 +2824,7 @@ Magic and Mystic Powers,The Dedicated Healer,15 SP,N/A
 Magic and Mystic Powers,Green Mage,10 SP,N/A
 Magic and Mystic Powers,Red Mage,10 SP,N/A
 Magic and Mystic Powers,Blue Mage,10 SP,N/A
+Magic and Mystic Powers,Black Mage,10 SP,N/A
 Magic and Mystic Powers,Liber Arcana,10 SP,N/A
 Magic and Mystic Powers,Virga Arcana,2 SP,N/A
 Magic and Mystic Powers,Jewel Magic,20 SP,N/A
@@ -2844,13 +2844,14 @@ Magic and Mystic Powers,Painted Portal,25 SP,N/A
 Magic and Mystic Powers,Modern Magic,20 SP,N/A
 Magic and Mystic Powers,Phoenix Slayer Magic,15 SP,N/A
 Magic and Mystic Powers,Fae-Blooded,5 SP,N/A
-Magic and Mystic Powers,Tai,45 SP,N/A
 Magic and Mystic Powers,Geode Magic,12 SP,N/A
+Magic and Mystic Powers,Tai,45 SP,N/A
 Magic and Mystic Powers,Sacrificial Summoning,10 SP,N/A
 Magic and Mystic Powers,Aspect Summoning,7 SP,N/A
 Magic and Mystic Powers,Nerves of Steel,5 SP,N/A
-Magic and Mystic Powers,Black Mage,10 SP,N/A
 Magic and Mystic Powers,Curse Magic,5 SP,N/A
+Magic and Mystic Powers,Heart of Runes,25 SP,N/A
+Magic and Mystic Powers,Art of the Other,25 SP,N/A
 Magic and Mystic Powers,Grimnir (Magicka),17 SP,N/A
 Magic and Mystic Powers,Magician (Raildex),15 SP,N/A
 Magic and Mystic Powers,Index Librorum Prohibitorum (Raildex),10 SP,N/A
@@ -2889,8 +2890,10 @@ Magic and Mystic Powers,Light (A Practical Guide to Evil),15 SP,N/A
 Magic and Mystic Powers,Sorcery (A Practical Guide to Evil),15 SP,N/A
 Magic and Mystic Powers,Name (A Practical Guide to Evil),20 SP,N/A
 Magic and Mystic Powers,Fae Ancestry (A Practical Guide to Evil),5 SP,N/A
+Magic and Mystic Powers,Magecraft (Type-Moon),10 SP| 5 SP| 0 SP,N/A
 Magic and Mystic Powers,Old Magic (Type-Moon),25 SP,N/A
 Magic and Mystic Powers,True Magic (Type-Moon),25 SP,N/A
+Magic and Mystic Powers,Servant (Type-Moon),10 SP| 0 SP,N/A
 Magic and Mystic Powers,Breathing & Walking (Type-Moon),5 SP| 0 SP,N/A
 Magic and Mystic Powers,Mystic Eyes (Type-Moon),15 SP,N/A
 Magic and Mystic Powers,Mystic Eyes of Death Perception (Type-Moon),20 SP,N/A
@@ -2986,6 +2989,7 @@ Magic and Mystic Powers,"Tier Magic, kupo! (Final Fantasy)",10 SP,N/A
 Magic and Mystic Powers,Homo Magi (DC Comics),10 SP,N/A
 Magic and Mystic Powers,Logomancy (DC Comics),15 SP| 5 SP,N/A
 Magic and Mystic Powers,Atlantean Magic (DC Comics),10 SP,N/A
+Magic and Mystic Powers,Elemental Realm Connection (DC Comics),20 SP,N/A
 Magic and Mystic Powers,Skinchanger (A Song of Ice and Fire),5 SP,N/A
 Magic and Mystic Powers,Blood Magic (A Song of Ice and Fire),10 SP,N/A
 Magic and Mystic Powers,Water Magic (A Song of Ice and Fire),8 SP,N/A
@@ -3039,6 +3043,7 @@ Magic and Mystic Powers,Prophet (Illwinter's Dominions),15 SP,N/A
 Magic and Mystic Powers,Marvelous Mage (Brockton Bay's Marvelous Mage),20 SP,N/A
 Magic and Mystic Powers,Archetype (Metaphor: ReFantazio),10 SP,N/A
 Magic and Mystic Powers,Sorcery (World Of Darkness),7 SP,N/A
+Magic and Mystic Powers,Awakened (World Of Darkness - Mage: The Ascension),35 SP,N/A
 Magic and Mystic Powers,Magic (Jackal Among Snakes),12 SP,N/A
 Magic and Mystic Powers,Sorcerer (Archdemon's Dilemma),10 SP,N/A
 Magic and Mystic Powers,Celestial Mysticism (Archdemon's Dilemma),20 SP,N/A
@@ -3058,15 +3063,9 @@ Magic and Mystic Powers,Devil Forgemaster (Castlevania),15 SP,N/A
 Magic and Mystic Powers,The Fifth Crest (Shikkakumon no Saikyō Kenja),10 SP,N/A
 Magic and Mystic Powers,Shadow Wielder (Blue Dragon),10 SP,N/A
 Magic and Mystic Powers,Magic (Dragon Ball Series),20 SP,N/A
-Magic and Mystic Powers,,,Required: g51j
-Magic and Mystic Powers,Heart of Runes,25 SP,N/A
-Magic and Mystic Powers,Art of the Other,25 SP,N/A
-Magic and Mystic Powers,Awakened (World Of Darkness - Mage: The Ascension),35 SP,N/A
-Magic and Mystic Powers,Elemental Realm Connection (DC Comics),20 SP,N/A
-Magic and Mystic Powers,Die Ewigkeit (Shinza Bansho),25 SP,N/A
 Magic and Mystic Powers,Half-Witch (Homebody Witch),30 SP,N/A
-Magic and Mystic Powers,Magecraft (Type-Moon),10 SP| 5 SP| 0 SP,N/A
-Magic and Mystic Powers,Servant (Type-Moon),10 SP| 0 SP,N/A
+Magic and Mystic Powers,Die Ewigkeit (Shinza Bansho),25 SP,N/A
+Magic and Mystic Powers,Antikytheria (Guild Wars),10 SP,N/A
 Spiritual and Divine Powers,Soulbond,5 SP,N/A
 Spiritual and Divine Powers,Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers,Eternal Flame,40 SP,N/A
@@ -3223,7 +3222,7 @@ Spiritual and Divine Powers,The Little Knight Who Dreams (Hollow Knight),5 SP,N/
 Spiritual and Divine Powers,Monster (Undertale),5 SP,N/A
 Spiritual and Divine Powers,DETERMINATION (Undertale),25 SP,N/A
 Spiritual and Divine Powers,You Like Em Bad? Cause I'm Bad To The Bone (Undertale),15 SP,N/A
-Spiritual and Divine Powers,The Abominable Substance (Glitchtale),15 SP,N/A
+Spiritual and Divine Powers,The Abominable Substance (Undertale: Glitchtale),15 SP,N/A
 Spiritual and Divine Powers,Overwrite (Undertale: Underverse),55 SP,N/A
 Spiritual and Divine Powers,The Art (Kill Six Billion Demons),20 SP| 15 SP,N/A
 Spiritual and Divine Powers,Atum Manipulation (Kill Six Billion Demons),20 SP| 15 SP,N/A
@@ -3362,7 +3361,7 @@ Spiritual and Divine Powers,Cerebral Electricity (Interface),30 SP,N/A
 Spiritual and Divine Powers,God’s Hammer (Demon Accords),20 SP,N/A
 Spiritual and Divine Powers,Solarian (Starfinder),10 SP,N/A
 Spiritual and Divine Powers,Yōjutsu (Kagurabachi),10 SP,N/A
-Technology and Artifice Powers,Magitech,10 SP,N/A
+Technology and Artifice Powers,Magitech,5 SP,N/A
 Technology and Artifice Powers,The Craftsman,10 SP,N/A
 Technology and Artifice Powers,Datumplane,5 SP,N/A
 Technology and Artifice Powers,The Celestial Workshop,20 SP,N/A
@@ -3797,6 +3796,10 @@ Esoteric and Abstract Powers,I'm One of You,5 SP,N/A
 Esoteric and Abstract Powers,You Have No Enemies,3 SP,N/A
 Esoteric and Abstract Powers,Release Recollection,10 SP,N/A
 Esoteric and Abstract Powers,Cosmos,60 SP,N/A
+Esoteric and Abstract Powers,Personal World,30 SP,N/A
+Esoteric and Abstract Powers,Heir of an Echo,50 SP,N/A
+Esoteric and Abstract Powers,Twin Hands of Power,15 SP,N/A
+Esoteric and Abstract Powers,Me and My Truck(-Kun),20 SP,N/A
 Esoteric and Abstract Powers,Transmogrification (Diablo),5 SP,N/A
 Esoteric and Abstract Powers,"Sing, Play, and Dance (Fire Emblem)",7 SP,N/A
 Esoteric and Abstract Powers,Abridged (DBZ:A),3 SP,N/A
@@ -3932,8 +3935,8 @@ Esoteric and Abstract Powers,Silvertongue (Inkheart),20 SP,N/A
 Esoteric and Abstract Powers,Everywhere and Nowhere (Hellsing),30 SP,N/A
 Esoteric and Abstract Powers,Emotional Avatar (DC Comics),80 SP,N/A
 Esoteric and Abstract Powers,Sideways (DC Comics),20 SP,N/A
-Esoteric and Abstract Powers,Essence of Darkness (Undertale),20 SP,N/A
-Esoteric and Abstract Powers,Essence of Light (Undertale),20 SP,N/A
+Esoteric and Abstract Powers,Essence of Darkness (Undertale: Dreamtale),20 SP,N/A
+Esoteric and Abstract Powers,Essence of Light (Undertale: Dreamtale),20 SP,N/A
 Esoteric and Abstract Powers,Solver Drone (Murder Drones),25 SP,N/A
 Esoteric and Abstract Powers,Der Ritter (Creepypasta Mythos),45 SP,N/A
 Esoteric and Abstract Powers,Ender (A Regressor's Tale of Cultivation),15 SP,N/A
@@ -3966,7 +3969,6 @@ Esoteric and Abstract Powers,The Enemy of All (Ishura),35 SP,N/A
 Esoteric and Abstract Powers,Shapes of Life (Divineko),20 SP,N/A
 Esoteric and Abstract Powers,King of Darkness (Shinza Bansho),70 SP,N/A
 Esoteric and Abstract Powers,The Almighty Patapon (Patapon),15 SP,N/A
-Esoteric and Abstract Powers,Me and My Truck(-Kun),20 SP,N/A
 Esoteric and Abstract Powers,Heart Songs (Zoeys Extraordinary Playlist),5 SP,N/A
 Esoteric and Abstract Powers,The Improbable Stair (The Keys to the Kingdom),15 SP,N/A
 Esoteric and Abstract Powers,Transmission (Little Nightmares),10 SP,N/A
@@ -3986,11 +3988,7 @@ Esoteric and Abstract Powers,Restage (Elden Ring: Nightreign),1 SP,N/A
 Esoteric and Abstract Powers,Frame Perfect (Your Only Move Is HUSTLE),15 SP,N/A
 Esoteric and Abstract Powers,Dash (Geometry Dash),8 SP,N/A
 Esoteric and Abstract Powers,Juvenile Plant (Trigun),50 SP,N/A
-Esoteric and Abstract Powers,Twin Hands of Power,15 SP,N/A
-Esoteric and Abstract Powers,,,Required: g51j
-Esoteric and Abstract Powers,Heir of an Echo,50 SP,N/A
 Esoteric and Abstract Powers,Mythical Creature Form (Lord of the Mysteries),25 SP,N/A
-Esoteric and Abstract Powers,Personal World,30 SP,N/A
 Esoteric and Abstract Powers,The Traveler (Genshin Impact),40 SP,N/A
 Esoteric and Abstract Powers,Classpect (Homestuck),25 SP,N/A
 Ascension Path,Dragon,30 SP,N/A
@@ -4106,6 +4104,7 @@ Foundation Powers,Absorb to Grow,10 SP,N/A
 Foundation Powers,Let’s Go Gambling,3 SP,N/A
 Foundation Powers,Desire Manifestation,15 SP,N/A
 Foundation Powers,Objects of Low Power,5 SP,N/A
+Foundation Powers,Manus Superior,15 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -4123,8 +4122,6 @@ Foundation Powers,Choose Your Idol (Holocure: Save the Fans!),15 SP,N/A
 Foundation Powers,Seven Stars (Reincarnator),10 SP,N/A
 Foundation Powers,SPEEDRUNNER (Terminal Montage Mario),30 SP,N/A
 Foundation Powers,Gu Master (Reverend Insanity),10 SP,N/A
-Foundation Powers,,,Required: g51j
-Foundation Powers,Manus Superior,15 SP,N/A
 Keystone Powers,Path of the Worldwalker,,Required: g51j
 Keystone Powers,World-Walker,25 SP,N/A
 Keystone Powers,Elder World-Walker,35 SP,Required: World-Walker
