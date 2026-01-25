@@ -1,7 +1,7 @@
 [project]
-name = "iccng-cli"
+name = "cyoa-tools"
 version = "1.0.0"
-description = "Worm Interactive CYOA"
+description = "CLI tools for ICYOA Project Files"
 authors = [{ name = "Laureline David", email = "ltouroumov@gmail.com" }]
 requires-python = ">=3.13,<3.14"
 dependencies = [
@@ -22,8 +22,6 @@ cyoa = "cyoa.tools.client:main"
 
 [tool.ruff]
 indent-width = 2
-
-[tool.uv]
 
 [tool.hatch.build.targets.wheel]
 packages = ["cyoa"]
