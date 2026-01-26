@@ -1959,7 +1959,7 @@ Power Fusions (Shard),Generic Superman Expy,8 SP,Required: (Mover) Soaring throu
 Power Fusions (Shard),Yaldabaoth,15 SP,Required: (Changer/Brute) Carrion; Required: (Changer/Master) The Flesh That Hungers
 Power Fusions (Shard),Celestial Artificer,9 SP,Required: (Trump/Tinker) Enhancer
 Power Fusions (Shard),Araboth,5 SP,Required: Celestial Artificer; Required: (Trump) Prototype
-Power Fusions (Shard),Paradigm,20 SP,Required: (Trump) Paramount; Required: Higher Priest
+Power Fusions (Shard),Paradigm,20 SP,Required: (Trump) Paramount; Required: High Priest
 Power Fusions (Shard),Isekai,10 SP,Required: (Thinker/Trump) Kingmaker; Required: (Mover/Thinker) Ideal Transit; Required: (Thinker) Vision
 Power Fusions (Shard),Clone Absorber,10 SP,Required: (Master) Cloning; Required: (Changer/Striker) Amalgam
 Power Fusions (Shard),Lich,10 SP,Required: (Brute) Zombie; Required: (Master) Undead
@@ -2004,7 +2004,7 @@ Power Fusions (Shard),Refract Wings,5 SP,Required: (Mover/Master) Let The Feathe
 Power Fusions (Shard),Force Multiplier,5 SP,Required: (Brute/Trump) Fa Jin
 Power Fusions (Shard),Paramount Pity Rolls,5 SP,Required: (Trump) Paramount
 Power Fusions (Shard),Gestalt Simulator,11 SP,Required: (Striker/Trump) Backup; Required: (Striker/Master) Memory Injector
-Power Fusions (Shard),The Taught,4 SP,Required: (Thinker) Polymath
+Power Fusions (Shard),The Taught,4 SP,Required: (Thinker) Polymath; Required: (Master/Trump) Teacher
 Power Fusions (Shard),Origin Story,10 SP,Required: (Trump/Thinker) Trigger Bomb; Required: (Trump/Striker) Krampus; Required: (Trump) Flint
 Power Fusions (Shard),Making of a Tragedy,8 SP,Required: Trigger Sight; Required: Origin Story; Required: (Thinker) Plans within Plans; Required: Actors on Stage
 Power Fusions (Shard),Best Offense Is A Good Defense,6 SP,Required: (Brute/Striker) Captain America; Required: (Brute) Yang it!; Required: (Blaster) Boomerang
@@ -2160,7 +2160,7 @@ Power Fusions (Shard),Discount Alchemist,6 SP,Required: (Trump) Magik Adept; Req
 Power Fusions (Shard),Gem Magik,3 SP,Required: (Trump) Magik Adept; Required: (Trump) Earth Power
 Power Fusions (Shard),Magik Cards,3 SP,Required: (Trump) Magik Adept; Required: (Trump/Tinker) Cartomancy
 Power Fusions (Shard),Discount Astrologian,3 SP,Required: (Trump) Magik Adept; Required: (Trump) Constellations
-Power Fusions (Shard),Discount Archmage,6 SP,Required: (Trump) Magik Adept; Required: Discount Artificer; Required: Discount Alchemist; Required: Metamagik Acquisition
+Power Fusions (Shard),Discount Archmage,5 SP,Required: (Trump) Magik Adept; Required: Discount Artificer; Required: Discount Alchemist; Required: Metamagik Acquisition
 Power Fusions (Shard),"Really, Don’t Mess With a White Mage!",4 SP,Required: (Trump) Magik Adept; Required: (Trump/Shaker) Don't mess with a white mage
 Power Fusions (Shard),Rod of Mastery,6 SP,Required: Grimoire Adept; Required: (Master/Trump) Scepter of Power
 Power Fusions (Shard),Book of Darkness,3 SP,Required: Grimoire Adept; Required: (Trump) Copycat
@@ -2210,7 +2210,7 @@ Power Fusions (Shard),Imperator,5 SP,Required: (Trump) Aliena; Required: Cleave 
 Power Fusions (Shard),The Chaos Engine,4 SP,Required: Magnhild; Required: Araboth; Required: Cornerstone
 Power Fusions (Shard),Perfect Body,4 SP,"Required: Fibrodysplasia Ossificans Progressiva; Required: Muscular; Required: Overcharged Nervous System; Required: (Changer/Brute) Cells At Work; Required: (Shaker/Brute) Stomach In, Stomach Out; Required: Chimera"
 Power Fusions (Shard),Perfect Mind,3 SP,Required: Techno Brain; Required: Computronio; Required: Parallel Processing; Required: Sandevistan; Required: Auto Battler; Required: Thinker (Understanding); Required: Thinker (Hindsight); Required: Thinker (Gut Instinct); Required: Thinker/Master (Organized Mind); Required: Shard Feedback
-Power Fusions (Shard),Perfect Soul,,Required: Soul and Body; Required: To Go Where None Have Gone Before
+Power Fusions (Shard),Perfect Soul,3 SP,Required: Soul and Body; Required: To Go Where None Have Gone Before
 Power Fusions (Shard),Pinnacle,2 SP,Required: Perfect Body; Required: Perfect Mind
 Power Fusions (Shard),The-Shouldn’t-Be,10 SP,Required: (Shaker/Blaster) Fissures; Required: (Breaker) Kaleidoscopic Fractural Flowering Lens; Required: With Starry Eyes
 Power Fusions (Shard),The Neverwas,7 SP,Required: The-Shouldn’t-Be
@@ -2268,11 +2268,12 @@ Physical Powers,Immortal Sun,35 SP,N/A
 Physical Powers,Character Menu,12 SP,N/A
 Physical Powers,Symbiotics,10 SP,N/A
 Physical Powers,Hibernation,3 SP,N/A
-Physical Powers,Elf,7 SP,N/A
 Physical Powers,Blood of the Gods,15 SP,N/A
 Physical Powers,The Composite Human,10 SP,N/A
 Physical Powers,Jötunn,25 SP,N/A
 Physical Powers,The Elusive One,10 SP,N/A
+Physical Powers,Elf,7 SP,N/A
+Physical Powers,Dwarf,7 SP,N/A
 Physical Powers,The Lancer,10 SP,N/A
 Physical Powers,The Shielder,10 SP,N/A
 Physical Powers,The Ranger,10 SP,N/A
@@ -2292,7 +2293,6 @@ Physical Powers,Destr0yer,30 SP,N/A
 Physical Powers,Dragonkin,20 SP,N/A
 Physical Powers,Fantasy Monster,10 SP,N/A
 Physical Powers,Samson 1.5,2 SP,N/A
-Physical Powers,Dwarf,7 SP,N/A
 Physical Powers,Nameless Shinobi,7 SP,N/A
 Physical Powers,Formless Blade,9 SP,N/A
 Physical Powers,The Standard Blade,5 SP,N/A
@@ -2381,6 +2381,8 @@ Physical Powers,Hakkyokuseiken (King of Fighters),7 SP,N/A
 Physical Powers,Mishima Heir (Tekken),10 SP,N/A
 Physical Powers,Hokuto Shinken (Fist Of The North Star),15 SP,N/A
 Physical Powers,Sublime Way (D&D),10 SP,N/A
+Physical Powers,Tarrasque (D&D/Pathfinder),20 SP,N/A
+Physical Powers,Beholder (D&D),30 SP,N/A
 Physical Powers,Senpou Arts (Sekiro),5 SP,N/A
 Physical Powers,Ashina Arts (Sekiro),5 SP,N/A
 Physical Powers,Way of the Shinobi (Sekiro),5 SP,N/A
@@ -2553,7 +2555,6 @@ Physical Powers,Knocking (Toriko),10 SP| 20 SP,N/A
 Physical Powers,Enbu (Toriko),10 SP| 15 SP,N/A
 Physical Powers,True Soul (Baldur's Gate 3),15 SP,N/A
 Physical Powers,Archon (Fable - The Lost Chapters),15 SP,N/A
-Physical Powers,Tarrasque (D&D/Pathfinder),20 SP,N/A
 Physical Powers,Heavenly Destroyer Technique (Gosu the Master),20 SP,N/A
 Physical Powers,Phazon Infusion (Metroid),20 SP,N/A
 Physical Powers,The Hunter (Metroid),15 SP,N/A
@@ -2610,6 +2611,7 @@ Physical Powers,Terran (Arknights),9 SP,N/A
 Physical Powers,Teekaz (Arknights),10 SP,N/A
 Physical Powers,Borisin (Honkai: Star Rail),11 SP,N/A
 Physical Powers,XianZhou Native (Honkai: Star Rail),10 SP,N/A
+Physical Powers,MANTIS (Honkai Impact 3rd),20 SP,N/A
 Physical Powers,Spinjitzu (LEGO Ninjago),5 SP,N/A
 Physical Powers,Serpentine (LEGO Ninjago),5 SP,N/A
 Physical Powers,Insect Human (Jungle Juice),10 SP,N/A
@@ -2622,7 +2624,6 @@ Physical Powers,Wolf-Blood Shapeshifter (Okami),10 SP,N/A
 Physical Powers,FPS (Alternate History CYOA),7 SP,N/A
 Physical Powers,Astral (Granblue Fantasy),45 SP,N/A
 Physical Powers,Moon Dweller (Granblue Fantasy),25 SP,N/A
-Physical Powers,MANTIS (Honkai Impact 3rd),20 SP,N/A
 Physical Powers,Circuit (Gravity Circuit),10 SP,N/A
 Physical Powers,Ice Elf (Solo Leveling),7 SP,N/A
 Physical Powers,Monarch of Destruction (Solo Leveling),60 SP,N/A
@@ -2660,7 +2661,6 @@ Physical Powers,Star Spawn (Elden Ring),40 SP,N/A
 Physical Powers,Shinobi (Senran Kagura),10 SP,N/A
 Physical Powers,Yoma (Senran Kagura),15 SP,N/A
 Physical Powers,Hihi'irokane Body (Tensura),40 SP,N/A
-Physical Powers,Beholder (D&D),30 SP,N/A
 Physical Powers,Ballyhoo (Scoob and Shag),10 SP,N/A
 Physical Powers,Dragon (Wings of Fire),15 SP,N/A
 Physical Powers,Artemia (Heroic Age),25 SP,N/A
@@ -2808,7 +2808,7 @@ Mental and Psychic Powers,Daydreamer (Omori),10 SP,N/A
 Mental and Psychic Powers,The Principle Of All Things (Jigokuraku),8 SP,N/A
 Mental and Psychic Powers,Idol (Oshi no Ko),5 SP,N/A
 Mental and Psychic Powers,"Villainess? - No, I'm Totally The Heroine! (Villain Initialization)",20 SP,N/A
-Mental and Psychic Powers,Thousand Image Defense (Record of Ragnarok),10 SP,N/A
+Mental and Psychic Powers,Thousand Image Defense (Record of Ragnarok),5 SP,N/A
 Mental and Psychic Powers,Disastrous Life (The Disastrous Life of Saiki K),60 SP,N/A
 Mental and Psychic Powers,The Silence (Doctor Who),30 SP,N/A
 Mental and Psychic Powers,Block Transfer Computation (Doctor Who),25 SP,N/A
@@ -3111,8 +3111,8 @@ Magic and Mystic Powers,Magical Girl Idol (Magical Girl Another World Idol),10 S
 Magic and Mystic Powers,Samusara (Soulfire),50 SP,N/A
 Magic and Mystic Powers,Magical Expertise (Ouroboros CYOA),30 SP,N/A
 Magic and Mystic Powers,Witch Time (Bayonetta),10 SP,N/A
-Magic and Mystic Powers,Lumen Sage (Bayonetta),30 SP,N/A
-Magic and Mystic Powers,Umbra Witch (Bayonetta),30 SP,N/A
+Magic and Mystic Powers,Lumen Sage (Bayonetta),40 SP,N/A
+Magic and Mystic Powers,Umbra Witch (Bayonetta),40 SP,N/A
 Magic and Mystic Powers,Legacy of Mewni (Star Vs. The Forces of Evil),40 SP,N/A
 Magic and Mystic Powers,Heart Full of Wonder (Disney),15 SP,N/A
 Magic and Mystic Powers,Prophet (Illwinter's Dominions),15 SP,N/A
@@ -3342,6 +3342,7 @@ Spiritual and Divine Powers,Seraphim (Supernatural),30 SP,N/A
 Spiritual and Divine Powers,Vessel of Purgatory (Supernatural),30 SP,N/A
 Spiritual and Divine Powers,Beyonder (Lord of the Mysteries),15 SP,N/A
 Spiritual and Divine Powers,Dao Integrator (Lord of the Mysteries),60 SP,N/A
+Spiritual and Divine Powers,Oldest One’s Spiritual Awakening (Lord of the Mysteries),25 SP,N/A
 Spiritual and Divine Powers,Grace of The Erdtree (Elden Ring),15 SP,N/A
 Spiritual and Divine Powers,The Scarlet Rot (Elden Ring),25 SP,N/A
 Spiritual and Divine Powers,Hellspawn (Image Comics),35 SP,N/A
@@ -3382,7 +3383,7 @@ Spiritual and Divine Powers,Soul Reaper (Shadow Slave),15 SP,N/A
 Spiritual and Divine Powers,Console Patron Unit (Hyperdimension Neptunia),13 SP,N/A
 Spiritual and Divine Powers,Hazama-ryu Kekkaijutsu (Kekkaishi),15 SP,N/A
 Spiritual and Divine Powers,Aura Guardian (Pokemon),10 SP,N/A
-Spiritual and Divine Powers,Lord of the Dead (Hercules),50 SP,N/A
+Spiritual and Divine Powers,Lord of the Dead (Disney: Hercules),50 SP,N/A
 Spiritual and Divine Powers,Spirit Sight (Mieruko-chan),1 SP,N/A
 Spiritual and Divine Powers,Power of the Saint (Fake Saint of the Year),15 SP,N/A
 Spiritual and Divine Powers,Sensory (Shinza Bansho),5 SP,N/A
@@ -3432,9 +3433,9 @@ Spiritual and Divine Powers,Tao (Jigokuraku),5 SP,N/A
 Spiritual and Divine Powers,Hanyō (Inuyasha),7 SP,N/A
 Spiritual and Divine Powers,The Exorcist (FAITH: The Unholy Trinity),3 SP,N/A
 Spiritual and Divine Powers,Witch's Contract (Homebody Witch),10 SP,N/A
+Spiritual and Divine Powers,Congenital Saint (Homebody Witch),30 SP,N/A
 Spiritual and Divine Powers,Saint(ess) (The Extra's Academy Survival Guide),15 SP,N/A
 Spiritual and Divine Powers,Son of Satan (Blue Exorcist),15 SP,N/A
-Spiritual and Divine Powers,Congenital Saint (Homebody Witch),30 SP,N/A
 Spiritual and Divine Powers,Fated To Grab Ahold Of Victory In The Endless Dreams (The Knight King Who Returned with a God),15 SP,N/A
 Spiritual and Divine Powers,Greater Daemon (Tensura),20 SP,N/A
 Spiritual and Divine Powers,Sinners (Hazbin Hotel),7 SP,N/A
@@ -3451,7 +3452,6 @@ Spiritual and Divine Powers,Heir of the Mibu Clan (Samurai Deeper Kyo),30 SP,N/A
 Spiritual and Divine Powers,Fallen of Albaz (Yu-Gi-Oh!: Fallen of Albaz),20 SP,N/A
 Spiritual and Divine Powers,Awareness (Otherverse),5 SP,N/A
 Spiritual and Divine Powers,Yokai Vessel (DanDaDan),10 SP,N/A
-Spiritual and Divine Powers,Oldest One’s Spiritual Awakening (Lord of the Mysteries),25 SP,N/A
 Spiritual and Divine Powers,Cerebral Electricity (Interface),30 SP,N/A
 Spiritual and Divine Powers,God’s Hammer (Demon Accords),20 SP,N/A
 Spiritual and Divine Powers,Solarian (Starfinder),10 SP,N/A
@@ -3775,6 +3775,8 @@ Esoteric and Abstract Powers,Sucker For Love,25 SP,N/A
 Esoteric and Abstract Powers,108 Skills,10 SP,N/A
 Esoteric and Abstract Powers,The Crawling Chaos,35 SP| 20 SP,N/A
 Esoteric and Abstract Powers,Street Warrior,12 SP,N/A
+Esoteric and Abstract Powers,Street Rogue,12 SP,N/A
+Esoteric and Abstract Powers,Street Stalker,12 SP,N/A
 Esoteric and Abstract Powers,Skeleton Key,15 SP,N/A
 Esoteric and Abstract Powers,"Doctor, Doctor!",12 SP,N/A
 Esoteric and Abstract Powers,Diminishing Returns,30 SP,N/A
@@ -3825,11 +3827,9 @@ Esoteric and Abstract Powers,Symbolic Scripting,50 SP,N/A
 Esoteric and Abstract Powers,Lifehunt,40 SP,N/A
 Esoteric and Abstract Powers,Right-Hand Man,10 SP,N/A
 Esoteric and Abstract Powers,Upgrade,25 SP,N/A
-Esoteric and Abstract Powers,Street Rogue,12 SP,N/A
 Esoteric and Abstract Powers,Roleplayer: Ritualist,15 SP,N/A
 Esoteric and Abstract Powers,Roleplayer: True Mother,15 SP,N/A
 Esoteric and Abstract Powers,Algea,10 SP,N/A
-Esoteric and Abstract Powers,Street Stalker,12 SP,N/A
 Esoteric and Abstract Powers,Eyes of the Beholder,40 SP,N/A
 Esoteric and Abstract Powers,Nanosecond rule,20 SP,N/A
 Esoteric and Abstract Powers,Rock! Paper! Scissors!,15 SP,N/A
@@ -3908,7 +3908,7 @@ Esoteric and Abstract Powers,Twin Hands of Power,15 SP,N/A
 Esoteric and Abstract Powers,Me and My Truck(-Kun),20 SP,N/A
 Esoteric and Abstract Powers,Unreal Foundry,35 SP,N/A
 Esoteric and Abstract Powers,Caller of Disaster,40 SP,N/A
-Esoteric and Abstract Powers,"light as air, heavy as stone",7 SP,N/A
+Esoteric and Abstract Powers,"Light as Air, Heavy as Stone",7 SP,N/A
 Esoteric and Abstract Powers,Damsel Syndrome,3 SP,N/A
 Esoteric and Abstract Powers,Dragon Tamer,15 SP,N/A
 Esoteric and Abstract Powers,The Fog,20 SP,N/A
@@ -3921,6 +3921,7 @@ Esoteric and Abstract Powers,Avid Reader,30 SP,N/A
 Esoteric and Abstract Powers,Bloodworms,10 SP,N/A
 Esoteric and Abstract Powers,Transmogrification (Diablo),5 SP,N/A
 Esoteric and Abstract Powers,"Sing, Play, and Dance (Fire Emblem)",7 SP,N/A
+Esoteric and Abstract Powers,Brand of the Exalt (Fire Emblem),15 SP,N/A
 Esoteric and Abstract Powers,Abridged (Dragon Ball Z: Abridged),3 SP,N/A
 Esoteric and Abstract Powers,Dream Eater (Kingdom Hearts),10 SP,N/A
 Esoteric and Abstract Powers,The Sanctioned Action (Kill Six Billion Demons),35 SP,N/A
@@ -3956,7 +3957,6 @@ Esoteric and Abstract Powers,Presence Concealment (Type-Moon),7 SP,N/A
 Esoteric and Abstract Powers,Territory Creation (Type-Moon),10 SP,N/A
 Esoteric and Abstract Powers,Awakened Origin (Type-Moon),10 SP,N/A
 Esoteric and Abstract Powers,Shadow Monarch (Solo Leveling),25 SP| 35 SP,N/A
-Esoteric and Abstract Powers,Champion of the World Eater (Marvel),65 SP,N/A
 Esoteric and Abstract Powers,Tenno (Warframe),25 SP,N/A
 Esoteric and Abstract Powers,Voice of the World (Tensura),10 SP| 0 SP,N/A
 Esoteric and Abstract Powers,Degenerate (Tensura),15 SP,N/A
@@ -4005,8 +4005,8 @@ Esoteric and Abstract Powers,Lunatic Eyes (Touhou Project),25 SP,N/A
 Esoteric and Abstract Powers,Fantasy Nature (Touhou Project),25 SP,N/A
 Esoteric and Abstract Powers,Hitbox (Touhou Project),3 SP,N/A
 Esoteric and Abstract Powers,Gem Empowerment (Touhou Project: Luna Nights),4 SP,N/A
-Esoteric and Abstract Powers,I Mark The Spot! (Marvel: Spiderverse),20 SP,N/A
 Esoteric and Abstract Powers,Kindred (World of Darkness - Vampire: The Masquerade),5 SP,N/A
+Esoteric and Abstract Powers,Unchained (Chronicles of Darkness - Demon: the Descent),25 SP,N/A
 Esoteric and Abstract Powers,The Shadows Cast By The Sins of Science! (Asura' Cryin),15 SP,N/A
 Esoteric and Abstract Powers,Dragon Friend (How To Train Your Dragon),14 SP| 9 SP,N/A
 Esoteric and Abstract Powers,Holistic Deduction (Dirk Gently),18 SP,N/A
@@ -4019,13 +4019,14 @@ Esoteric and Abstract Powers,The Great Fitzgerald (Bungo Stray Dogs),8 SP,N/A
 Esoteric and Abstract Powers,The Emperor Flames (Battle Through The Heavens),15 SP,N/A
 Esoteric and Abstract Powers,The Lich (Adventure Time),30 SP,N/A
 Esoteric and Abstract Powers,Aku (Samurai Jack),30 SP,N/A
-Esoteric and Abstract Powers,Brand of the Exalt (Fire Emblem),15 SP,N/A
 Esoteric and Abstract Powers,Dream Demon (Gravity Falls),30 SP,N/A
 Esoteric and Abstract Powers,Cathulhu (Battle Cats),15 SP,N/A
 Esoteric and Abstract Powers,Quantum Strings (Marvel),40 SP,N/A
 Esoteric and Abstract Powers,Starbrand (Marvel),50 SP,N/A
 Esoteric and Abstract Powers,Oldstrong (Marvel),40 SP,N/A
 Esoteric and Abstract Powers,Most Known Game (Minecraft),20 SP,N/A
+Esoteric and Abstract Powers,Champion of the World Eater (Marvel),65 SP,N/A
+Esoteric and Abstract Powers,I Mark The Spot! (Marvel: Spiderverse),20 SP,N/A
 Esoteric and Abstract Powers,Respawn (Minecraft),10 SP,N/A
 Esoteric and Abstract Powers,Light Side (Magical Girl ☆Sym-tan☆),15 SP,N/A
 Esoteric and Abstract Powers,Dark Side (Magical Girl ☆Sym-tan☆),15 SP,N/A
@@ -4036,7 +4037,6 @@ Esoteric and Abstract Powers,Grass Week (Magical Girl ☆Sym-tan☆),7 SP,N/A
 Esoteric and Abstract Powers,"Gungnier, the Spear of Destruction (Magical Girl ☆Sym-tan☆)",20 SP,N/A
 Esoteric and Abstract Powers,Shield and Spear of Anarchy (Magical Girl ☆Sym-tan☆),40 SP,N/A
 Esoteric and Abstract Powers,Petrichor V Survivor (Risk of Rain),35 SP,N/A
-Esoteric and Abstract Powers,Unchained (Chronicles of Darkness - Demon: the Descent),25 SP,N/A
 Esoteric and Abstract Powers,Epithet (Epithet Erased),15 SP,N/A
 Esoteric and Abstract Powers,Assertion (A Practical Guide to Evil),25 SP,N/A
 Esoteric and Abstract Powers,A Brave Man is back (Hero Has Returned),25 SP,N/A
@@ -4073,7 +4073,6 @@ Esoteric and Abstract Powers,Algorithm (SomacGuffin),35 SP,N/A
 Esoteric and Abstract Powers,Rejected Model (MiSide),25 SP,N/A
 Esoteric and Abstract Powers,Tear Reality (BioShock Infinite),20 SP,N/A
 Esoteric and Abstract Powers,Console (Console),50 SP,N/A
-Esoteric and Abstract Powers,Nomus (My Hero Academia),15 SP,N/A
 Esoteric and Abstract Powers,Absorption (RE:Monster),15 SP,N/A
 Esoteric and Abstract Powers,Commandments (Shinza Bansho),20 SP,N/A
 Esoteric and Abstract Powers,King of Darkness (Shinza Bansho),70 SP,N/A
@@ -4102,6 +4101,7 @@ Esoteric and Abstract Powers,Sigil (Darwin Game),15 SP,N/A
 Esoteric and Abstract Powers,Champion (Buffyverse),8 SP,N/A
 Esoteric and Abstract Powers,Knight (Shovel Knight),8 SP,N/A
 Esoteric and Abstract Powers,Primal Beast (Granblue Fantasy),60 SP,N/A
+Esoteric and Abstract Powers,Nomus (My Hero Academia),15 SP,N/A
 Esoteric and Abstract Powers,New Order (My Hero Academia),20 SP,N/A
 Esoteric and Abstract Powers,Ability (UnOrdinary),10 SP,N/A
 Esoteric and Abstract Powers,Silent Hill's Call (Silent Hill),15 SP,N/A
@@ -4402,6 +4402,7 @@ Miscellaneous Objects of Power,Treasury,10 SP,N/A
 Miscellaneous Objects of Power,Upgrade Token,1 SP,N/A
 Miscellaneous Objects of Power,Teigu (Akame ga Kill),15 SP,N/A
 Miscellaneous Objects of Power,Behelit (Berserk),10 SP,N/A
+Miscellaneous Objects of Power,Urahara's Stash (Bleach),10 SP,N/A
 Miscellaneous Objects of Power,Three-Thirds Umbilical Cords (Bloodborne),30 SP,Required: Hunter (Bloodborne)
 Miscellaneous Objects of Power,Golden Chest of Epic Loot (Borderlands),10 SP,N/A
 Miscellaneous Objects of Power,Uni-Mind (Buzz Lightyear of Star Command),10 SP,N/A
