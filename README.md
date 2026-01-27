@@ -1,36 +1,136 @@
-# Lt Ouroumov's Worm CYOA V6 Fork
+# Lt Ouroumov's Worm CYOA
 
-Fork of the Worm CYOA V6 by PixelGMS
+This ICYOA is the fork of Worm ICYOA V6 (by PixelGMS). Below are the links to that ICYOA.
 
-* [Version 6.0](https://interactivewormcyoav6.neocities.org/WormCYOAV6/WormCYOAV6.html)
-* [Version 6.1](https://interactivewormcyoav6.neocities.org/WormCYOAV6.1/Worm.html)
+- [Version 6.0](https://interactivewormcyoav6.neocities.org/WormCYOAV6/WormCYOAV6.html)
+- [Version 6.1](https://interactivewormcyoav6.neocities.org/WormCYOAV6.1/Worm.html)
 
-<center><h3><a href="https://cyoa.ltouroumov.ch/viewer/">View Here</a></h3></center>
+This is the link to Lt Ouroumov's Worm ICYOA: [View Here](https://cyoa.ltouroumov.ch/viewer/)
 
-## TODO List
+## CYOA Tools
 
-_Empty_
+CLI tools for manipulating ICYOA project files (currently supports original ICC project files only).
 
-# CYOA tools
+### Installation
 
-Set of tools to manipulate the project.json file
+Requires [uv](https://docs.astral.sh/uv/).
 
-```shell
-# Show all available commands
-./cyoa.sh -h
+```bash
+# Clone the repo
+git clone https://github.com/ltouroumov/worm-cyoa-v6-fork worm-cyoa
 
+# Change directory
+cd worm-cyoa
+
+# Create a virtual environment
+# This will automatically download Python 3.13 as defined in `.python-version` file
+uv venv
+
+# Activate the virtual environment
+source .venv/bin/activate
+
+# Install dependencies and the CLI tool
+uv sync
+
+# Verify installation
+cyoa -h
+
+# Deactivate the virtual environment
+deactivate
+```
+
+### Usage
+
+```bash
+cyoa COMMAND [OPTIONS]
+```
+
+Run `cyoa COMMAND -h` for detailed help on any command.
+
+### Commands
+
+#### Project Commands
+
+| Command          | Description                                         |
+| ---------------- | --------------------------------------------------- |
+| `project.format` | Format a project file                               |
+| `project.points` | Display point/score information for objects         |
+| `project.check`  | Check project for duplicates and invalid references |
+| `project.patch`  | Apply patches to a project file                     |
+| `project.costs`  | Analyze power costs and upgrade chains              |
+| `project.addons` | List addons with their requirements                 |
+| `project.powers` | Export powers as CSV with requirements              |
+
+#### Row Commands
+
+| Command     | Description                  |
+| ----------- | ---------------------------- |
+| `row.list`  | List all rows in project     |
+| `row.copy`  | Copy a row into a file       |
+| `row.merge` | Merge multiple rows into one |
+
+#### Object Commands
+
+| Command       | Description                         |
+| ------------- | ----------------------------------- |
+| `object.list` | List all objects in a row           |
+| `object.copy` | Copy objects from a row into a file |
+| `object.cut`  | Remove/Cut objects from a row       |
+| `object.move` | Move objects between rows           |
+| `object.add`  | Add objects to a row                |
+
+#### Media Commands
+
+| Command          | Description                                |
+| ---------------- | ------------------------------------------ |
+| `media.list`     | List all images in the project             |
+| `media.optimize` | Optimize and compress images               |
+| `media.extract`  | Extract embedded images to files           |
+| `media.migrate`  | Migrate image URLs to a new base URL       |
+| `media.clean`    | Remove orphan images from export directory |
+| `media.zip`      | Archive images into ZIP files by row       |
+
+#### Style Commands
+
+| Command         | Description                          |
+| --------------- | ------------------------------------ |
+| `styles.list`   | List all styles in project           |
+| `styles.update` | Apply style updates from a YAML file |
+
+#### Other Commands
+
+| Command           | Description                         |
+| ----------------- | ----------------------------------- |
+| `merge`           | Merge changes into a project file   |
+| `build`           | Build project output to a directory |
+| `wiki.update`     | Update wiki pages from project data |
+| `wiki.rows-table` | Generate wiki table markup for rows |
+
+#### Script Commands
+
+| Command              | Description                               |
+| -------------------- | ----------------------------------------- |
+| `script.copy_styles` | Copy row styles from another project file |
+| `script.key_addons`  | Add IDs to all addons in the project      |
+| `script.key_objects` | Normalize object IDs to standard format   |
+
+### Examples
+
+```bash
 # Format the project file
-./cyoa.sh project.format --project project-v15.json
+cyoa project.format --project project.json
 
 # List all rows
-./cyoa.sh row.list --project project-v15.json
+cyoa row.list --project project.json
 
 # List all objects in a row
-./cyoa.sh object.list --project project-v15.json --row-id io2d
+cyoa object.list --project project.json --row-id abc123
 
-# Object modification tools
-./cyoa.sh object.copy
-./cyoa.sh object.cut
-./cyoa.sh object.move
-./cyoa.sh object.add
+# Extract embedded images to a directory
+cyoa media.extract --project project.json --export-dir ./images --export-url ./images
+
+# Migrate image URLs to relative paths
+cyoa media.migrate --project project.json \
+    --old-base-url "https://cyoa.ltouroumov.ch/images" \
+    --new-base-url "./images"
 ```

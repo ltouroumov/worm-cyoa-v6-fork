@@ -171,7 +171,7 @@ class StylesUpdateTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='List all styles in project')
+        parser = parent.add_parser(cls.name, help='Apply style updates from a YAML file')
         parser.add_argument('--project', dest='project_file',
                             type=Path, required=True)
         parser.add_argument('--styling', dest='styling_file',

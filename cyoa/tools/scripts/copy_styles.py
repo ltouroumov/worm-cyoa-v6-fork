@@ -8,7 +8,7 @@ class CopyStylesTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='List all rows in project')
+        parser = parent.add_parser(cls.name, help='Copy row styles from another project file')
         parser.add_argument('--project', dest='project_file',
                             type=Path, required=True)
         parser.add_argument('--from', dest='from_file', 
