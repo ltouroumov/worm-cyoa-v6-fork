@@ -273,7 +273,7 @@ class MediaListTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser = parent.add_parser(cls.name, help='List all images in the project')
         parser.add_argument('--project', dest='project_file', type=Path)
         parser.add_argument('--size-gte', dest='filter_size_gte', type=float,
                             default=None)
@@ -301,7 +301,7 @@ class MediaOptimizeTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser = parent.add_parser(cls.name, help='Optimize and compress images')
         parser.add_argument('--project', dest='project_file', type=Path)
         parser.add_argument('--write', action='store_true')
 
@@ -500,7 +500,7 @@ class MediaExtractTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser = parent.add_parser(cls.name, help='Extract embedded images to files')
         parser.add_argument('--project', dest='project_file', type=Path)
         parser.add_argument('--export-dir', type=Path, required=True)
         parser.add_argument('--export-url', type=str, required=True)
@@ -593,7 +593,7 @@ class MediaMigrateTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser = parent.add_parser(cls.name, help='Migrate image URLs to a new base URL')
         parser.add_argument('--project', dest='project_file', type=Path)
         parser.add_argument('--old-base-url', type=str, required=True)
         parser.add_argument('--new-base-url', type=str, required=True)
@@ -632,7 +632,7 @@ class MediaCleanTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser = parent.add_parser(cls.name, help='Remove orphan images from export directory')
         parser.add_argument('--project', dest='project_file', type=Path)
         parser.add_argument('--export-dir', type=Path, required=True)
         parser.add_argument('--export-url', type=str, required=True)
@@ -671,7 +671,7 @@ class MediaListTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser = parent.add_parser(cls.name, help='List images by row')
         parser.add_argument('--project', dest='project_file', type=Path)
 
     def run(self, args):
@@ -711,7 +711,7 @@ class MediaZipTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser = parent.add_parser(cls.name, help='Archive images into ZIP files by row')
         parser.add_argument('--project', dest='project_file', type=Path)
         parser.add_argument('--export-dir', type=Path, required=True)
         parser.add_argument('--export-url', type=str, required=True)

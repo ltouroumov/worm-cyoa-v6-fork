@@ -41,7 +41,7 @@ class ProjectPointsTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help="Format a project file")
+        parser = parent.add_parser(cls.name, help="Display point/score information for objects")
         parser.add_argument("--project", dest="project_file", type=Path)
         parser.add_argument(
             "--row-id", dest="row_ids", type=str, nargs="+", action="extend", default=[]
@@ -169,7 +169,7 @@ class ProjectCheckTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help="Format a project file")
+        parser = parent.add_parser(cls.name, help="Check project for duplicates and invalid references")
         parser.add_argument("--project", dest="project_file", type=Path)
 
     def run(self, args):
@@ -281,7 +281,7 @@ class ProjectPatchTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help="Format a project file")
+        parser = parent.add_parser(cls.name, help="Apply patches to a project file")
         parser.add_argument("--project", dest="project_file", type=Path)
         parser.add_argument("--patch", dest="patches", nargs="+", action="extend")
 
@@ -322,7 +322,7 @@ class ProjectCostsTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help="Format a project file")
+        parser = parent.add_parser(cls.name, help="Analyze power costs and upgrade chains")
         parser.add_argument("--project", dest="project_file", type=Path, required=True)
         parser.add_argument("--min-score", dest="min_score", type=int, default=0)
         parser.add_argument("--max-score", dest="max_score", type=int, default=10000)
@@ -480,7 +480,7 @@ class ProjectAddonsTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help="Format a project file")
+        parser = parent.add_parser(cls.name, help="List addons with their requirements")
         parser.add_argument("--project", dest="project_file", type=Path, required=True)
         parser.add_argument("--output", dest="output_file", type=Path, default=None)
 
@@ -563,7 +563,7 @@ class ProjectPowersTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help="Format a project file")
+        parser = parent.add_parser(cls.name, help="Export powers as CSV with requirements")
         parser.add_argument("--project", dest="project_file", type=Path, required=True)
         parser.add_argument("--output", dest="output_file", type=Path, default=None)
 
