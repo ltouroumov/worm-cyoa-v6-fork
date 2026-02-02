@@ -20,14 +20,15 @@ TOOLS: tuple[Type[ToolBase], ...] = (
     *scripts.SCRIPTS,
 )
 
-if __name__ == '__main__':
+
+def main():
     parser = argparse.ArgumentParser(
         prog='cyoa',
         description="CYOA manipulation tools"
     )
 
     tools_by_name: Dict[str, Type[ToolBase]] = {tool.name: tool for tool in TOOLS}
-    sub_parsers = parser.add_subparsers(title='tool', dest='_tool_id')
+    sub_parsers = parser.add_subparsers(title='Available Commands', dest='_tool_id', metavar='COMMAND')
     for tool_cls in tools_by_name.values():
         tool_cls.setup_parser(sub_parsers)
 
@@ -36,3 +37,6 @@ if __name__ == '__main__':
         tool_cls().run(args)
     else:
         parser.print_help()
+
+if __name__ == '__main__':
+    main()

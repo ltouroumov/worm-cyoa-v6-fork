@@ -1,36 +1,18 @@
-# Lt Ouroumov's Worm CYOA V6 Fork
-
-Fork of the Worm CYOA V6 by PixelGMS
-
-* [Version 6.0](https://interactivewormcyoav6.neocities.org/WormCYOAV6/WormCYOAV6.html)
-* [Version 6.1](https://interactivewormcyoav6.neocities.org/WormCYOAV6.1/Worm.html)
+# Lt Ouroumov's Worm CYOA
 
 <center><h3><a href="https://cyoa.ltouroumov.ch/viewer/">View Here</a></h3></center>
 
-## TODO List
+## Self Hosting
 
-_Empty_
+This CYOA uses viewer from the **ICC Neo** project, also created by Lt Ouroumov.
 
-# CYOA tools
+If you are interested in self-hosting this CYOA, you can find the viewer and the guide on how to host it in the [ICC Neo repository](https://github.com/ltouroumov/cyoa-editor).
 
-Set of tools to manipulate the project.json file
+## CYOA Tools (python scripts)
 
-```shell
-# Show all available commands
-./cyoa.sh -h
+This repository also contains python scripts for working with the CYOA project files. You can find the documentation for using them easily as CLI tools in the [cyoa/README.md](cyoa/README.md) file.
 
-# Format the project file
-./cyoa.sh project.format --project project-v15.json
-
-# List all rows
-./cyoa.sh row.list --project project-v15.json
-
-# List all objects in a row
-./cyoa.sh object.list --project project-v15.json --row-id io2d
-
-# Object modification tools
-./cyoa.sh object.copy
-./cyoa.sh object.cut
-./cyoa.sh object.move
-./cyoa.sh object.add
-```
+> [!NOTE]
+> The scripts are not generic and are tailored to the specific needs of this CYOA.
+> There will be no special support for other CYOA projects.
+> The scripts are provided as-is and without warranty of any kind.

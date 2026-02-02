@@ -218,7 +218,7 @@ class WikiUpdateTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser = parent.add_parser(cls.name, help='Update wiki pages from project data')
         parser.add_argument('--project', dest='project_file', type=Path)
         parser.add_argument('--preview', action='store_true')
         parser.add_argument('--filter-path', default='*')
@@ -457,7 +457,7 @@ class WikiPowersIndexTool(ToolBase, ProjectUtilsMixin):
 
     @classmethod
     def setup_parser(cls, parent):
-        parser = parent.add_parser(cls.name, help='Format a project file')
+        parser = parent.add_parser(cls.name, help='Generate wiki table markup for rows')
         parser.add_argument('--project', dest='project_file',
                             type=Path, required=True)
         parser.add_argument('--rows', dest='rows',

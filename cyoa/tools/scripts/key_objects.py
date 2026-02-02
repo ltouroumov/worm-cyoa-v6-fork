@@ -19,7 +19,7 @@ class KeyObjectsTool(ToolBase, ProjectUtilsMixin):
 
   @classmethod
   def setup_parser(cls, parent):
-    parser = parent.add_parser(cls.name, help="Remove all custom IDs from the file")
+    parser = parent.add_parser(cls.name, help="Normalize object IDs to standard format")
     parser.add_argument("--project", dest="project_file", type=Path, required=True)
 
   def run(self, args):
