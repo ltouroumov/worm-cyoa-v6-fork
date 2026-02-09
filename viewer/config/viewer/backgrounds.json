@@ -3,10 +3,14 @@
   "images": [
     {
       "url": "bgs/load-01.webp",
-      "weight": 95
+      "weight": 90
     },
     {
       "url": "bgs/collage.webp",
+      "weight": 5
+    },
+    {
+      "url": "bgs/collage2.webp",
       "weight": 5
     }
   ]
