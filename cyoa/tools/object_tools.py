@@ -1,5 +1,6 @@
 import csv
 import importlib
+import re
 from dataclasses import field
 from io import StringIO
 import json
@@ -9,6 +10,7 @@ from typing import OrderedDict
 import yaml
 from rich.table import Table
 
+from cyoa.tools.layout import distribute_objects
 from cyoa.tools.lib import *
 from cyoa.tools.sort import SortContext, make_sort_key
 
@@ -247,6 +249,10 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
         parser = parent.add_parser(cls.name, help='Sort objects in a row using a comparator function')
         parser.add_argument('--project', dest='project_file', type=Path, required=True)
         parser.add_argument('--row-id', type=str)
+        parser.add_argument('--row-ids', type=str, nargs='+',
+                            help='Row IDs for composite (multi-row) sort')
+        parser.add_argument('--max-objects', type=int,
+                            help='Max objects per row (required with --row-ids)')
         parser.add_argument('--rule', type=str,
                             help='Comparator as module:function (e.g. cyoa.sort:lexicographic)')
         parser.add_argument('--config', dest='config_file', type=Path,
@@ -320,10 +326,105 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
 
         return True
 
+    def _sort_composite_rows(self, row_ids, max_objects, rule, sort_args,
+                             context, dry_run, lint, title=None):
+        """Sort objects across multiple rows, then redistribute."""
+        # Resolve all rows; fail fast if any missing
+        rows = []
+        for row_id in row_ids:
+            row = find_first(self.project['rows'],
+                             lambda r, rid=row_id: r['id'] == rid)
+            if row is None:
+                console.print(f"Row [b]{row_id}[/] not found", style="red")
+                return False
+            rows.append(row)
+
+        template_row = rows[0]
+        row_default_width = template_row.get('objectWidth', '')
+
+        # Derive title from template row, stripping " (Page N)" suffix
+        if title is None:
+            title = re.sub(r'\s*\(Page \d+\)$', '', template_row.get('title', ''))
+
+        # Pool all objects from all rows in order
+        all_objects = []
+        for row in rows:
+            all_objects.extend(row['objects'])
+
+        if not all_objects:
+            console.print("No objects in composite group", style="yellow")
+            return True
+
+        comparator = self._load_comparator(rule)
+        if comparator is None:
+            return False
+
+        sort_key = make_sort_key(comparator, template_row, context,
+                                 args=sort_args, rows=rows)
+
+        if lint:
+            original_ids = [obj['id'] for obj in all_objects]
+            sorted_objects = sorted(all_objects, key=sort_key)
+            sorted_ids = [obj['id'] for obj in sorted_objects]
+
+            if original_ids == sorted_ids:
+                console.print(
+                    f"Composite group [b]{title}[/] is correctly sorted",
+                    style="green")
+                return True
+            else:
+                console.print(
+                    f"Composite group [b]{title}[/] is NOT correctly sorted",
+                    style="red")
+                table = Table('Idx', 'Current', '', 'Expected')
+                for idx, (cur, exp) in enumerate(
+                        zip(all_objects, sorted_objects)):
+                    marker = '[red]*[/]' if cur['id'] != exp['id'] else ' '
+                    table.add_row(str(idx), cur['title'], marker, exp['title'])
+                console.print(table)
+                return False
+
+        sorted_objects = sorted(all_objects, key=sort_key)
+        pages = distribute_objects(sorted_objects, max_objects,
+                                   row_default_width)
+
+        if dry_run:
+            for page_idx, page_objects in enumerate(pages):
+                console.rule(f"Page {page_idx + 1}")
+                table = Table('Idx', 'ID', 'Title')
+                for idx, obj in enumerate(page_objects):
+                    table.add_row(str(idx), obj['id'], obj['title'])
+                console.print(table)
+            return True
+
+        redistribute_to_rows(self.project, row_ids, pages, title,
+                             template_row)
+        return True
+
     def run(self, args):
-        if args.config_file is None and (args.row_id is None or args.rule is None):
-            console.print("Either --config or both --row-id and --rule are required", style="red")
-            return
+        has_row_id = getattr(args, 'row_id', None) is not None
+        has_row_ids = getattr(args, 'row_ids', None) is not None
+
+        if args.config_file is None:
+            if has_row_id and has_row_ids:
+                console.print("--row-id and --row-ids are mutually exclusive",
+                              style="red")
+                return
+            if has_row_ids:
+                if args.rule is None:
+                    console.print("--rule is required with --row-ids",
+                                  style="red")
+                    return
+                if getattr(args, 'max_objects', None) is None:
+                    console.print("--max-objects is required with --row-ids",
+                                  style="red")
+                    return
+            elif not has_row_id or args.rule is None:
+                console.print(
+                    "Either --config, --row-id + --rule, or "
+                    "--row-ids + --max-objects + --rule are required",
+                    style="red")
+                return
 
         self._load_project(args.project_file)
 
@@ -339,14 +440,26 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
 
             all_passed = True
             for entry in config['sorts']:
-                ok = self._sort_row(
-                    row_id=entry['row_id'],
-                    rule=entry['rule'],
-                    sort_args=entry.get('args', {}),
-                    context=context,
-                    dry_run=args.dry_run,
-                    lint=args.lint,
-                )
+                if 'row_ids' in entry:
+                    ok = self._sort_composite_rows(
+                        row_ids=entry['row_ids'],
+                        max_objects=entry['max_objects'],
+                        rule=entry['rule'],
+                        sort_args=entry.get('args', {}),
+                        context=context,
+                        dry_run=args.dry_run,
+                        lint=args.lint,
+                        title=entry.get('title'),
+                    )
+                else:
+                    ok = self._sort_row(
+                        row_id=entry['row_id'],
+                        rule=entry['rule'],
+                        sort_args=entry.get('args', {}),
+                        context=context,
+                        dry_run=args.dry_run,
+                        lint=args.lint,
+                    )
                 if not ok:
                     all_passed = False
 
@@ -357,20 +470,36 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
 
             if not args.dry_run:
                 self._save_project(args.project_file)
+                # Write config back (row_ids may have been mutated by
+                # redistribute_to_rows adding/removing rows)
+                with args.config_file.open('w') as fd:
+                    yaml.dump(config, fd, default_flow_style=False,
+                              sort_keys=False)
         else:
             sort_args = {}
             for item in args.sort_args:
                 key, _, val = item.partition('=')
                 sort_args[key] = val
 
-            ok = self._sort_row(
-                row_id=args.row_id,
-                rule=args.rule,
-                sort_args=sort_args,
-                context=context,
-                dry_run=args.dry_run,
-                lint=args.lint,
-            )
+            if has_row_ids:
+                ok = self._sort_composite_rows(
+                    row_ids=args.row_ids,
+                    max_objects=args.max_objects,
+                    rule=args.rule,
+                    sort_args=sort_args,
+                    context=context,
+                    dry_run=args.dry_run,
+                    lint=args.lint,
+                )
+            else:
+                ok = self._sort_row(
+                    row_id=args.row_id,
+                    rule=args.rule,
+                    sort_args=sort_args,
+                    context=context,
+                    dry_run=args.dry_run,
+                    lint=args.lint,
+                )
 
             if args.lint:
                 if not ok:
