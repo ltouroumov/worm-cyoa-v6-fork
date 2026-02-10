@@ -156,18 +156,28 @@ class RowSplitTool(ToolBase, ProjectUtilsMixin):
     self._save_project(args.project_file)
 
 
-def parse_col_width(col_class):
-  """Parse a Bootstrap col-* class to grid column count.
+# Common denominator for col-* (12-grid) and w-* (percentage) widths.
+# 300 = LCM-friendly: col-3→75, col-4→100, col-6→150, col-12→300,
+#                      w-20→60, w-25→75, w-50→150.
+LINE_TOTAL = 300
 
-  Examples: 'col-md-4' → 4, 'col-12' → 12, 'col-sm-6' → 6.
-  Returns 12 (full width) for empty or unparseable values.
+
+def parse_col_width(col_class):
+  """Parse a width class to normalized grid units (out of LINE_TOTAL).
+
+  Supports Bootstrap col-* classes (12-column grid) and w-* classes
+  (percentage widths). Returns LINE_TOTAL (full width) for empty or
+  unparseable values.
   """
   if not col_class:
-    return 12
+    return LINE_TOTAL
   try:
-    return int(col_class.rsplit("-", 1)[-1])
+    if col_class.startswith("w-"):
+      pct = int(col_class.split("-")[1])
+      return pct * LINE_TOTAL // 100
+    return int(col_class.rsplit("-", 1)[-1]) * LINE_TOTAL // 12
   except (ValueError, IndexError):
-    return 12
+    return LINE_TOTAL
 
 
 def effective_obj_width(obj, row_default_width):
@@ -188,11 +198,11 @@ def compute_line_boundaries(objects, row_default_width):
   line_used = 0
   for i, obj in enumerate(objects):
     w = effective_obj_width(obj, row_default_width)
-    if line_used > 0 and line_used + w > 12:
+    if line_used > 0 and line_used + w > LINE_TOTAL:
       boundaries.append(i)
       line_used = 0
     line_used += w
-    if line_used >= 12:
+    if line_used >= LINE_TOTAL:
       if i + 1 < len(objects):
         boundaries.append(i + 1)
       line_used = 0
