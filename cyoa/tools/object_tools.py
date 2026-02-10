@@ -249,6 +249,8 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                             help='Comparator as module:function (e.g. cyoa.sort:lexicographic)')
         parser.add_argument('--dry-run', action='store_true',
                             help='Preview sorted order without saving')
+        parser.add_argument('--lint', action='store_true',
+                            help='Check that current order matches sorted order')
 
     def run(self, args):
         self._load_project(args.project_file)
@@ -283,6 +285,24 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
         )
 
         sort_key = make_sort_key(comparator, row_data, context)
+
+        if args.lint:
+            original_ids = [obj['id'] for obj in row_data['objects']]
+            sorted_objects = sorted(row_data['objects'], key=sort_key)
+            sorted_ids = [obj['id'] for obj in sorted_objects]
+
+            if original_ids == sorted_ids:
+                console.print(f"Row [b]{args.row_id}[/] is correctly sorted", style="green")
+            else:
+                console.print(f"Row [b]{args.row_id}[/] is NOT correctly sorted", style="red")
+                table = Table('Idx', 'Current', '', 'Expected')
+                for idx, (cur, exp) in enumerate(zip(row_data['objects'], sorted_objects)):
+                    marker = '[red]*[/]' if cur['id'] != exp['id'] else ' '
+                    table.add_row(str(idx), cur['title'], marker, exp['title'])
+                console.print(table)
+                raise SystemExit(1)
+            return
+
         row_data['objects'].sort(key=sort_key)
 
         if args.dry_run:
