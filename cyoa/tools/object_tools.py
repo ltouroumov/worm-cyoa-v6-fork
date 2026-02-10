@@ -264,6 +264,67 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
         parser.add_argument('--arg', dest='sort_args', action='append', default=[],
                             metavar='KEY=VAL',
                             help='Arbitrary key=value arguments passed to the comparator')
+        parser.add_argument('--interval', dest='intervals', type=str,
+                            action='append', default=[],
+                            help='BEFORE:AFTER interval to sort (exclusive, * = unbounded). Repeatable.')
+
+    @staticmethod
+    def _parse_interval(objects, interval):
+        """Parse "BEFORE:AFTER" into (start, end) indices for slicing.
+
+        Boundaries are exclusive. Returns the half-open range [start, end)
+        of the sortable region within *objects*.
+        """
+        parts = interval.split(':', 1)
+        if len(parts) != 2:
+            raise ValueError(f"Invalid interval syntax {interval!r}, "
+                             f"expected BEFORE:AFTER")
+        before_id, after_id = parts
+
+        if before_id == '*':
+            start = 0
+        else:
+            idx = next((i for i, o in enumerate(objects)
+                        if o['id'] == before_id), None)
+            if idx is None:
+                raise ValueError(
+                    f"Interval boundary {before_id!r} not found in objects")
+            start = idx + 1
+
+        if after_id == '*':
+            end = len(objects)
+        else:
+            idx = next((i for i, o in enumerate(objects)
+                        if o['id'] == after_id), None)
+            if idx is None:
+                raise ValueError(
+                    f"Interval boundary {after_id!r} not found in objects")
+            end = idx
+
+        if start > end:
+            raise ValueError(
+                f"Invalid interval {interval!r}: start ({start}) > end ({end})")
+        return (start, end)
+
+    @staticmethod
+    def _apply_intervals(objects, ranges, sort_key):
+        """Sort objects within each range independently, return new list.
+
+        *ranges* is a list of (start, end) half-open intervals, assumed
+        non-overlapping and sorted by start.  Objects outside ranges are
+        unchanged.
+        """
+        result = []
+        prev_end = 0
+        for start, end in ranges:
+            # Unsorted gap before this range
+            result.extend(objects[prev_end:start])
+            # Sorted slice
+            result.extend(sorted(objects[start:end], key=sort_key))
+            prev_end = end
+        # Unsorted tail
+        result.extend(objects[prev_end:])
+        return result
 
     def _load_comparator(self, rule):
         module_name, func_name = str.split(rule, ':', maxsplit=2)
@@ -285,7 +346,19 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
         console.log(f"Sorting with [b][cyan]{module_name}[/].[magenta]{func_name}[/][/]")
         return comparator
 
-    def _sort_row(self, row_id, rule, sort_args, context, dry_run, lint):
+    def _resolve_intervals(self, objects, intervals):
+        """Parse interval strings and return sorted, validated ranges."""
+        ranges = [self._parse_interval(objects, iv) for iv in intervals]
+        ranges.sort()
+        for i in range(1, len(ranges)):
+            if ranges[i][0] < ranges[i - 1][1]:
+                raise ValueError(
+                    f"Overlapping intervals: indices {ranges[i - 1]} "
+                    f"and {ranges[i]}")
+        return ranges
+
+    def _sort_row(self, row_id, rule, sort_args, context, dry_run, lint,
+                  intervals=None):
         """Sort a single row. Returns True if lint passed (or not linting)."""
         row_data = find_first(self.project['rows'],
                               lambda row: row['id'] == row_id)
@@ -298,6 +371,46 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
             return False
 
         sort_key = make_sort_key(comparator, row_data, context, args=sort_args)
+
+        if intervals:
+            ranges = self._resolve_intervals(row_data['objects'], intervals)
+
+            if lint:
+                all_ok = True
+                for start, end in ranges:
+                    segment = row_data['objects'][start:end]
+                    original_ids = [obj['id'] for obj in segment]
+                    sorted_segment = sorted(segment, key=sort_key)
+                    sorted_ids = [obj['id'] for obj in sorted_segment]
+                    if original_ids != sorted_ids:
+                        all_ok = False
+                        console.print(
+                            f"Row [b]{row_id}[/] interval [{start}:{end}] "
+                            f"is NOT correctly sorted", style="red")
+                        table = Table('Idx', 'Current', '', 'Expected')
+                        for idx, (cur, exp) in enumerate(
+                                zip(segment, sorted_segment)):
+                            marker = ('[red]*[/]'
+                                      if cur['id'] != exp['id'] else ' ')
+                            table.add_row(str(start + idx), cur['title'],
+                                          marker, exp['title'])
+                        console.print(table)
+                if all_ok:
+                    console.print(
+                        f"Row [b]{row_id}[/] intervals are correctly sorted",
+                        style="green")
+                return all_ok
+
+            row_data['objects'] = self._apply_intervals(
+                row_data['objects'], ranges, sort_key)
+
+            if dry_run:
+                table = Table('Idx', 'ID', 'Title')
+                for idx, obj in enumerate(row_data['objects']):
+                    table.add_row(str(idx), obj['id'], obj['title'])
+                console.print(table)
+
+            return True
 
         if lint:
             original_ids = [obj['id'] for obj in row_data['objects']]
@@ -327,7 +440,8 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
         return True
 
     def _sort_composite_rows(self, row_ids, max_objects, rule, sort_args,
-                             context, dry_run, lint, title=None):
+                             context, dry_run, lint, title=None,
+                             intervals=None):
         """Sort objects across multiple rows, then redistribute."""
         # Resolve all rows; fail fast if any missing
         rows = []
@@ -361,6 +475,54 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
 
         sort_key = make_sort_key(comparator, template_row, context,
                                  args=sort_args, rows=rows)
+
+        if intervals:
+            ranges = self._resolve_intervals(all_objects, intervals)
+
+            if lint:
+                all_ok = True
+                for start, end in ranges:
+                    segment = all_objects[start:end]
+                    original_ids = [obj['id'] for obj in segment]
+                    sorted_segment = sorted(segment, key=sort_key)
+                    sorted_ids = [obj['id'] for obj in sorted_segment]
+                    if original_ids != sorted_ids:
+                        all_ok = False
+                        console.print(
+                            f"Composite group [b]{title}[/] interval "
+                            f"[{start}:{end}] is NOT correctly sorted",
+                            style="red")
+                        table = Table('Idx', 'Current', '', 'Expected')
+                        for idx, (cur, exp) in enumerate(
+                                zip(segment, sorted_segment)):
+                            marker = ('[red]*[/]'
+                                      if cur['id'] != exp['id'] else ' ')
+                            table.add_row(str(start + idx), cur['title'],
+                                          marker, exp['title'])
+                        console.print(table)
+                if all_ok:
+                    console.print(
+                        f"Composite group [b]{title}[/] intervals are "
+                        f"correctly sorted", style="green")
+                return all_ok
+
+            sorted_objects = self._apply_intervals(
+                all_objects, ranges, sort_key)
+            pages = distribute_objects(sorted_objects, max_objects,
+                                       row_default_width)
+
+            if dry_run:
+                for page_idx, page_objects in enumerate(pages):
+                    console.rule(f"Page {page_idx + 1}")
+                    table = Table('Idx', 'ID', 'Title')
+                    for idx, obj in enumerate(page_objects):
+                        table.add_row(str(idx), obj['id'], obj['title'])
+                    console.print(table)
+                return True
+
+            redistribute_to_rows(self.project, row_ids, pages, title,
+                                 template_row)
+            return True
 
         if lint:
             original_ids = [obj['id'] for obj in all_objects]
@@ -440,6 +602,13 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
 
             all_passed = True
             for entry in config['sorts']:
+                # Normalize interval/intervals from config
+                entry_intervals = entry.get('intervals', [])
+                if not entry_intervals:
+                    single = entry.get('interval')
+                    if single:
+                        entry_intervals = [single]
+
                 if 'row_ids' in entry:
                     ok = self._sort_composite_rows(
                         row_ids=entry['row_ids'],
@@ -450,6 +619,7 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                         dry_run=args.dry_run,
                         lint=args.lint,
                         title=entry.get('title'),
+                        intervals=entry_intervals or None,
                     )
                 else:
                     ok = self._sort_row(
@@ -459,6 +629,7 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                         context=context,
                         dry_run=args.dry_run,
                         lint=args.lint,
+                        intervals=entry_intervals or None,
                     )
                 if not ok:
                     all_passed = False
@@ -481,6 +652,8 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                 key, _, val = item.partition('=')
                 sort_args[key] = val
 
+            cli_intervals = args.intervals or None
+
             if has_row_ids:
                 ok = self._sort_composite_rows(
                     row_ids=args.row_ids,
@@ -490,6 +663,7 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                     context=context,
                     dry_run=args.dry_run,
                     lint=args.lint,
+                    intervals=cli_intervals,
                 )
             else:
                 ok = self._sort_row(
@@ -499,6 +673,7 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                     context=context,
                     dry_run=args.dry_run,
                     lint=args.lint,
+                    intervals=cli_intervals,
                 )
 
             if args.lint:
