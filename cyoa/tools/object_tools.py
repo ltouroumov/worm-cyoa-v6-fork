@@ -5,6 +5,8 @@ from io import StringIO
 import json
 from pathlib import Path
 from typing import OrderedDict
+
+import yaml
 from rich.table import Table
 
 from cyoa.tools.lib import *
@@ -244,9 +246,11 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
     def setup_parser(cls, parent):
         parser = parent.add_parser(cls.name, help='Sort objects in a row using a comparator function')
         parser.add_argument('--project', dest='project_file', type=Path, required=True)
-        parser.add_argument('--row-id', type=str, required=True)
-        parser.add_argument('--rule', type=str, required=True,
+        parser.add_argument('--row-id', type=str)
+        parser.add_argument('--rule', type=str,
                             help='Comparator as module:function (e.g. cyoa.sort:lexicographic)')
+        parser.add_argument('--config', dest='config_file', type=Path,
+                            help='YAML config file with multiple sort entries')
         parser.add_argument('--dry-run', action='store_true',
                             help='Preview sorted order without saving')
         parser.add_argument('--lint', action='store_true',
@@ -255,22 +259,14 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                             metavar='KEY=VAL',
                             help='Arbitrary key=value arguments passed to the comparator')
 
-    def run(self, args):
-        self._load_project(args.project_file)
-
-        row_data = find_first(self.project['rows'],
-                              lambda row: row['id'] == args.row_id)
-        if row_data is None:
-            console.print(f"Row [b]{args.row_id}[/] not found", style="red")
-            return
-
-        module_name, func_name = str.split(args.rule, ':', maxsplit=2)
+    def _load_comparator(self, rule):
+        module_name, func_name = str.split(rule, ':', maxsplit=2)
         try:
             module_inst = importlib.import_module(module_name)
         except Exception:
             console.log(f"Cannot load [b cyan]{module_name}[/]")
             console.print_exception()
-            return
+            return None
 
         comparator = getattr(module_inst, func_name, None)
         if comparator is None or not callable(comparator):
@@ -278,9 +274,58 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                 f"Cannot find callable [b][cyan]{module_name}[/].[red]{func_name}[/][/]",
                 style="red",
             )
-            return
+            return None
 
         console.log(f"Sorting with [b][cyan]{module_name}[/].[magenta]{func_name}[/][/]")
+        return comparator
+
+    def _sort_row(self, row_id, rule, sort_args, context, dry_run, lint):
+        """Sort a single row. Returns True if lint passed (or not linting)."""
+        row_data = find_first(self.project['rows'],
+                              lambda row: row['id'] == row_id)
+        if row_data is None:
+            console.print(f"Row [b]{row_id}[/] not found", style="red")
+            return False
+
+        comparator = self._load_comparator(rule)
+        if comparator is None:
+            return False
+
+        sort_key = make_sort_key(comparator, row_data, context, args=sort_args)
+
+        if lint:
+            original_ids = [obj['id'] for obj in row_data['objects']]
+            sorted_objects = sorted(row_data['objects'], key=sort_key)
+            sorted_ids = [obj['id'] for obj in sorted_objects]
+
+            if original_ids == sorted_ids:
+                console.print(f"Row [b]{row_id}[/] is correctly sorted", style="green")
+                return True
+            else:
+                console.print(f"Row [b]{row_id}[/] is NOT correctly sorted", style="red")
+                table = Table('Idx', 'Current', '', 'Expected')
+                for idx, (cur, exp) in enumerate(zip(row_data['objects'], sorted_objects)):
+                    marker = '[red]*[/]' if cur['id'] != exp['id'] else ' '
+                    table.add_row(str(idx), cur['title'], marker, exp['title'])
+                console.print(table)
+                return False
+
+        row_data['objects'].sort(key=sort_key)
+
+        if dry_run:
+            table = Table('Idx', 'ID', 'Title')
+            for idx, obj in enumerate(row_data['objects']):
+                table.add_row(str(idx), obj['id'], obj['title'])
+            console.print(table)
+
+        return True
+
+    def run(self, args):
+        if args.config_file is None and (args.row_id is None or args.rule is None):
+            console.print("Either --config or both --row-id and --rule are required", style="red")
+            return
+
+        self._load_project(args.project_file)
 
         context = SortContext(
             project=self.project,
@@ -288,39 +333,52 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
             groups={g['id']: g for g in self.project['groups']},
         )
 
-        sort_args = {}
-        for item in args.sort_args:
-            key, _, val = item.partition('=')
-            sort_args[key] = val
+        if args.config_file is not None:
+            with args.config_file.open() as fd:
+                config = yaml.load(fd, Loader=yaml.FullLoader)
 
-        sort_key = make_sort_key(comparator, row_data, context, args=sort_args)
+            all_passed = True
+            for entry in config['sorts']:
+                ok = self._sort_row(
+                    row_id=entry['row_id'],
+                    rule=entry['rule'],
+                    sort_args=entry.get('args', {}),
+                    context=context,
+                    dry_run=args.dry_run,
+                    lint=args.lint,
+                )
+                if not ok:
+                    all_passed = False
 
-        if args.lint:
-            original_ids = [obj['id'] for obj in row_data['objects']]
-            sorted_objects = sorted(row_data['objects'], key=sort_key)
-            sorted_ids = [obj['id'] for obj in sorted_objects]
+            if args.lint:
+                if not all_passed:
+                    raise SystemExit(1)
+                return
 
-            if original_ids == sorted_ids:
-                console.print(f"Row [b]{args.row_id}[/] is correctly sorted", style="green")
-            else:
-                console.print(f"Row [b]{args.row_id}[/] is NOT correctly sorted", style="red")
-                table = Table('Idx', 'Current', '', 'Expected')
-                for idx, (cur, exp) in enumerate(zip(row_data['objects'], sorted_objects)):
-                    marker = '[red]*[/]' if cur['id'] != exp['id'] else ' '
-                    table.add_row(str(idx), cur['title'], marker, exp['title'])
-                console.print(table)
-                raise SystemExit(1)
-            return
-
-        row_data['objects'].sort(key=sort_key)
-
-        if args.dry_run:
-            table = Table('Idx', 'ID', 'Title')
-            for idx, obj in enumerate(row_data['objects']):
-                table.add_row(str(idx), obj['id'], obj['title'])
-            console.print(table)
+            if not args.dry_run:
+                self._save_project(args.project_file)
         else:
-            self._save_project(args.project_file)
+            sort_args = {}
+            for item in args.sort_args:
+                key, _, val = item.partition('=')
+                sort_args[key] = val
+
+            ok = self._sort_row(
+                row_id=args.row_id,
+                rule=args.rule,
+                sort_args=sort_args,
+                context=context,
+                dry_run=args.dry_run,
+                lint=args.lint,
+            )
+
+            if args.lint:
+                if not ok:
+                    raise SystemExit(1)
+                return
+
+            if not args.dry_run:
+                self._save_project(args.project_file)
 
 
 TOOLS = (
