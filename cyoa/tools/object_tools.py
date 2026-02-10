@@ -1,4 +1,5 @@
 import csv
+import importlib
 from dataclasses import field
 from io import StringIO
 import json
@@ -7,6 +8,7 @@ from typing import OrderedDict
 from rich.table import Table
 
 from cyoa.tools.lib import *
+from cyoa.tools.sort import SortContext, make_sort_key
 
 
 class ObjectListTool(ToolBase, ProjectUtilsMixin):
@@ -235,10 +237,68 @@ class ObjectAddTool(ToolBase, ProjectUtilsMixin):
         self._save_project(args.project_file)
 
 
+class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
+    name = 'objects.sort'
+
+    @classmethod
+    def setup_parser(cls, parent):
+        parser = parent.add_parser(cls.name, help='Sort objects in a row using a comparator function')
+        parser.add_argument('--project', dest='project_file', type=Path, required=True)
+        parser.add_argument('--row-id', type=str, required=True)
+        parser.add_argument('--rule', type=str, required=True,
+                            help='Comparator as module:function (e.g. cyoa.sort:lexicographic)')
+        parser.add_argument('--dry-run', action='store_true',
+                            help='Preview sorted order without saving')
+
+    def run(self, args):
+        self._load_project(args.project_file)
+
+        row_data = find_first(self.project['rows'],
+                              lambda row: row['id'] == args.row_id)
+        if row_data is None:
+            console.print(f"Row [b]{args.row_id}[/] not found", style="red")
+            return
+
+        module_name, func_name = str.split(args.rule, ':', maxsplit=2)
+        try:
+            module_inst = importlib.import_module(module_name)
+        except Exception:
+            console.log(f"Cannot load [b cyan]{module_name}[/]")
+            console.print_exception()
+            return
+
+        comparator = getattr(module_inst, func_name, None)
+        if comparator is None or not callable(comparator):
+            console.print(
+                f"Cannot find callable [b][cyan]{module_name}[/].[red]{func_name}[/][/]",
+                style="red",
+            )
+            return
+
+        console.log(f"Sorting with [b][cyan]{module_name}[/].[magenta]{func_name}[/][/]")
+
+        context = SortContext(
+            point_types={pt['id']: pt for pt in self.project['pointTypes']},
+            groups={g['id']: g for g in self.project['groups']},
+        )
+
+        sort_key = make_sort_key(comparator, row_data, context)
+        row_data['objects'].sort(key=sort_key)
+
+        if args.dry_run:
+            table = Table('Idx', 'ID', 'Title')
+            for idx, obj in enumerate(row_data['objects']):
+                table.add_row(str(idx), obj['id'], obj['title'])
+            console.print(table)
+        else:
+            self._save_project(args.project_file)
+
+
 TOOLS = (
     ObjectListTool,
     ObjectCopyTool,
     ObjectCutTool,
     ObjectMoveTool,
-    ObjectAddTool
+    ObjectAddTool,
+    ObjectsSortTool,
 )
