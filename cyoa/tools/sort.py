@@ -6,11 +6,12 @@ from typing import Any
 
 @dataclass
 class SortContext:
+    project: dict[str, Any]
     point_types: dict[str, Any]
     groups: dict[str, Any]
 
 
-def make_sort_key(comparator, row, context):
+def make_sort_key(comparator, row, context, args=None):
     sig = inspect.signature(comparator)
     params = set(sig.parameters.keys())
 
@@ -21,6 +22,8 @@ def make_sort_key(comparator, row, context):
         extra['context'] = context
     elif 'ctx' in params:
         extra['ctx'] = context
+    if 'args' in params:
+        extra['args'] = args or {}
 
     def cmp(a, b):
         return comparator(a, b, **extra)

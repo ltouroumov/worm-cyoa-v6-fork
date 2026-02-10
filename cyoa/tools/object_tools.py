@@ -251,6 +251,9 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                             help='Preview sorted order without saving')
         parser.add_argument('--lint', action='store_true',
                             help='Check that current order matches sorted order')
+        parser.add_argument('--arg', dest='sort_args', action='append', default=[],
+                            metavar='KEY=VAL',
+                            help='Arbitrary key=value arguments passed to the comparator')
 
     def run(self, args):
         self._load_project(args.project_file)
@@ -280,11 +283,17 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
         console.log(f"Sorting with [b][cyan]{module_name}[/].[magenta]{func_name}[/][/]")
 
         context = SortContext(
+            project=self.project,
             point_types={pt['id']: pt for pt in self.project['pointTypes']},
             groups={g['id']: g for g in self.project['groups']},
         )
 
-        sort_key = make_sort_key(comparator, row_data, context)
+        sort_args = {}
+        for item in args.sort_args:
+            key, _, val = item.partition('=')
+            sort_args[key] = val
+
+        sort_key = make_sort_key(comparator, row_data, context, args=sort_args)
 
         if args.lint:
             original_ids = [obj['id'] for obj in row_data['objects']]
