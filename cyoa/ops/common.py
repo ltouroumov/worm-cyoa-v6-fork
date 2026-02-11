@@ -20,5 +20,5 @@ def find_first_index(values, f):
   return None
 
 
-def gen_id():
-  return str.join("", random.choices(string.ascii_lowercase + string.digits, k=4))
+def gen_id(length=6):
+  return str.join("", random.choices(string.ascii_lowercase + string.digits, k=length))
