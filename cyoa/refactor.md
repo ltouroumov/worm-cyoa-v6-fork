@@ -509,11 +509,28 @@ order (least coupled → most coupled):
    - Updated `object_tools.py` to import from ops.layout and ops.rows
    - Fixed all call sites of `redistribute_to_rows` to handle RedistributeResult
 
-4. **`cyoa/ops/sort.py`** — Extract `parse_interval`, `apply_intervals`,
+4. ✅ **`cyoa/ops/sort.py`** — Extract `parse_interval`, `apply_intervals`,
    `resolve_intervals`, `load_comparator`, `sort_row`,
    `sort_composite_rows`. Decide whether to fold `cyoa/sort/` into this
    module.
    Migrate `objects.sort`.
+   - Created `cyoa/ops/sort.py` with dataclasses for structured results:
+     - `SortContext`, `LintDiff`, `SortResult`, `CompositeSortResult`
+   - Moved `SortContext` and `make_sort_key` from `cyoa/tools/sort.py`
+   - Implemented business logic functions:
+     - `load_comparator()` loads comparator from module:function string
+     - `parse_interval()` parses BEFORE:AFTER syntax into indices
+     - `resolve_intervals()` validates and sorts interval ranges
+     - `apply_intervals()` sorts objects within specified ranges
+     - `sort_row()` sorts single row, returns SortResult with lint info
+     - `sort_composite_rows()` sorts across multiple rows, handles redistribution
+   - Updated `ObjectsSortTool` to use ops layer:
+     - Removed duplicated methods `_parse_interval`, `_apply_intervals`, `_resolve_intervals`, `_load_comparator`
+     - Updated `_sort_row()` to call `sort_row()` and format results
+     - Updated `_sort_composite_rows()` to call `sort_composite_rows()` and format results
+     - Tool now focuses on CLI orchestration, output formatting, and error display
+   - Updated `cyoa/tools/sort.py` to re-export from ops.sort for backward compatibility
+   - Kept `cyoa/sort/` as separate module for comparator functions (e.g., lexicographic)
 
 5. **`cyoa/ops/project.py`** — Extract `check_duplicates`,
    `check_requirements`, `check_backpack`, `visit_project`, cost/addon/power
