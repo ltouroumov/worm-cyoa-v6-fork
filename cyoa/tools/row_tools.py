@@ -40,11 +40,13 @@ class RowListTool(ToolBase, ProjectUtilsMixin):
       csv_file = csv.DictWriter(str_io, fieldnames=("id", "title", "objects"))
       csv_file.writeheader()
       for row_entry in rows:
-        csv_file.writerow({
-          "id": row_entry.row_id,
-          "title": row_entry.title,
-          "objects": row_entry.object_count,
-        })
+        csv_file.writerow(
+          {
+            "id": row_entry.row_id,
+            "title": row_entry.title,
+            "objects": row_entry.object_count,
+          }
+        )
       print(str_io.getvalue())
     else:
       table = Table("id", "title", "# objects", box=MARKDOWN)
@@ -85,7 +87,12 @@ class RowMergeTool(ToolBase, ProjectUtilsMixin):
     parser = parent.add_parser(cls.name, help="Merge multiple rows into one")
     parser.add_argument("--project", dest="project_file", type=Path, required=True)
     parser.add_argument(
-      "--from-row-ids", type=str, required=True, nargs="+", action="extend", default=[]
+      "--from-row-ids",
+      type=str,
+      required=True,
+      nargs="+",
+      action="extend",
+      default=[],
     )
     parser.add_argument("--dest-row-id", type=str, required=True)
 
@@ -98,7 +105,9 @@ class RowMergeTool(ToolBase, ProjectUtilsMixin):
       console.print(str(exc), style="red")
       return
 
-    console.print(f"Merged {len(result.merged_row_ids)} row(s) into {result.dest_row_id}")
+    console.print(
+      f"Merged {len(result.merged_row_ids)} row(s) into {result.dest_row_id}"
+    )
     console.print(f"Total objects: {result.total_objects}")
 
     self._save_project(args.project_file)
@@ -109,13 +118,17 @@ class RowSplitTool(ToolBase, ProjectUtilsMixin):
 
   @classmethod
   def setup_parser(cls, parent):
-    parser = parent.add_parser(cls.name, help="Split a row into two after a given object")
+    parser = parent.add_parser(
+      cls.name, help="Split a row into two after a given object"
+    )
     parser.add_argument("--project", dest="project_file", type=Path, required=True)
     parser.add_argument("--row-id", type=str, required=True)
 
     split_point = parser.add_mutually_exclusive_group(required=True)
     split_point.add_argument("--after-obj", type=str, help="Object ID to split after")
-    split_point.add_argument("--after-idx", type=int, help="Object index to split after")
+    split_point.add_argument(
+      "--after-idx", type=int, help="Object index to split after"
+    )
 
   def run(self, args):
     self._load_project(args.project_file)
@@ -125,7 +138,7 @@ class RowSplitTool(ToolBase, ProjectUtilsMixin):
         self.project,
         args.row_id,
         after_obj=args.after_obj,
-        after_idx=args.after_idx
+        after_idx=args.after_idx,
       )
     except (KeyError, IndexError, ValueError) as exc:
       console.print(str(exc), style="red")
@@ -143,8 +156,9 @@ class RowsBalanceTool(ToolBase, ProjectUtilsMixin):
 
   @classmethod
   def setup_parser(cls, parent):
-    parser = parent.add_parser(cls.name,
-      help="Rebalance rows across pages according to a YAML config")
+    parser = parent.add_parser(
+      cls.name, help="Rebalance rows across pages according to a YAML config"
+    )
     parser.add_argument("--project", dest="project_file", type=Path, required=True)
     parser.add_argument("--config", dest="config_file", type=Path, required=True)
 
@@ -160,7 +174,9 @@ class RowsBalanceTool(ToolBase, ProjectUtilsMixin):
 
         console.rule(f"[bold]{result.title}")
         console.print(f"Total objects: {result.total_objects}")
-        console.print(f"Pages needed: {result.pages_needed} (existing: {result.pages_existing})")
+        console.print(
+          f"Pages needed: {result.pages_needed} (existing: {result.pages_existing})"
+        )
 
         redist = result.redistribute_result
         if redist.rows_removed:
@@ -169,7 +185,9 @@ class RowsBalanceTool(ToolBase, ProjectUtilsMixin):
           for row_id in redist.rows_created:
             console.print(f"Created new row {row_id}")
         for row in redist.assigned_rows:
-          console.print(f"  {row['id']}: {row['title']} — {len(row['objects'])} objects")
+          console.print(
+            f"  {row['id']}: {row['title']} — {len(row['objects'])} objects"
+          )
 
       except KeyError as exc:
         console.print(str(exc), style="red")

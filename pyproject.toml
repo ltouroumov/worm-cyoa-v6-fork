@@ -23,6 +23,12 @@ cyoa = "cyoa.tools.client:main"
 [tool.ruff]
 indent-width = 2
 
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
 [tool.hatch.build.targets.wheel]
 packages = ["cyoa"]
 
