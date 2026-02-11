@@ -532,11 +532,34 @@ order (least coupled → most coupled):
    - Updated `cyoa/tools/sort.py` to re-export from ops.sort for backward compatibility
    - Kept `cyoa/sort/` as separate module for comparator functions (e.g., lexicographic)
 
-5. **`cyoa/ops/project.py`** — Extract `check_duplicates`,
+5. ✅ **`cyoa/ops/project.py`** — Extract `check_duplicates`,
    `check_requirements`, `check_backpack`, `visit_project`, cost/addon/power
    listing logic.
    Migrate `project.check`, `project.patch`, `project.costs`,
    `project.addons`, `project.powers`.
+   - Created `cyoa/ops/project.py` with dataclasses for structured results:
+     - `DuplicateIssue`, `EmptyIdIssue`, `RequirementIssue`, `BackpackIssue`, `CheckResult`
+     - `AddonEntry`, `ObjectWithAddons`, `RowWithAddons`
+     - `PowerEntry`, `CostChain`
+   - Implemented business logic functions:
+     - `check_duplicates()` returns structured duplicate and empty ID issues
+     - `check_requirements()` returns list of missing requirement issues
+     - `check_backpack()` returns list of backpack group issues
+     - `check_project()` orchestrates all checks and returns CheckResult
+     - `visit_project()` traverses project structure with visitor pattern
+     - `collect_addon_rows()` collects objects with addons and their requirements
+     - `collect_power_rows()` collects power objects with costs and requirements
+     - `analyze_power_costs()` analyzes upgrade chains and computes total costs
+     - `write_addons_markdown()` formats addon data as markdown
+     - `write_powers_csv()` formats power data as CSV
+   - Updated all project tools to use ops layer:
+     - `ProjectCheckTool` uses `check_project()` and formats results with color-coded output
+     - `ProjectPatchTool` uses `visit_project()` from ops (no logic change)
+     - `ProjectCostsTool` uses `analyze_power_costs()` for analysis, handles formatting
+     - `ProjectAddonsTool` uses `collect_addon_rows()` and `write_addons_markdown()`
+     - `ProjectPowersTool` uses `collect_power_rows()` and `write_powers_csv()`
+   - Added re-exports in `lib.py` for backward compatibility
+   - Avoided circular dependency by using TYPE_CHECKING for PatchBase import
 
 6. **`cyoa/ops/media.py`** — `list_all_images`, image decode/encode/optimize
    helpers are already mostly pure. Extract the optimize-and-extract and
