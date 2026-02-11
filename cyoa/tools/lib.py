@@ -1,13 +1,13 @@
 import copy
 import functools
 import json
-import random
-import string
 from abc import ABC
 from pathlib import Path
 from typing import Sequence
 
 from rich.console import Console
+
+from cyoa.ops.common import find_first, find_first_index, gen_id, is_empty
 
 __all__ = (
     'console',
@@ -54,31 +54,6 @@ class ProjectUtilsMixin:
                 json.dump(self.project, fd, indent=2, sort_keys=True)
             else:
                 json.dump(self.project, fd, separators=(',', ':'), sort_keys=True)
-
-
-def is_empty(value):
-    return value is None or value == ""
-
-
-def find_first(values, f):
-    for value in values:
-        if f(value):
-            return value
-    return None
-
-
-def find_first_index(values, f):
-    for index, value in enumerate(values):
-        if f(value):
-            return index
-    return None
-
-
-def gen_id():
-    return str.join('', random.choices(
-        string.ascii_lowercase + string.digits,
-        k=4
-    ))
 
 
 def remove_rows_from_project(project, row_ids):

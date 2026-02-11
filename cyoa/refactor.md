@@ -469,7 +469,7 @@ def redistribute_to_rows(project, row_ids, pages, title, template_row):
 The refactor can be done incrementally, one tool group at a time. Suggested
 order (least coupled → most coupled):
 
-1. **`cyoa/ops/common.py`** — Extract `find_first`, `find_first_index`,
+1. ✅ **`cyoa/ops/common.py`** — Extract `find_first`, `find_first_index`,
    `gen_id`, `is_empty` from `lib.py`. These have zero dependencies and every
    other ops module will need them. Add re-exports in `lib.py` to avoid
    breaking existing imports during the transition.
