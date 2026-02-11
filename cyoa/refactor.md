@@ -561,11 +561,37 @@ order (least coupled → most coupled):
    - Added re-exports in `lib.py` for backward compatibility
    - Avoided circular dependency by using TYPE_CHECKING for PatchBase import
 
-6. **`cyoa/ops/media.py`** — `list_all_images`, image decode/encode/optimize
+6. ✅ **`cyoa/ops/media.py`** — `list_all_images`, image decode/encode/optimize
    helpers are already mostly pure. Extract the optimize-and-extract and
    optimize-in-place pipelines as ops functions that return results instead of
    building Rich tables.
    Migrate `media.*` tools.
+   - Created `cyoa/ops/media.py` with dataclasses for structured results:
+     - `ImageInfo`, `ImageMetadata`, `OptimizeResult`, `ExtractResult`, `DownloadResult`
+   - Moved pure image processing functions from media_tools:
+     - `list_all_images()` iterates over all images in project
+     - `decode_image()` / `encode_image()` for data URI handling
+     - `get_image_info()` extracts metadata (dimensions, size, format)
+     - `optimize_image()` resizes and converts to WebP
+     - `export_image_name()` generates consistent file names
+     - `check_size()` validates size constraints
+   - Implemented project update function:
+     - `update_image()` updates image references in project dict (uses lenses)
+   - Implemented high-level operations returning structured results:
+     - `optimize_embedded_image()` optimizes and exports embedded images
+     - `optimize_file_image()` optimizes images already on disk
+     - `extract_embedded_image()` extracts embedded images to files
+     - `download_external_image()` downloads and saves external images
+     - `migrate_image_url()` migrates image URLs between base URLs
+   - Updated all media tools to use ops layer:
+     - `MediaListTool` uses `list_all_images()` and `get_image_info()`
+     - `MediaOptimizeTool` uses `optimize_embedded_image()` and `optimize_file_image()`
+     - `MediaExtractTool` uses `extract_embedded_image()` and `download_external_image()`
+     - `MediaMigrateTool` uses `migrate_image_url()` and reports migration count
+     - `MediaCleanTool` and `MediaZipTool` use `list_all_images()` for iteration
+   - Tools now focus on CLI orchestration (progress bars, table formatting, console output)
+   - Added backward compatibility exports in media_tools.py for build.py
+   - Moved lens-based update logic into ops layer to avoid duplication
 
 7. **Remaining tools** — `wiki_tools`, `style_tools`, `merge_tools`, `build`,
    `scripts` — follow the same pattern when convenient.
