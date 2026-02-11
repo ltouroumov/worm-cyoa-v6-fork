@@ -485,10 +485,29 @@ order (least coupled → most coupled):
    - Added re-exports in `lib.py` for backwards compatibility
    - Fixed bug in `insert_objects_in_row()` to handle missing after_obj gracefully
 
-3. **`cyoa/ops/rows.py`** — Extract `redistribute_to_rows` (without console),
+3. ✅ **`cyoa/ops/rows.py`** — Extract `redistribute_to_rows` (without console),
    `remove_rows_from_project`, `split_row`, `merge_rows`, `balance_groups`.
    Move `layout.py` to `ops/layout.py`.
    Migrate `row.list`, `row.copy`, `row.merge`, `row.split`, `rows.balance`.
+   - Created `cyoa/ops/rows.py` with dataclasses for structured results:
+     - `RowEntry`, `SplitResult`, `MergeResult`, `RedistributeResult`, `BalanceResult`
+   - Implemented business logic functions:
+     - `list_rows()` returns structured data instead of printing
+     - `remove_rows_from_project()` extracted from lib.py
+     - `split_row()` with proper error handling via exceptions
+     - `merge_rows()` with validation and structured results
+     - `redistribute_to_rows()` returns RedistributeResult instead of console printing
+     - `balance_groups()` orchestrates balancing with layout logic
+   - Moved `cyoa/tools/layout.py` to `cyoa/ops/layout.py` (pure logic, already suitable)
+   - Updated all row tools to use ops layer:
+     - `RowListTool` uses `list_rows()`
+     - `RowCopyTool` uses `find_first()` from ops.common
+     - `RowMergeTool` uses `merge_rows()` with error handling
+     - `RowSplitTool` uses `split_row()` with error handling
+     - `RowsBalanceTool` uses `balance_groups()` and prints structured results
+   - Updated `lib.py` to re-export ops functions for backwards compatibility
+   - Updated `object_tools.py` to import from ops.layout and ops.rows
+   - Fixed all call sites of `redistribute_to_rows` to handle RedistributeResult
 
 4. **`cyoa/ops/sort.py`** — Extract `parse_interval`, `apply_intervals`,
    `resolve_intervals`, `load_comparator`, `sort_row`,

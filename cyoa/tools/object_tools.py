@@ -11,12 +11,13 @@ import yaml
 from rich.table import Table
 
 from cyoa.ops.common import find_first, find_first_index, gen_id
+from cyoa.ops.layout import distribute_objects
 from cyoa.ops.objects import (
     list_objects, copy_objects_from_row, remove_objects_from_row,
     insert_objects_in_row
 )
-from cyoa.tools.layout import distribute_objects
-from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console, redistribute_to_rows
+from cyoa.ops.rows import redistribute_to_rows
+from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console
 from cyoa.tools.sort import SortContext, make_sort_key
 
 
@@ -522,8 +523,15 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                     console.print(table)
                 return True
 
-            redistribute_to_rows(self.project, row_ids, pages, title,
-                                 template_row)
+            result = redistribute_to_rows(self.project, row_ids, pages, title,
+                                         template_row)
+            if result.rows_removed:
+                console.print(f"Removed {len(result.rows_removed)} excess row(s)")
+            if result.rows_created:
+                for row_id in result.rows_created:
+                    console.print(f"Created new row {row_id}")
+            for row in result.assigned_rows:
+                console.print(f"  {row['id']}: {row['title']} — {len(row['objects'])} objects")
             return True
 
         if lint:
@@ -561,8 +569,15 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
                 console.print(table)
             return True
 
-        redistribute_to_rows(self.project, row_ids, pages, title,
-                             template_row)
+        result = redistribute_to_rows(self.project, row_ids, pages, title,
+                                     template_row)
+        if result.rows_removed:
+            console.print(f"Removed {len(result.rows_removed)} excess row(s)")
+        if result.rows_created:
+            for row_id in result.rows_created:
+                console.print(f"Created new row {row_id}")
+        for row in result.assigned_rows:
+            console.print(f"  {row['id']}: {row['title']} — {len(row['objects'])} objects")
         return True
 
     def run(self, args):
