@@ -10,8 +10,13 @@ from typing import OrderedDict
 import yaml
 from rich.table import Table
 
+from cyoa.ops.common import find_first, find_first_index, gen_id
+from cyoa.ops.objects import (
+    list_objects, copy_objects_from_row, remove_objects_from_row,
+    insert_objects_in_row
+)
 from cyoa.tools.layout import distribute_objects
-from cyoa.tools.lib import *
+from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console, redistribute_to_rows
 from cyoa.tools.sort import SortContext, make_sort_key
 
 
@@ -28,42 +33,42 @@ class ObjectListTool(ToolBase, ProjectUtilsMixin):
     def run(self, args):
         self._load_project(args.project_file)
 
-        row_data = find_first(self.project['rows'],
-                              lambda row: row['id'] == args.row_id)
+        try:
+            entries = list_objects(self.project, args.row_id)
+        except KeyError as exc:
+            console.print(str(exc), style="red")
+            return
 
         if args.csv:
+            # Build CSV header from point types
             point_types = []
-            point_types_map = {}
             for point_type in self.project['pointTypes']:
                 point_types.append(point_type['name'] + ' Sign')
                 point_types.append(point_type['name'] + ' Value')
-                point_types_map[point_type['id']] = point_type['name']
 
             str_io = StringIO()
             csv_file = csv.DictWriter(str_io, fieldnames=('index', 'object_id', 'title', *point_types))
             csv_file.writeheader()
-            for idx, object_data in enumerate(row_data['objects']):
+
+            for entry in entries:
                 scores = {}
-                for score in object_data['scores']:
-                    pt_name = point_types_map[score['id']]
-                    
-                    score_val = int(score['value'])
-                    scores[pt_name + ' Value'] = f"{abs(score_val)}"
-                    scores[pt_name + ' Sign'] = "Gain" if score_val < 0 else "Cost"
+                for pt_name, score_info in entry.scores.items():
+                    scores[pt_name + ' Value'] = str(score_info.value)
+                    scores[pt_name + ' Sign'] = score_info.sign
 
                 csv_file.writerow({
-                    'index': idx,
-                    'object_id': object_data['id'],
-                    'title': object_data['title'],
+                    'index': entry.index,
+                    'object_id': entry.object_id,
+                    'title': entry.title,
                     **scores
                 })
 
             print(str_io.getvalue())
         else:
             table = Table('Idx', 'ID', 'Title')
-            for idx, object_data in enumerate(row_data['objects']):
-                table.add_row(str(idx), object_data['id'], object_data['title'])
-            
+            for entry in entries:
+                table.add_row(str(entry.index), entry.object_id, entry.title)
+
             console.print(table)
 
 
@@ -216,6 +221,9 @@ class ObjectAddTool(ToolBase, ProjectUtilsMixin):
 
         row_data = find_first(self.project['rows'],
                               lambda row: row['id'] == args.row_id)
+        if row_data is None:
+            console.print(f"Row {args.row_id!r} not found", style="red")
+            return
 
         insert_data = self._load_file(args.data)
         if not isinstance(insert_data, (list, tuple)):
@@ -228,15 +236,9 @@ class ObjectAddTool(ToolBase, ProjectUtilsMixin):
                 for object_data in insert_data
             ]
 
-        if args.after_idx:
-            insert_index = args.after + 1
-            row_data['objects'][insert_index:insert_index] = insert_data
-        elif args.after_obj:
-            insert_index = find_first_index(self.project['rows'],
-                                            lambda row: row['id'] == args.row_id)
-            row_data['objects'][insert_index:insert_index] = insert_data
-        else:
-            row_data['objects'].extend(insert_data)
+        insert_objects_in_row(row_data, insert_data,
+                              after_idx=args.after_idx,
+                              after_obj=args.after_obj)
 
         self._save_project(args.project_file)
 

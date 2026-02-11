@@ -474,10 +474,16 @@ order (least coupled → most coupled):
    other ops module will need them. Add re-exports in `lib.py` to avoid
    breaking existing imports during the transition.
 
-2. **`cyoa/ops/objects.py`** — Extract `copy_objects_from_row`,
+2. ✅ **`cyoa/ops/objects.py`** — Extract `copy_objects_from_row`,
    `remove_objects_from_row`, `insert_objects_in_row`, `list_objects`.
    Migrate `object.list`, `object.copy`, `object.cut`, `object.move`,
    `object.add`.
+   - Created `cyoa/ops/objects.py` with `ObjectEntry` and `ScoreInfo` dataclasses
+   - Moved `copy_objects_from_row`, `remove_objects_from_row`, `insert_objects_in_row` from `lib.py`
+   - Implemented `list_objects()` returning structured data instead of printing
+   - Updated all object tools to use ops layer functions
+   - Added re-exports in `lib.py` for backwards compatibility
+   - Fixed bug in `insert_objects_in_row()` to handle missing after_obj gracefully
 
 3. **`cyoa/ops/rows.py`** — Extract `redistribute_to_rows` (without console),
    `remove_rows_from_project`, `split_row`, `merge_rows`, `balance_groups`.
