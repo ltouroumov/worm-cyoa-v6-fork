@@ -593,8 +593,9 @@ order (least coupled → most coupled):
    - Added backward compatibility exports in media_tools.py for build.py
    - Moved lens-based update logic into ops layer to avoid duplication
 
-7. **Remaining tools** — `wiki_tools`, `style_tools`, `merge_tools`, `build`,
+7. ❎ **Remaining tools** — `wiki_tools`, `style_tools`, `merge_tools`, `build`,
    `scripts` — follow the same pattern when convenient.
+   - Skipped, the tools are self-contained enough.
 
 ## Cleanup
 
