@@ -6,29 +6,14 @@ from typing import Sequence
 
 from rich.console import Console
 
-from cyoa.ops.common import find_first, find_first_index, gen_id, is_empty
-# Re-export ops functions for backwards compatibility during transition
-from cyoa.ops.objects import (
-    copy_objects_from_row, remove_objects_from_row, insert_objects_in_row
-)
-from cyoa.ops.rows import (
-    remove_rows_from_project, redistribute_to_rows
-)
-from cyoa.ops.project import (
-    check_project, check_duplicates, check_requirements, check_backpack,
-    visit_project
-)
+from cyoa.ops.common import find_first_index
 
 __all__ = (
     'console',
-    'ToolBase', 'ProjectUtilsMixin',
-    'find_first', 'find_first_index', 'gen_id',
-    'copy_objects_from_row', 'remove_objects_from_row', 'insert_objects_in_row',
-    'remove_rows_from_project', 'redistribute_to_rows',
-    'check_project', 'check_duplicates', 'check_requirements', 'check_backpack',
-    'visit_project',
-    'update_row_data', 'update_obj_data',
-    'is_empty',
+    'ToolBase',
+    'ProjectUtilsMixin',
+    'update_row_data',
+    'update_obj_data',
 )
 
 console = Console()

@@ -1,7 +1,8 @@
 import random
 import re
 import string
-from cyoa.tools.lib import console, find_first, is_empty
+from cyoa.ops.common import find_first, is_empty
+from cyoa.tools.lib import console
 from cyoa.tools.patch import PatchBase, patch, PatchContext
 
 
