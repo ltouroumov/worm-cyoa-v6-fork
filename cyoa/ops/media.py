@@ -24,6 +24,7 @@ from lenses import lens
 from PIL import Image
 
 from cyoa.ops.common import find_first_index
+from cyoa.tools.lib import console
 
 
 # =============================================================================
@@ -149,7 +150,8 @@ def list_all_images(project: dict) -> Iterator[ImageInfo]:
         return None
 
     def extract_image_from_style(item, prop) -> Optional[ImageInfo]:
-        style_data = item['styling']
+        if (style_data := item.get('styling', None)) is None:
+            return None
         if (image := style_data.get(prop, '')) != '':
             return ImageInfo(image_data=image)
         return None
