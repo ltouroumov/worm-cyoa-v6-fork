@@ -24,7 +24,6 @@ from lenses import lens
 from PIL import Image
 
 from cyoa.ops.common import find_first_index
-from cyoa.tools.lib import console
 
 
 # =============================================================================

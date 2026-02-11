@@ -34,55 +34,55 @@ SHARD_POWERS_STRUCTURE = {
     "index": {"depth": 1, "order": 1},
   },
   **TIER1_POWERS,
-  f"Project V17/Powers/Shard/Power Copy": {
+  "Project V17/Powers/Shard/Power Copy": {
     "mode": "section",
     "section": DEFAULT_SECTION,
     "index": {"order": 2},
     "row_ids": ["jsch"],
   },
-  f"Project V17/Powers/Shard/Lucky Mutations": {
+  "Project V17/Powers/Shard/Lucky Mutations": {
     "mode": "section",
     "section": DEFAULT_SECTION,
     "index": {"order": 3},
     "row_ids": ["zj4c"],
   },
-  f"Project V17/Powers/Shard/Tier 2": {
+  "Project V17/Powers/Shard/Tier 2": {
     "mode": "section",
     "section": DEFAULT_SECTION,
     "index": {"order": 4},
     "row_ids": ["zg2f"],
   },
-  f"Project V17/Powers/Shard/Tier 3": {
+  "Project V17/Powers/Shard/Tier 3": {
     "mode": "section",
     "section": DEFAULT_SECTION,
     "index": {"order": 5},
     "row_ids": ["e018"],
   },
-  f"Project V17/Powers/Shard/Doll": {
+  "Project V17/Powers/Shard/Doll": {
     "mode": "section",
     "section": DEFAULT_SECTION_BY_ROW,
     "index": {"order": 6},
     "row_ids": ["wy6p", "xe94"],
   },
-  f"Project V17/Powers/Shard/Endbringer (Master)": {
+  "Project V17/Powers/Shard/Endbringer (Master)": {
     "mode": "section",
     "section": DEFAULT_SECTION_BY_ROW,
     "index": {"order": 7},
     "row_ids": ["o58j", "qd5r"],
   },
-  f"Project V17/Powers/Shard/Endbringer (Changer)": {
+  "Project V17/Powers/Shard/Endbringer (Changer)": {
     "mode": "section",
     "section": DEFAULT_SECTION_BY_ROW,
     "index": {"order": 7},
     "row_ids": ["jmco", "ab0a"],
   },
-  f"Project V17/Powers/Shard/Upgrades": {
+  "Project V17/Powers/Shard/Upgrades": {
     "mode": "section",
     "section": DEFAULT_SECTION,
     "index": {"order": 8},
     "row_ids": ["hd9l"],
   },
-  f"Project V17/Powers/Shard/Fusions": {
+  "Project V17/Powers/Shard/Fusions": {
     "mode": "section",
     "section": DEFAULT_SECTION,
     "index": {"order": 9},

@@ -1,5 +1,4 @@
 import itertools
-import itertools
 import operator
 import os
 import sys
@@ -463,11 +462,11 @@ class WikiPowersIndexTool(ToolBase, ProjectUtilsMixin):
           nl,
           [
             f"== {row_data['title']} ==",
-            f'{{| class="wikitable"',
-            f"|+",
-            f"!ID",
-            f"!Object / Addon",
-            f"!Author",
+            '{| class="wikitable"',
+            "|+",
+            "!ID",
+            "!Object / Addon",
+            "!Author",
           ],
         )
       )
@@ -478,10 +477,10 @@ class WikiPowersIndexTool(ToolBase, ProjectUtilsMixin):
           map(
             nl,
             [
-              f'|- style="vertical-align:top;"',
+              '|- style="vertical-align:top;"',
               f'|rowspan="{addon_count + 1}"|{obj_data["id"]}',
               f"|{obj_data['title']}",
-              f"|???",
+              "|???",
             ],
           )
         )
@@ -491,9 +490,9 @@ class WikiPowersIndexTool(ToolBase, ProjectUtilsMixin):
             map(
               nl,
               [
-                f'|- style="vertical-align:top;"',
+                '|- style="vertical-align:top;"',
                 f"|''Addon'': {obj_addon['title']}",
-                f"|???",
+                "|???",
               ],
             )
           )

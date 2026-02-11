@@ -2,12 +2,11 @@ import importlib
 from pathlib import Path
 from shutil import copyfile
 import sys
-from typing import TextIO
 from asciidag.graph import Graph as DAG
 from asciidag.node import Node as DAGNode
 
 from rich.table import Table
-from cyoa.graph.lib import Graph, Score
+from cyoa.graph.lib import Graph
 
 from cyoa.tools.lib import console, ToolBase, ProjectUtilsMixin
 from cyoa.tools.meta import POWER_ROWS, UPGRADE_ROWS

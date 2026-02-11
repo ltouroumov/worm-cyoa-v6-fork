@@ -6,7 +6,7 @@ from pathlib import Path
 import yaml
 from rich.table import Table
 
-from cyoa.ops.common import find_first, find_first_index, gen_id
+from cyoa.ops.common import find_first, gen_id
 from cyoa.ops.objects import (
   list_objects,
   copy_objects_from_row,

@@ -63,5 +63,5 @@ class PatchBase(abc.ABC):
 
     try:
       handler(**call_params)
-    except:
+    except BaseException:
       console.print_exception()

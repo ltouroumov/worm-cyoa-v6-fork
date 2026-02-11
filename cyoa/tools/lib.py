@@ -39,7 +39,7 @@ class ProjectUtilsMixin:
 
   def _load_file(self, path: Path):
     if not path.exists():
-      raise Exception(f"Project file missing")
+      raise Exception("Project file missing")
 
     with path.open(mode="r", encoding="utf-8") as fd:
       return json.load(fd)

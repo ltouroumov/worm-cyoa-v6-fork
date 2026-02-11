@@ -1,8 +1,5 @@
-from collections import OrderedDict
-import copy
 from itertools import chain
 import operator
-import textwrap
 from difflib import SequenceMatcher
 import json
 from pathlib import Path
@@ -384,7 +381,7 @@ class ProjectMergeTool(ToolBase, ProjectUtilsMixin):
         )
         updated_row, has_changed, diff_table = update_dict(old_row, new_row)
         if should_skip_data:
-          console.print(f"  Skipped Data Update", style="dark_slate_gray1 italic")
+          console.print("  Skipped Data Update", style="dark_slate_gray1 italic")
         elif has_changed:
           console.print("  Updated Row Data", style="orange1")
           if args.verbose:

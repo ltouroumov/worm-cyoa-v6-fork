@@ -1,6 +1,4 @@
 import io
-import textwrap
-import urllib.parse
 from copy import copy
 from os import makedirs
 from pathlib import Path
@@ -353,43 +351,6 @@ class MediaCleanTool(ToolBase, ProjectUtilsMixin):
     for image in image_files:
       console.log(f"Removing {image}")
       image.unlink()
-
-
-class MediaListTool(ToolBase, ProjectUtilsMixin):
-  name = "media.list"
-
-  @classmethod
-  def setup_parser(cls, parent):
-    parser = parent.add_parser(cls.name, help="List images by row")
-    parser.add_argument("--project", dest="project_file", type=Path)
-
-  def run(self, args):
-    self._load_project(args.project_file)
-
-    image_rows = dict()
-
-    project_images = list(list_all_images(self.project))
-    for image_info in project_images:
-      if image_info.image_data is None:
-        continue
-
-      if image_info.row_id not in image_rows:
-        image_rows[image_info.row_id] = 0
-
-      image_rows[image_info.row_id] += 1
-
-    row_names = [(row["id"], row["title"]) for row in self.project["rows"]]
-
-    total_images = 0
-    console.print(f"! Row ID !! Row Name !! # Images")
-    for row_id, row_name in row_names:
-      if image_count := image_rows.get(row_id, None):
-        console.print(f"|-")
-        console.print(f"| {row_id} || {row_name} || {image_count}")
-        total_images += image_count
-
-    console.print(f"| Total || {total_images}")
-    console.print(f"| Image Rows || {len(image_rows)}")
 
 
 class MediaZipTool(ToolBase, ProjectUtilsMixin):
