@@ -39,7 +39,7 @@ class KeyObjectsTool(ToolBase, ProjectUtilsMixin):
         new_id = generate_id(8)
         update_map[obj_data["id"]] = new_id
         obj_data["id"] = new_id
-    
+
     console.log(f"[green]Updated {len(update_map)} objects")
     # Update all links to use the new IDs
 

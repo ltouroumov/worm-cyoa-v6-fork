@@ -1,18 +1,23 @@
-import copy
+import csv
 import json
+from io import StringIO
 from pathlib import Path
 
+import yaml
 from rich.table import Table
 from rich.box import MARKDOWN
 
+from cyoa.ops.common import find_first
+from cyoa.ops.rows import (
+  list_rows,
+  split_row,
+  merge_rows,
+  balance_groups,
+)
 from cyoa.tools.lib import (
   ToolBase,
   ProjectUtilsMixin,
   console,
-  gen_id,
-  remove_rows_from_project,
-  find_first,
-  find_first_index,
 )
 
 
@@ -23,20 +28,36 @@ class RowListTool(ToolBase, ProjectUtilsMixin):
   def setup_parser(cls, parent):
     parser = parent.add_parser(cls.name, help="List all rows in project")
     parser.add_argument("--project", dest="project_file", type=Path, required=True)
+    parser.add_argument("--csv", action="store_true")
 
   def run(self, args):
     self._load_project(args.project_file)
 
-    table = Table("id", "title", "# objects", box=MARKDOWN)
-    total_objects = 0
-    for row_data in self.project["rows"]:
-      row_objects = len(row_data['objects'])
-      table.add_row(row_data["id"], row_data["title"], f"{row_objects}")
-      total_objects += row_objects
+    rows = list_rows(self.project)
 
-    console.print(table)
-    console.print(f"Total objects: {total_objects}")
-    console.print(f"Total rows: {len(self.project['rows'])}")
+    if args.csv:
+      str_io = StringIO()
+      csv_file = csv.DictWriter(str_io, fieldnames=("id", "title", "objects"))
+      csv_file.writeheader()
+      for row_entry in rows:
+        csv_file.writerow(
+          {
+            "id": row_entry.row_id,
+            "title": row_entry.title,
+            "objects": row_entry.object_count,
+          }
+        )
+      print(str_io.getvalue())
+    else:
+      table = Table("id", "title", "# objects", box=MARKDOWN)
+      total_objects = 0
+      for row_entry in rows:
+        table.add_row(row_entry.row_id, row_entry.title, f"{row_entry.object_count}")
+        total_objects += row_entry.object_count
+
+      console.print(table)
+      console.print(f"Total objects: {total_objects}")
+      console.print(f"Total rows: {len(rows)}")
 
 
 class RowCopyTool(ToolBase, ProjectUtilsMixin):
@@ -66,23 +87,28 @@ class RowMergeTool(ToolBase, ProjectUtilsMixin):
     parser = parent.add_parser(cls.name, help="Merge multiple rows into one")
     parser.add_argument("--project", dest="project_file", type=Path, required=True)
     parser.add_argument(
-      "--from-row-ids", type=str, required=True, nargs="+", action="extend", default=[]
+      "--from-row-ids",
+      type=str,
+      required=True,
+      nargs="+",
+      action="extend",
+      default=[],
     )
     parser.add_argument("--dest-row-id", type=str, required=True)
 
   def run(self, args):
     self._load_project(args.project_file)
 
-    dest_row_data = find_first(
-      self.project["rows"], lambda row: row["id"] == args.dest_row_id
+    try:
+      result = merge_rows(self.project, args.from_row_ids, args.dest_row_id)
+    except KeyError as exc:
+      console.print(str(exc), style="red")
+      return
+
+    console.print(
+      f"Merged {len(result.merged_row_ids)} row(s) into {result.dest_row_id}"
     )
-
-    for from_row_id in args.from_row_ids:
-      row_data = find_first(self.project["rows"], lambda row: row["id"] == from_row_id)
-
-      dest_row_data["objects"].extend(row_data["objects"])
-
-    remove_rows_from_project(self.project, row_ids=args.from_row_ids)
+    console.print(f"Total objects: {result.total_objects}")
 
     self._save_project(args.project_file)
 
@@ -92,51 +118,86 @@ class RowSplitTool(ToolBase, ProjectUtilsMixin):
 
   @classmethod
   def setup_parser(cls, parent):
-    parser = parent.add_parser(cls.name, help="Split a row into two after a given object")
+    parser = parent.add_parser(
+      cls.name, help="Split a row into two after a given object"
+    )
     parser.add_argument("--project", dest="project_file", type=Path, required=True)
     parser.add_argument("--row-id", type=str, required=True)
 
     split_point = parser.add_mutually_exclusive_group(required=True)
     split_point.add_argument("--after-obj", type=str, help="Object ID to split after")
-    split_point.add_argument("--after-idx", type=int, help="Object index to split after")
+    split_point.add_argument(
+      "--after-idx", type=int, help="Object index to split after"
+    )
 
   def run(self, args):
     self._load_project(args.project_file)
 
-    row_idx = find_first_index(
-      self.project["rows"], lambda row: row["id"] == args.row_id
-    )
-    if row_idx is None:
-      console.print(f"Row not found: {args.row_id}", style="red")
+    try:
+      result = split_row(
+        self.project,
+        args.row_id,
+        after_obj=args.after_obj,
+        after_idx=args.after_idx,
+      )
+    except (KeyError, IndexError, ValueError) as exc:
+      console.print(str(exc), style="red")
       return
 
-    row_data = self.project["rows"][row_idx]
-
-    if args.after_obj is not None:
-      split_idx = find_first_index(
-        row_data["objects"], lambda obj: obj["id"] == args.after_obj
-      )
-      if split_idx is None:
-        console.print(f"Object not found: {args.after_obj}", style="red")
-        return
-    else:
-      split_idx = args.after_idx
-      if split_idx < 0 or split_idx >= len(row_data["objects"]):
-        console.print(f"Index out of range: {split_idx}", style="red")
-        return
-
-    new_row = copy.deepcopy(row_data)
-    new_row["id"] = gen_id()
-    new_row["objects"] = row_data["objects"][split_idx + 1:]
-    row_data["objects"] = row_data["objects"][:split_idx + 1]
-
-    self.project["rows"].insert(row_idx + 1, new_row)
-
-    console.print(f"Split row {args.row_id} after index {split_idx}")
-    console.print(f"  {args.row_id}: {len(row_data['objects'])} objects")
-    console.print(f"  {new_row['id']}: {len(new_row['objects'])} objects")
+    console.print(f"Split row {result.original_row_id}")
+    console.print(f"  {result.original_row_id}: {result.original_count} objects")
+    console.print(f"  {result.new_row_id}: {result.new_count} objects")
 
     self._save_project(args.project_file)
 
 
-TOOLS = (RowListTool, RowCopyTool, RowMergeTool, RowSplitTool)
+class RowsBalanceTool(ToolBase, ProjectUtilsMixin):
+  name = "rows.balance"
+
+  @classmethod
+  def setup_parser(cls, parent):
+    parser = parent.add_parser(
+      cls.name, help="Rebalance rows across pages according to a YAML config"
+    )
+    parser.add_argument("--project", dest="project_file", type=Path, required=True)
+    parser.add_argument("--config", dest="config_file", type=Path, required=True)
+
+  def run(self, args):
+    self._load_project(args.project_file)
+
+    with args.config_file.open() as fd:
+      config = yaml.load(fd, Loader=yaml.FullLoader)
+
+    for group in config["groups"]:
+      try:
+        result = balance_groups(self.project, group)
+
+        console.rule(f"[bold]{result.title}")
+        console.print(f"Total objects: {result.total_objects}")
+        console.print(
+          f"Pages needed: {result.pages_needed} (existing: {result.pages_existing})"
+        )
+
+        redist = result.redistribute_result
+        if redist.rows_removed:
+          console.print(f"Removed {len(redist.rows_removed)} excess row(s)")
+        if redist.rows_created:
+          for row_id in redist.rows_created:
+            console.print(f"Created new row {row_id}")
+        for row in redist.assigned_rows:
+          console.print(
+            f"  {row['id']}: {row['title']} — {len(row['objects'])} objects"
+          )
+
+      except KeyError as exc:
+        console.print(str(exc), style="red")
+        return
+
+    self._save_project(args.project_file)
+
+    with args.config_file.open("w") as fd:
+      yaml.dump(config, fd, default_flow_style=False, sort_keys=False)
+    console.print(f"Config written to {args.config_file}")
+
+
+TOOLS = (RowListTool, RowCopyTool, RowMergeTool, RowSplitTool, RowsBalanceTool)
