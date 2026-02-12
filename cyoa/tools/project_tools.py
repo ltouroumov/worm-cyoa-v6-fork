@@ -1,4 +1,3 @@
-import importlib
 from pathlib import Path
 from shutil import copyfile
 import sys
@@ -10,7 +9,6 @@ from cyoa.graph.lib import Graph
 
 from cyoa.tools.lib import console, ToolBase, ProjectUtilsMixin
 from cyoa.tools.meta import POWER_ROWS, UPGRADE_ROWS
-from cyoa.tools.patch import PatchBase
 from cyoa.ops.project import (
   check_project,
   visit_project,
@@ -197,29 +195,20 @@ class ProjectPatchTool(ToolBase, ProjectUtilsMixin):
     parser.add_argument("--patch", dest="patches", nargs="+", action="extend")
 
   def run(self, args):
+    from cyoa.ops.patch_loader import load_patch_class
+
     self._load_project(args.project_file)
 
-    for patch in args.patches:
-      module_name, class_name = str.split(patch, ":", maxsplit=2)
+    for patch_ref in args.patches:
       try:
-        module_inst = importlib.import_module(module_name)
-      except:  # noqa: E722
-        console.log(f"Cannot load [b cyan]{module_name}[/]")
-        console.print_exception()
+        patch_cls = load_patch_class(patch_ref)
+      except ValueError as e:
+        console.log(f"[red]{e}[/]")
         continue
 
-      if class_inst := getattr(module_inst, class_name, None):
-        if not issubclass(class_inst, PatchBase):
-          console.log(
-            f"Class [b][cyan]{module_name}[/].[magenta]{class_name}[/][/] is not a [b]PatchBase[/]"
-          )
-          continue
-
-        console.log(f"Applying [b][cyan]{module_name}[/].[magenta]{class_name}[/][/]")
-        patch_inst = class_inst()
-        visit_project(self.project, patch_inst)
-      else:
-        console.log(f"Cannot find [b][cyan]{module_name}[/].[red]{class_name}[/][/]")
+      console.log(f"Applying [b cyan]{patch_ref}[/]")
+      patch_inst = patch_cls()
+      visit_project(self.project, patch_inst)
 
     self._save_project(args.project_file)
 
