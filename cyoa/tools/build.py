@@ -35,6 +35,13 @@ class BuildTool(ToolBase):
       help="Run only the named step(s) (repeatable)",
     )
     parser.add_argument(
+      "--copy-from",
+      dest="copy_from",
+      type=Path,
+      default=None,
+      help="Copy this file as the input before building",
+    )
+    parser.add_argument(
       "--dry-run",
       dest="dry_run",
       action="store_true",
@@ -81,6 +88,7 @@ class BuildTool(ToolBase):
       step_names=step_names,
       dry_run=args.dry_run,
       continue_on_error=args.continue_on_error,
+      copy_from=args.copy_from,
     )
 
     sys.exit(0 if result.success else 1)

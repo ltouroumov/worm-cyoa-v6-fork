@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 import traceback
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -73,6 +74,7 @@ class BuildEngine:
     step_names: list[str] | None = None,
     dry_run: bool = False,
     continue_on_error: bool = False,
+    copy_from: Path | None = None,
   ) -> BuildResult:
     """Execute a build pipeline.
 
@@ -95,6 +97,13 @@ class BuildEngine:
     # 2. Load input project JSON into memory
     work_dir = build_file.parent
     input_path = work_dir / build_data.input
+
+    # Copy source file to input path if requested
+    if copy_from is not None:
+      if not copy_from.exists():
+        raise BuildError(f"Copy source not found: {copy_from}")
+      self.console.print(f"[cyan]Copying:[/cyan] {copy_from} -> {input_path}")
+      shutil.copy2(copy_from, input_path)
 
     if not input_path.exists():
       raise BuildError(f"Input file not found: {input_path}")
