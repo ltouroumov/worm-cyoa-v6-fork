@@ -1,16 +1,12 @@
-# build.yaml
 version: 1
 
-# Variables available for substitution in step parameters.
 vars:
   version: "v17"
   image_dir: "images/${version}"
   image_url: "https://cyoa.ltouroumov.ch/images/${version}"
 
-# The input project file. Loaded into memory at the start.
 input: "project-${version}.json"
 
-# Ordered list of build steps.
 steps:
   # --- Validation & Schema ---
   - name: "Validate project"
