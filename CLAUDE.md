@@ -15,9 +15,9 @@ uv run cyoa -h                          # List all commands
 uv run cyoa <command> -h                # Command-specific help
 
 # Lint and format
-uv run ruff check cyoa/                 # Lint
-uv run ruff check --fix cyoa/           # Lint with auto-fix
-uv run ruff format cyoa/                # Format
+uvx ruff check cyoa/       # Lint
+uvx ruff check --fix cyoa/  # Lint with auto-fix
+uvx ruff format cyoa/      # Format
 
 # Install dependencies
 uv sync
