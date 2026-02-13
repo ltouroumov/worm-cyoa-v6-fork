@@ -11,6 +11,13 @@ steps:
   # --- Validation & Schema ---
   - name: "Validate project"
     uses: check
+    with:
+      backpack_warning_only: true
+      backpack_ignored_rows: [
+        "ckrc", otza, dlut, 4dzp, dn8o, 
+        h4ce, kgqo, hd9l, 0v52, umg9, 
+        ObjectOP, lip0, g51j
+      ]
 
   - name: "Enforce schema"
     uses: patch

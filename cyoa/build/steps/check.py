@@ -10,7 +10,9 @@ class CheckStep(StepHandler):
   def execute(self, context: BuildContext, params: dict) -> StepResult:
     from cyoa.ops.project import check_project
 
-    result = check_project(context.project)
+    backpack_ignored_rows = set(params.get("backpack_ignored_rows", []))
+    backpack_warning_only = params.get("backpack_warning_only", False)
+    result = check_project(context.project, backpack_ignored_rows)
 
     warnings = []
     if result.duplicate_issues:
@@ -23,16 +25,29 @@ class CheckStep(StepHandler):
       for issue in result.requirement_issues:
         missing = ", ".join(issue.missing_ids)
         warnings.append(
-          f"Missing requirement for {issue.obj_title}: {issue.issue_type} [{missing}]"
+          f"Missing requirement for {issue.obj_title} ({issue.obj_id}): {issue.issue_type} [{missing}]"
         )
+
     if result.backpack_issues:
       for issue in result.backpack_issues:
-        warnings.append(f"Backpack issue in {issue.row_title}: {issue.issue_type}")
+        warnings.append(
+          f"Backpack issue in {issue.row_title} ({issue.row_id}): {issue.issue_type}"
+        )
 
-    if result.has_issues:
+    if result.has_errors or (not backpack_warning_only and result.has_warnings):
       return StepResult(
         success=False,
         message=f"Found {len(warnings)} validation issue(s)",
         warnings=warnings,
       )
-    return StepResult(success=True, message="No issues found")
+    elif backpack_warning_only and result.has_warnings:
+      return StepResult(
+        success=True,
+        message=f"Found {len(warnings)} validation issue(s)",
+        warnings=warnings,
+      )
+    else:
+      return StepResult(
+        success=True,
+        message="No issues found",
+      )

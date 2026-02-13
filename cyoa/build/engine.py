@@ -274,6 +274,13 @@ class BuildEngine:
 
     self.console.print(table)
 
+    for outcome in outcomes:
+      if not outcome.result.success:
+        self.console.print(f"== [b]{outcome.name}[/] ==")
+        self.console.print(outcome.result.message)
+        for warning in outcome.result.warnings:
+          self.console.print(f"- {warning}")
+
     # Print total
     total = len(outcomes)
     if failed > 0:
