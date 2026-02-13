@@ -123,12 +123,14 @@ class RowSplitTool(ToolBase, ProjectUtilsMixin):
     )
     parser.add_argument("--project", dest="project_file", type=Path, required=True)
     parser.add_argument("--row-id", type=str, required=True)
+    parser.add_argument("--before", action='store_true', help="Split before the target")
 
     split_point = parser.add_mutually_exclusive_group(required=True)
     split_point.add_argument("--after-obj", type=str, help="Object ID to split after")
     split_point.add_argument(
       "--after-idx", type=int, help="Object index to split after"
     )
+
 
   def run(self, args):
     self._load_project(args.project_file)
@@ -139,6 +141,7 @@ class RowSplitTool(ToolBase, ProjectUtilsMixin):
         args.row_id,
         after_obj=args.after_obj,
         after_idx=args.after_idx,
+        before=args.before
       )
     except (KeyError, IndexError, ValueError) as exc:
       console.print(str(exc), style="red")
