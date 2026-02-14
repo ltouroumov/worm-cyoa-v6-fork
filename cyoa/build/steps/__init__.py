@@ -8,9 +8,11 @@ from cyoa.build.steps.media import MediaCleanStep, MediaExtractStep, MediaOptimi
 from cyoa.build.steps.patch import PatchStep
 from cyoa.build.steps.powers import PowersStep
 from cyoa.build.steps.rows import RowsBalanceStep, RowsSortStep
+from cyoa.build.steps.md_export import MarkdownExportStep
 from cyoa.build.steps.save import SaveStep
 
 registry.register(SaveStep)
+registry.register(MarkdownExportStep)
 registry.register(ExportStep)
 registry.register(FormatStep)
 registry.register(CheckStep)
