@@ -1,4 +1,4 @@
-from cyoa.tools.wiki.config import DEFAULT_SECTION
+from cyoa.md_export.config.defaults import DEFAULT_SECTION
 
 DRAWBACKS_STRUCTURE = {
   "Project V17/Drawbacks/Nemesis Choice": {

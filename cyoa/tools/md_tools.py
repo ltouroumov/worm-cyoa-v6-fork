@@ -6,7 +6,7 @@ from cyoa.ops.md_export import (
   render_section,
 )
 from cyoa.tools.lib import ToolBase, ProjectUtilsMixin, console
-from cyoa.tools.wiki.config import STRUCTURE
+from cyoa.md_export.config import STRUCTURE
 
 ROOT_PREFIX = "Project V17"
 
