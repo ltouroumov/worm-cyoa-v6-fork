@@ -85,7 +85,7 @@ steps:
     with:
       output: "powers-${version}.csv"
 
-  - name: "Export markdown"
-    uses: md.export
-    with:
-      output_dir: "export/md"
+  # - name: "Export markdown"
+  #   uses: md.export
+  #   with:
+  #     output_dir: "export/md"
