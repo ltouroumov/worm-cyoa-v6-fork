@@ -1,4 +1,4 @@
-from cyoa.tools.wiki.config.defaults import DEFAULT_SECTION, DEFAULT_SECTION_BY_ROW
+from cyoa.md_export.config.defaults import DEFAULT_SECTION, DEFAULT_SECTION_BY_ROW
 
 TIER1_ROWS = [
   ("Mover", "tc7n"),

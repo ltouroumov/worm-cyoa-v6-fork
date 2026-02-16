@@ -1,0 +1,91 @@
+version: 1
+
+vars:
+  version: "v17"
+  image_dir: "images/${version}"
+  image_url: "https://cyoa.ltouroumov.ch/images/${version}"
+
+input: "project-${version}.json"
+
+steps:
+  # --- Validation & Schema ---
+  - name: "Validate project"
+    uses: check
+    with:
+      backpack_warning_only: true
+      backpack_ignored_rows: [
+        "ckrc", otza, dlut, 4dzp, dn8o, 
+        h4ce, kgqo, hd9l, 0v52, umg9, 
+        ObjectOP, lip0, g51j
+      ]
+
+  - name: "Enforce schema"
+    uses: patch
+    with:
+      patches:
+        - cyoa.patch.schema:ApplySchema
+        - cyoa.patch:TrimSpaces
+
+  - name: "Fix image links"
+    uses: patch
+    with:
+      patches:
+        - cyoa.patch:FixImageLinks
+
+  # --- Media Processing ---
+  - name: "Extract embedded images"
+    uses: media.extract
+    with:
+      export_dir: "${image_dir}"
+      export_url: "${image_url}"
+
+  - name: "Optimize images"
+    uses: media.optimize
+    with:
+      export_dir: "${image_dir}"
+      export_url: "${image_url}"
+      size_gte: 1500
+      max_dim: [1500, 1500]
+      optimize_urls: true
+
+  - name: "Clean orphan images"
+    uses: media.clean
+    with:
+      export_dir: "${image_dir}"
+      export_url: "${image_url}"
+
+  # --- Fix Patches ---
+  - name: "Apply fix patches"
+    uses: patch
+    with:
+      patches:
+        - cyoa.patch:FixScoreLabels
+        - cyoa.patch:FixActiveFlags
+        - cyoa.patch:FixConditionLabels
+        - cyoa.patch:ClearEditingFlag
+        - cyoa.patch:FixMultiSelectCounters
+        - cyoa.patch:KeyAddons
+
+  # --- Output ---
+  - name: "Save project"
+    uses: save
+
+  - name: "Export to viewer"
+    uses: export
+    with:
+      output_dir: "viewer"
+
+  - name: "Export to viewer-old"
+    uses: export
+    with:
+      output_dir: "viewer-old"
+
+  - name: "Export powers CSV"
+    uses: powers
+    with:
+      output: "powers-${version}.csv"
+
+  # - name: "Export markdown"
+  #   uses: md.export
+  #   with:
+  #     output_dir: "export/md"

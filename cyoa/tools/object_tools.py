@@ -518,35 +518,38 @@ class ObjectsSortTool(ToolBase, ProjectUtilsMixin):
         config = yaml.load(fd, Loader=yaml.FullLoader)
 
       all_passed = True
-      for entry in config["sorts"]:
-        # Normalize interval/intervals from config
-        entry_intervals = entry.get("intervals", [])
-        if not entry_intervals:
-          single = entry.get("interval")
-          if single:
-            entry_intervals = [single]
+      for group in config["groups"]:
+        sort_cfg = group.get("sort")
+        if sort_cfg is None:
+          continue
 
-        if "row_ids" in entry:
-          ok = self._sort_composite_rows(
-            row_ids=entry["row_ids"],
-            max_objects=entry["max_objects"],
-            rule=entry["rule"],
-            sort_args=entry.get("args", {}),
+        rule = sort_cfg["rule"]
+        sort_args = sort_cfg.get("args", {})
+        intervals = sort_cfg.get("intervals") or None
+        row_ids = group["rows"]
+        title = group.get("title")
+
+        if len(row_ids) == 1:
+          ok = self._sort_row(
+            row_id=row_ids[0],
+            rule=rule,
+            sort_args=sort_args,
             context=context,
             dry_run=args.dry_run,
             lint=args.lint,
-            title=entry.get("title"),
-            intervals=entry_intervals or None,
+            intervals=intervals,
           )
         else:
-          ok = self._sort_row(
-            row_id=entry["row_id"],
-            rule=entry["rule"],
-            sort_args=entry.get("args", {}),
+          ok = self._sort_composite_rows(
+            row_ids=row_ids,
+            max_objects=group["max_objects"],
+            rule=rule,
+            sort_args=sort_args,
             context=context,
             dry_run=args.dry_run,
             lint=args.lint,
-            intervals=entry_intervals or None,
+            title=title,
+            intervals=intervals,
           )
         if not ok:
           all_passed = False

@@ -72,14 +72,16 @@ class CheckResult:
   backpack_issues: list[BackpackIssue]
 
   @property
-  def has_issues(self) -> bool:
+  def has_errors(self) -> bool:
     """Return True if any issues were found."""
     return bool(
-      self.duplicate_issues
-      or self.empty_id_issues
-      or self.requirement_issues
-      or self.backpack_issues
+      self.duplicate_issues or self.empty_id_issues or self.requirement_issues
     )
+
+  @property
+  def has_warnings(self) -> bool:
+    """Return True if any issues were found."""
+    return bool(self.has_errors or self.backpack_issues)
 
 
 @dataclass
@@ -266,7 +268,8 @@ def check_backpack(project: dict, ignore: set[str]) -> list[BackpackIssue]:
       continue
 
     gid = row_data.get("resultGroupId", None)
-    if not gid:
+    objects = row_data.get("objects", [])
+    if not gid and len(objects) > 0:
       issues.append(
         BackpackIssue(
           row_id=row_data["id"],

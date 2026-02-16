@@ -87,6 +87,7 @@ def split_row(
   *,
   after_obj: str | None = None,
   after_idx: int | None = None,
+  before: bool = False,
 ) -> SplitResult:
   """Split a row at the given point. Mutates project['rows'] in place.
 
@@ -95,6 +96,7 @@ def split_row(
       row_id: ID of the row to split
       after_obj: Split after this object ID (mutually exclusive with after_idx)
       after_idx: Split after this index (mutually exclusive with after_obj)
+      before: Split before the object
 
   Returns:
       SplitResult with details about the split
@@ -124,8 +126,12 @@ def split_row(
 
   new_row = copy.deepcopy(row_data)
   new_row["id"] = gen_id()
-  new_row["objects"] = row_data["objects"][split_idx + 1 :]
-  row_data["objects"] = row_data["objects"][: split_idx + 1]
+  if before:
+    new_row["objects"] = row_data["objects"][split_idx:]
+    row_data["objects"] = row_data["objects"][:split_idx]
+  else:
+    new_row["objects"] = row_data["objects"][split_idx + 1 :]
+    row_data["objects"] = row_data["objects"][: split_idx + 1]
 
   project["rows"].insert(row_idx + 1, new_row)
 

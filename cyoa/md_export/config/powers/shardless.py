@@ -1,4 +1,4 @@
-from cyoa.tools.wiki.config.defaults import DEFAULT_SECTION
+from cyoa.md_export.config.defaults import DEFAULT_SECTION
 
 SHARDLESS_ROWS = [
   ("Physical Powers", "p2ty"),
