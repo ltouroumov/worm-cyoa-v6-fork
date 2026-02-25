@@ -154,7 +154,7 @@ class RowSplitTool(ToolBase, ProjectUtilsMixin):
 
 
 class RowsBalanceTool(ToolBase, ProjectUtilsMixin):
-  name = "rows.balance"
+  name = "row.balance"
 
   @classmethod
   def setup_parser(cls, parent):
@@ -192,7 +192,7 @@ class RowsBalanceTool(ToolBase, ProjectUtilsMixin):
           )
 
       except KeyError as exc:
-        console.print(str(exc), style="red")
+        console.print(f"KeyError: {str(exc)}", style="red")
         return
 
     self._save_project(args.project_file)
