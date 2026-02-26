@@ -56,7 +56,8 @@ class BalanceResult:
   total_objects: int
   pages_needed: int
   pages_existing: int
-  redistribute_result: RedistributeResult
+  redistribute_result: RedistributeResult | None
+  already_balanced: bool = False
 
 
 def list_rows(project: dict) -> list[RowEntry]:
@@ -286,6 +287,20 @@ def balance_groups(project: dict, group: dict) -> BalanceResult:
 
   # Distribute into pages
   pages = distribute_objects(all_objects, max_objects, row_default_width)
+
+  # Check if already balanced: same page count and same objects per page
+  if len(pages) == len(rows) and all(
+    [o["id"] for o in page] == [o["id"] for o in row["objects"]]
+    for page, row in zip(pages, rows)
+  ):
+    return BalanceResult(
+      title=title,
+      total_objects=len(all_objects),
+      pages_needed=len(pages),
+      pages_existing=len(rows),
+      redistribute_result=None,
+      already_balanced=True,
+    )
 
   # Redistribute to rows
   redistribute_result = redistribute_to_rows(

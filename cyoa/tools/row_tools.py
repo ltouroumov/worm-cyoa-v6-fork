@@ -154,7 +154,7 @@ class RowSplitTool(ToolBase, ProjectUtilsMixin):
 
 
 class RowsBalanceTool(ToolBase, ProjectUtilsMixin):
-  name = "rows.balance"
+  name = "row.balance"
 
   @classmethod
   def setup_parser(cls, parent):
@@ -176,6 +176,11 @@ class RowsBalanceTool(ToolBase, ProjectUtilsMixin):
 
         console.rule(f"[bold]{result.title}")
         console.print(f"Total objects: {result.total_objects}")
+
+        if result.already_balanced:
+          console.print("Already balanced, skipping.")
+          continue
+
         console.print(
           f"Pages needed: {result.pages_needed} (existing: {result.pages_existing})"
         )
@@ -192,7 +197,7 @@ class RowsBalanceTool(ToolBase, ProjectUtilsMixin):
           )
 
       except KeyError as exc:
-        console.print(str(exc), style="red")
+        console.print(f"KeyError: {str(exc)}", style="red")
         return
 
     self._save_project(args.project_file)

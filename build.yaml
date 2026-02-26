@@ -66,6 +66,10 @@ steps:
         - cyoa.patch:FixMultiSelectCounters
         - cyoa.patch:KeyAddons
 
+  - name: "Balance Rows"
+    uses: rows.balance
+    with: { config: balance.yaml }
+
   # --- Output ---
   - name: "Save project"
     uses: save
