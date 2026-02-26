@@ -38,6 +38,11 @@ class RowsBalanceStep(StepHandler):
 
       console.rule(f"[bold]{result.title}")
       console.print(f"Total objects: {result.total_objects}")
+
+      if result.already_balanced:
+        console.print("Already balanced, skipping.")
+        continue
+
       console.print(
         f"Pages needed: {result.pages_needed} (existing: {result.pages_existing})"
       )
