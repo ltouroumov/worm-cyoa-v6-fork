@@ -147,9 +147,9 @@ class StyleTransformer:
   def find_classes_for(self, obj_id):
     result_acc = []
     for class_id, class_data in self.classes.items():
-      if obj_id in class_data["matching"]:
+      if obj_id in class_data.get("matching", []):
         result_acc.append((class_id, class_data))
-      elif any(fnmatch(obj_id, pat) for pat in class_data["matching"]):
+      elif any(fnmatch(obj_id, pat) for pat in class_data.get("matching", [])):
         result_acc.append((class_id, class_data))
 
     return result_acc if len(result_acc) > 0 else None
