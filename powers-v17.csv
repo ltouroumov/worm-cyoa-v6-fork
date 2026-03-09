@@ -308,6 +308,7 @@ Tier 1 - Brute,(Brute/Trump) Stockpile,10 SP,N/A
 Tier 1 - Brute,(Brute) Invulnerable,10 SP,N/A
 Tier 1 - Brute,(Brute/Mover) Library Junior,10 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Zenkai Boost,10 SP,N/A
+Tier 1 - Brute,(Brute/Trump) Overdrive Mode,10 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Mang,10 SP,N/A
 Tier 1 - Brute,(Brute) Phylactery,11 SP,N/A
 Tier 1 - Brute,(Brute/Changer) Two Good Arms,12 SP,N/A
@@ -462,7 +463,7 @@ Tier 1 - Master,(Master/Trump) Chibi Champion,9 SP,N/A
 Tier 1 - Master,(Master) Positive Multiplier,10 SP,N/A
 Tier 1 - Master,(Master/Shaker) Logosthesia,10 SP,N/A
 Tier 1 - Master,(Master/Thinker) Brain Drain,10 SP,N/A
-Tier 1 - Master,(Master/Tinker) Kerbal,10 SP,N/A
+Tier 1 - Master,(Master/Tinker) Kerbal,10 SP| 3 SP,N/A
 Tier 1 - Master,(Master/Striker) Imp Master,10 SP,N/A
 Tier 1 - Master,(Master/Mover) Gremlins,10 SP,N/A
 Tier 1 - Master,(Master) Mirror Mirror,10 SP,N/A
@@ -475,7 +476,7 @@ Tier 1 - Master,(Master/Trump) Haze of Conflict,10 SP,N/A
 Tier 1 - Master,(Master/Thinker) Truth Serum,10 SP,N/A
 Tier 1 - Master,(Master) It’s The Thought That Counts,10 SP,N/A
 Tier 1 - Master,(Master/Breaker) Bilocation,10 SP,N/A
-Tier 1 - Master,(Master/Tinker) Piggot’s Terror,10 SP,N/A
+Tier 1 - Master,(Master/Tinker) Piggot’s Terror,10 SP| 3 SP,N/A
 Tier 1 - Master,(Master) Kitbash,10 SP,N/A
 Tier 1 - Master,(Master/Thinker) Brain Worms,10 SP,N/A
 Tier 1 - Master,(Master/Breaker) Blood Spill,10 SP,N/A
@@ -497,7 +498,7 @@ Tier 1 - Master,(Master) Khepri,15 SP,N/A
 Tier 1 - Master,(Master) Monster Maker,15 SP,N/A
 Tier 1 - Master,(Master) Shadow Servant,15 SP,N/A
 Tier 1 - Master,(Master/Tinker) The Spark of Life,15 SP| 5 SP,N/A
-Tier 1 - Tinker,(Tinker) Cannibal,1 SP,N/A
+Tier 1 - Tinker,(Tinker) Cannibal,1 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Jack of All Trades,2 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Thrown,2 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Bell,2 SP| 1 SP,N/A
@@ -536,6 +537,7 @@ Tier 1 - Tinker,(Tinker) Filter,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Electromagnetism,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Resource Exploitation,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Home on the Road,5 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Dream Craft,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Redundancy,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Traps,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Hyperspecialized,6 SP| 2 SP,N/A
@@ -635,6 +637,7 @@ Tier 1 - Tinker,(Tinker/Trump) Variable Tinker,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Living Metallurgist,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Twilight Tinker,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Fastest Tinker Alive,15 SP| 5 SP,N/A
+Tier 1 - Tinker,(Tinker) Backpack,7 SP| 5 SP,N/A
 Tier 1 - Blaster,(Blaster) Epilepsy,1 SP,N/A
 Tier 1 - Blaster,(Blaster) Super Murder Death Beams,1 SP,N/A
 Tier 1 - Blaster,(Blaster) Boomerang,1 SP,N/A
@@ -649,6 +652,7 @@ Tier 1 - Blaster,(Blaster/Master) Earworm,3 SP,N/A
 Tier 1 - Blaster,(Blaster) Hookshot,3 SP,N/A
 Tier 1 - Blaster,(Blaster) Debuff,3 SP,N/A
 Tier 1 - Blaster,(Blaster) David’s Sling,3 SP,N/A
+Tier 1 - Blaster,(Blaster) Handcannon,3 SP,N/A
 Tier 1 - Blaster,(Blaster) Blaster,4 SP,N/A
 Tier 1 - Blaster,(Blaster/Striker) Sneak Attack,4 SP,N/A
 Tier 1 - Blaster,(Blaster) Hand Lights,4 SP,N/A
@@ -672,7 +676,7 @@ Tier 1 - Blaster,(Striker/Blaster) Personalised Attack,6 SP,N/A
 Tier 1 - Blaster,(Blaster/Tinker) Weapons Platform,6 SP| 2 SP,N/A
 Tier 1 - Blaster,(Blaster) All Things Are Projectiles,6 SP,N/A
 Tier 1 - Blaster,(Blaster) Banshee,6 SP,N/A
-Tier 1 - Blaster,(Blaster/Tinker) Supply Drop,6 SP,N/A
+Tier 1 - Blaster,(Blaster/Tinker) Supply Drop,6 SP| 2 SP,N/A
 Tier 1 - Blaster,(Blaster) Voodoo,7 SP,N/A
 Tier 1 - Blaster,(Blaster) Selective Targeting,7 SP,N/A
 Tier 1 - Blaster,(Blaster) Chained,7 SP,N/A
@@ -686,6 +690,7 @@ Tier 1 - Blaster,(Blaster/Striker) Hemorrhage,8 SP,N/A
 Tier 1 - Blaster,(Blaster/Shaker) Just Fireball,8 SP,N/A
 Tier 1 - Blaster,(Blaster/Master) Skill Reallocation,8 SP,N/A
 Tier 1 - Blaster,(Blaster/Shaker) Breath Attack,8 SP,N/A
+Tier 1 - Blaster,(Blaster/Brute) Infernal Orifices,8 SP,N/A
 Tier 1 - Blaster,(Blaster) Charging Beam,9 SP,N/A
 Tier 1 - Blaster,(Blaster) Charged Beam,9 SP,N/A
 Tier 1 - Blaster,(Blaster/Mover) Cannoneer,9 SP,N/A
@@ -694,6 +699,7 @@ Tier 1 - Blaster,(Blaster/Brute) Icy Protection,10 SP,N/A
 Tier 1 - Blaster,(Blaster/Shaker) Roadless Camelot,10 SP,N/A
 Tier 1 - Blaster,(Blaster/Mover) Folktale,10 SP,N/A
 Tier 1 - Blaster,(Blaster/Shaker) Spectral Platforms,10 SP,N/A
+Tier 1 - Blaster,(Blaster) Aimbot,10 SP,N/A
 Tier 1 - Blaster,(Blaster/Master) Sentry,11 SP,N/A
 Tier 1 - Blaster,(Blaster) Worship,12 SP,N/A
 Tier 1 - Blaster,(Blaster) Friendship Beam!,12 SP,N/A
@@ -824,7 +830,7 @@ Tier 1 - Striker,(Striker) Change Size,4 SP,N/A
 Tier 1 - Striker,(Striker/Shaker) Hole,4 SP,N/A
 Tier 1 - Striker,(Striker) Stop!,4 SP,N/A
 Tier 1 - Striker,(Striker) 100th Strike,4 SP,N/A
-Tier 1 - Striker,(Striker/Tinker) Amplify Charges,4 SP,N/A
+Tier 1 - Striker,(Striker/Tinker) Amplify Charges,4 SP| 1 SP,N/A
 Tier 1 - Striker,(Striker/Brute) Rusted Juggernaut,4 SP,N/A
 Tier 1 - Striker,(Striker) Vibranium,5 SP,N/A
 Tier 1 - Striker,(Striker) Midas Touch,5 SP,N/A
@@ -838,6 +844,7 @@ Tier 1 - Striker,(Striker) Machine Spirit,5 SP,N/A
 Tier 1 - Striker,(Striker) Twin Impact,5 SP,N/A
 Tier 1 - Striker,(Striker) Meat Touch,5 SP,N/A
 Tier 1 - Striker,(Striker/Breaker) The Void,5 SP,N/A
+Tier 1 - Striker,(Striker/Thinker) Cold Weaponry,5 SP,N/A
 Tier 1 - Striker,(Striker/Tinker) Fuse,6 SP| 2 SP,N/A
 Tier 1 - Striker,(Striker) Abstraction,6 SP,N/A
 Tier 1 - Striker,(Striker) Echo,6 SP,N/A
@@ -902,6 +909,7 @@ Tier 1 - Changer,(Changer) Take a Bite,1 SP,N/A
 Tier 1 - Changer,(Changer) Beauty,2 SP,N/A
 Tier 1 - Changer,(Changer) Mouthful,2 SP,N/A
 Tier 1 - Changer,(Changer) Itsuka Kendo,2 SP,N/A
+Tier 1 - Changer,(Changer) Deviant,2 SP,N/A
 Tier 1 - Changer,(Changer/Stranger) 3… 2… 1... Camera!,2 SP,N/A
 Tier 1 - Changer,(Changer) Finger Whips,2 SP,N/A
 Tier 1 - Changer,(Changer) Athletic,2 SP,N/A
@@ -975,6 +983,7 @@ Tier 1 - Trump,(Trump/Brute) Madness,4 SP,N/A
 Tier 1 - Trump,(Trump) Powerswap,4 SP,N/A
 Tier 1 - Trump,(Trump/Shaker) Hijack Council,4 SP,N/A
 Tier 1 - Trump,(Trump) Conviction,4 SP,N/A
+Tier 1 - Trump,(Trump/Thinker) Hunters Mark,4 SP,N/A
 Tier 1 - Trump,(Trump) Scramble,5 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Endow,5 SP,N/A
 Tier 1 - Trump,(Trump) David’s Trash Can,5 SP,N/A
@@ -1048,6 +1057,7 @@ Tier 1 - Trump,(Trump/Thinker) Duellist,12 SP,N/A
 Tier 1 - Trump,(Trump) Magik Adept,12 SP,N/A
 Tier 1 - Trump,(Trump) Checkmate,12 SP,N/A
 Tier 1 - Trump,(Trump/Master) Pseudo Cycle,12 SP,N/A
+Tier 1 - Trump,(Trump) Hetairoi,12 SP,N/A
 Tier 1 - Trump,(Trump) Counter Attack Specialist,13 SP,N/A
 Tier 1 - Trump,(Trump) Blueprint,13 SP,N/A
 Tier 1 - Trump,(Trump) Souls Leveling Maiden,13 SP,N/A
@@ -1108,6 +1118,7 @@ Tier 1 - Stranger,(Stranger/Shaker) Turtle,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Master) Trend Setter,8 SP,N/A
 Tier 1 - Stranger,(Stranger) My Source Is That I Made It The Fuck Up!,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Breaker) The Man in the Wall,8 SP,N/A
+Tier 1 - Stranger,(Stranger/Trump) Evasive Manoeuvres,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Breaker) Hitchhike,9 SP,N/A
 Tier 1 - Stranger,(Stranger) Classified Information,9 SP,N/A
 Tier 1 - Stranger,(Stranger/Thinker) Discount Genie,9 SP,N/A
@@ -1462,7 +1473,7 @@ Power Fusions (Shard) (Page 1),Hope Killer,5 SP,Required: Simurgh Lite; Required
 Power Fusions (Shard) (Page 1),Eternity Killer,5 SP,Required: (Mover) Soaring through the Sky like a Flying Bison; Required: (Mover) Blink!; Required: (Mover) Clock Up; Required: (Shaker) Temporal Tempo; Required: (Shaker/Striker) Time Magic!; Required: (Shaker) Forcefield; Required: (Striker) Wither
 Power Fusions (Shard) (Page 1),Nemesis Killer,6 SP,Required: (Thinker) Weakspot; Required: (Trump) Fae Court; Required: (Trump) Just the Thing; Required: (Trump) Counter Attack Specialist; Required: The Old
 Power Fusions (Shard) (Page 1),Reality Killer,4 SP,Required: Roots; Required: Primordial Earth; Required: Golem Maker; Required: (Trump) Ramp
-Power Fusions (Shard) (Page 1),Maker of the End,5 SP,Required: (Tinker) Blasto; Required: (Tinker) Crystals!
+Power Fusions (Shard) (Page 1),Maker of the End,5 SP| 1 SP,Required: (Tinker) Blasto; Required: (Tinker) Crystals!
 Power Fusions (Shard) (Page 1),Conflict Drive Architect,10 SP,Required: (Master) Monster Maker
 Power Fusions (Shard) (Page 1),Army of the Impossible,4 SP,Required: (Master/Trump) Endbringer Engine
 Power Fusions (Shard) (Page 1),Fractured No More,10 SP,Required: (Master/Trump) Endbringer Engine
@@ -1510,7 +1521,7 @@ Power Fusions (Shard) (Page 1),Great Old One,5 SP,Required: Sealed King; Require
 Power Fusions (Shard) (Page 1),Eternal Star,5 SP,Required: Phoenix Star; Required: (Trump) Oberon
 Power Fusions (Shard) (Page 1),Timeless,16 SP,Required: (Striker/Shaker) Epoch; Required: Undo-Redo
 Power Fusions (Shard) (Page 1),Realistic Army,5 SP,Required: (Striker/Trump) Idol Theory; Required: (Master) Golem
-Power Fusions (Shard) (Page 1),Full Set,2 SP,Required: (Tinker) Armor; Required: (Tinker) Shields
+Power Fusions (Shard) (Page 1),Full Set,2 SP| 1 SP,Required: (Tinker) Armor; Required: (Tinker) Shields
 Power Fusions (Shard) (Page 1),Hands On Learning,5 SP,Required: (Thinker) Simulacrum Advisor; Required: (Thinker) Super Dream
 Power Fusions (Shard) (Page 1),Backed Up Advisor,15 SP,Required: (Thinker) Simulacrum Advisor; Required: (Striker/Trump) Backup
 Power Fusions (Shard) (Page 1),Simulacrum Mentors,12 SP,Required: (Thinker) Simulacrum Advisor; Required: (Master/Trump) Multiversal Emulator
@@ -1519,7 +1530,7 @@ Power Fusions (Shard) (Page 1),Werewolf,8 SP,Required: (Striker/Changer) Wolf Ti
 Power Fusions (Shard) (Page 1),Beast Time,7 SP,Required: (Striker/Changer) Wolf Time; Required: (Changer/Brute) Dinosaur
 Power Fusions (Shard) (Page 1),Reality Hacker,5 SP| 1 SP,Required: (Tinker) Code
 Power Fusions (Shard) (Page 1),Theoretical Communications,5 SP| 1 SP,Required: (Tinker) Communication
-Power Fusions (Shard) (Page 1),Quantum Projects,6 SP,Required: (Tinker) Interdimensional; Required: (Tinker) Time Dilation; Required: Reality Hacker; Required: Theoretical Communications
+Power Fusions (Shard) (Page 1),Quantum Projects,6 SP| 2 SP,Required: (Tinker) Interdimensional; Required: (Tinker) Time Dilation; Required: Reality Hacker; Required: Theoretical Communications
 Power Fusions (Shard) (Page 1),(Un)Holy Trinity,5 SP| 1 SP,Required: (Tinker) Cybernetics
 Power Fusions (Shard) (Page 1),Shard-Like,5 SP| 1 SP,Required: (Tinker) Software; Required: (Tinker) Quantum Computing
 Power Fusions (Shard) (Page 1),Turing-Machine,5 SP| 1 SP,Required: (Tinker) Electronics; Required: (Tinker) Chemistry
@@ -1530,8 +1541,8 @@ Power Fusions (Shard) (Page 1),Debt,16 SP,Required: (Master) Geas; Required: (St
 Power Fusions (Shard) (Page 1),The Living Force,15 SP,Required: (Brute/Mover) Alexandria; Required: (Striker/Shaker) Tyrant; Required: (Brute) Unstoppable Force
 Power Fusions (Shard) (Page 1),Liminal Levels,10 SP,Required: (Shaker) Liminal Landscaper
 Power Fusions (Shard) (Page 1),Power Guru,5 SP,Required: (Trump) Boosted; Required: Permanent Change; Required: Controlled Tweaking
-Power Fusions (Shard) (Page 1),Techno-Magica?,10 SP,Required: (Tinker) Electronics
-Power Fusions (Shard) (Page 1),"Yes, Techno-Magica.",11 SP,Required: Techno-Magica?; Required: Chi Master; Required: (Tinker) Energy
+Power Fusions (Shard) (Page 1),Techno-Magica?,10 SP| 3 SP,Required: (Tinker) Electronics
+Power Fusions (Shard) (Page 1),"Yes, Techno-Magica.",11 SP| 3 SP,Required: Techno-Magica?; Required: Chi Master; Required: (Tinker) Energy
 Power Fusions (Shard) (Page 1),Magus,5 SP,Required: Great Mage; Required: (Shaker) Rune
 Power Fusions (Shard) (Page 1),Sage,5 SP,Required: Magus
 Power Fusions (Shard) (Page 1),Atropos Wannabe,10 SP,Required: The Old; Required: (Thinker) Omniscient
@@ -1680,6 +1691,7 @@ Physical Powers (Original),Flesh Garden,5 SP,N/A
 Physical Powers (Original),Blood Fiend,15 SP,N/A
 Physical Powers (Original),Astartes,15 SP,N/A
 Physical Powers (Original),I Want To Live,2 SP,N/A
+Physical Powers (Original),Genetic Anomaly,5 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1764,6 +1776,11 @@ Mental and Psychic Powers (Original),Gaslight Gatekeep Girlboss,7 SP,N/A
 Mental and Psychic Powers (Original),Eureka!,5 SP,N/A
 Mental and Psychic Powers (Original),Shadow of the Throne,10 SP,N/A
 Mental and Psychic Powers (Original),Witch Hunter,5 SP,N/A
+Mental and Psychic Powers (Original),Generic Psychic,10 SP,N/A
+Mental and Psychic Powers (Original),The Wise Horse,3 SP,N/A
+Mental and Psychic Powers (Original),"Leo, the Dazzling Lion",7 SP,N/A
+Mental and Psychic Powers (Original),To Abandon Inferiority,3 SP,N/A
+Mental and Psychic Powers (Original),Three Wise Monkeys,10 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1835,6 +1852,9 @@ Magic and Mystic Powers (Original),Curse Magic,5 SP,N/A
 Magic and Mystic Powers (Original),Ward Magic,5 SP,N/A
 Magic and Mystic Powers (Original),Heart of Runes,25 SP,N/A
 Magic and Mystic Powers (Original),Art of the Other,25 SP,N/A
+Magic and Mystic Powers (Original),Am I Supposed To Be Impressed?,20 SP,N/A
+Magic and Mystic Powers (Original),"Aries, the Flames of Courage",7 SP,N/A
+Magic and Mystic Powers (Original),"Taurus, the Grounding of the Earth",7 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -1941,6 +1961,11 @@ Spiritual and Divine Powers (Original),Marked for Hell,10 SP,N/A
 Spiritual and Divine Powers (Original),You Speak in Matter. You Hear in Light.,10 SP,N/A
 Spiritual and Divine Powers (Original),The Way of the Falling Petal,5 SP,N/A
 Spiritual and Divine Powers (Original),Gilded Right Hand,7 SP,N/A
+Spiritual and Divine Powers (Original),Soul of Royalty,15 SP,N/A
+Spiritual and Divine Powers (Original),"Gemini, the Ghost Twins",7 SP,N/A
+Spiritual and Divine Powers (Original),"Cancer, the Bonds of Home",7 SP,N/A
+Spiritual and Divine Powers (Original),"Virgo, Carrier of Unbreaking Grace",7 SP,N/A
+Spiritual and Divine Powers (Original),Small Gods,12 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
 Technology and Artifice Powers (Original),Datumplane,5 SP,N/A
@@ -1979,6 +2004,9 @@ Technology and Artifice Powers (Original),Earth Approved Science!,25 SP,N/A
 Technology and Artifice Powers (Original),The Father of Chemical Death,5 SP,N/A
 Technology and Artifice Powers (Original),Generic Super Tech,5 SP,N/A
 Technology and Artifice Powers (Original),Spaaaace!,5 SP,N/A
+Technology and Artifice Powers (Original),Civilisation Shaper,15 SP,N/A
+Technology and Artifice Powers (Original),Psitech,5 SP,N/A
+Technology and Artifice Powers (Original),Unrealistic Hacking,5 SP,N/A
 Esoteric and Abstract Powers (Original) (Page 1),Multiversal Chatgroup,5 SP,N/A
 Esoteric and Abstract Powers (Original) (Page 1),Multiversal Marketplace,10 SP,N/A
 Esoteric and Abstract Powers (Original) (Page 1),Merchant's Appraisal,5 SP,N/A
@@ -2118,6 +2146,7 @@ Foundation Powers,Across the YOU-niverse,15 SP,N/A
 Foundation Powers,The Great Man Theory,15 SP,N/A
 Foundation Powers,Training Seal,10 SP,N/A
 Foundation Powers,Knowledge is Power,10 SP,N/A
+Foundation Powers,Absurdity,15 SP,N/A
 Foundation Powers,Tower of Power,20 SP,N/A
 Foundation Powers,Skill Tree System,13 SP| 8 SP,N/A
 Foundation Powers,Voracious Reader's Gluttony,30 SP,N/A
@@ -2205,6 +2234,10 @@ Foundation Powers,Attribute Manipulation,15 SP,N/A
 Foundation Powers,Fruits of Labour,5 SP,N/A
 Foundation Powers,As Easy As The First Step,15 SP,N/A
 Foundation Powers,Behold the Face of Envy,8 SP,N/A
+Foundation Powers,Karmic Quests,5 SP,N/A
+Foundation Powers,Roulette,2 SP,N/A
+Foundation Powers,Domain Expansion,15 SP,N/A
+Foundation Powers,I Smile As I Crush My Own Heart,5 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2367,6 +2400,7 @@ Miscellaneous Objects of Power,A Certified Good Boi (or Girl),5 SP,N/A
 Miscellaneous Objects of Power,Angel Blood,5 SP,N/A
 Miscellaneous Objects of Power,An Ordinary Rock,5 SP,N/A
 Miscellaneous Objects of Power,Cuddly Horror,10 SP,N/A
+Miscellaneous Objects of Power,Dalilah's Razor,5 SP,N/A
 Miscellaneous Objects of Power,Dimensional Cage,35 SP,N/A
 Miscellaneous Objects of Power,Displacement Containers,10 SP,N/A
 Miscellaneous Objects of Power,Fragment of the Alien God of the Moon Made of Steel and Thunder,6 SP,N/A
@@ -2380,6 +2414,8 @@ Miscellaneous Objects of Power,Nyxora Sentis “Mindbloom”,3 SP,N/A
 Miscellaneous Objects of Power,Object(s) of Power,5 SP,N/A
 Miscellaneous Objects of Power,One Human Soul,1 SP,N/A
 Miscellaneous Objects of Power,Perfect Companion,18 SP,N/A
+Miscellaneous Objects of Power,Plush Pal!,20 SP,N/A
+Miscellaneous Objects of Power,The Scholarly Skull,15 SP,N/A
 Miscellaneous Objects of Power,Thirty Pieces of Silver,25 SP,N/A
 Miscellaneous Objects of Power,Treasury,10 SP,N/A
 Miscellaneous Objects of Power,Upgrade Token,1 SP,N/A
