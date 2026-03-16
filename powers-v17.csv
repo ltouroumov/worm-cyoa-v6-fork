@@ -196,6 +196,7 @@ Tier 1 - Shaker,(Shaker/Changer) Outbreak,7 SP,N/A
 Tier 1 - Shaker,(Shaker/Striker) Heroes Don't Kill,7 SP,N/A
 Tier 1 - Shaker,(Shaker/Brute) Dissipate,7 SP,N/A
 Tier 1 - Shaker,(Shaker/Brute) No Place Like Home,7 SP,N/A
+Tier 1 - Shaker,(Shaker/Blaster) Kill Aura,8 SP,N/A
 Tier 1 - Shaker,(Shaker/Master) Tentacles,8 SP,N/A
 Tier 1 - Shaker,(Shaker) Babel,8 SP,N/A
 Tier 1 - Shaker,(Shaker/Trump) Judgment,8 SP,N/A
@@ -325,6 +326,7 @@ Tier 1 - Brute,(Brute/Trump) Stronger Together,15 SP,N/A
 Tier 1 - Breaker,(Breaker/Brute) Brainless Behavior,1 SP,N/A
 Tier 1 - Breaker,(Breaker) Immune Response,2 SP,N/A
 Tier 1 - Breaker,(Breaker) Phase,2 SP,N/A
+Tier 1 - Breaker,(Breaker/Thinker) Porous,2 SP,N/A
 Tier 1 - Breaker,(Breaker) Gomu Gomu no Mi,3 SP,N/A
 Tier 1 - Breaker,(Breaker) Balancing Act,3 SP,N/A
 Tier 1 - Breaker,(Breaker/Mover) Bullet,3 SP,N/A
@@ -381,6 +383,7 @@ Tier 1 - Breaker,(Breaker/Shaker) Bugged Out,13 SP,N/A
 Tier 1 - Breaker,(Breaker/Mover) Blur,13 SP,N/A
 Tier 1 - Breaker,(Breaker/Mover) Fractal,14 SP,N/A
 Tier 1 - Breaker,(Breaker) Reconstruction,14 SP,N/A
+Tier 1 - Breaker,(Breaker/Brute) Python,14 SP,N/A
 Tier 1 - Breaker,(Breaker) Friction,15 SP,N/A
 Tier 1 - Breaker,(Breaker/Trump) Still Body,15 SP,N/A
 Tier 1 - Breaker,(Breaker/Trump) Energy Well,15 SP,N/A
@@ -490,7 +493,7 @@ Tier 1 - Master,(Master/Trump) Open Eyes,12 SP,N/A
 Tier 1 - Master,(Master) Child of Flemming,12 SP,N/A
 Tier 1 - Master,(Master/Breaker) Mitosis,12 SP,N/A
 Tier 1 - Master,(Master) Golem,13 SP,N/A
-Tier 1 - Master,(Master/Trump) Specter,13 SP,N/A
+Tier 1 - Master,(Master) Stand,13 SP,N/A
 Tier 1 - Master,(Master) Calling Help,14 SP,N/A
 Tier 1 - Master,(Master) Hive Mind,15 SP,N/A
 Tier 1 - Master,(Master/Trump) Scepter of Power,15 SP,N/A
@@ -567,6 +570,7 @@ Tier 1 - Tinker,(Tinker) Style,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Toyman,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Bonsai,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Infusionist,7 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Backpack,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Robots,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Bloody Tinker,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Absurdity,8 SP| 3 SP,N/A
@@ -637,7 +641,6 @@ Tier 1 - Tinker,(Tinker/Trump) Variable Tinker,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Living Metallurgist,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Twilight Tinker,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Fastest Tinker Alive,15 SP| 5 SP,N/A
-Tier 1 - Tinker,(Tinker) Backpack,7 SP| 5 SP,N/A
 Tier 1 - Blaster,(Blaster) Epilepsy,1 SP,N/A
 Tier 1 - Blaster,(Blaster) Super Murder Death Beams,1 SP,N/A
 Tier 1 - Blaster,(Blaster) Boomerang,1 SP,N/A
@@ -700,6 +703,7 @@ Tier 1 - Blaster,(Blaster/Shaker) Roadless Camelot,10 SP,N/A
 Tier 1 - Blaster,(Blaster/Mover) Folktale,10 SP,N/A
 Tier 1 - Blaster,(Blaster/Shaker) Spectral Platforms,10 SP,N/A
 Tier 1 - Blaster,(Blaster) Aimbot,10 SP,N/A
+Tier 1 - Blaster,(Blaster/Trump) Snow Shots,10 SP,N/A
 Tier 1 - Blaster,(Blaster/Master) Sentry,11 SP,N/A
 Tier 1 - Blaster,(Blaster) Worship,12 SP,N/A
 Tier 1 - Blaster,(Blaster) Friendship Beam!,12 SP,N/A
@@ -836,6 +840,7 @@ Tier 1 - Striker,(Striker) Vibranium,5 SP,N/A
 Tier 1 - Striker,(Striker) Midas Touch,5 SP,N/A
 Tier 1 - Striker,(Striker) Mass Manipulation,5 SP,N/A
 Tier 1 - Striker,(Striker/Blaster) The Spin,5 SP,N/A
+Tier 1 - Striker,(Striker/Tinker) Facet,5 SP,N/A
 Tier 1 - Striker,(Striker) Phase Touch,5 SP,N/A
 Tier 1 - Striker,(Striker) Edge,5 SP,N/A
 Tier 1 - Striker,(Striker) Human Capacitor,5 SP,N/A
@@ -1692,6 +1697,11 @@ Physical Powers (Original),Blood Fiend,15 SP,N/A
 Physical Powers (Original),Astartes,15 SP,N/A
 Physical Powers (Original),I Want To Live,2 SP,N/A
 Physical Powers (Original),Genetic Anomaly,5 SP,N/A
+Physical Powers (Original),Body of Royalty,15 SP,N/A
+Physical Powers (Original),I Ate Bane,8 SP,N/A
+Physical Powers (Original),The Flesh-Wrought Sentinel,10 SP,N/A
+Physical Powers (Original),"Scorpio, Beast of the Sea and Skies",7 SP,N/A
+Physical Powers (Original),The Last Child of -,8 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1779,8 +1789,12 @@ Mental and Psychic Powers (Original),Witch Hunter,5 SP,N/A
 Mental and Psychic Powers (Original),Generic Psychic,10 SP,N/A
 Mental and Psychic Powers (Original),The Wise Horse,3 SP,N/A
 Mental and Psychic Powers (Original),"Leo, the Dazzling Lion",7 SP,N/A
+Mental and Psychic Powers (Original),"Libra, the Negotiator",7 SP,N/A
+Mental and Psychic Powers (Original),"Sagittarius, the Well-Traveled Traveller",7 SP,N/A
+Mental and Psychic Powers (Original),"Capricorn, Ambition of the Years",7 SP,N/A
 Mental and Psychic Powers (Original),To Abandon Inferiority,3 SP,N/A
 Mental and Psychic Powers (Original),Three Wise Monkeys,10 SP,N/A
+Mental and Psychic Powers (Original),Palpatine's Guide to Statecraft,5 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1855,6 +1869,7 @@ Magic and Mystic Powers (Original),Art of the Other,25 SP,N/A
 Magic and Mystic Powers (Original),Am I Supposed To Be Impressed?,20 SP,N/A
 Magic and Mystic Powers (Original),"Aries, the Flames of Courage",7 SP,N/A
 Magic and Mystic Powers (Original),"Taurus, the Grounding of the Earth",7 SP,N/A
+Magic and Mystic Powers (Original),Armor Magic,10 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -1966,6 +1981,11 @@ Spiritual and Divine Powers (Original),"Gemini, the Ghost Twins",7 SP,N/A
 Spiritual and Divine Powers (Original),"Cancer, the Bonds of Home",7 SP,N/A
 Spiritual and Divine Powers (Original),"Virgo, Carrier of Unbreaking Grace",7 SP,N/A
 Spiritual and Divine Powers (Original),Small Gods,12 SP,N/A
+Spiritual and Divine Powers (Original),Ensouled,3 SP,N/A
+Spiritual and Divine Powers (Original),Filled Intent,3 SP,N/A
+Spiritual and Divine Powers (Original),Acolyte,10 SP,N/A
+Spiritual and Divine Powers (Original),Soul Crystallisation,7 SP,N/A
+Spiritual and Divine Powers (Original),River of Souls,15 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
 Technology and Artifice Powers (Original),Datumplane,5 SP,N/A
@@ -1974,7 +1994,7 @@ Technology and Artifice Powers (Original),Carcass Forging,12 SP,N/A
 Technology and Artifice Powers (Original),Anomaly Infusion,15 SP,N/A
 Technology and Artifice Powers (Original),Architecture,3 SP,N/A
 Technology and Artifice Powers (Original),Deus Vult,15 SP,N/A
-Technology and Artifice Powers (Original),Treasure Tools Creation,30 SP,N/A
+Technology and Artifice Powers (Original),Treasure Tool Creation,30 SP,N/A
 Technology and Artifice Powers (Original),Ghost in the Machine,20 SP,N/A
 Technology and Artifice Powers (Original),Street Technomancer,15 SP,N/A
 Technology and Artifice Powers (Original),Caveman Wisdom,3 SP,N/A
@@ -2007,6 +2027,7 @@ Technology and Artifice Powers (Original),Spaaaace!,5 SP,N/A
 Technology and Artifice Powers (Original),Civilisation Shaper,15 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),Unrealistic Hacking,5 SP,N/A
+Technology and Artifice Powers (Original),Junkyard Artificer,3 SP,N/A
 Esoteric and Abstract Powers (Original) (Page 1),Multiversal Chatgroup,5 SP,N/A
 Esoteric and Abstract Powers (Original) (Page 1),Multiversal Marketplace,10 SP,N/A
 Esoteric and Abstract Powers (Original) (Page 1),Merchant's Appraisal,5 SP,N/A
@@ -2238,6 +2259,11 @@ Foundation Powers,Karmic Quests,5 SP,N/A
 Foundation Powers,Roulette,2 SP,N/A
 Foundation Powers,Domain Expansion,15 SP,N/A
 Foundation Powers,I Smile As I Crush My Own Heart,5 SP,N/A
+Foundation Powers,Charms,10 SP,N/A
+Foundation Powers,Greed of Authority,10 SP,N/A
+Foundation Powers,The Impatience of Wrath,10 SP,N/A
+Foundation Powers,"Aquarius, Friends We Made Along The Way",7 SP,N/A
+Foundation Powers,"Pisces, the Dream of Perfection",7 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2410,6 +2436,7 @@ Miscellaneous Objects of Power,Heart of a Tattletale,7 SP,N/A
 Miscellaneous Objects of Power,Homunculus,5 SP,N/A
 Miscellaneous Objects of Power,Mimic,10 SP,N/A
 Miscellaneous Objects of Power,Mystery Box,5 SP,N/A
+Miscellaneous Objects of Power,Nemean Lion Cub,15 SP,N/A
 Miscellaneous Objects of Power,Nyxora Sentis “Mindbloom”,3 SP,N/A
 Miscellaneous Objects of Power,Object(s) of Power,5 SP,N/A
 Miscellaneous Objects of Power,One Human Soul,1 SP,N/A
