@@ -3,7 +3,7 @@ name = "cyoa-tools"
 version = "1.0.0"
 description = "CLI tools for ICYOA Project Files"
 authors = [{ name = "Laureline David", email = "ltouroumov@gmail.com" }]
-requires-python = ">=3.13,<3.14"
+requires-python = ">=3.14,<3.15"
 dependencies = [
     "rich",
     "pillow",
@@ -16,6 +16,7 @@ dependencies = [
     "jsonpath-ng (>=1.7.0,<2.0.0)",
     "pyyaml>=6.0.2",
     "markdownify>=1.2.2",
+    "graphviz>=0.21",
 ]
 
 [project.scripts]

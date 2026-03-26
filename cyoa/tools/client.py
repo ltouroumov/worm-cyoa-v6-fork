@@ -12,6 +12,7 @@ from cyoa.tools import (
   style_tools,
   build,
   scripts,
+  graph_tools,
 )
 
 TOOLS: tuple[Type[ToolBase], ...] = (
@@ -23,6 +24,7 @@ TOOLS: tuple[Type[ToolBase], ...] = (
   *md_tools.TOOLS,
   *style_tools.TOOLS,
   build.BuildTool,
+  *graph_tools.TOOLS,
   *scripts.SCRIPTS,
 )
 
