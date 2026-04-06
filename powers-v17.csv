@@ -176,6 +176,7 @@ Tier 1 - Shaker,(Shaker/Master) Spicy Snap,5 SP,N/A
 Tier 1 - Shaker,(Shaker) Gravity Well,5 SP,N/A
 Tier 1 - Shaker,(Shaker/Striker) Force Construct,5 SP,N/A
 Tier 1 - Shaker,(Shaker) Electromagnetic Warping,5 SP,N/A
+Tier 1 - Shaker,(Shaker) Beartrap,5 SP,N/A
 Tier 1 - Shaker,(Shaker) Area of Attack,6 SP,N/A
 Tier 1 - Shaker,(Shaker) Minefield,6 SP,N/A
 Tier 1 - Shaker,(Shaker) Loot Drop,6 SP,N/A
@@ -595,10 +596,13 @@ Tier 1 - Tinker,(Tinker) Basic Tinker,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Russian Roulette,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Material Density,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) AI Generated,8 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Stasis,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Armored Warfare,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Poison,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Medicine,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Rocketman,9 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker/Trump) Fluctuation,9 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Ace Combat,9 SP| 3 SP,N/A
 Tier 1 - Tinker,"(Tinker/Thinker) Suppress, Conjecture, Predict",10 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Rube Goldberg Machines,10 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Meme,10 SP| 3 SP,N/A
@@ -656,6 +660,7 @@ Tier 1 - Blaster,(Blaster) Hookshot,3 SP,N/A
 Tier 1 - Blaster,(Blaster) Debuff,3 SP,N/A
 Tier 1 - Blaster,(Blaster) David’s Sling,3 SP,N/A
 Tier 1 - Blaster,(Blaster) Handcannon,3 SP,N/A
+Tier 1 - Blaster,(Blaster) Needle Gunner,3 SP,N/A
 Tier 1 - Blaster,(Blaster) Blaster,4 SP,N/A
 Tier 1 - Blaster,(Blaster/Striker) Sneak Attack,4 SP,N/A
 Tier 1 - Blaster,(Blaster) Hand Lights,4 SP,N/A
@@ -1051,6 +1056,7 @@ Tier 1 - Trump,(Trump) Permanent Reminder,10 SP,N/A
 Tier 1 - Trump,(Trump) Trophy Hunter,10 SP,N/A
 Tier 1 - Trump,(Trump) Hyperfocused,10 SP,N/A
 Tier 1 - Trump,(Trump) Daimon,10 SP,N/A
+Tier 1 - Trump,(Trump) Third-Rate Tohu,10 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Krampus,11 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Supportive Copier,11 SP,N/A
 Tier 1 - Trump,(Trump) Fighting makes me stronger!,12 SP,N/A
@@ -1457,6 +1463,7 @@ Tier 3 Powers,(Trump) Heresiarch,40 SP,N/A
 Tier 3 Powers,(Tinker/Thinker) Tinker to Victory,25 SP,N/A
 Tier 3 Powers,(Blaster/Trump) Disco Ball,25 SP,N/A
 Tier 3 Powers,(Breaker/Trump) Herald of the End,30 SP,N/A
+Tier 3 Powers,(Blaster/Shaker) Buster,30 SP,N/A
 Power Upgrades (Shard),Tier 1 Upgrades,,N/A
 Power Upgrades (Shard),Tier 2 Upgrades,,N/A
 Power Upgrades (Shard),Tier 3 Upgrades,,N/A
@@ -1501,6 +1508,7 @@ Power Fusions (Shard) (Page 1),Dominion,6 SP,Required: Skittering Legions; Requi
 Power Fusions (Shard) (Page 1),Muroidea Imperator,9 SP,Required: (Master) Ratatouille; Required: (Master/Thinker) Rodent King
 Power Fusions (Shard) (Page 1),Resurrection,15 SP,Required: (Striker) Redistribution of Pain; Required: (Breaker/Mover) Puella Magi Homura Magika
 Power Fusions (Shard) (Page 1),Ward Master,5 SP,Required: (Trump) Arcanist; Required: (Trump/Tinker) Artificer
+Power Fusions (Shard) (Page 1),Cambium,5 SP,
 Power Fusions (Shard) (Page 1),The Life Maker,5 SP| 2 SP,Required: (Trump/Tinker) Alchemist; Required: (Trump/Tinker) Artificer
 Power Fusions (Shard) (Page 1),Four is a Party,10 SP,Required: (Trump) Gamer System; Required: (Trump) Soulmate
 Power Fusions (Shard) (Page 1),Sole Looper,3 SP,Required: (Thinker) Time-Loop
@@ -1561,7 +1569,6 @@ Power Fusions (Shard) (Page 1),Paramount Pity Rolls,5 SP,Required: (Trump) Param
 Power Fusions (Shard) (Page 1),Gestalt Simulator,11 SP,Required: (Striker/Trump) Backup; Required: (Striker/Master) Memory Injector
 Power Fusions (Shard) (Page 1),The Taught,4 SP,Required: (Thinker) Polymath; Required: (Master/Trump) Teacher
 Power Fusions (Shard) (Page 1),Origin Story,10 SP,Required: (Trump/Thinker) Trigger Bomb; Required: (Trump/Striker) Krampus; Required: (Trump) Flint
-Power Fusions (Shard) (Page 1),Making of a Tragedy,8 SP,Required: Trigger Sight; Required: Origin Story; Required: (Thinker) Plans within Plans; Required: Actors on Stage
 (Entity) Shard Clusters,Administrator (Rank 0),-6 ,N/A
 (Entity) Shard Clusters,Administrator (Rank 1),-6 | 5 SP| 5 CP,Required: Administrator (Rank 0)
 (Entity) Shard Clusters,Administrator (Rank 2),-6 | 10 SP| 10 CP,Required: Administrator (Rank 1)
@@ -1702,6 +1709,17 @@ Physical Powers (Original),I Ate Bane,8 SP,N/A
 Physical Powers (Original),The Flesh-Wrought Sentinel,10 SP,N/A
 Physical Powers (Original),"Scorpio, Beast of the Sea and Skies",7 SP,N/A
 Physical Powers (Original),The Last Child of -,5 SP,N/A
+Physical Powers (Original),Crown of the Wild Fang,15 SP,N/A
+Physical Powers (Original),Affixion,10 SP,N/A
+Physical Powers (Original),Air Burst Breathing,5 SP,N/A
+Physical Powers (Original),Fons Vitae,30 SP,N/A
+Physical Powers (Original),Y Taranau,5 SP,N/A
+Physical Powers (Original),Tremlyn,5 SP,N/A
+Physical Powers (Original),Byddin Un,5 SP,N/A
+Physical Powers (Original),Buddha’s Palm,3 SP,N/A
+Physical Powers (Original),Varuna’s Grasp,3 SP,N/A
+Physical Powers (Original),Lotus Step,3 SP,N/A
+Physical Powers (Original),Superior Clay,5 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1870,6 +1888,7 @@ Magic and Mystic Powers (Original),Am I Supposed To Be Impressed?,20 SP,N/A
 Magic and Mystic Powers (Original),"Aries, the Flames of Courage",7 SP,N/A
 Magic and Mystic Powers (Original),"Taurus, the Grounding of the Earth",7 SP,N/A
 Magic and Mystic Powers (Original),Armor Magic,10 SP,N/A
+Magic and Mystic Powers (Original),Space Magic,15 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -2010,7 +2029,7 @@ Technology and Artifice Powers (Original),Scrapper,5 SP,N/A
 Technology and Artifice Powers (Original),Stick and Stones CAN Break Your Bones,10 SP,N/A
 Technology and Artifice Powers (Original),Second Coming of Da Vinci,5 SP,N/A
 Technology and Artifice Powers (Original),Steel Eater,10 SP,N/A
-Technology and Artifice Powers (Original),Analyze and Replicate,5 SP,N/A
+Technology and Artifice Powers (Original),Analyze and Replicate,10 SP,N/A
 Technology and Artifice Powers (Original),Realer Steel,5 SP,N/A
 Technology and Artifice Powers (Original),Sovereign of Steam and Brass,3 SP,N/A
 Technology and Artifice Powers (Original),Clockwork Artisan,3 SP,N/A
@@ -2028,6 +2047,7 @@ Technology and Artifice Powers (Original),Civilisation Shaper,15 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),Unrealistic Hacking,5 SP,N/A
 Technology and Artifice Powers (Original),Junkyard Artificer,3 SP,N/A
+Technology and Artifice Powers (Original),Techno-plagiarism,7 SP,N/A
 Esoteric and Abstract Powers (Original) (Page 1),Multiversal Chatgroup,5 SP,N/A
 Esoteric and Abstract Powers (Original) (Page 1),Multiversal Marketplace,10 SP,N/A
 Esoteric and Abstract Powers (Original) (Page 1),Merchant's Appraisal,5 SP,N/A
@@ -2149,6 +2169,7 @@ Ascension Path,Aberration,30 SP,N/A
 Ascension Path,Virus,20 SP,N/A
 Ascension Path,Elemental Spirit,15 SP,N/A
 Ascension Path,Incarnation,10 SP,N/A
+Ascension Path,High Human,10 SP,N/A
 Foundation Powers,Gamer System,20 SP,N/A
 Foundation Powers,Dynamist Jr.,20 SP,N/A
 Foundation Powers,Polybius Remastered,12 SP,N/A
@@ -2264,6 +2285,12 @@ Foundation Powers,Greed of Authority,10 SP,N/A
 Foundation Powers,The Impatience of Wrath,10 SP,N/A
 Foundation Powers,"Aquarius, Friends We Made Along The Way",7 SP,N/A
 Foundation Powers,"Pisces, the Dream of Perfection",7 SP,N/A
+Foundation Powers,Hermit’s Home,2 SP,N/A
+Foundation Powers,The Remains of Gluttonous Waste,15 SP,N/A
+Foundation Powers,Potential Energy,20 SP,N/A
+Foundation Powers,Spend [X] To Make [X],20 SP,N/A
+Foundation Powers,Askesis,10 SP,N/A
+Foundation Powers,Imperfections of Perfect Lust,15 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2475,6 +2502,7 @@ Miscellaneous Objects of Power,Seeds of the Resurrection Plant (Kingdom),5 SP,N/
 Miscellaneous Objects of Power,Hexcore (League of Legends),12 SP,N/A
 Miscellaneous Objects of Power,Evolution Cube (Legendary Mechanic),15 SP,N/A
 Miscellaneous Objects of Power,The Chair (Magical Girl ☆Sym-tan☆),55 SP,N/A
+Miscellaneous Objects of Power,Netherite (Minecraft),1 SP,N/A
 Miscellaneous Objects of Power,Black Vortex (Marvel),40 SP,N/A
 Miscellaneous Objects of Power,Cosmic Cube (Marvel),60 SP,N/A
 Miscellaneous Objects of Power,Gravity Stone (Marvel),30 SP,N/A
@@ -2504,3 +2532,4 @@ Miscellaneous Objects of Power,Adepta Sororitas Sanctorum (Warhammer: 40k),30 SP
 Miscellaneous Objects of Power,Officio Assassinorum Temples (Warhammer: 40k),30 SP,N/A
 Miscellaneous Objects of Power,Vigil of Sisters Of Silence (Warhammer: 40k),30 SP,N/A
 Miscellaneous Objects of Power,Warrant of Trade (Warhammer: 40k),13 SP,N/A
+Miscellaneous Objects of Power,Horde of Orks (Warhammer: 40k),10 SP,N/A
