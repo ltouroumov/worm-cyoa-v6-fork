@@ -2030,6 +2030,7 @@ Spiritual and Divine Powers (Original),Drowning Blood Demon Blade,5 SP,N/A
 Spiritual and Divine Powers (Original),Qlippoth,40 SP,N/A
 Spiritual and Divine Powers (Original),This World Of Swords,5 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
+Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
 Technology and Artifice Powers (Original),Datumplane,5 SP,N/A
 Technology and Artifice Powers (Original),The Celestial Workshop,20 SP,N/A
@@ -2068,7 +2069,6 @@ Technology and Artifice Powers (Original),The Father of Chemical Death,5 SP,N/A
 Technology and Artifice Powers (Original),Generic Super Tech,5 SP,N/A
 Technology and Artifice Powers (Original),Spaaaace!,5 SP,N/A
 Technology and Artifice Powers (Original),Civilisation Shaper,15 SP,N/A
-Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),Unrealistic Hacking,5 SP,N/A
 Technology and Artifice Powers (Original),Junkyard Artificer,3 SP,N/A
 Technology and Artifice Powers (Original),Techno-plagiarism,7 SP,N/A
@@ -2274,6 +2274,12 @@ Foundation Powers,Theft,20 SP,N/A
 Foundation Powers,Dragon’s Hoard,10 SP,N/A
 Foundation Powers,Epithet Collector,10 SP,N/A
 Foundation Powers,"Greatest of Sins, Pride",10 SP,N/A
+Foundation Powers,Allure of Sloth’s Embrace,7 SP,N/A
+Foundation Powers,Behold the Face of Envy,8 SP,N/A
+Foundation Powers,Greed of Authority,10 SP,N/A
+Foundation Powers,The Impatience of Wrath,10 SP,N/A
+Foundation Powers,The Remains of Gluttonous Waste,15 SP,N/A
+Foundation Powers,Imperfections of Perfect Lust,15 SP,N/A
 Foundation Powers,One Thousand Cuts,5 SP,N/A
 Foundation Powers,Conceptual Enforcement,25 SP,N/A
 Foundation Powers,Against the Tides,10 SP,N/A
@@ -2291,7 +2297,6 @@ Foundation Powers,Manus Superior,15 SP,N/A
 Foundation Powers,Social Links,15 SP,N/A
 Foundation Powers,Essence Vampire,10 SP,N/A
 Foundation Powers,Compensation,5 SP,N/A
-Foundation Powers,Allure of Sloth’s Embrace,7 SP,N/A
 Foundation Powers,The Slayer's Path,10 SP,N/A
 Foundation Powers,Inferior Inventor,12 SP,N/A
 Foundation Powers,Achievement System,20 SP,N/A
@@ -2299,22 +2304,17 @@ Foundation Powers,Set Collector,10 SP,N/A
 Foundation Powers,Attribute Manipulation,15 SP,N/A
 Foundation Powers,Fruits of Labour,5 SP,N/A
 Foundation Powers,As Easy As The First Step,15 SP,N/A
-Foundation Powers,Behold the Face of Envy,8 SP,N/A
 Foundation Powers,Karmic Quests,5 SP,N/A
 Foundation Powers,Roulette,2 SP,N/A
 Foundation Powers,Domain Expansion,15 SP,N/A
 Foundation Powers,I Smile As I Crush My Own Heart,5 SP,N/A
 Foundation Powers,Charms,10 SP,N/A
-Foundation Powers,Greed of Authority,10 SP,N/A
-Foundation Powers,The Impatience of Wrath,10 SP,N/A
 Foundation Powers,"Aquarius, Friends We Made Along The Way",7 SP,N/A
 Foundation Powers,"Pisces, the Dream of Perfection",7 SP,N/A
 Foundation Powers,Hermit’s Home,2 SP,N/A
-Foundation Powers,The Remains of Gluttonous Waste,15 SP,N/A
 Foundation Powers,Potential Energy,20 SP,N/A
 Foundation Powers,Spend [X] To Make [X],20 SP,N/A
 Foundation Powers,Askesis,10 SP,N/A
-Foundation Powers,Imperfections of Perfect Lust,15 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
