@@ -105,6 +105,7 @@ Tier 1 - Mover,(Mover) Fast as a Hedgehog,2 SP,N/A
 Tier 1 - Mover,(Mover) Flying like a Chicken,2 SP,N/A
 Tier 1 - Mover,(Mover) Rail,2 SP,N/A
 Tier 1 - Mover,(Mover) Wallcrawler,2 SP,N/A
+Tier 1 - Mover,(Mover) Skip Step,2 SP,N/A
 Tier 1 - Mover,(Mover) Soaring through the Sky like a Flying Bison,3 SP,N/A
 Tier 1 - Mover,(Mover) Stairway to Heaven,3 SP,N/A
 Tier 1 - Mover,(Mover/Thinker) Star-Nosed Mole,3 SP,N/A
@@ -214,6 +215,7 @@ Tier 1 - Shaker,(Shaker/Breaker) Icy Kiss,9 SP,N/A
 Tier 1 - Shaker,(Shaker) Impaler,9 SP,N/A
 Tier 1 - Shaker,"(Shaker/Brute) Stomach In, Stomach Out",9 SP,N/A
 Tier 1 - Shaker,(Shaker) Deaf Note,9 SP,N/A
+Tier 1 - Shaker,(Shaker) Inverted Structure,9 SP,N/A
 Tier 1 - Shaker,(Shaker) Temporal Tempo,10 SP,N/A
 Tier 1 - Shaker,(Shaker/Tinker) Scrapyard,10 SP| 3 SP,N/A
 Tier 1 - Shaker,(Shaker/Trump) Power Slowdown,10 SP,N/A
@@ -256,6 +258,7 @@ Tier 1 - Shaker,(Shaker) Vault of the Modern Era,15 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Spartans Die Standing,1 SP,N/A
 Tier 1 - Brute,(Brute) Vampire,2 SP,N/A
 Tier 1 - Brute,(Brute) Lifesteal,2 SP,N/A
+Tier 1 - Brute,(Brute) Scarred Healing,2 SP,N/A
 Tier 1 - Brute,"(Brute) No, I am Spartacus",3 SP,N/A
 Tier 1 - Brute,"(Brute) No, I am Leonidas",3 SP,N/A
 Tier 1 - Brute,(Brute) Immunity Frames,3 SP,N/A
@@ -307,6 +310,7 @@ Tier 1 - Brute,(Brute/Mover) Spider-Man,8 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Fa Jin,8 SP,N/A
 Tier 1 - Brute,(Brute) Level 100 Mafia Boss,8 SP,N/A
 Tier 1 - Brute,(Brute/Breaker) Achilles' Body,8 SP,N/A
+Tier 1 - Brute,(Brute/Breaker) Enhanced Physique,8 SP,N/A
 Tier 1 - Brute,(Brute/Breaker) Biological Armory,9 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Power in Numbers,9 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Starlight Punch,10 SP,N/A
@@ -372,6 +376,8 @@ Tier 1 - Breaker,(Breaker) Null,8 SP,N/A
 Tier 1 - Breaker,(Breaker) Redirection,8 SP,N/A
 Tier 1 - Breaker,(Breaker/Mover) Dark Shadow,8 SP,N/A
 Tier 1 - Breaker,(Breaker/Trump) Elemental Boost,8 SP,N/A
+Tier 1 - Breaker,(Breaker/Brute) Shonen Bat,8 SP,N/A
+Tier 1 - Breaker,(Breaker) Dimensional Scar,8 SP,N/A
 Tier 1 - Breaker,(Breaker) Density,9 SP,N/A
 Tier 1 - Breaker,(Breaker/Mover) Icarus,9 SP,N/A
 Tier 1 - Breaker,(Breaker) Rebirth,10 SP,N/A
@@ -548,6 +554,7 @@ Tier 1 - Tinker,(Tinker) Resource Exploitation,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Home on the Road,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Dream Craft,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) I’m On a Boat,5 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker/Thinker) Martial Arts,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Redundancy,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Traps,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Hyperspecialized,6 SP| 2 SP,N/A
@@ -565,6 +572,7 @@ Tier 1 - Tinker,(Tinker) Electronics,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Imprisonment,6 SP| 2 SP,N/A
 Tier 1 - Tinker,"(Tinker) Oh, the Humanity",6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Murder,6 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Workout,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Guns,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Mechanics,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Gravity,7 SP| 2 SP,N/A
@@ -578,6 +586,8 @@ Tier 1 - Tinker,(Tinker) Toyman,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Bonsai,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Infusionist,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Backpack,7 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker/Master) Spawners,7 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker/Trump) Kryptonite,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Robots,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Bloody Tinker,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Absurdity,8 SP| 3 SP,N/A
@@ -762,6 +772,7 @@ Tier 1 - Thinker,(Thinker) Strong Man,3 SP,N/A
 Tier 1 - Thinker,(Thinker) Dreams of Another Life,3 SP,N/A
 Tier 1 - Thinker,(Thinker) Interlude,3 SP,N/A
 Tier 1 - Thinker,(Thinker) This Is The Greatest Plan…!,3 SP,N/A
+Tier 1 - Thinker,(Thinker) Feel It In My Bones,3 SP,N/A
 Tier 1 - Thinker,(Thinker) Perfect Timing,4 SP,N/A
 Tier 1 - Thinker,(Thinker/Brute) Skill Issue,4 SP,N/A
 Tier 1 - Thinker,(Thinker) A Thousand Souls,4 SP,N/A
@@ -785,6 +796,8 @@ Tier 1 - Thinker,(Thinker) Full Picture,5 SP,N/A
 Tier 1 - Thinker,(Thinker) Sympathetic Sight,5 SP,N/A
 Tier 1 - Thinker,(Thinker/Mover) Dead as Disco,5 SP,N/A
 Tier 1 - Thinker,(Thinker) Unwilling Prodigy,5 SP,N/A
+Tier 1 - Thinker,(Thinker/Striker) Data Transfer,5 SP,N/A
+Tier 1 - Thinker,(Thinker/Brute) Dark Knight,5 SP,N/A
 Tier 1 - Thinker,(Thinker) Ghostmates,6 SP,N/A
 Tier 1 - Thinker,(Thinker) Sightless Predictions,6 SP,N/A
 Tier 1 - Thinker,(Thinker) Precognitive Combat,6 SP,N/A
@@ -807,6 +820,7 @@ Tier 1 - Thinker,(Thinker) Twisted World,7 SP,N/A
 Tier 1 - Thinker,(Thinker) Mental Faculty,7 SP,N/A
 Tier 1 - Thinker,(Thinker) Enhanced Mastery,8 SP,N/A
 Tier 1 - Thinker,(Thinker) Canon Event,8 SP,N/A
+Tier 1 - Thinker,(Thinker/Striker) Martial Arts,8 SP,N/A
 Tier 1 - Thinker,(Thinker) My Eyes are Your Eyes,9 SP,N/A
 Tier 1 - Thinker,(Thinker) Danger Sense,9 SP,N/A
 Tier 1 - Thinker,(Thinker) Discombobulate,9 SP,N/A
@@ -901,6 +915,7 @@ Tier 1 - Striker,(Striker) Rewind,9 SP,N/A
 Tier 1 - Striker,(Striker/Trump) Retribution,9 SP,N/A
 Tier 1 - Striker,(Striker/Master) Disorder,9 SP,N/A
 Tier 1 - Striker,(Striker/Changer) The Face Stealer,9 SP,N/A
+Tier 1 - Striker,(Striker/Trump) Tuning Fork,9 SP,N/A
 Tier 1 - Striker,(Striker) 1000 Degree Knife,10 SP,N/A
 Tier 1 - Striker,(Striker) Replicate,10 SP,N/A
 Tier 1 - Striker,(Striker) Property Catalogue,10 SP,N/A
@@ -935,6 +950,7 @@ Tier 1 - Changer,(Changer) Athletic,2 SP,N/A
 Tier 1 - Changer,(Changer/Brute) Ogre,3 SP,N/A
 Tier 1 - Changer,(Changer/Stranger) Prop Hunt,3 SP,N/A
 Tier 1 - Changer,(Changer) Self-Petrification,3 SP,N/A
+Tier 1 - Changer,(Changer) Genetic Reformatting,3 SP,N/A
 Tier 1 - Changer,(Changer/Brute) The Golden Man,4 SP,N/A
 Tier 1 - Changer,(Changer/Trump) Metamorphosis,4 SP,N/A
 Tier 1 - Changer,(Changer/Stranger) Human Shapeshift,4 SP,N/A
@@ -1139,6 +1155,7 @@ Tier 1 - Stranger,(Stranger/Master) Trend Setter,8 SP,N/A
 Tier 1 - Stranger,(Stranger) My Source Is That I Made It The Fuck Up!,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Breaker) The Man in the Wall,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Trump) Evasive Manoeuvres,8 SP,N/A
+Tier 1 - Stranger,(Stranger/Shaker) My Secret Life,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Breaker) Hitchhike,9 SP,N/A
 Tier 1 - Stranger,(Stranger) Classified Information,9 SP,N/A
 Tier 1 - Stranger,(Stranger/Thinker) Discount Genie,9 SP,N/A
@@ -1732,6 +1749,9 @@ Physical Powers (Original),Superior Clay,5 SP,N/A
 Physical Powers (Original),Farikaoba,3 SP,N/A
 Physical Powers (Original),Scales of Fafnir,10 SP,N/A
 Physical Powers (Original),Consumer,5 SP,N/A
+Physical Powers (Original),Avali,10 SP,N/A
+Physical Powers (Original),Oh Righteous Fist,5 SP,N/A
+Physical Powers (Original),Mimicry of the Sound King,10 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1830,6 +1850,7 @@ Mental and Psychic Powers (Original),Dreamlands,20 SP,N/A
 Mental and Psychic Powers (Original),Hours of Genius,10 SP,N/A
 Mental and Psychic Powers (Original),A Tangle of Ideas,8 SP,N/A
 Mental and Psychic Powers (Original),Apaya’s Chalice,5 SP,N/A
+Mental and Psychic Powers (Original),Total Inner Enlightenment,2 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1910,6 +1931,8 @@ Magic and Mystic Powers (Original),Mana Manipulation,5 SP,N/A
 Magic and Mystic Powers (Original),Onmyōji,10 SP,N/A
 Magic and Mystic Powers (Original),Mana Bullet,5 SP,N/A
 Magic and Mystic Powers (Original),Puppet Carver,5 SP,N/A
+Magic and Mystic Powers (Original),System Authority,20 SP,N/A
+Magic and Mystic Powers (Original),Mystic Bug Breeding,15 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -2029,6 +2052,10 @@ Spiritual and Divine Powers (Original),River of Souls,15 SP,N/A
 Spiritual and Divine Powers (Original),Drowning Blood Demon Blade,5 SP,N/A
 Spiritual and Divine Powers (Original),Qlippoth,40 SP,N/A
 Spiritual and Divine Powers (Original),This World Of Swords,5 SP,N/A
+Spiritual and Divine Powers (Original),Animism,5 SP,N/A
+Spiritual and Divine Powers (Original),Tethered Soul,3 SP,N/A
+Spiritual and Divine Powers (Original),My Body Is a Temple of My Soul,7 SP,N/A
+Spiritual and Divine Powers (Original),Dokkaebi,15 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
@@ -2194,6 +2221,7 @@ Ascension Path,Virus,20 SP,N/A
 Ascension Path,Elemental Spirit,15 SP,N/A
 Ascension Path,Incarnation,10 SP,N/A
 Ascension Path,High Human,10 SP,N/A
+Ascension Path,Mimic,10 SP,N/A
 Foundation Powers,Gamer System,20 SP,N/A
 Foundation Powers,Dynamist Jr.,20 SP,N/A
 Foundation Powers,Polybius Remastered,12 SP,N/A
@@ -2315,6 +2343,8 @@ Foundation Powers,Hermit’s Home,2 SP,N/A
 Foundation Powers,Potential Energy,20 SP,N/A
 Foundation Powers,Spend [X] To Make [X],20 SP,N/A
 Foundation Powers,Askesis,10 SP,N/A
+Foundation Powers,Average One,15 SP,N/A
+Foundation Powers,Half-Ascended Talent,5 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2335,6 +2365,8 @@ Foundation Powers,Gu Master (Reverend Insanity),10 SP,N/A
 Foundation Powers,Can't You Simplify It? (Magical Girl ☆Sym-tan☆),10 SP,N/A
 Foundation Powers,Can't You Complicate It? (Magical Girl ☆Sym-tan☆),50 SP,N/A
 Foundation Powers,Heroic Containers (Legend of Zelda),5 SP,N/A
+Foundation Powers,Leader (Magical Girls also have Strength Anxiety),10 SP,N/A
+Foundation Powers,Shining Magical Girl (Magical Girl Has Been Exposed),10 SP,N/A
 Keystone Powers,Path of the Worldwalker,,Required: g51j
 Keystone Powers,World-Walker,25 SP,N/A
 Keystone Powers,Elder World-Walker,35 SP,Required: World-Walker
@@ -2507,6 +2539,7 @@ Miscellaneous Objects of Power,H-Dial (DC Comics),30 SP,N/A
 Miscellaneous Objects of Power,Sigils of the Endless (DC Comics),50 SP,N/A
 Miscellaneous Objects of Power,Psychic Paper (Doctor Who),5 SP| 0 SP,N/A
 Miscellaneous Objects of Power,Brotherhood of Steel (Fallout),15 SP,N/A
+Miscellaneous Objects of Power,Rainbow Chest (Enter the Gungeon),15 SP,N/A
 Miscellaneous Objects of Power,Oratrice Mecanique d'Analyse Cardinale (Genshin Impact),15 SP,N/A
 Miscellaneous Objects of Power,Junior's Egg (Godzilla Franchise),15 SP,N/A
 Miscellaneous Objects of Power,Personal Huragok (Halo),20 SP,N/A
