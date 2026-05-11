@@ -184,6 +184,7 @@ Tier 1 - Shaker,(Shaker) Loot Drop,6 SP,N/A
 Tier 1 - Shaker,(Shaker) Spell Card: Za Warudo!,6 SP,N/A
 Tier 1 - Shaker,(Shaker/Master) Agony Exhibition,6 SP,N/A
 Tier 1 - Shaker,(Shaker) Why So Serious?,6 SP,N/A
+Tier 1 - Shaker,(Shaker) Sandstorm,6 SP,N/A
 Tier 1 - Shaker,(Shaker) Healing Circle,7 SP,N/A
 Tier 1 - Shaker,(Shaker/Master) Aromatherapy,7 SP,N/A
 Tier 1 - Shaker,(Shaker) Flare,7 SP,N/A
@@ -332,6 +333,8 @@ Tier 1 - Brute,(Brute/Blaster) Mantis Shrimp,13 SP,N/A
 Tier 1 - Brute,(Brute) Rocky,14 SP,N/A
 Tier 1 - Brute,(Brute/Breaker) The Duke,14 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Stronger Together,15 SP,N/A
+Tier 1 - Brute,(Brute/Striker) Armor,15 SP,N/A
+Tier 1 - Brute,(Brute) Unbreakable,15 SP,N/A
 Tier 1 - Breaker,(Breaker/Brute) Brainless Behavior,1 SP,N/A
 Tier 1 - Breaker,(Breaker) Immune Response,2 SP,N/A
 Tier 1 - Breaker,(Breaker) Phase,2 SP,N/A
@@ -573,6 +576,7 @@ Tier 1 - Tinker,(Tinker) Imprisonment,6 SP| 2 SP,N/A
 Tier 1 - Tinker,"(Tinker) Oh, the Humanity",6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Murder,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Workout,6 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Subterranean,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Guns,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Mechanics,7 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Gravity,7 SP| 2 SP,N/A
@@ -619,6 +623,7 @@ Tier 1 - Tinker,(Tinker) Medicine,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Rocketman,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Fluctuation,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Ace Combat,9 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Metropolis,9 SP| 3 SP,N/A
 Tier 1 - Tinker,"(Tinker/Thinker) Suppress, Conjecture, Predict",10 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Rube Goldberg Machines,10 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Meme,10 SP| 3 SP,N/A
@@ -662,6 +667,7 @@ Tier 1 - Tinker,(Tinker) Living Metallurgist,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Twilight Tinker,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Antagonist Builder,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Fastest Tinker Alive,15 SP| 5 SP,N/A
+Tier 1 - Tinker,(Tinker) The Dao of EXPLOSIONS!,15 SP,N/A
 Tier 1 - Blaster,(Blaster) Epilepsy,1 SP,N/A
 Tier 1 - Blaster,(Blaster) Super Murder Death Beams,1 SP,N/A
 Tier 1 - Blaster,(Blaster) Boomerang,1 SP,N/A
@@ -781,6 +787,7 @@ Tier 1 - Thinker,(Thinker) Multibrain,4 SP,N/A
 Tier 1 - Thinker,(Thinker/Trump) Dream Cinephile,4 SP,N/A
 Tier 1 - Thinker,(Thinker) Breaking the Mask,4 SP,N/A
 Tier 1 - Thinker,(Thinker) Deja Vecu,4 SP,N/A
+Tier 1 - Thinker,(Thinker/Trump) Munchkin,4 SP,N/A
 Tier 1 - Thinker,(Thinker) Think Tank,5 SP,N/A
 Tier 1 - Thinker,(Thinker) One or the Other,5 SP,N/A
 Tier 1 - Thinker,(Thinker/Brute) Stolen Muscles,5 SP,N/A
@@ -802,6 +809,7 @@ Tier 1 - Thinker,(Thinker) Ghostmates,6 SP,N/A
 Tier 1 - Thinker,(Thinker) Sightless Predictions,6 SP,N/A
 Tier 1 - Thinker,(Thinker) Precognitive Combat,6 SP,N/A
 Tier 1 - Thinker,(Thinker) Renaissance Man,6 SP,N/A
+Tier 1 - Thinker,(Thinker) Combat Savant,6 SP,N/A
 Tier 1 - Thinker,(Thinker/Brute) Transferable Skills,6 SP,N/A
 Tier 1 - Thinker,(Thinker/Master) TLC,6 SP,N/A
 Tier 1 - Thinker,(Thinker) Tracker,7 SP,N/A
@@ -940,6 +948,7 @@ Tier 1 - Striker,(Striker/Trump) Thorny Rose,15 SP,N/A
 Tier 1 - Striker,(Striker/Trump) Bandersnatch,15 SP,N/A
 Tier 1 - Changer,(Changer) Wolverine,1 SP,N/A
 Tier 1 - Changer,(Changer) Take a Bite,1 SP,N/A
+Tier 1 - Changer,(Changer) Headcase(53),1 SP,N/A
 Tier 1 - Changer,(Changer) Beauty,2 SP,N/A
 Tier 1 - Changer,(Changer) Mouthful,2 SP,N/A
 Tier 1 - Changer,(Changer) Itsuka Kendo,2 SP,N/A
@@ -1001,6 +1010,7 @@ Tier 1 - Changer,(Changer/Trump) Eye Guy,11 SP,N/A
 Tier 1 - Changer,(Changer) Kevin,12 SP,N/A
 Tier 1 - Changer,(Changer/Breaker) Biosphere,12 SP,N/A
 Tier 1 - Changer,(Changer/Breaker) Roc,12 SP,N/A
+Tier 1 - Changer,(Changer/Breaker) Endarmor,13 SP,N/A
 Tier 1 - Changer,(Changer/Breaker) Ladon,14 SP,N/A
 Tier 1 - Changer,(Changer/Master) Bowser,14 SP,N/A
 Tier 1 - Changer,(Changer) Lung? Hah! I'm the real dragon here.,14 SP,N/A
@@ -1031,6 +1041,7 @@ Tier 1 - Trump,(Trump) Secondary,5 SP,N/A
 Tier 1 - Trump,(Trump/Brute) Twice Critical,5 SP,N/A
 Tier 1 - Trump,(Trump) Bestowal,5 SP,N/A
 Tier 1 - Trump,(Trump) Fae Court,6 SP,N/A
+Tier 1 - Trump,(Trump) Get Here To Me!,6 SP,N/A
 Tier 1 - Trump,(Trump) Desperation,6 SP,N/A
 Tier 1 - Trump,(Trump) Nope!,6 SP,N/A
 Tier 1 - Trump,(Trump/Changer) Reallocate,6 SP,N/A
@@ -1752,6 +1763,8 @@ Physical Powers (Original),Consumer,5 SP,N/A
 Physical Powers (Original),Avali,10 SP,N/A
 Physical Powers (Original),Oh Righteous Fist,5 SP,N/A
 Physical Powers (Original),Mimicry of the Sound King,10 SP,N/A
+Physical Powers (Original),Generic Musou Character,25 SP,N/A
+Physical Powers (Original),Dark Archangel,20 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1851,6 +1864,9 @@ Mental and Psychic Powers (Original),Hours of Genius,10 SP,N/A
 Mental and Psychic Powers (Original),A Tangle of Ideas,8 SP,N/A
 Mental and Psychic Powers (Original),Apaya’s Chalice,5 SP,N/A
 Mental and Psychic Powers (Original),Total Inner Enlightenment,2 SP,N/A
+Mental and Psychic Powers (Original),Mind Trick,3 SP,N/A
+Mental and Psychic Powers (Original),Braincell Burner,10 SP,N/A
+Mental and Psychic Powers (Original),Violent Beast,3 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1933,6 +1949,9 @@ Magic and Mystic Powers (Original),Mana Bullet,5 SP,N/A
 Magic and Mystic Powers (Original),Puppet Carver,5 SP,N/A
 Magic and Mystic Powers (Original),System Authority,20 SP,N/A
 Magic and Mystic Powers (Original),Mystic Bug Breeding,15 SP,N/A
+Magic and Mystic Powers (Original),Frequency of Magic,10 SP,N/A
+Magic and Mystic Powers (Original),Mana Shield,5 SP,N/A
+Magic and Mystic Powers (Original),Spiritless Bow,5 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -2056,6 +2075,8 @@ Spiritual and Divine Powers (Original),Animism,5 SP,N/A
 Spiritual and Divine Powers (Original),Tethered Soul,3 SP,N/A
 Spiritual and Divine Powers (Original),My Body Is a Temple of My Soul,7 SP,N/A
 Spiritual and Divine Powers (Original),Dokkaebi,15 SP,N/A
+Spiritual and Divine Powers (Original),Chi Flowing,5 SP,N/A
+Spiritual and Divine Powers (Original),Sainthood,10 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
@@ -2345,6 +2366,8 @@ Foundation Powers,Spend [X] To Make [X],20 SP,N/A
 Foundation Powers,Askesis,10 SP,N/A
 Foundation Powers,Average One,15 SP,N/A
 Foundation Powers,Half-Ascended Talent,5 SP,N/A
+Foundation Powers,Blooming Genius,5 SP,N/A
+Foundation Powers,Chakra Opening,15 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2512,6 +2535,7 @@ Miscellaneous Objects of Power,Cuddly Horror,10 SP,N/A
 Miscellaneous Objects of Power,Dalilah's Razor,5 SP,N/A
 Miscellaneous Objects of Power,Dimensional Cage,35 SP,N/A
 Miscellaneous Objects of Power,Displacement Containers,10 SP,N/A
+Miscellaneous Objects of Power,Dragon Egg,10 SP,N/A
 Miscellaneous Objects of Power,Fragment of the Alien God of the Moon Made of Steel and Thunder,6 SP,N/A
 Miscellaneous Objects of Power,Gameforge Console,10 SP,N/A
 Miscellaneous Objects of Power,Get Out Of Jail Free Card,5 SP,N/A
@@ -2525,6 +2549,7 @@ Miscellaneous Objects of Power,Object(s) of Power,5 SP,N/A
 Miscellaneous Objects of Power,One Human Soul,1 SP,N/A
 Miscellaneous Objects of Power,Perfect Companion,18 SP,N/A
 Miscellaneous Objects of Power,Plush Pal!,20 SP,N/A
+Miscellaneous Objects of Power,Sir Lull's Little Music Box,5 SP,N/A
 Miscellaneous Objects of Power,The Scholarly Skull,15 SP,N/A
 Miscellaneous Objects of Power,Thirty Pieces of Silver,25 SP,N/A
 Miscellaneous Objects of Power,Treasury,10 SP,N/A
@@ -2588,7 +2613,10 @@ Miscellaneous Objects of Power,Spatial Disk (The Stars Above),15 SP,N/A
 Miscellaneous Objects of Power,Cat & Mouse (Tom and Jerry),4 SP,N/A
 Miscellaneous Objects of Power,The AllSpark (Transformers),25 SP,N/A
 Miscellaneous Objects of Power,Tsukumogami (Tsugumomo),10 SP,N/A
+Miscellaneous Objects of Power,Völundr (Record of Ragnarok),15 SP,N/A
 Miscellaneous Objects of Power,Adepta Sororitas Sanctorum (Warhammer: 40k),30 SP,N/A
+Miscellaneous Objects of Power,Astra Militarum Battlegroup (Warhammer: 40K),20 SP,N/A
+Miscellaneous Objects of Power,Gyrinx (Warhammer: 40k),3 SP,N/A
 Miscellaneous Objects of Power,Officio Assassinorum Temples (Warhammer: 40k),30 SP,N/A
 Miscellaneous Objects of Power,Vigil of Sisters Of Silence (Warhammer: 40k),30 SP,N/A
 Miscellaneous Objects of Power,Warrant of Trade (Warhammer: 40k),13 SP,N/A
