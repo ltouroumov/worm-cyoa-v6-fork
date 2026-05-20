@@ -20,10 +20,13 @@ groups:
 - title: Physical Powers (Franchise)
   max_objects: 100
   rows:
+  - tr2h
+  - 9z61
+- title: Species and Genetics Powers (Franchise)
+  max_objects: 100
+  rows:
   - k0ynvk
   - xb92lo
-  - ir970k
-  - fkwc99
 - title: Magic and Mystic Powers (Franchise)
   max_objects: 100
   rows:
