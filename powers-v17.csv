@@ -454,6 +454,7 @@ Tier 1 - Tinker,(Tinker) Ergonomics,4 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Overclock,4 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Necromancer,4 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Rapid Prototyping,4 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker/Thinker) Dreamlife,4 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Swords,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Lorax,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Assistant,5 SP| 2 SP,N/A
@@ -533,6 +534,7 @@ Tier 1 - Tinker,(Tinker) Russian Roulette,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Material Density,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) AI Generated,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Stasis,8 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) But Where's The- DRAGON!!!,8 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Armored Warfare,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Poison,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Medicine,9 SP| 3 SP,N/A
@@ -1021,6 +1023,7 @@ Tier 1 - Trump,(Trump) Hyperfocused,10 SP,N/A
 Tier 1 - Trump,(Trump) Daimon,10 SP,N/A
 Tier 1 - Trump,(Trump) Third-Rate Tohu,10 SP,N/A
 Tier 1 - Trump,(Trump) Bigger IS Better!,10 SP,N/A
+Tier 1 - Trump,(Trump) Trump Card,10 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Krampus,11 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Supportive Copier,11 SP,N/A
 Tier 1 - Trump,(Trump) Fighting makes me stronger!,12 SP,N/A
@@ -1331,6 +1334,8 @@ Tier 3 Powers,(Blaster/Trump) Disco Ball,25 SP,N/A
 Tier 3 Powers,(Breaker/Trump) Herald of the End,30 SP,N/A
 Tier 3 Powers,(Blaster/Shaker) Buster,30 SP,N/A
 Tier 3 Powers,(Trump) Iconoclast,35 SP,N/A
+Tier 3 Powers,(Trump/Brute) Resurrective Trigger,30 SP,N/A
+Tier 3 Powers,(Stranger/Master) Masquerade,25 SP,N/A
 Shard Upgrades & Fusions,Tier 0 Upgrades,,N/A
 Shard Upgrades & Fusions,Tier 1 Upgrades,,N/A
 Shard Upgrades & Fusions,Tier 2 Upgrades,,N/A
@@ -1558,6 +1563,7 @@ Species and Genetics Powers (Original),Living Dungeon,40 SP,N/A
 Species and Genetics Powers (Original),Bridge of the Skies and Seas,15 SP,N/A
 Species and Genetics Powers (Original),Superorganism,25 SP,N/A
 Species and Genetics Powers (Original),The Reaper's Familiar,10 SP,N/A
+Species and Genetics Powers (Original),Robozons,15 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1663,6 +1669,7 @@ Mental and Psychic Powers (Original),Violent Beast,3 SP,N/A
 Mental and Psychic Powers (Original),Afterimages,1 SP,N/A
 Mental and Psychic Powers (Original),Whistleblower,6 SP,N/A
 Mental and Psychic Powers (Original),Conceptualisation,3 SP,N/A
+Mental and Psychic Powers (Original),Survivor,5 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1755,6 +1762,7 @@ Magic and Mystic Powers (Original),The Runes of the Hanged God,40 SP,N/A
 Magic and Mystic Powers (Original),Mana Burn,8 SP,N/A
 Magic and Mystic Powers (Original),Arcane Synapse,15 SP,N/A
 Magic and Mystic Powers (Original),Arcane Knight,15 SP,N/A
+Magic and Mystic Powers (Original),Digestion Magic,10 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -1888,6 +1896,7 @@ Spiritual and Divine Powers (Original),Heart of The Ashen Martyr,25 SP,N/A
 Spiritual and Divine Powers (Original),Guiding Hands of Midas,4 SP,N/A
 Spiritual and Divine Powers (Original),Incarnating Touch,25 SP,N/A
 Spiritual and Divine Powers (Original),BURN,35 SP,N/A
+Spiritual and Divine Powers (Original),FREEZE,35 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),Biotech,5 SP,N/A
@@ -2079,6 +2088,7 @@ Foundation Powers,Spend [X] To Make [X],20 SP,N/A
 Foundation Powers,Askesis,10 SP,N/A
 Foundation Powers,Average One,15 SP,N/A
 Foundation Powers,Half-Ascended Talent,5 SP,N/A
+Foundation Powers,Hard Work Pays Off,10 SP,N/A
 Foundation Powers,Blooming Genius,5 SP,N/A
 Foundation Powers,Chakra Opening,15 SP,N/A
 Foundation Powers,Rock Bottom,20 SP,N/A
@@ -2087,6 +2097,7 @@ Foundation Powers,Anathema: That Which Rejects All,25 SP,N/A
 Foundation Powers,Keeping the Code,3 SP,N/A
 Foundation Powers,The Snail,25 SP,N/A
 Foundation Powers,Boost-Lock,15 SP,N/A
+Foundation Powers,Re-Build,5 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2110,6 +2121,7 @@ Foundation Powers,Can't You Complicate It? (Magical Girl ☆Sym-tan☆),50 SP,N/
 Foundation Powers,Heroic Containers (Legend of Zelda),5 SP,N/A
 Foundation Powers,Leader (Magical Girls also have Strength Anxiety),10 SP,N/A
 Foundation Powers,Shining Magical Girl (Magical Girl Has Been Exposed),10 SP,N/A
+Foundation Powers,Player (Overlord),10 SP,N/A
 Keystone Powers,Path of the Worldwalker,,Required: g51j
 Keystone Powers,World-Walker,25 SP,N/A
 Keystone Powers,Elder World-Walker,35 SP,Required: World-Walker
@@ -2317,3 +2329,4 @@ Miscellaneous Objects of Power,Daedric Equipment (The Elder Scrolls),5 SP,N/A
 Miscellaneous Objects of Power,The AllSpark (Transformers),25 SP,N/A
 Miscellaneous Objects of Power,Warrant of Trade (Warhammer: 40k),13 SP,N/A
 Miscellaneous Objects of Power,Conversion Token Generator,15 SP,N/A
+Miscellaneous Objects of Power,Comfy Bed,4 SP,N/A
