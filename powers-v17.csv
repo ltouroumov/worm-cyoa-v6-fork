@@ -455,6 +455,7 @@ Tier 1 - Tinker,(Tinker) Overclock,4 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Necromancer,4 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Rapid Prototyping,4 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker/Thinker) Dreamlife,4 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker) Chimeric,4 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Swords,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Lorax,5 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Assistant,5 SP| 2 SP,N/A
@@ -576,6 +577,7 @@ Tier 1 - Tinker,(Tinker) Lasers!,14 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Information,14 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Infectious Enhancements,14 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Souls Tech,14 SP| 5 SP,N/A
+Tier 1 - Tinker,(Tinker/Trump) Cape Cosplay,14 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Code,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Terraforming,15 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Amplifiers and Dampeners,15 SP| 5 SP,N/A
@@ -728,6 +730,7 @@ Tier 1 - Thinker,(Thinker/Mover) Dead as Disco,5 SP,N/A
 Tier 1 - Thinker,(Thinker) Unwilling Prodigy,5 SP,N/A
 Tier 1 - Thinker,(Thinker/Striker) Data Transfer,5 SP,N/A
 Tier 1 - Thinker,(Thinker/Brute) Dark Knight,5 SP,N/A
+Tier 1 - Thinker,(Thinker) Compiler,5 SP,N/A
 Tier 1 - Thinker,(Thinker) Ghostmates,6 SP,N/A
 Tier 1 - Thinker,(Thinker) Sightless Predictions,6 SP,N/A
 Tier 1 - Thinker,(Thinker) Precognitive Combat,6 SP,N/A
@@ -774,6 +777,7 @@ Tier 1 - Thinker,(Thinker) Respawn,14 SP,N/A
 Tier 1 - Thinker,(Thinker/Mover) Pathfinder,15 SP,N/A
 Tier 1 - Thinker,(Thinker/Master) Self Image,15 SP,N/A
 Tier 1 - Thinker,(Thinker/Trump) Glass Cannon,15 SP,N/A
+Tier 1 - Thinker,(Thinker/Trump) Nikke,15 SP,N/A
 Tier 1 - Striker,(Striker) Knockout,1 SP,N/A
 Tier 1 - Striker,(Striker) Futureport,1 SP,N/A
 Tier 1 - Striker,(Striker) Gympie-Gympie,1 SP,N/A
@@ -911,6 +915,7 @@ Tier 1 - Changer,(Changer/Brute) Exaggerated Figure,6 SP,N/A
 Tier 1 - Changer,(Changer/Master) Culture,6 SP,N/A
 Tier 1 - Changer,(Changer) Mutant Beast,6 SP,N/A
 Tier 1 - Changer,(Changer/Trump) Versatail,6 SP,N/A
+Tier 1 - Changer,(Changer) Body Potential,6 SP,N/A
 Tier 1 - Changer,(Changer/Trump) Kirby,7 SP,N/A
 Tier 1 - Changer,(Changer) Transformers,7 SP,N/A
 Tier 1 - Changer,(Changer/Stranger) Oblex Impersonation,7 SP,N/A
@@ -919,6 +924,7 @@ Tier 1 - Changer,(Changer) Human Centipede,7 SP,N/A
 Tier 1 - Changer,(Changer/Blaster) Swiss Army Man,7 SP,N/A
 Tier 1 - Changer,(Changer/Master) Reefshell,7 SP,N/A
 Tier 1 - Changer,(Changer) “Dragonfly”,7 SP,N/A
+Tier 1 - Changer,(Changer/Stranger) Eugenics,7 SP,N/A
 Tier 1 - Changer,"(Changer/Trump) It's a me, a Mario!",8 SP,N/A
 Tier 1 - Changer,(Changer/Striker) Amalgam,8 SP,N/A
 Tier 1 - Changer,(Changer/Brute) Stitch Blanket,8 SP,N/A
@@ -1564,6 +1570,8 @@ Species and Genetics Powers (Original),Bridge of the Skies and Seas,15 SP,N/A
 Species and Genetics Powers (Original),Superorganism,25 SP,N/A
 Species and Genetics Powers (Original),The Reaper's Familiar,10 SP,N/A
 Species and Genetics Powers (Original),Robozons,15 SP,N/A
+Species and Genetics Powers (Original),Gorgon Variant,15 SP,N/A
+Species and Genetics Powers (Original),You are my Rider,5 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1670,6 +1678,8 @@ Mental and Psychic Powers (Original),Afterimages,1 SP,N/A
 Mental and Psychic Powers (Original),Whistleblower,6 SP,N/A
 Mental and Psychic Powers (Original),Conceptualisation,3 SP,N/A
 Mental and Psychic Powers (Original),Survivor,5 SP,N/A
+Mental and Psychic Powers (Original),The Library of the Mind,5 SP,N/A
+Mental and Psychic Powers (Original),Scientific Method Cranked to 11,3 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1763,6 +1773,8 @@ Magic and Mystic Powers (Original),Mana Burn,8 SP,N/A
 Magic and Mystic Powers (Original),Arcane Synapse,15 SP,N/A
 Magic and Mystic Powers (Original),Arcane Knight,15 SP,N/A
 Magic and Mystic Powers (Original),Digestion Magic,10 SP,N/A
+Magic and Mystic Powers (Original),Monster Development 101,20 SP,N/A
+Magic and Mystic Powers (Original),Spell Swap,4 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -1897,9 +1909,11 @@ Spiritual and Divine Powers (Original),Guiding Hands of Midas,4 SP,N/A
 Spiritual and Divine Powers (Original),Incarnating Touch,25 SP,N/A
 Spiritual and Divine Powers (Original),BURN,35 SP,N/A
 Spiritual and Divine Powers (Original),FREEZE,35 SP,N/A
+Spiritual and Divine Powers (Original),Haunted Place,10 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),Biotech,5 SP,N/A
+Technology and Artifice Powers (Original),Soultech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
 Technology and Artifice Powers (Original),Datumplane,5 SP,N/A
 Technology and Artifice Powers (Original),The Celestial Workshop,20 SP,N/A
@@ -2122,6 +2136,8 @@ Foundation Powers,Heroic Containers (Legend of Zelda),5 SP,N/A
 Foundation Powers,Leader (Magical Girls also have Strength Anxiety),10 SP,N/A
 Foundation Powers,Shining Magical Girl (Magical Girl Has Been Exposed),10 SP,N/A
 Foundation Powers,Player (Overlord),10 SP,N/A
+Foundation Powers,Empowered by the People (Kizoku Tensei),5 SP,N/A
+Foundation Powers,Mark of the Fool (Mark of the Fool),7 SP,N/A
 Keystone Powers,Path of the Worldwalker,,Required: g51j
 Keystone Powers,World-Walker,25 SP,N/A
 Keystone Powers,Elder World-Walker,35 SP,Required: World-Walker
@@ -2261,6 +2277,7 @@ Paragon Powers,Conquest,120 SP,N/A
 Paragon Powers,Celestial Inventory,120 SP,N/A
 Paragon Powers,Summoner's Sanctuary,120 SP,N/A
 Miscellaneous Objects of Power,An Ordinary Rock,5 SP,N/A
+Miscellaneous Objects of Power,Black Card,7 SP,N/A
 Miscellaneous Objects of Power,Dalilah's Razor,5 SP,N/A
 Miscellaneous Objects of Power,Dimensional Cage,35 SP,N/A
 Miscellaneous Objects of Power,Displacement Containers,10 SP,N/A
