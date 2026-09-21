@@ -239,6 +239,7 @@ Tier 1 - Brute,"(Brute/Changer) Yeah, I Lift",13 SP,N/A
 Tier 1 - Brute,(Brute/Blaster) Mantis Shrimp,13 SP,N/A
 Tier 1 - Brute,(Brute) Rocky,14 SP,N/A
 Tier 1 - Brute,(Brute/Breaker) The Duke,14 SP,N/A
+Tier 1 - Brute,(Brute/Mover) Bizarre Physique,14 SP,N/A
 Tier 1 - Brute,(Brute/Trump) Stronger Together,15 SP,N/A
 Tier 1 - Brute,(Brute/Striker) Armor,15 SP,N/A
 Tier 1 - Brute,(Brute) Unbreakable,15 SP,N/A
@@ -1104,6 +1105,7 @@ Tier 1 - Stranger,(Stranger) My Source Is That I Made It The Fuck Up!,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Breaker) The Man in the Wall,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Trump) Evasive Manoeuvres,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Shaker) My Secret Life,8 SP,N/A
+Tier 1 - Stranger,(Stranger/Breaker) Sensory Squatter,8 SP,N/A
 Tier 1 - Stranger,(Stranger/Breaker) Hitchhike,9 SP,N/A
 Tier 1 - Stranger,(Stranger) Classified Information,9 SP,N/A
 Tier 1 - Stranger,(Stranger/Thinker) Discount Genie,9 SP,N/A
@@ -1342,6 +1344,7 @@ Tier 3 Powers,(Blaster/Shaker) Buster,30 SP,N/A
 Tier 3 Powers,(Trump) Iconoclast,35 SP,N/A
 Tier 3 Powers,(Trump/Brute) Resurrective Trigger,30 SP,N/A
 Tier 3 Powers,(Stranger/Master) Masquerade,25 SP,N/A
+Tier 3 Powers,(Trump/Thinker) Animus,25 SP,N/A
 Shard Upgrades & Fusions,Tier 0 Upgrades,,N/A
 Shard Upgrades & Fusions,Tier 1 Upgrades,,N/A
 Shard Upgrades & Fusions,Tier 2 Upgrades,,N/A
@@ -1572,6 +1575,7 @@ Species and Genetics Powers (Original),The Reaper's Familiar,10 SP,N/A
 Species and Genetics Powers (Original),Robozons,15 SP,N/A
 Species and Genetics Powers (Original),Gorgon Variant,15 SP,N/A
 Species and Genetics Powers (Original),You are my Rider,5 SP,N/A
+Species and Genetics Powers (Original),Without Form,12 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1680,11 +1684,14 @@ Mental and Psychic Powers (Original),Conceptualisation,3 SP,N/A
 Mental and Psychic Powers (Original),Survivor,5 SP,N/A
 Mental and Psychic Powers (Original),The Library of the Mind,5 SP,N/A
 Mental and Psychic Powers (Original),Scientific Method Cranked to 11,3 SP,N/A
+Mental and Psychic Powers (Original),One Second Warning,3 SP,N/A
+Mental and Psychic Powers (Original),Concept Transfer Language,5 SP,N/A
+Mental and Psychic Powers (Original),Eyes of Submission,12 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
 Magic and Mystic Powers (Original),Libriomancy,30 SP,N/A
-Magic and Mystic Powers (Original),Blood Magic,15 SP| 5 SP| 5 SP| 0 SP,N/A
+Magic and Mystic Powers (Original),Blood Magic,15 SP| 5 SP| 0 SP,N/A
 Magic and Mystic Powers (Original),Spiritual Magician,15 SP,N/A
 Magic and Mystic Powers (Original),Abyssal Warlock,15 SP,N/A
 Magic and Mystic Powers (Original),Magicbabble,30 SP,N/A
@@ -1910,10 +1917,13 @@ Spiritual and Divine Powers (Original),Incarnating Touch,25 SP,N/A
 Spiritual and Divine Powers (Original),BURN,35 SP,N/A
 Spiritual and Divine Powers (Original),FREEZE,35 SP,N/A
 Spiritual and Divine Powers (Original),Haunted Place,10 SP,N/A
+Spiritual and Divine Powers (Original),The Five Kleshas,35 SP,N/A
+Spiritual and Divine Powers (Original),Enlightened of Karma,2 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),Biotech,5 SP,N/A
 Technology and Artifice Powers (Original),Soultech,5 SP,N/A
+Technology and Artifice Powers (Original),Planetech,5 SP,N/A
 Technology and Artifice Powers (Original),The Craftsman,10 SP,N/A
 Technology and Artifice Powers (Original),Datumplane,5 SP,N/A
 Technology and Artifice Powers (Original),The Celestial Workshop,20 SP,N/A
@@ -1949,7 +1959,7 @@ Technology and Artifice Powers (Original),Kaiju Craft,7 SP,N/A
 Technology and Artifice Powers (Original),Codex Mechanica,25 SP,N/A
 Technology and Artifice Powers (Original),Earth Approved Science!,25 SP,N/A
 Technology and Artifice Powers (Original),The Father of Chemical Death,5 SP,N/A
-Technology and Artifice Powers (Original),Generic Super Tech,5 SP,N/A
+Technology and Artifice Powers (Original),Generic Super Tech,10 SP,N/A
 Technology and Artifice Powers (Original),Spaaaace!,5 SP,N/A
 Technology and Artifice Powers (Original),Civilisation Shaper,15 SP,N/A
 Technology and Artifice Powers (Original),Unrealistic Hacking,5 SP,N/A
@@ -2112,6 +2122,7 @@ Foundation Powers,Keeping the Code,3 SP,N/A
 Foundation Powers,The Snail,25 SP,N/A
 Foundation Powers,Boost-Lock,15 SP,N/A
 Foundation Powers,Re-Build,5 SP,N/A
+Foundation Powers,Card Game Player,30 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2138,6 +2149,7 @@ Foundation Powers,Shining Magical Girl (Magical Girl Has Been Exposed),10 SP,N/A
 Foundation Powers,Player (Overlord),10 SP,N/A
 Foundation Powers,Empowered by the People (Kizoku Tensei),5 SP,N/A
 Foundation Powers,Mark of the Fool (Mark of the Fool),7 SP,N/A
+Foundation Powers,Vanguard (Stray Cat Strut),25 SP,N/A
 Keystone Powers,Path of the Worldwalker,,Required: g51j
 Keystone Powers,World-Walker,25 SP,N/A
 Keystone Powers,Elder World-Walker,35 SP,Required: World-Walker
@@ -2293,7 +2305,7 @@ Miscellaneous Objects of Power,One Human Soul,1 SP,N/A
 Miscellaneous Objects of Power,Sir Lull's Little Music Box,5 SP,N/A
 Miscellaneous Objects of Power,The Blessed Cow Herd,5 SP,N/A
 Miscellaneous Objects of Power,Thirty Pieces of Silver,25 SP,N/A
-Miscellaneous Objects of Power,Treasury,10 SP,N/A
+Miscellaneous Objects of Power,Treasury,10 SP| 5 SP,N/A
 Miscellaneous Objects of Power,Upgrade Token,1 SP,N/A
 Miscellaneous Objects of Power,Comfy Bed,4 SP,N/A
 Miscellaneous Objects of Power,Teigu (Akame ga Kill),15 SP,N/A
@@ -2305,6 +2317,7 @@ Miscellaneous Objects of Power,Uni-Mind (Buzz Lightyear of Star Command),10 SP,N
 Miscellaneous Objects of Power,Haunted Collection (Creepypasta Mythos),10 SP,N/A
 Miscellaneous Objects of Power,H-Dial (DC Comics),30 SP,N/A
 Miscellaneous Objects of Power,Sigils of the Endless (DC Comics),50 SP,N/A
+Miscellaneous Objects of Power,The Life Equation (DC Comics),80 SP,N/A
 Miscellaneous Objects of Power,Psychic Paper (Doctor Who),5 SP| 0 SP,N/A
 Miscellaneous Objects of Power,Rainbow Chest (Enter the Gungeon),15 SP,N/A
 Miscellaneous Objects of Power,The Primordial Assimilation Stele (Fortune belongs to those that steal it),10 SP,N/A
@@ -2313,6 +2326,7 @@ Miscellaneous Objects of Power,Zonko’s box of Magic Prank Items (Harry Potter)
 Miscellaneous Objects of Power,Delicate Flower (Hollow Knight),1 SP,N/A
 Miscellaneous Objects of Power,Sylladex (Homestuck),15 SP,N/A
 Miscellaneous Objects of Power,Stigmata (Honkai Impact 3rd),8 SP,N/A
+Miscellaneous Objects of Power,Noble Crestones (Hundred Reigns),5 SP,N/A
 Miscellaneous Objects of Power,Magic Key (Indian in the Cupboard),25 SP,N/A
 Miscellaneous Objects of Power,Embryo (Infinite Dendrogram),15 SP,N/A
 Miscellaneous Objects of Power,Continental Hotel Membership (John Wick),10 SP,N/A
