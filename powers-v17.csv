@@ -35,12 +35,14 @@ Tier 1 - Mover,(Mover) Gear Shift,8 SP,N/A
 Tier 1 - Mover,(Mover/Trump) Winged One,8 SP,N/A
 Tier 1 - Mover,(Mover/Master) Seeing Double,9 SP,N/A
 Tier 1 - Mover,(Mover/Breaker) On Paper Wings,9 SP,N/A
+Tier 1 - Mover,(Mover/Trump) Can't Stop,9 SP,N/A
 Tier 1 - Mover,(Mover) Blink!,10 SP,N/A
 Tier 1 - Mover,(Mover/Breaker) Speed Connect,10 SP,N/A
 Tier 1 - Mover,(Mover) Sadako,10 SP,N/A
 Tier 1 - Mover,(Mover/Brute) Glide n’ Slide,10 SP,N/A
 Tier 1 - Mover,(Mover) Clock Up,10 SP,N/A
 Tier 1 - Mover,(Mover/Shaker) Kid Velocity,10 SP,N/A
+Tier 1 - Mover,(Mover/Brute) Lurching Intruder,10 SP,N/A
 Tier 1 - Mover,(Mover/Striker) Quicker than Thunder,11 SP,N/A
 Tier 1 - Mover,(Mover/Striker) Raze,11 SP,N/A
 Tier 1 - Mover,(Mover/Shaker) Move Cancel,12 SP,N/A
@@ -375,6 +377,7 @@ Tier 1 - Master,(Master/Thinker) Majority Report,7 SP,N/A
 Tier 1 - Master,(Master/Trump) Heartmaker,7 SP,N/A
 Tier 1 - Master,(Master) Narcissus,7 SP,N/A
 Tier 1 - Master,(Master/Stranger) Owe You One,7 SP,N/A
+Tier 1 - Master,(Master) Suzerain,7 SP,N/A
 Tier 1 - Master,(Master/Striker) Anti-Addictol,8 SP,N/A
 Tier 1 - Master,(Master) Technopathy,8 SP,N/A
 Tier 1 - Master,(Master/Thinker) Poison Ivy,8 SP,N/A
@@ -638,6 +641,7 @@ Tier 1 - Blaster,(Blaster/Striker) Paper Cuts,7 SP,N/A
 Tier 1 - Blaster,(Blaster/Thinker) Fistful of Dollars,7 SP,N/A
 Tier 1 - Blaster,(Blaster/Shaker) Voice of the Devil,7 SP,N/A
 Tier 1 - Blaster,(Blaster/Trump) Card Trickster,7 SP,N/A
+Tier 1 - Blaster,(Blaster/Stranger) Sniper's Nest,7 SP,N/A
 Tier 1 - Blaster,(Blaster) Lighthouse,8 SP,N/A
 Tier 1 - Blaster,(Blaster) Dollar Store Omega Beam,8 SP,N/A
 Tier 1 - Blaster,(Blaster) Bullet Hell,8 SP,N/A
@@ -665,6 +669,7 @@ Tier 1 - Blaster,(Blaster) Broken Phantasm,12 SP,N/A
 Tier 1 - Blaster,(Blaster) The Classic,12 SP,N/A
 Tier 1 - Blaster,(Blaster/Trump) Monochrome,12 SP,N/A
 Tier 1 - Blaster,(Blaster/Trump) Metronome,12 SP,N/A
+Tier 1 - Blaster,(Blaster/Changer) Rocket Fists,12 SP,N/A
 Tier 1 - Blaster,(Blaster/Shaker) Chomp!,13 SP,N/A
 Tier 1 - Blaster,(Blaster/Changer) Identity Theft,13 SP,N/A
 Tier 1 - Blaster,(Blaster/Trump) Burnout,13 SP,N/A
@@ -815,6 +820,7 @@ Tier 1 - Striker,(Striker) Twin Impact,5 SP,N/A
 Tier 1 - Striker,(Striker) Meat Touch,5 SP,N/A
 Tier 1 - Striker,(Striker/Breaker) The Void,5 SP,N/A
 Tier 1 - Striker,(Striker/Thinker) Cold Weaponry,5 SP,N/A
+Tier 1 - Striker,(Striker) Micromanipulators,5 SP,N/A
 Tier 1 - Striker,(Striker/Tinker) Fuse,6 SP| 2 SP,N/A
 Tier 1 - Striker,(Striker) Abstraction,6 SP,N/A
 Tier 1 - Striker,(Striker) Echo,6 SP,N/A
@@ -1576,6 +1582,7 @@ Species and Genetics Powers (Original),Robozons,15 SP,N/A
 Species and Genetics Powers (Original),Gorgon Variant,15 SP,N/A
 Species and Genetics Powers (Original),You are my Rider,5 SP,N/A
 Species and Genetics Powers (Original),Without Form,12 SP,N/A
+Species and Genetics Powers (Original),Bunny in a Hat,15 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1687,6 +1694,8 @@ Mental and Psychic Powers (Original),Scientific Method Cranked to 11,3 SP,N/A
 Mental and Psychic Powers (Original),One Second Warning,3 SP,N/A
 Mental and Psychic Powers (Original),Concept Transfer Language,5 SP,N/A
 Mental and Psychic Powers (Original),Eyes of Submission,12 SP,N/A
+Mental and Psychic Powers (Original),The Torment Nexus,30 SP,N/A
+Mental and Psychic Powers (Original),Schrödinger's Latch,30 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1731,6 +1740,7 @@ Magic and Mystic Powers (Original),Red Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Blue Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Black Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Purple Mage,10 SP,N/A
+Magic and Mystic Powers (Original),Cyan Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Battle Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Liber Arcana,10 SP,N/A
 Magic and Mystic Powers (Original),Virga Arcana,2 SP,N/A
@@ -1782,6 +1792,8 @@ Magic and Mystic Powers (Original),Arcane Knight,15 SP,N/A
 Magic and Mystic Powers (Original),Digestion Magic,10 SP,N/A
 Magic and Mystic Powers (Original),Monster Development 101,20 SP,N/A
 Magic and Mystic Powers (Original),Spell Swap,4 SP,N/A
+Magic and Mystic Powers (Original),Kaiju Witch,15 SP,N/A
+Magic and Mystic Powers (Original),Thread Magic,15 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -1886,7 +1898,6 @@ Spiritual and Divine Powers (Original),With A Gentle Hand,3 SP,N/A
 Spiritual and Divine Powers (Original),Two Part Cavalry,7 SP,N/A
 Spiritual and Divine Powers (Original),Marked for Hell,10 SP,N/A
 Spiritual and Divine Powers (Original),You Speak in Matter. You Hear in Light.,10 SP,N/A
-Spiritual and Divine Powers (Original),The Way of the Falling Petal,5 SP,N/A
 Spiritual and Divine Powers (Original),Gilded Right Hand,7 SP,N/A
 Spiritual and Divine Powers (Original),Soul of Royalty,15 SP,N/A
 Spiritual and Divine Powers (Original),"Gemini, the Ghost Twins",7 SP,N/A
@@ -1919,6 +1930,7 @@ Spiritual and Divine Powers (Original),FREEZE,35 SP,N/A
 Spiritual and Divine Powers (Original),Haunted Place,10 SP,N/A
 Spiritual and Divine Powers (Original),The Five Kleshas,35 SP,N/A
 Spiritual and Divine Powers (Original),Enlightened of Karma,2 SP,N/A
+Spiritual and Divine Powers (Original),The Black Parade,16 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),Biotech,5 SP,N/A
@@ -1966,6 +1978,7 @@ Technology and Artifice Powers (Original),Unrealistic Hacking,5 SP,N/A
 Technology and Artifice Powers (Original),Junkyard Artificer,3 SP,N/A
 Technology and Artifice Powers (Original),Techno-plagiarism,7 SP,N/A
 Technology and Artifice Powers (Original),Techno-Savant,20 SP,N/A
+Technology and Artifice Powers (Original),Magical Girl Creation Kit,20 SP,N/A
 Ascension Path,Dragon,30 SP,N/A
 Ascension Path,Fae,10 SP,N/A
 Ascension Path,Vampire Lord,15 SP,N/A
@@ -2123,6 +2136,7 @@ Foundation Powers,The Snail,25 SP,N/A
 Foundation Powers,Boost-Lock,15 SP,N/A
 Foundation Powers,Re-Build,5 SP,N/A
 Foundation Powers,Card Game Player,30 SP,N/A
+Foundation Powers,Rooting In,5 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2290,6 +2304,7 @@ Paragon Powers,Celestial Inventory,120 SP,N/A
 Paragon Powers,Summoner's Sanctuary,120 SP,N/A
 Miscellaneous Objects of Power,An Ordinary Rock,5 SP,N/A
 Miscellaneous Objects of Power,Black Card,7 SP,N/A
+Miscellaneous Objects of Power,Conversion Token Generator,15 SP,N/A
 Miscellaneous Objects of Power,Dalilah's Razor,5 SP,N/A
 Miscellaneous Objects of Power,Dimensional Cage,35 SP,N/A
 Miscellaneous Objects of Power,Displacement Containers,10 SP,N/A
@@ -2298,6 +2313,7 @@ Miscellaneous Objects of Power,Gameforge Console,10 SP,N/A
 Miscellaneous Objects of Power,Get Out Of Jail Free Card,5 SP,N/A
 Miscellaneous Objects of Power,Heart of a Tattletale,7 SP,N/A
 Miscellaneous Objects of Power,Homunculus,5 SP,N/A
+Miscellaneous Objects of Power,License to ____,10 SP,N/A
 Miscellaneous Objects of Power,Mystery Box,5 SP,N/A
 Miscellaneous Objects of Power,Nyxora Sentis “Mindbloom”,3 SP,N/A
 Miscellaneous Objects of Power,Object(s) of Power,5 SP,N/A
@@ -2360,4 +2376,3 @@ Miscellaneous Objects of Power,Terraria Equipment (Terraria),7 SP,N/A
 Miscellaneous Objects of Power,Daedric Equipment (The Elder Scrolls),5 SP,N/A
 Miscellaneous Objects of Power,The AllSpark (Transformers),25 SP,N/A
 Miscellaneous Objects of Power,Warrant of Trade (Warhammer: 40k),13 SP,N/A
-Miscellaneous Objects of Power,Conversion Token Generator,15 SP,N/A
