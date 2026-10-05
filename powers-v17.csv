@@ -378,6 +378,7 @@ Tier 1 - Master,(Master/Trump) Heartmaker,7 SP,N/A
 Tier 1 - Master,(Master) Narcissus,7 SP,N/A
 Tier 1 - Master,(Master/Stranger) Owe You One,7 SP,N/A
 Tier 1 - Master,(Master) Suzerain,7 SP,N/A
+Tier 1 - Master,(Master) Bugs,7 SP,N/A
 Tier 1 - Master,(Master/Striker) Anti-Addictol,8 SP,N/A
 Tier 1 - Master,(Master) Technopathy,8 SP,N/A
 Tier 1 - Master,(Master/Thinker) Poison Ivy,8 SP,N/A
@@ -778,6 +779,7 @@ Tier 1 - Thinker,(Thinker) Mr(s). Fixit,10 SP,N/A
 Tier 1 - Thinker,(Thinker) Plans within Plans,12 SP,N/A
 Tier 1 - Thinker,(Thinker) Past Sight,12 SP,N/A
 Tier 1 - Thinker,(Thinker/Mover) Sphere of Insight,13 SP,N/A
+Tier 1 - Thinker,(Thinker/Trump) Smartest Person In The Room,13 SP,N/A
 Tier 1 - Thinker,(Thinker) Laplace Demon,14 SP,N/A
 Tier 1 - Thinker,(Thinker) Respawn,14 SP,N/A
 Tier 1 - Thinker,(Thinker/Mover) Pathfinder,15 SP,N/A
@@ -821,6 +823,7 @@ Tier 1 - Striker,(Striker) Meat Touch,5 SP,N/A
 Tier 1 - Striker,(Striker/Breaker) The Void,5 SP,N/A
 Tier 1 - Striker,(Striker/Thinker) Cold Weaponry,5 SP,N/A
 Tier 1 - Striker,(Striker) Micromanipulators,5 SP,N/A
+Tier 1 - Striker,(Striker/Breaker) (In)Finite,5 SP,N/A
 Tier 1 - Striker,(Striker/Tinker) Fuse,6 SP| 2 SP,N/A
 Tier 1 - Striker,(Striker) Abstraction,6 SP,N/A
 Tier 1 - Striker,(Striker) Echo,6 SP,N/A
@@ -1065,6 +1068,7 @@ Tier 1 - Trump,(Trump) Some for One,15 SP,N/A
 Tier 1 - Trump,(Trump/Brute) Looks Matter,15 SP,N/A
 Tier 1 - Trump,(Trump) Variant Copier,15 SP,N/A
 Tier 1 - Trump,(Trump/Brute) Selfish Love,15 SP,N/A
+Tier 1 - Trump,(Trump/Striker) Forced Activation,15 SP,N/A
 Tier 1 - Stranger,(Stranger) Off Record,1 SP,N/A
 Tier 1 - Stranger,(Stranger) The Words Are Silent,1 SP,N/A
 Tier 1 - Stranger,(Stranger/Shaker) Inviolable Shadows,1 SP,N/A
@@ -1093,6 +1097,7 @@ Tier 1 - Stranger,(Stranger) Dark Side of the Moon,5 SP,N/A
 Tier 1 - Stranger,(Stranger) Missing The Trees,5 SP,N/A
 Tier 1 - Stranger,(Stranger/Changer) Cute Charm,5 SP,N/A
 Tier 1 - Stranger,(Stranger/Master) Abusive,5 SP,N/A
+Tier 1 - Stranger,(Stranger/Breaker) Escamotage,5 SP,N/A
 Tier 1 - Stranger,(Stranger) New Identity,6 SP,N/A
 Tier 1 - Stranger,(Stranger/Brute) Ghost Equipment,6 SP,N/A
 Tier 1 - Stranger,(Stranger) Cry Wolf,6 SP,N/A
@@ -1931,6 +1936,7 @@ Spiritual and Divine Powers (Original),Haunted Place,10 SP,N/A
 Spiritual and Divine Powers (Original),The Five Kleshas,35 SP,N/A
 Spiritual and Divine Powers (Original),Enlightened of Karma,2 SP,N/A
 Spiritual and Divine Powers (Original),The Black Parade,16 SP,N/A
+Spiritual and Divine Powers (Original),Impure Resurrection,20 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),Biotech,5 SP,N/A
@@ -1979,6 +1985,7 @@ Technology and Artifice Powers (Original),Junkyard Artificer,3 SP,N/A
 Technology and Artifice Powers (Original),Techno-plagiarism,7 SP,N/A
 Technology and Artifice Powers (Original),Techno-Savant,20 SP,N/A
 Technology and Artifice Powers (Original),Magical Girl Creation Kit,20 SP,N/A
+Technology and Artifice Powers (Original),Ishara Technician,25 SP,N/A
 Ascension Path,Dragon,30 SP,N/A
 Ascension Path,Fae,10 SP,N/A
 Ascension Path,Vampire Lord,15 SP,N/A
@@ -2002,6 +2009,7 @@ Ascension Path,Elemental Spirit,15 SP,N/A
 Ascension Path,Incarnation,10 SP,N/A
 Ascension Path,High Human,10 SP,N/A
 Ascension Path,Mimic,10 SP,N/A
+Ascension Path,Wild Beast,10 SP,N/A
 Foundation Powers,Gamer System,20 SP,N/A
 Foundation Powers,Dynamist Jr.,20 SP,N/A
 Foundation Powers,Polybius Remastered,12 SP,N/A
@@ -2137,6 +2145,9 @@ Foundation Powers,Boost-Lock,15 SP,N/A
 Foundation Powers,Re-Build,5 SP,N/A
 Foundation Powers,Card Game Player,30 SP,N/A
 Foundation Powers,Rooting In,5 SP,N/A
+Foundation Powers,Spreading Out,5 SP,N/A
+Foundation Powers,This Isn't Even My Final Form?,15 SP,N/A
+Foundation Powers,Debuff Stacking,3 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2334,6 +2345,7 @@ Miscellaneous Objects of Power,Haunted Collection (Creepypasta Mythos),10 SP,N/A
 Miscellaneous Objects of Power,H-Dial (DC Comics),30 SP,N/A
 Miscellaneous Objects of Power,Sigils of the Endless (DC Comics),50 SP,N/A
 Miscellaneous Objects of Power,The Life Equation (DC Comics),80 SP,N/A
+Miscellaneous Objects of Power,The Anti-Life Equation (DC Comics),80 SP,N/A
 Miscellaneous Objects of Power,Psychic Paper (Doctor Who),5 SP| 0 SP,N/A
 Miscellaneous Objects of Power,Rainbow Chest (Enter the Gungeon),15 SP,N/A
 Miscellaneous Objects of Power,The Primordial Assimilation Stele (Fortune belongs to those that steal it),10 SP,N/A
