@@ -14,6 +14,8 @@ on errors rather than printing to console.
 import base64
 import functools
 import io
+import ipaddress
+import socket
 import urllib.parse
 from dataclasses import dataclass, replace
 from pathlib import Path
@@ -734,9 +736,34 @@ def download_external_image(
     )
 
   try:
-    response = requests.get(str.strip(image_info.image_data))
+    url = str.strip(image_info.image_data)
+    parsed_url = urllib.parse.urlparse(url)
+    if parsed_url.scheme not in ("http", "https") or not parsed_url.hostname:
+      return DownloadResult(
+        image_info=image_info,
+        image_type="",
+        export_name="",
+        export_url="",
+        error="Blocked URL: unsupported scheme or missing host",
+      )
+    resolved_ip = ipaddress.ip_address(socket.gethostbyname(parsed_url.hostname))
+    if (
+      resolved_ip.is_private
+      or resolved_ip.is_loopback
+      or resolved_ip.is_link_local
+      or resolved_ip.is_reserved
+      or resolved_ip.is_multicast
+    ):
+      return DownloadResult(
+        image_info=image_info,
+        image_type="",
+        export_name="",
+        export_url="",
+        error=f"Blocked URL: internal host {parsed_url.hostname}",
+      )
+
+    response = requests.get(url, timeout=10)
     if not response.ok:
-      parsed_url = urllib.parse.urlparse(str.strip(image_info.image_data))
       return DownloadResult(
         image_info=image_info,
         image_type="",
