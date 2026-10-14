@@ -6,7 +6,7 @@ authors = [{ name = "Laureline David", email = "ltouroumov@gmail.com" }]
 requires-python = ">=3.14,<3.15"
 dependencies = [
     "rich",
-    "pillow",
+    "pillow>=12.3.0",
     "humanize",
     "lenses",
     "requests",
