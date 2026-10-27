@@ -60,14 +60,12 @@ groups:
   rows:
   - group--3pua
   - group--lxob6d
-  - group--l7zyuf
 - title: Esoteric and Abstract Powers (Franchise)
   max_objects: 100
   prefix: group--
   rows:
   - group--iehqzt
   - group--ccjj0d
-  - group--bfxjty
 - title: Weapon Objects of Power
   max_objects: 100
   prefix: group--
@@ -116,7 +114,6 @@ groups:
   rows:
   - group--ufcz
   - group--3yme31
-  - group--zuzg66
 - title: Foundation Upgrades
   max_objects: 100
   prefix: group--

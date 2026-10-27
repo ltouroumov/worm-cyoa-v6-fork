@@ -1588,6 +1588,7 @@ Species and Genetics Powers (Original),Gorgon Variant,15 SP,N/A
 Species and Genetics Powers (Original),You are my Rider,5 SP,N/A
 Species and Genetics Powers (Original),Without Form,12 SP,N/A
 Species and Genetics Powers (Original),Bunny in a Hat,15 SP,N/A
+Species and Genetics Powers (Original),The Comforting Fragrance Of Death,20 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1701,6 +1702,13 @@ Mental and Psychic Powers (Original),Concept Transfer Language,5 SP,N/A
 Mental and Psychic Powers (Original),Eyes of Submission,12 SP,N/A
 Mental and Psychic Powers (Original),The Torment Nexus,30 SP,N/A
 Mental and Psychic Powers (Original),Schrödinger's Latch,30 SP,N/A
+Mental and Psychic Powers (Original),Merchant's Appraisal,5 SP,N/A
+Mental and Psychic Powers (Original),Killing Intent,5 SP,N/A
+Mental and Psychic Powers (Original),Fiery Golden Eyes,20 SP,N/A
+Mental and Psychic Powers (Original),Talent Check,2 SP,N/A
+Mental and Psychic Powers (Original),Dragon Tamer,15 SP,N/A
+Mental and Psychic Powers (Original),The Ultimate Goon,10 SP,N/A
+Mental and Psychic Powers (Original),Generic Pulp Hero,7 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1937,6 +1945,8 @@ Spiritual and Divine Powers (Original),The Five Kleshas,35 SP,N/A
 Spiritual and Divine Powers (Original),Enlightened of Karma,2 SP,N/A
 Spiritual and Divine Powers (Original),The Black Parade,16 SP,N/A
 Spiritual and Divine Powers (Original),Impure Resurrection,20 SP,N/A
+Spiritual and Divine Powers (Original),Garden of Avalon,20 SP,N/A
+Spiritual and Divine Powers (Original),Tower Lost in Time,20 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),Biotech,5 SP,N/A
@@ -2148,6 +2158,8 @@ Foundation Powers,Rooting In,5 SP,N/A
 Foundation Powers,Spreading Out,5 SP,N/A
 Foundation Powers,This Isn't Even My Final Form?,15 SP,N/A
 Foundation Powers,Debuff Stacking,3 SP,N/A
+Foundation Powers,"D.A.G. (Devour, Assimilate, Gift)",15 SP,N/A
+Foundation Powers,Sovereign of Alchemy,25 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
 Foundation Powers,666 Evil Eyes (Essence Meta CYOA),20 SP,N/A
 Foundation Powers,Primal Tattoo (Far Cry 3),6 SP,N/A
@@ -2160,7 +2172,6 @@ Foundation Powers,Epiphany in the Jaws of Death (Type-Moon),6 SP,N/A
 Foundation Powers,Interface (Dorothy’s Forbidden Grimoire),10 SP,N/A
 Foundation Powers,Girl of Magic (Magical Girl ☆Sym-tan☆),7 SP,N/A
 Foundation Powers,Phase Awakened (Closers),15 SP,N/A
-Foundation Powers,"D.A.G. (Devour, Assimilate, Gift)",15 SP,N/A
 Foundation Powers,Skill Master (Ascension Through Skill),15 SP,N/A
 Foundation Powers,Choose Your Idol (Holocure: Save the Fans!),15 SP,N/A
 Foundation Powers,Seven Stars (Reincarnator),10 SP,N/A
@@ -2175,6 +2186,7 @@ Foundation Powers,Player (Overlord),10 SP,N/A
 Foundation Powers,Empowered by the People (Kizoku Tensei),5 SP,N/A
 Foundation Powers,Mark of the Fool (Mark of the Fool),7 SP,N/A
 Foundation Powers,Vanguard (Stray Cat Strut),25 SP,N/A
+Foundation Powers,Grand Design of Isthekenous (The Wandering Inn),12 SP,N/A
 Keystone Powers,Path of the Worldwalker,,Required: g51j
 Keystone Powers,World-Walker,25 SP,N/A
 Keystone Powers,Elder World-Walker,35 SP,Required: World-Walker
