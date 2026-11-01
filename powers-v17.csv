@@ -351,6 +351,7 @@ Tier 1 - Master,(Master) Hypnodancer,5 SP,N/A
 Tier 1 - Master,(Master/Trump) Blank Doll,5 SP,N/A
 Tier 1 - Master,(Master/Stranger) Workers,5 SP,N/A
 Tier 1 - Master,(Master) Irresistible Dance,5 SP,N/A
+Tier 1 - Master,(Master) Perfect Stand-In,5 SP,N/A
 Tier 1 - Master,(Master/Thinker) Instinct,6 SP,N/A
 Tier 1 - Master,(Master) Ratatouille,6 SP,N/A
 Tier 1 - Master,(Master/Brute) Come at Me Bro!,6 SP,N/A
@@ -416,6 +417,7 @@ Tier 1 - Master,(Master) Kitbash,10 SP,N/A
 Tier 1 - Master,(Master/Thinker) Brain Worms,10 SP,N/A
 Tier 1 - Master,(Master/Breaker) Blood Spill,10 SP,N/A
 Tier 1 - Master,(Master/Trump) Lionheart,11 SP,N/A
+Tier 1 - Master,(Master) Potter’s Clay,11 SP,N/A
 Tier 1 - Master,(Master) Victory's Path,11 SP,N/A
 Tier 1 - Master,(Master/Stranger) Sleeping Guard,11 SP,N/A
 Tier 1 - Master,(Master/Shaker) Starving Shade,11 SP,N/A
@@ -438,6 +440,7 @@ Tier 1 - Tinker,(Tinker) Cannibal,1 SP,N/A
 Tier 1 - Tinker,(Tinker) Jack of All Trades,2 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Thrown,2 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Bell,2 SP| 1 SP,N/A
+Tier 1 - Tinker,(Tinker) Machine Interface,2 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Detection and Analysis,3 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Sharing,3 SP| 1 SP,N/A
 Tier 1 - Tinker,(Tinker) Brotato,3 SP| 1 SP,N/A
@@ -548,6 +551,7 @@ Tier 1 - Tinker,(Tinker) Rocketman,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker/Trump) Fluctuation,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Ace Combat,9 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Metropolis,9 SP| 3 SP,N/A
+Tier 1 - Tinker,(Tinker) Probability Manipulation,9 SP| 3 SP,N/A
 Tier 1 - Tinker,"(Tinker/Thinker) Suppress, Conjecture, Predict",10 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Rube Goldberg Machines,10 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Meme,10 SP| 4 SP,N/A
@@ -571,7 +575,6 @@ Tier 1 - Tinker,(Tinker) Weatherman,11 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Assimilation,11 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Reproduction,12 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker) Self-Alteration,12 SP| 4 SP,N/A
-Tier 1 - Tinker,(Tinker) Probability Manipulation,12 SP| 4 SP,N/A
 Tier 1 - Tinker,(Tinker/Master) Nanobots,13 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker/Master) Machine World,13 SP| 5 SP,N/A
 Tier 1 - Tinker,(Tinker) Nanites,13 SP| 5 SP,N/A
@@ -1589,6 +1592,8 @@ Species and Genetics Powers (Original),You are my Rider,5 SP,N/A
 Species and Genetics Powers (Original),Without Form,12 SP,N/A
 Species and Genetics Powers (Original),Bunny in a Hat,15 SP,N/A
 Species and Genetics Powers (Original),The Comforting Fragrance Of Death,20 SP,N/A
+Species and Genetics Powers (Original),Anthromorphs,5 SP,N/A
+Species and Genetics Powers (Original),Royal Monster,20 SP,N/A
 Mental and Psychic Powers (Original),Wifi,4 SP,N/A
 Mental and Psychic Powers (Original),MUSE,5 SP,N/A
 Mental and Psychic Powers (Original),Repentance,3 SP,N/A
@@ -1750,6 +1755,7 @@ Magic and Mystic Powers (Original),The Mage,20 SP,N/A
 Magic and Mystic Powers (Original),White Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Green Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Red Mage,10 SP,N/A
+Magic and Mystic Powers (Original),Yellow Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Blue Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Black Mage,10 SP,N/A
 Magic and Mystic Powers (Original),Purple Mage,10 SP,N/A
@@ -1807,6 +1813,8 @@ Magic and Mystic Powers (Original),Monster Development 101,20 SP,N/A
 Magic and Mystic Powers (Original),Spell Swap,4 SP,N/A
 Magic and Mystic Powers (Original),Kaiju Witch,15 SP,N/A
 Magic and Mystic Powers (Original),Thread Magic,15 SP,N/A
+Magic and Mystic Powers (Original),Wish Magic,30 SP,N/A
+Magic and Mystic Powers (Original),Mana Reactor,12 SP,N/A
 Spiritual and Divine Powers (Original),Soulbond,5 SP,N/A
 Spiritual and Divine Powers (Original),Fragmented Divinity,12 SP,N/A
 Spiritual and Divine Powers (Original),Eternal Flame,40 SP,N/A
@@ -1996,6 +2004,8 @@ Technology and Artifice Powers (Original),Techno-plagiarism,7 SP,N/A
 Technology and Artifice Powers (Original),Techno-Savant,20 SP,N/A
 Technology and Artifice Powers (Original),Magical Girl Creation Kit,20 SP,N/A
 Technology and Artifice Powers (Original),Ishara Technician,25 SP,N/A
+Technology and Artifice Powers (Original),Heroes Legacy,15 SP,N/A
+Technology and Artifice Powers (Original),"""Your Name""-nium.",2 SP,N/A
 Ascension Path,Dragon,30 SP,N/A
 Ascension Path,Fae,10 SP,N/A
 Ascension Path,Vampire Lord,15 SP,N/A
@@ -2158,6 +2168,7 @@ Foundation Powers,Rooting In,5 SP,N/A
 Foundation Powers,Spreading Out,5 SP,N/A
 Foundation Powers,This Isn't Even My Final Form?,15 SP,N/A
 Foundation Powers,Debuff Stacking,3 SP,N/A
+Foundation Powers,Battle-Show Entertainer,5 SP,N/A
 Foundation Powers,"D.A.G. (Devour, Assimilate, Gift)",15 SP,N/A
 Foundation Powers,Sovereign of Alchemy,25 SP,N/A
 Foundation Powers,Character Sheet (D&D/Pathfinder),10 SP| 3 SP,N/A
@@ -2327,6 +2338,7 @@ Paragon Powers,Celestial Inventory,120 SP,N/A
 Paragon Powers,Summoner's Sanctuary,120 SP,N/A
 Miscellaneous Objects of Power,An Ordinary Rock,5 SP,N/A
 Miscellaneous Objects of Power,Black Card,7 SP,N/A
+Miscellaneous Objects of Power,Chainsmoker,1 SP,N/A
 Miscellaneous Objects of Power,Conversion Token Generator,15 SP,N/A
 Miscellaneous Objects of Power,Dalilah's Razor,5 SP,N/A
 Miscellaneous Objects of Power,Dimensional Cage,35 SP,N/A
@@ -2347,6 +2359,7 @@ Miscellaneous Objects of Power,Thirty Pieces of Silver,25 SP,N/A
 Miscellaneous Objects of Power,Treasury,10 SP| 5 SP,N/A
 Miscellaneous Objects of Power,Upgrade Token,1 SP,N/A
 Miscellaneous Objects of Power,Comfy Bed,4 SP,N/A
+Miscellaneous Objects of Power,Manifold Briefcase,3 SP,N/A
 Miscellaneous Objects of Power,Teigu (Akame ga Kill!),15 SP,N/A
 Miscellaneous Objects of Power,Behelit (Berserk),10 SP,N/A
 Miscellaneous Objects of Power,Urahara's Stash (Bleach),10 SP,N/A
@@ -2378,6 +2391,7 @@ Miscellaneous Objects of Power,The Key of Kings (Kill Six Billion Demons),20 SP,
 Miscellaneous Objects of Power,Seeds of the Resurrection Plant (Kingdom),5 SP,N/A
 Miscellaneous Objects of Power,Hexcore (League of Legends),12 SP,N/A
 Miscellaneous Objects of Power,Evolution Cube (Legendary Mechanic),15 SP,N/A
+Miscellaneous Objects of Power,Mithril Smithing Hammer (Lord of the Rings),6 SP,N/A
 Miscellaneous Objects of Power,Limited Edition Symbol Fumo (Magical Girl ☆Sym-tan☆),1 SP,N/A
 Miscellaneous Objects of Power,The Chair (Magical Girl ☆Sym-tan☆),55 SP,N/A
 Miscellaneous Objects of Power,The Martial God Space (Martial God Space),25 SP,N/A
