@@ -503,6 +503,7 @@ Tier 1 - Tinker,(Tinker) Murder,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Workout,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Subterranean,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Avatar,6 SP| 2 SP,N/A
+Tier 1 - Tinker,(Tinker/Trump) Can I Copy Your Homework?,6 SP| 2 SP,N/A
 Tier 1 - Tinker,(Tinker) Guns,7 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Mechanics,7 SP| 3 SP,N/A
 Tier 1 - Tinker,(Tinker) Gravity,7 SP| 3 SP,N/A
@@ -657,6 +658,7 @@ Tier 1 - Blaster,(Blaster/Brute) Infernal Orifices,8 SP,N/A
 Tier 1 - Blaster,(Blaster) Charging Beam,9 SP,N/A
 Tier 1 - Blaster,(Blaster) Charged Beam,9 SP,N/A
 Tier 1 - Blaster,(Blaster/Mover) Cannoneer,9 SP,N/A
+Tier 1 - Blaster,(Blaster/Trump) Chicken Huntin',9 SP,N/A
 Tier 1 - Blaster,(Blaster) Solar,10 SP,N/A
 Tier 1 - Blaster,(Blaster/Brute) Icy Protection,10 SP,N/A
 Tier 1 - Blaster,(Blaster/Shaker) Roadless Camelot,10 SP,N/A
@@ -686,6 +688,7 @@ Tier 1 - Blaster,(Blaster/Trump) Still Blast,15 SP,N/A
 Tier 1 - Blaster,(Blaster) Laser Bullets,15 SP,N/A
 Tier 1 - Blaster,(Blaster/Shaker) Railgun,15 SP,N/A
 Tier 1 - Thinker,(Thinker) New Personal Record,1 SP,N/A
+Tier 1 - Thinker,(Thinker/Trump) Utterly Irrelevant,1 SP,N/A
 Tier 1 - Thinker,(Thinker/Mover) SUPER HOT,2 SP,N/A
 Tier 1 - Thinker,(Thinker) X-Ray and Vav,2 SP,N/A
 Tier 1 - Thinker,(Thinker) Primal Perception,2 SP,N/A
@@ -796,6 +799,7 @@ Tier 1 - Striker,(Striker) Blade Hands,2 SP,N/A
 Tier 1 - Striker,(Striker/Trump) Critical Hit!,2 SP,N/A
 Tier 1 - Striker,(Striker) Swapped Palms,2 SP,N/A
 Tier 1 - Striker,(Striker/Blaster) Striker,2 SP,N/A
+Tier 1 - Striker,(Striker) Thousand-Yard Stare,2 SP,N/A
 Tier 1 - Striker,(Striker/Shaker) Hardlight,3 SP,N/A
 Tier 1 - Striker,(Striker) Divergent Fist,3 SP,N/A
 Tier 1 - Striker,(Striker/Shaker) Cleanse,3 SP,N/A
@@ -894,6 +898,7 @@ Tier 1 - Changer,(Changer) Wolverine,1 SP,N/A
 Tier 1 - Changer,(Changer) Take a Bite,1 SP,N/A
 Tier 1 - Changer,(Changer) Headcase(53),1 SP,N/A
 Tier 1 - Changer,(Changer) Beauty,2 SP,N/A
+Tier 1 - Changer,(Changer) Ideal Self,2 SP,N/A
 Tier 1 - Changer,(Changer) Mouthful,2 SP,N/A
 Tier 1 - Changer,(Changer) Itsuka Kendo,2 SP,N/A
 Tier 1 - Changer,(Changer) Deviant,2 SP,N/A
@@ -1072,6 +1077,7 @@ Tier 1 - Trump,(Trump/Brute) Looks Matter,15 SP,N/A
 Tier 1 - Trump,(Trump) Variant Copier,15 SP,N/A
 Tier 1 - Trump,(Trump/Brute) Selfish Love,15 SP,N/A
 Tier 1 - Trump,(Trump/Striker) Forced Activation,15 SP,N/A
+Tier 1 - Trump,(Trump) Balarama,15 SP,N/A
 Tier 1 - Stranger,(Stranger) Off Record,1 SP,N/A
 Tier 1 - Stranger,(Stranger) The Words Are Silent,1 SP,N/A
 Tier 1 - Stranger,(Stranger/Shaker) Inviolable Shadows,1 SP,N/A
@@ -1359,6 +1365,7 @@ Tier 3 Powers,(Trump) Iconoclast,35 SP,N/A
 Tier 3 Powers,(Trump/Brute) Resurrective Trigger,30 SP,N/A
 Tier 3 Powers,(Stranger/Master) Masquerade,25 SP,N/A
 Tier 3 Powers,(Trump/Thinker) Animus,25 SP,N/A
+Tier 3 Powers,(Shaker/Trump) Blue Shift,40 SP,N/A
 Shard Upgrades & Fusions,Tier 0 Upgrades,,N/A
 Shard Upgrades & Fusions,Tier 1 Upgrades,,N/A
 Shard Upgrades & Fusions,Tier 2 Upgrades,,N/A
@@ -1683,7 +1690,7 @@ Mental and Psychic Powers (Original),The Wise Horse,3 SP,N/A
 Mental and Psychic Powers (Original),"Leo, the Dazzling Lion",7 SP,N/A
 Mental and Psychic Powers (Original),"Libra, the Negotiator",7 SP,N/A
 Mental and Psychic Powers (Original),"Sagittarius, the Well-Traveled Traveller",7 SP,N/A
-Mental and Psychic Powers (Original),"Capricorn, Ambition of the Years",7 SP,N/A
+Mental and Psychic Powers (Original),"Capricorn, the Ambition of the Years",7 SP,N/A
 Mental and Psychic Powers (Original),To Abandon Inferiority,3 SP,N/A
 Mental and Psychic Powers (Original),Three Wise Monkeys,10 SP,N/A
 Mental and Psychic Powers (Original),Palpatine's Guide to Statecraft,5 SP,N/A
@@ -1714,6 +1721,9 @@ Mental and Psychic Powers (Original),Talent Check,2 SP,N/A
 Mental and Psychic Powers (Original),Dragon Tamer,15 SP,N/A
 Mental and Psychic Powers (Original),The Ultimate Goon,10 SP,N/A
 Mental and Psychic Powers (Original),Generic Pulp Hero,7 SP,N/A
+Mental and Psychic Powers (Original),Gaze Sense,2 SP,N/A
+Mental and Psychic Powers (Original),I Just Want to Pilot Cool Machines,3 SP,N/A
+Mental and Psychic Powers (Original),Petrichor Stained Destiny,3 SP,N/A
 Magic and Mystic Powers (Original),Magik,5 SP,N/A
 Magic and Mystic Powers (Original),Mystic Eyes of Fantasy,30 SP,N/A
 Magic and Mystic Powers (Original),Spin the Gacha,30 SP,N/A
@@ -1923,7 +1933,7 @@ Spiritual and Divine Powers (Original),Gilded Right Hand,7 SP,N/A
 Spiritual and Divine Powers (Original),Soul of Royalty,15 SP,N/A
 Spiritual and Divine Powers (Original),"Gemini, the Ghost Twins",7 SP,N/A
 Spiritual and Divine Powers (Original),"Cancer, the Bonds of Home",7 SP,N/A
-Spiritual and Divine Powers (Original),"Virgo, Carrier of Unbreaking Grace",7 SP,N/A
+Spiritual and Divine Powers (Original),"Virgo, the Carrier of Unbreaking Grace",7 SP,N/A
 Spiritual and Divine Powers (Original),Small Gods,12 SP,N/A
 Spiritual and Divine Powers (Original),Ensouled,3 SP,N/A
 Spiritual and Divine Powers (Original),Filled Intent,3 SP,N/A
@@ -1955,6 +1965,9 @@ Spiritual and Divine Powers (Original),The Black Parade,16 SP,N/A
 Spiritual and Divine Powers (Original),Impure Resurrection,20 SP,N/A
 Spiritual and Divine Powers (Original),Garden of Avalon,20 SP,N/A
 Spiritual and Divine Powers (Original),Tower Lost in Time,20 SP,N/A
+Spiritual and Divine Powers (Original),Evil Eye of the Heart,8 SP,N/A
+Spiritual and Divine Powers (Original),Evil Eye of Finality,4 SP,N/A
+Spiritual and Divine Powers (Original),Spiritual Singularity,20 SP,N/A
 Technology and Artifice Powers (Original),Magitech,5 SP,N/A
 Technology and Artifice Powers (Original),Psitech,5 SP,N/A
 Technology and Artifice Powers (Original),Biotech,5 SP,N/A
@@ -2006,6 +2019,7 @@ Technology and Artifice Powers (Original),Magical Girl Creation Kit,20 SP,N/A
 Technology and Artifice Powers (Original),Ishara Technician,25 SP,N/A
 Technology and Artifice Powers (Original),Heroes Legacy,15 SP,N/A
 Technology and Artifice Powers (Original),"""Your Name""-nium.",2 SP,N/A
+Technology and Artifice Powers (Original),Fun-gineering,25 SP,N/A
 Ascension Path,Dragon,30 SP,N/A
 Ascension Path,Fae,10 SP,N/A
 Ascension Path,Vampire Lord,15 SP,N/A
@@ -2145,7 +2159,7 @@ Foundation Powers,Roulette,2 SP,N/A
 Foundation Powers,Domain Expansion,15 SP,N/A
 Foundation Powers,I Smile As I Crush My Own Heart,5 SP,N/A
 Foundation Powers,Charms,10 SP,N/A
-Foundation Powers,"Aquarius, Friends We Made Along The Way",7 SP,N/A
+Foundation Powers,"Aquarius, the Friends We Made Along The Way",7 SP,N/A
 Foundation Powers,"Pisces, the Dream of Perfection",7 SP,N/A
 Foundation Powers,Hermit’s Home,2 SP,N/A
 Foundation Powers,Potential Energy,20 SP,N/A
@@ -2193,11 +2207,12 @@ Foundation Powers,Can't You Complicate It? (Magical Girl ☆Sym-tan☆),50 SP,N/
 Foundation Powers,Heroic Containers (Legend of Zelda),5 SP,N/A
 Foundation Powers,Leader (Magical Girls also have Strength Anxiety),10 SP,N/A
 Foundation Powers,Shining Magical Girl (Magical Girl Has Been Exposed),10 SP,N/A
-Foundation Powers,Player (Overlord),10 SP,N/A
+Foundation Powers,Player (Overlord),10 SP| 0 SP,N/A
 Foundation Powers,Empowered by the People (Kizoku Tensei),5 SP,N/A
 Foundation Powers,Mark of the Fool (Mark of the Fool),7 SP,N/A
 Foundation Powers,Vanguard (Stray Cat Strut),25 SP,N/A
 Foundation Powers,Grand Design of Isthekenous (The Wandering Inn),12 SP,N/A
+Foundation Powers,Is This Triggering For You?,15 SP,N/A
 Keystone Powers,Path of the Worldwalker,,Required: g51j
 Keystone Powers,World-Walker,25 SP,N/A
 Keystone Powers,Elder World-Walker,35 SP,Required: World-Walker
@@ -2339,6 +2354,7 @@ Paragon Powers,Summoner's Sanctuary,120 SP,N/A
 Miscellaneous Objects of Power,An Ordinary Rock,5 SP,N/A
 Miscellaneous Objects of Power,Black Card,7 SP,N/A
 Miscellaneous Objects of Power,Chainsmoker,1 SP,N/A
+Miscellaneous Objects of Power,Comfy Bed,4 SP,N/A
 Miscellaneous Objects of Power,Conversion Token Generator,15 SP,N/A
 Miscellaneous Objects of Power,Dalilah's Razor,5 SP,N/A
 Miscellaneous Objects of Power,Dimensional Cage,35 SP,N/A
@@ -2349,17 +2365,17 @@ Miscellaneous Objects of Power,Get Out Of Jail Free Card,5 SP,N/A
 Miscellaneous Objects of Power,Heart of a Tattletale,7 SP,N/A
 Miscellaneous Objects of Power,Homunculus,5 SP,N/A
 Miscellaneous Objects of Power,License to ____,10 SP,N/A
+Miscellaneous Objects of Power,Manifold Briefcase,3 SP,N/A
 Miscellaneous Objects of Power,Mystery Box,5 SP,N/A
 Miscellaneous Objects of Power,Nyxora Sentis “Mindbloom”,3 SP,N/A
 Miscellaneous Objects of Power,Object(s) of Power,5 SP,N/A
 Miscellaneous Objects of Power,One Human Soul,1 SP,N/A
+Miscellaneous Objects of Power,Promise Ring Crate,3 SP,N/A
 Miscellaneous Objects of Power,Sir Lull's Little Music Box,5 SP,N/A
 Miscellaneous Objects of Power,The Blessed Cow Herd,5 SP,N/A
 Miscellaneous Objects of Power,Thirty Pieces of Silver,25 SP,N/A
 Miscellaneous Objects of Power,Treasury,10 SP| 5 SP,N/A
 Miscellaneous Objects of Power,Upgrade Token,1 SP,N/A
-Miscellaneous Objects of Power,Comfy Bed,4 SP,N/A
-Miscellaneous Objects of Power,Manifold Briefcase,3 SP,N/A
 Miscellaneous Objects of Power,Teigu (Akame ga Kill!),15 SP,N/A
 Miscellaneous Objects of Power,Behelit (Berserk),10 SP,N/A
 Miscellaneous Objects of Power,Urahara's Stash (Bleach),10 SP,N/A
